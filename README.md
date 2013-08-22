@@ -13,3 +13,31 @@ It provides the following functions.
   System level verification : Will do the check, including an interrupt. The tool will generate test vectors for that.
   
   
+You need the following tools in order to use this system.
+---
+[binutils-mist32](https://github.com/techno/binutils-mist32)
+
+
+Instructions used in the test vectors(Instruction level verification).
+---
+  cmp
+
+  wl16
+  
+  wh16
+  
+  xor
+  
+  movepc
+  
+  b
+  
+  br
+  
+  srspw
+  
+  ld32
+  
+  st32
+  
+  
