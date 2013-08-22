@@ -41,3 +41,18 @@ Instructions used in the test vectors(Instruction level verification).
   st32
   
   
+Licence
+---
+  BSD 2-Clause License
+  
+  See ./LICENSE
+
+Contact
+---
+  Takahiro Ito
+  
+  Twitter : (@cpu_labs)
+  
+  Website : [Open Design Computer Project](http://open-arch.org) or [CPU-Labs](http://cpu-labs.com)
+  
+
