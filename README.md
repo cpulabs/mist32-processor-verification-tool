@@ -6,11 +6,13 @@ Open Design Computer Project - [http://open-arch.org/](http://open-arch.org/)
 
 It provides the following functions.
 ---
+  Test data generator : Generate a random data and corner cases.
+
   Instruction level verification : Make sure that the individual instruction to work properly. The tool will generate test vectors for that.
   
-  Function level verification : Verify that it works correctly in the order of different instructions. The tool will generate test vectors for that.
+  (coming soon!) Function level verification : Verify that it works correctly in the order of different instructions. The tool will generate test vectors for that.
   
-  System level verification : Will do the check, including an interrupt. The tool will generate test vectors for that.
+  (coming soon!) System level verification : Will do the check, including an interrupt. The tool will generate test vectors for that.
   
   
 You need the following tools in order to use this system.
@@ -21,10 +23,14 @@ You need the following tools in order to use this system.
 Instructions used in the test vectors(Instruction level verification).
 ---
   cmp
+  
+  xor
 
   wl16
   
   wh16
+  
+  lil
   
   xor
   
