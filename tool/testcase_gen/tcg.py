@@ -4,7 +4,7 @@ import random;
 array_src0 = [];
 array_src1 = [];
 array_expect = [];
-operate_list = ["add", "sub", "mull", "mulh", "div", "udiv", "mod", "umod", "max", "min", "and", "or", "xor"]
+operate_list = ["add", "sub", "mull", "mulh", "div", "udiv", "mod", "umod", "neg", "max", "min", "and", "or", "xor"]
 div_list = ["div", "udiv", "mod", "umod"];
 
 
@@ -39,28 +39,53 @@ def gen_expect_mull(src0, src1):
 def gen_expect_mulh(src0, src1):
 	return ((src0*src1) >> 32) & 0xFFFFFFFF;
 
-def gen_expect_div(src0, src1):
-	result = src0/src1;
-	if((src0 >> 31) & 0x1 or (src1 >> 31) & 0x1):
-		result = result | 0x80000000;
-	else:
-		result = result & 0xffffffff;
+def gen_expect_div(src0, src1, debug):
+	tmp0 = src0;
+	tmp1 = src1;
+
+	if(src0 >> 31):
+		src0 = -((~src0)+1);
+	if(src1 >> 31):
+		src1 = -((~src1)+1);
+	result = 0xffffffff & (src0/src1);
+	
+	if(debug):
+		print(src0 >> 31, src1 >> 31);
+		print("src0 -> ", tmp0, "src1 -> ", tmp1, "result -> ", result);
+	
+
 	return result;
+
 
 def gen_expect_udiv(src0, src1):
 	#print(str(src0) + ", " + str(src1));
 	return (src0/src1) & 0xFFFFFFFF;
 
+"""
 def gen_expect_mod(src0, src1):
 	result = src0%src1;
-	if((src0 >> 31) & 0x1 or (src1 >> 31) & 0x1):
-		result = result | 0x80000000;
+	if((src0 >> 31) ^ (src1 >> 31)):
+		result = (~result + 1) & 0xffffffff;#result = result | 0x80000000;
 	else:
 		result = result & 0xffffffff;
 	return result;
+"""
+def gen_expect_mod(src0, src1):
+	if(src0 >> 31):
+		src0 = -((~src0)+1);
+	if(src1 >> 31):
+		src1 = -((~src1)+1);
+	result = 0xffffffff & (src0%src1);
+
+	return result;
+
+
 
 def gen_expect_umod(src0, src1):
 	return (src0%src1) & 0xFFFFFFFF;
+
+def gen_expect_neg(src1):
+	return ((~src1) + 1) & 0xFFFFFFFF;
 
 def gen_expect_max(src0, src1):
 	if(src0 > src1):
@@ -99,7 +124,7 @@ def gen_expect_data(bit, sig_extend, operate):
 		#Sign Extend
 		src1_imm = array_src1[cnt];
 		if(sig_extend == "1"):
-			src1_imm = sign_extend(int(bit), src1_imm);
+			src1_imm = sign_extend(int(bit), src1_imm);		
 		#Operation
 		if(operate == "add"):
 			array_expect.append(gen_expect_add(array_src0[cnt], src1_imm));
@@ -109,14 +134,20 @@ def gen_expect_data(bit, sig_extend, operate):
 			array_expect.append(gen_expect_mull(array_src0[cnt], src1_imm));
 		elif(operate == "mulh"):
 			array_expect.append(gen_expect_mulh(array_src0[cnt], src1_imm));
+		elif(operate == "umull"):
+			array_expect.append(gen_expect_mull(array_src0[cnt], src1_imm));
+		elif(operate == "umulh"):
+			array_expect.append(gen_expect_mulh(array_src0[cnt], src1_imm));
 		elif(operate == "div"):
-			array_expect.append(gen_expect_div(array_src0[cnt], src1_imm));
+			array_expect.append(gen_expect_div(array_src0[cnt], src1_imm, cnt == 1024));
 		elif(operate == "udiv"):
 			array_expect.append(gen_expect_udiv(array_src0[cnt], src1_imm));
 		elif(operate == "mod"):
 			array_expect.append(gen_expect_mod(array_src0[cnt], src1_imm));
 		elif(operate == "umod"):
 			array_expect.append(gen_expect_umod(array_src0[cnt], src1_imm));
+		elif(operate == "neg"):
+			array_expect.append(gen_expect_neg(array_src1[cnt]));
 		elif(operate == "max"):
 			array_expect.append(gen_expect_max(array_src0[cnt], src1_imm));
 		elif(operate == "min"):
@@ -220,7 +251,7 @@ if __name__ == "__main__":
 		print("#argv[1]=bit");
 		print("#argv[2]=Sign Extend : 0=no extend, 1=extend");
 		print("#argv[3]=Random : 0~");
-		print("#argv[4]=ExpectType{add, sub, mull, mulh, div, udiv, mod, umod, max, min, and, or, xor}");
+		print("#argv[4]=ExpectType{add, sub, mull, mulh, div, udiv, mod, umod, neg, max, min, and, or, xor}");
 		print("#argv[5]=Log Output name");
 		sys.exit();
 

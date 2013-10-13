@@ -3698,6 +3698,7 @@ check:
 	;Initial
 	;***********************************
 	xor		r2, r2
+	xor		r3, r3
 	;***********************************
 	;Check - O2
 	;***********************************
@@ -4826,6 +4827,7 @@ check:
 	;Check - I11
 	;***********************************
 	xor		r2, r2
+	add		r3, 1
 	check_imm11_format T_IMM_DST0, 0, T_IMM_EXPECT0
 	check_imm11_format T_IMM_DST1, 1, T_IMM_EXPECT1
 	check_imm11_format T_IMM_DST2, 2, T_IMM_EXPECT2

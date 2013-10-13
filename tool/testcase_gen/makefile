@@ -1,4 +1,4 @@
-default: gen_operand_testdata gen_imm_testdata
+default: gen_operand_testdata gen_imm_testdata cp_instlevel
 
 gen_operand_testdata:
 	python tcg.py 32 0 0 add testcase/add_o2
@@ -10,9 +10,10 @@ gen_operand_testdata:
 	#cmp
 	python tcg.py 32 0 0 div testcase/div_o2	
 	python tcg.py 32 0 0 mod testcase/mod_o2
-	#neg
-	#umull
-	#umulh
+	python tcg.py 32 0 0 neg testcase/neg_o2
+	python tcg.py 32 0 0 mull testcase/umull_o2
+	python tcg.py 32 0 0 mulh testcase/umulh_o2
+
 
 
 gen_imm_testdata:
@@ -25,9 +26,12 @@ gen_imm_testdata:
 	#cmp
 	python tcg.py 11 1 0 div testcase/div_i11
 	python tcg.py 11 1 0 mod testcase/mod_i11
-	#neg
-	#umull
-	#umulh
+	python tcg.py 11 0 0 mull testcase/umull_i11
+	python tcg.py 11 0 0 mulh testcase/umulh_i11
+
+cp_instlevel:
+	rm ../inst-level/asmsrc/*.*
+	cp -r testcase/. ../inst-level/asmsrc/
 
 
 	

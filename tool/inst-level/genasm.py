@@ -98,6 +98,7 @@ if __name__ == "__main__":
 	inst_sec = inst_sec + "\t;Initial\n";
 	inst_sec = inst_sec + "\t;***********************************\n";
 	inst_sec = inst_sec + "\txor\t\tr2, r2\n";
+	inst_sec = inst_sec + "\txor\t\tr3, r3\n";
 	#Check O2
 	inst_sec = inst_sec + "\t;***********************************\n";
 	inst_sec = inst_sec + "\t;Check - O2\n";
@@ -114,6 +115,7 @@ if __name__ == "__main__":
 	inst_sec = inst_sec + "\t;Check - I11\n";
 	inst_sec = inst_sec + "\t;***********************************\n";
 	inst_sec = inst_sec + "\txor\t\tr2, r2\n";
+	inst_sec = inst_sec + "\tadd\t\tr3, 1\n";
 	#O2 Macro
 	cnt = 0;
 	if(sys.argv[1] == "i11" or sys.argv[1] == "o2i11"):
