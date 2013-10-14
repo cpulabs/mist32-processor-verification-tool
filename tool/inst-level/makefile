@@ -49,7 +49,9 @@ gen_asm:
 		asmsrc/umulh_i11.expect.txt asmsrc/umulh_i11.src0.txt asmsrc/umulh_i11.src1.txt > asm/umulh.s
 
 
-
+	python genasm.py o2\
+		asmsrc/ld8_o2.expect.txt asmsrc/ld8_o2.src0.txt asmsrc/ld8_o2.src1.txt\
+		0 0 0 > asm/ld8.s 																	#need test for i11
 
 all_make:
 	rm -rf out

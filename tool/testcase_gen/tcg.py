@@ -4,7 +4,7 @@ import random;
 array_src0 = [];
 array_src1 = [];
 array_expect = [];
-operate_list = ["add", "sub", "mull", "mulh", "div", "udiv", "mod", "umod", "neg", "max", "min", "and", "or", "xor"]
+operate_list = ["add", "sub", "mull", "mulh", "div", "udiv", "mod", "umod", "neg", "max", "min", "and", "or", "xor", "hi16", "lo16", "hihi8", "hilo8", "loho8", "lolo8"]
 div_list = ["div", "udiv", "mod", "umod"];
 
 
@@ -108,6 +108,26 @@ def gen_expect_or(src0, src1):
 def gen_expect_xor(src0, src1):
 	return src0 ^ src1;
 
+def gen_expect_hi16(src1):
+	return (src1 >> 16) & 0xffffffff;
+
+def gen_expect_lo16(src1):
+	return src1 & 0x0000ffff;
+	
+def gen_expect_hihi8(src1):
+	return (src1 >> 24) & 0x000000ff;
+
+def gen_expect_hilo8(src1):
+	return (src1 >> 16) & 0x000000ff;
+
+def gen_expect_lohi8(src1):
+	return (src1 >> 8) & 0x000000ff;
+
+def gen_expect_lolo8(src1):
+	return src1 & 0x000000ff;
+
+
+
 def sign_extend(bit, src_imm):
 	sign = src_imm >> (bit-1);
 	result = src_imm;
@@ -158,6 +178,23 @@ def gen_expect_data(bit, sig_extend, operate):
 			array_expect.append(gen_expect_or(array_src0[cnt], src1_imm));
 		elif(operate == "xor"):
 			array_expect.append(gen_expect_xor(array_src0[cnt], src1_imm));
+
+		elif(operate == "hi16"):
+			array_expect.append(gen_expect_hi16(src1_imm));
+		elif(operate == "lo16"):
+			array_expect.append(gen_expect_lo16(src1_imm));
+			
+		elif(operate == "hihi8"):
+			array_expect.append(gen_expect_hihi8(src1_imm));
+		elif(operate == "hilo8"):
+			array_expect.append(gen_expect_hilo8(src1_imm));
+		elif(operate == "lohi8"):
+			array_expect.append(gen_expect_lohi8(src1_imm));
+		elif(operate == "lolo8"):
+			array_expect.append(gen_expect_lolo8(src1_imm));
+
+
+
 		else:
 			array_expect.append(0);
 		cnt = cnt + 1;
@@ -251,7 +288,7 @@ if __name__ == "__main__":
 		print("#argv[1]=bit");
 		print("#argv[2]=Sign Extend : 0=no extend, 1=extend");
 		print("#argv[3]=Random : 0~");
-		print("#argv[4]=ExpectType{add, sub, mull, mulh, div, udiv, mod, umod, neg, max, min, and, or, xor}");
+		print("#argv[4]=ExpectType{add, sub, mull, mulh, div, udiv, mod, umod, neg, max, min, and, or, xor, hi16, lo16, hihi8, hilo8, loho8, lolo8}");
 		print("#argv[5]=Log Output name");
 		sys.exit();
 
