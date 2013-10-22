@@ -7,7 +7,7 @@ make_list = [];
 
 def listup():
 	global make_list;
-	make_list = glob.glob("./asm/*_macro.s");
+	make_list = glob.glob("./asm/macro/*_macro.s");
 	
 	print("File : " + str(len(make_list)));
 
@@ -19,7 +19,7 @@ if __name__ == "__main__":
 		fname = fname.replace(".s", "");
 		fname = fname.replace("_macro", "");
 		#Assemble
-		cmd = "mist32-elf-as -o out/" + fname + ".o " + "com/start.s ./asm/" + fname + "_macro.s " + "./asm/" + fname + ".s";		
+		cmd = "mist32-elf-as -o out/" + fname + ".o " + "com/start.s ./asm/macro/" + fname + "_macro.s " + "./asm/" + fname + ".s";		
 		subprocess.call(cmd, shell=True);
 		#Linker
 		cmd = "mist32-elf-ld -Tcom/linker_script.ld -o out/" + fname + ".out out/" + fname + ".o"

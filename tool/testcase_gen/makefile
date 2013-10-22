@@ -15,6 +15,8 @@ gen_operand_testdata:
 	python tcg.py 32 0 0 mulh testcase/umulh_o2
 
 
+	#python tcg.py 32 0 0 add testcase/add_o2
+
 
 	python tcg.py 32 0 0 hihi8 testcase/ld8_o2
 
