@@ -9,8 +9,14 @@ It provides the following functions.
   Test data generator : Generate a random data and corner cases.
 
   Instruction level verification : Make sure that the individual instruction to work properly. The tool will generate test vectors for that.
+
+    For any instructions
+
+  Function level verification : Verify that it works correctly in the order of different instructions. The tool will generate test vectors for that.
   
-  (coming soon!) Function level verification : Verify that it works correctly in the order of different instructions. The tool will generate test vectors for that.
+    Branch predictor check
+	
+	Fowarding check
   
   (coming soon!) System level verification : Will do the check, including an interrupt. The tool will generate test vectors for that.
   

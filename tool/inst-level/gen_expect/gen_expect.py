@@ -46,13 +46,25 @@ def gen_expect_data(operate):
 		elif(operate == "max"):
 			globl_expect.append(instruction.gen_expect_max(globl_src0[cnt], globl_src1[cnt]));
 		elif(operate == "min"):
-			globl_expect.append(instruction.gen_expect_min(globl_src0[cnt], globl_src1[cnt]));	
+			globl_expect.append(instruction.gen_expect_min(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "umax"):
+			globl_expect.append(instruction.gen_expect_umax(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "umin"):
+			globl_expect.append(instruction.gen_expect_umin(globl_src0[cnt], globl_src1[cnt]));	
 		elif(operate == "and"):
 			globl_expect.append(instruction.gen_expect_and(globl_src0[cnt], globl_src1[cnt]));
 		elif(operate == "or"):
 			globl_expect.append(instruction.gen_expect_or(globl_src0[cnt], globl_src1[cnt]));
 		elif(operate == "xor"):
 			globl_expect.append(instruction.gen_expect_xor(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "not"):
+			globl_expect.append(instruction.gen_expect_not(globl_src0[cnt]));
+		elif(operate == "nand"):
+			globl_expect.append(instruction.gen_expect_nand(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "nor"):
+			globl_expect.append(instruction.gen_expect_nor(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "xnor"):
+			globl_expect.append(instruction.gen_expect_xnor(globl_src0[cnt], globl_src1[cnt]));
 		elif(operate == "hi16"):
 			globl_expect.append(instruction.gen_expect_hi16(globl_src0[cnt]));
 		elif(operate == "lo16"):
@@ -73,9 +85,22 @@ def gen_expect_data(operate):
 			globl_expect.append(instruction.gen_expect_rev_byte(globl_src0[cnt]));
 		elif(operate == "revb"):
 			globl_expect.append(instruction.gen_expect_rev_bit(globl_src0[cnt]));
-			
+		elif(operate == "shl"):
+			globl_expect.append(instruction.gen_expect_shl(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "shr"):
+			globl_expect.append(instruction.gen_expect_shr(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "sal"):
+			globl_expect.append(instruction.gen_expect_sal(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "sar"):
+			globl_expect.append(instruction.gen_expect_sar(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "rol"):
+			globl_expect.append(instruction.gen_expect_rol(globl_src0[cnt], globl_src1[cnt]));
+		elif(operate == "ror"):
+			globl_expect.append(instruction.gen_expect_ror(globl_src0[cnt], globl_src1[cnt]));
+		
 		else:
 			globl_expect.append(0);
+			print("Error Command");
 
 
 
@@ -147,6 +172,29 @@ def save_expect(save_name):
 		fh.write(str(globl_expect[cnt]) + "\n");
 	fh.close();
 
+def print_info(count, sep):
+	if(sep == 1):
+		print("\nSource0");
+		for cnt in range(len(globl_src0)):
+			print(str(cnt) + " : " + str(globl_src0[cnt]));
+
+		print("\nSource1");
+		for cnt in range(len(globl_src1)):
+			print(str(cnt) + " : " + str(globl_src1[cnt]));
+
+		print("\nExpect");
+		for cnt in range(len(globl_expect)):
+			print(str(cnt) + " : " + str(globl_expect[cnt]));
+	else:
+		print("\nExpect, Source0, Source1");
+		#print(len(globl_expect), len(globl_src0), len(globl_src1))
+
+		for cnt in range(len(globl_src0)):
+			if(count == 2):
+				print(str(cnt) + " : " + str(globl_expect[cnt]) + ", " + str(globl_src0[cnt]) + ", " + str(globl_src1[cnt]));
+			else:
+				print(str(cnt) + " : " + str(globl_expect[cnt]) + ", " + str(globl_src0[cnt]));
+
 
 if __name__ == "__main__":
 	#gen_coner_testor(0, 32);
@@ -158,7 +206,7 @@ if __name__ == "__main__":
 		print("#argv[3]=Sign Extend : 0=no extend, 1=extend");
 		print("#argv[4]=bit");
 		print("#argv[5]=Sign Extend : 0=no extend, 1=extend");
-		print("#argv[6]=Operate Type{add, sub, mull, mulh, div, udiv, mod, umod, neg, max, min, and, or, xor, hi16, lo16, hihi8, hilo8, loho8, lolo8}");
+		print("#argv[6]=Operate Type{add, sub, mull, mulh, div, udiv, mod, umod, neg, max, min, umax, umin, and, or, xor, nand, nor, xnor, hi16, lo16, hihi8, hilo8, loho8, lolo8, shl, shr, sal, sar, rol, ror}");
 		print("#argv[7]=Source0 file name");
 		print("#argv[8]=Source1 file name");
 		print("#argv[9]=Log Output name");
@@ -192,6 +240,7 @@ if __name__ == "__main__":
 	#save expect
 	save_expect(argv_d9);
 
+	print_info(argv_d1, 0);
 
 	print("done");
 

@@ -5,6 +5,8 @@ gen_src:
 	python gen_cornercase.py 11 0 0 testcase/default_i11
 	python gen_cornercase.py 32 0 1 testcase/div_o2
 	python gen_cornercase.py 11 0 1 testcase/div_i11
+	python gen_cornercase.py 6 0 0 testcase/shift_o2
+	python gen_cornercase.py 6 0 0 testcase/shift_i11
 
 
 

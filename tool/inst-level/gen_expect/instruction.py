@@ -8,9 +8,6 @@ def gen_expect_sub(src0, src1):
 def gen_expect_mull(src0, src1):
 	return (src0*src1) & 0xFFFFFFFF;
 
-
-
-
 def gen_expect_mulh(src0, src1):
 	return ((src0*src1) >> 32) & 0xFFFFFFFF;
 
@@ -46,25 +43,50 @@ def gen_expect_neg(src1):
 	return ((~src1) + 1) & 0xFFFFFFFF;
 
 def gen_expect_max(src0, src1):
-	if(src0 > src1):
-		return src0;
+	if(gen_expect_neg(src0) > gen_expect_neg(src1)):
+		return src1 & 0xFFFFFFFF;
 	else:
-		return src1;
+		return src0 & 0xFFFFFFFF;
 
 def gen_expect_min(src0, src1):
-	if(src0 > src1):
-		return src1;
+	if(gen_expect_neg(src0) > gen_expect_neg(src1)):
+		return src0 & 0xFFFFFFFF;
 	else:
-		return src0;
+		return src1 & 0xFFFFFFFF;
+
+def gen_expect_umax(src0, src1):
+	if(src0 > src1):
+		return src0 & 0xFFFFFFFF;
+	else:
+		return src1 & 0xFFFFFFFF;
+
+def gen_expect_umin(src0, src1):
+	if(src0 > src1):
+		return src1 & 0xFFFFFFFF;
+	else:
+		return src0 & 0xFFFFFFFF;
 
 def gen_expect_and(src0, src1):
-	return src0 & src1;
+	return (src0 & src1) & 0xFFFFFFFF;
 
 def gen_expect_or(src0, src1):
-	return src0 | src1;
+	return (src0 | src1) & 0xFFFFFFFF;
 
 def gen_expect_xor(src0, src1):
-	return src0 ^ src1;
+	return (src0 ^ src1) & 0xFFFFFFFF;
+
+def gen_expect_not(src0):
+	return (~src0) & 0xFFFFFFFF;
+
+def gen_expect_nand(src0, src1):
+	return (~(src0 & src1)) & 0xFFFFFFFF;
+
+def gen_expect_nor(src0, src1):
+	return (~(src0 | src1)) & 0xFFFFFFFF;
+
+def gen_expect_xnor(src0, src1):
+	return (~(src0 ^ src1)) & 0xffffffff;
+
 
 def gen_expect_hi16(src1):
 	return (src1 >> 16) & 0xffffffff;
@@ -85,10 +107,6 @@ def gen_expect_lolo8(src1):
 	return src1 & 0x000000ff;
 
 
-
-
-
-
 def gen_expect_clear():
 	return 0;
 
@@ -107,7 +125,38 @@ def gen_expect_rev_byte(src0):
 def gen_expect_rev_bit(src0):
 	result = 0;
 	for cnt in range(32):
-		result = (result << 1) | (src0 >> (31-cnt) & 0x1);
-	return result;
+		result = (result << 1) | (src0 >> cnt & 0x1);
+		#print((src0 >> cnt) & 0x1);
+	#print("result" + str(result) + "src" + str(src0));
+	return result & 0xFFFFFFFF;
 
+def gen_expect_shl(src0, src1):
+	return 0xffffffff & (src0 << src1);
+
+def gen_expect_shr(src0, src1):
+	return (src0 >> src1 if src0 >= 0 else (sec0+0x100000000) >> src1) & 0xFFFFFFFF
+
+def gen_expect_sal(src0, src1):
+	return 0xffffffff & (src0 << src1);
+
+def gen_expect_sar(src0, src1):
+	return 0xffffffff & (src0 >> src1);
+
+def gen_expect_rol(src0, src1):
+	result = src0
+	loop = 0;
+	for cnt in range(src1):
+		result = result << 1
+		loop = (result >> 32) & 1;
+		result = (result & 0xfffffffe) | loop
+	return result & 0xFFFFFFFF;
+
+def gen_expect_ror(src0, src1):
+	result = src0
+	loop = 0;
+	for cnt in range(src1):
+		loop = result & 1;
+		result = result >> 1 if result >= 0 else (result+0x100000000) >> 1
+		result = (result & 0x7fffffff) | loop << 31
+	return result & 0xFFFFFFFF;
 

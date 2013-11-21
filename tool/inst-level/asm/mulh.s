@@ -3454,7 +3454,7 @@ T_IMM_EXPECT28		:		.long 0
 T_IMM_EXPECT29		:		.long 0
 T_IMM_EXPECT30		:		.long 0
 T_IMM_EXPECT31		:		.long 0
-T_IMM_EXPECT32		:		.long 0
+T_IMM_EXPECT32		:		.long 1
 T_IMM_EXPECT33		:		.long 0
 T_IMM_EXPECT34		:		.long 0
 T_IMM_EXPECT35		:		.long 0
@@ -3465,7 +3465,7 @@ T_IMM_EXPECT39		:		.long 0
 T_IMM_EXPECT40		:		.long 0
 T_IMM_EXPECT41		:		.long 0
 T_IMM_EXPECT42		:		.long 0
-T_IMM_EXPECT43		:		.long 0
+T_IMM_EXPECT43		:		.long 3
 T_IMM_EXPECT44		:		.long 0
 T_IMM_EXPECT45		:		.long 0
 T_IMM_EXPECT46		:		.long 0
@@ -3476,7 +3476,7 @@ T_IMM_EXPECT50		:		.long 0
 T_IMM_EXPECT51		:		.long 0
 T_IMM_EXPECT52		:		.long 0
 T_IMM_EXPECT53		:		.long 0
-T_IMM_EXPECT54		:		.long 0
+T_IMM_EXPECT54		:		.long 7
 T_IMM_EXPECT55		:		.long 0
 T_IMM_EXPECT56		:		.long 0
 T_IMM_EXPECT57		:		.long 0
@@ -3487,7 +3487,7 @@ T_IMM_EXPECT61		:		.long 0
 T_IMM_EXPECT62		:		.long 0
 T_IMM_EXPECT63		:		.long 0
 T_IMM_EXPECT64		:		.long 0
-T_IMM_EXPECT65		:		.long 0
+T_IMM_EXPECT65		:		.long 15
 T_IMM_EXPECT66		:		.long 0
 T_IMM_EXPECT67		:		.long 0
 T_IMM_EXPECT68		:		.long 0
@@ -3498,7 +3498,7 @@ T_IMM_EXPECT72		:		.long 0
 T_IMM_EXPECT73		:		.long 0
 T_IMM_EXPECT74		:		.long 0
 T_IMM_EXPECT75		:		.long 0
-T_IMM_EXPECT76		:		.long 0
+T_IMM_EXPECT76		:		.long 31
 T_IMM_EXPECT77		:		.long 0
 T_IMM_EXPECT78		:		.long 0
 T_IMM_EXPECT79		:		.long 0
@@ -3509,7 +3509,7 @@ T_IMM_EXPECT83		:		.long 0
 T_IMM_EXPECT84		:		.long 0
 T_IMM_EXPECT85		:		.long 0
 T_IMM_EXPECT86		:		.long 0
-T_IMM_EXPECT87		:		.long 0
+T_IMM_EXPECT87		:		.long 63
 T_IMM_EXPECT88		:		.long 0
 T_IMM_EXPECT89		:		.long 0
 T_IMM_EXPECT90		:		.long 0
@@ -3520,7 +3520,7 @@ T_IMM_EXPECT94		:		.long 0
 T_IMM_EXPECT95		:		.long 0
 T_IMM_EXPECT96		:		.long 0
 T_IMM_EXPECT97		:		.long 0
-T_IMM_EXPECT98		:		.long 0
+T_IMM_EXPECT98		:		.long 127
 T_IMM_EXPECT99		:		.long 0
 T_IMM_EXPECT100		:		.long 0
 T_IMM_EXPECT101		:		.long 0
@@ -3531,7 +3531,7 @@ T_IMM_EXPECT105		:		.long 0
 T_IMM_EXPECT106		:		.long 0
 T_IMM_EXPECT107		:		.long 0
 T_IMM_EXPECT108		:		.long 0
-T_IMM_EXPECT109		:		.long 0
+T_IMM_EXPECT109		:		.long 255
 T_IMM_EXPECT110		:		.long 0
 T_IMM_EXPECT111		:		.long 0
 T_IMM_EXPECT112		:		.long 0
@@ -3542,7 +3542,7 @@ T_IMM_EXPECT116		:		.long 0
 T_IMM_EXPECT117		:		.long 0
 T_IMM_EXPECT118		:		.long 0
 T_IMM_EXPECT119		:		.long 0
-T_IMM_EXPECT120		:		.long 0
+T_IMM_EXPECT120		:		.long 511
 T_IMM_EXPECT121		:		.long 0
 T_IMM_EXPECT122		:		.long 0
 T_IMM_EXPECT123		:		.long 0
@@ -3553,7 +3553,7 @@ T_IMM_EXPECT127		:		.long 0
 T_IMM_EXPECT128		:		.long 0
 T_IMM_EXPECT129		:		.long 0
 T_IMM_EXPECT130		:		.long 0
-T_IMM_EXPECT131		:		.long 0
+T_IMM_EXPECT131		:		.long 1023
 T_IMM_EXPECT132		:		.long 0
 T_IMM_EXPECT133		:		.long 0
 T_IMM_EXPECT134		:		.long 0
@@ -3563,7 +3563,7 @@ T_IMM_EXPECT137		:		.long 0
 T_IMM_EXPECT138		:		.long 0
 T_IMM_EXPECT139		:		.long 0
 T_IMM_EXPECT140		:		.long 0
-T_IMM_EXPECT141		:		.long 0
+T_IMM_EXPECT141		:		.long 2046
 
 ;********************************************
 ;Instruction Section(Macro)

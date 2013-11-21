@@ -25859,7 +25859,7 @@
    33550:	ff ff fe 00 	*unknown*
 
 00033554 <T_IMM_EXPECT10>:
-   33554:	ff ff fc 00 	*unknown*
+   33554:	00 00 04 00 	*unknown*
 
 00033558 <T_IMM_EXPECT11>:
    33558:	00 00 00 00 	add	r0,r0
@@ -25892,7 +25892,7 @@
    3357c:	ff ff fe 01 	*unknown*
 
 00033580 <T_IMM_EXPECT21>:
-   33580:	ff ff fc 01 	*unknown*
+   33580:	00 00 04 01 	*unknown*
 
 00033584 <T_IMM_EXPECT22>:
    33584:	00 00 00 01 	add	r0,r1
@@ -25925,7 +25925,7 @@
    335a8:	ff ff fe 02 	*unknown*
 
 000335ac <T_IMM_EXPECT32>:
-   335ac:	ff ff fc 02 	*unknown*
+   335ac:	00 00 04 02 	*unknown*
 
 000335b0 <T_IMM_EXPECT33>:
    335b0:	00 00 00 03 	add	r0,r3
@@ -25958,7 +25958,7 @@
    335d4:	ff ff fe 04 	*unknown*
 
 000335d8 <T_IMM_EXPECT43>:
-   335d8:	ff ff fc 04 	*unknown*
+   335d8:	00 00 04 04 	*unknown*
 
 000335dc <T_IMM_EXPECT44>:
    335dc:	00 00 00 07 	add	r0,rtmp
@@ -25991,7 +25991,7 @@
    33600:	ff ff fe 08 	*unknown*
 
 00033604 <T_IMM_EXPECT54>:
-   33604:	ff ff fc 08 	*unknown*
+   33604:	00 00 04 08 	*unknown*
 
 00033608 <T_IMM_EXPECT55>:
    33608:	00 00 00 0f 	add	r0,r15
@@ -26024,7 +26024,7 @@
    3362c:	ff ff fe 10 	*unknown*
 
 00033630 <T_IMM_EXPECT65>:
-   33630:	ff ff fc 10 	*unknown*
+   33630:	00 00 04 10 	*unknown*
 
 00033634 <T_IMM_EXPECT66>:
    33634:	00 00 00 1f 	add	r0,rret
@@ -26057,7 +26057,7 @@
    33658:	ff ff fe 20 	*unknown*
 
 0003365c <T_IMM_EXPECT76>:
-   3365c:	ff ff fc 20 	*unknown*
+   3365c:	00 00 04 20 	*unknown*
 
 00033660 <T_IMM_EXPECT77>:
    33660:	00 00 00 3f 	add	r1,rret
@@ -26090,7 +26090,7 @@
    33684:	ff ff fe 40 	*unknown*
 
 00033688 <T_IMM_EXPECT87>:
-   33688:	ff ff fc 40 	*unknown*
+   33688:	00 00 04 40 	*unknown*
 
 0003368c <T_IMM_EXPECT88>:
    3368c:	00 00 00 7f 	add	r3,rret
@@ -26123,7 +26123,7 @@
    336b0:	ff ff fe 80 	*unknown*
 
 000336b4 <T_IMM_EXPECT98>:
-   336b4:	ff ff fc 80 	*unknown*
+   336b4:	00 00 04 80 	*unknown*
 
 000336b8 <T_IMM_EXPECT99>:
    336b8:	00 00 00 ff 	add	rtmp,rret
@@ -26156,7 +26156,7 @@
    336dc:	ff ff ff 00 	*unknown*
 
 000336e0 <T_IMM_EXPECT109>:
-   336e0:	ff ff fd 00 	*unknown*
+   336e0:	00 00 05 00 	*unknown*
 
 000336e4 <T_IMM_EXPECT110>:
    336e4:	00 00 01 ff 	add	r15,rret
@@ -26189,7 +26189,7 @@
    33708:	00 00 00 00 	add	r0,r0
 
 0003370c <T_IMM_EXPECT120>:
-   3370c:	ff ff fe 00 	*unknown*
+   3370c:	00 00 06 00 	*unknown*
 
 00033710 <T_IMM_EXPECT121>:
    33710:	00 00 03 ff 	add	rret,rret
@@ -26222,7 +26222,7 @@
    33734:	00 00 02 00 	add	r16,r0
 
 00033738 <T_IMM_EXPECT131>:
-   33738:	00 00 00 00 	add	r0,r0
+   33738:	00 00 08 00 	*unknown*
 
 0003373c <T_IMM_EXPECT132>:
    3373c:	00 00 00 00 	add	r0,r0
@@ -26252,7 +26252,7 @@
    3375c:	00 00 00 00 	add	r0,r0
 
 00033760 <T_IMM_EXPECT141>:
-   33760:	00 00 00 00 	add	r0,r0
+   33760:	00 00 08 00 	*unknown*
 
 セクション .stack の逆アセンブル:
 
