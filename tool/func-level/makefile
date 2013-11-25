@@ -12,10 +12,10 @@ branch_predictor_make:
 
 
 fowarding_make:
-	mist32-elf-as -o out/fowarding.o com/start.s asm/fowarding.s
-	mist32-elf-ld -Tcom/linker_script.ld -o out/fowarding.out out/fowarding.o
-	mist32-elf-objdump -D ./out/fowarding.out > ./out/fowarding.asm
-	rm out/fowarding.o;
+	mist32-elf-as -o out/forwarding.o com/start.s asm/forwarding.s
+	mist32-elf-ld -Tcom/linker_script.ld -o out/forwarding.out out/forwarding.o
+	mist32-elf-objdump -D ./out/forwarding.out > ./out/forwarding.asm
+	rm out/forwarding.o;
 
 
 conv_bin:
