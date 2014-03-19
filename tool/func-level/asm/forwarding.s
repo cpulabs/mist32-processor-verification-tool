@@ -256,10 +256,10 @@ target:
 	
 	;Test
 	srspr	r30
-	pop		r30
-	pop		r30
-	pop		r30
-	pop		r30
+	pop		r15
+	pop		r15
+	pop		r15
+	pop		r15
 	add		r30, 16
 	srspr	r29
 	
