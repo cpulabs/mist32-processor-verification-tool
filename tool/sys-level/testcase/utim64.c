@@ -1,8 +1,8 @@
-#include "common.h"
-#include "malloc.h"
-#include "dps.h"
-#include "idt.h"
-#include "io.h"
+#include "../common.h"
+#include "../lib/malloc.h"
+#include "../lib/dps.h"
+#include "../lib/idt.h"
+#include "../lib/io.h"
 
 uint32 flag = 0;
 
@@ -19,8 +19,8 @@ void main(){
 	malloc(STACK_SIZE);
 
 	/* IDT Config */
-	idt = idt_setup();
-	idt_entry_config(idt, IDT_NUM_DPS_UTIM64, &int36_utim64);
+	idt = idt_init();
+	idt_entry_setup(idt, IDT_NUM_DPS_UTIM64, &int36_utim64);
 	idt_entry_enable(idt, IDT_NUM_DPS_UTIM64);
 
 	/* IDT Set & Load */
