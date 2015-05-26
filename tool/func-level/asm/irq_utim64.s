@@ -176,6 +176,7 @@ check1_hdl:
 	read_flag_utim64 r1
 	cmp		r0,				1
 	br		error, 			#neq	;ERROR
+	inc		r8,				r8
 	ib
 
 check1_ok:
@@ -217,6 +218,7 @@ check2_hdl:							;IF not error came here
 	cmp		r0,				1
 	br		error, 			#neq	;ERROR
 	inc		r8,				r8
+	ib
 
 check2_ok:
 	nop

@@ -171,7 +171,7 @@
 00000248 <check1_wait>:
  248:	00 d0 01 01 	cmp	r8,1
  24c:	14 32 ff ff 	br	248 <check1_wait>,#ne
- 250:	14 30 00 09 	br	274 <check1_ok>,#al
+ 250:	14 30 00 0a 	br	278 <check1_ok>,#al
 
 00000254 <check1_hdl>:
  254:	19 60 00 20 	sriosr	r1
@@ -181,83 +181,85 @@
  264:	20 40 00 07 	move	r0,rtmp
  268:	00 d0 00 01 	cmp	r0,1
  26c:	14 32 ff 6d 	br	20 <error>,#ne
- 270:	14 60 00 00 	ib
+ 270:	02 00 01 08 	inc	r8,r8
+ 274:	14 60 00 00 	ib
 
-00000274 <check1_ok>:
- 274:	20 00 00 00 	nop
+00000278 <check1_ok>:
+ 278:	20 00 00 00 	nop
 
-00000278 <check2>:
- 278:	0d c0 00 00 	clr	r0
- 27c:	0d 40 24 00 	wl16	r0,0x120
- 280:	0d 40 02 00 	wl16	r16,0x0
- 284:	0d 60 02 04 	wh16	r16,0x4
- 288:	00 00 02 00 	add	r16,r0
- 28c:	0d 40 02 23 	wl16	r17,0x3
- 290:	0d 60 02 20 	wh16	r17,0x0
- 294:	0d 40 6a 4c 	wl16	r18,0x34c
- 298:	0d 60 02 40 	wh16	r18,0x0
- 29c:	10 a0 02 30 	st32	r17,r16
- 2a0:	00 10 02 04 	add	r16,4
- 2a4:	10 a0 02 50 	st32	r18,r16
- 2a8:	0d 40 00 00 	wl16	r0,0x0
- 2ac:	0d 60 00 04 	wh16	r0,0x4
- 2b0:	1e 40 00 00 	sridtw	r0
- 2b4:	24 40 00 00 	idts
- 2b8:	1c b0 00 01 	srieiw	0x1
- 2bc:	0d c0 00 40 	clr	r2
- 2c0:	00 10 00 4b 	add	r2,11
- 2c4:	19 60 00 20 	sriosr	r1
- 2c8:	0d c0 00 e0 	clr	rtmp
- 2cc:	10 a0 00 e1 	st32	rtmp,r1
- 2d0:	0d c0 00 e0 	clr	rtmp
- 2d4:	20 40 00 01 	move	r0,r1
- 2d8:	00 10 00 04 	add	r0,4
- 2dc:	10 a0 00 e0 	st32	rtmp,r0
- 2e0:	00 10 00 04 	add	r0,4
- 2e4:	10 a0 00 e0 	st32	rtmp,r0
- 2e8:	0d c0 00 e0 	clr	rtmp
- 2ec:	20 40 00 01 	move	r0,r1
- 2f0:	00 10 00 0c 	add	r0,12
- 2f4:	00 10 00 e0 	add	rtmp,0
- 2f8:	10 a0 00 e0 	st32	rtmp,r0
- 2fc:	0d c0 00 e0 	clr	rtmp
- 300:	20 40 00 01 	move	r0,r1
- 304:	00 10 00 10 	add	r0,16
- 308:	00 10 04 e0 	add	rtmp,32
- 30c:	10 a0 00 e0 	st32	rtmp,r0
- 310:	0d c0 00 e0 	clr	rtmp
- 314:	20 40 00 01 	move	r0,r1
- 318:	00 10 04 0c 	add	r0,44
- 31c:	00 00 00 e2 	add	rtmp,r2
- 320:	10 a0 00 e0 	st32	rtmp,r0
- 324:	0d c0 00 e0 	clr	rtmp
- 328:	00 10 00 e1 	add	rtmp,1
- 32c:	10 a0 00 e1 	st32	rtmp,r1
- 330:	0d c0 01 00 	clr	r8
+0000027c <check2>:
+ 27c:	0d c0 00 00 	clr	r0
+ 280:	0d 40 24 00 	wl16	r0,0x120
+ 284:	0d 40 02 00 	wl16	r16,0x0
+ 288:	0d 60 02 04 	wh16	r16,0x4
+ 28c:	00 00 02 00 	add	r16,r0
+ 290:	0d 40 02 23 	wl16	r17,0x3
+ 294:	0d 60 02 20 	wh16	r17,0x0
+ 298:	0d 40 6a 50 	wl16	r18,0x350
+ 29c:	0d 60 02 40 	wh16	r18,0x0
+ 2a0:	10 a0 02 30 	st32	r17,r16
+ 2a4:	00 10 02 04 	add	r16,4
+ 2a8:	10 a0 02 50 	st32	r18,r16
+ 2ac:	0d 40 00 00 	wl16	r0,0x0
+ 2b0:	0d 60 00 04 	wh16	r0,0x4
+ 2b4:	1e 40 00 00 	sridtw	r0
+ 2b8:	24 40 00 00 	idts
+ 2bc:	1c b0 00 01 	srieiw	0x1
+ 2c0:	0d c0 00 40 	clr	r2
+ 2c4:	00 10 00 4b 	add	r2,11
+ 2c8:	19 60 00 20 	sriosr	r1
+ 2cc:	0d c0 00 e0 	clr	rtmp
+ 2d0:	10 a0 00 e1 	st32	rtmp,r1
+ 2d4:	0d c0 00 e0 	clr	rtmp
+ 2d8:	20 40 00 01 	move	r0,r1
+ 2dc:	00 10 00 04 	add	r0,4
+ 2e0:	10 a0 00 e0 	st32	rtmp,r0
+ 2e4:	00 10 00 04 	add	r0,4
+ 2e8:	10 a0 00 e0 	st32	rtmp,r0
+ 2ec:	0d c0 00 e0 	clr	rtmp
+ 2f0:	20 40 00 01 	move	r0,r1
+ 2f4:	00 10 00 0c 	add	r0,12
+ 2f8:	00 10 00 e0 	add	rtmp,0
+ 2fc:	10 a0 00 e0 	st32	rtmp,r0
+ 300:	0d c0 00 e0 	clr	rtmp
+ 304:	20 40 00 01 	move	r0,r1
+ 308:	00 10 00 10 	add	r0,16
+ 30c:	00 10 04 e0 	add	rtmp,32
+ 310:	10 a0 00 e0 	st32	rtmp,r0
+ 314:	0d c0 00 e0 	clr	rtmp
+ 318:	20 40 00 01 	move	r0,r1
+ 31c:	00 10 04 0c 	add	r0,44
+ 320:	00 00 00 e2 	add	rtmp,r2
+ 324:	10 a0 00 e0 	st32	rtmp,r0
+ 328:	0d c0 00 e0 	clr	rtmp
+ 32c:	00 10 00 e1 	add	rtmp,1
+ 330:	10 a0 00 e1 	st32	rtmp,r1
+ 334:	0d c0 01 00 	clr	r8
 
-00000334 <check2_wait>:
- 334:	00 d0 01 04 	cmp	r8,4
- 338:	14 32 ff ff 	br	334 <check2_wait>,#ne
- 33c:	19 60 00 20 	sriosr	r1
- 340:	0d c0 00 e0 	clr	rtmp
- 344:	10 a0 00 e1 	st32	rtmp,r1
- 348:	14 30 00 09 	br	36c <check2_ok>,#al
+00000338 <check2_wait>:
+ 338:	00 d0 01 04 	cmp	r8,4
+ 33c:	14 32 ff ff 	br	338 <check2_wait>,#ne
+ 340:	19 60 00 20 	sriosr	r1
+ 344:	0d c0 00 e0 	clr	rtmp
+ 348:	10 a0 00 e1 	st32	rtmp,r1
+ 34c:	14 30 00 0a 	br	374 <check2_ok>,#al
 
-0000034c <check2_hdl>:
- 34c:	19 60 00 20 	sriosr	r1
- 350:	20 40 00 01 	move	r0,r1
- 354:	00 10 0c 1c 	add	r0,124
- 358:	10 40 00 e0 	ld32	rtmp,r0
- 35c:	20 40 00 07 	move	r0,rtmp
- 360:	00 d0 00 01 	cmp	r0,1
- 364:	14 32 ff 2f 	br	20 <error>,#ne
- 368:	02 00 01 08 	inc	r8,r8
+00000350 <check2_hdl>:
+ 350:	19 60 00 20 	sriosr	r1
+ 354:	20 40 00 01 	move	r0,r1
+ 358:	00 10 0c 1c 	add	r0,124
+ 35c:	10 40 00 e0 	ld32	rtmp,r0
+ 360:	20 40 00 07 	move	r0,rtmp
+ 364:	00 d0 00 01 	cmp	r0,1
+ 368:	14 32 ff 2e 	br	20 <error>,#ne
+ 36c:	02 00 01 08 	inc	r8,r8
+ 370:	14 60 00 00 	ib
 
-0000036c <check2_ok>:
- 36c:	20 00 00 00 	nop
+00000374 <check2_ok>:
+ 374:	20 00 00 00 	nop
 
-00000370 <test_end>:
- 370:	14 30 ff 3c 	br	60 <finish>,#al
+00000378 <test_end>:
+ 378:	14 30 ff 3a 	br	60 <finish>,#al
 
 セクション .assert の逆アセンブル:
 

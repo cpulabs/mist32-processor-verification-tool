@@ -17,6 +17,10 @@ It provides the following functions.
     Branch predictor check
 	
 	Fowarding check
+	
+	IRQ of Divide Error
+	
+	IRQ of UTIM64
   
   (coming soon!) System level verification : Will do the check, including an interrupt. The tool will generate test vectors for that.
   
