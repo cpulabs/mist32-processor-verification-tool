@@ -76,13 +76,14 @@ clr_idt_lp:
 	clr		r7
 	move	r0,				\io_addr
 	add		r0,				0xc
-	add		r7,				0x20			;Compare Number63-32
+	add		r7,				0x0				;Compare Number63-32
 	st32	r7,				r0
 
 	clr		r7
 	move	r0,				\io_addr
 	add		r0,				0x10
-	st32	r7,				r0				;Compare Number31-0
+	add		r7,				0x20			;Compare Number31-0
+	st32	r7,				r0				
 
 	;UTIM64ACC0CFGR - Compare Counter Settings
 	clr		r7
@@ -120,6 +121,7 @@ target:
 ;********************************************
 ;Check - 0(Non Predict Interrupt Check)
 ;********************************************
+check0:
 	;Set IDT
 	clr		r0
 	wl16	r0,				288		;offset is Interrupt Num = 36 * 8
@@ -147,8 +149,7 @@ check0_hdl:							;IF not error came here
 ;********************************************
 ;Check - 1(Non Predict Interrupt Check with Return)
 ;********************************************
-	;Clear IDT
-
+check1:
 	;Set IDT
 	clr		r0
 	wl16	r0,				288		;offset is Interrupt Num = 36 * 8
@@ -184,6 +185,7 @@ check1_ok:
 ;********************************************
 ;Check - 2(Predict Interrupt Check)
 ;********************************************
+check2:
 	;Set IDT
 	clr		r0
 	wl16	r0,				288		;offset is Interrupt Num = 36 * 8
