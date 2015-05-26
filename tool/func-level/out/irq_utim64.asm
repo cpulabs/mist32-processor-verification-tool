@@ -116,7 +116,7 @@
  178:	00 10 0c 1c 	add	r0,124
  17c:	10 40 00 e0 	ld32	rtmp,r0
  180:	20 40 00 07 	move	r0,rtmp
- 184:	00 d0 00 21 	cmp	r1,1
+ 184:	00 d0 00 01 	cmp	r0,1
  188:	14 32 ff a6 	br	20 <error>,#ne
 
 0000018c <check1>:
@@ -179,7 +179,7 @@
  25c:	00 10 0c 1c 	add	r0,124
  260:	10 40 00 e0 	ld32	rtmp,r0
  264:	20 40 00 07 	move	r0,rtmp
- 268:	00 d0 00 21 	cmp	r1,1
+ 268:	00 d0 00 01 	cmp	r0,1
  26c:	14 32 ff 6d 	br	20 <error>,#ne
  270:	14 60 00 00 	ib
 
@@ -249,7 +249,7 @@
  354:	00 10 0c 1c 	add	r0,124
  358:	10 40 00 e0 	ld32	rtmp,r0
  35c:	20 40 00 07 	move	r0,rtmp
- 360:	00 d0 00 21 	cmp	r1,1
+ 360:	00 d0 00 01 	cmp	r0,1
  364:	14 32 ff 2f 	br	20 <error>,#ne
  368:	02 00 01 08 	inc	r8,r8
 

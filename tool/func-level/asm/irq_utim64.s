@@ -141,7 +141,7 @@ check0_hdl:							;IF not error came here
 	;UTIM64FLAG Register Load
 	sriosr	r1
 	read_flag_utim64 r1
-	cmp		r1,				1
+	cmp		r0,				1
 	br		error, 			#neq	;ERROR
 
 
@@ -174,7 +174,7 @@ check1_hdl:
 	;UTIM64FLAG Register Load
 	sriosr	r1
 	read_flag_utim64 r1
-	cmp		r1,				1
+	cmp		r0,				1
 	br		error, 			#neq	;ERROR
 	ib
 
@@ -214,7 +214,7 @@ check2_hdl:							;IF not error came here
 	;UTIM64FLAG Register Load
 	sriosr	r1
 	read_flag_utim64 r1
-	cmp		r1,				1
+	cmp		r0,				1
 	br		error, 			#neq	;ERROR
 	inc		r8,				r8
 
