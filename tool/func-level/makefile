@@ -1,4 +1,4 @@
-default: make_init branch_predictor_make fowarding_make conv_bin
+default: make_init branch_predictor_make fowarding_make irq_div_make conv_bin
 
 make_init:
 	rm -rf out
@@ -16,6 +16,15 @@ fowarding_make:
 	mist32-elf-ld -Tcom/linker_script.ld -o out/forwarding.out out/forwarding.o
 	mist32-elf-objdump -D ./out/forwarding.out > ./out/forwarding.asm
 	rm out/forwarding.o;
+
+irq_div_make:
+	mist32-elf-as -o out/irq_div.o com/start.s asm/irq_div.s
+	mist32-elf-ld -Tcom/linker_script.ld -o out/irq_div.out out/irq_div.o
+	mist32-elf-objdump -D ./out/irq_div.out > ./out/irq_div.asm
+	rm out/irq_div.o;
+
+
+	
 
 
 conv_bin:
