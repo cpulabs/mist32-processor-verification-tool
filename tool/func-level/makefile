@@ -1,4 +1,4 @@
-default: make_init branch_predictor_make fowarding_make irq_div_make conv_bin
+default: make_init branch_predictor_make fowarding_make irq_div_make irq_utim64_make conv_bin
 
 make_init:
 	rm -rf out
@@ -22,6 +22,12 @@ irq_div_make:
 	mist32-elf-ld -Tcom/linker_script.ld -o out/irq_div.out out/irq_div.o
 	mist32-elf-objdump -D ./out/irq_div.out > ./out/irq_div.asm
 	rm out/irq_div.o;
+
+irq_utim64_make:
+	mist32-elf-as -o out/irq_utim64.o com/start.s asm/irq_utim64.s
+	mist32-elf-ld -Tcom/linker_script.ld -o out/irq_utim64.out out/irq_utim64.o
+	mist32-elf-objdump -D ./out/irq_utim64.out > ./out/irq_utim64.asm
+	rm out/irq_utim64.o;
 
 
 	
