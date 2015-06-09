@@ -101,8 +101,8 @@ clr_idt_lp:
 ;io_addr = r1, mode = r2
 .macro stop_utim64 io_addr
 	;UTIM64AMCFGR - Stop Main Counter
-	clr		r7
-	st32	r7,				\io_addr
+	clr		r16
+	st32	r16,			\io_addr
 .endm
 
 
