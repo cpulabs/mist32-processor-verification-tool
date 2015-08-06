@@ -1,8 +1,8 @@
 
-./out/add.out:     ファイル形式 elf32-mist32
+./out/add.out:     file format elf32-mist32
 
 
-セクション .text の逆アセンブル:
+Disassembly of section .text:
 
 00000000 <_start>:
        0:	0d 40 00 00 	wl16	r0,0x0
@@ -15597,7 +15597,7 @@
     f374:	00 10 00 41 	add	r2,1
     f378:	14 30 c3 38 	br	58 <finish>,#al
 
-セクション .assert の逆アセンブル:
+Disassembly of section .assert:
 
 00020000 <CHECK_FLAG>:
    20000:	00 00 00 01 	add	r0,r1
@@ -15617,7 +15617,7 @@
 00020014 <ERROR_EXPECT>:
    20014:	00 00 00 00 	add	r0,r0
 
-セクション .data の逆アセンブル:
+Disassembly of section .data:
 
 00030000 <T_SRC0_0>:
    30000:	00 00 00 00 	add	r0,r0
@@ -24422,7 +24422,7 @@
    32dd4:	00 c0 00 00 	cmp	r0,r0
 
 00032dd8 <T_EXPECT760>:
-   32dd8:	01 40 00 00 	*unknown*
+   32dd8:	01 40 00 00 	umull	r0,r0
 
 00032ddc <T_EXPECT761>:
    32ddc:	02 40 00 00 	*unknown*
@@ -24521,7 +24521,7 @@
    32e58:	01 80 00 00 	*unknown*
 
 00032e5c <T_EXPECT793>:
-   32e5c:	02 80 00 00 	*unknown*
+   32e5c:	02 80 00 00 	min	r0,r0
 
 00032e60 <T_EXPECT794>:
    32e60:	04 80 00 00 	*unknown*
@@ -24608,7 +24608,7 @@
    32ecc:	01 20 00 00 	neg	r0,r0
 
 00032ed0 <T_EXPECT822>:
-   32ed0:	01 40 00 00 	*unknown*
+   32ed0:	01 40 00 00 	umull	r0,r0
 
 00032ed4 <T_EXPECT823>:
    32ed4:	01 80 00 00 	*unknown*
@@ -24707,7 +24707,7 @@
    32f50:	02 40 00 00 	*unknown*
 
 00032f54 <T_EXPECT855>:
-   32f54:	02 80 00 00 	*unknown*
+   32f54:	02 80 00 00 	min	r0,r0
 
 00032f58 <T_EXPECT856>:
    32f58:	03 00 00 00 	*unknown*
@@ -26254,7 +26254,7 @@
 00033760 <T_IMM_EXPECT141>:
    33760:	00 00 07 fe 	*unknown*
 
-セクション .stack の逆アセンブル:
+Disassembly of section .stack:
 
 000f0000 <STACK_INDEX>:
    f0000:	00 00 00 00 	add	r0,r0

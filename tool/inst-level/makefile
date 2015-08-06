@@ -56,17 +56,17 @@ gen_testset:
 		asmsrc/expect/neg_o2.expect.txt asmsrc/src/default_o2.src0.txt asmsrc/src/default_o2.src0.txt\
 		0 0 0 > asm/neg.s
 	#UMULL
-	#python gen_expect/gen_expect.py 2 32 0 32 0 umull asmsrc/src/default_o2.src0.txt asmsrc/src/default_o2.src1.txt asmsrc/expect/umull_o2.expect.txt
-	#python gen_expect/gen_expect.py 2 32 0 11 0 umull asmsrc/src/default_i11.src0.txt asmsrc/src/default_i11.src1.txt asmsrc/expect/umull_i11.expect.txt
-	#python genasm.py o2i11\
-	#	asmsrc/expect/umull_o2.expect.txt asmsrc/src/default_o2.src0.txt asmsrc/src/default_o2.src1.txt\
-	#	asmsrc/expect/umull_i11.expect.txt asmsrc/src/default_i11.src0.txt asmsrc/src/default_i11.src1.txt > asm/umull.s
+	python gen_expect/gen_expect.py 2 32 0 32 0 umull asmsrc/src/default_o2.src0.txt asmsrc/src/default_o2.src1.txt asmsrc/expect/umull_o2.expect.txt
+	python gen_expect/gen_expect.py 2 32 0 11 0 umull asmsrc/src/default_i11.src0.txt asmsrc/src/default_i11.src1.txt asmsrc/expect/umull_i11.expect.txt
+	python genasm.py o2i11\
+		asmsrc/expect/umull_o2.expect.txt asmsrc/src/default_o2.src0.txt asmsrc/src/default_o2.src1.txt\
+		asmsrc/expect/umull_i11.expect.txt asmsrc/src/default_i11.src0.txt asmsrc/src/default_i11.src1.txt > asm/umull.s
 	#UMULH
-	#python gen_expect/gen_expect.py 2 32 0 32 0 umulh asmsrc/src/default_o2.src0.txt asmsrc/src/default_o2.src1.txt asmsrc/expect/umulh_o2.expect.txt
-	#python gen_expect/gen_expect.py 2 32 0 11 0 umulh asmsrc/src/default_i11.src0.txt asmsrc/src/default_i11.src1.txt asmsrc/expect/umulh_i11.expect.txt
-	#python genasm.py o2i11\
-	#	asmsrc/expect/umulh_o2.expect.txt asmsrc/src/default_o2.src0.txt asmsrc/src/default_o2.src1.txt\
-	#	asmsrc/expect/umulh_i11.expect.txt asmsrc/src/default_i11.src0.txt asmsrc/src/default_i11.src1.txt > asm/umulh.s
+	python gen_expect/gen_expect.py 2 32 0 32 0 umulh asmsrc/src/default_o2.src0.txt asmsrc/src/default_o2.src1.txt asmsrc/expect/umulh_o2.expect.txt
+	python gen_expect/gen_expect.py 2 32 0 11 0 umulh asmsrc/src/default_i11.src0.txt asmsrc/src/default_i11.src1.txt asmsrc/expect/umulh_i11.expect.txt
+	python genasm.py o2i11\
+		asmsrc/expect/umulh_o2.expect.txt asmsrc/src/default_o2.src0.txt asmsrc/src/default_o2.src1.txt\
+		asmsrc/expect/umulh_i11.expect.txt asmsrc/src/default_i11.src0.txt asmsrc/src/default_i11.src1.txt > asm/umulh.s
 	#IC
 	#ADDC
 	#INC

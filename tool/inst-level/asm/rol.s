@@ -322,53 +322,53 @@ check:
 	;***********************************
 	xor		r2, r2
 	add		r3, 1
-	check_imm11_format T_IMM_DST0, 1, T_IMM_EXPECT0
-	check_imm11_format T_IMM_DST1, 2, T_IMM_EXPECT1
-	check_imm11_format T_IMM_DST2, 4, T_IMM_EXPECT2
-	check_imm11_format T_IMM_DST3, 8, T_IMM_EXPECT3
-	check_imm11_format T_IMM_DST4, 16, T_IMM_EXPECT4
-	check_imm11_format T_IMM_DST5, 32, T_IMM_EXPECT5
-	check_imm11_format T_IMM_DST6, 1, T_IMM_EXPECT6
-	check_imm11_format T_IMM_DST7, 2, T_IMM_EXPECT7
-	check_imm11_format T_IMM_DST8, 4, T_IMM_EXPECT8
-	check_imm11_format T_IMM_DST9, 8, T_IMM_EXPECT9
-	check_imm11_format T_IMM_DST10, 16, T_IMM_EXPECT10
-	check_imm11_format T_IMM_DST11, 32, T_IMM_EXPECT11
-	check_imm11_format T_IMM_DST12, 1, T_IMM_EXPECT12
-	check_imm11_format T_IMM_DST13, 2, T_IMM_EXPECT13
-	check_imm11_format T_IMM_DST14, 4, T_IMM_EXPECT14
-	check_imm11_format T_IMM_DST15, 8, T_IMM_EXPECT15
-	check_imm11_format T_IMM_DST16, 16, T_IMM_EXPECT16
-	check_imm11_format T_IMM_DST17, 32, T_IMM_EXPECT17
-	check_imm11_format T_IMM_DST18, 1, T_IMM_EXPECT18
-	check_imm11_format T_IMM_DST19, 2, T_IMM_EXPECT19
-	check_imm11_format T_IMM_DST20, 4, T_IMM_EXPECT20
-	check_imm11_format T_IMM_DST21, 8, T_IMM_EXPECT21
-	check_imm11_format T_IMM_DST22, 16, T_IMM_EXPECT22
-	check_imm11_format T_IMM_DST23, 32, T_IMM_EXPECT23
-	check_imm11_format T_IMM_DST24, 1, T_IMM_EXPECT24
-	check_imm11_format T_IMM_DST25, 2, T_IMM_EXPECT25
-	check_imm11_format T_IMM_DST26, 4, T_IMM_EXPECT26
-	check_imm11_format T_IMM_DST27, 8, T_IMM_EXPECT27
-	check_imm11_format T_IMM_DST28, 16, T_IMM_EXPECT28
-	check_imm11_format T_IMM_DST29, 32, T_IMM_EXPECT29
-	check_imm11_format T_IMM_DST30, 1, T_IMM_EXPECT30
-	check_imm11_format T_IMM_DST31, 2, T_IMM_EXPECT31
-	check_imm11_format T_IMM_DST32, 4, T_IMM_EXPECT32
-	check_imm11_format T_IMM_DST33, 8, T_IMM_EXPECT33
-	check_imm11_format T_IMM_DST34, 16, T_IMM_EXPECT34
-	check_imm11_format T_IMM_DST35, 32, T_IMM_EXPECT35
-	check_imm11_format T_IMM_DST36, 1, T_IMM_EXPECT36
-	check_imm11_format T_IMM_DST37, 2, T_IMM_EXPECT37
-	check_imm11_format T_IMM_DST38, 4, T_IMM_EXPECT38
-	check_imm11_format T_IMM_DST39, 8, T_IMM_EXPECT39
-	check_imm11_format T_IMM_DST40, 16, T_IMM_EXPECT40
-	check_imm11_format T_IMM_DST41, 32, T_IMM_EXPECT41
-	check_imm11_format T_IMM_DST42, 3, T_IMM_EXPECT42
-	check_imm11_format T_IMM_DST43, 7, T_IMM_EXPECT43
-	check_imm11_format T_IMM_DST44, 15, T_IMM_EXPECT44
-	check_imm11_format T_IMM_DST45, 31, T_IMM_EXPECT45
-	check_imm11_format T_IMM_DST46, 63, T_IMM_EXPECT46
+	check_imm11_format T_IMM_DST0, 1, T_IMM_EXPECT0
+	check_imm11_format T_IMM_DST1, 2, T_IMM_EXPECT1
+	check_imm11_format T_IMM_DST2, 4, T_IMM_EXPECT2
+	check_imm11_format T_IMM_DST3, 8, T_IMM_EXPECT3
+	check_imm11_format T_IMM_DST4, 16, T_IMM_EXPECT4
+	check_imm11_format T_IMM_DST5, 32, T_IMM_EXPECT5
+	check_imm11_format T_IMM_DST6, 1, T_IMM_EXPECT6
+	check_imm11_format T_IMM_DST7, 2, T_IMM_EXPECT7
+	check_imm11_format T_IMM_DST8, 4, T_IMM_EXPECT8
+	check_imm11_format T_IMM_DST9, 8, T_IMM_EXPECT9
+	check_imm11_format T_IMM_DST10, 16, T_IMM_EXPECT10
+	check_imm11_format T_IMM_DST11, 32, T_IMM_EXPECT11
+	check_imm11_format T_IMM_DST12, 1, T_IMM_EXPECT12
+	check_imm11_format T_IMM_DST13, 2, T_IMM_EXPECT13
+	check_imm11_format T_IMM_DST14, 4, T_IMM_EXPECT14
+	check_imm11_format T_IMM_DST15, 8, T_IMM_EXPECT15
+	check_imm11_format T_IMM_DST16, 16, T_IMM_EXPECT16
+	check_imm11_format T_IMM_DST17, 32, T_IMM_EXPECT17
+	check_imm11_format T_IMM_DST18, 1, T_IMM_EXPECT18
+	check_imm11_format T_IMM_DST19, 2, T_IMM_EXPECT19
+	check_imm11_format T_IMM_DST20, 4, T_IMM_EXPECT20
+	check_imm11_format T_IMM_DST21, 8, T_IMM_EXPECT21
+	check_imm11_format T_IMM_DST22, 16, T_IMM_EXPECT22
+	check_imm11_format T_IMM_DST23, 32, T_IMM_EXPECT23
+	check_imm11_format T_IMM_DST24, 1, T_IMM_EXPECT24
+	check_imm11_format T_IMM_DST25, 2, T_IMM_EXPECT25
+	check_imm11_format T_IMM_DST26, 4, T_IMM_EXPECT26
+	check_imm11_format T_IMM_DST27, 8, T_IMM_EXPECT27
+	check_imm11_format T_IMM_DST28, 16, T_IMM_EXPECT28
+	check_imm11_format T_IMM_DST29, 32, T_IMM_EXPECT29
+	check_imm11_format T_IMM_DST30, 1, T_IMM_EXPECT30
+	check_imm11_format T_IMM_DST31, 2, T_IMM_EXPECT31
+	check_imm11_format T_IMM_DST32, 4, T_IMM_EXPECT32
+	check_imm11_format T_IMM_DST33, 8, T_IMM_EXPECT33
+	check_imm11_format T_IMM_DST34, 16, T_IMM_EXPECT34
+	check_imm11_format T_IMM_DST35, 32, T_IMM_EXPECT35
+	check_imm11_format T_IMM_DST36, 1, T_IMM_EXPECT36
+	check_imm11_format T_IMM_DST37, 2, T_IMM_EXPECT37
+	check_imm11_format T_IMM_DST38, 4, T_IMM_EXPECT38
+	check_imm11_format T_IMM_DST39, 8, T_IMM_EXPECT39
+	check_imm11_format T_IMM_DST40, 16, T_IMM_EXPECT40
+	check_imm11_format T_IMM_DST41, 32, T_IMM_EXPECT41
+	check_imm11_format T_IMM_DST42, 3, T_IMM_EXPECT42
+	check_imm11_format T_IMM_DST43, 7, T_IMM_EXPECT43
+	check_imm11_format T_IMM_DST44, 15, T_IMM_EXPECT44
+	check_imm11_format T_IMM_DST45, 31, T_IMM_EXPECT45
+	check_imm11_format T_IMM_DST46, 63, T_IMM_EXPECT46
 ;********************************************
 ;Finish
 ;********************************************

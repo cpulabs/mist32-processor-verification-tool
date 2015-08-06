@@ -1,8 +1,8 @@
 
-./out/ror.out:     ファイル形式 elf32-mist32
+./out/ror.out:     file format elf32-mist32
 
 
-セクション .text の逆アセンブル:
+Disassembly of section .text:
 
 00000000 <_start>:
        0:	0d 40 00 00 	wl16	r0,0x0
@@ -1127,7 +1127,7 @@
     115c:	00 10 00 41 	add	r2,1
     1160:	14 30 fb be 	br	58 <finish>,#al
 
-セクション .assert の逆アセンブル:
+Disassembly of section .assert:
 
 00020000 <CHECK_FLAG>:
    20000:	00 00 00 01 	add	r0,r1
@@ -1147,7 +1147,7 @@
 00020014 <ERROR_EXPECT>:
    20014:	00 00 00 00 	add	r0,r0
 
-セクション .data の逆アセンブル:
+Disassembly of section .data:
 
 00030000 <T_SRC0_0>:
    30000:	00 00 00 00 	add	r0,r0
@@ -1854,7 +1854,7 @@
 000303a8 <T_IMM_EXPECT46>:
    303a8:	00 00 00 7e 	add	r3,rbase
 
-セクション .stack の逆アセンブル:
+Disassembly of section .stack:
 
 000f0000 <STACK_INDEX>:
    f0000:	00 00 00 00 	add	r0,r0

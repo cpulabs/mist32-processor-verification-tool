@@ -1,5 +1,5 @@
 
-./out/rev8.out:     file format elf32-mist32
+./out/umulh.out:     file format elf32-mist32
 
 
 Disassembly of section .text:
@@ -51,7 +51,7 @@ Disassembly of section .text:
       8c:	0d 44 3d 38 	wl16	r9,0x21f8
       90:	0d 60 01 23 	wh16	r9,0x3
       94:	10 40 01 29 	ld32	r9,r9
-      98:	0e 20 01 10 	rev8	r8,r16
+      98:	01 60 01 10 	umulh	r8,r16
       9c:	20 70 03 e2 	movepc	rret,8
       a0:	14 30 ff dc 	br	10 <compare>,#al
       a4:	00 10 00 41 	add	r2,1
@@ -64,7 +64,7 @@ Disassembly of section .text:
       c0:	0d 44 3d 3c 	wl16	r9,0x21fc
       c4:	0d 60 01 23 	wh16	r9,0x3
       c8:	10 40 01 29 	ld32	r9,r9
-      cc:	0e 20 01 10 	rev8	r8,r16
+      cc:	01 60 01 10 	umulh	r8,r16
       d0:	20 70 03 e2 	movepc	rret,8
       d4:	14 30 ff cf 	br	10 <compare>,#al
       d8:	00 10 00 41 	add	r2,1
@@ -77,7 +77,7 @@ Disassembly of section .text:
       f4:	0d 44 41 20 	wl16	r9,0x2200
       f8:	0d 60 01 23 	wh16	r9,0x3
       fc:	10 40 01 29 	ld32	r9,r9
-     100:	0e 20 01 10 	rev8	r8,r16
+     100:	01 60 01 10 	umulh	r8,r16
      104:	20 70 03 e2 	movepc	rret,8
      108:	14 30 ff c2 	br	10 <compare>,#al
      10c:	00 10 00 41 	add	r2,1
@@ -90,7 +90,7 @@ Disassembly of section .text:
      128:	0d 44 41 24 	wl16	r9,0x2204
      12c:	0d 60 01 23 	wh16	r9,0x3
      130:	10 40 01 29 	ld32	r9,r9
-     134:	0e 20 01 10 	rev8	r8,r16
+     134:	01 60 01 10 	umulh	r8,r16
      138:	20 70 03 e2 	movepc	rret,8
      13c:	14 30 ff b5 	br	10 <compare>,#al
      140:	00 10 00 41 	add	r2,1
@@ -103,7 +103,7 @@ Disassembly of section .text:
      15c:	0d 44 41 28 	wl16	r9,0x2208
      160:	0d 60 01 23 	wh16	r9,0x3
      164:	10 40 01 29 	ld32	r9,r9
-     168:	0e 20 01 10 	rev8	r8,r16
+     168:	01 60 01 10 	umulh	r8,r16
      16c:	20 70 03 e2 	movepc	rret,8
      170:	14 30 ff a8 	br	10 <compare>,#al
      174:	00 10 00 41 	add	r2,1
@@ -116,7 +116,7 @@ Disassembly of section .text:
      190:	0d 44 41 2c 	wl16	r9,0x220c
      194:	0d 60 01 23 	wh16	r9,0x3
      198:	10 40 01 29 	ld32	r9,r9
-     19c:	0e 20 01 10 	rev8	r8,r16
+     19c:	01 60 01 10 	umulh	r8,r16
      1a0:	20 70 03 e2 	movepc	rret,8
      1a4:	14 30 ff 9b 	br	10 <compare>,#al
      1a8:	00 10 00 41 	add	r2,1
@@ -129,7 +129,7 @@ Disassembly of section .text:
      1c4:	0d 44 41 30 	wl16	r9,0x2210
      1c8:	0d 60 01 23 	wh16	r9,0x3
      1cc:	10 40 01 29 	ld32	r9,r9
-     1d0:	0e 20 01 10 	rev8	r8,r16
+     1d0:	01 60 01 10 	umulh	r8,r16
      1d4:	20 70 03 e2 	movepc	rret,8
      1d8:	14 30 ff 8e 	br	10 <compare>,#al
      1dc:	00 10 00 41 	add	r2,1
@@ -142,7 +142,7 @@ Disassembly of section .text:
      1f8:	0d 44 41 34 	wl16	r9,0x2214
      1fc:	0d 60 01 23 	wh16	r9,0x3
      200:	10 40 01 29 	ld32	r9,r9
-     204:	0e 20 01 10 	rev8	r8,r16
+     204:	01 60 01 10 	umulh	r8,r16
      208:	20 70 03 e2 	movepc	rret,8
      20c:	14 30 ff 81 	br	10 <compare>,#al
      210:	00 10 00 41 	add	r2,1
@@ -155,7 +155,7 @@ Disassembly of section .text:
      22c:	0d 44 41 38 	wl16	r9,0x2218
      230:	0d 60 01 23 	wh16	r9,0x3
      234:	10 40 01 29 	ld32	r9,r9
-     238:	0e 20 01 10 	rev8	r8,r16
+     238:	01 60 01 10 	umulh	r8,r16
      23c:	20 70 03 e2 	movepc	rret,8
      240:	14 30 ff 74 	br	10 <compare>,#al
      244:	00 10 00 41 	add	r2,1
@@ -168,7 +168,7 @@ Disassembly of section .text:
      260:	0d 44 41 3c 	wl16	r9,0x221c
      264:	0d 60 01 23 	wh16	r9,0x3
      268:	10 40 01 29 	ld32	r9,r9
-     26c:	0e 20 01 10 	rev8	r8,r16
+     26c:	01 60 01 10 	umulh	r8,r16
      270:	20 70 03 e2 	movepc	rret,8
      274:	14 30 ff 67 	br	10 <compare>,#al
      278:	00 10 00 41 	add	r2,1
@@ -181,7 +181,7 @@ Disassembly of section .text:
      294:	0d 44 45 20 	wl16	r9,0x2220
      298:	0d 60 01 23 	wh16	r9,0x3
      29c:	10 40 01 29 	ld32	r9,r9
-     2a0:	0e 20 01 10 	rev8	r8,r16
+     2a0:	01 60 01 10 	umulh	r8,r16
      2a4:	20 70 03 e2 	movepc	rret,8
      2a8:	14 30 ff 5a 	br	10 <compare>,#al
      2ac:	00 10 00 41 	add	r2,1
@@ -194,7 +194,7 @@ Disassembly of section .text:
      2c8:	0d 44 45 24 	wl16	r9,0x2224
      2cc:	0d 60 01 23 	wh16	r9,0x3
      2d0:	10 40 01 29 	ld32	r9,r9
-     2d4:	0e 20 01 10 	rev8	r8,r16
+     2d4:	01 60 01 10 	umulh	r8,r16
      2d8:	20 70 03 e2 	movepc	rret,8
      2dc:	14 30 ff 4d 	br	10 <compare>,#al
      2e0:	00 10 00 41 	add	r2,1
@@ -207,7 +207,7 @@ Disassembly of section .text:
      2fc:	0d 44 45 28 	wl16	r9,0x2228
      300:	0d 60 01 23 	wh16	r9,0x3
      304:	10 40 01 29 	ld32	r9,r9
-     308:	0e 20 01 10 	rev8	r8,r16
+     308:	01 60 01 10 	umulh	r8,r16
      30c:	20 70 03 e2 	movepc	rret,8
      310:	14 30 ff 40 	br	10 <compare>,#al
      314:	00 10 00 41 	add	r2,1
@@ -220,7 +220,7 @@ Disassembly of section .text:
      330:	0d 44 45 2c 	wl16	r9,0x222c
      334:	0d 60 01 23 	wh16	r9,0x3
      338:	10 40 01 29 	ld32	r9,r9
-     33c:	0e 20 01 10 	rev8	r8,r16
+     33c:	01 60 01 10 	umulh	r8,r16
      340:	20 70 03 e2 	movepc	rret,8
      344:	14 30 ff 33 	br	10 <compare>,#al
      348:	00 10 00 41 	add	r2,1
@@ -233,7 +233,7 @@ Disassembly of section .text:
      364:	0d 44 45 30 	wl16	r9,0x2230
      368:	0d 60 01 23 	wh16	r9,0x3
      36c:	10 40 01 29 	ld32	r9,r9
-     370:	0e 20 01 10 	rev8	r8,r16
+     370:	01 60 01 10 	umulh	r8,r16
      374:	20 70 03 e2 	movepc	rret,8
      378:	14 30 ff 26 	br	10 <compare>,#al
      37c:	00 10 00 41 	add	r2,1
@@ -246,7 +246,7 @@ Disassembly of section .text:
      398:	0d 44 45 34 	wl16	r9,0x2234
      39c:	0d 60 01 23 	wh16	r9,0x3
      3a0:	10 40 01 29 	ld32	r9,r9
-     3a4:	0e 20 01 10 	rev8	r8,r16
+     3a4:	01 60 01 10 	umulh	r8,r16
      3a8:	20 70 03 e2 	movepc	rret,8
      3ac:	14 30 ff 19 	br	10 <compare>,#al
      3b0:	00 10 00 41 	add	r2,1
@@ -259,7 +259,7 @@ Disassembly of section .text:
      3cc:	0d 44 45 38 	wl16	r9,0x2238
      3d0:	0d 60 01 23 	wh16	r9,0x3
      3d4:	10 40 01 29 	ld32	r9,r9
-     3d8:	0e 20 01 10 	rev8	r8,r16
+     3d8:	01 60 01 10 	umulh	r8,r16
      3dc:	20 70 03 e2 	movepc	rret,8
      3e0:	14 30 ff 0c 	br	10 <compare>,#al
      3e4:	00 10 00 41 	add	r2,1
@@ -272,7 +272,7 @@ Disassembly of section .text:
      400:	0d 44 45 3c 	wl16	r9,0x223c
      404:	0d 60 01 23 	wh16	r9,0x3
      408:	10 40 01 29 	ld32	r9,r9
-     40c:	0e 20 01 10 	rev8	r8,r16
+     40c:	01 60 01 10 	umulh	r8,r16
      410:	20 70 03 e2 	movepc	rret,8
      414:	14 30 fe ff 	br	10 <compare>,#al
      418:	00 10 00 41 	add	r2,1
@@ -285,7 +285,7 @@ Disassembly of section .text:
      434:	0d 44 49 20 	wl16	r9,0x2240
      438:	0d 60 01 23 	wh16	r9,0x3
      43c:	10 40 01 29 	ld32	r9,r9
-     440:	0e 20 01 10 	rev8	r8,r16
+     440:	01 60 01 10 	umulh	r8,r16
      444:	20 70 03 e2 	movepc	rret,8
      448:	14 30 fe f2 	br	10 <compare>,#al
      44c:	00 10 00 41 	add	r2,1
@@ -298,7 +298,7 @@ Disassembly of section .text:
      468:	0d 44 49 24 	wl16	r9,0x2244
      46c:	0d 60 01 23 	wh16	r9,0x3
      470:	10 40 01 29 	ld32	r9,r9
-     474:	0e 20 01 10 	rev8	r8,r16
+     474:	01 60 01 10 	umulh	r8,r16
      478:	20 70 03 e2 	movepc	rret,8
      47c:	14 30 fe e5 	br	10 <compare>,#al
      480:	00 10 00 41 	add	r2,1
@@ -311,7 +311,7 @@ Disassembly of section .text:
      49c:	0d 44 49 28 	wl16	r9,0x2248
      4a0:	0d 60 01 23 	wh16	r9,0x3
      4a4:	10 40 01 29 	ld32	r9,r9
-     4a8:	0e 20 01 10 	rev8	r8,r16
+     4a8:	01 60 01 10 	umulh	r8,r16
      4ac:	20 70 03 e2 	movepc	rret,8
      4b0:	14 30 fe d8 	br	10 <compare>,#al
      4b4:	00 10 00 41 	add	r2,1
@@ -324,7 +324,7 @@ Disassembly of section .text:
      4d0:	0d 44 49 2c 	wl16	r9,0x224c
      4d4:	0d 60 01 23 	wh16	r9,0x3
      4d8:	10 40 01 29 	ld32	r9,r9
-     4dc:	0e 20 01 10 	rev8	r8,r16
+     4dc:	01 60 01 10 	umulh	r8,r16
      4e0:	20 70 03 e2 	movepc	rret,8
      4e4:	14 30 fe cb 	br	10 <compare>,#al
      4e8:	00 10 00 41 	add	r2,1
@@ -337,7 +337,7 @@ Disassembly of section .text:
      504:	0d 44 49 30 	wl16	r9,0x2250
      508:	0d 60 01 23 	wh16	r9,0x3
      50c:	10 40 01 29 	ld32	r9,r9
-     510:	0e 20 01 10 	rev8	r8,r16
+     510:	01 60 01 10 	umulh	r8,r16
      514:	20 70 03 e2 	movepc	rret,8
      518:	14 30 fe be 	br	10 <compare>,#al
      51c:	00 10 00 41 	add	r2,1
@@ -350,7 +350,7 @@ Disassembly of section .text:
      538:	0d 44 49 34 	wl16	r9,0x2254
      53c:	0d 60 01 23 	wh16	r9,0x3
      540:	10 40 01 29 	ld32	r9,r9
-     544:	0e 20 01 10 	rev8	r8,r16
+     544:	01 60 01 10 	umulh	r8,r16
      548:	20 70 03 e2 	movepc	rret,8
      54c:	14 30 fe b1 	br	10 <compare>,#al
      550:	00 10 00 41 	add	r2,1
@@ -363,7 +363,7 @@ Disassembly of section .text:
      56c:	0d 44 49 38 	wl16	r9,0x2258
      570:	0d 60 01 23 	wh16	r9,0x3
      574:	10 40 01 29 	ld32	r9,r9
-     578:	0e 20 01 10 	rev8	r8,r16
+     578:	01 60 01 10 	umulh	r8,r16
      57c:	20 70 03 e2 	movepc	rret,8
      580:	14 30 fe a4 	br	10 <compare>,#al
      584:	00 10 00 41 	add	r2,1
@@ -376,7 +376,7 @@ Disassembly of section .text:
      5a0:	0d 44 49 3c 	wl16	r9,0x225c
      5a4:	0d 60 01 23 	wh16	r9,0x3
      5a8:	10 40 01 29 	ld32	r9,r9
-     5ac:	0e 20 01 10 	rev8	r8,r16
+     5ac:	01 60 01 10 	umulh	r8,r16
      5b0:	20 70 03 e2 	movepc	rret,8
      5b4:	14 30 fe 97 	br	10 <compare>,#al
      5b8:	00 10 00 41 	add	r2,1
@@ -389,7 +389,7 @@ Disassembly of section .text:
      5d4:	0d 44 4d 20 	wl16	r9,0x2260
      5d8:	0d 60 01 23 	wh16	r9,0x3
      5dc:	10 40 01 29 	ld32	r9,r9
-     5e0:	0e 20 01 10 	rev8	r8,r16
+     5e0:	01 60 01 10 	umulh	r8,r16
      5e4:	20 70 03 e2 	movepc	rret,8
      5e8:	14 30 fe 8a 	br	10 <compare>,#al
      5ec:	00 10 00 41 	add	r2,1
@@ -402,7 +402,7 @@ Disassembly of section .text:
      608:	0d 44 4d 24 	wl16	r9,0x2264
      60c:	0d 60 01 23 	wh16	r9,0x3
      610:	10 40 01 29 	ld32	r9,r9
-     614:	0e 20 01 10 	rev8	r8,r16
+     614:	01 60 01 10 	umulh	r8,r16
      618:	20 70 03 e2 	movepc	rret,8
      61c:	14 30 fe 7d 	br	10 <compare>,#al
      620:	00 10 00 41 	add	r2,1
@@ -415,7 +415,7 @@ Disassembly of section .text:
      63c:	0d 44 4d 28 	wl16	r9,0x2268
      640:	0d 60 01 23 	wh16	r9,0x3
      644:	10 40 01 29 	ld32	r9,r9
-     648:	0e 20 01 10 	rev8	r8,r16
+     648:	01 60 01 10 	umulh	r8,r16
      64c:	20 70 03 e2 	movepc	rret,8
      650:	14 30 fe 70 	br	10 <compare>,#al
      654:	00 10 00 41 	add	r2,1
@@ -428,7 +428,7 @@ Disassembly of section .text:
      670:	0d 44 4d 2c 	wl16	r9,0x226c
      674:	0d 60 01 23 	wh16	r9,0x3
      678:	10 40 01 29 	ld32	r9,r9
-     67c:	0e 20 01 10 	rev8	r8,r16
+     67c:	01 60 01 10 	umulh	r8,r16
      680:	20 70 03 e2 	movepc	rret,8
      684:	14 30 fe 63 	br	10 <compare>,#al
      688:	00 10 00 41 	add	r2,1
@@ -441,7 +441,7 @@ Disassembly of section .text:
      6a4:	0d 44 4d 30 	wl16	r9,0x2270
      6a8:	0d 60 01 23 	wh16	r9,0x3
      6ac:	10 40 01 29 	ld32	r9,r9
-     6b0:	0e 20 01 10 	rev8	r8,r16
+     6b0:	01 60 01 10 	umulh	r8,r16
      6b4:	20 70 03 e2 	movepc	rret,8
      6b8:	14 30 fe 56 	br	10 <compare>,#al
      6bc:	00 10 00 41 	add	r2,1
@@ -454,7 +454,7 @@ Disassembly of section .text:
      6d8:	0d 44 4d 34 	wl16	r9,0x2274
      6dc:	0d 60 01 23 	wh16	r9,0x3
      6e0:	10 40 01 29 	ld32	r9,r9
-     6e4:	0e 20 01 10 	rev8	r8,r16
+     6e4:	01 60 01 10 	umulh	r8,r16
      6e8:	20 70 03 e2 	movepc	rret,8
      6ec:	14 30 fe 49 	br	10 <compare>,#al
      6f0:	00 10 00 41 	add	r2,1
@@ -467,7 +467,7 @@ Disassembly of section .text:
      70c:	0d 44 4d 38 	wl16	r9,0x2278
      710:	0d 60 01 23 	wh16	r9,0x3
      714:	10 40 01 29 	ld32	r9,r9
-     718:	0e 20 01 10 	rev8	r8,r16
+     718:	01 60 01 10 	umulh	r8,r16
      71c:	20 70 03 e2 	movepc	rret,8
      720:	14 30 fe 3c 	br	10 <compare>,#al
      724:	00 10 00 41 	add	r2,1
@@ -480,7 +480,7 @@ Disassembly of section .text:
      740:	0d 44 4d 3c 	wl16	r9,0x227c
      744:	0d 60 01 23 	wh16	r9,0x3
      748:	10 40 01 29 	ld32	r9,r9
-     74c:	0e 20 01 10 	rev8	r8,r16
+     74c:	01 60 01 10 	umulh	r8,r16
      750:	20 70 03 e2 	movepc	rret,8
      754:	14 30 fe 2f 	br	10 <compare>,#al
      758:	00 10 00 41 	add	r2,1
@@ -493,7 +493,7 @@ Disassembly of section .text:
      774:	0d 44 51 20 	wl16	r9,0x2280
      778:	0d 60 01 23 	wh16	r9,0x3
      77c:	10 40 01 29 	ld32	r9,r9
-     780:	0e 20 01 10 	rev8	r8,r16
+     780:	01 60 01 10 	umulh	r8,r16
      784:	20 70 03 e2 	movepc	rret,8
      788:	14 30 fe 22 	br	10 <compare>,#al
      78c:	00 10 00 41 	add	r2,1
@@ -506,7 +506,7 @@ Disassembly of section .text:
      7a8:	0d 44 51 24 	wl16	r9,0x2284
      7ac:	0d 60 01 23 	wh16	r9,0x3
      7b0:	10 40 01 29 	ld32	r9,r9
-     7b4:	0e 20 01 10 	rev8	r8,r16
+     7b4:	01 60 01 10 	umulh	r8,r16
      7b8:	20 70 03 e2 	movepc	rret,8
      7bc:	14 30 fe 15 	br	10 <compare>,#al
      7c0:	00 10 00 41 	add	r2,1
@@ -519,7 +519,7 @@ Disassembly of section .text:
      7dc:	0d 44 51 28 	wl16	r9,0x2288
      7e0:	0d 60 01 23 	wh16	r9,0x3
      7e4:	10 40 01 29 	ld32	r9,r9
-     7e8:	0e 20 01 10 	rev8	r8,r16
+     7e8:	01 60 01 10 	umulh	r8,r16
      7ec:	20 70 03 e2 	movepc	rret,8
      7f0:	14 30 fe 08 	br	10 <compare>,#al
      7f4:	00 10 00 41 	add	r2,1
@@ -532,7 +532,7 @@ Disassembly of section .text:
      810:	0d 44 51 2c 	wl16	r9,0x228c
      814:	0d 60 01 23 	wh16	r9,0x3
      818:	10 40 01 29 	ld32	r9,r9
-     81c:	0e 20 01 10 	rev8	r8,r16
+     81c:	01 60 01 10 	umulh	r8,r16
      820:	20 70 03 e2 	movepc	rret,8
      824:	14 30 fd fb 	br	10 <compare>,#al
      828:	00 10 00 41 	add	r2,1
@@ -545,7 +545,7 @@ Disassembly of section .text:
      844:	0d 44 51 30 	wl16	r9,0x2290
      848:	0d 60 01 23 	wh16	r9,0x3
      84c:	10 40 01 29 	ld32	r9,r9
-     850:	0e 20 01 10 	rev8	r8,r16
+     850:	01 60 01 10 	umulh	r8,r16
      854:	20 70 03 e2 	movepc	rret,8
      858:	14 30 fd ee 	br	10 <compare>,#al
      85c:	00 10 00 41 	add	r2,1
@@ -558,7 +558,7 @@ Disassembly of section .text:
      878:	0d 44 51 34 	wl16	r9,0x2294
      87c:	0d 60 01 23 	wh16	r9,0x3
      880:	10 40 01 29 	ld32	r9,r9
-     884:	0e 20 01 10 	rev8	r8,r16
+     884:	01 60 01 10 	umulh	r8,r16
      888:	20 70 03 e2 	movepc	rret,8
      88c:	14 30 fd e1 	br	10 <compare>,#al
      890:	00 10 00 41 	add	r2,1
@@ -571,7 +571,7 @@ Disassembly of section .text:
      8ac:	0d 44 51 38 	wl16	r9,0x2298
      8b0:	0d 60 01 23 	wh16	r9,0x3
      8b4:	10 40 01 29 	ld32	r9,r9
-     8b8:	0e 20 01 10 	rev8	r8,r16
+     8b8:	01 60 01 10 	umulh	r8,r16
      8bc:	20 70 03 e2 	movepc	rret,8
      8c0:	14 30 fd d4 	br	10 <compare>,#al
      8c4:	00 10 00 41 	add	r2,1
@@ -584,7 +584,7 @@ Disassembly of section .text:
      8e0:	0d 44 51 3c 	wl16	r9,0x229c
      8e4:	0d 60 01 23 	wh16	r9,0x3
      8e8:	10 40 01 29 	ld32	r9,r9
-     8ec:	0e 20 01 10 	rev8	r8,r16
+     8ec:	01 60 01 10 	umulh	r8,r16
      8f0:	20 70 03 e2 	movepc	rret,8
      8f4:	14 30 fd c7 	br	10 <compare>,#al
      8f8:	00 10 00 41 	add	r2,1
@@ -597,7 +597,7 @@ Disassembly of section .text:
      914:	0d 44 55 20 	wl16	r9,0x22a0
      918:	0d 60 01 23 	wh16	r9,0x3
      91c:	10 40 01 29 	ld32	r9,r9
-     920:	0e 20 01 10 	rev8	r8,r16
+     920:	01 60 01 10 	umulh	r8,r16
      924:	20 70 03 e2 	movepc	rret,8
      928:	14 30 fd ba 	br	10 <compare>,#al
      92c:	00 10 00 41 	add	r2,1
@@ -610,7 +610,7 @@ Disassembly of section .text:
      948:	0d 44 55 24 	wl16	r9,0x22a4
      94c:	0d 60 01 23 	wh16	r9,0x3
      950:	10 40 01 29 	ld32	r9,r9
-     954:	0e 20 01 10 	rev8	r8,r16
+     954:	01 60 01 10 	umulh	r8,r16
      958:	20 70 03 e2 	movepc	rret,8
      95c:	14 30 fd ad 	br	10 <compare>,#al
      960:	00 10 00 41 	add	r2,1
@@ -623,7 +623,7 @@ Disassembly of section .text:
      97c:	0d 44 55 28 	wl16	r9,0x22a8
      980:	0d 60 01 23 	wh16	r9,0x3
      984:	10 40 01 29 	ld32	r9,r9
-     988:	0e 20 01 10 	rev8	r8,r16
+     988:	01 60 01 10 	umulh	r8,r16
      98c:	20 70 03 e2 	movepc	rret,8
      990:	14 30 fd a0 	br	10 <compare>,#al
      994:	00 10 00 41 	add	r2,1
@@ -636,7 +636,7 @@ Disassembly of section .text:
      9b0:	0d 44 55 2c 	wl16	r9,0x22ac
      9b4:	0d 60 01 23 	wh16	r9,0x3
      9b8:	10 40 01 29 	ld32	r9,r9
-     9bc:	0e 20 01 10 	rev8	r8,r16
+     9bc:	01 60 01 10 	umulh	r8,r16
      9c0:	20 70 03 e2 	movepc	rret,8
      9c4:	14 30 fd 93 	br	10 <compare>,#al
      9c8:	00 10 00 41 	add	r2,1
@@ -649,7 +649,7 @@ Disassembly of section .text:
      9e4:	0d 44 55 30 	wl16	r9,0x22b0
      9e8:	0d 60 01 23 	wh16	r9,0x3
      9ec:	10 40 01 29 	ld32	r9,r9
-     9f0:	0e 20 01 10 	rev8	r8,r16
+     9f0:	01 60 01 10 	umulh	r8,r16
      9f4:	20 70 03 e2 	movepc	rret,8
      9f8:	14 30 fd 86 	br	10 <compare>,#al
      9fc:	00 10 00 41 	add	r2,1
@@ -662,7 +662,7 @@ Disassembly of section .text:
      a18:	0d 44 55 34 	wl16	r9,0x22b4
      a1c:	0d 60 01 23 	wh16	r9,0x3
      a20:	10 40 01 29 	ld32	r9,r9
-     a24:	0e 20 01 10 	rev8	r8,r16
+     a24:	01 60 01 10 	umulh	r8,r16
      a28:	20 70 03 e2 	movepc	rret,8
      a2c:	14 30 fd 79 	br	10 <compare>,#al
      a30:	00 10 00 41 	add	r2,1
@@ -675,7 +675,7 @@ Disassembly of section .text:
      a4c:	0d 44 55 38 	wl16	r9,0x22b8
      a50:	0d 60 01 23 	wh16	r9,0x3
      a54:	10 40 01 29 	ld32	r9,r9
-     a58:	0e 20 01 10 	rev8	r8,r16
+     a58:	01 60 01 10 	umulh	r8,r16
      a5c:	20 70 03 e2 	movepc	rret,8
      a60:	14 30 fd 6c 	br	10 <compare>,#al
      a64:	00 10 00 41 	add	r2,1
@@ -688,7 +688,7 @@ Disassembly of section .text:
      a80:	0d 44 55 3c 	wl16	r9,0x22bc
      a84:	0d 60 01 23 	wh16	r9,0x3
      a88:	10 40 01 29 	ld32	r9,r9
-     a8c:	0e 20 01 10 	rev8	r8,r16
+     a8c:	01 60 01 10 	umulh	r8,r16
      a90:	20 70 03 e2 	movepc	rret,8
      a94:	14 30 fd 5f 	br	10 <compare>,#al
      a98:	00 10 00 41 	add	r2,1
@@ -701,7 +701,7 @@ Disassembly of section .text:
      ab4:	0d 44 59 20 	wl16	r9,0x22c0
      ab8:	0d 60 01 23 	wh16	r9,0x3
      abc:	10 40 01 29 	ld32	r9,r9
-     ac0:	0e 20 01 10 	rev8	r8,r16
+     ac0:	01 60 01 10 	umulh	r8,r16
      ac4:	20 70 03 e2 	movepc	rret,8
      ac8:	14 30 fd 52 	br	10 <compare>,#al
      acc:	00 10 00 41 	add	r2,1
@@ -714,7 +714,7 @@ Disassembly of section .text:
      ae8:	0d 44 59 24 	wl16	r9,0x22c4
      aec:	0d 60 01 23 	wh16	r9,0x3
      af0:	10 40 01 29 	ld32	r9,r9
-     af4:	0e 20 01 10 	rev8	r8,r16
+     af4:	01 60 01 10 	umulh	r8,r16
      af8:	20 70 03 e2 	movepc	rret,8
      afc:	14 30 fd 45 	br	10 <compare>,#al
      b00:	00 10 00 41 	add	r2,1
@@ -727,7 +727,7 @@ Disassembly of section .text:
      b1c:	0d 44 59 28 	wl16	r9,0x22c8
      b20:	0d 60 01 23 	wh16	r9,0x3
      b24:	10 40 01 29 	ld32	r9,r9
-     b28:	0e 20 01 10 	rev8	r8,r16
+     b28:	01 60 01 10 	umulh	r8,r16
      b2c:	20 70 03 e2 	movepc	rret,8
      b30:	14 30 fd 38 	br	10 <compare>,#al
      b34:	00 10 00 41 	add	r2,1
@@ -740,7 +740,7 @@ Disassembly of section .text:
      b50:	0d 44 59 2c 	wl16	r9,0x22cc
      b54:	0d 60 01 23 	wh16	r9,0x3
      b58:	10 40 01 29 	ld32	r9,r9
-     b5c:	0e 20 01 10 	rev8	r8,r16
+     b5c:	01 60 01 10 	umulh	r8,r16
      b60:	20 70 03 e2 	movepc	rret,8
      b64:	14 30 fd 2b 	br	10 <compare>,#al
      b68:	00 10 00 41 	add	r2,1
@@ -753,7 +753,7 @@ Disassembly of section .text:
      b84:	0d 44 59 30 	wl16	r9,0x22d0
      b88:	0d 60 01 23 	wh16	r9,0x3
      b8c:	10 40 01 29 	ld32	r9,r9
-     b90:	0e 20 01 10 	rev8	r8,r16
+     b90:	01 60 01 10 	umulh	r8,r16
      b94:	20 70 03 e2 	movepc	rret,8
      b98:	14 30 fd 1e 	br	10 <compare>,#al
      b9c:	00 10 00 41 	add	r2,1
@@ -766,7 +766,7 @@ Disassembly of section .text:
      bb8:	0d 44 59 34 	wl16	r9,0x22d4
      bbc:	0d 60 01 23 	wh16	r9,0x3
      bc0:	10 40 01 29 	ld32	r9,r9
-     bc4:	0e 20 01 10 	rev8	r8,r16
+     bc4:	01 60 01 10 	umulh	r8,r16
      bc8:	20 70 03 e2 	movepc	rret,8
      bcc:	14 30 fd 11 	br	10 <compare>,#al
      bd0:	00 10 00 41 	add	r2,1
@@ -779,7 +779,7 @@ Disassembly of section .text:
      bec:	0d 44 59 38 	wl16	r9,0x22d8
      bf0:	0d 60 01 23 	wh16	r9,0x3
      bf4:	10 40 01 29 	ld32	r9,r9
-     bf8:	0e 20 01 10 	rev8	r8,r16
+     bf8:	01 60 01 10 	umulh	r8,r16
      bfc:	20 70 03 e2 	movepc	rret,8
      c00:	14 30 fd 04 	br	10 <compare>,#al
      c04:	00 10 00 41 	add	r2,1
@@ -792,7 +792,7 @@ Disassembly of section .text:
      c20:	0d 44 59 3c 	wl16	r9,0x22dc
      c24:	0d 60 01 23 	wh16	r9,0x3
      c28:	10 40 01 29 	ld32	r9,r9
-     c2c:	0e 20 01 10 	rev8	r8,r16
+     c2c:	01 60 01 10 	umulh	r8,r16
      c30:	20 70 03 e2 	movepc	rret,8
      c34:	14 30 fc f7 	br	10 <compare>,#al
      c38:	00 10 00 41 	add	r2,1
@@ -805,7 +805,7 @@ Disassembly of section .text:
      c54:	0d 44 5d 20 	wl16	r9,0x22e0
      c58:	0d 60 01 23 	wh16	r9,0x3
      c5c:	10 40 01 29 	ld32	r9,r9
-     c60:	0e 20 01 10 	rev8	r8,r16
+     c60:	01 60 01 10 	umulh	r8,r16
      c64:	20 70 03 e2 	movepc	rret,8
      c68:	14 30 fc ea 	br	10 <compare>,#al
      c6c:	00 10 00 41 	add	r2,1
@@ -818,7 +818,7 @@ Disassembly of section .text:
      c88:	0d 44 5d 24 	wl16	r9,0x22e4
      c8c:	0d 60 01 23 	wh16	r9,0x3
      c90:	10 40 01 29 	ld32	r9,r9
-     c94:	0e 20 01 10 	rev8	r8,r16
+     c94:	01 60 01 10 	umulh	r8,r16
      c98:	20 70 03 e2 	movepc	rret,8
      c9c:	14 30 fc dd 	br	10 <compare>,#al
      ca0:	00 10 00 41 	add	r2,1
@@ -831,7 +831,7 @@ Disassembly of section .text:
      cbc:	0d 44 5d 28 	wl16	r9,0x22e8
      cc0:	0d 60 01 23 	wh16	r9,0x3
      cc4:	10 40 01 29 	ld32	r9,r9
-     cc8:	0e 20 01 10 	rev8	r8,r16
+     cc8:	01 60 01 10 	umulh	r8,r16
      ccc:	20 70 03 e2 	movepc	rret,8
      cd0:	14 30 fc d0 	br	10 <compare>,#al
      cd4:	00 10 00 41 	add	r2,1
@@ -844,7 +844,7 @@ Disassembly of section .text:
      cf0:	0d 44 5d 2c 	wl16	r9,0x22ec
      cf4:	0d 60 01 23 	wh16	r9,0x3
      cf8:	10 40 01 29 	ld32	r9,r9
-     cfc:	0e 20 01 10 	rev8	r8,r16
+     cfc:	01 60 01 10 	umulh	r8,r16
      d00:	20 70 03 e2 	movepc	rret,8
      d04:	14 30 fc c3 	br	10 <compare>,#al
      d08:	00 10 00 41 	add	r2,1
@@ -857,7 +857,7 @@ Disassembly of section .text:
      d24:	0d 44 5d 30 	wl16	r9,0x22f0
      d28:	0d 60 01 23 	wh16	r9,0x3
      d2c:	10 40 01 29 	ld32	r9,r9
-     d30:	0e 20 01 10 	rev8	r8,r16
+     d30:	01 60 01 10 	umulh	r8,r16
      d34:	20 70 03 e2 	movepc	rret,8
      d38:	14 30 fc b6 	br	10 <compare>,#al
      d3c:	00 10 00 41 	add	r2,1
@@ -870,7 +870,7 @@ Disassembly of section .text:
      d58:	0d 44 5d 34 	wl16	r9,0x22f4
      d5c:	0d 60 01 23 	wh16	r9,0x3
      d60:	10 40 01 29 	ld32	r9,r9
-     d64:	0e 20 01 10 	rev8	r8,r16
+     d64:	01 60 01 10 	umulh	r8,r16
      d68:	20 70 03 e2 	movepc	rret,8
      d6c:	14 30 fc a9 	br	10 <compare>,#al
      d70:	00 10 00 41 	add	r2,1
@@ -883,7 +883,7 @@ Disassembly of section .text:
      d8c:	0d 44 5d 38 	wl16	r9,0x22f8
      d90:	0d 60 01 23 	wh16	r9,0x3
      d94:	10 40 01 29 	ld32	r9,r9
-     d98:	0e 20 01 10 	rev8	r8,r16
+     d98:	01 60 01 10 	umulh	r8,r16
      d9c:	20 70 03 e2 	movepc	rret,8
      da0:	14 30 fc 9c 	br	10 <compare>,#al
      da4:	00 10 00 41 	add	r2,1
@@ -896,7 +896,7 @@ Disassembly of section .text:
      dc0:	0d 44 5d 3c 	wl16	r9,0x22fc
      dc4:	0d 60 01 23 	wh16	r9,0x3
      dc8:	10 40 01 29 	ld32	r9,r9
-     dcc:	0e 20 01 10 	rev8	r8,r16
+     dcc:	01 60 01 10 	umulh	r8,r16
      dd0:	20 70 03 e2 	movepc	rret,8
      dd4:	14 30 fc 8f 	br	10 <compare>,#al
      dd8:	00 10 00 41 	add	r2,1
@@ -909,7 +909,7 @@ Disassembly of section .text:
      df4:	0d 44 61 20 	wl16	r9,0x2300
      df8:	0d 60 01 23 	wh16	r9,0x3
      dfc:	10 40 01 29 	ld32	r9,r9
-     e00:	0e 20 01 10 	rev8	r8,r16
+     e00:	01 60 01 10 	umulh	r8,r16
      e04:	20 70 03 e2 	movepc	rret,8
      e08:	14 30 fc 82 	br	10 <compare>,#al
      e0c:	00 10 00 41 	add	r2,1
@@ -922,7 +922,7 @@ Disassembly of section .text:
      e28:	0d 44 61 24 	wl16	r9,0x2304
      e2c:	0d 60 01 23 	wh16	r9,0x3
      e30:	10 40 01 29 	ld32	r9,r9
-     e34:	0e 20 01 10 	rev8	r8,r16
+     e34:	01 60 01 10 	umulh	r8,r16
      e38:	20 70 03 e2 	movepc	rret,8
      e3c:	14 30 fc 75 	br	10 <compare>,#al
      e40:	00 10 00 41 	add	r2,1
@@ -935,7 +935,7 @@ Disassembly of section .text:
      e5c:	0d 44 61 28 	wl16	r9,0x2308
      e60:	0d 60 01 23 	wh16	r9,0x3
      e64:	10 40 01 29 	ld32	r9,r9
-     e68:	0e 20 01 10 	rev8	r8,r16
+     e68:	01 60 01 10 	umulh	r8,r16
      e6c:	20 70 03 e2 	movepc	rret,8
      e70:	14 30 fc 68 	br	10 <compare>,#al
      e74:	00 10 00 41 	add	r2,1
@@ -948,7 +948,7 @@ Disassembly of section .text:
      e90:	0d 44 61 2c 	wl16	r9,0x230c
      e94:	0d 60 01 23 	wh16	r9,0x3
      e98:	10 40 01 29 	ld32	r9,r9
-     e9c:	0e 20 01 10 	rev8	r8,r16
+     e9c:	01 60 01 10 	umulh	r8,r16
      ea0:	20 70 03 e2 	movepc	rret,8
      ea4:	14 30 fc 5b 	br	10 <compare>,#al
      ea8:	00 10 00 41 	add	r2,1
@@ -961,7 +961,7 @@ Disassembly of section .text:
      ec4:	0d 44 61 30 	wl16	r9,0x2310
      ec8:	0d 60 01 23 	wh16	r9,0x3
      ecc:	10 40 01 29 	ld32	r9,r9
-     ed0:	0e 20 01 10 	rev8	r8,r16
+     ed0:	01 60 01 10 	umulh	r8,r16
      ed4:	20 70 03 e2 	movepc	rret,8
      ed8:	14 30 fc 4e 	br	10 <compare>,#al
      edc:	00 10 00 41 	add	r2,1
@@ -974,7 +974,7 @@ Disassembly of section .text:
      ef8:	0d 44 61 34 	wl16	r9,0x2314
      efc:	0d 60 01 23 	wh16	r9,0x3
      f00:	10 40 01 29 	ld32	r9,r9
-     f04:	0e 20 01 10 	rev8	r8,r16
+     f04:	01 60 01 10 	umulh	r8,r16
      f08:	20 70 03 e2 	movepc	rret,8
      f0c:	14 30 fc 41 	br	10 <compare>,#al
      f10:	00 10 00 41 	add	r2,1
@@ -987,7 +987,7 @@ Disassembly of section .text:
      f2c:	0d 44 61 38 	wl16	r9,0x2318
      f30:	0d 60 01 23 	wh16	r9,0x3
      f34:	10 40 01 29 	ld32	r9,r9
-     f38:	0e 20 01 10 	rev8	r8,r16
+     f38:	01 60 01 10 	umulh	r8,r16
      f3c:	20 70 03 e2 	movepc	rret,8
      f40:	14 30 fc 34 	br	10 <compare>,#al
      f44:	00 10 00 41 	add	r2,1
@@ -1000,7 +1000,7 @@ Disassembly of section .text:
      f60:	0d 44 61 3c 	wl16	r9,0x231c
      f64:	0d 60 01 23 	wh16	r9,0x3
      f68:	10 40 01 29 	ld32	r9,r9
-     f6c:	0e 20 01 10 	rev8	r8,r16
+     f6c:	01 60 01 10 	umulh	r8,r16
      f70:	20 70 03 e2 	movepc	rret,8
      f74:	14 30 fc 27 	br	10 <compare>,#al
      f78:	00 10 00 41 	add	r2,1
@@ -1013,7 +1013,7 @@ Disassembly of section .text:
      f94:	0d 44 65 20 	wl16	r9,0x2320
      f98:	0d 60 01 23 	wh16	r9,0x3
      f9c:	10 40 01 29 	ld32	r9,r9
-     fa0:	0e 20 01 10 	rev8	r8,r16
+     fa0:	01 60 01 10 	umulh	r8,r16
      fa4:	20 70 03 e2 	movepc	rret,8
      fa8:	14 30 fc 1a 	br	10 <compare>,#al
      fac:	00 10 00 41 	add	r2,1
@@ -1026,7 +1026,7 @@ Disassembly of section .text:
      fc8:	0d 44 65 24 	wl16	r9,0x2324
      fcc:	0d 60 01 23 	wh16	r9,0x3
      fd0:	10 40 01 29 	ld32	r9,r9
-     fd4:	0e 20 01 10 	rev8	r8,r16
+     fd4:	01 60 01 10 	umulh	r8,r16
      fd8:	20 70 03 e2 	movepc	rret,8
      fdc:	14 30 fc 0d 	br	10 <compare>,#al
      fe0:	00 10 00 41 	add	r2,1
@@ -1039,7 +1039,7 @@ Disassembly of section .text:
      ffc:	0d 44 65 28 	wl16	r9,0x2328
     1000:	0d 60 01 23 	wh16	r9,0x3
     1004:	10 40 01 29 	ld32	r9,r9
-    1008:	0e 20 01 10 	rev8	r8,r16
+    1008:	01 60 01 10 	umulh	r8,r16
     100c:	20 70 03 e2 	movepc	rret,8
     1010:	14 30 fc 00 	br	10 <compare>,#al
     1014:	00 10 00 41 	add	r2,1
@@ -1052,7 +1052,7 @@ Disassembly of section .text:
     1030:	0d 44 65 2c 	wl16	r9,0x232c
     1034:	0d 60 01 23 	wh16	r9,0x3
     1038:	10 40 01 29 	ld32	r9,r9
-    103c:	0e 20 01 10 	rev8	r8,r16
+    103c:	01 60 01 10 	umulh	r8,r16
     1040:	20 70 03 e2 	movepc	rret,8
     1044:	14 30 fb f3 	br	10 <compare>,#al
     1048:	00 10 00 41 	add	r2,1
@@ -1065,7 +1065,7 @@ Disassembly of section .text:
     1064:	0d 44 65 30 	wl16	r9,0x2330
     1068:	0d 60 01 23 	wh16	r9,0x3
     106c:	10 40 01 29 	ld32	r9,r9
-    1070:	0e 20 01 10 	rev8	r8,r16
+    1070:	01 60 01 10 	umulh	r8,r16
     1074:	20 70 03 e2 	movepc	rret,8
     1078:	14 30 fb e6 	br	10 <compare>,#al
     107c:	00 10 00 41 	add	r2,1
@@ -1078,7 +1078,7 @@ Disassembly of section .text:
     1098:	0d 44 65 34 	wl16	r9,0x2334
     109c:	0d 60 01 23 	wh16	r9,0x3
     10a0:	10 40 01 29 	ld32	r9,r9
-    10a4:	0e 20 01 10 	rev8	r8,r16
+    10a4:	01 60 01 10 	umulh	r8,r16
     10a8:	20 70 03 e2 	movepc	rret,8
     10ac:	14 30 fb d9 	br	10 <compare>,#al
     10b0:	00 10 00 41 	add	r2,1
@@ -1091,7 +1091,7 @@ Disassembly of section .text:
     10cc:	0d 44 65 38 	wl16	r9,0x2338
     10d0:	0d 60 01 23 	wh16	r9,0x3
     10d4:	10 40 01 29 	ld32	r9,r9
-    10d8:	0e 20 01 10 	rev8	r8,r16
+    10d8:	01 60 01 10 	umulh	r8,r16
     10dc:	20 70 03 e2 	movepc	rret,8
     10e0:	14 30 fb cc 	br	10 <compare>,#al
     10e4:	00 10 00 41 	add	r2,1
@@ -1104,7 +1104,7 @@ Disassembly of section .text:
     1100:	0d 44 65 3c 	wl16	r9,0x233c
     1104:	0d 60 01 23 	wh16	r9,0x3
     1108:	10 40 01 29 	ld32	r9,r9
-    110c:	0e 20 01 10 	rev8	r8,r16
+    110c:	01 60 01 10 	umulh	r8,r16
     1110:	20 70 03 e2 	movepc	rret,8
     1114:	14 30 fb bf 	br	10 <compare>,#al
     1118:	00 10 00 41 	add	r2,1
@@ -1117,7 +1117,7 @@ Disassembly of section .text:
     1134:	0d 44 69 20 	wl16	r9,0x2340
     1138:	0d 60 01 23 	wh16	r9,0x3
     113c:	10 40 01 29 	ld32	r9,r9
-    1140:	0e 20 01 10 	rev8	r8,r16
+    1140:	01 60 01 10 	umulh	r8,r16
     1144:	20 70 03 e2 	movepc	rret,8
     1148:	14 30 fb b2 	br	10 <compare>,#al
     114c:	00 10 00 41 	add	r2,1
@@ -1130,7 +1130,7 @@ Disassembly of section .text:
     1168:	0d 44 69 24 	wl16	r9,0x2344
     116c:	0d 60 01 23 	wh16	r9,0x3
     1170:	10 40 01 29 	ld32	r9,r9
-    1174:	0e 20 01 10 	rev8	r8,r16
+    1174:	01 60 01 10 	umulh	r8,r16
     1178:	20 70 03 e2 	movepc	rret,8
     117c:	14 30 fb a5 	br	10 <compare>,#al
     1180:	00 10 00 41 	add	r2,1
@@ -1143,7 +1143,7 @@ Disassembly of section .text:
     119c:	0d 44 69 28 	wl16	r9,0x2348
     11a0:	0d 60 01 23 	wh16	r9,0x3
     11a4:	10 40 01 29 	ld32	r9,r9
-    11a8:	0e 20 01 10 	rev8	r8,r16
+    11a8:	01 60 01 10 	umulh	r8,r16
     11ac:	20 70 03 e2 	movepc	rret,8
     11b0:	14 30 fb 98 	br	10 <compare>,#al
     11b4:	00 10 00 41 	add	r2,1
@@ -1156,7 +1156,7 @@ Disassembly of section .text:
     11d0:	0d 44 69 2c 	wl16	r9,0x234c
     11d4:	0d 60 01 23 	wh16	r9,0x3
     11d8:	10 40 01 29 	ld32	r9,r9
-    11dc:	0e 20 01 10 	rev8	r8,r16
+    11dc:	01 60 01 10 	umulh	r8,r16
     11e0:	20 70 03 e2 	movepc	rret,8
     11e4:	14 30 fb 8b 	br	10 <compare>,#al
     11e8:	00 10 00 41 	add	r2,1
@@ -1169,7 +1169,7 @@ Disassembly of section .text:
     1204:	0d 44 69 30 	wl16	r9,0x2350
     1208:	0d 60 01 23 	wh16	r9,0x3
     120c:	10 40 01 29 	ld32	r9,r9
-    1210:	0e 20 01 10 	rev8	r8,r16
+    1210:	01 60 01 10 	umulh	r8,r16
     1214:	20 70 03 e2 	movepc	rret,8
     1218:	14 30 fb 7e 	br	10 <compare>,#al
     121c:	00 10 00 41 	add	r2,1
@@ -1182,7 +1182,7 @@ Disassembly of section .text:
     1238:	0d 44 69 34 	wl16	r9,0x2354
     123c:	0d 60 01 23 	wh16	r9,0x3
     1240:	10 40 01 29 	ld32	r9,r9
-    1244:	0e 20 01 10 	rev8	r8,r16
+    1244:	01 60 01 10 	umulh	r8,r16
     1248:	20 70 03 e2 	movepc	rret,8
     124c:	14 30 fb 71 	br	10 <compare>,#al
     1250:	00 10 00 41 	add	r2,1
@@ -1195,7 +1195,7 @@ Disassembly of section .text:
     126c:	0d 44 69 38 	wl16	r9,0x2358
     1270:	0d 60 01 23 	wh16	r9,0x3
     1274:	10 40 01 29 	ld32	r9,r9
-    1278:	0e 20 01 10 	rev8	r8,r16
+    1278:	01 60 01 10 	umulh	r8,r16
     127c:	20 70 03 e2 	movepc	rret,8
     1280:	14 30 fb 64 	br	10 <compare>,#al
     1284:	00 10 00 41 	add	r2,1
@@ -1208,7 +1208,7 @@ Disassembly of section .text:
     12a0:	0d 44 69 3c 	wl16	r9,0x235c
     12a4:	0d 60 01 23 	wh16	r9,0x3
     12a8:	10 40 01 29 	ld32	r9,r9
-    12ac:	0e 20 01 10 	rev8	r8,r16
+    12ac:	01 60 01 10 	umulh	r8,r16
     12b0:	20 70 03 e2 	movepc	rret,8
     12b4:	14 30 fb 57 	br	10 <compare>,#al
     12b8:	00 10 00 41 	add	r2,1
@@ -1221,7 +1221,7 @@ Disassembly of section .text:
     12d4:	0d 44 6d 20 	wl16	r9,0x2360
     12d8:	0d 60 01 23 	wh16	r9,0x3
     12dc:	10 40 01 29 	ld32	r9,r9
-    12e0:	0e 20 01 10 	rev8	r8,r16
+    12e0:	01 60 01 10 	umulh	r8,r16
     12e4:	20 70 03 e2 	movepc	rret,8
     12e8:	14 30 fb 4a 	br	10 <compare>,#al
     12ec:	00 10 00 41 	add	r2,1
@@ -1234,7 +1234,7 @@ Disassembly of section .text:
     1308:	0d 44 6d 24 	wl16	r9,0x2364
     130c:	0d 60 01 23 	wh16	r9,0x3
     1310:	10 40 01 29 	ld32	r9,r9
-    1314:	0e 20 01 10 	rev8	r8,r16
+    1314:	01 60 01 10 	umulh	r8,r16
     1318:	20 70 03 e2 	movepc	rret,8
     131c:	14 30 fb 3d 	br	10 <compare>,#al
     1320:	00 10 00 41 	add	r2,1
@@ -1247,7 +1247,7 @@ Disassembly of section .text:
     133c:	0d 44 6d 28 	wl16	r9,0x2368
     1340:	0d 60 01 23 	wh16	r9,0x3
     1344:	10 40 01 29 	ld32	r9,r9
-    1348:	0e 20 01 10 	rev8	r8,r16
+    1348:	01 60 01 10 	umulh	r8,r16
     134c:	20 70 03 e2 	movepc	rret,8
     1350:	14 30 fb 30 	br	10 <compare>,#al
     1354:	00 10 00 41 	add	r2,1
@@ -1260,7 +1260,7 @@ Disassembly of section .text:
     1370:	0d 44 6d 2c 	wl16	r9,0x236c
     1374:	0d 60 01 23 	wh16	r9,0x3
     1378:	10 40 01 29 	ld32	r9,r9
-    137c:	0e 20 01 10 	rev8	r8,r16
+    137c:	01 60 01 10 	umulh	r8,r16
     1380:	20 70 03 e2 	movepc	rret,8
     1384:	14 30 fb 23 	br	10 <compare>,#al
     1388:	00 10 00 41 	add	r2,1
@@ -1273,7 +1273,7 @@ Disassembly of section .text:
     13a4:	0d 44 6d 30 	wl16	r9,0x2370
     13a8:	0d 60 01 23 	wh16	r9,0x3
     13ac:	10 40 01 29 	ld32	r9,r9
-    13b0:	0e 20 01 10 	rev8	r8,r16
+    13b0:	01 60 01 10 	umulh	r8,r16
     13b4:	20 70 03 e2 	movepc	rret,8
     13b8:	14 30 fb 16 	br	10 <compare>,#al
     13bc:	00 10 00 41 	add	r2,1
@@ -1286,7 +1286,7 @@ Disassembly of section .text:
     13d8:	0d 44 6d 34 	wl16	r9,0x2374
     13dc:	0d 60 01 23 	wh16	r9,0x3
     13e0:	10 40 01 29 	ld32	r9,r9
-    13e4:	0e 20 01 10 	rev8	r8,r16
+    13e4:	01 60 01 10 	umulh	r8,r16
     13e8:	20 70 03 e2 	movepc	rret,8
     13ec:	14 30 fb 09 	br	10 <compare>,#al
     13f0:	00 10 00 41 	add	r2,1
@@ -1299,7 +1299,7 @@ Disassembly of section .text:
     140c:	0d 44 6d 38 	wl16	r9,0x2378
     1410:	0d 60 01 23 	wh16	r9,0x3
     1414:	10 40 01 29 	ld32	r9,r9
-    1418:	0e 20 01 10 	rev8	r8,r16
+    1418:	01 60 01 10 	umulh	r8,r16
     141c:	20 70 03 e2 	movepc	rret,8
     1420:	14 30 fa fc 	br	10 <compare>,#al
     1424:	00 10 00 41 	add	r2,1
@@ -1312,7 +1312,7 @@ Disassembly of section .text:
     1440:	0d 44 6d 3c 	wl16	r9,0x237c
     1444:	0d 60 01 23 	wh16	r9,0x3
     1448:	10 40 01 29 	ld32	r9,r9
-    144c:	0e 20 01 10 	rev8	r8,r16
+    144c:	01 60 01 10 	umulh	r8,r16
     1450:	20 70 03 e2 	movepc	rret,8
     1454:	14 30 fa ef 	br	10 <compare>,#al
     1458:	00 10 00 41 	add	r2,1
@@ -1325,7 +1325,7 @@ Disassembly of section .text:
     1474:	0d 44 71 20 	wl16	r9,0x2380
     1478:	0d 60 01 23 	wh16	r9,0x3
     147c:	10 40 01 29 	ld32	r9,r9
-    1480:	0e 20 01 10 	rev8	r8,r16
+    1480:	01 60 01 10 	umulh	r8,r16
     1484:	20 70 03 e2 	movepc	rret,8
     1488:	14 30 fa e2 	br	10 <compare>,#al
     148c:	00 10 00 41 	add	r2,1
@@ -1338,7 +1338,7 @@ Disassembly of section .text:
     14a8:	0d 44 71 24 	wl16	r9,0x2384
     14ac:	0d 60 01 23 	wh16	r9,0x3
     14b0:	10 40 01 29 	ld32	r9,r9
-    14b4:	0e 20 01 10 	rev8	r8,r16
+    14b4:	01 60 01 10 	umulh	r8,r16
     14b8:	20 70 03 e2 	movepc	rret,8
     14bc:	14 30 fa d5 	br	10 <compare>,#al
     14c0:	00 10 00 41 	add	r2,1
@@ -1351,7 +1351,7 @@ Disassembly of section .text:
     14dc:	0d 44 71 28 	wl16	r9,0x2388
     14e0:	0d 60 01 23 	wh16	r9,0x3
     14e4:	10 40 01 29 	ld32	r9,r9
-    14e8:	0e 20 01 10 	rev8	r8,r16
+    14e8:	01 60 01 10 	umulh	r8,r16
     14ec:	20 70 03 e2 	movepc	rret,8
     14f0:	14 30 fa c8 	br	10 <compare>,#al
     14f4:	00 10 00 41 	add	r2,1
@@ -1364,7 +1364,7 @@ Disassembly of section .text:
     1510:	0d 44 71 2c 	wl16	r9,0x238c
     1514:	0d 60 01 23 	wh16	r9,0x3
     1518:	10 40 01 29 	ld32	r9,r9
-    151c:	0e 20 01 10 	rev8	r8,r16
+    151c:	01 60 01 10 	umulh	r8,r16
     1520:	20 70 03 e2 	movepc	rret,8
     1524:	14 30 fa bb 	br	10 <compare>,#al
     1528:	00 10 00 41 	add	r2,1
@@ -1377,7 +1377,7 @@ Disassembly of section .text:
     1544:	0d 44 71 30 	wl16	r9,0x2390
     1548:	0d 60 01 23 	wh16	r9,0x3
     154c:	10 40 01 29 	ld32	r9,r9
-    1550:	0e 20 01 10 	rev8	r8,r16
+    1550:	01 60 01 10 	umulh	r8,r16
     1554:	20 70 03 e2 	movepc	rret,8
     1558:	14 30 fa ae 	br	10 <compare>,#al
     155c:	00 10 00 41 	add	r2,1
@@ -1390,7 +1390,7 @@ Disassembly of section .text:
     1578:	0d 44 71 34 	wl16	r9,0x2394
     157c:	0d 60 01 23 	wh16	r9,0x3
     1580:	10 40 01 29 	ld32	r9,r9
-    1584:	0e 20 01 10 	rev8	r8,r16
+    1584:	01 60 01 10 	umulh	r8,r16
     1588:	20 70 03 e2 	movepc	rret,8
     158c:	14 30 fa a1 	br	10 <compare>,#al
     1590:	00 10 00 41 	add	r2,1
@@ -1403,7 +1403,7 @@ Disassembly of section .text:
     15ac:	0d 44 71 38 	wl16	r9,0x2398
     15b0:	0d 60 01 23 	wh16	r9,0x3
     15b4:	10 40 01 29 	ld32	r9,r9
-    15b8:	0e 20 01 10 	rev8	r8,r16
+    15b8:	01 60 01 10 	umulh	r8,r16
     15bc:	20 70 03 e2 	movepc	rret,8
     15c0:	14 30 fa 94 	br	10 <compare>,#al
     15c4:	00 10 00 41 	add	r2,1
@@ -1416,7 +1416,7 @@ Disassembly of section .text:
     15e0:	0d 44 71 3c 	wl16	r9,0x239c
     15e4:	0d 60 01 23 	wh16	r9,0x3
     15e8:	10 40 01 29 	ld32	r9,r9
-    15ec:	0e 20 01 10 	rev8	r8,r16
+    15ec:	01 60 01 10 	umulh	r8,r16
     15f0:	20 70 03 e2 	movepc	rret,8
     15f4:	14 30 fa 87 	br	10 <compare>,#al
     15f8:	00 10 00 41 	add	r2,1
@@ -1429,7 +1429,7 @@ Disassembly of section .text:
     1614:	0d 44 75 20 	wl16	r9,0x23a0
     1618:	0d 60 01 23 	wh16	r9,0x3
     161c:	10 40 01 29 	ld32	r9,r9
-    1620:	0e 20 01 10 	rev8	r8,r16
+    1620:	01 60 01 10 	umulh	r8,r16
     1624:	20 70 03 e2 	movepc	rret,8
     1628:	14 30 fa 7a 	br	10 <compare>,#al
     162c:	00 10 00 41 	add	r2,1
@@ -1442,7 +1442,7 @@ Disassembly of section .text:
     1648:	0d 44 75 24 	wl16	r9,0x23a4
     164c:	0d 60 01 23 	wh16	r9,0x3
     1650:	10 40 01 29 	ld32	r9,r9
-    1654:	0e 20 01 10 	rev8	r8,r16
+    1654:	01 60 01 10 	umulh	r8,r16
     1658:	20 70 03 e2 	movepc	rret,8
     165c:	14 30 fa 6d 	br	10 <compare>,#al
     1660:	00 10 00 41 	add	r2,1
@@ -1455,7 +1455,7 @@ Disassembly of section .text:
     167c:	0d 44 75 28 	wl16	r9,0x23a8
     1680:	0d 60 01 23 	wh16	r9,0x3
     1684:	10 40 01 29 	ld32	r9,r9
-    1688:	0e 20 01 10 	rev8	r8,r16
+    1688:	01 60 01 10 	umulh	r8,r16
     168c:	20 70 03 e2 	movepc	rret,8
     1690:	14 30 fa 60 	br	10 <compare>,#al
     1694:	00 10 00 41 	add	r2,1
@@ -1468,7 +1468,7 @@ Disassembly of section .text:
     16b0:	0d 44 75 2c 	wl16	r9,0x23ac
     16b4:	0d 60 01 23 	wh16	r9,0x3
     16b8:	10 40 01 29 	ld32	r9,r9
-    16bc:	0e 20 01 10 	rev8	r8,r16
+    16bc:	01 60 01 10 	umulh	r8,r16
     16c0:	20 70 03 e2 	movepc	rret,8
     16c4:	14 30 fa 53 	br	10 <compare>,#al
     16c8:	00 10 00 41 	add	r2,1
@@ -1481,7 +1481,7 @@ Disassembly of section .text:
     16e4:	0d 44 75 30 	wl16	r9,0x23b0
     16e8:	0d 60 01 23 	wh16	r9,0x3
     16ec:	10 40 01 29 	ld32	r9,r9
-    16f0:	0e 20 01 10 	rev8	r8,r16
+    16f0:	01 60 01 10 	umulh	r8,r16
     16f4:	20 70 03 e2 	movepc	rret,8
     16f8:	14 30 fa 46 	br	10 <compare>,#al
     16fc:	00 10 00 41 	add	r2,1
@@ -1494,7 +1494,7 @@ Disassembly of section .text:
     1718:	0d 44 75 34 	wl16	r9,0x23b4
     171c:	0d 60 01 23 	wh16	r9,0x3
     1720:	10 40 01 29 	ld32	r9,r9
-    1724:	0e 20 01 10 	rev8	r8,r16
+    1724:	01 60 01 10 	umulh	r8,r16
     1728:	20 70 03 e2 	movepc	rret,8
     172c:	14 30 fa 39 	br	10 <compare>,#al
     1730:	00 10 00 41 	add	r2,1
@@ -1507,7 +1507,7 @@ Disassembly of section .text:
     174c:	0d 44 75 38 	wl16	r9,0x23b8
     1750:	0d 60 01 23 	wh16	r9,0x3
     1754:	10 40 01 29 	ld32	r9,r9
-    1758:	0e 20 01 10 	rev8	r8,r16
+    1758:	01 60 01 10 	umulh	r8,r16
     175c:	20 70 03 e2 	movepc	rret,8
     1760:	14 30 fa 2c 	br	10 <compare>,#al
     1764:	00 10 00 41 	add	r2,1
@@ -1520,7 +1520,7 @@ Disassembly of section .text:
     1780:	0d 44 75 3c 	wl16	r9,0x23bc
     1784:	0d 60 01 23 	wh16	r9,0x3
     1788:	10 40 01 29 	ld32	r9,r9
-    178c:	0e 20 01 10 	rev8	r8,r16
+    178c:	01 60 01 10 	umulh	r8,r16
     1790:	20 70 03 e2 	movepc	rret,8
     1794:	14 30 fa 1f 	br	10 <compare>,#al
     1798:	00 10 00 41 	add	r2,1
@@ -1533,7 +1533,7 @@ Disassembly of section .text:
     17b4:	0d 44 79 20 	wl16	r9,0x23c0
     17b8:	0d 60 01 23 	wh16	r9,0x3
     17bc:	10 40 01 29 	ld32	r9,r9
-    17c0:	0e 20 01 10 	rev8	r8,r16
+    17c0:	01 60 01 10 	umulh	r8,r16
     17c4:	20 70 03 e2 	movepc	rret,8
     17c8:	14 30 fa 12 	br	10 <compare>,#al
     17cc:	00 10 00 41 	add	r2,1
@@ -1546,7 +1546,7 @@ Disassembly of section .text:
     17e8:	0d 44 79 24 	wl16	r9,0x23c4
     17ec:	0d 60 01 23 	wh16	r9,0x3
     17f0:	10 40 01 29 	ld32	r9,r9
-    17f4:	0e 20 01 10 	rev8	r8,r16
+    17f4:	01 60 01 10 	umulh	r8,r16
     17f8:	20 70 03 e2 	movepc	rret,8
     17fc:	14 30 fa 05 	br	10 <compare>,#al
     1800:	00 10 00 41 	add	r2,1
@@ -1559,7 +1559,7 @@ Disassembly of section .text:
     181c:	0d 44 79 28 	wl16	r9,0x23c8
     1820:	0d 60 01 23 	wh16	r9,0x3
     1824:	10 40 01 29 	ld32	r9,r9
-    1828:	0e 20 01 10 	rev8	r8,r16
+    1828:	01 60 01 10 	umulh	r8,r16
     182c:	20 70 03 e2 	movepc	rret,8
     1830:	14 30 f9 f8 	br	10 <compare>,#al
     1834:	00 10 00 41 	add	r2,1
@@ -1572,7 +1572,7 @@ Disassembly of section .text:
     1850:	0d 44 79 2c 	wl16	r9,0x23cc
     1854:	0d 60 01 23 	wh16	r9,0x3
     1858:	10 40 01 29 	ld32	r9,r9
-    185c:	0e 20 01 10 	rev8	r8,r16
+    185c:	01 60 01 10 	umulh	r8,r16
     1860:	20 70 03 e2 	movepc	rret,8
     1864:	14 30 f9 eb 	br	10 <compare>,#al
     1868:	00 10 00 41 	add	r2,1
@@ -1585,7 +1585,7 @@ Disassembly of section .text:
     1884:	0d 44 79 30 	wl16	r9,0x23d0
     1888:	0d 60 01 23 	wh16	r9,0x3
     188c:	10 40 01 29 	ld32	r9,r9
-    1890:	0e 20 01 10 	rev8	r8,r16
+    1890:	01 60 01 10 	umulh	r8,r16
     1894:	20 70 03 e2 	movepc	rret,8
     1898:	14 30 f9 de 	br	10 <compare>,#al
     189c:	00 10 00 41 	add	r2,1
@@ -1598,7 +1598,7 @@ Disassembly of section .text:
     18b8:	0d 44 79 34 	wl16	r9,0x23d4
     18bc:	0d 60 01 23 	wh16	r9,0x3
     18c0:	10 40 01 29 	ld32	r9,r9
-    18c4:	0e 20 01 10 	rev8	r8,r16
+    18c4:	01 60 01 10 	umulh	r8,r16
     18c8:	20 70 03 e2 	movepc	rret,8
     18cc:	14 30 f9 d1 	br	10 <compare>,#al
     18d0:	00 10 00 41 	add	r2,1
@@ -1611,7 +1611,7 @@ Disassembly of section .text:
     18ec:	0d 44 79 38 	wl16	r9,0x23d8
     18f0:	0d 60 01 23 	wh16	r9,0x3
     18f4:	10 40 01 29 	ld32	r9,r9
-    18f8:	0e 20 01 10 	rev8	r8,r16
+    18f8:	01 60 01 10 	umulh	r8,r16
     18fc:	20 70 03 e2 	movepc	rret,8
     1900:	14 30 f9 c4 	br	10 <compare>,#al
     1904:	00 10 00 41 	add	r2,1
@@ -1624,7 +1624,7 @@ Disassembly of section .text:
     1920:	0d 44 79 3c 	wl16	r9,0x23dc
     1924:	0d 60 01 23 	wh16	r9,0x3
     1928:	10 40 01 29 	ld32	r9,r9
-    192c:	0e 20 01 10 	rev8	r8,r16
+    192c:	01 60 01 10 	umulh	r8,r16
     1930:	20 70 03 e2 	movepc	rret,8
     1934:	14 30 f9 b7 	br	10 <compare>,#al
     1938:	00 10 00 41 	add	r2,1
@@ -1637,7 +1637,7 @@ Disassembly of section .text:
     1954:	0d 44 7d 20 	wl16	r9,0x23e0
     1958:	0d 60 01 23 	wh16	r9,0x3
     195c:	10 40 01 29 	ld32	r9,r9
-    1960:	0e 20 01 10 	rev8	r8,r16
+    1960:	01 60 01 10 	umulh	r8,r16
     1964:	20 70 03 e2 	movepc	rret,8
     1968:	14 30 f9 aa 	br	10 <compare>,#al
     196c:	00 10 00 41 	add	r2,1
@@ -1650,7 +1650,7 @@ Disassembly of section .text:
     1988:	0d 44 7d 24 	wl16	r9,0x23e4
     198c:	0d 60 01 23 	wh16	r9,0x3
     1990:	10 40 01 29 	ld32	r9,r9
-    1994:	0e 20 01 10 	rev8	r8,r16
+    1994:	01 60 01 10 	umulh	r8,r16
     1998:	20 70 03 e2 	movepc	rret,8
     199c:	14 30 f9 9d 	br	10 <compare>,#al
     19a0:	00 10 00 41 	add	r2,1
@@ -1663,7 +1663,7 @@ Disassembly of section .text:
     19bc:	0d 44 7d 28 	wl16	r9,0x23e8
     19c0:	0d 60 01 23 	wh16	r9,0x3
     19c4:	10 40 01 29 	ld32	r9,r9
-    19c8:	0e 20 01 10 	rev8	r8,r16
+    19c8:	01 60 01 10 	umulh	r8,r16
     19cc:	20 70 03 e2 	movepc	rret,8
     19d0:	14 30 f9 90 	br	10 <compare>,#al
     19d4:	00 10 00 41 	add	r2,1
@@ -1676,7 +1676,7 @@ Disassembly of section .text:
     19f0:	0d 44 7d 2c 	wl16	r9,0x23ec
     19f4:	0d 60 01 23 	wh16	r9,0x3
     19f8:	10 40 01 29 	ld32	r9,r9
-    19fc:	0e 20 01 10 	rev8	r8,r16
+    19fc:	01 60 01 10 	umulh	r8,r16
     1a00:	20 70 03 e2 	movepc	rret,8
     1a04:	14 30 f9 83 	br	10 <compare>,#al
     1a08:	00 10 00 41 	add	r2,1
@@ -1689,7 +1689,7 @@ Disassembly of section .text:
     1a24:	0d 44 7d 30 	wl16	r9,0x23f0
     1a28:	0d 60 01 23 	wh16	r9,0x3
     1a2c:	10 40 01 29 	ld32	r9,r9
-    1a30:	0e 20 01 10 	rev8	r8,r16
+    1a30:	01 60 01 10 	umulh	r8,r16
     1a34:	20 70 03 e2 	movepc	rret,8
     1a38:	14 30 f9 76 	br	10 <compare>,#al
     1a3c:	00 10 00 41 	add	r2,1
@@ -1702,7 +1702,7 @@ Disassembly of section .text:
     1a58:	0d 44 7d 34 	wl16	r9,0x23f4
     1a5c:	0d 60 01 23 	wh16	r9,0x3
     1a60:	10 40 01 29 	ld32	r9,r9
-    1a64:	0e 20 01 10 	rev8	r8,r16
+    1a64:	01 60 01 10 	umulh	r8,r16
     1a68:	20 70 03 e2 	movepc	rret,8
     1a6c:	14 30 f9 69 	br	10 <compare>,#al
     1a70:	00 10 00 41 	add	r2,1
@@ -1715,7 +1715,7 @@ Disassembly of section .text:
     1a8c:	0d 44 7d 38 	wl16	r9,0x23f8
     1a90:	0d 60 01 23 	wh16	r9,0x3
     1a94:	10 40 01 29 	ld32	r9,r9
-    1a98:	0e 20 01 10 	rev8	r8,r16
+    1a98:	01 60 01 10 	umulh	r8,r16
     1a9c:	20 70 03 e2 	movepc	rret,8
     1aa0:	14 30 f9 5c 	br	10 <compare>,#al
     1aa4:	00 10 00 41 	add	r2,1
@@ -1728,7 +1728,7 @@ Disassembly of section .text:
     1ac0:	0d 44 7d 3c 	wl16	r9,0x23fc
     1ac4:	0d 60 01 23 	wh16	r9,0x3
     1ac8:	10 40 01 29 	ld32	r9,r9
-    1acc:	0e 20 01 10 	rev8	r8,r16
+    1acc:	01 60 01 10 	umulh	r8,r16
     1ad0:	20 70 03 e2 	movepc	rret,8
     1ad4:	14 30 f9 4f 	br	10 <compare>,#al
     1ad8:	00 10 00 41 	add	r2,1
@@ -1741,7 +1741,7 @@ Disassembly of section .text:
     1af4:	0d 44 81 20 	wl16	r9,0x2400
     1af8:	0d 60 01 23 	wh16	r9,0x3
     1afc:	10 40 01 29 	ld32	r9,r9
-    1b00:	0e 20 01 10 	rev8	r8,r16
+    1b00:	01 60 01 10 	umulh	r8,r16
     1b04:	20 70 03 e2 	movepc	rret,8
     1b08:	14 30 f9 42 	br	10 <compare>,#al
     1b0c:	00 10 00 41 	add	r2,1
@@ -1754,7 +1754,7 @@ Disassembly of section .text:
     1b28:	0d 44 81 24 	wl16	r9,0x2404
     1b2c:	0d 60 01 23 	wh16	r9,0x3
     1b30:	10 40 01 29 	ld32	r9,r9
-    1b34:	0e 20 01 10 	rev8	r8,r16
+    1b34:	01 60 01 10 	umulh	r8,r16
     1b38:	20 70 03 e2 	movepc	rret,8
     1b3c:	14 30 f9 35 	br	10 <compare>,#al
     1b40:	00 10 00 41 	add	r2,1
@@ -1767,7 +1767,7 @@ Disassembly of section .text:
     1b5c:	0d 44 81 28 	wl16	r9,0x2408
     1b60:	0d 60 01 23 	wh16	r9,0x3
     1b64:	10 40 01 29 	ld32	r9,r9
-    1b68:	0e 20 01 10 	rev8	r8,r16
+    1b68:	01 60 01 10 	umulh	r8,r16
     1b6c:	20 70 03 e2 	movepc	rret,8
     1b70:	14 30 f9 28 	br	10 <compare>,#al
     1b74:	00 10 00 41 	add	r2,1
@@ -1780,7 +1780,7 @@ Disassembly of section .text:
     1b90:	0d 44 81 2c 	wl16	r9,0x240c
     1b94:	0d 60 01 23 	wh16	r9,0x3
     1b98:	10 40 01 29 	ld32	r9,r9
-    1b9c:	0e 20 01 10 	rev8	r8,r16
+    1b9c:	01 60 01 10 	umulh	r8,r16
     1ba0:	20 70 03 e2 	movepc	rret,8
     1ba4:	14 30 f9 1b 	br	10 <compare>,#al
     1ba8:	00 10 00 41 	add	r2,1
@@ -1793,7 +1793,7 @@ Disassembly of section .text:
     1bc4:	0d 44 81 30 	wl16	r9,0x2410
     1bc8:	0d 60 01 23 	wh16	r9,0x3
     1bcc:	10 40 01 29 	ld32	r9,r9
-    1bd0:	0e 20 01 10 	rev8	r8,r16
+    1bd0:	01 60 01 10 	umulh	r8,r16
     1bd4:	20 70 03 e2 	movepc	rret,8
     1bd8:	14 30 f9 0e 	br	10 <compare>,#al
     1bdc:	00 10 00 41 	add	r2,1
@@ -1806,7 +1806,7 @@ Disassembly of section .text:
     1bf8:	0d 44 81 34 	wl16	r9,0x2414
     1bfc:	0d 60 01 23 	wh16	r9,0x3
     1c00:	10 40 01 29 	ld32	r9,r9
-    1c04:	0e 20 01 10 	rev8	r8,r16
+    1c04:	01 60 01 10 	umulh	r8,r16
     1c08:	20 70 03 e2 	movepc	rret,8
     1c0c:	14 30 f9 01 	br	10 <compare>,#al
     1c10:	00 10 00 41 	add	r2,1
@@ -1819,7 +1819,7 @@ Disassembly of section .text:
     1c2c:	0d 44 81 38 	wl16	r9,0x2418
     1c30:	0d 60 01 23 	wh16	r9,0x3
     1c34:	10 40 01 29 	ld32	r9,r9
-    1c38:	0e 20 01 10 	rev8	r8,r16
+    1c38:	01 60 01 10 	umulh	r8,r16
     1c3c:	20 70 03 e2 	movepc	rret,8
     1c40:	14 30 f8 f4 	br	10 <compare>,#al
     1c44:	00 10 00 41 	add	r2,1
@@ -1832,7 +1832,7 @@ Disassembly of section .text:
     1c60:	0d 44 81 3c 	wl16	r9,0x241c
     1c64:	0d 60 01 23 	wh16	r9,0x3
     1c68:	10 40 01 29 	ld32	r9,r9
-    1c6c:	0e 20 01 10 	rev8	r8,r16
+    1c6c:	01 60 01 10 	umulh	r8,r16
     1c70:	20 70 03 e2 	movepc	rret,8
     1c74:	14 30 f8 e7 	br	10 <compare>,#al
     1c78:	00 10 00 41 	add	r2,1
@@ -1845,7 +1845,7 @@ Disassembly of section .text:
     1c94:	0d 44 85 20 	wl16	r9,0x2420
     1c98:	0d 60 01 23 	wh16	r9,0x3
     1c9c:	10 40 01 29 	ld32	r9,r9
-    1ca0:	0e 20 01 10 	rev8	r8,r16
+    1ca0:	01 60 01 10 	umulh	r8,r16
     1ca4:	20 70 03 e2 	movepc	rret,8
     1ca8:	14 30 f8 da 	br	10 <compare>,#al
     1cac:	00 10 00 41 	add	r2,1
@@ -1858,7 +1858,7 @@ Disassembly of section .text:
     1cc8:	0d 44 85 24 	wl16	r9,0x2424
     1ccc:	0d 60 01 23 	wh16	r9,0x3
     1cd0:	10 40 01 29 	ld32	r9,r9
-    1cd4:	0e 20 01 10 	rev8	r8,r16
+    1cd4:	01 60 01 10 	umulh	r8,r16
     1cd8:	20 70 03 e2 	movepc	rret,8
     1cdc:	14 30 f8 cd 	br	10 <compare>,#al
     1ce0:	00 10 00 41 	add	r2,1
@@ -1871,7 +1871,7 @@ Disassembly of section .text:
     1cfc:	0d 44 85 28 	wl16	r9,0x2428
     1d00:	0d 60 01 23 	wh16	r9,0x3
     1d04:	10 40 01 29 	ld32	r9,r9
-    1d08:	0e 20 01 10 	rev8	r8,r16
+    1d08:	01 60 01 10 	umulh	r8,r16
     1d0c:	20 70 03 e2 	movepc	rret,8
     1d10:	14 30 f8 c0 	br	10 <compare>,#al
     1d14:	00 10 00 41 	add	r2,1
@@ -1884,7 +1884,7 @@ Disassembly of section .text:
     1d30:	0d 44 85 2c 	wl16	r9,0x242c
     1d34:	0d 60 01 23 	wh16	r9,0x3
     1d38:	10 40 01 29 	ld32	r9,r9
-    1d3c:	0e 20 01 10 	rev8	r8,r16
+    1d3c:	01 60 01 10 	umulh	r8,r16
     1d40:	20 70 03 e2 	movepc	rret,8
     1d44:	14 30 f8 b3 	br	10 <compare>,#al
     1d48:	00 10 00 41 	add	r2,1
@@ -1897,7 +1897,7 @@ Disassembly of section .text:
     1d64:	0d 44 85 30 	wl16	r9,0x2430
     1d68:	0d 60 01 23 	wh16	r9,0x3
     1d6c:	10 40 01 29 	ld32	r9,r9
-    1d70:	0e 20 01 10 	rev8	r8,r16
+    1d70:	01 60 01 10 	umulh	r8,r16
     1d74:	20 70 03 e2 	movepc	rret,8
     1d78:	14 30 f8 a6 	br	10 <compare>,#al
     1d7c:	00 10 00 41 	add	r2,1
@@ -1910,7 +1910,7 @@ Disassembly of section .text:
     1d98:	0d 44 85 34 	wl16	r9,0x2434
     1d9c:	0d 60 01 23 	wh16	r9,0x3
     1da0:	10 40 01 29 	ld32	r9,r9
-    1da4:	0e 20 01 10 	rev8	r8,r16
+    1da4:	01 60 01 10 	umulh	r8,r16
     1da8:	20 70 03 e2 	movepc	rret,8
     1dac:	14 30 f8 99 	br	10 <compare>,#al
     1db0:	00 10 00 41 	add	r2,1
@@ -1923,7 +1923,7 @@ Disassembly of section .text:
     1dcc:	0d 44 85 38 	wl16	r9,0x2438
     1dd0:	0d 60 01 23 	wh16	r9,0x3
     1dd4:	10 40 01 29 	ld32	r9,r9
-    1dd8:	0e 20 01 10 	rev8	r8,r16
+    1dd8:	01 60 01 10 	umulh	r8,r16
     1ddc:	20 70 03 e2 	movepc	rret,8
     1de0:	14 30 f8 8c 	br	10 <compare>,#al
     1de4:	00 10 00 41 	add	r2,1
@@ -1936,7 +1936,7 @@ Disassembly of section .text:
     1e00:	0d 44 85 3c 	wl16	r9,0x243c
     1e04:	0d 60 01 23 	wh16	r9,0x3
     1e08:	10 40 01 29 	ld32	r9,r9
-    1e0c:	0e 20 01 10 	rev8	r8,r16
+    1e0c:	01 60 01 10 	umulh	r8,r16
     1e10:	20 70 03 e2 	movepc	rret,8
     1e14:	14 30 f8 7f 	br	10 <compare>,#al
     1e18:	00 10 00 41 	add	r2,1
@@ -1949,7 +1949,7 @@ Disassembly of section .text:
     1e34:	0d 44 89 20 	wl16	r9,0x2440
     1e38:	0d 60 01 23 	wh16	r9,0x3
     1e3c:	10 40 01 29 	ld32	r9,r9
-    1e40:	0e 20 01 10 	rev8	r8,r16
+    1e40:	01 60 01 10 	umulh	r8,r16
     1e44:	20 70 03 e2 	movepc	rret,8
     1e48:	14 30 f8 72 	br	10 <compare>,#al
     1e4c:	00 10 00 41 	add	r2,1
@@ -1962,7 +1962,7 @@ Disassembly of section .text:
     1e68:	0d 44 89 24 	wl16	r9,0x2444
     1e6c:	0d 60 01 23 	wh16	r9,0x3
     1e70:	10 40 01 29 	ld32	r9,r9
-    1e74:	0e 20 01 10 	rev8	r8,r16
+    1e74:	01 60 01 10 	umulh	r8,r16
     1e78:	20 70 03 e2 	movepc	rret,8
     1e7c:	14 30 f8 65 	br	10 <compare>,#al
     1e80:	00 10 00 41 	add	r2,1
@@ -1975,7 +1975,7 @@ Disassembly of section .text:
     1e9c:	0d 44 89 28 	wl16	r9,0x2448
     1ea0:	0d 60 01 23 	wh16	r9,0x3
     1ea4:	10 40 01 29 	ld32	r9,r9
-    1ea8:	0e 20 01 10 	rev8	r8,r16
+    1ea8:	01 60 01 10 	umulh	r8,r16
     1eac:	20 70 03 e2 	movepc	rret,8
     1eb0:	14 30 f8 58 	br	10 <compare>,#al
     1eb4:	00 10 00 41 	add	r2,1
@@ -1988,7 +1988,7 @@ Disassembly of section .text:
     1ed0:	0d 44 89 2c 	wl16	r9,0x244c
     1ed4:	0d 60 01 23 	wh16	r9,0x3
     1ed8:	10 40 01 29 	ld32	r9,r9
-    1edc:	0e 20 01 10 	rev8	r8,r16
+    1edc:	01 60 01 10 	umulh	r8,r16
     1ee0:	20 70 03 e2 	movepc	rret,8
     1ee4:	14 30 f8 4b 	br	10 <compare>,#al
     1ee8:	00 10 00 41 	add	r2,1
@@ -2001,7 +2001,7 @@ Disassembly of section .text:
     1f04:	0d 44 89 30 	wl16	r9,0x2450
     1f08:	0d 60 01 23 	wh16	r9,0x3
     1f0c:	10 40 01 29 	ld32	r9,r9
-    1f10:	0e 20 01 10 	rev8	r8,r16
+    1f10:	01 60 01 10 	umulh	r8,r16
     1f14:	20 70 03 e2 	movepc	rret,8
     1f18:	14 30 f8 3e 	br	10 <compare>,#al
     1f1c:	00 10 00 41 	add	r2,1
@@ -2014,7 +2014,7 @@ Disassembly of section .text:
     1f38:	0d 44 89 34 	wl16	r9,0x2454
     1f3c:	0d 60 01 23 	wh16	r9,0x3
     1f40:	10 40 01 29 	ld32	r9,r9
-    1f44:	0e 20 01 10 	rev8	r8,r16
+    1f44:	01 60 01 10 	umulh	r8,r16
     1f48:	20 70 03 e2 	movepc	rret,8
     1f4c:	14 30 f8 31 	br	10 <compare>,#al
     1f50:	00 10 00 41 	add	r2,1
@@ -2027,7 +2027,7 @@ Disassembly of section .text:
     1f6c:	0d 44 89 38 	wl16	r9,0x2458
     1f70:	0d 60 01 23 	wh16	r9,0x3
     1f74:	10 40 01 29 	ld32	r9,r9
-    1f78:	0e 20 01 10 	rev8	r8,r16
+    1f78:	01 60 01 10 	umulh	r8,r16
     1f7c:	20 70 03 e2 	movepc	rret,8
     1f80:	14 30 f8 24 	br	10 <compare>,#al
     1f84:	00 10 00 41 	add	r2,1
@@ -2040,7 +2040,7 @@ Disassembly of section .text:
     1fa0:	0d 44 89 3c 	wl16	r9,0x245c
     1fa4:	0d 60 01 23 	wh16	r9,0x3
     1fa8:	10 40 01 29 	ld32	r9,r9
-    1fac:	0e 20 01 10 	rev8	r8,r16
+    1fac:	01 60 01 10 	umulh	r8,r16
     1fb0:	20 70 03 e2 	movepc	rret,8
     1fb4:	14 30 f8 17 	br	10 <compare>,#al
     1fb8:	00 10 00 41 	add	r2,1
@@ -2053,7 +2053,7 @@ Disassembly of section .text:
     1fd4:	0d 44 8d 20 	wl16	r9,0x2460
     1fd8:	0d 60 01 23 	wh16	r9,0x3
     1fdc:	10 40 01 29 	ld32	r9,r9
-    1fe0:	0e 20 01 10 	rev8	r8,r16
+    1fe0:	01 60 01 10 	umulh	r8,r16
     1fe4:	20 70 03 e2 	movepc	rret,8
     1fe8:	14 30 f8 0a 	br	10 <compare>,#al
     1fec:	00 10 00 41 	add	r2,1
@@ -2066,7 +2066,7 @@ Disassembly of section .text:
     2008:	0d 44 8d 24 	wl16	r9,0x2464
     200c:	0d 60 01 23 	wh16	r9,0x3
     2010:	10 40 01 29 	ld32	r9,r9
-    2014:	0e 20 01 10 	rev8	r8,r16
+    2014:	01 60 01 10 	umulh	r8,r16
     2018:	20 70 03 e2 	movepc	rret,8
     201c:	14 30 f7 fd 	br	10 <compare>,#al
     2020:	00 10 00 41 	add	r2,1
@@ -2079,7 +2079,7 @@ Disassembly of section .text:
     203c:	0d 44 8d 28 	wl16	r9,0x2468
     2040:	0d 60 01 23 	wh16	r9,0x3
     2044:	10 40 01 29 	ld32	r9,r9
-    2048:	0e 20 01 10 	rev8	r8,r16
+    2048:	01 60 01 10 	umulh	r8,r16
     204c:	20 70 03 e2 	movepc	rret,8
     2050:	14 30 f7 f0 	br	10 <compare>,#al
     2054:	00 10 00 41 	add	r2,1
@@ -2092,7 +2092,7 @@ Disassembly of section .text:
     2070:	0d 44 8d 2c 	wl16	r9,0x246c
     2074:	0d 60 01 23 	wh16	r9,0x3
     2078:	10 40 01 29 	ld32	r9,r9
-    207c:	0e 20 01 10 	rev8	r8,r16
+    207c:	01 60 01 10 	umulh	r8,r16
     2080:	20 70 03 e2 	movepc	rret,8
     2084:	14 30 f7 e3 	br	10 <compare>,#al
     2088:	00 10 00 41 	add	r2,1
@@ -2105,7 +2105,7 @@ Disassembly of section .text:
     20a4:	0d 44 8d 30 	wl16	r9,0x2470
     20a8:	0d 60 01 23 	wh16	r9,0x3
     20ac:	10 40 01 29 	ld32	r9,r9
-    20b0:	0e 20 01 10 	rev8	r8,r16
+    20b0:	01 60 01 10 	umulh	r8,r16
     20b4:	20 70 03 e2 	movepc	rret,8
     20b8:	14 30 f7 d6 	br	10 <compare>,#al
     20bc:	00 10 00 41 	add	r2,1
@@ -2118,7 +2118,7 @@ Disassembly of section .text:
     20d8:	0d 44 8d 34 	wl16	r9,0x2474
     20dc:	0d 60 01 23 	wh16	r9,0x3
     20e0:	10 40 01 29 	ld32	r9,r9
-    20e4:	0e 20 01 10 	rev8	r8,r16
+    20e4:	01 60 01 10 	umulh	r8,r16
     20e8:	20 70 03 e2 	movepc	rret,8
     20ec:	14 30 f7 c9 	br	10 <compare>,#al
     20f0:	00 10 00 41 	add	r2,1
@@ -2131,7 +2131,7 @@ Disassembly of section .text:
     210c:	0d 44 8d 38 	wl16	r9,0x2478
     2110:	0d 60 01 23 	wh16	r9,0x3
     2114:	10 40 01 29 	ld32	r9,r9
-    2118:	0e 20 01 10 	rev8	r8,r16
+    2118:	01 60 01 10 	umulh	r8,r16
     211c:	20 70 03 e2 	movepc	rret,8
     2120:	14 30 f7 bc 	br	10 <compare>,#al
     2124:	00 10 00 41 	add	r2,1
@@ -2144,7 +2144,7 @@ Disassembly of section .text:
     2140:	0d 44 8d 3c 	wl16	r9,0x247c
     2144:	0d 60 01 23 	wh16	r9,0x3
     2148:	10 40 01 29 	ld32	r9,r9
-    214c:	0e 20 01 10 	rev8	r8,r16
+    214c:	01 60 01 10 	umulh	r8,r16
     2150:	20 70 03 e2 	movepc	rret,8
     2154:	14 30 f7 af 	br	10 <compare>,#al
     2158:	00 10 00 41 	add	r2,1
@@ -2157,7 +2157,7 @@ Disassembly of section .text:
     2174:	0d 44 91 20 	wl16	r9,0x2480
     2178:	0d 60 01 23 	wh16	r9,0x3
     217c:	10 40 01 29 	ld32	r9,r9
-    2180:	0e 20 01 10 	rev8	r8,r16
+    2180:	01 60 01 10 	umulh	r8,r16
     2184:	20 70 03 e2 	movepc	rret,8
     2188:	14 30 f7 a2 	br	10 <compare>,#al
     218c:	00 10 00 41 	add	r2,1
@@ -2170,7 +2170,7 @@ Disassembly of section .text:
     21a8:	0d 44 91 24 	wl16	r9,0x2484
     21ac:	0d 60 01 23 	wh16	r9,0x3
     21b0:	10 40 01 29 	ld32	r9,r9
-    21b4:	0e 20 01 10 	rev8	r8,r16
+    21b4:	01 60 01 10 	umulh	r8,r16
     21b8:	20 70 03 e2 	movepc	rret,8
     21bc:	14 30 f7 95 	br	10 <compare>,#al
     21c0:	00 10 00 41 	add	r2,1
@@ -2183,7 +2183,7 @@ Disassembly of section .text:
     21dc:	0d 44 91 28 	wl16	r9,0x2488
     21e0:	0d 60 01 23 	wh16	r9,0x3
     21e4:	10 40 01 29 	ld32	r9,r9
-    21e8:	0e 20 01 10 	rev8	r8,r16
+    21e8:	01 60 01 10 	umulh	r8,r16
     21ec:	20 70 03 e2 	movepc	rret,8
     21f0:	14 30 f7 88 	br	10 <compare>,#al
     21f4:	00 10 00 41 	add	r2,1
@@ -2196,7 +2196,7 @@ Disassembly of section .text:
     2210:	0d 44 91 2c 	wl16	r9,0x248c
     2214:	0d 60 01 23 	wh16	r9,0x3
     2218:	10 40 01 29 	ld32	r9,r9
-    221c:	0e 20 01 10 	rev8	r8,r16
+    221c:	01 60 01 10 	umulh	r8,r16
     2220:	20 70 03 e2 	movepc	rret,8
     2224:	14 30 f7 7b 	br	10 <compare>,#al
     2228:	00 10 00 41 	add	r2,1
@@ -2209,7 +2209,7 @@ Disassembly of section .text:
     2244:	0d 44 91 30 	wl16	r9,0x2490
     2248:	0d 60 01 23 	wh16	r9,0x3
     224c:	10 40 01 29 	ld32	r9,r9
-    2250:	0e 20 01 10 	rev8	r8,r16
+    2250:	01 60 01 10 	umulh	r8,r16
     2254:	20 70 03 e2 	movepc	rret,8
     2258:	14 30 f7 6e 	br	10 <compare>,#al
     225c:	00 10 00 41 	add	r2,1
@@ -2222,7 +2222,7 @@ Disassembly of section .text:
     2278:	0d 44 91 34 	wl16	r9,0x2494
     227c:	0d 60 01 23 	wh16	r9,0x3
     2280:	10 40 01 29 	ld32	r9,r9
-    2284:	0e 20 01 10 	rev8	r8,r16
+    2284:	01 60 01 10 	umulh	r8,r16
     2288:	20 70 03 e2 	movepc	rret,8
     228c:	14 30 f7 61 	br	10 <compare>,#al
     2290:	00 10 00 41 	add	r2,1
@@ -2235,7 +2235,7 @@ Disassembly of section .text:
     22ac:	0d 44 91 38 	wl16	r9,0x2498
     22b0:	0d 60 01 23 	wh16	r9,0x3
     22b4:	10 40 01 29 	ld32	r9,r9
-    22b8:	0e 20 01 10 	rev8	r8,r16
+    22b8:	01 60 01 10 	umulh	r8,r16
     22bc:	20 70 03 e2 	movepc	rret,8
     22c0:	14 30 f7 54 	br	10 <compare>,#al
     22c4:	00 10 00 41 	add	r2,1
@@ -2248,7 +2248,7 @@ Disassembly of section .text:
     22e0:	0d 44 91 3c 	wl16	r9,0x249c
     22e4:	0d 60 01 23 	wh16	r9,0x3
     22e8:	10 40 01 29 	ld32	r9,r9
-    22ec:	0e 20 01 10 	rev8	r8,r16
+    22ec:	01 60 01 10 	umulh	r8,r16
     22f0:	20 70 03 e2 	movepc	rret,8
     22f4:	14 30 f7 47 	br	10 <compare>,#al
     22f8:	00 10 00 41 	add	r2,1
@@ -2261,7 +2261,7 @@ Disassembly of section .text:
     2314:	0d 44 95 20 	wl16	r9,0x24a0
     2318:	0d 60 01 23 	wh16	r9,0x3
     231c:	10 40 01 29 	ld32	r9,r9
-    2320:	0e 20 01 10 	rev8	r8,r16
+    2320:	01 60 01 10 	umulh	r8,r16
     2324:	20 70 03 e2 	movepc	rret,8
     2328:	14 30 f7 3a 	br	10 <compare>,#al
     232c:	00 10 00 41 	add	r2,1
@@ -2274,7 +2274,7 @@ Disassembly of section .text:
     2348:	0d 44 95 24 	wl16	r9,0x24a4
     234c:	0d 60 01 23 	wh16	r9,0x3
     2350:	10 40 01 29 	ld32	r9,r9
-    2354:	0e 20 01 10 	rev8	r8,r16
+    2354:	01 60 01 10 	umulh	r8,r16
     2358:	20 70 03 e2 	movepc	rret,8
     235c:	14 30 f7 2d 	br	10 <compare>,#al
     2360:	00 10 00 41 	add	r2,1
@@ -2287,7 +2287,7 @@ Disassembly of section .text:
     237c:	0d 44 95 28 	wl16	r9,0x24a8
     2380:	0d 60 01 23 	wh16	r9,0x3
     2384:	10 40 01 29 	ld32	r9,r9
-    2388:	0e 20 01 10 	rev8	r8,r16
+    2388:	01 60 01 10 	umulh	r8,r16
     238c:	20 70 03 e2 	movepc	rret,8
     2390:	14 30 f7 20 	br	10 <compare>,#al
     2394:	00 10 00 41 	add	r2,1
@@ -2300,7 +2300,7 @@ Disassembly of section .text:
     23b0:	0d 44 95 2c 	wl16	r9,0x24ac
     23b4:	0d 60 01 23 	wh16	r9,0x3
     23b8:	10 40 01 29 	ld32	r9,r9
-    23bc:	0e 20 01 10 	rev8	r8,r16
+    23bc:	01 60 01 10 	umulh	r8,r16
     23c0:	20 70 03 e2 	movepc	rret,8
     23c4:	14 30 f7 13 	br	10 <compare>,#al
     23c8:	00 10 00 41 	add	r2,1
@@ -2313,7 +2313,7 @@ Disassembly of section .text:
     23e4:	0d 44 95 30 	wl16	r9,0x24b0
     23e8:	0d 60 01 23 	wh16	r9,0x3
     23ec:	10 40 01 29 	ld32	r9,r9
-    23f0:	0e 20 01 10 	rev8	r8,r16
+    23f0:	01 60 01 10 	umulh	r8,r16
     23f4:	20 70 03 e2 	movepc	rret,8
     23f8:	14 30 f7 06 	br	10 <compare>,#al
     23fc:	00 10 00 41 	add	r2,1
@@ -2326,7 +2326,7 @@ Disassembly of section .text:
     2418:	0d 44 95 34 	wl16	r9,0x24b4
     241c:	0d 60 01 23 	wh16	r9,0x3
     2420:	10 40 01 29 	ld32	r9,r9
-    2424:	0e 20 01 10 	rev8	r8,r16
+    2424:	01 60 01 10 	umulh	r8,r16
     2428:	20 70 03 e2 	movepc	rret,8
     242c:	14 30 f6 f9 	br	10 <compare>,#al
     2430:	00 10 00 41 	add	r2,1
@@ -2339,7 +2339,7 @@ Disassembly of section .text:
     244c:	0d 44 95 38 	wl16	r9,0x24b8
     2450:	0d 60 01 23 	wh16	r9,0x3
     2454:	10 40 01 29 	ld32	r9,r9
-    2458:	0e 20 01 10 	rev8	r8,r16
+    2458:	01 60 01 10 	umulh	r8,r16
     245c:	20 70 03 e2 	movepc	rret,8
     2460:	14 30 f6 ec 	br	10 <compare>,#al
     2464:	00 10 00 41 	add	r2,1
@@ -2352,7 +2352,7 @@ Disassembly of section .text:
     2480:	0d 44 95 3c 	wl16	r9,0x24bc
     2484:	0d 60 01 23 	wh16	r9,0x3
     2488:	10 40 01 29 	ld32	r9,r9
-    248c:	0e 20 01 10 	rev8	r8,r16
+    248c:	01 60 01 10 	umulh	r8,r16
     2490:	20 70 03 e2 	movepc	rret,8
     2494:	14 30 f6 df 	br	10 <compare>,#al
     2498:	00 10 00 41 	add	r2,1
@@ -2365,7 +2365,7 @@ Disassembly of section .text:
     24b4:	0d 44 99 20 	wl16	r9,0x24c0
     24b8:	0d 60 01 23 	wh16	r9,0x3
     24bc:	10 40 01 29 	ld32	r9,r9
-    24c0:	0e 20 01 10 	rev8	r8,r16
+    24c0:	01 60 01 10 	umulh	r8,r16
     24c4:	20 70 03 e2 	movepc	rret,8
     24c8:	14 30 f6 d2 	br	10 <compare>,#al
     24cc:	00 10 00 41 	add	r2,1
@@ -2378,7 +2378,7 @@ Disassembly of section .text:
     24e8:	0d 44 99 24 	wl16	r9,0x24c4
     24ec:	0d 60 01 23 	wh16	r9,0x3
     24f0:	10 40 01 29 	ld32	r9,r9
-    24f4:	0e 20 01 10 	rev8	r8,r16
+    24f4:	01 60 01 10 	umulh	r8,r16
     24f8:	20 70 03 e2 	movepc	rret,8
     24fc:	14 30 f6 c5 	br	10 <compare>,#al
     2500:	00 10 00 41 	add	r2,1
@@ -2391,7 +2391,7 @@ Disassembly of section .text:
     251c:	0d 44 99 28 	wl16	r9,0x24c8
     2520:	0d 60 01 23 	wh16	r9,0x3
     2524:	10 40 01 29 	ld32	r9,r9
-    2528:	0e 20 01 10 	rev8	r8,r16
+    2528:	01 60 01 10 	umulh	r8,r16
     252c:	20 70 03 e2 	movepc	rret,8
     2530:	14 30 f6 b8 	br	10 <compare>,#al
     2534:	00 10 00 41 	add	r2,1
@@ -2404,7 +2404,7 @@ Disassembly of section .text:
     2550:	0d 44 99 2c 	wl16	r9,0x24cc
     2554:	0d 60 01 23 	wh16	r9,0x3
     2558:	10 40 01 29 	ld32	r9,r9
-    255c:	0e 20 01 10 	rev8	r8,r16
+    255c:	01 60 01 10 	umulh	r8,r16
     2560:	20 70 03 e2 	movepc	rret,8
     2564:	14 30 f6 ab 	br	10 <compare>,#al
     2568:	00 10 00 41 	add	r2,1
@@ -2417,7 +2417,7 @@ Disassembly of section .text:
     2584:	0d 44 99 30 	wl16	r9,0x24d0
     2588:	0d 60 01 23 	wh16	r9,0x3
     258c:	10 40 01 29 	ld32	r9,r9
-    2590:	0e 20 01 10 	rev8	r8,r16
+    2590:	01 60 01 10 	umulh	r8,r16
     2594:	20 70 03 e2 	movepc	rret,8
     2598:	14 30 f6 9e 	br	10 <compare>,#al
     259c:	00 10 00 41 	add	r2,1
@@ -2430,7 +2430,7 @@ Disassembly of section .text:
     25b8:	0d 44 99 34 	wl16	r9,0x24d4
     25bc:	0d 60 01 23 	wh16	r9,0x3
     25c0:	10 40 01 29 	ld32	r9,r9
-    25c4:	0e 20 01 10 	rev8	r8,r16
+    25c4:	01 60 01 10 	umulh	r8,r16
     25c8:	20 70 03 e2 	movepc	rret,8
     25cc:	14 30 f6 91 	br	10 <compare>,#al
     25d0:	00 10 00 41 	add	r2,1
@@ -2443,7 +2443,7 @@ Disassembly of section .text:
     25ec:	0d 44 99 38 	wl16	r9,0x24d8
     25f0:	0d 60 01 23 	wh16	r9,0x3
     25f4:	10 40 01 29 	ld32	r9,r9
-    25f8:	0e 20 01 10 	rev8	r8,r16
+    25f8:	01 60 01 10 	umulh	r8,r16
     25fc:	20 70 03 e2 	movepc	rret,8
     2600:	14 30 f6 84 	br	10 <compare>,#al
     2604:	00 10 00 41 	add	r2,1
@@ -2456,7 +2456,7 @@ Disassembly of section .text:
     2620:	0d 44 99 3c 	wl16	r9,0x24dc
     2624:	0d 60 01 23 	wh16	r9,0x3
     2628:	10 40 01 29 	ld32	r9,r9
-    262c:	0e 20 01 10 	rev8	r8,r16
+    262c:	01 60 01 10 	umulh	r8,r16
     2630:	20 70 03 e2 	movepc	rret,8
     2634:	14 30 f6 77 	br	10 <compare>,#al
     2638:	00 10 00 41 	add	r2,1
@@ -2469,7 +2469,7 @@ Disassembly of section .text:
     2654:	0d 44 9d 20 	wl16	r9,0x24e0
     2658:	0d 60 01 23 	wh16	r9,0x3
     265c:	10 40 01 29 	ld32	r9,r9
-    2660:	0e 20 01 10 	rev8	r8,r16
+    2660:	01 60 01 10 	umulh	r8,r16
     2664:	20 70 03 e2 	movepc	rret,8
     2668:	14 30 f6 6a 	br	10 <compare>,#al
     266c:	00 10 00 41 	add	r2,1
@@ -2482,7 +2482,7 @@ Disassembly of section .text:
     2688:	0d 44 9d 24 	wl16	r9,0x24e4
     268c:	0d 60 01 23 	wh16	r9,0x3
     2690:	10 40 01 29 	ld32	r9,r9
-    2694:	0e 20 01 10 	rev8	r8,r16
+    2694:	01 60 01 10 	umulh	r8,r16
     2698:	20 70 03 e2 	movepc	rret,8
     269c:	14 30 f6 5d 	br	10 <compare>,#al
     26a0:	00 10 00 41 	add	r2,1
@@ -2495,7 +2495,7 @@ Disassembly of section .text:
     26bc:	0d 44 9d 28 	wl16	r9,0x24e8
     26c0:	0d 60 01 23 	wh16	r9,0x3
     26c4:	10 40 01 29 	ld32	r9,r9
-    26c8:	0e 20 01 10 	rev8	r8,r16
+    26c8:	01 60 01 10 	umulh	r8,r16
     26cc:	20 70 03 e2 	movepc	rret,8
     26d0:	14 30 f6 50 	br	10 <compare>,#al
     26d4:	00 10 00 41 	add	r2,1
@@ -2508,7 +2508,7 @@ Disassembly of section .text:
     26f0:	0d 44 9d 2c 	wl16	r9,0x24ec
     26f4:	0d 60 01 23 	wh16	r9,0x3
     26f8:	10 40 01 29 	ld32	r9,r9
-    26fc:	0e 20 01 10 	rev8	r8,r16
+    26fc:	01 60 01 10 	umulh	r8,r16
     2700:	20 70 03 e2 	movepc	rret,8
     2704:	14 30 f6 43 	br	10 <compare>,#al
     2708:	00 10 00 41 	add	r2,1
@@ -2521,7 +2521,7 @@ Disassembly of section .text:
     2724:	0d 44 9d 30 	wl16	r9,0x24f0
     2728:	0d 60 01 23 	wh16	r9,0x3
     272c:	10 40 01 29 	ld32	r9,r9
-    2730:	0e 20 01 10 	rev8	r8,r16
+    2730:	01 60 01 10 	umulh	r8,r16
     2734:	20 70 03 e2 	movepc	rret,8
     2738:	14 30 f6 36 	br	10 <compare>,#al
     273c:	00 10 00 41 	add	r2,1
@@ -2534,7 +2534,7 @@ Disassembly of section .text:
     2758:	0d 44 9d 34 	wl16	r9,0x24f4
     275c:	0d 60 01 23 	wh16	r9,0x3
     2760:	10 40 01 29 	ld32	r9,r9
-    2764:	0e 20 01 10 	rev8	r8,r16
+    2764:	01 60 01 10 	umulh	r8,r16
     2768:	20 70 03 e2 	movepc	rret,8
     276c:	14 30 f6 29 	br	10 <compare>,#al
     2770:	00 10 00 41 	add	r2,1
@@ -2547,7 +2547,7 @@ Disassembly of section .text:
     278c:	0d 44 9d 38 	wl16	r9,0x24f8
     2790:	0d 60 01 23 	wh16	r9,0x3
     2794:	10 40 01 29 	ld32	r9,r9
-    2798:	0e 20 01 10 	rev8	r8,r16
+    2798:	01 60 01 10 	umulh	r8,r16
     279c:	20 70 03 e2 	movepc	rret,8
     27a0:	14 30 f6 1c 	br	10 <compare>,#al
     27a4:	00 10 00 41 	add	r2,1
@@ -2560,7 +2560,7 @@ Disassembly of section .text:
     27c0:	0d 44 9d 3c 	wl16	r9,0x24fc
     27c4:	0d 60 01 23 	wh16	r9,0x3
     27c8:	10 40 01 29 	ld32	r9,r9
-    27cc:	0e 20 01 10 	rev8	r8,r16
+    27cc:	01 60 01 10 	umulh	r8,r16
     27d0:	20 70 03 e2 	movepc	rret,8
     27d4:	14 30 f6 0f 	br	10 <compare>,#al
     27d8:	00 10 00 41 	add	r2,1
@@ -2573,7 +2573,7 @@ Disassembly of section .text:
     27f4:	0d 44 a1 20 	wl16	r9,0x2500
     27f8:	0d 60 01 23 	wh16	r9,0x3
     27fc:	10 40 01 29 	ld32	r9,r9
-    2800:	0e 20 01 10 	rev8	r8,r16
+    2800:	01 60 01 10 	umulh	r8,r16
     2804:	20 70 03 e2 	movepc	rret,8
     2808:	14 30 f6 02 	br	10 <compare>,#al
     280c:	00 10 00 41 	add	r2,1
@@ -2586,7 +2586,7 @@ Disassembly of section .text:
     2828:	0d 44 a1 24 	wl16	r9,0x2504
     282c:	0d 60 01 23 	wh16	r9,0x3
     2830:	10 40 01 29 	ld32	r9,r9
-    2834:	0e 20 01 10 	rev8	r8,r16
+    2834:	01 60 01 10 	umulh	r8,r16
     2838:	20 70 03 e2 	movepc	rret,8
     283c:	14 30 f5 f5 	br	10 <compare>,#al
     2840:	00 10 00 41 	add	r2,1
@@ -2599,7 +2599,7 @@ Disassembly of section .text:
     285c:	0d 44 a1 28 	wl16	r9,0x2508
     2860:	0d 60 01 23 	wh16	r9,0x3
     2864:	10 40 01 29 	ld32	r9,r9
-    2868:	0e 20 01 10 	rev8	r8,r16
+    2868:	01 60 01 10 	umulh	r8,r16
     286c:	20 70 03 e2 	movepc	rret,8
     2870:	14 30 f5 e8 	br	10 <compare>,#al
     2874:	00 10 00 41 	add	r2,1
@@ -2612,7 +2612,7 @@ Disassembly of section .text:
     2890:	0d 44 a1 2c 	wl16	r9,0x250c
     2894:	0d 60 01 23 	wh16	r9,0x3
     2898:	10 40 01 29 	ld32	r9,r9
-    289c:	0e 20 01 10 	rev8	r8,r16
+    289c:	01 60 01 10 	umulh	r8,r16
     28a0:	20 70 03 e2 	movepc	rret,8
     28a4:	14 30 f5 db 	br	10 <compare>,#al
     28a8:	00 10 00 41 	add	r2,1
@@ -2625,7 +2625,7 @@ Disassembly of section .text:
     28c4:	0d 44 a1 30 	wl16	r9,0x2510
     28c8:	0d 60 01 23 	wh16	r9,0x3
     28cc:	10 40 01 29 	ld32	r9,r9
-    28d0:	0e 20 01 10 	rev8	r8,r16
+    28d0:	01 60 01 10 	umulh	r8,r16
     28d4:	20 70 03 e2 	movepc	rret,8
     28d8:	14 30 f5 ce 	br	10 <compare>,#al
     28dc:	00 10 00 41 	add	r2,1
@@ -2638,7 +2638,7 @@ Disassembly of section .text:
     28f8:	0d 44 a1 34 	wl16	r9,0x2514
     28fc:	0d 60 01 23 	wh16	r9,0x3
     2900:	10 40 01 29 	ld32	r9,r9
-    2904:	0e 20 01 10 	rev8	r8,r16
+    2904:	01 60 01 10 	umulh	r8,r16
     2908:	20 70 03 e2 	movepc	rret,8
     290c:	14 30 f5 c1 	br	10 <compare>,#al
     2910:	00 10 00 41 	add	r2,1
@@ -2651,7 +2651,7 @@ Disassembly of section .text:
     292c:	0d 44 a1 38 	wl16	r9,0x2518
     2930:	0d 60 01 23 	wh16	r9,0x3
     2934:	10 40 01 29 	ld32	r9,r9
-    2938:	0e 20 01 10 	rev8	r8,r16
+    2938:	01 60 01 10 	umulh	r8,r16
     293c:	20 70 03 e2 	movepc	rret,8
     2940:	14 30 f5 b4 	br	10 <compare>,#al
     2944:	00 10 00 41 	add	r2,1
@@ -2664,7 +2664,7 @@ Disassembly of section .text:
     2960:	0d 44 a1 3c 	wl16	r9,0x251c
     2964:	0d 60 01 23 	wh16	r9,0x3
     2968:	10 40 01 29 	ld32	r9,r9
-    296c:	0e 20 01 10 	rev8	r8,r16
+    296c:	01 60 01 10 	umulh	r8,r16
     2970:	20 70 03 e2 	movepc	rret,8
     2974:	14 30 f5 a7 	br	10 <compare>,#al
     2978:	00 10 00 41 	add	r2,1
@@ -2677,7 +2677,7 @@ Disassembly of section .text:
     2994:	0d 44 a5 20 	wl16	r9,0x2520
     2998:	0d 60 01 23 	wh16	r9,0x3
     299c:	10 40 01 29 	ld32	r9,r9
-    29a0:	0e 20 01 10 	rev8	r8,r16
+    29a0:	01 60 01 10 	umulh	r8,r16
     29a4:	20 70 03 e2 	movepc	rret,8
     29a8:	14 30 f5 9a 	br	10 <compare>,#al
     29ac:	00 10 00 41 	add	r2,1
@@ -2690,7 +2690,7 @@ Disassembly of section .text:
     29c8:	0d 44 a5 24 	wl16	r9,0x2524
     29cc:	0d 60 01 23 	wh16	r9,0x3
     29d0:	10 40 01 29 	ld32	r9,r9
-    29d4:	0e 20 01 10 	rev8	r8,r16
+    29d4:	01 60 01 10 	umulh	r8,r16
     29d8:	20 70 03 e2 	movepc	rret,8
     29dc:	14 30 f5 8d 	br	10 <compare>,#al
     29e0:	00 10 00 41 	add	r2,1
@@ -2703,7 +2703,7 @@ Disassembly of section .text:
     29fc:	0d 44 a5 28 	wl16	r9,0x2528
     2a00:	0d 60 01 23 	wh16	r9,0x3
     2a04:	10 40 01 29 	ld32	r9,r9
-    2a08:	0e 20 01 10 	rev8	r8,r16
+    2a08:	01 60 01 10 	umulh	r8,r16
     2a0c:	20 70 03 e2 	movepc	rret,8
     2a10:	14 30 f5 80 	br	10 <compare>,#al
     2a14:	00 10 00 41 	add	r2,1
@@ -2716,7 +2716,7 @@ Disassembly of section .text:
     2a30:	0d 44 a5 2c 	wl16	r9,0x252c
     2a34:	0d 60 01 23 	wh16	r9,0x3
     2a38:	10 40 01 29 	ld32	r9,r9
-    2a3c:	0e 20 01 10 	rev8	r8,r16
+    2a3c:	01 60 01 10 	umulh	r8,r16
     2a40:	20 70 03 e2 	movepc	rret,8
     2a44:	14 30 f5 73 	br	10 <compare>,#al
     2a48:	00 10 00 41 	add	r2,1
@@ -2729,7 +2729,7 @@ Disassembly of section .text:
     2a64:	0d 44 a5 30 	wl16	r9,0x2530
     2a68:	0d 60 01 23 	wh16	r9,0x3
     2a6c:	10 40 01 29 	ld32	r9,r9
-    2a70:	0e 20 01 10 	rev8	r8,r16
+    2a70:	01 60 01 10 	umulh	r8,r16
     2a74:	20 70 03 e2 	movepc	rret,8
     2a78:	14 30 f5 66 	br	10 <compare>,#al
     2a7c:	00 10 00 41 	add	r2,1
@@ -2742,7 +2742,7 @@ Disassembly of section .text:
     2a98:	0d 44 a5 34 	wl16	r9,0x2534
     2a9c:	0d 60 01 23 	wh16	r9,0x3
     2aa0:	10 40 01 29 	ld32	r9,r9
-    2aa4:	0e 20 01 10 	rev8	r8,r16
+    2aa4:	01 60 01 10 	umulh	r8,r16
     2aa8:	20 70 03 e2 	movepc	rret,8
     2aac:	14 30 f5 59 	br	10 <compare>,#al
     2ab0:	00 10 00 41 	add	r2,1
@@ -2755,7 +2755,7 @@ Disassembly of section .text:
     2acc:	0d 44 a5 38 	wl16	r9,0x2538
     2ad0:	0d 60 01 23 	wh16	r9,0x3
     2ad4:	10 40 01 29 	ld32	r9,r9
-    2ad8:	0e 20 01 10 	rev8	r8,r16
+    2ad8:	01 60 01 10 	umulh	r8,r16
     2adc:	20 70 03 e2 	movepc	rret,8
     2ae0:	14 30 f5 4c 	br	10 <compare>,#al
     2ae4:	00 10 00 41 	add	r2,1
@@ -2768,7 +2768,7 @@ Disassembly of section .text:
     2b00:	0d 44 a5 3c 	wl16	r9,0x253c
     2b04:	0d 60 01 23 	wh16	r9,0x3
     2b08:	10 40 01 29 	ld32	r9,r9
-    2b0c:	0e 20 01 10 	rev8	r8,r16
+    2b0c:	01 60 01 10 	umulh	r8,r16
     2b10:	20 70 03 e2 	movepc	rret,8
     2b14:	14 30 f5 3f 	br	10 <compare>,#al
     2b18:	00 10 00 41 	add	r2,1
@@ -2781,7 +2781,7 @@ Disassembly of section .text:
     2b34:	0d 44 a9 20 	wl16	r9,0x2540
     2b38:	0d 60 01 23 	wh16	r9,0x3
     2b3c:	10 40 01 29 	ld32	r9,r9
-    2b40:	0e 20 01 10 	rev8	r8,r16
+    2b40:	01 60 01 10 	umulh	r8,r16
     2b44:	20 70 03 e2 	movepc	rret,8
     2b48:	14 30 f5 32 	br	10 <compare>,#al
     2b4c:	00 10 00 41 	add	r2,1
@@ -2794,7 +2794,7 @@ Disassembly of section .text:
     2b68:	0d 44 a9 24 	wl16	r9,0x2544
     2b6c:	0d 60 01 23 	wh16	r9,0x3
     2b70:	10 40 01 29 	ld32	r9,r9
-    2b74:	0e 20 01 10 	rev8	r8,r16
+    2b74:	01 60 01 10 	umulh	r8,r16
     2b78:	20 70 03 e2 	movepc	rret,8
     2b7c:	14 30 f5 25 	br	10 <compare>,#al
     2b80:	00 10 00 41 	add	r2,1
@@ -2807,7 +2807,7 @@ Disassembly of section .text:
     2b9c:	0d 44 a9 28 	wl16	r9,0x2548
     2ba0:	0d 60 01 23 	wh16	r9,0x3
     2ba4:	10 40 01 29 	ld32	r9,r9
-    2ba8:	0e 20 01 10 	rev8	r8,r16
+    2ba8:	01 60 01 10 	umulh	r8,r16
     2bac:	20 70 03 e2 	movepc	rret,8
     2bb0:	14 30 f5 18 	br	10 <compare>,#al
     2bb4:	00 10 00 41 	add	r2,1
@@ -2820,7 +2820,7 @@ Disassembly of section .text:
     2bd0:	0d 44 a9 2c 	wl16	r9,0x254c
     2bd4:	0d 60 01 23 	wh16	r9,0x3
     2bd8:	10 40 01 29 	ld32	r9,r9
-    2bdc:	0e 20 01 10 	rev8	r8,r16
+    2bdc:	01 60 01 10 	umulh	r8,r16
     2be0:	20 70 03 e2 	movepc	rret,8
     2be4:	14 30 f5 0b 	br	10 <compare>,#al
     2be8:	00 10 00 41 	add	r2,1
@@ -2833,7 +2833,7 @@ Disassembly of section .text:
     2c04:	0d 44 a9 30 	wl16	r9,0x2550
     2c08:	0d 60 01 23 	wh16	r9,0x3
     2c0c:	10 40 01 29 	ld32	r9,r9
-    2c10:	0e 20 01 10 	rev8	r8,r16
+    2c10:	01 60 01 10 	umulh	r8,r16
     2c14:	20 70 03 e2 	movepc	rret,8
     2c18:	14 30 f4 fe 	br	10 <compare>,#al
     2c1c:	00 10 00 41 	add	r2,1
@@ -2846,7 +2846,7 @@ Disassembly of section .text:
     2c38:	0d 44 a9 34 	wl16	r9,0x2554
     2c3c:	0d 60 01 23 	wh16	r9,0x3
     2c40:	10 40 01 29 	ld32	r9,r9
-    2c44:	0e 20 01 10 	rev8	r8,r16
+    2c44:	01 60 01 10 	umulh	r8,r16
     2c48:	20 70 03 e2 	movepc	rret,8
     2c4c:	14 30 f4 f1 	br	10 <compare>,#al
     2c50:	00 10 00 41 	add	r2,1
@@ -2859,7 +2859,7 @@ Disassembly of section .text:
     2c6c:	0d 44 a9 38 	wl16	r9,0x2558
     2c70:	0d 60 01 23 	wh16	r9,0x3
     2c74:	10 40 01 29 	ld32	r9,r9
-    2c78:	0e 20 01 10 	rev8	r8,r16
+    2c78:	01 60 01 10 	umulh	r8,r16
     2c7c:	20 70 03 e2 	movepc	rret,8
     2c80:	14 30 f4 e4 	br	10 <compare>,#al
     2c84:	00 10 00 41 	add	r2,1
@@ -2872,7 +2872,7 @@ Disassembly of section .text:
     2ca0:	0d 44 a9 3c 	wl16	r9,0x255c
     2ca4:	0d 60 01 23 	wh16	r9,0x3
     2ca8:	10 40 01 29 	ld32	r9,r9
-    2cac:	0e 20 01 10 	rev8	r8,r16
+    2cac:	01 60 01 10 	umulh	r8,r16
     2cb0:	20 70 03 e2 	movepc	rret,8
     2cb4:	14 30 f4 d7 	br	10 <compare>,#al
     2cb8:	00 10 00 41 	add	r2,1
@@ -2885,7 +2885,7 @@ Disassembly of section .text:
     2cd4:	0d 44 ad 20 	wl16	r9,0x2560
     2cd8:	0d 60 01 23 	wh16	r9,0x3
     2cdc:	10 40 01 29 	ld32	r9,r9
-    2ce0:	0e 20 01 10 	rev8	r8,r16
+    2ce0:	01 60 01 10 	umulh	r8,r16
     2ce4:	20 70 03 e2 	movepc	rret,8
     2ce8:	14 30 f4 ca 	br	10 <compare>,#al
     2cec:	00 10 00 41 	add	r2,1
@@ -2898,7 +2898,7 @@ Disassembly of section .text:
     2d08:	0d 44 ad 24 	wl16	r9,0x2564
     2d0c:	0d 60 01 23 	wh16	r9,0x3
     2d10:	10 40 01 29 	ld32	r9,r9
-    2d14:	0e 20 01 10 	rev8	r8,r16
+    2d14:	01 60 01 10 	umulh	r8,r16
     2d18:	20 70 03 e2 	movepc	rret,8
     2d1c:	14 30 f4 bd 	br	10 <compare>,#al
     2d20:	00 10 00 41 	add	r2,1
@@ -2911,7 +2911,7 @@ Disassembly of section .text:
     2d3c:	0d 44 ad 28 	wl16	r9,0x2568
     2d40:	0d 60 01 23 	wh16	r9,0x3
     2d44:	10 40 01 29 	ld32	r9,r9
-    2d48:	0e 20 01 10 	rev8	r8,r16
+    2d48:	01 60 01 10 	umulh	r8,r16
     2d4c:	20 70 03 e2 	movepc	rret,8
     2d50:	14 30 f4 b0 	br	10 <compare>,#al
     2d54:	00 10 00 41 	add	r2,1
@@ -2924,7 +2924,7 @@ Disassembly of section .text:
     2d70:	0d 44 ad 2c 	wl16	r9,0x256c
     2d74:	0d 60 01 23 	wh16	r9,0x3
     2d78:	10 40 01 29 	ld32	r9,r9
-    2d7c:	0e 20 01 10 	rev8	r8,r16
+    2d7c:	01 60 01 10 	umulh	r8,r16
     2d80:	20 70 03 e2 	movepc	rret,8
     2d84:	14 30 f4 a3 	br	10 <compare>,#al
     2d88:	00 10 00 41 	add	r2,1
@@ -2937,7 +2937,7 @@ Disassembly of section .text:
     2da4:	0d 44 ad 30 	wl16	r9,0x2570
     2da8:	0d 60 01 23 	wh16	r9,0x3
     2dac:	10 40 01 29 	ld32	r9,r9
-    2db0:	0e 20 01 10 	rev8	r8,r16
+    2db0:	01 60 01 10 	umulh	r8,r16
     2db4:	20 70 03 e2 	movepc	rret,8
     2db8:	14 30 f4 96 	br	10 <compare>,#al
     2dbc:	00 10 00 41 	add	r2,1
@@ -2950,7 +2950,7 @@ Disassembly of section .text:
     2dd8:	0d 44 ad 34 	wl16	r9,0x2574
     2ddc:	0d 60 01 23 	wh16	r9,0x3
     2de0:	10 40 01 29 	ld32	r9,r9
-    2de4:	0e 20 01 10 	rev8	r8,r16
+    2de4:	01 60 01 10 	umulh	r8,r16
     2de8:	20 70 03 e2 	movepc	rret,8
     2dec:	14 30 f4 89 	br	10 <compare>,#al
     2df0:	00 10 00 41 	add	r2,1
@@ -2963,7 +2963,7 @@ Disassembly of section .text:
     2e0c:	0d 44 ad 38 	wl16	r9,0x2578
     2e10:	0d 60 01 23 	wh16	r9,0x3
     2e14:	10 40 01 29 	ld32	r9,r9
-    2e18:	0e 20 01 10 	rev8	r8,r16
+    2e18:	01 60 01 10 	umulh	r8,r16
     2e1c:	20 70 03 e2 	movepc	rret,8
     2e20:	14 30 f4 7c 	br	10 <compare>,#al
     2e24:	00 10 00 41 	add	r2,1
@@ -2976,7 +2976,7 @@ Disassembly of section .text:
     2e40:	0d 44 ad 3c 	wl16	r9,0x257c
     2e44:	0d 60 01 23 	wh16	r9,0x3
     2e48:	10 40 01 29 	ld32	r9,r9
-    2e4c:	0e 20 01 10 	rev8	r8,r16
+    2e4c:	01 60 01 10 	umulh	r8,r16
     2e50:	20 70 03 e2 	movepc	rret,8
     2e54:	14 30 f4 6f 	br	10 <compare>,#al
     2e58:	00 10 00 41 	add	r2,1
@@ -2989,7 +2989,7 @@ Disassembly of section .text:
     2e74:	0d 44 b1 20 	wl16	r9,0x2580
     2e78:	0d 60 01 23 	wh16	r9,0x3
     2e7c:	10 40 01 29 	ld32	r9,r9
-    2e80:	0e 20 01 10 	rev8	r8,r16
+    2e80:	01 60 01 10 	umulh	r8,r16
     2e84:	20 70 03 e2 	movepc	rret,8
     2e88:	14 30 f4 62 	br	10 <compare>,#al
     2e8c:	00 10 00 41 	add	r2,1
@@ -3002,7 +3002,7 @@ Disassembly of section .text:
     2ea8:	0d 44 b1 24 	wl16	r9,0x2584
     2eac:	0d 60 01 23 	wh16	r9,0x3
     2eb0:	10 40 01 29 	ld32	r9,r9
-    2eb4:	0e 20 01 10 	rev8	r8,r16
+    2eb4:	01 60 01 10 	umulh	r8,r16
     2eb8:	20 70 03 e2 	movepc	rret,8
     2ebc:	14 30 f4 55 	br	10 <compare>,#al
     2ec0:	00 10 00 41 	add	r2,1
@@ -3015,7 +3015,7 @@ Disassembly of section .text:
     2edc:	0d 44 b1 28 	wl16	r9,0x2588
     2ee0:	0d 60 01 23 	wh16	r9,0x3
     2ee4:	10 40 01 29 	ld32	r9,r9
-    2ee8:	0e 20 01 10 	rev8	r8,r16
+    2ee8:	01 60 01 10 	umulh	r8,r16
     2eec:	20 70 03 e2 	movepc	rret,8
     2ef0:	14 30 f4 48 	br	10 <compare>,#al
     2ef4:	00 10 00 41 	add	r2,1
@@ -3028,7 +3028,7 @@ Disassembly of section .text:
     2f10:	0d 44 b1 2c 	wl16	r9,0x258c
     2f14:	0d 60 01 23 	wh16	r9,0x3
     2f18:	10 40 01 29 	ld32	r9,r9
-    2f1c:	0e 20 01 10 	rev8	r8,r16
+    2f1c:	01 60 01 10 	umulh	r8,r16
     2f20:	20 70 03 e2 	movepc	rret,8
     2f24:	14 30 f4 3b 	br	10 <compare>,#al
     2f28:	00 10 00 41 	add	r2,1
@@ -3041,7 +3041,7 @@ Disassembly of section .text:
     2f44:	0d 44 b1 30 	wl16	r9,0x2590
     2f48:	0d 60 01 23 	wh16	r9,0x3
     2f4c:	10 40 01 29 	ld32	r9,r9
-    2f50:	0e 20 01 10 	rev8	r8,r16
+    2f50:	01 60 01 10 	umulh	r8,r16
     2f54:	20 70 03 e2 	movepc	rret,8
     2f58:	14 30 f4 2e 	br	10 <compare>,#al
     2f5c:	00 10 00 41 	add	r2,1
@@ -3054,7 +3054,7 @@ Disassembly of section .text:
     2f78:	0d 44 b1 34 	wl16	r9,0x2594
     2f7c:	0d 60 01 23 	wh16	r9,0x3
     2f80:	10 40 01 29 	ld32	r9,r9
-    2f84:	0e 20 01 10 	rev8	r8,r16
+    2f84:	01 60 01 10 	umulh	r8,r16
     2f88:	20 70 03 e2 	movepc	rret,8
     2f8c:	14 30 f4 21 	br	10 <compare>,#al
     2f90:	00 10 00 41 	add	r2,1
@@ -3067,7 +3067,7 @@ Disassembly of section .text:
     2fac:	0d 44 b1 38 	wl16	r9,0x2598
     2fb0:	0d 60 01 23 	wh16	r9,0x3
     2fb4:	10 40 01 29 	ld32	r9,r9
-    2fb8:	0e 20 01 10 	rev8	r8,r16
+    2fb8:	01 60 01 10 	umulh	r8,r16
     2fbc:	20 70 03 e2 	movepc	rret,8
     2fc0:	14 30 f4 14 	br	10 <compare>,#al
     2fc4:	00 10 00 41 	add	r2,1
@@ -3080,7 +3080,7 @@ Disassembly of section .text:
     2fe0:	0d 44 b1 3c 	wl16	r9,0x259c
     2fe4:	0d 60 01 23 	wh16	r9,0x3
     2fe8:	10 40 01 29 	ld32	r9,r9
-    2fec:	0e 20 01 10 	rev8	r8,r16
+    2fec:	01 60 01 10 	umulh	r8,r16
     2ff0:	20 70 03 e2 	movepc	rret,8
     2ff4:	14 30 f4 07 	br	10 <compare>,#al
     2ff8:	00 10 00 41 	add	r2,1
@@ -3093,7 +3093,7 @@ Disassembly of section .text:
     3014:	0d 44 b5 20 	wl16	r9,0x25a0
     3018:	0d 60 01 23 	wh16	r9,0x3
     301c:	10 40 01 29 	ld32	r9,r9
-    3020:	0e 20 01 10 	rev8	r8,r16
+    3020:	01 60 01 10 	umulh	r8,r16
     3024:	20 70 03 e2 	movepc	rret,8
     3028:	14 30 f3 fa 	br	10 <compare>,#al
     302c:	00 10 00 41 	add	r2,1
@@ -3106,7 +3106,7 @@ Disassembly of section .text:
     3048:	0d 44 b5 24 	wl16	r9,0x25a4
     304c:	0d 60 01 23 	wh16	r9,0x3
     3050:	10 40 01 29 	ld32	r9,r9
-    3054:	0e 20 01 10 	rev8	r8,r16
+    3054:	01 60 01 10 	umulh	r8,r16
     3058:	20 70 03 e2 	movepc	rret,8
     305c:	14 30 f3 ed 	br	10 <compare>,#al
     3060:	00 10 00 41 	add	r2,1
@@ -3119,7 +3119,7 @@ Disassembly of section .text:
     307c:	0d 44 b5 28 	wl16	r9,0x25a8
     3080:	0d 60 01 23 	wh16	r9,0x3
     3084:	10 40 01 29 	ld32	r9,r9
-    3088:	0e 20 01 10 	rev8	r8,r16
+    3088:	01 60 01 10 	umulh	r8,r16
     308c:	20 70 03 e2 	movepc	rret,8
     3090:	14 30 f3 e0 	br	10 <compare>,#al
     3094:	00 10 00 41 	add	r2,1
@@ -3132,7 +3132,7 @@ Disassembly of section .text:
     30b0:	0d 44 b5 2c 	wl16	r9,0x25ac
     30b4:	0d 60 01 23 	wh16	r9,0x3
     30b8:	10 40 01 29 	ld32	r9,r9
-    30bc:	0e 20 01 10 	rev8	r8,r16
+    30bc:	01 60 01 10 	umulh	r8,r16
     30c0:	20 70 03 e2 	movepc	rret,8
     30c4:	14 30 f3 d3 	br	10 <compare>,#al
     30c8:	00 10 00 41 	add	r2,1
@@ -3145,7 +3145,7 @@ Disassembly of section .text:
     30e4:	0d 44 b5 30 	wl16	r9,0x25b0
     30e8:	0d 60 01 23 	wh16	r9,0x3
     30ec:	10 40 01 29 	ld32	r9,r9
-    30f0:	0e 20 01 10 	rev8	r8,r16
+    30f0:	01 60 01 10 	umulh	r8,r16
     30f4:	20 70 03 e2 	movepc	rret,8
     30f8:	14 30 f3 c6 	br	10 <compare>,#al
     30fc:	00 10 00 41 	add	r2,1
@@ -3158,7 +3158,7 @@ Disassembly of section .text:
     3118:	0d 44 b5 34 	wl16	r9,0x25b4
     311c:	0d 60 01 23 	wh16	r9,0x3
     3120:	10 40 01 29 	ld32	r9,r9
-    3124:	0e 20 01 10 	rev8	r8,r16
+    3124:	01 60 01 10 	umulh	r8,r16
     3128:	20 70 03 e2 	movepc	rret,8
     312c:	14 30 f3 b9 	br	10 <compare>,#al
     3130:	00 10 00 41 	add	r2,1
@@ -3171,7 +3171,7 @@ Disassembly of section .text:
     314c:	0d 44 b5 38 	wl16	r9,0x25b8
     3150:	0d 60 01 23 	wh16	r9,0x3
     3154:	10 40 01 29 	ld32	r9,r9
-    3158:	0e 20 01 10 	rev8	r8,r16
+    3158:	01 60 01 10 	umulh	r8,r16
     315c:	20 70 03 e2 	movepc	rret,8
     3160:	14 30 f3 ac 	br	10 <compare>,#al
     3164:	00 10 00 41 	add	r2,1
@@ -3184,7 +3184,7 @@ Disassembly of section .text:
     3180:	0d 44 b5 3c 	wl16	r9,0x25bc
     3184:	0d 60 01 23 	wh16	r9,0x3
     3188:	10 40 01 29 	ld32	r9,r9
-    318c:	0e 20 01 10 	rev8	r8,r16
+    318c:	01 60 01 10 	umulh	r8,r16
     3190:	20 70 03 e2 	movepc	rret,8
     3194:	14 30 f3 9f 	br	10 <compare>,#al
     3198:	00 10 00 41 	add	r2,1
@@ -3197,7 +3197,7 @@ Disassembly of section .text:
     31b4:	0d 44 b9 20 	wl16	r9,0x25c0
     31b8:	0d 60 01 23 	wh16	r9,0x3
     31bc:	10 40 01 29 	ld32	r9,r9
-    31c0:	0e 20 01 10 	rev8	r8,r16
+    31c0:	01 60 01 10 	umulh	r8,r16
     31c4:	20 70 03 e2 	movepc	rret,8
     31c8:	14 30 f3 92 	br	10 <compare>,#al
     31cc:	00 10 00 41 	add	r2,1
@@ -3210,7 +3210,7 @@ Disassembly of section .text:
     31e8:	0d 44 b9 24 	wl16	r9,0x25c4
     31ec:	0d 60 01 23 	wh16	r9,0x3
     31f0:	10 40 01 29 	ld32	r9,r9
-    31f4:	0e 20 01 10 	rev8	r8,r16
+    31f4:	01 60 01 10 	umulh	r8,r16
     31f8:	20 70 03 e2 	movepc	rret,8
     31fc:	14 30 f3 85 	br	10 <compare>,#al
     3200:	00 10 00 41 	add	r2,1
@@ -3223,7 +3223,7 @@ Disassembly of section .text:
     321c:	0d 44 b9 28 	wl16	r9,0x25c8
     3220:	0d 60 01 23 	wh16	r9,0x3
     3224:	10 40 01 29 	ld32	r9,r9
-    3228:	0e 20 01 10 	rev8	r8,r16
+    3228:	01 60 01 10 	umulh	r8,r16
     322c:	20 70 03 e2 	movepc	rret,8
     3230:	14 30 f3 78 	br	10 <compare>,#al
     3234:	00 10 00 41 	add	r2,1
@@ -3236,7 +3236,7 @@ Disassembly of section .text:
     3250:	0d 44 b9 2c 	wl16	r9,0x25cc
     3254:	0d 60 01 23 	wh16	r9,0x3
     3258:	10 40 01 29 	ld32	r9,r9
-    325c:	0e 20 01 10 	rev8	r8,r16
+    325c:	01 60 01 10 	umulh	r8,r16
     3260:	20 70 03 e2 	movepc	rret,8
     3264:	14 30 f3 6b 	br	10 <compare>,#al
     3268:	00 10 00 41 	add	r2,1
@@ -3249,7 +3249,7 @@ Disassembly of section .text:
     3284:	0d 44 b9 30 	wl16	r9,0x25d0
     3288:	0d 60 01 23 	wh16	r9,0x3
     328c:	10 40 01 29 	ld32	r9,r9
-    3290:	0e 20 01 10 	rev8	r8,r16
+    3290:	01 60 01 10 	umulh	r8,r16
     3294:	20 70 03 e2 	movepc	rret,8
     3298:	14 30 f3 5e 	br	10 <compare>,#al
     329c:	00 10 00 41 	add	r2,1
@@ -3262,7 +3262,7 @@ Disassembly of section .text:
     32b8:	0d 44 b9 34 	wl16	r9,0x25d4
     32bc:	0d 60 01 23 	wh16	r9,0x3
     32c0:	10 40 01 29 	ld32	r9,r9
-    32c4:	0e 20 01 10 	rev8	r8,r16
+    32c4:	01 60 01 10 	umulh	r8,r16
     32c8:	20 70 03 e2 	movepc	rret,8
     32cc:	14 30 f3 51 	br	10 <compare>,#al
     32d0:	00 10 00 41 	add	r2,1
@@ -3275,7 +3275,7 @@ Disassembly of section .text:
     32ec:	0d 44 b9 38 	wl16	r9,0x25d8
     32f0:	0d 60 01 23 	wh16	r9,0x3
     32f4:	10 40 01 29 	ld32	r9,r9
-    32f8:	0e 20 01 10 	rev8	r8,r16
+    32f8:	01 60 01 10 	umulh	r8,r16
     32fc:	20 70 03 e2 	movepc	rret,8
     3300:	14 30 f3 44 	br	10 <compare>,#al
     3304:	00 10 00 41 	add	r2,1
@@ -3288,7 +3288,7 @@ Disassembly of section .text:
     3320:	0d 44 b9 3c 	wl16	r9,0x25dc
     3324:	0d 60 01 23 	wh16	r9,0x3
     3328:	10 40 01 29 	ld32	r9,r9
-    332c:	0e 20 01 10 	rev8	r8,r16
+    332c:	01 60 01 10 	umulh	r8,r16
     3330:	20 70 03 e2 	movepc	rret,8
     3334:	14 30 f3 37 	br	10 <compare>,#al
     3338:	00 10 00 41 	add	r2,1
@@ -3301,7 +3301,7 @@ Disassembly of section .text:
     3354:	0d 44 bd 20 	wl16	r9,0x25e0
     3358:	0d 60 01 23 	wh16	r9,0x3
     335c:	10 40 01 29 	ld32	r9,r9
-    3360:	0e 20 01 10 	rev8	r8,r16
+    3360:	01 60 01 10 	umulh	r8,r16
     3364:	20 70 03 e2 	movepc	rret,8
     3368:	14 30 f3 2a 	br	10 <compare>,#al
     336c:	00 10 00 41 	add	r2,1
@@ -3314,7 +3314,7 @@ Disassembly of section .text:
     3388:	0d 44 bd 24 	wl16	r9,0x25e4
     338c:	0d 60 01 23 	wh16	r9,0x3
     3390:	10 40 01 29 	ld32	r9,r9
-    3394:	0e 20 01 10 	rev8	r8,r16
+    3394:	01 60 01 10 	umulh	r8,r16
     3398:	20 70 03 e2 	movepc	rret,8
     339c:	14 30 f3 1d 	br	10 <compare>,#al
     33a0:	00 10 00 41 	add	r2,1
@@ -3327,7 +3327,7 @@ Disassembly of section .text:
     33bc:	0d 44 bd 28 	wl16	r9,0x25e8
     33c0:	0d 60 01 23 	wh16	r9,0x3
     33c4:	10 40 01 29 	ld32	r9,r9
-    33c8:	0e 20 01 10 	rev8	r8,r16
+    33c8:	01 60 01 10 	umulh	r8,r16
     33cc:	20 70 03 e2 	movepc	rret,8
     33d0:	14 30 f3 10 	br	10 <compare>,#al
     33d4:	00 10 00 41 	add	r2,1
@@ -3340,7 +3340,7 @@ Disassembly of section .text:
     33f0:	0d 44 bd 2c 	wl16	r9,0x25ec
     33f4:	0d 60 01 23 	wh16	r9,0x3
     33f8:	10 40 01 29 	ld32	r9,r9
-    33fc:	0e 20 01 10 	rev8	r8,r16
+    33fc:	01 60 01 10 	umulh	r8,r16
     3400:	20 70 03 e2 	movepc	rret,8
     3404:	14 30 f3 03 	br	10 <compare>,#al
     3408:	00 10 00 41 	add	r2,1
@@ -3353,7 +3353,7 @@ Disassembly of section .text:
     3424:	0d 44 bd 30 	wl16	r9,0x25f0
     3428:	0d 60 01 23 	wh16	r9,0x3
     342c:	10 40 01 29 	ld32	r9,r9
-    3430:	0e 20 01 10 	rev8	r8,r16
+    3430:	01 60 01 10 	umulh	r8,r16
     3434:	20 70 03 e2 	movepc	rret,8
     3438:	14 30 f2 f6 	br	10 <compare>,#al
     343c:	00 10 00 41 	add	r2,1
@@ -3366,7 +3366,7 @@ Disassembly of section .text:
     3458:	0d 44 bd 34 	wl16	r9,0x25f4
     345c:	0d 60 01 23 	wh16	r9,0x3
     3460:	10 40 01 29 	ld32	r9,r9
-    3464:	0e 20 01 10 	rev8	r8,r16
+    3464:	01 60 01 10 	umulh	r8,r16
     3468:	20 70 03 e2 	movepc	rret,8
     346c:	14 30 f2 e9 	br	10 <compare>,#al
     3470:	00 10 00 41 	add	r2,1
@@ -3379,7 +3379,7 @@ Disassembly of section .text:
     348c:	0d 44 bd 38 	wl16	r9,0x25f8
     3490:	0d 60 01 23 	wh16	r9,0x3
     3494:	10 40 01 29 	ld32	r9,r9
-    3498:	0e 20 01 10 	rev8	r8,r16
+    3498:	01 60 01 10 	umulh	r8,r16
     349c:	20 70 03 e2 	movepc	rret,8
     34a0:	14 30 f2 dc 	br	10 <compare>,#al
     34a4:	00 10 00 41 	add	r2,1
@@ -3392,7 +3392,7 @@ Disassembly of section .text:
     34c0:	0d 44 bd 3c 	wl16	r9,0x25fc
     34c4:	0d 60 01 23 	wh16	r9,0x3
     34c8:	10 40 01 29 	ld32	r9,r9
-    34cc:	0e 20 01 10 	rev8	r8,r16
+    34cc:	01 60 01 10 	umulh	r8,r16
     34d0:	20 70 03 e2 	movepc	rret,8
     34d4:	14 30 f2 cf 	br	10 <compare>,#al
     34d8:	00 10 00 41 	add	r2,1
@@ -3405,7 +3405,7 @@ Disassembly of section .text:
     34f4:	0d 44 c1 20 	wl16	r9,0x2600
     34f8:	0d 60 01 23 	wh16	r9,0x3
     34fc:	10 40 01 29 	ld32	r9,r9
-    3500:	0e 20 01 10 	rev8	r8,r16
+    3500:	01 60 01 10 	umulh	r8,r16
     3504:	20 70 03 e2 	movepc	rret,8
     3508:	14 30 f2 c2 	br	10 <compare>,#al
     350c:	00 10 00 41 	add	r2,1
@@ -3418,7 +3418,7 @@ Disassembly of section .text:
     3528:	0d 44 c1 24 	wl16	r9,0x2604
     352c:	0d 60 01 23 	wh16	r9,0x3
     3530:	10 40 01 29 	ld32	r9,r9
-    3534:	0e 20 01 10 	rev8	r8,r16
+    3534:	01 60 01 10 	umulh	r8,r16
     3538:	20 70 03 e2 	movepc	rret,8
     353c:	14 30 f2 b5 	br	10 <compare>,#al
     3540:	00 10 00 41 	add	r2,1
@@ -3431,7 +3431,7 @@ Disassembly of section .text:
     355c:	0d 44 c1 28 	wl16	r9,0x2608
     3560:	0d 60 01 23 	wh16	r9,0x3
     3564:	10 40 01 29 	ld32	r9,r9
-    3568:	0e 20 01 10 	rev8	r8,r16
+    3568:	01 60 01 10 	umulh	r8,r16
     356c:	20 70 03 e2 	movepc	rret,8
     3570:	14 30 f2 a8 	br	10 <compare>,#al
     3574:	00 10 00 41 	add	r2,1
@@ -3444,7 +3444,7 @@ Disassembly of section .text:
     3590:	0d 44 c1 2c 	wl16	r9,0x260c
     3594:	0d 60 01 23 	wh16	r9,0x3
     3598:	10 40 01 29 	ld32	r9,r9
-    359c:	0e 20 01 10 	rev8	r8,r16
+    359c:	01 60 01 10 	umulh	r8,r16
     35a0:	20 70 03 e2 	movepc	rret,8
     35a4:	14 30 f2 9b 	br	10 <compare>,#al
     35a8:	00 10 00 41 	add	r2,1
@@ -3457,7 +3457,7 @@ Disassembly of section .text:
     35c4:	0d 44 c1 30 	wl16	r9,0x2610
     35c8:	0d 60 01 23 	wh16	r9,0x3
     35cc:	10 40 01 29 	ld32	r9,r9
-    35d0:	0e 20 01 10 	rev8	r8,r16
+    35d0:	01 60 01 10 	umulh	r8,r16
     35d4:	20 70 03 e2 	movepc	rret,8
     35d8:	14 30 f2 8e 	br	10 <compare>,#al
     35dc:	00 10 00 41 	add	r2,1
@@ -3470,7 +3470,7 @@ Disassembly of section .text:
     35f8:	0d 44 c1 34 	wl16	r9,0x2614
     35fc:	0d 60 01 23 	wh16	r9,0x3
     3600:	10 40 01 29 	ld32	r9,r9
-    3604:	0e 20 01 10 	rev8	r8,r16
+    3604:	01 60 01 10 	umulh	r8,r16
     3608:	20 70 03 e2 	movepc	rret,8
     360c:	14 30 f2 81 	br	10 <compare>,#al
     3610:	00 10 00 41 	add	r2,1
@@ -3483,7 +3483,7 @@ Disassembly of section .text:
     362c:	0d 44 c1 38 	wl16	r9,0x2618
     3630:	0d 60 01 23 	wh16	r9,0x3
     3634:	10 40 01 29 	ld32	r9,r9
-    3638:	0e 20 01 10 	rev8	r8,r16
+    3638:	01 60 01 10 	umulh	r8,r16
     363c:	20 70 03 e2 	movepc	rret,8
     3640:	14 30 f2 74 	br	10 <compare>,#al
     3644:	00 10 00 41 	add	r2,1
@@ -3496,7 +3496,7 @@ Disassembly of section .text:
     3660:	0d 44 c1 3c 	wl16	r9,0x261c
     3664:	0d 60 01 23 	wh16	r9,0x3
     3668:	10 40 01 29 	ld32	r9,r9
-    366c:	0e 20 01 10 	rev8	r8,r16
+    366c:	01 60 01 10 	umulh	r8,r16
     3670:	20 70 03 e2 	movepc	rret,8
     3674:	14 30 f2 67 	br	10 <compare>,#al
     3678:	00 10 00 41 	add	r2,1
@@ -3509,7 +3509,7 @@ Disassembly of section .text:
     3694:	0d 44 c5 20 	wl16	r9,0x2620
     3698:	0d 60 01 23 	wh16	r9,0x3
     369c:	10 40 01 29 	ld32	r9,r9
-    36a0:	0e 20 01 10 	rev8	r8,r16
+    36a0:	01 60 01 10 	umulh	r8,r16
     36a4:	20 70 03 e2 	movepc	rret,8
     36a8:	14 30 f2 5a 	br	10 <compare>,#al
     36ac:	00 10 00 41 	add	r2,1
@@ -3522,7 +3522,7 @@ Disassembly of section .text:
     36c8:	0d 44 c5 24 	wl16	r9,0x2624
     36cc:	0d 60 01 23 	wh16	r9,0x3
     36d0:	10 40 01 29 	ld32	r9,r9
-    36d4:	0e 20 01 10 	rev8	r8,r16
+    36d4:	01 60 01 10 	umulh	r8,r16
     36d8:	20 70 03 e2 	movepc	rret,8
     36dc:	14 30 f2 4d 	br	10 <compare>,#al
     36e0:	00 10 00 41 	add	r2,1
@@ -3535,7 +3535,7 @@ Disassembly of section .text:
     36fc:	0d 44 c5 28 	wl16	r9,0x2628
     3700:	0d 60 01 23 	wh16	r9,0x3
     3704:	10 40 01 29 	ld32	r9,r9
-    3708:	0e 20 01 10 	rev8	r8,r16
+    3708:	01 60 01 10 	umulh	r8,r16
     370c:	20 70 03 e2 	movepc	rret,8
     3710:	14 30 f2 40 	br	10 <compare>,#al
     3714:	00 10 00 41 	add	r2,1
@@ -3548,7 +3548,7 @@ Disassembly of section .text:
     3730:	0d 44 c5 2c 	wl16	r9,0x262c
     3734:	0d 60 01 23 	wh16	r9,0x3
     3738:	10 40 01 29 	ld32	r9,r9
-    373c:	0e 20 01 10 	rev8	r8,r16
+    373c:	01 60 01 10 	umulh	r8,r16
     3740:	20 70 03 e2 	movepc	rret,8
     3744:	14 30 f2 33 	br	10 <compare>,#al
     3748:	00 10 00 41 	add	r2,1
@@ -3561,7 +3561,7 @@ Disassembly of section .text:
     3764:	0d 44 c5 30 	wl16	r9,0x2630
     3768:	0d 60 01 23 	wh16	r9,0x3
     376c:	10 40 01 29 	ld32	r9,r9
-    3770:	0e 20 01 10 	rev8	r8,r16
+    3770:	01 60 01 10 	umulh	r8,r16
     3774:	20 70 03 e2 	movepc	rret,8
     3778:	14 30 f2 26 	br	10 <compare>,#al
     377c:	00 10 00 41 	add	r2,1
@@ -3574,7 +3574,7 @@ Disassembly of section .text:
     3798:	0d 44 c5 34 	wl16	r9,0x2634
     379c:	0d 60 01 23 	wh16	r9,0x3
     37a0:	10 40 01 29 	ld32	r9,r9
-    37a4:	0e 20 01 10 	rev8	r8,r16
+    37a4:	01 60 01 10 	umulh	r8,r16
     37a8:	20 70 03 e2 	movepc	rret,8
     37ac:	14 30 f2 19 	br	10 <compare>,#al
     37b0:	00 10 00 41 	add	r2,1
@@ -3587,7 +3587,7 @@ Disassembly of section .text:
     37cc:	0d 44 c5 38 	wl16	r9,0x2638
     37d0:	0d 60 01 23 	wh16	r9,0x3
     37d4:	10 40 01 29 	ld32	r9,r9
-    37d8:	0e 20 01 10 	rev8	r8,r16
+    37d8:	01 60 01 10 	umulh	r8,r16
     37dc:	20 70 03 e2 	movepc	rret,8
     37e0:	14 30 f2 0c 	br	10 <compare>,#al
     37e4:	00 10 00 41 	add	r2,1
@@ -3600,7 +3600,7 @@ Disassembly of section .text:
     3800:	0d 44 c5 3c 	wl16	r9,0x263c
     3804:	0d 60 01 23 	wh16	r9,0x3
     3808:	10 40 01 29 	ld32	r9,r9
-    380c:	0e 20 01 10 	rev8	r8,r16
+    380c:	01 60 01 10 	umulh	r8,r16
     3810:	20 70 03 e2 	movepc	rret,8
     3814:	14 30 f1 ff 	br	10 <compare>,#al
     3818:	00 10 00 41 	add	r2,1
@@ -3613,7 +3613,7 @@ Disassembly of section .text:
     3834:	0d 44 c9 20 	wl16	r9,0x2640
     3838:	0d 60 01 23 	wh16	r9,0x3
     383c:	10 40 01 29 	ld32	r9,r9
-    3840:	0e 20 01 10 	rev8	r8,r16
+    3840:	01 60 01 10 	umulh	r8,r16
     3844:	20 70 03 e2 	movepc	rret,8
     3848:	14 30 f1 f2 	br	10 <compare>,#al
     384c:	00 10 00 41 	add	r2,1
@@ -3626,7 +3626,7 @@ Disassembly of section .text:
     3868:	0d 44 c9 24 	wl16	r9,0x2644
     386c:	0d 60 01 23 	wh16	r9,0x3
     3870:	10 40 01 29 	ld32	r9,r9
-    3874:	0e 20 01 10 	rev8	r8,r16
+    3874:	01 60 01 10 	umulh	r8,r16
     3878:	20 70 03 e2 	movepc	rret,8
     387c:	14 30 f1 e5 	br	10 <compare>,#al
     3880:	00 10 00 41 	add	r2,1
@@ -3639,7 +3639,7 @@ Disassembly of section .text:
     389c:	0d 44 c9 28 	wl16	r9,0x2648
     38a0:	0d 60 01 23 	wh16	r9,0x3
     38a4:	10 40 01 29 	ld32	r9,r9
-    38a8:	0e 20 01 10 	rev8	r8,r16
+    38a8:	01 60 01 10 	umulh	r8,r16
     38ac:	20 70 03 e2 	movepc	rret,8
     38b0:	14 30 f1 d8 	br	10 <compare>,#al
     38b4:	00 10 00 41 	add	r2,1
@@ -3652,7 +3652,7 @@ Disassembly of section .text:
     38d0:	0d 44 c9 2c 	wl16	r9,0x264c
     38d4:	0d 60 01 23 	wh16	r9,0x3
     38d8:	10 40 01 29 	ld32	r9,r9
-    38dc:	0e 20 01 10 	rev8	r8,r16
+    38dc:	01 60 01 10 	umulh	r8,r16
     38e0:	20 70 03 e2 	movepc	rret,8
     38e4:	14 30 f1 cb 	br	10 <compare>,#al
     38e8:	00 10 00 41 	add	r2,1
@@ -3665,7 +3665,7 @@ Disassembly of section .text:
     3904:	0d 44 c9 30 	wl16	r9,0x2650
     3908:	0d 60 01 23 	wh16	r9,0x3
     390c:	10 40 01 29 	ld32	r9,r9
-    3910:	0e 20 01 10 	rev8	r8,r16
+    3910:	01 60 01 10 	umulh	r8,r16
     3914:	20 70 03 e2 	movepc	rret,8
     3918:	14 30 f1 be 	br	10 <compare>,#al
     391c:	00 10 00 41 	add	r2,1
@@ -3678,7 +3678,7 @@ Disassembly of section .text:
     3938:	0d 44 c9 34 	wl16	r9,0x2654
     393c:	0d 60 01 23 	wh16	r9,0x3
     3940:	10 40 01 29 	ld32	r9,r9
-    3944:	0e 20 01 10 	rev8	r8,r16
+    3944:	01 60 01 10 	umulh	r8,r16
     3948:	20 70 03 e2 	movepc	rret,8
     394c:	14 30 f1 b1 	br	10 <compare>,#al
     3950:	00 10 00 41 	add	r2,1
@@ -3691,7 +3691,7 @@ Disassembly of section .text:
     396c:	0d 44 c9 38 	wl16	r9,0x2658
     3970:	0d 60 01 23 	wh16	r9,0x3
     3974:	10 40 01 29 	ld32	r9,r9
-    3978:	0e 20 01 10 	rev8	r8,r16
+    3978:	01 60 01 10 	umulh	r8,r16
     397c:	20 70 03 e2 	movepc	rret,8
     3980:	14 30 f1 a4 	br	10 <compare>,#al
     3984:	00 10 00 41 	add	r2,1
@@ -3704,7 +3704,7 @@ Disassembly of section .text:
     39a0:	0d 44 c9 3c 	wl16	r9,0x265c
     39a4:	0d 60 01 23 	wh16	r9,0x3
     39a8:	10 40 01 29 	ld32	r9,r9
-    39ac:	0e 20 01 10 	rev8	r8,r16
+    39ac:	01 60 01 10 	umulh	r8,r16
     39b0:	20 70 03 e2 	movepc	rret,8
     39b4:	14 30 f1 97 	br	10 <compare>,#al
     39b8:	00 10 00 41 	add	r2,1
@@ -3717,7 +3717,7 @@ Disassembly of section .text:
     39d4:	0d 44 cd 20 	wl16	r9,0x2660
     39d8:	0d 60 01 23 	wh16	r9,0x3
     39dc:	10 40 01 29 	ld32	r9,r9
-    39e0:	0e 20 01 10 	rev8	r8,r16
+    39e0:	01 60 01 10 	umulh	r8,r16
     39e4:	20 70 03 e2 	movepc	rret,8
     39e8:	14 30 f1 8a 	br	10 <compare>,#al
     39ec:	00 10 00 41 	add	r2,1
@@ -3730,7 +3730,7 @@ Disassembly of section .text:
     3a08:	0d 44 cd 24 	wl16	r9,0x2664
     3a0c:	0d 60 01 23 	wh16	r9,0x3
     3a10:	10 40 01 29 	ld32	r9,r9
-    3a14:	0e 20 01 10 	rev8	r8,r16
+    3a14:	01 60 01 10 	umulh	r8,r16
     3a18:	20 70 03 e2 	movepc	rret,8
     3a1c:	14 30 f1 7d 	br	10 <compare>,#al
     3a20:	00 10 00 41 	add	r2,1
@@ -3743,7 +3743,7 @@ Disassembly of section .text:
     3a3c:	0d 44 cd 28 	wl16	r9,0x2668
     3a40:	0d 60 01 23 	wh16	r9,0x3
     3a44:	10 40 01 29 	ld32	r9,r9
-    3a48:	0e 20 01 10 	rev8	r8,r16
+    3a48:	01 60 01 10 	umulh	r8,r16
     3a4c:	20 70 03 e2 	movepc	rret,8
     3a50:	14 30 f1 70 	br	10 <compare>,#al
     3a54:	00 10 00 41 	add	r2,1
@@ -3756,7 +3756,7 @@ Disassembly of section .text:
     3a70:	0d 44 cd 2c 	wl16	r9,0x266c
     3a74:	0d 60 01 23 	wh16	r9,0x3
     3a78:	10 40 01 29 	ld32	r9,r9
-    3a7c:	0e 20 01 10 	rev8	r8,r16
+    3a7c:	01 60 01 10 	umulh	r8,r16
     3a80:	20 70 03 e2 	movepc	rret,8
     3a84:	14 30 f1 63 	br	10 <compare>,#al
     3a88:	00 10 00 41 	add	r2,1
@@ -3769,7 +3769,7 @@ Disassembly of section .text:
     3aa4:	0d 44 cd 30 	wl16	r9,0x2670
     3aa8:	0d 60 01 23 	wh16	r9,0x3
     3aac:	10 40 01 29 	ld32	r9,r9
-    3ab0:	0e 20 01 10 	rev8	r8,r16
+    3ab0:	01 60 01 10 	umulh	r8,r16
     3ab4:	20 70 03 e2 	movepc	rret,8
     3ab8:	14 30 f1 56 	br	10 <compare>,#al
     3abc:	00 10 00 41 	add	r2,1
@@ -3782,7 +3782,7 @@ Disassembly of section .text:
     3ad8:	0d 44 cd 34 	wl16	r9,0x2674
     3adc:	0d 60 01 23 	wh16	r9,0x3
     3ae0:	10 40 01 29 	ld32	r9,r9
-    3ae4:	0e 20 01 10 	rev8	r8,r16
+    3ae4:	01 60 01 10 	umulh	r8,r16
     3ae8:	20 70 03 e2 	movepc	rret,8
     3aec:	14 30 f1 49 	br	10 <compare>,#al
     3af0:	00 10 00 41 	add	r2,1
@@ -3795,7 +3795,7 @@ Disassembly of section .text:
     3b0c:	0d 44 cd 38 	wl16	r9,0x2678
     3b10:	0d 60 01 23 	wh16	r9,0x3
     3b14:	10 40 01 29 	ld32	r9,r9
-    3b18:	0e 20 01 10 	rev8	r8,r16
+    3b18:	01 60 01 10 	umulh	r8,r16
     3b1c:	20 70 03 e2 	movepc	rret,8
     3b20:	14 30 f1 3c 	br	10 <compare>,#al
     3b24:	00 10 00 41 	add	r2,1
@@ -3808,7 +3808,7 @@ Disassembly of section .text:
     3b40:	0d 44 cd 3c 	wl16	r9,0x267c
     3b44:	0d 60 01 23 	wh16	r9,0x3
     3b48:	10 40 01 29 	ld32	r9,r9
-    3b4c:	0e 20 01 10 	rev8	r8,r16
+    3b4c:	01 60 01 10 	umulh	r8,r16
     3b50:	20 70 03 e2 	movepc	rret,8
     3b54:	14 30 f1 2f 	br	10 <compare>,#al
     3b58:	00 10 00 41 	add	r2,1
@@ -3821,7 +3821,7 @@ Disassembly of section .text:
     3b74:	0d 44 d1 20 	wl16	r9,0x2680
     3b78:	0d 60 01 23 	wh16	r9,0x3
     3b7c:	10 40 01 29 	ld32	r9,r9
-    3b80:	0e 20 01 10 	rev8	r8,r16
+    3b80:	01 60 01 10 	umulh	r8,r16
     3b84:	20 70 03 e2 	movepc	rret,8
     3b88:	14 30 f1 22 	br	10 <compare>,#al
     3b8c:	00 10 00 41 	add	r2,1
@@ -3834,7 +3834,7 @@ Disassembly of section .text:
     3ba8:	0d 44 d1 24 	wl16	r9,0x2684
     3bac:	0d 60 01 23 	wh16	r9,0x3
     3bb0:	10 40 01 29 	ld32	r9,r9
-    3bb4:	0e 20 01 10 	rev8	r8,r16
+    3bb4:	01 60 01 10 	umulh	r8,r16
     3bb8:	20 70 03 e2 	movepc	rret,8
     3bbc:	14 30 f1 15 	br	10 <compare>,#al
     3bc0:	00 10 00 41 	add	r2,1
@@ -3847,7 +3847,7 @@ Disassembly of section .text:
     3bdc:	0d 44 d1 28 	wl16	r9,0x2688
     3be0:	0d 60 01 23 	wh16	r9,0x3
     3be4:	10 40 01 29 	ld32	r9,r9
-    3be8:	0e 20 01 10 	rev8	r8,r16
+    3be8:	01 60 01 10 	umulh	r8,r16
     3bec:	20 70 03 e2 	movepc	rret,8
     3bf0:	14 30 f1 08 	br	10 <compare>,#al
     3bf4:	00 10 00 41 	add	r2,1
@@ -3860,7 +3860,7 @@ Disassembly of section .text:
     3c10:	0d 44 d1 2c 	wl16	r9,0x268c
     3c14:	0d 60 01 23 	wh16	r9,0x3
     3c18:	10 40 01 29 	ld32	r9,r9
-    3c1c:	0e 20 01 10 	rev8	r8,r16
+    3c1c:	01 60 01 10 	umulh	r8,r16
     3c20:	20 70 03 e2 	movepc	rret,8
     3c24:	14 30 f0 fb 	br	10 <compare>,#al
     3c28:	00 10 00 41 	add	r2,1
@@ -3873,7 +3873,7 @@ Disassembly of section .text:
     3c44:	0d 44 d1 30 	wl16	r9,0x2690
     3c48:	0d 60 01 23 	wh16	r9,0x3
     3c4c:	10 40 01 29 	ld32	r9,r9
-    3c50:	0e 20 01 10 	rev8	r8,r16
+    3c50:	01 60 01 10 	umulh	r8,r16
     3c54:	20 70 03 e2 	movepc	rret,8
     3c58:	14 30 f0 ee 	br	10 <compare>,#al
     3c5c:	00 10 00 41 	add	r2,1
@@ -3886,7 +3886,7 @@ Disassembly of section .text:
     3c78:	0d 44 d1 34 	wl16	r9,0x2694
     3c7c:	0d 60 01 23 	wh16	r9,0x3
     3c80:	10 40 01 29 	ld32	r9,r9
-    3c84:	0e 20 01 10 	rev8	r8,r16
+    3c84:	01 60 01 10 	umulh	r8,r16
     3c88:	20 70 03 e2 	movepc	rret,8
     3c8c:	14 30 f0 e1 	br	10 <compare>,#al
     3c90:	00 10 00 41 	add	r2,1
@@ -3899,7 +3899,7 @@ Disassembly of section .text:
     3cac:	0d 44 d1 38 	wl16	r9,0x2698
     3cb0:	0d 60 01 23 	wh16	r9,0x3
     3cb4:	10 40 01 29 	ld32	r9,r9
-    3cb8:	0e 20 01 10 	rev8	r8,r16
+    3cb8:	01 60 01 10 	umulh	r8,r16
     3cbc:	20 70 03 e2 	movepc	rret,8
     3cc0:	14 30 f0 d4 	br	10 <compare>,#al
     3cc4:	00 10 00 41 	add	r2,1
@@ -3912,7 +3912,7 @@ Disassembly of section .text:
     3ce0:	0d 44 d1 3c 	wl16	r9,0x269c
     3ce4:	0d 60 01 23 	wh16	r9,0x3
     3ce8:	10 40 01 29 	ld32	r9,r9
-    3cec:	0e 20 01 10 	rev8	r8,r16
+    3cec:	01 60 01 10 	umulh	r8,r16
     3cf0:	20 70 03 e2 	movepc	rret,8
     3cf4:	14 30 f0 c7 	br	10 <compare>,#al
     3cf8:	00 10 00 41 	add	r2,1
@@ -3925,7 +3925,7 @@ Disassembly of section .text:
     3d14:	0d 44 d5 20 	wl16	r9,0x26a0
     3d18:	0d 60 01 23 	wh16	r9,0x3
     3d1c:	10 40 01 29 	ld32	r9,r9
-    3d20:	0e 20 01 10 	rev8	r8,r16
+    3d20:	01 60 01 10 	umulh	r8,r16
     3d24:	20 70 03 e2 	movepc	rret,8
     3d28:	14 30 f0 ba 	br	10 <compare>,#al
     3d2c:	00 10 00 41 	add	r2,1
@@ -3938,7 +3938,7 @@ Disassembly of section .text:
     3d48:	0d 44 d5 24 	wl16	r9,0x26a4
     3d4c:	0d 60 01 23 	wh16	r9,0x3
     3d50:	10 40 01 29 	ld32	r9,r9
-    3d54:	0e 20 01 10 	rev8	r8,r16
+    3d54:	01 60 01 10 	umulh	r8,r16
     3d58:	20 70 03 e2 	movepc	rret,8
     3d5c:	14 30 f0 ad 	br	10 <compare>,#al
     3d60:	00 10 00 41 	add	r2,1
@@ -3951,7 +3951,7 @@ Disassembly of section .text:
     3d7c:	0d 44 d5 28 	wl16	r9,0x26a8
     3d80:	0d 60 01 23 	wh16	r9,0x3
     3d84:	10 40 01 29 	ld32	r9,r9
-    3d88:	0e 20 01 10 	rev8	r8,r16
+    3d88:	01 60 01 10 	umulh	r8,r16
     3d8c:	20 70 03 e2 	movepc	rret,8
     3d90:	14 30 f0 a0 	br	10 <compare>,#al
     3d94:	00 10 00 41 	add	r2,1
@@ -3964,7 +3964,7 @@ Disassembly of section .text:
     3db0:	0d 44 d5 2c 	wl16	r9,0x26ac
     3db4:	0d 60 01 23 	wh16	r9,0x3
     3db8:	10 40 01 29 	ld32	r9,r9
-    3dbc:	0e 20 01 10 	rev8	r8,r16
+    3dbc:	01 60 01 10 	umulh	r8,r16
     3dc0:	20 70 03 e2 	movepc	rret,8
     3dc4:	14 30 f0 93 	br	10 <compare>,#al
     3dc8:	00 10 00 41 	add	r2,1
@@ -3977,7 +3977,7 @@ Disassembly of section .text:
     3de4:	0d 44 d5 30 	wl16	r9,0x26b0
     3de8:	0d 60 01 23 	wh16	r9,0x3
     3dec:	10 40 01 29 	ld32	r9,r9
-    3df0:	0e 20 01 10 	rev8	r8,r16
+    3df0:	01 60 01 10 	umulh	r8,r16
     3df4:	20 70 03 e2 	movepc	rret,8
     3df8:	14 30 f0 86 	br	10 <compare>,#al
     3dfc:	00 10 00 41 	add	r2,1
@@ -3990,7 +3990,7 @@ Disassembly of section .text:
     3e18:	0d 44 d5 34 	wl16	r9,0x26b4
     3e1c:	0d 60 01 23 	wh16	r9,0x3
     3e20:	10 40 01 29 	ld32	r9,r9
-    3e24:	0e 20 01 10 	rev8	r8,r16
+    3e24:	01 60 01 10 	umulh	r8,r16
     3e28:	20 70 03 e2 	movepc	rret,8
     3e2c:	14 30 f0 79 	br	10 <compare>,#al
     3e30:	00 10 00 41 	add	r2,1
@@ -4003,7 +4003,7 @@ Disassembly of section .text:
     3e4c:	0d 44 d5 38 	wl16	r9,0x26b8
     3e50:	0d 60 01 23 	wh16	r9,0x3
     3e54:	10 40 01 29 	ld32	r9,r9
-    3e58:	0e 20 01 10 	rev8	r8,r16
+    3e58:	01 60 01 10 	umulh	r8,r16
     3e5c:	20 70 03 e2 	movepc	rret,8
     3e60:	14 30 f0 6c 	br	10 <compare>,#al
     3e64:	00 10 00 41 	add	r2,1
@@ -4016,7 +4016,7 @@ Disassembly of section .text:
     3e80:	0d 44 d5 3c 	wl16	r9,0x26bc
     3e84:	0d 60 01 23 	wh16	r9,0x3
     3e88:	10 40 01 29 	ld32	r9,r9
-    3e8c:	0e 20 01 10 	rev8	r8,r16
+    3e8c:	01 60 01 10 	umulh	r8,r16
     3e90:	20 70 03 e2 	movepc	rret,8
     3e94:	14 30 f0 5f 	br	10 <compare>,#al
     3e98:	00 10 00 41 	add	r2,1
@@ -4029,7 +4029,7 @@ Disassembly of section .text:
     3eb4:	0d 44 d9 20 	wl16	r9,0x26c0
     3eb8:	0d 60 01 23 	wh16	r9,0x3
     3ebc:	10 40 01 29 	ld32	r9,r9
-    3ec0:	0e 20 01 10 	rev8	r8,r16
+    3ec0:	01 60 01 10 	umulh	r8,r16
     3ec4:	20 70 03 e2 	movepc	rret,8
     3ec8:	14 30 f0 52 	br	10 <compare>,#al
     3ecc:	00 10 00 41 	add	r2,1
@@ -4042,7 +4042,7 @@ Disassembly of section .text:
     3ee8:	0d 44 d9 24 	wl16	r9,0x26c4
     3eec:	0d 60 01 23 	wh16	r9,0x3
     3ef0:	10 40 01 29 	ld32	r9,r9
-    3ef4:	0e 20 01 10 	rev8	r8,r16
+    3ef4:	01 60 01 10 	umulh	r8,r16
     3ef8:	20 70 03 e2 	movepc	rret,8
     3efc:	14 30 f0 45 	br	10 <compare>,#al
     3f00:	00 10 00 41 	add	r2,1
@@ -4055,7 +4055,7 @@ Disassembly of section .text:
     3f1c:	0d 44 d9 28 	wl16	r9,0x26c8
     3f20:	0d 60 01 23 	wh16	r9,0x3
     3f24:	10 40 01 29 	ld32	r9,r9
-    3f28:	0e 20 01 10 	rev8	r8,r16
+    3f28:	01 60 01 10 	umulh	r8,r16
     3f2c:	20 70 03 e2 	movepc	rret,8
     3f30:	14 30 f0 38 	br	10 <compare>,#al
     3f34:	00 10 00 41 	add	r2,1
@@ -4068,7 +4068,7 @@ Disassembly of section .text:
     3f50:	0d 44 d9 2c 	wl16	r9,0x26cc
     3f54:	0d 60 01 23 	wh16	r9,0x3
     3f58:	10 40 01 29 	ld32	r9,r9
-    3f5c:	0e 20 01 10 	rev8	r8,r16
+    3f5c:	01 60 01 10 	umulh	r8,r16
     3f60:	20 70 03 e2 	movepc	rret,8
     3f64:	14 30 f0 2b 	br	10 <compare>,#al
     3f68:	00 10 00 41 	add	r2,1
@@ -4081,7 +4081,7 @@ Disassembly of section .text:
     3f84:	0d 44 d9 30 	wl16	r9,0x26d0
     3f88:	0d 60 01 23 	wh16	r9,0x3
     3f8c:	10 40 01 29 	ld32	r9,r9
-    3f90:	0e 20 01 10 	rev8	r8,r16
+    3f90:	01 60 01 10 	umulh	r8,r16
     3f94:	20 70 03 e2 	movepc	rret,8
     3f98:	14 30 f0 1e 	br	10 <compare>,#al
     3f9c:	00 10 00 41 	add	r2,1
@@ -4094,7 +4094,7 @@ Disassembly of section .text:
     3fb8:	0d 44 d9 34 	wl16	r9,0x26d4
     3fbc:	0d 60 01 23 	wh16	r9,0x3
     3fc0:	10 40 01 29 	ld32	r9,r9
-    3fc4:	0e 20 01 10 	rev8	r8,r16
+    3fc4:	01 60 01 10 	umulh	r8,r16
     3fc8:	20 70 03 e2 	movepc	rret,8
     3fcc:	14 30 f0 11 	br	10 <compare>,#al
     3fd0:	00 10 00 41 	add	r2,1
@@ -4107,7 +4107,7 @@ Disassembly of section .text:
     3fec:	0d 44 d9 38 	wl16	r9,0x26d8
     3ff0:	0d 60 01 23 	wh16	r9,0x3
     3ff4:	10 40 01 29 	ld32	r9,r9
-    3ff8:	0e 20 01 10 	rev8	r8,r16
+    3ff8:	01 60 01 10 	umulh	r8,r16
     3ffc:	20 70 03 e2 	movepc	rret,8
     4000:	14 30 f0 04 	br	10 <compare>,#al
     4004:	00 10 00 41 	add	r2,1
@@ -4120,7 +4120,7 @@ Disassembly of section .text:
     4020:	0d 44 d9 3c 	wl16	r9,0x26dc
     4024:	0d 60 01 23 	wh16	r9,0x3
     4028:	10 40 01 29 	ld32	r9,r9
-    402c:	0e 20 01 10 	rev8	r8,r16
+    402c:	01 60 01 10 	umulh	r8,r16
     4030:	20 70 03 e2 	movepc	rret,8
     4034:	14 30 ef f7 	br	10 <compare>,#al
     4038:	00 10 00 41 	add	r2,1
@@ -4133,7 +4133,7 @@ Disassembly of section .text:
     4054:	0d 44 dd 20 	wl16	r9,0x26e0
     4058:	0d 60 01 23 	wh16	r9,0x3
     405c:	10 40 01 29 	ld32	r9,r9
-    4060:	0e 20 01 10 	rev8	r8,r16
+    4060:	01 60 01 10 	umulh	r8,r16
     4064:	20 70 03 e2 	movepc	rret,8
     4068:	14 30 ef ea 	br	10 <compare>,#al
     406c:	00 10 00 41 	add	r2,1
@@ -4146,7 +4146,7 @@ Disassembly of section .text:
     4088:	0d 44 dd 24 	wl16	r9,0x26e4
     408c:	0d 60 01 23 	wh16	r9,0x3
     4090:	10 40 01 29 	ld32	r9,r9
-    4094:	0e 20 01 10 	rev8	r8,r16
+    4094:	01 60 01 10 	umulh	r8,r16
     4098:	20 70 03 e2 	movepc	rret,8
     409c:	14 30 ef dd 	br	10 <compare>,#al
     40a0:	00 10 00 41 	add	r2,1
@@ -4159,7 +4159,7 @@ Disassembly of section .text:
     40bc:	0d 44 dd 28 	wl16	r9,0x26e8
     40c0:	0d 60 01 23 	wh16	r9,0x3
     40c4:	10 40 01 29 	ld32	r9,r9
-    40c8:	0e 20 01 10 	rev8	r8,r16
+    40c8:	01 60 01 10 	umulh	r8,r16
     40cc:	20 70 03 e2 	movepc	rret,8
     40d0:	14 30 ef d0 	br	10 <compare>,#al
     40d4:	00 10 00 41 	add	r2,1
@@ -4172,7 +4172,7 @@ Disassembly of section .text:
     40f0:	0d 44 dd 2c 	wl16	r9,0x26ec
     40f4:	0d 60 01 23 	wh16	r9,0x3
     40f8:	10 40 01 29 	ld32	r9,r9
-    40fc:	0e 20 01 10 	rev8	r8,r16
+    40fc:	01 60 01 10 	umulh	r8,r16
     4100:	20 70 03 e2 	movepc	rret,8
     4104:	14 30 ef c3 	br	10 <compare>,#al
     4108:	00 10 00 41 	add	r2,1
@@ -4185,7 +4185,7 @@ Disassembly of section .text:
     4124:	0d 44 dd 30 	wl16	r9,0x26f0
     4128:	0d 60 01 23 	wh16	r9,0x3
     412c:	10 40 01 29 	ld32	r9,r9
-    4130:	0e 20 01 10 	rev8	r8,r16
+    4130:	01 60 01 10 	umulh	r8,r16
     4134:	20 70 03 e2 	movepc	rret,8
     4138:	14 30 ef b6 	br	10 <compare>,#al
     413c:	00 10 00 41 	add	r2,1
@@ -4198,7 +4198,7 @@ Disassembly of section .text:
     4158:	0d 44 dd 34 	wl16	r9,0x26f4
     415c:	0d 60 01 23 	wh16	r9,0x3
     4160:	10 40 01 29 	ld32	r9,r9
-    4164:	0e 20 01 10 	rev8	r8,r16
+    4164:	01 60 01 10 	umulh	r8,r16
     4168:	20 70 03 e2 	movepc	rret,8
     416c:	14 30 ef a9 	br	10 <compare>,#al
     4170:	00 10 00 41 	add	r2,1
@@ -4211,7 +4211,7 @@ Disassembly of section .text:
     418c:	0d 44 dd 38 	wl16	r9,0x26f8
     4190:	0d 60 01 23 	wh16	r9,0x3
     4194:	10 40 01 29 	ld32	r9,r9
-    4198:	0e 20 01 10 	rev8	r8,r16
+    4198:	01 60 01 10 	umulh	r8,r16
     419c:	20 70 03 e2 	movepc	rret,8
     41a0:	14 30 ef 9c 	br	10 <compare>,#al
     41a4:	00 10 00 41 	add	r2,1
@@ -4224,7 +4224,7 @@ Disassembly of section .text:
     41c0:	0d 44 dd 3c 	wl16	r9,0x26fc
     41c4:	0d 60 01 23 	wh16	r9,0x3
     41c8:	10 40 01 29 	ld32	r9,r9
-    41cc:	0e 20 01 10 	rev8	r8,r16
+    41cc:	01 60 01 10 	umulh	r8,r16
     41d0:	20 70 03 e2 	movepc	rret,8
     41d4:	14 30 ef 8f 	br	10 <compare>,#al
     41d8:	00 10 00 41 	add	r2,1
@@ -4237,7 +4237,7 @@ Disassembly of section .text:
     41f4:	0d 44 e1 20 	wl16	r9,0x2700
     41f8:	0d 60 01 23 	wh16	r9,0x3
     41fc:	10 40 01 29 	ld32	r9,r9
-    4200:	0e 20 01 10 	rev8	r8,r16
+    4200:	01 60 01 10 	umulh	r8,r16
     4204:	20 70 03 e2 	movepc	rret,8
     4208:	14 30 ef 82 	br	10 <compare>,#al
     420c:	00 10 00 41 	add	r2,1
@@ -4250,7 +4250,7 @@ Disassembly of section .text:
     4228:	0d 44 e1 24 	wl16	r9,0x2704
     422c:	0d 60 01 23 	wh16	r9,0x3
     4230:	10 40 01 29 	ld32	r9,r9
-    4234:	0e 20 01 10 	rev8	r8,r16
+    4234:	01 60 01 10 	umulh	r8,r16
     4238:	20 70 03 e2 	movepc	rret,8
     423c:	14 30 ef 75 	br	10 <compare>,#al
     4240:	00 10 00 41 	add	r2,1
@@ -4263,7 +4263,7 @@ Disassembly of section .text:
     425c:	0d 44 e1 28 	wl16	r9,0x2708
     4260:	0d 60 01 23 	wh16	r9,0x3
     4264:	10 40 01 29 	ld32	r9,r9
-    4268:	0e 20 01 10 	rev8	r8,r16
+    4268:	01 60 01 10 	umulh	r8,r16
     426c:	20 70 03 e2 	movepc	rret,8
     4270:	14 30 ef 68 	br	10 <compare>,#al
     4274:	00 10 00 41 	add	r2,1
@@ -4276,7 +4276,7 @@ Disassembly of section .text:
     4290:	0d 44 e1 2c 	wl16	r9,0x270c
     4294:	0d 60 01 23 	wh16	r9,0x3
     4298:	10 40 01 29 	ld32	r9,r9
-    429c:	0e 20 01 10 	rev8	r8,r16
+    429c:	01 60 01 10 	umulh	r8,r16
     42a0:	20 70 03 e2 	movepc	rret,8
     42a4:	14 30 ef 5b 	br	10 <compare>,#al
     42a8:	00 10 00 41 	add	r2,1
@@ -4289,7 +4289,7 @@ Disassembly of section .text:
     42c4:	0d 44 e1 30 	wl16	r9,0x2710
     42c8:	0d 60 01 23 	wh16	r9,0x3
     42cc:	10 40 01 29 	ld32	r9,r9
-    42d0:	0e 20 01 10 	rev8	r8,r16
+    42d0:	01 60 01 10 	umulh	r8,r16
     42d4:	20 70 03 e2 	movepc	rret,8
     42d8:	14 30 ef 4e 	br	10 <compare>,#al
     42dc:	00 10 00 41 	add	r2,1
@@ -4302,7 +4302,7 @@ Disassembly of section .text:
     42f8:	0d 44 e1 34 	wl16	r9,0x2714
     42fc:	0d 60 01 23 	wh16	r9,0x3
     4300:	10 40 01 29 	ld32	r9,r9
-    4304:	0e 20 01 10 	rev8	r8,r16
+    4304:	01 60 01 10 	umulh	r8,r16
     4308:	20 70 03 e2 	movepc	rret,8
     430c:	14 30 ef 41 	br	10 <compare>,#al
     4310:	00 10 00 41 	add	r2,1
@@ -4315,7 +4315,7 @@ Disassembly of section .text:
     432c:	0d 44 e1 38 	wl16	r9,0x2718
     4330:	0d 60 01 23 	wh16	r9,0x3
     4334:	10 40 01 29 	ld32	r9,r9
-    4338:	0e 20 01 10 	rev8	r8,r16
+    4338:	01 60 01 10 	umulh	r8,r16
     433c:	20 70 03 e2 	movepc	rret,8
     4340:	14 30 ef 34 	br	10 <compare>,#al
     4344:	00 10 00 41 	add	r2,1
@@ -4328,7 +4328,7 @@ Disassembly of section .text:
     4360:	0d 44 e1 3c 	wl16	r9,0x271c
     4364:	0d 60 01 23 	wh16	r9,0x3
     4368:	10 40 01 29 	ld32	r9,r9
-    436c:	0e 20 01 10 	rev8	r8,r16
+    436c:	01 60 01 10 	umulh	r8,r16
     4370:	20 70 03 e2 	movepc	rret,8
     4374:	14 30 ef 27 	br	10 <compare>,#al
     4378:	00 10 00 41 	add	r2,1
@@ -4341,7 +4341,7 @@ Disassembly of section .text:
     4394:	0d 44 e5 20 	wl16	r9,0x2720
     4398:	0d 60 01 23 	wh16	r9,0x3
     439c:	10 40 01 29 	ld32	r9,r9
-    43a0:	0e 20 01 10 	rev8	r8,r16
+    43a0:	01 60 01 10 	umulh	r8,r16
     43a4:	20 70 03 e2 	movepc	rret,8
     43a8:	14 30 ef 1a 	br	10 <compare>,#al
     43ac:	00 10 00 41 	add	r2,1
@@ -4354,7 +4354,7 @@ Disassembly of section .text:
     43c8:	0d 44 e5 24 	wl16	r9,0x2724
     43cc:	0d 60 01 23 	wh16	r9,0x3
     43d0:	10 40 01 29 	ld32	r9,r9
-    43d4:	0e 20 01 10 	rev8	r8,r16
+    43d4:	01 60 01 10 	umulh	r8,r16
     43d8:	20 70 03 e2 	movepc	rret,8
     43dc:	14 30 ef 0d 	br	10 <compare>,#al
     43e0:	00 10 00 41 	add	r2,1
@@ -4367,7 +4367,7 @@ Disassembly of section .text:
     43fc:	0d 44 e5 28 	wl16	r9,0x2728
     4400:	0d 60 01 23 	wh16	r9,0x3
     4404:	10 40 01 29 	ld32	r9,r9
-    4408:	0e 20 01 10 	rev8	r8,r16
+    4408:	01 60 01 10 	umulh	r8,r16
     440c:	20 70 03 e2 	movepc	rret,8
     4410:	14 30 ef 00 	br	10 <compare>,#al
     4414:	00 10 00 41 	add	r2,1
@@ -4380,7 +4380,7 @@ Disassembly of section .text:
     4430:	0d 44 e5 2c 	wl16	r9,0x272c
     4434:	0d 60 01 23 	wh16	r9,0x3
     4438:	10 40 01 29 	ld32	r9,r9
-    443c:	0e 20 01 10 	rev8	r8,r16
+    443c:	01 60 01 10 	umulh	r8,r16
     4440:	20 70 03 e2 	movepc	rret,8
     4444:	14 30 ee f3 	br	10 <compare>,#al
     4448:	00 10 00 41 	add	r2,1
@@ -4393,7 +4393,7 @@ Disassembly of section .text:
     4464:	0d 44 e5 30 	wl16	r9,0x2730
     4468:	0d 60 01 23 	wh16	r9,0x3
     446c:	10 40 01 29 	ld32	r9,r9
-    4470:	0e 20 01 10 	rev8	r8,r16
+    4470:	01 60 01 10 	umulh	r8,r16
     4474:	20 70 03 e2 	movepc	rret,8
     4478:	14 30 ee e6 	br	10 <compare>,#al
     447c:	00 10 00 41 	add	r2,1
@@ -4406,7 +4406,7 @@ Disassembly of section .text:
     4498:	0d 44 e5 34 	wl16	r9,0x2734
     449c:	0d 60 01 23 	wh16	r9,0x3
     44a0:	10 40 01 29 	ld32	r9,r9
-    44a4:	0e 20 01 10 	rev8	r8,r16
+    44a4:	01 60 01 10 	umulh	r8,r16
     44a8:	20 70 03 e2 	movepc	rret,8
     44ac:	14 30 ee d9 	br	10 <compare>,#al
     44b0:	00 10 00 41 	add	r2,1
@@ -4419,7 +4419,7 @@ Disassembly of section .text:
     44cc:	0d 44 e5 38 	wl16	r9,0x2738
     44d0:	0d 60 01 23 	wh16	r9,0x3
     44d4:	10 40 01 29 	ld32	r9,r9
-    44d8:	0e 20 01 10 	rev8	r8,r16
+    44d8:	01 60 01 10 	umulh	r8,r16
     44dc:	20 70 03 e2 	movepc	rret,8
     44e0:	14 30 ee cc 	br	10 <compare>,#al
     44e4:	00 10 00 41 	add	r2,1
@@ -4432,7 +4432,7 @@ Disassembly of section .text:
     4500:	0d 44 e5 3c 	wl16	r9,0x273c
     4504:	0d 60 01 23 	wh16	r9,0x3
     4508:	10 40 01 29 	ld32	r9,r9
-    450c:	0e 20 01 10 	rev8	r8,r16
+    450c:	01 60 01 10 	umulh	r8,r16
     4510:	20 70 03 e2 	movepc	rret,8
     4514:	14 30 ee bf 	br	10 <compare>,#al
     4518:	00 10 00 41 	add	r2,1
@@ -4445,7 +4445,7 @@ Disassembly of section .text:
     4534:	0d 44 e9 20 	wl16	r9,0x2740
     4538:	0d 60 01 23 	wh16	r9,0x3
     453c:	10 40 01 29 	ld32	r9,r9
-    4540:	0e 20 01 10 	rev8	r8,r16
+    4540:	01 60 01 10 	umulh	r8,r16
     4544:	20 70 03 e2 	movepc	rret,8
     4548:	14 30 ee b2 	br	10 <compare>,#al
     454c:	00 10 00 41 	add	r2,1
@@ -4458,7 +4458,7 @@ Disassembly of section .text:
     4568:	0d 44 e9 24 	wl16	r9,0x2744
     456c:	0d 60 01 23 	wh16	r9,0x3
     4570:	10 40 01 29 	ld32	r9,r9
-    4574:	0e 20 01 10 	rev8	r8,r16
+    4574:	01 60 01 10 	umulh	r8,r16
     4578:	20 70 03 e2 	movepc	rret,8
     457c:	14 30 ee a5 	br	10 <compare>,#al
     4580:	00 10 00 41 	add	r2,1
@@ -4471,7 +4471,7 @@ Disassembly of section .text:
     459c:	0d 44 e9 28 	wl16	r9,0x2748
     45a0:	0d 60 01 23 	wh16	r9,0x3
     45a4:	10 40 01 29 	ld32	r9,r9
-    45a8:	0e 20 01 10 	rev8	r8,r16
+    45a8:	01 60 01 10 	umulh	r8,r16
     45ac:	20 70 03 e2 	movepc	rret,8
     45b0:	14 30 ee 98 	br	10 <compare>,#al
     45b4:	00 10 00 41 	add	r2,1
@@ -4484,7 +4484,7 @@ Disassembly of section .text:
     45d0:	0d 44 e9 2c 	wl16	r9,0x274c
     45d4:	0d 60 01 23 	wh16	r9,0x3
     45d8:	10 40 01 29 	ld32	r9,r9
-    45dc:	0e 20 01 10 	rev8	r8,r16
+    45dc:	01 60 01 10 	umulh	r8,r16
     45e0:	20 70 03 e2 	movepc	rret,8
     45e4:	14 30 ee 8b 	br	10 <compare>,#al
     45e8:	00 10 00 41 	add	r2,1
@@ -4497,7 +4497,7 @@ Disassembly of section .text:
     4604:	0d 44 e9 30 	wl16	r9,0x2750
     4608:	0d 60 01 23 	wh16	r9,0x3
     460c:	10 40 01 29 	ld32	r9,r9
-    4610:	0e 20 01 10 	rev8	r8,r16
+    4610:	01 60 01 10 	umulh	r8,r16
     4614:	20 70 03 e2 	movepc	rret,8
     4618:	14 30 ee 7e 	br	10 <compare>,#al
     461c:	00 10 00 41 	add	r2,1
@@ -4510,7 +4510,7 @@ Disassembly of section .text:
     4638:	0d 44 e9 34 	wl16	r9,0x2754
     463c:	0d 60 01 23 	wh16	r9,0x3
     4640:	10 40 01 29 	ld32	r9,r9
-    4644:	0e 20 01 10 	rev8	r8,r16
+    4644:	01 60 01 10 	umulh	r8,r16
     4648:	20 70 03 e2 	movepc	rret,8
     464c:	14 30 ee 71 	br	10 <compare>,#al
     4650:	00 10 00 41 	add	r2,1
@@ -4523,7 +4523,7 @@ Disassembly of section .text:
     466c:	0d 44 e9 38 	wl16	r9,0x2758
     4670:	0d 60 01 23 	wh16	r9,0x3
     4674:	10 40 01 29 	ld32	r9,r9
-    4678:	0e 20 01 10 	rev8	r8,r16
+    4678:	01 60 01 10 	umulh	r8,r16
     467c:	20 70 03 e2 	movepc	rret,8
     4680:	14 30 ee 64 	br	10 <compare>,#al
     4684:	00 10 00 41 	add	r2,1
@@ -4536,7 +4536,7 @@ Disassembly of section .text:
     46a0:	0d 44 e9 3c 	wl16	r9,0x275c
     46a4:	0d 60 01 23 	wh16	r9,0x3
     46a8:	10 40 01 29 	ld32	r9,r9
-    46ac:	0e 20 01 10 	rev8	r8,r16
+    46ac:	01 60 01 10 	umulh	r8,r16
     46b0:	20 70 03 e2 	movepc	rret,8
     46b4:	14 30 ee 57 	br	10 <compare>,#al
     46b8:	00 10 00 41 	add	r2,1
@@ -4549,7 +4549,7 @@ Disassembly of section .text:
     46d4:	0d 44 ed 20 	wl16	r9,0x2760
     46d8:	0d 60 01 23 	wh16	r9,0x3
     46dc:	10 40 01 29 	ld32	r9,r9
-    46e0:	0e 20 01 10 	rev8	r8,r16
+    46e0:	01 60 01 10 	umulh	r8,r16
     46e4:	20 70 03 e2 	movepc	rret,8
     46e8:	14 30 ee 4a 	br	10 <compare>,#al
     46ec:	00 10 00 41 	add	r2,1
@@ -4562,7 +4562,7 @@ Disassembly of section .text:
     4708:	0d 44 ed 24 	wl16	r9,0x2764
     470c:	0d 60 01 23 	wh16	r9,0x3
     4710:	10 40 01 29 	ld32	r9,r9
-    4714:	0e 20 01 10 	rev8	r8,r16
+    4714:	01 60 01 10 	umulh	r8,r16
     4718:	20 70 03 e2 	movepc	rret,8
     471c:	14 30 ee 3d 	br	10 <compare>,#al
     4720:	00 10 00 41 	add	r2,1
@@ -4575,7 +4575,7 @@ Disassembly of section .text:
     473c:	0d 44 ed 28 	wl16	r9,0x2768
     4740:	0d 60 01 23 	wh16	r9,0x3
     4744:	10 40 01 29 	ld32	r9,r9
-    4748:	0e 20 01 10 	rev8	r8,r16
+    4748:	01 60 01 10 	umulh	r8,r16
     474c:	20 70 03 e2 	movepc	rret,8
     4750:	14 30 ee 30 	br	10 <compare>,#al
     4754:	00 10 00 41 	add	r2,1
@@ -4588,7 +4588,7 @@ Disassembly of section .text:
     4770:	0d 44 ed 2c 	wl16	r9,0x276c
     4774:	0d 60 01 23 	wh16	r9,0x3
     4778:	10 40 01 29 	ld32	r9,r9
-    477c:	0e 20 01 10 	rev8	r8,r16
+    477c:	01 60 01 10 	umulh	r8,r16
     4780:	20 70 03 e2 	movepc	rret,8
     4784:	14 30 ee 23 	br	10 <compare>,#al
     4788:	00 10 00 41 	add	r2,1
@@ -4601,7 +4601,7 @@ Disassembly of section .text:
     47a4:	0d 44 ed 30 	wl16	r9,0x2770
     47a8:	0d 60 01 23 	wh16	r9,0x3
     47ac:	10 40 01 29 	ld32	r9,r9
-    47b0:	0e 20 01 10 	rev8	r8,r16
+    47b0:	01 60 01 10 	umulh	r8,r16
     47b4:	20 70 03 e2 	movepc	rret,8
     47b8:	14 30 ee 16 	br	10 <compare>,#al
     47bc:	00 10 00 41 	add	r2,1
@@ -4614,7 +4614,7 @@ Disassembly of section .text:
     47d8:	0d 44 ed 34 	wl16	r9,0x2774
     47dc:	0d 60 01 23 	wh16	r9,0x3
     47e0:	10 40 01 29 	ld32	r9,r9
-    47e4:	0e 20 01 10 	rev8	r8,r16
+    47e4:	01 60 01 10 	umulh	r8,r16
     47e8:	20 70 03 e2 	movepc	rret,8
     47ec:	14 30 ee 09 	br	10 <compare>,#al
     47f0:	00 10 00 41 	add	r2,1
@@ -4627,7 +4627,7 @@ Disassembly of section .text:
     480c:	0d 44 ed 38 	wl16	r9,0x2778
     4810:	0d 60 01 23 	wh16	r9,0x3
     4814:	10 40 01 29 	ld32	r9,r9
-    4818:	0e 20 01 10 	rev8	r8,r16
+    4818:	01 60 01 10 	umulh	r8,r16
     481c:	20 70 03 e2 	movepc	rret,8
     4820:	14 30 ed fc 	br	10 <compare>,#al
     4824:	00 10 00 41 	add	r2,1
@@ -4640,7 +4640,7 @@ Disassembly of section .text:
     4840:	0d 44 ed 3c 	wl16	r9,0x277c
     4844:	0d 60 01 23 	wh16	r9,0x3
     4848:	10 40 01 29 	ld32	r9,r9
-    484c:	0e 20 01 10 	rev8	r8,r16
+    484c:	01 60 01 10 	umulh	r8,r16
     4850:	20 70 03 e2 	movepc	rret,8
     4854:	14 30 ed ef 	br	10 <compare>,#al
     4858:	00 10 00 41 	add	r2,1
@@ -4653,7 +4653,7 @@ Disassembly of section .text:
     4874:	0d 44 f1 20 	wl16	r9,0x2780
     4878:	0d 60 01 23 	wh16	r9,0x3
     487c:	10 40 01 29 	ld32	r9,r9
-    4880:	0e 20 01 10 	rev8	r8,r16
+    4880:	01 60 01 10 	umulh	r8,r16
     4884:	20 70 03 e2 	movepc	rret,8
     4888:	14 30 ed e2 	br	10 <compare>,#al
     488c:	00 10 00 41 	add	r2,1
@@ -4666,7 +4666,7 @@ Disassembly of section .text:
     48a8:	0d 44 f1 24 	wl16	r9,0x2784
     48ac:	0d 60 01 23 	wh16	r9,0x3
     48b0:	10 40 01 29 	ld32	r9,r9
-    48b4:	0e 20 01 10 	rev8	r8,r16
+    48b4:	01 60 01 10 	umulh	r8,r16
     48b8:	20 70 03 e2 	movepc	rret,8
     48bc:	14 30 ed d5 	br	10 <compare>,#al
     48c0:	00 10 00 41 	add	r2,1
@@ -4679,7 +4679,7 @@ Disassembly of section .text:
     48dc:	0d 44 f1 28 	wl16	r9,0x2788
     48e0:	0d 60 01 23 	wh16	r9,0x3
     48e4:	10 40 01 29 	ld32	r9,r9
-    48e8:	0e 20 01 10 	rev8	r8,r16
+    48e8:	01 60 01 10 	umulh	r8,r16
     48ec:	20 70 03 e2 	movepc	rret,8
     48f0:	14 30 ed c8 	br	10 <compare>,#al
     48f4:	00 10 00 41 	add	r2,1
@@ -4692,7 +4692,7 @@ Disassembly of section .text:
     4910:	0d 44 f1 2c 	wl16	r9,0x278c
     4914:	0d 60 01 23 	wh16	r9,0x3
     4918:	10 40 01 29 	ld32	r9,r9
-    491c:	0e 20 01 10 	rev8	r8,r16
+    491c:	01 60 01 10 	umulh	r8,r16
     4920:	20 70 03 e2 	movepc	rret,8
     4924:	14 30 ed bb 	br	10 <compare>,#al
     4928:	00 10 00 41 	add	r2,1
@@ -4705,7 +4705,7 @@ Disassembly of section .text:
     4944:	0d 44 f1 30 	wl16	r9,0x2790
     4948:	0d 60 01 23 	wh16	r9,0x3
     494c:	10 40 01 29 	ld32	r9,r9
-    4950:	0e 20 01 10 	rev8	r8,r16
+    4950:	01 60 01 10 	umulh	r8,r16
     4954:	20 70 03 e2 	movepc	rret,8
     4958:	14 30 ed ae 	br	10 <compare>,#al
     495c:	00 10 00 41 	add	r2,1
@@ -4718,7 +4718,7 @@ Disassembly of section .text:
     4978:	0d 44 f1 34 	wl16	r9,0x2794
     497c:	0d 60 01 23 	wh16	r9,0x3
     4980:	10 40 01 29 	ld32	r9,r9
-    4984:	0e 20 01 10 	rev8	r8,r16
+    4984:	01 60 01 10 	umulh	r8,r16
     4988:	20 70 03 e2 	movepc	rret,8
     498c:	14 30 ed a1 	br	10 <compare>,#al
     4990:	00 10 00 41 	add	r2,1
@@ -4731,7 +4731,7 @@ Disassembly of section .text:
     49ac:	0d 44 f1 38 	wl16	r9,0x2798
     49b0:	0d 60 01 23 	wh16	r9,0x3
     49b4:	10 40 01 29 	ld32	r9,r9
-    49b8:	0e 20 01 10 	rev8	r8,r16
+    49b8:	01 60 01 10 	umulh	r8,r16
     49bc:	20 70 03 e2 	movepc	rret,8
     49c0:	14 30 ed 94 	br	10 <compare>,#al
     49c4:	00 10 00 41 	add	r2,1
@@ -4744,7 +4744,7 @@ Disassembly of section .text:
     49e0:	0d 44 f1 3c 	wl16	r9,0x279c
     49e4:	0d 60 01 23 	wh16	r9,0x3
     49e8:	10 40 01 29 	ld32	r9,r9
-    49ec:	0e 20 01 10 	rev8	r8,r16
+    49ec:	01 60 01 10 	umulh	r8,r16
     49f0:	20 70 03 e2 	movepc	rret,8
     49f4:	14 30 ed 87 	br	10 <compare>,#al
     49f8:	00 10 00 41 	add	r2,1
@@ -4757,7 +4757,7 @@ Disassembly of section .text:
     4a14:	0d 44 f5 20 	wl16	r9,0x27a0
     4a18:	0d 60 01 23 	wh16	r9,0x3
     4a1c:	10 40 01 29 	ld32	r9,r9
-    4a20:	0e 20 01 10 	rev8	r8,r16
+    4a20:	01 60 01 10 	umulh	r8,r16
     4a24:	20 70 03 e2 	movepc	rret,8
     4a28:	14 30 ed 7a 	br	10 <compare>,#al
     4a2c:	00 10 00 41 	add	r2,1
@@ -4770,7 +4770,7 @@ Disassembly of section .text:
     4a48:	0d 44 f5 24 	wl16	r9,0x27a4
     4a4c:	0d 60 01 23 	wh16	r9,0x3
     4a50:	10 40 01 29 	ld32	r9,r9
-    4a54:	0e 20 01 10 	rev8	r8,r16
+    4a54:	01 60 01 10 	umulh	r8,r16
     4a58:	20 70 03 e2 	movepc	rret,8
     4a5c:	14 30 ed 6d 	br	10 <compare>,#al
     4a60:	00 10 00 41 	add	r2,1
@@ -4783,7 +4783,7 @@ Disassembly of section .text:
     4a7c:	0d 44 f5 28 	wl16	r9,0x27a8
     4a80:	0d 60 01 23 	wh16	r9,0x3
     4a84:	10 40 01 29 	ld32	r9,r9
-    4a88:	0e 20 01 10 	rev8	r8,r16
+    4a88:	01 60 01 10 	umulh	r8,r16
     4a8c:	20 70 03 e2 	movepc	rret,8
     4a90:	14 30 ed 60 	br	10 <compare>,#al
     4a94:	00 10 00 41 	add	r2,1
@@ -4796,7 +4796,7 @@ Disassembly of section .text:
     4ab0:	0d 44 f5 2c 	wl16	r9,0x27ac
     4ab4:	0d 60 01 23 	wh16	r9,0x3
     4ab8:	10 40 01 29 	ld32	r9,r9
-    4abc:	0e 20 01 10 	rev8	r8,r16
+    4abc:	01 60 01 10 	umulh	r8,r16
     4ac0:	20 70 03 e2 	movepc	rret,8
     4ac4:	14 30 ed 53 	br	10 <compare>,#al
     4ac8:	00 10 00 41 	add	r2,1
@@ -4809,7 +4809,7 @@ Disassembly of section .text:
     4ae4:	0d 44 f5 30 	wl16	r9,0x27b0
     4ae8:	0d 60 01 23 	wh16	r9,0x3
     4aec:	10 40 01 29 	ld32	r9,r9
-    4af0:	0e 20 01 10 	rev8	r8,r16
+    4af0:	01 60 01 10 	umulh	r8,r16
     4af4:	20 70 03 e2 	movepc	rret,8
     4af8:	14 30 ed 46 	br	10 <compare>,#al
     4afc:	00 10 00 41 	add	r2,1
@@ -4822,7 +4822,7 @@ Disassembly of section .text:
     4b18:	0d 44 f5 34 	wl16	r9,0x27b4
     4b1c:	0d 60 01 23 	wh16	r9,0x3
     4b20:	10 40 01 29 	ld32	r9,r9
-    4b24:	0e 20 01 10 	rev8	r8,r16
+    4b24:	01 60 01 10 	umulh	r8,r16
     4b28:	20 70 03 e2 	movepc	rret,8
     4b2c:	14 30 ed 39 	br	10 <compare>,#al
     4b30:	00 10 00 41 	add	r2,1
@@ -4835,7 +4835,7 @@ Disassembly of section .text:
     4b4c:	0d 44 f5 38 	wl16	r9,0x27b8
     4b50:	0d 60 01 23 	wh16	r9,0x3
     4b54:	10 40 01 29 	ld32	r9,r9
-    4b58:	0e 20 01 10 	rev8	r8,r16
+    4b58:	01 60 01 10 	umulh	r8,r16
     4b5c:	20 70 03 e2 	movepc	rret,8
     4b60:	14 30 ed 2c 	br	10 <compare>,#al
     4b64:	00 10 00 41 	add	r2,1
@@ -4848,7 +4848,7 @@ Disassembly of section .text:
     4b80:	0d 44 f5 3c 	wl16	r9,0x27bc
     4b84:	0d 60 01 23 	wh16	r9,0x3
     4b88:	10 40 01 29 	ld32	r9,r9
-    4b8c:	0e 20 01 10 	rev8	r8,r16
+    4b8c:	01 60 01 10 	umulh	r8,r16
     4b90:	20 70 03 e2 	movepc	rret,8
     4b94:	14 30 ed 1f 	br	10 <compare>,#al
     4b98:	00 10 00 41 	add	r2,1
@@ -4861,7 +4861,7 @@ Disassembly of section .text:
     4bb4:	0d 44 f9 20 	wl16	r9,0x27c0
     4bb8:	0d 60 01 23 	wh16	r9,0x3
     4bbc:	10 40 01 29 	ld32	r9,r9
-    4bc0:	0e 20 01 10 	rev8	r8,r16
+    4bc0:	01 60 01 10 	umulh	r8,r16
     4bc4:	20 70 03 e2 	movepc	rret,8
     4bc8:	14 30 ed 12 	br	10 <compare>,#al
     4bcc:	00 10 00 41 	add	r2,1
@@ -4874,7 +4874,7 @@ Disassembly of section .text:
     4be8:	0d 44 f9 24 	wl16	r9,0x27c4
     4bec:	0d 60 01 23 	wh16	r9,0x3
     4bf0:	10 40 01 29 	ld32	r9,r9
-    4bf4:	0e 20 01 10 	rev8	r8,r16
+    4bf4:	01 60 01 10 	umulh	r8,r16
     4bf8:	20 70 03 e2 	movepc	rret,8
     4bfc:	14 30 ed 05 	br	10 <compare>,#al
     4c00:	00 10 00 41 	add	r2,1
@@ -4887,7 +4887,7 @@ Disassembly of section .text:
     4c1c:	0d 44 f9 28 	wl16	r9,0x27c8
     4c20:	0d 60 01 23 	wh16	r9,0x3
     4c24:	10 40 01 29 	ld32	r9,r9
-    4c28:	0e 20 01 10 	rev8	r8,r16
+    4c28:	01 60 01 10 	umulh	r8,r16
     4c2c:	20 70 03 e2 	movepc	rret,8
     4c30:	14 30 ec f8 	br	10 <compare>,#al
     4c34:	00 10 00 41 	add	r2,1
@@ -4900,7 +4900,7 @@ Disassembly of section .text:
     4c50:	0d 44 f9 2c 	wl16	r9,0x27cc
     4c54:	0d 60 01 23 	wh16	r9,0x3
     4c58:	10 40 01 29 	ld32	r9,r9
-    4c5c:	0e 20 01 10 	rev8	r8,r16
+    4c5c:	01 60 01 10 	umulh	r8,r16
     4c60:	20 70 03 e2 	movepc	rret,8
     4c64:	14 30 ec eb 	br	10 <compare>,#al
     4c68:	00 10 00 41 	add	r2,1
@@ -4913,7 +4913,7 @@ Disassembly of section .text:
     4c84:	0d 44 f9 30 	wl16	r9,0x27d0
     4c88:	0d 60 01 23 	wh16	r9,0x3
     4c8c:	10 40 01 29 	ld32	r9,r9
-    4c90:	0e 20 01 10 	rev8	r8,r16
+    4c90:	01 60 01 10 	umulh	r8,r16
     4c94:	20 70 03 e2 	movepc	rret,8
     4c98:	14 30 ec de 	br	10 <compare>,#al
     4c9c:	00 10 00 41 	add	r2,1
@@ -4926,7 +4926,7 @@ Disassembly of section .text:
     4cb8:	0d 44 f9 34 	wl16	r9,0x27d4
     4cbc:	0d 60 01 23 	wh16	r9,0x3
     4cc0:	10 40 01 29 	ld32	r9,r9
-    4cc4:	0e 20 01 10 	rev8	r8,r16
+    4cc4:	01 60 01 10 	umulh	r8,r16
     4cc8:	20 70 03 e2 	movepc	rret,8
     4ccc:	14 30 ec d1 	br	10 <compare>,#al
     4cd0:	00 10 00 41 	add	r2,1
@@ -4939,7 +4939,7 @@ Disassembly of section .text:
     4cec:	0d 44 f9 38 	wl16	r9,0x27d8
     4cf0:	0d 60 01 23 	wh16	r9,0x3
     4cf4:	10 40 01 29 	ld32	r9,r9
-    4cf8:	0e 20 01 10 	rev8	r8,r16
+    4cf8:	01 60 01 10 	umulh	r8,r16
     4cfc:	20 70 03 e2 	movepc	rret,8
     4d00:	14 30 ec c4 	br	10 <compare>,#al
     4d04:	00 10 00 41 	add	r2,1
@@ -4952,7 +4952,7 @@ Disassembly of section .text:
     4d20:	0d 44 f9 3c 	wl16	r9,0x27dc
     4d24:	0d 60 01 23 	wh16	r9,0x3
     4d28:	10 40 01 29 	ld32	r9,r9
-    4d2c:	0e 20 01 10 	rev8	r8,r16
+    4d2c:	01 60 01 10 	umulh	r8,r16
     4d30:	20 70 03 e2 	movepc	rret,8
     4d34:	14 30 ec b7 	br	10 <compare>,#al
     4d38:	00 10 00 41 	add	r2,1
@@ -4965,7 +4965,7 @@ Disassembly of section .text:
     4d54:	0d 44 fd 20 	wl16	r9,0x27e0
     4d58:	0d 60 01 23 	wh16	r9,0x3
     4d5c:	10 40 01 29 	ld32	r9,r9
-    4d60:	0e 20 01 10 	rev8	r8,r16
+    4d60:	01 60 01 10 	umulh	r8,r16
     4d64:	20 70 03 e2 	movepc	rret,8
     4d68:	14 30 ec aa 	br	10 <compare>,#al
     4d6c:	00 10 00 41 	add	r2,1
@@ -4978,7 +4978,7 @@ Disassembly of section .text:
     4d88:	0d 44 fd 24 	wl16	r9,0x27e4
     4d8c:	0d 60 01 23 	wh16	r9,0x3
     4d90:	10 40 01 29 	ld32	r9,r9
-    4d94:	0e 20 01 10 	rev8	r8,r16
+    4d94:	01 60 01 10 	umulh	r8,r16
     4d98:	20 70 03 e2 	movepc	rret,8
     4d9c:	14 30 ec 9d 	br	10 <compare>,#al
     4da0:	00 10 00 41 	add	r2,1
@@ -4991,7 +4991,7 @@ Disassembly of section .text:
     4dbc:	0d 44 fd 28 	wl16	r9,0x27e8
     4dc0:	0d 60 01 23 	wh16	r9,0x3
     4dc4:	10 40 01 29 	ld32	r9,r9
-    4dc8:	0e 20 01 10 	rev8	r8,r16
+    4dc8:	01 60 01 10 	umulh	r8,r16
     4dcc:	20 70 03 e2 	movepc	rret,8
     4dd0:	14 30 ec 90 	br	10 <compare>,#al
     4dd4:	00 10 00 41 	add	r2,1
@@ -5004,7 +5004,7 @@ Disassembly of section .text:
     4df0:	0d 44 fd 2c 	wl16	r9,0x27ec
     4df4:	0d 60 01 23 	wh16	r9,0x3
     4df8:	10 40 01 29 	ld32	r9,r9
-    4dfc:	0e 20 01 10 	rev8	r8,r16
+    4dfc:	01 60 01 10 	umulh	r8,r16
     4e00:	20 70 03 e2 	movepc	rret,8
     4e04:	14 30 ec 83 	br	10 <compare>,#al
     4e08:	00 10 00 41 	add	r2,1
@@ -5017,7 +5017,7 @@ Disassembly of section .text:
     4e24:	0d 44 fd 30 	wl16	r9,0x27f0
     4e28:	0d 60 01 23 	wh16	r9,0x3
     4e2c:	10 40 01 29 	ld32	r9,r9
-    4e30:	0e 20 01 10 	rev8	r8,r16
+    4e30:	01 60 01 10 	umulh	r8,r16
     4e34:	20 70 03 e2 	movepc	rret,8
     4e38:	14 30 ec 76 	br	10 <compare>,#al
     4e3c:	00 10 00 41 	add	r2,1
@@ -5030,7 +5030,7 @@ Disassembly of section .text:
     4e58:	0d 44 fd 34 	wl16	r9,0x27f4
     4e5c:	0d 60 01 23 	wh16	r9,0x3
     4e60:	10 40 01 29 	ld32	r9,r9
-    4e64:	0e 20 01 10 	rev8	r8,r16
+    4e64:	01 60 01 10 	umulh	r8,r16
     4e68:	20 70 03 e2 	movepc	rret,8
     4e6c:	14 30 ec 69 	br	10 <compare>,#al
     4e70:	00 10 00 41 	add	r2,1
@@ -5043,7 +5043,7 @@ Disassembly of section .text:
     4e8c:	0d 44 fd 38 	wl16	r9,0x27f8
     4e90:	0d 60 01 23 	wh16	r9,0x3
     4e94:	10 40 01 29 	ld32	r9,r9
-    4e98:	0e 20 01 10 	rev8	r8,r16
+    4e98:	01 60 01 10 	umulh	r8,r16
     4e9c:	20 70 03 e2 	movepc	rret,8
     4ea0:	14 30 ec 5c 	br	10 <compare>,#al
     4ea4:	00 10 00 41 	add	r2,1
@@ -5056,7 +5056,7 @@ Disassembly of section .text:
     4ec0:	0d 44 fd 3c 	wl16	r9,0x27fc
     4ec4:	0d 60 01 23 	wh16	r9,0x3
     4ec8:	10 40 01 29 	ld32	r9,r9
-    4ecc:	0e 20 01 10 	rev8	r8,r16
+    4ecc:	01 60 01 10 	umulh	r8,r16
     4ed0:	20 70 03 e2 	movepc	rret,8
     4ed4:	14 30 ec 4f 	br	10 <compare>,#al
     4ed8:	00 10 00 41 	add	r2,1
@@ -5069,7 +5069,7 @@ Disassembly of section .text:
     4ef4:	0d 45 01 20 	wl16	r9,0x2800
     4ef8:	0d 60 01 23 	wh16	r9,0x3
     4efc:	10 40 01 29 	ld32	r9,r9
-    4f00:	0e 20 01 10 	rev8	r8,r16
+    4f00:	01 60 01 10 	umulh	r8,r16
     4f04:	20 70 03 e2 	movepc	rret,8
     4f08:	14 30 ec 42 	br	10 <compare>,#al
     4f0c:	00 10 00 41 	add	r2,1
@@ -5082,7 +5082,7 @@ Disassembly of section .text:
     4f28:	0d 45 01 24 	wl16	r9,0x2804
     4f2c:	0d 60 01 23 	wh16	r9,0x3
     4f30:	10 40 01 29 	ld32	r9,r9
-    4f34:	0e 20 01 10 	rev8	r8,r16
+    4f34:	01 60 01 10 	umulh	r8,r16
     4f38:	20 70 03 e2 	movepc	rret,8
     4f3c:	14 30 ec 35 	br	10 <compare>,#al
     4f40:	00 10 00 41 	add	r2,1
@@ -5095,7 +5095,7 @@ Disassembly of section .text:
     4f5c:	0d 45 01 28 	wl16	r9,0x2808
     4f60:	0d 60 01 23 	wh16	r9,0x3
     4f64:	10 40 01 29 	ld32	r9,r9
-    4f68:	0e 20 01 10 	rev8	r8,r16
+    4f68:	01 60 01 10 	umulh	r8,r16
     4f6c:	20 70 03 e2 	movepc	rret,8
     4f70:	14 30 ec 28 	br	10 <compare>,#al
     4f74:	00 10 00 41 	add	r2,1
@@ -5108,7 +5108,7 @@ Disassembly of section .text:
     4f90:	0d 45 01 2c 	wl16	r9,0x280c
     4f94:	0d 60 01 23 	wh16	r9,0x3
     4f98:	10 40 01 29 	ld32	r9,r9
-    4f9c:	0e 20 01 10 	rev8	r8,r16
+    4f9c:	01 60 01 10 	umulh	r8,r16
     4fa0:	20 70 03 e2 	movepc	rret,8
     4fa4:	14 30 ec 1b 	br	10 <compare>,#al
     4fa8:	00 10 00 41 	add	r2,1
@@ -5121,7 +5121,7 @@ Disassembly of section .text:
     4fc4:	0d 45 01 30 	wl16	r9,0x2810
     4fc8:	0d 60 01 23 	wh16	r9,0x3
     4fcc:	10 40 01 29 	ld32	r9,r9
-    4fd0:	0e 20 01 10 	rev8	r8,r16
+    4fd0:	01 60 01 10 	umulh	r8,r16
     4fd4:	20 70 03 e2 	movepc	rret,8
     4fd8:	14 30 ec 0e 	br	10 <compare>,#al
     4fdc:	00 10 00 41 	add	r2,1
@@ -5134,7 +5134,7 @@ Disassembly of section .text:
     4ff8:	0d 45 01 34 	wl16	r9,0x2814
     4ffc:	0d 60 01 23 	wh16	r9,0x3
     5000:	10 40 01 29 	ld32	r9,r9
-    5004:	0e 20 01 10 	rev8	r8,r16
+    5004:	01 60 01 10 	umulh	r8,r16
     5008:	20 70 03 e2 	movepc	rret,8
     500c:	14 30 ec 01 	br	10 <compare>,#al
     5010:	00 10 00 41 	add	r2,1
@@ -5147,7 +5147,7 @@ Disassembly of section .text:
     502c:	0d 45 01 38 	wl16	r9,0x2818
     5030:	0d 60 01 23 	wh16	r9,0x3
     5034:	10 40 01 29 	ld32	r9,r9
-    5038:	0e 20 01 10 	rev8	r8,r16
+    5038:	01 60 01 10 	umulh	r8,r16
     503c:	20 70 03 e2 	movepc	rret,8
     5040:	14 30 eb f4 	br	10 <compare>,#al
     5044:	00 10 00 41 	add	r2,1
@@ -5160,7 +5160,7 @@ Disassembly of section .text:
     5060:	0d 45 01 3c 	wl16	r9,0x281c
     5064:	0d 60 01 23 	wh16	r9,0x3
     5068:	10 40 01 29 	ld32	r9,r9
-    506c:	0e 20 01 10 	rev8	r8,r16
+    506c:	01 60 01 10 	umulh	r8,r16
     5070:	20 70 03 e2 	movepc	rret,8
     5074:	14 30 eb e7 	br	10 <compare>,#al
     5078:	00 10 00 41 	add	r2,1
@@ -5173,7 +5173,7 @@ Disassembly of section .text:
     5094:	0d 45 05 20 	wl16	r9,0x2820
     5098:	0d 60 01 23 	wh16	r9,0x3
     509c:	10 40 01 29 	ld32	r9,r9
-    50a0:	0e 20 01 10 	rev8	r8,r16
+    50a0:	01 60 01 10 	umulh	r8,r16
     50a4:	20 70 03 e2 	movepc	rret,8
     50a8:	14 30 eb da 	br	10 <compare>,#al
     50ac:	00 10 00 41 	add	r2,1
@@ -5186,7 +5186,7 @@ Disassembly of section .text:
     50c8:	0d 45 05 24 	wl16	r9,0x2824
     50cc:	0d 60 01 23 	wh16	r9,0x3
     50d0:	10 40 01 29 	ld32	r9,r9
-    50d4:	0e 20 01 10 	rev8	r8,r16
+    50d4:	01 60 01 10 	umulh	r8,r16
     50d8:	20 70 03 e2 	movepc	rret,8
     50dc:	14 30 eb cd 	br	10 <compare>,#al
     50e0:	00 10 00 41 	add	r2,1
@@ -5199,7 +5199,7 @@ Disassembly of section .text:
     50fc:	0d 45 05 28 	wl16	r9,0x2828
     5100:	0d 60 01 23 	wh16	r9,0x3
     5104:	10 40 01 29 	ld32	r9,r9
-    5108:	0e 20 01 10 	rev8	r8,r16
+    5108:	01 60 01 10 	umulh	r8,r16
     510c:	20 70 03 e2 	movepc	rret,8
     5110:	14 30 eb c0 	br	10 <compare>,#al
     5114:	00 10 00 41 	add	r2,1
@@ -5212,7 +5212,7 @@ Disassembly of section .text:
     5130:	0d 45 05 2c 	wl16	r9,0x282c
     5134:	0d 60 01 23 	wh16	r9,0x3
     5138:	10 40 01 29 	ld32	r9,r9
-    513c:	0e 20 01 10 	rev8	r8,r16
+    513c:	01 60 01 10 	umulh	r8,r16
     5140:	20 70 03 e2 	movepc	rret,8
     5144:	14 30 eb b3 	br	10 <compare>,#al
     5148:	00 10 00 41 	add	r2,1
@@ -5225,7 +5225,7 @@ Disassembly of section .text:
     5164:	0d 45 05 30 	wl16	r9,0x2830
     5168:	0d 60 01 23 	wh16	r9,0x3
     516c:	10 40 01 29 	ld32	r9,r9
-    5170:	0e 20 01 10 	rev8	r8,r16
+    5170:	01 60 01 10 	umulh	r8,r16
     5174:	20 70 03 e2 	movepc	rret,8
     5178:	14 30 eb a6 	br	10 <compare>,#al
     517c:	00 10 00 41 	add	r2,1
@@ -5238,7 +5238,7 @@ Disassembly of section .text:
     5198:	0d 45 05 34 	wl16	r9,0x2834
     519c:	0d 60 01 23 	wh16	r9,0x3
     51a0:	10 40 01 29 	ld32	r9,r9
-    51a4:	0e 20 01 10 	rev8	r8,r16
+    51a4:	01 60 01 10 	umulh	r8,r16
     51a8:	20 70 03 e2 	movepc	rret,8
     51ac:	14 30 eb 99 	br	10 <compare>,#al
     51b0:	00 10 00 41 	add	r2,1
@@ -5251,7 +5251,7 @@ Disassembly of section .text:
     51cc:	0d 45 05 38 	wl16	r9,0x2838
     51d0:	0d 60 01 23 	wh16	r9,0x3
     51d4:	10 40 01 29 	ld32	r9,r9
-    51d8:	0e 20 01 10 	rev8	r8,r16
+    51d8:	01 60 01 10 	umulh	r8,r16
     51dc:	20 70 03 e2 	movepc	rret,8
     51e0:	14 30 eb 8c 	br	10 <compare>,#al
     51e4:	00 10 00 41 	add	r2,1
@@ -5264,7 +5264,7 @@ Disassembly of section .text:
     5200:	0d 45 05 3c 	wl16	r9,0x283c
     5204:	0d 60 01 23 	wh16	r9,0x3
     5208:	10 40 01 29 	ld32	r9,r9
-    520c:	0e 20 01 10 	rev8	r8,r16
+    520c:	01 60 01 10 	umulh	r8,r16
     5210:	20 70 03 e2 	movepc	rret,8
     5214:	14 30 eb 7f 	br	10 <compare>,#al
     5218:	00 10 00 41 	add	r2,1
@@ -5277,7 +5277,7 @@ Disassembly of section .text:
     5234:	0d 45 09 20 	wl16	r9,0x2840
     5238:	0d 60 01 23 	wh16	r9,0x3
     523c:	10 40 01 29 	ld32	r9,r9
-    5240:	0e 20 01 10 	rev8	r8,r16
+    5240:	01 60 01 10 	umulh	r8,r16
     5244:	20 70 03 e2 	movepc	rret,8
     5248:	14 30 eb 72 	br	10 <compare>,#al
     524c:	00 10 00 41 	add	r2,1
@@ -5290,7 +5290,7 @@ Disassembly of section .text:
     5268:	0d 45 09 24 	wl16	r9,0x2844
     526c:	0d 60 01 23 	wh16	r9,0x3
     5270:	10 40 01 29 	ld32	r9,r9
-    5274:	0e 20 01 10 	rev8	r8,r16
+    5274:	01 60 01 10 	umulh	r8,r16
     5278:	20 70 03 e2 	movepc	rret,8
     527c:	14 30 eb 65 	br	10 <compare>,#al
     5280:	00 10 00 41 	add	r2,1
@@ -5303,7 +5303,7 @@ Disassembly of section .text:
     529c:	0d 45 09 28 	wl16	r9,0x2848
     52a0:	0d 60 01 23 	wh16	r9,0x3
     52a4:	10 40 01 29 	ld32	r9,r9
-    52a8:	0e 20 01 10 	rev8	r8,r16
+    52a8:	01 60 01 10 	umulh	r8,r16
     52ac:	20 70 03 e2 	movepc	rret,8
     52b0:	14 30 eb 58 	br	10 <compare>,#al
     52b4:	00 10 00 41 	add	r2,1
@@ -5316,7 +5316,7 @@ Disassembly of section .text:
     52d0:	0d 45 09 2c 	wl16	r9,0x284c
     52d4:	0d 60 01 23 	wh16	r9,0x3
     52d8:	10 40 01 29 	ld32	r9,r9
-    52dc:	0e 20 01 10 	rev8	r8,r16
+    52dc:	01 60 01 10 	umulh	r8,r16
     52e0:	20 70 03 e2 	movepc	rret,8
     52e4:	14 30 eb 4b 	br	10 <compare>,#al
     52e8:	00 10 00 41 	add	r2,1
@@ -5329,7 +5329,7 @@ Disassembly of section .text:
     5304:	0d 45 09 30 	wl16	r9,0x2850
     5308:	0d 60 01 23 	wh16	r9,0x3
     530c:	10 40 01 29 	ld32	r9,r9
-    5310:	0e 20 01 10 	rev8	r8,r16
+    5310:	01 60 01 10 	umulh	r8,r16
     5314:	20 70 03 e2 	movepc	rret,8
     5318:	14 30 eb 3e 	br	10 <compare>,#al
     531c:	00 10 00 41 	add	r2,1
@@ -5342,7 +5342,7 @@ Disassembly of section .text:
     5338:	0d 45 09 34 	wl16	r9,0x2854
     533c:	0d 60 01 23 	wh16	r9,0x3
     5340:	10 40 01 29 	ld32	r9,r9
-    5344:	0e 20 01 10 	rev8	r8,r16
+    5344:	01 60 01 10 	umulh	r8,r16
     5348:	20 70 03 e2 	movepc	rret,8
     534c:	14 30 eb 31 	br	10 <compare>,#al
     5350:	00 10 00 41 	add	r2,1
@@ -5355,7 +5355,7 @@ Disassembly of section .text:
     536c:	0d 45 09 38 	wl16	r9,0x2858
     5370:	0d 60 01 23 	wh16	r9,0x3
     5374:	10 40 01 29 	ld32	r9,r9
-    5378:	0e 20 01 10 	rev8	r8,r16
+    5378:	01 60 01 10 	umulh	r8,r16
     537c:	20 70 03 e2 	movepc	rret,8
     5380:	14 30 eb 24 	br	10 <compare>,#al
     5384:	00 10 00 41 	add	r2,1
@@ -5368,7 +5368,7 @@ Disassembly of section .text:
     53a0:	0d 45 09 3c 	wl16	r9,0x285c
     53a4:	0d 60 01 23 	wh16	r9,0x3
     53a8:	10 40 01 29 	ld32	r9,r9
-    53ac:	0e 20 01 10 	rev8	r8,r16
+    53ac:	01 60 01 10 	umulh	r8,r16
     53b0:	20 70 03 e2 	movepc	rret,8
     53b4:	14 30 eb 17 	br	10 <compare>,#al
     53b8:	00 10 00 41 	add	r2,1
@@ -5381,7 +5381,7 @@ Disassembly of section .text:
     53d4:	0d 45 0d 20 	wl16	r9,0x2860
     53d8:	0d 60 01 23 	wh16	r9,0x3
     53dc:	10 40 01 29 	ld32	r9,r9
-    53e0:	0e 20 01 10 	rev8	r8,r16
+    53e0:	01 60 01 10 	umulh	r8,r16
     53e4:	20 70 03 e2 	movepc	rret,8
     53e8:	14 30 eb 0a 	br	10 <compare>,#al
     53ec:	00 10 00 41 	add	r2,1
@@ -5394,7 +5394,7 @@ Disassembly of section .text:
     5408:	0d 45 0d 24 	wl16	r9,0x2864
     540c:	0d 60 01 23 	wh16	r9,0x3
     5410:	10 40 01 29 	ld32	r9,r9
-    5414:	0e 20 01 10 	rev8	r8,r16
+    5414:	01 60 01 10 	umulh	r8,r16
     5418:	20 70 03 e2 	movepc	rret,8
     541c:	14 30 ea fd 	br	10 <compare>,#al
     5420:	00 10 00 41 	add	r2,1
@@ -5407,7 +5407,7 @@ Disassembly of section .text:
     543c:	0d 45 0d 28 	wl16	r9,0x2868
     5440:	0d 60 01 23 	wh16	r9,0x3
     5444:	10 40 01 29 	ld32	r9,r9
-    5448:	0e 20 01 10 	rev8	r8,r16
+    5448:	01 60 01 10 	umulh	r8,r16
     544c:	20 70 03 e2 	movepc	rret,8
     5450:	14 30 ea f0 	br	10 <compare>,#al
     5454:	00 10 00 41 	add	r2,1
@@ -5420,7 +5420,7 @@ Disassembly of section .text:
     5470:	0d 45 0d 2c 	wl16	r9,0x286c
     5474:	0d 60 01 23 	wh16	r9,0x3
     5478:	10 40 01 29 	ld32	r9,r9
-    547c:	0e 20 01 10 	rev8	r8,r16
+    547c:	01 60 01 10 	umulh	r8,r16
     5480:	20 70 03 e2 	movepc	rret,8
     5484:	14 30 ea e3 	br	10 <compare>,#al
     5488:	00 10 00 41 	add	r2,1
@@ -5433,7 +5433,7 @@ Disassembly of section .text:
     54a4:	0d 45 0d 30 	wl16	r9,0x2870
     54a8:	0d 60 01 23 	wh16	r9,0x3
     54ac:	10 40 01 29 	ld32	r9,r9
-    54b0:	0e 20 01 10 	rev8	r8,r16
+    54b0:	01 60 01 10 	umulh	r8,r16
     54b4:	20 70 03 e2 	movepc	rret,8
     54b8:	14 30 ea d6 	br	10 <compare>,#al
     54bc:	00 10 00 41 	add	r2,1
@@ -5446,7 +5446,7 @@ Disassembly of section .text:
     54d8:	0d 45 0d 34 	wl16	r9,0x2874
     54dc:	0d 60 01 23 	wh16	r9,0x3
     54e0:	10 40 01 29 	ld32	r9,r9
-    54e4:	0e 20 01 10 	rev8	r8,r16
+    54e4:	01 60 01 10 	umulh	r8,r16
     54e8:	20 70 03 e2 	movepc	rret,8
     54ec:	14 30 ea c9 	br	10 <compare>,#al
     54f0:	00 10 00 41 	add	r2,1
@@ -5459,7 +5459,7 @@ Disassembly of section .text:
     550c:	0d 45 0d 38 	wl16	r9,0x2878
     5510:	0d 60 01 23 	wh16	r9,0x3
     5514:	10 40 01 29 	ld32	r9,r9
-    5518:	0e 20 01 10 	rev8	r8,r16
+    5518:	01 60 01 10 	umulh	r8,r16
     551c:	20 70 03 e2 	movepc	rret,8
     5520:	14 30 ea bc 	br	10 <compare>,#al
     5524:	00 10 00 41 	add	r2,1
@@ -5472,7 +5472,7 @@ Disassembly of section .text:
     5540:	0d 45 0d 3c 	wl16	r9,0x287c
     5544:	0d 60 01 23 	wh16	r9,0x3
     5548:	10 40 01 29 	ld32	r9,r9
-    554c:	0e 20 01 10 	rev8	r8,r16
+    554c:	01 60 01 10 	umulh	r8,r16
     5550:	20 70 03 e2 	movepc	rret,8
     5554:	14 30 ea af 	br	10 <compare>,#al
     5558:	00 10 00 41 	add	r2,1
@@ -5485,7 +5485,7 @@ Disassembly of section .text:
     5574:	0d 45 11 20 	wl16	r9,0x2880
     5578:	0d 60 01 23 	wh16	r9,0x3
     557c:	10 40 01 29 	ld32	r9,r9
-    5580:	0e 20 01 10 	rev8	r8,r16
+    5580:	01 60 01 10 	umulh	r8,r16
     5584:	20 70 03 e2 	movepc	rret,8
     5588:	14 30 ea a2 	br	10 <compare>,#al
     558c:	00 10 00 41 	add	r2,1
@@ -5498,7 +5498,7 @@ Disassembly of section .text:
     55a8:	0d 45 11 24 	wl16	r9,0x2884
     55ac:	0d 60 01 23 	wh16	r9,0x3
     55b0:	10 40 01 29 	ld32	r9,r9
-    55b4:	0e 20 01 10 	rev8	r8,r16
+    55b4:	01 60 01 10 	umulh	r8,r16
     55b8:	20 70 03 e2 	movepc	rret,8
     55bc:	14 30 ea 95 	br	10 <compare>,#al
     55c0:	00 10 00 41 	add	r2,1
@@ -5511,7 +5511,7 @@ Disassembly of section .text:
     55dc:	0d 45 11 28 	wl16	r9,0x2888
     55e0:	0d 60 01 23 	wh16	r9,0x3
     55e4:	10 40 01 29 	ld32	r9,r9
-    55e8:	0e 20 01 10 	rev8	r8,r16
+    55e8:	01 60 01 10 	umulh	r8,r16
     55ec:	20 70 03 e2 	movepc	rret,8
     55f0:	14 30 ea 88 	br	10 <compare>,#al
     55f4:	00 10 00 41 	add	r2,1
@@ -5524,7 +5524,7 @@ Disassembly of section .text:
     5610:	0d 45 11 2c 	wl16	r9,0x288c
     5614:	0d 60 01 23 	wh16	r9,0x3
     5618:	10 40 01 29 	ld32	r9,r9
-    561c:	0e 20 01 10 	rev8	r8,r16
+    561c:	01 60 01 10 	umulh	r8,r16
     5620:	20 70 03 e2 	movepc	rret,8
     5624:	14 30 ea 7b 	br	10 <compare>,#al
     5628:	00 10 00 41 	add	r2,1
@@ -5537,7 +5537,7 @@ Disassembly of section .text:
     5644:	0d 45 11 30 	wl16	r9,0x2890
     5648:	0d 60 01 23 	wh16	r9,0x3
     564c:	10 40 01 29 	ld32	r9,r9
-    5650:	0e 20 01 10 	rev8	r8,r16
+    5650:	01 60 01 10 	umulh	r8,r16
     5654:	20 70 03 e2 	movepc	rret,8
     5658:	14 30 ea 6e 	br	10 <compare>,#al
     565c:	00 10 00 41 	add	r2,1
@@ -5550,7 +5550,7 @@ Disassembly of section .text:
     5678:	0d 45 11 34 	wl16	r9,0x2894
     567c:	0d 60 01 23 	wh16	r9,0x3
     5680:	10 40 01 29 	ld32	r9,r9
-    5684:	0e 20 01 10 	rev8	r8,r16
+    5684:	01 60 01 10 	umulh	r8,r16
     5688:	20 70 03 e2 	movepc	rret,8
     568c:	14 30 ea 61 	br	10 <compare>,#al
     5690:	00 10 00 41 	add	r2,1
@@ -5563,7 +5563,7 @@ Disassembly of section .text:
     56ac:	0d 45 11 38 	wl16	r9,0x2898
     56b0:	0d 60 01 23 	wh16	r9,0x3
     56b4:	10 40 01 29 	ld32	r9,r9
-    56b8:	0e 20 01 10 	rev8	r8,r16
+    56b8:	01 60 01 10 	umulh	r8,r16
     56bc:	20 70 03 e2 	movepc	rret,8
     56c0:	14 30 ea 54 	br	10 <compare>,#al
     56c4:	00 10 00 41 	add	r2,1
@@ -5576,7 +5576,7 @@ Disassembly of section .text:
     56e0:	0d 45 11 3c 	wl16	r9,0x289c
     56e4:	0d 60 01 23 	wh16	r9,0x3
     56e8:	10 40 01 29 	ld32	r9,r9
-    56ec:	0e 20 01 10 	rev8	r8,r16
+    56ec:	01 60 01 10 	umulh	r8,r16
     56f0:	20 70 03 e2 	movepc	rret,8
     56f4:	14 30 ea 47 	br	10 <compare>,#al
     56f8:	00 10 00 41 	add	r2,1
@@ -5589,7 +5589,7 @@ Disassembly of section .text:
     5714:	0d 45 15 20 	wl16	r9,0x28a0
     5718:	0d 60 01 23 	wh16	r9,0x3
     571c:	10 40 01 29 	ld32	r9,r9
-    5720:	0e 20 01 10 	rev8	r8,r16
+    5720:	01 60 01 10 	umulh	r8,r16
     5724:	20 70 03 e2 	movepc	rret,8
     5728:	14 30 ea 3a 	br	10 <compare>,#al
     572c:	00 10 00 41 	add	r2,1
@@ -5602,7 +5602,7 @@ Disassembly of section .text:
     5748:	0d 45 15 24 	wl16	r9,0x28a4
     574c:	0d 60 01 23 	wh16	r9,0x3
     5750:	10 40 01 29 	ld32	r9,r9
-    5754:	0e 20 01 10 	rev8	r8,r16
+    5754:	01 60 01 10 	umulh	r8,r16
     5758:	20 70 03 e2 	movepc	rret,8
     575c:	14 30 ea 2d 	br	10 <compare>,#al
     5760:	00 10 00 41 	add	r2,1
@@ -5615,7 +5615,7 @@ Disassembly of section .text:
     577c:	0d 45 15 28 	wl16	r9,0x28a8
     5780:	0d 60 01 23 	wh16	r9,0x3
     5784:	10 40 01 29 	ld32	r9,r9
-    5788:	0e 20 01 10 	rev8	r8,r16
+    5788:	01 60 01 10 	umulh	r8,r16
     578c:	20 70 03 e2 	movepc	rret,8
     5790:	14 30 ea 20 	br	10 <compare>,#al
     5794:	00 10 00 41 	add	r2,1
@@ -5628,7 +5628,7 @@ Disassembly of section .text:
     57b0:	0d 45 15 2c 	wl16	r9,0x28ac
     57b4:	0d 60 01 23 	wh16	r9,0x3
     57b8:	10 40 01 29 	ld32	r9,r9
-    57bc:	0e 20 01 10 	rev8	r8,r16
+    57bc:	01 60 01 10 	umulh	r8,r16
     57c0:	20 70 03 e2 	movepc	rret,8
     57c4:	14 30 ea 13 	br	10 <compare>,#al
     57c8:	00 10 00 41 	add	r2,1
@@ -5641,7 +5641,7 @@ Disassembly of section .text:
     57e4:	0d 45 15 30 	wl16	r9,0x28b0
     57e8:	0d 60 01 23 	wh16	r9,0x3
     57ec:	10 40 01 29 	ld32	r9,r9
-    57f0:	0e 20 01 10 	rev8	r8,r16
+    57f0:	01 60 01 10 	umulh	r8,r16
     57f4:	20 70 03 e2 	movepc	rret,8
     57f8:	14 30 ea 06 	br	10 <compare>,#al
     57fc:	00 10 00 41 	add	r2,1
@@ -5654,7 +5654,7 @@ Disassembly of section .text:
     5818:	0d 45 15 34 	wl16	r9,0x28b4
     581c:	0d 60 01 23 	wh16	r9,0x3
     5820:	10 40 01 29 	ld32	r9,r9
-    5824:	0e 20 01 10 	rev8	r8,r16
+    5824:	01 60 01 10 	umulh	r8,r16
     5828:	20 70 03 e2 	movepc	rret,8
     582c:	14 30 e9 f9 	br	10 <compare>,#al
     5830:	00 10 00 41 	add	r2,1
@@ -5667,7 +5667,7 @@ Disassembly of section .text:
     584c:	0d 45 15 38 	wl16	r9,0x28b8
     5850:	0d 60 01 23 	wh16	r9,0x3
     5854:	10 40 01 29 	ld32	r9,r9
-    5858:	0e 20 01 10 	rev8	r8,r16
+    5858:	01 60 01 10 	umulh	r8,r16
     585c:	20 70 03 e2 	movepc	rret,8
     5860:	14 30 e9 ec 	br	10 <compare>,#al
     5864:	00 10 00 41 	add	r2,1
@@ -5680,7 +5680,7 @@ Disassembly of section .text:
     5880:	0d 45 15 3c 	wl16	r9,0x28bc
     5884:	0d 60 01 23 	wh16	r9,0x3
     5888:	10 40 01 29 	ld32	r9,r9
-    588c:	0e 20 01 10 	rev8	r8,r16
+    588c:	01 60 01 10 	umulh	r8,r16
     5890:	20 70 03 e2 	movepc	rret,8
     5894:	14 30 e9 df 	br	10 <compare>,#al
     5898:	00 10 00 41 	add	r2,1
@@ -5693,7 +5693,7 @@ Disassembly of section .text:
     58b4:	0d 45 19 20 	wl16	r9,0x28c0
     58b8:	0d 60 01 23 	wh16	r9,0x3
     58bc:	10 40 01 29 	ld32	r9,r9
-    58c0:	0e 20 01 10 	rev8	r8,r16
+    58c0:	01 60 01 10 	umulh	r8,r16
     58c4:	20 70 03 e2 	movepc	rret,8
     58c8:	14 30 e9 d2 	br	10 <compare>,#al
     58cc:	00 10 00 41 	add	r2,1
@@ -5706,7 +5706,7 @@ Disassembly of section .text:
     58e8:	0d 45 19 24 	wl16	r9,0x28c4
     58ec:	0d 60 01 23 	wh16	r9,0x3
     58f0:	10 40 01 29 	ld32	r9,r9
-    58f4:	0e 20 01 10 	rev8	r8,r16
+    58f4:	01 60 01 10 	umulh	r8,r16
     58f8:	20 70 03 e2 	movepc	rret,8
     58fc:	14 30 e9 c5 	br	10 <compare>,#al
     5900:	00 10 00 41 	add	r2,1
@@ -5719,7 +5719,7 @@ Disassembly of section .text:
     591c:	0d 45 19 28 	wl16	r9,0x28c8
     5920:	0d 60 01 23 	wh16	r9,0x3
     5924:	10 40 01 29 	ld32	r9,r9
-    5928:	0e 20 01 10 	rev8	r8,r16
+    5928:	01 60 01 10 	umulh	r8,r16
     592c:	20 70 03 e2 	movepc	rret,8
     5930:	14 30 e9 b8 	br	10 <compare>,#al
     5934:	00 10 00 41 	add	r2,1
@@ -5732,7 +5732,7 @@ Disassembly of section .text:
     5950:	0d 45 19 2c 	wl16	r9,0x28cc
     5954:	0d 60 01 23 	wh16	r9,0x3
     5958:	10 40 01 29 	ld32	r9,r9
-    595c:	0e 20 01 10 	rev8	r8,r16
+    595c:	01 60 01 10 	umulh	r8,r16
     5960:	20 70 03 e2 	movepc	rret,8
     5964:	14 30 e9 ab 	br	10 <compare>,#al
     5968:	00 10 00 41 	add	r2,1
@@ -5745,7 +5745,7 @@ Disassembly of section .text:
     5984:	0d 45 19 30 	wl16	r9,0x28d0
     5988:	0d 60 01 23 	wh16	r9,0x3
     598c:	10 40 01 29 	ld32	r9,r9
-    5990:	0e 20 01 10 	rev8	r8,r16
+    5990:	01 60 01 10 	umulh	r8,r16
     5994:	20 70 03 e2 	movepc	rret,8
     5998:	14 30 e9 9e 	br	10 <compare>,#al
     599c:	00 10 00 41 	add	r2,1
@@ -5758,7 +5758,7 @@ Disassembly of section .text:
     59b8:	0d 45 19 34 	wl16	r9,0x28d4
     59bc:	0d 60 01 23 	wh16	r9,0x3
     59c0:	10 40 01 29 	ld32	r9,r9
-    59c4:	0e 20 01 10 	rev8	r8,r16
+    59c4:	01 60 01 10 	umulh	r8,r16
     59c8:	20 70 03 e2 	movepc	rret,8
     59cc:	14 30 e9 91 	br	10 <compare>,#al
     59d0:	00 10 00 41 	add	r2,1
@@ -5771,7 +5771,7 @@ Disassembly of section .text:
     59ec:	0d 45 19 38 	wl16	r9,0x28d8
     59f0:	0d 60 01 23 	wh16	r9,0x3
     59f4:	10 40 01 29 	ld32	r9,r9
-    59f8:	0e 20 01 10 	rev8	r8,r16
+    59f8:	01 60 01 10 	umulh	r8,r16
     59fc:	20 70 03 e2 	movepc	rret,8
     5a00:	14 30 e9 84 	br	10 <compare>,#al
     5a04:	00 10 00 41 	add	r2,1
@@ -5784,7 +5784,7 @@ Disassembly of section .text:
     5a20:	0d 45 19 3c 	wl16	r9,0x28dc
     5a24:	0d 60 01 23 	wh16	r9,0x3
     5a28:	10 40 01 29 	ld32	r9,r9
-    5a2c:	0e 20 01 10 	rev8	r8,r16
+    5a2c:	01 60 01 10 	umulh	r8,r16
     5a30:	20 70 03 e2 	movepc	rret,8
     5a34:	14 30 e9 77 	br	10 <compare>,#al
     5a38:	00 10 00 41 	add	r2,1
@@ -5797,7 +5797,7 @@ Disassembly of section .text:
     5a54:	0d 45 1d 20 	wl16	r9,0x28e0
     5a58:	0d 60 01 23 	wh16	r9,0x3
     5a5c:	10 40 01 29 	ld32	r9,r9
-    5a60:	0e 20 01 10 	rev8	r8,r16
+    5a60:	01 60 01 10 	umulh	r8,r16
     5a64:	20 70 03 e2 	movepc	rret,8
     5a68:	14 30 e9 6a 	br	10 <compare>,#al
     5a6c:	00 10 00 41 	add	r2,1
@@ -5810,7 +5810,7 @@ Disassembly of section .text:
     5a88:	0d 45 1d 24 	wl16	r9,0x28e4
     5a8c:	0d 60 01 23 	wh16	r9,0x3
     5a90:	10 40 01 29 	ld32	r9,r9
-    5a94:	0e 20 01 10 	rev8	r8,r16
+    5a94:	01 60 01 10 	umulh	r8,r16
     5a98:	20 70 03 e2 	movepc	rret,8
     5a9c:	14 30 e9 5d 	br	10 <compare>,#al
     5aa0:	00 10 00 41 	add	r2,1
@@ -5823,7 +5823,7 @@ Disassembly of section .text:
     5abc:	0d 45 1d 28 	wl16	r9,0x28e8
     5ac0:	0d 60 01 23 	wh16	r9,0x3
     5ac4:	10 40 01 29 	ld32	r9,r9
-    5ac8:	0e 20 01 10 	rev8	r8,r16
+    5ac8:	01 60 01 10 	umulh	r8,r16
     5acc:	20 70 03 e2 	movepc	rret,8
     5ad0:	14 30 e9 50 	br	10 <compare>,#al
     5ad4:	00 10 00 41 	add	r2,1
@@ -5836,7 +5836,7 @@ Disassembly of section .text:
     5af0:	0d 45 1d 2c 	wl16	r9,0x28ec
     5af4:	0d 60 01 23 	wh16	r9,0x3
     5af8:	10 40 01 29 	ld32	r9,r9
-    5afc:	0e 20 01 10 	rev8	r8,r16
+    5afc:	01 60 01 10 	umulh	r8,r16
     5b00:	20 70 03 e2 	movepc	rret,8
     5b04:	14 30 e9 43 	br	10 <compare>,#al
     5b08:	00 10 00 41 	add	r2,1
@@ -5849,7 +5849,7 @@ Disassembly of section .text:
     5b24:	0d 45 1d 30 	wl16	r9,0x28f0
     5b28:	0d 60 01 23 	wh16	r9,0x3
     5b2c:	10 40 01 29 	ld32	r9,r9
-    5b30:	0e 20 01 10 	rev8	r8,r16
+    5b30:	01 60 01 10 	umulh	r8,r16
     5b34:	20 70 03 e2 	movepc	rret,8
     5b38:	14 30 e9 36 	br	10 <compare>,#al
     5b3c:	00 10 00 41 	add	r2,1
@@ -5862,7 +5862,7 @@ Disassembly of section .text:
     5b58:	0d 45 1d 34 	wl16	r9,0x28f4
     5b5c:	0d 60 01 23 	wh16	r9,0x3
     5b60:	10 40 01 29 	ld32	r9,r9
-    5b64:	0e 20 01 10 	rev8	r8,r16
+    5b64:	01 60 01 10 	umulh	r8,r16
     5b68:	20 70 03 e2 	movepc	rret,8
     5b6c:	14 30 e9 29 	br	10 <compare>,#al
     5b70:	00 10 00 41 	add	r2,1
@@ -5875,7 +5875,7 @@ Disassembly of section .text:
     5b8c:	0d 45 1d 38 	wl16	r9,0x28f8
     5b90:	0d 60 01 23 	wh16	r9,0x3
     5b94:	10 40 01 29 	ld32	r9,r9
-    5b98:	0e 20 01 10 	rev8	r8,r16
+    5b98:	01 60 01 10 	umulh	r8,r16
     5b9c:	20 70 03 e2 	movepc	rret,8
     5ba0:	14 30 e9 1c 	br	10 <compare>,#al
     5ba4:	00 10 00 41 	add	r2,1
@@ -5888,7 +5888,7 @@ Disassembly of section .text:
     5bc0:	0d 45 1d 3c 	wl16	r9,0x28fc
     5bc4:	0d 60 01 23 	wh16	r9,0x3
     5bc8:	10 40 01 29 	ld32	r9,r9
-    5bcc:	0e 20 01 10 	rev8	r8,r16
+    5bcc:	01 60 01 10 	umulh	r8,r16
     5bd0:	20 70 03 e2 	movepc	rret,8
     5bd4:	14 30 e9 0f 	br	10 <compare>,#al
     5bd8:	00 10 00 41 	add	r2,1
@@ -5901,7 +5901,7 @@ Disassembly of section .text:
     5bf4:	0d 45 21 20 	wl16	r9,0x2900
     5bf8:	0d 60 01 23 	wh16	r9,0x3
     5bfc:	10 40 01 29 	ld32	r9,r9
-    5c00:	0e 20 01 10 	rev8	r8,r16
+    5c00:	01 60 01 10 	umulh	r8,r16
     5c04:	20 70 03 e2 	movepc	rret,8
     5c08:	14 30 e9 02 	br	10 <compare>,#al
     5c0c:	00 10 00 41 	add	r2,1
@@ -5914,7 +5914,7 @@ Disassembly of section .text:
     5c28:	0d 45 21 24 	wl16	r9,0x2904
     5c2c:	0d 60 01 23 	wh16	r9,0x3
     5c30:	10 40 01 29 	ld32	r9,r9
-    5c34:	0e 20 01 10 	rev8	r8,r16
+    5c34:	01 60 01 10 	umulh	r8,r16
     5c38:	20 70 03 e2 	movepc	rret,8
     5c3c:	14 30 e8 f5 	br	10 <compare>,#al
     5c40:	00 10 00 41 	add	r2,1
@@ -5927,7 +5927,7 @@ Disassembly of section .text:
     5c5c:	0d 45 21 28 	wl16	r9,0x2908
     5c60:	0d 60 01 23 	wh16	r9,0x3
     5c64:	10 40 01 29 	ld32	r9,r9
-    5c68:	0e 20 01 10 	rev8	r8,r16
+    5c68:	01 60 01 10 	umulh	r8,r16
     5c6c:	20 70 03 e2 	movepc	rret,8
     5c70:	14 30 e8 e8 	br	10 <compare>,#al
     5c74:	00 10 00 41 	add	r2,1
@@ -5940,7 +5940,7 @@ Disassembly of section .text:
     5c90:	0d 45 21 2c 	wl16	r9,0x290c
     5c94:	0d 60 01 23 	wh16	r9,0x3
     5c98:	10 40 01 29 	ld32	r9,r9
-    5c9c:	0e 20 01 10 	rev8	r8,r16
+    5c9c:	01 60 01 10 	umulh	r8,r16
     5ca0:	20 70 03 e2 	movepc	rret,8
     5ca4:	14 30 e8 db 	br	10 <compare>,#al
     5ca8:	00 10 00 41 	add	r2,1
@@ -5953,7 +5953,7 @@ Disassembly of section .text:
     5cc4:	0d 45 21 30 	wl16	r9,0x2910
     5cc8:	0d 60 01 23 	wh16	r9,0x3
     5ccc:	10 40 01 29 	ld32	r9,r9
-    5cd0:	0e 20 01 10 	rev8	r8,r16
+    5cd0:	01 60 01 10 	umulh	r8,r16
     5cd4:	20 70 03 e2 	movepc	rret,8
     5cd8:	14 30 e8 ce 	br	10 <compare>,#al
     5cdc:	00 10 00 41 	add	r2,1
@@ -5966,7 +5966,7 @@ Disassembly of section .text:
     5cf8:	0d 45 21 34 	wl16	r9,0x2914
     5cfc:	0d 60 01 23 	wh16	r9,0x3
     5d00:	10 40 01 29 	ld32	r9,r9
-    5d04:	0e 20 01 10 	rev8	r8,r16
+    5d04:	01 60 01 10 	umulh	r8,r16
     5d08:	20 70 03 e2 	movepc	rret,8
     5d0c:	14 30 e8 c1 	br	10 <compare>,#al
     5d10:	00 10 00 41 	add	r2,1
@@ -5979,7 +5979,7 @@ Disassembly of section .text:
     5d2c:	0d 45 21 38 	wl16	r9,0x2918
     5d30:	0d 60 01 23 	wh16	r9,0x3
     5d34:	10 40 01 29 	ld32	r9,r9
-    5d38:	0e 20 01 10 	rev8	r8,r16
+    5d38:	01 60 01 10 	umulh	r8,r16
     5d3c:	20 70 03 e2 	movepc	rret,8
     5d40:	14 30 e8 b4 	br	10 <compare>,#al
     5d44:	00 10 00 41 	add	r2,1
@@ -5992,7 +5992,7 @@ Disassembly of section .text:
     5d60:	0d 45 21 3c 	wl16	r9,0x291c
     5d64:	0d 60 01 23 	wh16	r9,0x3
     5d68:	10 40 01 29 	ld32	r9,r9
-    5d6c:	0e 20 01 10 	rev8	r8,r16
+    5d6c:	01 60 01 10 	umulh	r8,r16
     5d70:	20 70 03 e2 	movepc	rret,8
     5d74:	14 30 e8 a7 	br	10 <compare>,#al
     5d78:	00 10 00 41 	add	r2,1
@@ -6005,7 +6005,7 @@ Disassembly of section .text:
     5d94:	0d 45 25 20 	wl16	r9,0x2920
     5d98:	0d 60 01 23 	wh16	r9,0x3
     5d9c:	10 40 01 29 	ld32	r9,r9
-    5da0:	0e 20 01 10 	rev8	r8,r16
+    5da0:	01 60 01 10 	umulh	r8,r16
     5da4:	20 70 03 e2 	movepc	rret,8
     5da8:	14 30 e8 9a 	br	10 <compare>,#al
     5dac:	00 10 00 41 	add	r2,1
@@ -6018,7 +6018,7 @@ Disassembly of section .text:
     5dc8:	0d 45 25 24 	wl16	r9,0x2924
     5dcc:	0d 60 01 23 	wh16	r9,0x3
     5dd0:	10 40 01 29 	ld32	r9,r9
-    5dd4:	0e 20 01 10 	rev8	r8,r16
+    5dd4:	01 60 01 10 	umulh	r8,r16
     5dd8:	20 70 03 e2 	movepc	rret,8
     5ddc:	14 30 e8 8d 	br	10 <compare>,#al
     5de0:	00 10 00 41 	add	r2,1
@@ -6031,7 +6031,7 @@ Disassembly of section .text:
     5dfc:	0d 45 25 28 	wl16	r9,0x2928
     5e00:	0d 60 01 23 	wh16	r9,0x3
     5e04:	10 40 01 29 	ld32	r9,r9
-    5e08:	0e 20 01 10 	rev8	r8,r16
+    5e08:	01 60 01 10 	umulh	r8,r16
     5e0c:	20 70 03 e2 	movepc	rret,8
     5e10:	14 30 e8 80 	br	10 <compare>,#al
     5e14:	00 10 00 41 	add	r2,1
@@ -6044,7 +6044,7 @@ Disassembly of section .text:
     5e30:	0d 45 25 2c 	wl16	r9,0x292c
     5e34:	0d 60 01 23 	wh16	r9,0x3
     5e38:	10 40 01 29 	ld32	r9,r9
-    5e3c:	0e 20 01 10 	rev8	r8,r16
+    5e3c:	01 60 01 10 	umulh	r8,r16
     5e40:	20 70 03 e2 	movepc	rret,8
     5e44:	14 30 e8 73 	br	10 <compare>,#al
     5e48:	00 10 00 41 	add	r2,1
@@ -6057,7 +6057,7 @@ Disassembly of section .text:
     5e64:	0d 45 25 30 	wl16	r9,0x2930
     5e68:	0d 60 01 23 	wh16	r9,0x3
     5e6c:	10 40 01 29 	ld32	r9,r9
-    5e70:	0e 20 01 10 	rev8	r8,r16
+    5e70:	01 60 01 10 	umulh	r8,r16
     5e74:	20 70 03 e2 	movepc	rret,8
     5e78:	14 30 e8 66 	br	10 <compare>,#al
     5e7c:	00 10 00 41 	add	r2,1
@@ -6070,7 +6070,7 @@ Disassembly of section .text:
     5e98:	0d 45 25 34 	wl16	r9,0x2934
     5e9c:	0d 60 01 23 	wh16	r9,0x3
     5ea0:	10 40 01 29 	ld32	r9,r9
-    5ea4:	0e 20 01 10 	rev8	r8,r16
+    5ea4:	01 60 01 10 	umulh	r8,r16
     5ea8:	20 70 03 e2 	movepc	rret,8
     5eac:	14 30 e8 59 	br	10 <compare>,#al
     5eb0:	00 10 00 41 	add	r2,1
@@ -6083,7 +6083,7 @@ Disassembly of section .text:
     5ecc:	0d 45 25 38 	wl16	r9,0x2938
     5ed0:	0d 60 01 23 	wh16	r9,0x3
     5ed4:	10 40 01 29 	ld32	r9,r9
-    5ed8:	0e 20 01 10 	rev8	r8,r16
+    5ed8:	01 60 01 10 	umulh	r8,r16
     5edc:	20 70 03 e2 	movepc	rret,8
     5ee0:	14 30 e8 4c 	br	10 <compare>,#al
     5ee4:	00 10 00 41 	add	r2,1
@@ -6096,7 +6096,7 @@ Disassembly of section .text:
     5f00:	0d 45 25 3c 	wl16	r9,0x293c
     5f04:	0d 60 01 23 	wh16	r9,0x3
     5f08:	10 40 01 29 	ld32	r9,r9
-    5f0c:	0e 20 01 10 	rev8	r8,r16
+    5f0c:	01 60 01 10 	umulh	r8,r16
     5f10:	20 70 03 e2 	movepc	rret,8
     5f14:	14 30 e8 3f 	br	10 <compare>,#al
     5f18:	00 10 00 41 	add	r2,1
@@ -6109,7 +6109,7 @@ Disassembly of section .text:
     5f34:	0d 45 29 20 	wl16	r9,0x2940
     5f38:	0d 60 01 23 	wh16	r9,0x3
     5f3c:	10 40 01 29 	ld32	r9,r9
-    5f40:	0e 20 01 10 	rev8	r8,r16
+    5f40:	01 60 01 10 	umulh	r8,r16
     5f44:	20 70 03 e2 	movepc	rret,8
     5f48:	14 30 e8 32 	br	10 <compare>,#al
     5f4c:	00 10 00 41 	add	r2,1
@@ -6122,7 +6122,7 @@ Disassembly of section .text:
     5f68:	0d 45 29 24 	wl16	r9,0x2944
     5f6c:	0d 60 01 23 	wh16	r9,0x3
     5f70:	10 40 01 29 	ld32	r9,r9
-    5f74:	0e 20 01 10 	rev8	r8,r16
+    5f74:	01 60 01 10 	umulh	r8,r16
     5f78:	20 70 03 e2 	movepc	rret,8
     5f7c:	14 30 e8 25 	br	10 <compare>,#al
     5f80:	00 10 00 41 	add	r2,1
@@ -6135,7 +6135,7 @@ Disassembly of section .text:
     5f9c:	0d 45 29 28 	wl16	r9,0x2948
     5fa0:	0d 60 01 23 	wh16	r9,0x3
     5fa4:	10 40 01 29 	ld32	r9,r9
-    5fa8:	0e 20 01 10 	rev8	r8,r16
+    5fa8:	01 60 01 10 	umulh	r8,r16
     5fac:	20 70 03 e2 	movepc	rret,8
     5fb0:	14 30 e8 18 	br	10 <compare>,#al
     5fb4:	00 10 00 41 	add	r2,1
@@ -6148,7 +6148,7 @@ Disassembly of section .text:
     5fd0:	0d 45 29 2c 	wl16	r9,0x294c
     5fd4:	0d 60 01 23 	wh16	r9,0x3
     5fd8:	10 40 01 29 	ld32	r9,r9
-    5fdc:	0e 20 01 10 	rev8	r8,r16
+    5fdc:	01 60 01 10 	umulh	r8,r16
     5fe0:	20 70 03 e2 	movepc	rret,8
     5fe4:	14 30 e8 0b 	br	10 <compare>,#al
     5fe8:	00 10 00 41 	add	r2,1
@@ -6161,7 +6161,7 @@ Disassembly of section .text:
     6004:	0d 45 29 30 	wl16	r9,0x2950
     6008:	0d 60 01 23 	wh16	r9,0x3
     600c:	10 40 01 29 	ld32	r9,r9
-    6010:	0e 20 01 10 	rev8	r8,r16
+    6010:	01 60 01 10 	umulh	r8,r16
     6014:	20 70 03 e2 	movepc	rret,8
     6018:	14 30 e7 fe 	br	10 <compare>,#al
     601c:	00 10 00 41 	add	r2,1
@@ -6174,7 +6174,7 @@ Disassembly of section .text:
     6038:	0d 45 29 34 	wl16	r9,0x2954
     603c:	0d 60 01 23 	wh16	r9,0x3
     6040:	10 40 01 29 	ld32	r9,r9
-    6044:	0e 20 01 10 	rev8	r8,r16
+    6044:	01 60 01 10 	umulh	r8,r16
     6048:	20 70 03 e2 	movepc	rret,8
     604c:	14 30 e7 f1 	br	10 <compare>,#al
     6050:	00 10 00 41 	add	r2,1
@@ -6187,7 +6187,7 @@ Disassembly of section .text:
     606c:	0d 45 29 38 	wl16	r9,0x2958
     6070:	0d 60 01 23 	wh16	r9,0x3
     6074:	10 40 01 29 	ld32	r9,r9
-    6078:	0e 20 01 10 	rev8	r8,r16
+    6078:	01 60 01 10 	umulh	r8,r16
     607c:	20 70 03 e2 	movepc	rret,8
     6080:	14 30 e7 e4 	br	10 <compare>,#al
     6084:	00 10 00 41 	add	r2,1
@@ -6200,7 +6200,7 @@ Disassembly of section .text:
     60a0:	0d 45 29 3c 	wl16	r9,0x295c
     60a4:	0d 60 01 23 	wh16	r9,0x3
     60a8:	10 40 01 29 	ld32	r9,r9
-    60ac:	0e 20 01 10 	rev8	r8,r16
+    60ac:	01 60 01 10 	umulh	r8,r16
     60b0:	20 70 03 e2 	movepc	rret,8
     60b4:	14 30 e7 d7 	br	10 <compare>,#al
     60b8:	00 10 00 41 	add	r2,1
@@ -6213,7 +6213,7 @@ Disassembly of section .text:
     60d4:	0d 45 2d 20 	wl16	r9,0x2960
     60d8:	0d 60 01 23 	wh16	r9,0x3
     60dc:	10 40 01 29 	ld32	r9,r9
-    60e0:	0e 20 01 10 	rev8	r8,r16
+    60e0:	01 60 01 10 	umulh	r8,r16
     60e4:	20 70 03 e2 	movepc	rret,8
     60e8:	14 30 e7 ca 	br	10 <compare>,#al
     60ec:	00 10 00 41 	add	r2,1
@@ -6226,7 +6226,7 @@ Disassembly of section .text:
     6108:	0d 45 2d 24 	wl16	r9,0x2964
     610c:	0d 60 01 23 	wh16	r9,0x3
     6110:	10 40 01 29 	ld32	r9,r9
-    6114:	0e 20 01 10 	rev8	r8,r16
+    6114:	01 60 01 10 	umulh	r8,r16
     6118:	20 70 03 e2 	movepc	rret,8
     611c:	14 30 e7 bd 	br	10 <compare>,#al
     6120:	00 10 00 41 	add	r2,1
@@ -6239,7 +6239,7 @@ Disassembly of section .text:
     613c:	0d 45 2d 28 	wl16	r9,0x2968
     6140:	0d 60 01 23 	wh16	r9,0x3
     6144:	10 40 01 29 	ld32	r9,r9
-    6148:	0e 20 01 10 	rev8	r8,r16
+    6148:	01 60 01 10 	umulh	r8,r16
     614c:	20 70 03 e2 	movepc	rret,8
     6150:	14 30 e7 b0 	br	10 <compare>,#al
     6154:	00 10 00 41 	add	r2,1
@@ -6252,7 +6252,7 @@ Disassembly of section .text:
     6170:	0d 45 2d 2c 	wl16	r9,0x296c
     6174:	0d 60 01 23 	wh16	r9,0x3
     6178:	10 40 01 29 	ld32	r9,r9
-    617c:	0e 20 01 10 	rev8	r8,r16
+    617c:	01 60 01 10 	umulh	r8,r16
     6180:	20 70 03 e2 	movepc	rret,8
     6184:	14 30 e7 a3 	br	10 <compare>,#al
     6188:	00 10 00 41 	add	r2,1
@@ -6265,7 +6265,7 @@ Disassembly of section .text:
     61a4:	0d 45 2d 30 	wl16	r9,0x2970
     61a8:	0d 60 01 23 	wh16	r9,0x3
     61ac:	10 40 01 29 	ld32	r9,r9
-    61b0:	0e 20 01 10 	rev8	r8,r16
+    61b0:	01 60 01 10 	umulh	r8,r16
     61b4:	20 70 03 e2 	movepc	rret,8
     61b8:	14 30 e7 96 	br	10 <compare>,#al
     61bc:	00 10 00 41 	add	r2,1
@@ -6278,7 +6278,7 @@ Disassembly of section .text:
     61d8:	0d 45 2d 34 	wl16	r9,0x2974
     61dc:	0d 60 01 23 	wh16	r9,0x3
     61e0:	10 40 01 29 	ld32	r9,r9
-    61e4:	0e 20 01 10 	rev8	r8,r16
+    61e4:	01 60 01 10 	umulh	r8,r16
     61e8:	20 70 03 e2 	movepc	rret,8
     61ec:	14 30 e7 89 	br	10 <compare>,#al
     61f0:	00 10 00 41 	add	r2,1
@@ -6291,7 +6291,7 @@ Disassembly of section .text:
     620c:	0d 45 2d 38 	wl16	r9,0x2978
     6210:	0d 60 01 23 	wh16	r9,0x3
     6214:	10 40 01 29 	ld32	r9,r9
-    6218:	0e 20 01 10 	rev8	r8,r16
+    6218:	01 60 01 10 	umulh	r8,r16
     621c:	20 70 03 e2 	movepc	rret,8
     6220:	14 30 e7 7c 	br	10 <compare>,#al
     6224:	00 10 00 41 	add	r2,1
@@ -6304,7 +6304,7 @@ Disassembly of section .text:
     6240:	0d 45 2d 3c 	wl16	r9,0x297c
     6244:	0d 60 01 23 	wh16	r9,0x3
     6248:	10 40 01 29 	ld32	r9,r9
-    624c:	0e 20 01 10 	rev8	r8,r16
+    624c:	01 60 01 10 	umulh	r8,r16
     6250:	20 70 03 e2 	movepc	rret,8
     6254:	14 30 e7 6f 	br	10 <compare>,#al
     6258:	00 10 00 41 	add	r2,1
@@ -6317,7 +6317,7 @@ Disassembly of section .text:
     6274:	0d 45 31 20 	wl16	r9,0x2980
     6278:	0d 60 01 23 	wh16	r9,0x3
     627c:	10 40 01 29 	ld32	r9,r9
-    6280:	0e 20 01 10 	rev8	r8,r16
+    6280:	01 60 01 10 	umulh	r8,r16
     6284:	20 70 03 e2 	movepc	rret,8
     6288:	14 30 e7 62 	br	10 <compare>,#al
     628c:	00 10 00 41 	add	r2,1
@@ -6330,7 +6330,7 @@ Disassembly of section .text:
     62a8:	0d 45 31 24 	wl16	r9,0x2984
     62ac:	0d 60 01 23 	wh16	r9,0x3
     62b0:	10 40 01 29 	ld32	r9,r9
-    62b4:	0e 20 01 10 	rev8	r8,r16
+    62b4:	01 60 01 10 	umulh	r8,r16
     62b8:	20 70 03 e2 	movepc	rret,8
     62bc:	14 30 e7 55 	br	10 <compare>,#al
     62c0:	00 10 00 41 	add	r2,1
@@ -6343,7 +6343,7 @@ Disassembly of section .text:
     62dc:	0d 45 31 28 	wl16	r9,0x2988
     62e0:	0d 60 01 23 	wh16	r9,0x3
     62e4:	10 40 01 29 	ld32	r9,r9
-    62e8:	0e 20 01 10 	rev8	r8,r16
+    62e8:	01 60 01 10 	umulh	r8,r16
     62ec:	20 70 03 e2 	movepc	rret,8
     62f0:	14 30 e7 48 	br	10 <compare>,#al
     62f4:	00 10 00 41 	add	r2,1
@@ -6356,7 +6356,7 @@ Disassembly of section .text:
     6310:	0d 45 31 2c 	wl16	r9,0x298c
     6314:	0d 60 01 23 	wh16	r9,0x3
     6318:	10 40 01 29 	ld32	r9,r9
-    631c:	0e 20 01 10 	rev8	r8,r16
+    631c:	01 60 01 10 	umulh	r8,r16
     6320:	20 70 03 e2 	movepc	rret,8
     6324:	14 30 e7 3b 	br	10 <compare>,#al
     6328:	00 10 00 41 	add	r2,1
@@ -6369,7 +6369,7 @@ Disassembly of section .text:
     6344:	0d 45 31 30 	wl16	r9,0x2990
     6348:	0d 60 01 23 	wh16	r9,0x3
     634c:	10 40 01 29 	ld32	r9,r9
-    6350:	0e 20 01 10 	rev8	r8,r16
+    6350:	01 60 01 10 	umulh	r8,r16
     6354:	20 70 03 e2 	movepc	rret,8
     6358:	14 30 e7 2e 	br	10 <compare>,#al
     635c:	00 10 00 41 	add	r2,1
@@ -6382,7 +6382,7 @@ Disassembly of section .text:
     6378:	0d 45 31 34 	wl16	r9,0x2994
     637c:	0d 60 01 23 	wh16	r9,0x3
     6380:	10 40 01 29 	ld32	r9,r9
-    6384:	0e 20 01 10 	rev8	r8,r16
+    6384:	01 60 01 10 	umulh	r8,r16
     6388:	20 70 03 e2 	movepc	rret,8
     638c:	14 30 e7 21 	br	10 <compare>,#al
     6390:	00 10 00 41 	add	r2,1
@@ -6395,7 +6395,7 @@ Disassembly of section .text:
     63ac:	0d 45 31 38 	wl16	r9,0x2998
     63b0:	0d 60 01 23 	wh16	r9,0x3
     63b4:	10 40 01 29 	ld32	r9,r9
-    63b8:	0e 20 01 10 	rev8	r8,r16
+    63b8:	01 60 01 10 	umulh	r8,r16
     63bc:	20 70 03 e2 	movepc	rret,8
     63c0:	14 30 e7 14 	br	10 <compare>,#al
     63c4:	00 10 00 41 	add	r2,1
@@ -6408,7 +6408,7 @@ Disassembly of section .text:
     63e0:	0d 45 31 3c 	wl16	r9,0x299c
     63e4:	0d 60 01 23 	wh16	r9,0x3
     63e8:	10 40 01 29 	ld32	r9,r9
-    63ec:	0e 20 01 10 	rev8	r8,r16
+    63ec:	01 60 01 10 	umulh	r8,r16
     63f0:	20 70 03 e2 	movepc	rret,8
     63f4:	14 30 e7 07 	br	10 <compare>,#al
     63f8:	00 10 00 41 	add	r2,1
@@ -6421,7 +6421,7 @@ Disassembly of section .text:
     6414:	0d 45 35 20 	wl16	r9,0x29a0
     6418:	0d 60 01 23 	wh16	r9,0x3
     641c:	10 40 01 29 	ld32	r9,r9
-    6420:	0e 20 01 10 	rev8	r8,r16
+    6420:	01 60 01 10 	umulh	r8,r16
     6424:	20 70 03 e2 	movepc	rret,8
     6428:	14 30 e6 fa 	br	10 <compare>,#al
     642c:	00 10 00 41 	add	r2,1
@@ -6434,7 +6434,7 @@ Disassembly of section .text:
     6448:	0d 45 35 24 	wl16	r9,0x29a4
     644c:	0d 60 01 23 	wh16	r9,0x3
     6450:	10 40 01 29 	ld32	r9,r9
-    6454:	0e 20 01 10 	rev8	r8,r16
+    6454:	01 60 01 10 	umulh	r8,r16
     6458:	20 70 03 e2 	movepc	rret,8
     645c:	14 30 e6 ed 	br	10 <compare>,#al
     6460:	00 10 00 41 	add	r2,1
@@ -6447,7 +6447,7 @@ Disassembly of section .text:
     647c:	0d 45 35 28 	wl16	r9,0x29a8
     6480:	0d 60 01 23 	wh16	r9,0x3
     6484:	10 40 01 29 	ld32	r9,r9
-    6488:	0e 20 01 10 	rev8	r8,r16
+    6488:	01 60 01 10 	umulh	r8,r16
     648c:	20 70 03 e2 	movepc	rret,8
     6490:	14 30 e6 e0 	br	10 <compare>,#al
     6494:	00 10 00 41 	add	r2,1
@@ -6460,7 +6460,7 @@ Disassembly of section .text:
     64b0:	0d 45 35 2c 	wl16	r9,0x29ac
     64b4:	0d 60 01 23 	wh16	r9,0x3
     64b8:	10 40 01 29 	ld32	r9,r9
-    64bc:	0e 20 01 10 	rev8	r8,r16
+    64bc:	01 60 01 10 	umulh	r8,r16
     64c0:	20 70 03 e2 	movepc	rret,8
     64c4:	14 30 e6 d3 	br	10 <compare>,#al
     64c8:	00 10 00 41 	add	r2,1
@@ -6473,7 +6473,7 @@ Disassembly of section .text:
     64e4:	0d 45 35 30 	wl16	r9,0x29b0
     64e8:	0d 60 01 23 	wh16	r9,0x3
     64ec:	10 40 01 29 	ld32	r9,r9
-    64f0:	0e 20 01 10 	rev8	r8,r16
+    64f0:	01 60 01 10 	umulh	r8,r16
     64f4:	20 70 03 e2 	movepc	rret,8
     64f8:	14 30 e6 c6 	br	10 <compare>,#al
     64fc:	00 10 00 41 	add	r2,1
@@ -6486,7 +6486,7 @@ Disassembly of section .text:
     6518:	0d 45 35 34 	wl16	r9,0x29b4
     651c:	0d 60 01 23 	wh16	r9,0x3
     6520:	10 40 01 29 	ld32	r9,r9
-    6524:	0e 20 01 10 	rev8	r8,r16
+    6524:	01 60 01 10 	umulh	r8,r16
     6528:	20 70 03 e2 	movepc	rret,8
     652c:	14 30 e6 b9 	br	10 <compare>,#al
     6530:	00 10 00 41 	add	r2,1
@@ -6499,7 +6499,7 @@ Disassembly of section .text:
     654c:	0d 45 35 38 	wl16	r9,0x29b8
     6550:	0d 60 01 23 	wh16	r9,0x3
     6554:	10 40 01 29 	ld32	r9,r9
-    6558:	0e 20 01 10 	rev8	r8,r16
+    6558:	01 60 01 10 	umulh	r8,r16
     655c:	20 70 03 e2 	movepc	rret,8
     6560:	14 30 e6 ac 	br	10 <compare>,#al
     6564:	00 10 00 41 	add	r2,1
@@ -6512,7 +6512,7 @@ Disassembly of section .text:
     6580:	0d 45 35 3c 	wl16	r9,0x29bc
     6584:	0d 60 01 23 	wh16	r9,0x3
     6588:	10 40 01 29 	ld32	r9,r9
-    658c:	0e 20 01 10 	rev8	r8,r16
+    658c:	01 60 01 10 	umulh	r8,r16
     6590:	20 70 03 e2 	movepc	rret,8
     6594:	14 30 e6 9f 	br	10 <compare>,#al
     6598:	00 10 00 41 	add	r2,1
@@ -6525,7 +6525,7 @@ Disassembly of section .text:
     65b4:	0d 45 39 20 	wl16	r9,0x29c0
     65b8:	0d 60 01 23 	wh16	r9,0x3
     65bc:	10 40 01 29 	ld32	r9,r9
-    65c0:	0e 20 01 10 	rev8	r8,r16
+    65c0:	01 60 01 10 	umulh	r8,r16
     65c4:	20 70 03 e2 	movepc	rret,8
     65c8:	14 30 e6 92 	br	10 <compare>,#al
     65cc:	00 10 00 41 	add	r2,1
@@ -6538,7 +6538,7 @@ Disassembly of section .text:
     65e8:	0d 45 39 24 	wl16	r9,0x29c4
     65ec:	0d 60 01 23 	wh16	r9,0x3
     65f0:	10 40 01 29 	ld32	r9,r9
-    65f4:	0e 20 01 10 	rev8	r8,r16
+    65f4:	01 60 01 10 	umulh	r8,r16
     65f8:	20 70 03 e2 	movepc	rret,8
     65fc:	14 30 e6 85 	br	10 <compare>,#al
     6600:	00 10 00 41 	add	r2,1
@@ -6551,7 +6551,7 @@ Disassembly of section .text:
     661c:	0d 45 39 28 	wl16	r9,0x29c8
     6620:	0d 60 01 23 	wh16	r9,0x3
     6624:	10 40 01 29 	ld32	r9,r9
-    6628:	0e 20 01 10 	rev8	r8,r16
+    6628:	01 60 01 10 	umulh	r8,r16
     662c:	20 70 03 e2 	movepc	rret,8
     6630:	14 30 e6 78 	br	10 <compare>,#al
     6634:	00 10 00 41 	add	r2,1
@@ -6564,7 +6564,7 @@ Disassembly of section .text:
     6650:	0d 45 39 2c 	wl16	r9,0x29cc
     6654:	0d 60 01 23 	wh16	r9,0x3
     6658:	10 40 01 29 	ld32	r9,r9
-    665c:	0e 20 01 10 	rev8	r8,r16
+    665c:	01 60 01 10 	umulh	r8,r16
     6660:	20 70 03 e2 	movepc	rret,8
     6664:	14 30 e6 6b 	br	10 <compare>,#al
     6668:	00 10 00 41 	add	r2,1
@@ -6577,7 +6577,7 @@ Disassembly of section .text:
     6684:	0d 45 39 30 	wl16	r9,0x29d0
     6688:	0d 60 01 23 	wh16	r9,0x3
     668c:	10 40 01 29 	ld32	r9,r9
-    6690:	0e 20 01 10 	rev8	r8,r16
+    6690:	01 60 01 10 	umulh	r8,r16
     6694:	20 70 03 e2 	movepc	rret,8
     6698:	14 30 e6 5e 	br	10 <compare>,#al
     669c:	00 10 00 41 	add	r2,1
@@ -6590,7 +6590,7 @@ Disassembly of section .text:
     66b8:	0d 45 39 34 	wl16	r9,0x29d4
     66bc:	0d 60 01 23 	wh16	r9,0x3
     66c0:	10 40 01 29 	ld32	r9,r9
-    66c4:	0e 20 01 10 	rev8	r8,r16
+    66c4:	01 60 01 10 	umulh	r8,r16
     66c8:	20 70 03 e2 	movepc	rret,8
     66cc:	14 30 e6 51 	br	10 <compare>,#al
     66d0:	00 10 00 41 	add	r2,1
@@ -6603,7 +6603,7 @@ Disassembly of section .text:
     66ec:	0d 45 39 38 	wl16	r9,0x29d8
     66f0:	0d 60 01 23 	wh16	r9,0x3
     66f4:	10 40 01 29 	ld32	r9,r9
-    66f8:	0e 20 01 10 	rev8	r8,r16
+    66f8:	01 60 01 10 	umulh	r8,r16
     66fc:	20 70 03 e2 	movepc	rret,8
     6700:	14 30 e6 44 	br	10 <compare>,#al
     6704:	00 10 00 41 	add	r2,1
@@ -6616,7 +6616,7 @@ Disassembly of section .text:
     6720:	0d 45 39 3c 	wl16	r9,0x29dc
     6724:	0d 60 01 23 	wh16	r9,0x3
     6728:	10 40 01 29 	ld32	r9,r9
-    672c:	0e 20 01 10 	rev8	r8,r16
+    672c:	01 60 01 10 	umulh	r8,r16
     6730:	20 70 03 e2 	movepc	rret,8
     6734:	14 30 e6 37 	br	10 <compare>,#al
     6738:	00 10 00 41 	add	r2,1
@@ -6629,7 +6629,7 @@ Disassembly of section .text:
     6754:	0d 45 3d 20 	wl16	r9,0x29e0
     6758:	0d 60 01 23 	wh16	r9,0x3
     675c:	10 40 01 29 	ld32	r9,r9
-    6760:	0e 20 01 10 	rev8	r8,r16
+    6760:	01 60 01 10 	umulh	r8,r16
     6764:	20 70 03 e2 	movepc	rret,8
     6768:	14 30 e6 2a 	br	10 <compare>,#al
     676c:	00 10 00 41 	add	r2,1
@@ -6642,7 +6642,7 @@ Disassembly of section .text:
     6788:	0d 45 3d 24 	wl16	r9,0x29e4
     678c:	0d 60 01 23 	wh16	r9,0x3
     6790:	10 40 01 29 	ld32	r9,r9
-    6794:	0e 20 01 10 	rev8	r8,r16
+    6794:	01 60 01 10 	umulh	r8,r16
     6798:	20 70 03 e2 	movepc	rret,8
     679c:	14 30 e6 1d 	br	10 <compare>,#al
     67a0:	00 10 00 41 	add	r2,1
@@ -6655,7 +6655,7 @@ Disassembly of section .text:
     67bc:	0d 45 3d 28 	wl16	r9,0x29e8
     67c0:	0d 60 01 23 	wh16	r9,0x3
     67c4:	10 40 01 29 	ld32	r9,r9
-    67c8:	0e 20 01 10 	rev8	r8,r16
+    67c8:	01 60 01 10 	umulh	r8,r16
     67cc:	20 70 03 e2 	movepc	rret,8
     67d0:	14 30 e6 10 	br	10 <compare>,#al
     67d4:	00 10 00 41 	add	r2,1
@@ -6668,7 +6668,7 @@ Disassembly of section .text:
     67f0:	0d 45 3d 2c 	wl16	r9,0x29ec
     67f4:	0d 60 01 23 	wh16	r9,0x3
     67f8:	10 40 01 29 	ld32	r9,r9
-    67fc:	0e 20 01 10 	rev8	r8,r16
+    67fc:	01 60 01 10 	umulh	r8,r16
     6800:	20 70 03 e2 	movepc	rret,8
     6804:	14 30 e6 03 	br	10 <compare>,#al
     6808:	00 10 00 41 	add	r2,1
@@ -6681,7 +6681,7 @@ Disassembly of section .text:
     6824:	0d 45 3d 30 	wl16	r9,0x29f0
     6828:	0d 60 01 23 	wh16	r9,0x3
     682c:	10 40 01 29 	ld32	r9,r9
-    6830:	0e 20 01 10 	rev8	r8,r16
+    6830:	01 60 01 10 	umulh	r8,r16
     6834:	20 70 03 e2 	movepc	rret,8
     6838:	14 30 e5 f6 	br	10 <compare>,#al
     683c:	00 10 00 41 	add	r2,1
@@ -6694,7 +6694,7 @@ Disassembly of section .text:
     6858:	0d 45 3d 34 	wl16	r9,0x29f4
     685c:	0d 60 01 23 	wh16	r9,0x3
     6860:	10 40 01 29 	ld32	r9,r9
-    6864:	0e 20 01 10 	rev8	r8,r16
+    6864:	01 60 01 10 	umulh	r8,r16
     6868:	20 70 03 e2 	movepc	rret,8
     686c:	14 30 e5 e9 	br	10 <compare>,#al
     6870:	00 10 00 41 	add	r2,1
@@ -6707,7 +6707,7 @@ Disassembly of section .text:
     688c:	0d 45 3d 38 	wl16	r9,0x29f8
     6890:	0d 60 01 23 	wh16	r9,0x3
     6894:	10 40 01 29 	ld32	r9,r9
-    6898:	0e 20 01 10 	rev8	r8,r16
+    6898:	01 60 01 10 	umulh	r8,r16
     689c:	20 70 03 e2 	movepc	rret,8
     68a0:	14 30 e5 dc 	br	10 <compare>,#al
     68a4:	00 10 00 41 	add	r2,1
@@ -6720,7 +6720,7 @@ Disassembly of section .text:
     68c0:	0d 45 3d 3c 	wl16	r9,0x29fc
     68c4:	0d 60 01 23 	wh16	r9,0x3
     68c8:	10 40 01 29 	ld32	r9,r9
-    68cc:	0e 20 01 10 	rev8	r8,r16
+    68cc:	01 60 01 10 	umulh	r8,r16
     68d0:	20 70 03 e2 	movepc	rret,8
     68d4:	14 30 e5 cf 	br	10 <compare>,#al
     68d8:	00 10 00 41 	add	r2,1
@@ -6733,7 +6733,7 @@ Disassembly of section .text:
     68f4:	0d 45 41 20 	wl16	r9,0x2a00
     68f8:	0d 60 01 23 	wh16	r9,0x3
     68fc:	10 40 01 29 	ld32	r9,r9
-    6900:	0e 20 01 10 	rev8	r8,r16
+    6900:	01 60 01 10 	umulh	r8,r16
     6904:	20 70 03 e2 	movepc	rret,8
     6908:	14 30 e5 c2 	br	10 <compare>,#al
     690c:	00 10 00 41 	add	r2,1
@@ -6746,7 +6746,7 @@ Disassembly of section .text:
     6928:	0d 45 41 24 	wl16	r9,0x2a04
     692c:	0d 60 01 23 	wh16	r9,0x3
     6930:	10 40 01 29 	ld32	r9,r9
-    6934:	0e 20 01 10 	rev8	r8,r16
+    6934:	01 60 01 10 	umulh	r8,r16
     6938:	20 70 03 e2 	movepc	rret,8
     693c:	14 30 e5 b5 	br	10 <compare>,#al
     6940:	00 10 00 41 	add	r2,1
@@ -6759,7 +6759,7 @@ Disassembly of section .text:
     695c:	0d 45 41 28 	wl16	r9,0x2a08
     6960:	0d 60 01 23 	wh16	r9,0x3
     6964:	10 40 01 29 	ld32	r9,r9
-    6968:	0e 20 01 10 	rev8	r8,r16
+    6968:	01 60 01 10 	umulh	r8,r16
     696c:	20 70 03 e2 	movepc	rret,8
     6970:	14 30 e5 a8 	br	10 <compare>,#al
     6974:	00 10 00 41 	add	r2,1
@@ -6772,7 +6772,7 @@ Disassembly of section .text:
     6990:	0d 45 41 2c 	wl16	r9,0x2a0c
     6994:	0d 60 01 23 	wh16	r9,0x3
     6998:	10 40 01 29 	ld32	r9,r9
-    699c:	0e 20 01 10 	rev8	r8,r16
+    699c:	01 60 01 10 	umulh	r8,r16
     69a0:	20 70 03 e2 	movepc	rret,8
     69a4:	14 30 e5 9b 	br	10 <compare>,#al
     69a8:	00 10 00 41 	add	r2,1
@@ -6785,7 +6785,7 @@ Disassembly of section .text:
     69c4:	0d 45 41 30 	wl16	r9,0x2a10
     69c8:	0d 60 01 23 	wh16	r9,0x3
     69cc:	10 40 01 29 	ld32	r9,r9
-    69d0:	0e 20 01 10 	rev8	r8,r16
+    69d0:	01 60 01 10 	umulh	r8,r16
     69d4:	20 70 03 e2 	movepc	rret,8
     69d8:	14 30 e5 8e 	br	10 <compare>,#al
     69dc:	00 10 00 41 	add	r2,1
@@ -6798,7 +6798,7 @@ Disassembly of section .text:
     69f8:	0d 45 41 34 	wl16	r9,0x2a14
     69fc:	0d 60 01 23 	wh16	r9,0x3
     6a00:	10 40 01 29 	ld32	r9,r9
-    6a04:	0e 20 01 10 	rev8	r8,r16
+    6a04:	01 60 01 10 	umulh	r8,r16
     6a08:	20 70 03 e2 	movepc	rret,8
     6a0c:	14 30 e5 81 	br	10 <compare>,#al
     6a10:	00 10 00 41 	add	r2,1
@@ -6811,7 +6811,7 @@ Disassembly of section .text:
     6a2c:	0d 45 41 38 	wl16	r9,0x2a18
     6a30:	0d 60 01 23 	wh16	r9,0x3
     6a34:	10 40 01 29 	ld32	r9,r9
-    6a38:	0e 20 01 10 	rev8	r8,r16
+    6a38:	01 60 01 10 	umulh	r8,r16
     6a3c:	20 70 03 e2 	movepc	rret,8
     6a40:	14 30 e5 74 	br	10 <compare>,#al
     6a44:	00 10 00 41 	add	r2,1
@@ -6824,7 +6824,7 @@ Disassembly of section .text:
     6a60:	0d 45 41 3c 	wl16	r9,0x2a1c
     6a64:	0d 60 01 23 	wh16	r9,0x3
     6a68:	10 40 01 29 	ld32	r9,r9
-    6a6c:	0e 20 01 10 	rev8	r8,r16
+    6a6c:	01 60 01 10 	umulh	r8,r16
     6a70:	20 70 03 e2 	movepc	rret,8
     6a74:	14 30 e5 67 	br	10 <compare>,#al
     6a78:	00 10 00 41 	add	r2,1
@@ -6837,7 +6837,7 @@ Disassembly of section .text:
     6a94:	0d 45 45 20 	wl16	r9,0x2a20
     6a98:	0d 60 01 23 	wh16	r9,0x3
     6a9c:	10 40 01 29 	ld32	r9,r9
-    6aa0:	0e 20 01 10 	rev8	r8,r16
+    6aa0:	01 60 01 10 	umulh	r8,r16
     6aa4:	20 70 03 e2 	movepc	rret,8
     6aa8:	14 30 e5 5a 	br	10 <compare>,#al
     6aac:	00 10 00 41 	add	r2,1
@@ -6850,7 +6850,7 @@ Disassembly of section .text:
     6ac8:	0d 45 45 24 	wl16	r9,0x2a24
     6acc:	0d 60 01 23 	wh16	r9,0x3
     6ad0:	10 40 01 29 	ld32	r9,r9
-    6ad4:	0e 20 01 10 	rev8	r8,r16
+    6ad4:	01 60 01 10 	umulh	r8,r16
     6ad8:	20 70 03 e2 	movepc	rret,8
     6adc:	14 30 e5 4d 	br	10 <compare>,#al
     6ae0:	00 10 00 41 	add	r2,1
@@ -6863,7 +6863,7 @@ Disassembly of section .text:
     6afc:	0d 45 45 28 	wl16	r9,0x2a28
     6b00:	0d 60 01 23 	wh16	r9,0x3
     6b04:	10 40 01 29 	ld32	r9,r9
-    6b08:	0e 20 01 10 	rev8	r8,r16
+    6b08:	01 60 01 10 	umulh	r8,r16
     6b0c:	20 70 03 e2 	movepc	rret,8
     6b10:	14 30 e5 40 	br	10 <compare>,#al
     6b14:	00 10 00 41 	add	r2,1
@@ -6876,7 +6876,7 @@ Disassembly of section .text:
     6b30:	0d 45 45 2c 	wl16	r9,0x2a2c
     6b34:	0d 60 01 23 	wh16	r9,0x3
     6b38:	10 40 01 29 	ld32	r9,r9
-    6b3c:	0e 20 01 10 	rev8	r8,r16
+    6b3c:	01 60 01 10 	umulh	r8,r16
     6b40:	20 70 03 e2 	movepc	rret,8
     6b44:	14 30 e5 33 	br	10 <compare>,#al
     6b48:	00 10 00 41 	add	r2,1
@@ -6889,7 +6889,7 @@ Disassembly of section .text:
     6b64:	0d 45 45 30 	wl16	r9,0x2a30
     6b68:	0d 60 01 23 	wh16	r9,0x3
     6b6c:	10 40 01 29 	ld32	r9,r9
-    6b70:	0e 20 01 10 	rev8	r8,r16
+    6b70:	01 60 01 10 	umulh	r8,r16
     6b74:	20 70 03 e2 	movepc	rret,8
     6b78:	14 30 e5 26 	br	10 <compare>,#al
     6b7c:	00 10 00 41 	add	r2,1
@@ -6902,7 +6902,7 @@ Disassembly of section .text:
     6b98:	0d 45 45 34 	wl16	r9,0x2a34
     6b9c:	0d 60 01 23 	wh16	r9,0x3
     6ba0:	10 40 01 29 	ld32	r9,r9
-    6ba4:	0e 20 01 10 	rev8	r8,r16
+    6ba4:	01 60 01 10 	umulh	r8,r16
     6ba8:	20 70 03 e2 	movepc	rret,8
     6bac:	14 30 e5 19 	br	10 <compare>,#al
     6bb0:	00 10 00 41 	add	r2,1
@@ -6915,7 +6915,7 @@ Disassembly of section .text:
     6bcc:	0d 45 45 38 	wl16	r9,0x2a38
     6bd0:	0d 60 01 23 	wh16	r9,0x3
     6bd4:	10 40 01 29 	ld32	r9,r9
-    6bd8:	0e 20 01 10 	rev8	r8,r16
+    6bd8:	01 60 01 10 	umulh	r8,r16
     6bdc:	20 70 03 e2 	movepc	rret,8
     6be0:	14 30 e5 0c 	br	10 <compare>,#al
     6be4:	00 10 00 41 	add	r2,1
@@ -6928,7 +6928,7 @@ Disassembly of section .text:
     6c00:	0d 45 45 3c 	wl16	r9,0x2a3c
     6c04:	0d 60 01 23 	wh16	r9,0x3
     6c08:	10 40 01 29 	ld32	r9,r9
-    6c0c:	0e 20 01 10 	rev8	r8,r16
+    6c0c:	01 60 01 10 	umulh	r8,r16
     6c10:	20 70 03 e2 	movepc	rret,8
     6c14:	14 30 e4 ff 	br	10 <compare>,#al
     6c18:	00 10 00 41 	add	r2,1
@@ -6941,7 +6941,7 @@ Disassembly of section .text:
     6c34:	0d 45 49 20 	wl16	r9,0x2a40
     6c38:	0d 60 01 23 	wh16	r9,0x3
     6c3c:	10 40 01 29 	ld32	r9,r9
-    6c40:	0e 20 01 10 	rev8	r8,r16
+    6c40:	01 60 01 10 	umulh	r8,r16
     6c44:	20 70 03 e2 	movepc	rret,8
     6c48:	14 30 e4 f2 	br	10 <compare>,#al
     6c4c:	00 10 00 41 	add	r2,1
@@ -6954,7 +6954,7 @@ Disassembly of section .text:
     6c68:	0d 45 49 24 	wl16	r9,0x2a44
     6c6c:	0d 60 01 23 	wh16	r9,0x3
     6c70:	10 40 01 29 	ld32	r9,r9
-    6c74:	0e 20 01 10 	rev8	r8,r16
+    6c74:	01 60 01 10 	umulh	r8,r16
     6c78:	20 70 03 e2 	movepc	rret,8
     6c7c:	14 30 e4 e5 	br	10 <compare>,#al
     6c80:	00 10 00 41 	add	r2,1
@@ -6967,7 +6967,7 @@ Disassembly of section .text:
     6c9c:	0d 45 49 28 	wl16	r9,0x2a48
     6ca0:	0d 60 01 23 	wh16	r9,0x3
     6ca4:	10 40 01 29 	ld32	r9,r9
-    6ca8:	0e 20 01 10 	rev8	r8,r16
+    6ca8:	01 60 01 10 	umulh	r8,r16
     6cac:	20 70 03 e2 	movepc	rret,8
     6cb0:	14 30 e4 d8 	br	10 <compare>,#al
     6cb4:	00 10 00 41 	add	r2,1
@@ -6980,7 +6980,7 @@ Disassembly of section .text:
     6cd0:	0d 45 49 2c 	wl16	r9,0x2a4c
     6cd4:	0d 60 01 23 	wh16	r9,0x3
     6cd8:	10 40 01 29 	ld32	r9,r9
-    6cdc:	0e 20 01 10 	rev8	r8,r16
+    6cdc:	01 60 01 10 	umulh	r8,r16
     6ce0:	20 70 03 e2 	movepc	rret,8
     6ce4:	14 30 e4 cb 	br	10 <compare>,#al
     6ce8:	00 10 00 41 	add	r2,1
@@ -6993,7 +6993,7 @@ Disassembly of section .text:
     6d04:	0d 45 49 30 	wl16	r9,0x2a50
     6d08:	0d 60 01 23 	wh16	r9,0x3
     6d0c:	10 40 01 29 	ld32	r9,r9
-    6d10:	0e 20 01 10 	rev8	r8,r16
+    6d10:	01 60 01 10 	umulh	r8,r16
     6d14:	20 70 03 e2 	movepc	rret,8
     6d18:	14 30 e4 be 	br	10 <compare>,#al
     6d1c:	00 10 00 41 	add	r2,1
@@ -7006,7 +7006,7 @@ Disassembly of section .text:
     6d38:	0d 45 49 34 	wl16	r9,0x2a54
     6d3c:	0d 60 01 23 	wh16	r9,0x3
     6d40:	10 40 01 29 	ld32	r9,r9
-    6d44:	0e 20 01 10 	rev8	r8,r16
+    6d44:	01 60 01 10 	umulh	r8,r16
     6d48:	20 70 03 e2 	movepc	rret,8
     6d4c:	14 30 e4 b1 	br	10 <compare>,#al
     6d50:	00 10 00 41 	add	r2,1
@@ -7019,7 +7019,7 @@ Disassembly of section .text:
     6d6c:	0d 45 49 38 	wl16	r9,0x2a58
     6d70:	0d 60 01 23 	wh16	r9,0x3
     6d74:	10 40 01 29 	ld32	r9,r9
-    6d78:	0e 20 01 10 	rev8	r8,r16
+    6d78:	01 60 01 10 	umulh	r8,r16
     6d7c:	20 70 03 e2 	movepc	rret,8
     6d80:	14 30 e4 a4 	br	10 <compare>,#al
     6d84:	00 10 00 41 	add	r2,1
@@ -7032,7 +7032,7 @@ Disassembly of section .text:
     6da0:	0d 45 49 3c 	wl16	r9,0x2a5c
     6da4:	0d 60 01 23 	wh16	r9,0x3
     6da8:	10 40 01 29 	ld32	r9,r9
-    6dac:	0e 20 01 10 	rev8	r8,r16
+    6dac:	01 60 01 10 	umulh	r8,r16
     6db0:	20 70 03 e2 	movepc	rret,8
     6db4:	14 30 e4 97 	br	10 <compare>,#al
     6db8:	00 10 00 41 	add	r2,1
@@ -7045,7 +7045,7 @@ Disassembly of section .text:
     6dd4:	0d 45 4d 20 	wl16	r9,0x2a60
     6dd8:	0d 60 01 23 	wh16	r9,0x3
     6ddc:	10 40 01 29 	ld32	r9,r9
-    6de0:	0e 20 01 10 	rev8	r8,r16
+    6de0:	01 60 01 10 	umulh	r8,r16
     6de4:	20 70 03 e2 	movepc	rret,8
     6de8:	14 30 e4 8a 	br	10 <compare>,#al
     6dec:	00 10 00 41 	add	r2,1
@@ -7058,7 +7058,7 @@ Disassembly of section .text:
     6e08:	0d 45 4d 24 	wl16	r9,0x2a64
     6e0c:	0d 60 01 23 	wh16	r9,0x3
     6e10:	10 40 01 29 	ld32	r9,r9
-    6e14:	0e 20 01 10 	rev8	r8,r16
+    6e14:	01 60 01 10 	umulh	r8,r16
     6e18:	20 70 03 e2 	movepc	rret,8
     6e1c:	14 30 e4 7d 	br	10 <compare>,#al
     6e20:	00 10 00 41 	add	r2,1
@@ -7071,7 +7071,7 @@ Disassembly of section .text:
     6e3c:	0d 45 4d 28 	wl16	r9,0x2a68
     6e40:	0d 60 01 23 	wh16	r9,0x3
     6e44:	10 40 01 29 	ld32	r9,r9
-    6e48:	0e 20 01 10 	rev8	r8,r16
+    6e48:	01 60 01 10 	umulh	r8,r16
     6e4c:	20 70 03 e2 	movepc	rret,8
     6e50:	14 30 e4 70 	br	10 <compare>,#al
     6e54:	00 10 00 41 	add	r2,1
@@ -7084,7 +7084,7 @@ Disassembly of section .text:
     6e70:	0d 45 4d 2c 	wl16	r9,0x2a6c
     6e74:	0d 60 01 23 	wh16	r9,0x3
     6e78:	10 40 01 29 	ld32	r9,r9
-    6e7c:	0e 20 01 10 	rev8	r8,r16
+    6e7c:	01 60 01 10 	umulh	r8,r16
     6e80:	20 70 03 e2 	movepc	rret,8
     6e84:	14 30 e4 63 	br	10 <compare>,#al
     6e88:	00 10 00 41 	add	r2,1
@@ -7097,7 +7097,7 @@ Disassembly of section .text:
     6ea4:	0d 45 4d 30 	wl16	r9,0x2a70
     6ea8:	0d 60 01 23 	wh16	r9,0x3
     6eac:	10 40 01 29 	ld32	r9,r9
-    6eb0:	0e 20 01 10 	rev8	r8,r16
+    6eb0:	01 60 01 10 	umulh	r8,r16
     6eb4:	20 70 03 e2 	movepc	rret,8
     6eb8:	14 30 e4 56 	br	10 <compare>,#al
     6ebc:	00 10 00 41 	add	r2,1
@@ -7110,7 +7110,7 @@ Disassembly of section .text:
     6ed8:	0d 45 4d 34 	wl16	r9,0x2a74
     6edc:	0d 60 01 23 	wh16	r9,0x3
     6ee0:	10 40 01 29 	ld32	r9,r9
-    6ee4:	0e 20 01 10 	rev8	r8,r16
+    6ee4:	01 60 01 10 	umulh	r8,r16
     6ee8:	20 70 03 e2 	movepc	rret,8
     6eec:	14 30 e4 49 	br	10 <compare>,#al
     6ef0:	00 10 00 41 	add	r2,1
@@ -7123,7 +7123,7 @@ Disassembly of section .text:
     6f0c:	0d 45 4d 38 	wl16	r9,0x2a78
     6f10:	0d 60 01 23 	wh16	r9,0x3
     6f14:	10 40 01 29 	ld32	r9,r9
-    6f18:	0e 20 01 10 	rev8	r8,r16
+    6f18:	01 60 01 10 	umulh	r8,r16
     6f1c:	20 70 03 e2 	movepc	rret,8
     6f20:	14 30 e4 3c 	br	10 <compare>,#al
     6f24:	00 10 00 41 	add	r2,1
@@ -7136,7 +7136,7 @@ Disassembly of section .text:
     6f40:	0d 45 4d 3c 	wl16	r9,0x2a7c
     6f44:	0d 60 01 23 	wh16	r9,0x3
     6f48:	10 40 01 29 	ld32	r9,r9
-    6f4c:	0e 20 01 10 	rev8	r8,r16
+    6f4c:	01 60 01 10 	umulh	r8,r16
     6f50:	20 70 03 e2 	movepc	rret,8
     6f54:	14 30 e4 2f 	br	10 <compare>,#al
     6f58:	00 10 00 41 	add	r2,1
@@ -7149,7 +7149,7 @@ Disassembly of section .text:
     6f74:	0d 45 51 20 	wl16	r9,0x2a80
     6f78:	0d 60 01 23 	wh16	r9,0x3
     6f7c:	10 40 01 29 	ld32	r9,r9
-    6f80:	0e 20 01 10 	rev8	r8,r16
+    6f80:	01 60 01 10 	umulh	r8,r16
     6f84:	20 70 03 e2 	movepc	rret,8
     6f88:	14 30 e4 22 	br	10 <compare>,#al
     6f8c:	00 10 00 41 	add	r2,1
@@ -7162,7 +7162,7 @@ Disassembly of section .text:
     6fa8:	0d 45 51 24 	wl16	r9,0x2a84
     6fac:	0d 60 01 23 	wh16	r9,0x3
     6fb0:	10 40 01 29 	ld32	r9,r9
-    6fb4:	0e 20 01 10 	rev8	r8,r16
+    6fb4:	01 60 01 10 	umulh	r8,r16
     6fb8:	20 70 03 e2 	movepc	rret,8
     6fbc:	14 30 e4 15 	br	10 <compare>,#al
     6fc0:	00 10 00 41 	add	r2,1
@@ -7175,7 +7175,7 @@ Disassembly of section .text:
     6fdc:	0d 45 51 28 	wl16	r9,0x2a88
     6fe0:	0d 60 01 23 	wh16	r9,0x3
     6fe4:	10 40 01 29 	ld32	r9,r9
-    6fe8:	0e 20 01 10 	rev8	r8,r16
+    6fe8:	01 60 01 10 	umulh	r8,r16
     6fec:	20 70 03 e2 	movepc	rret,8
     6ff0:	14 30 e4 08 	br	10 <compare>,#al
     6ff4:	00 10 00 41 	add	r2,1
@@ -7188,7 +7188,7 @@ Disassembly of section .text:
     7010:	0d 45 51 2c 	wl16	r9,0x2a8c
     7014:	0d 60 01 23 	wh16	r9,0x3
     7018:	10 40 01 29 	ld32	r9,r9
-    701c:	0e 20 01 10 	rev8	r8,r16
+    701c:	01 60 01 10 	umulh	r8,r16
     7020:	20 70 03 e2 	movepc	rret,8
     7024:	14 30 e3 fb 	br	10 <compare>,#al
     7028:	00 10 00 41 	add	r2,1
@@ -7201,7 +7201,7 @@ Disassembly of section .text:
     7044:	0d 45 51 30 	wl16	r9,0x2a90
     7048:	0d 60 01 23 	wh16	r9,0x3
     704c:	10 40 01 29 	ld32	r9,r9
-    7050:	0e 20 01 10 	rev8	r8,r16
+    7050:	01 60 01 10 	umulh	r8,r16
     7054:	20 70 03 e2 	movepc	rret,8
     7058:	14 30 e3 ee 	br	10 <compare>,#al
     705c:	00 10 00 41 	add	r2,1
@@ -7214,7 +7214,7 @@ Disassembly of section .text:
     7078:	0d 45 51 34 	wl16	r9,0x2a94
     707c:	0d 60 01 23 	wh16	r9,0x3
     7080:	10 40 01 29 	ld32	r9,r9
-    7084:	0e 20 01 10 	rev8	r8,r16
+    7084:	01 60 01 10 	umulh	r8,r16
     7088:	20 70 03 e2 	movepc	rret,8
     708c:	14 30 e3 e1 	br	10 <compare>,#al
     7090:	00 10 00 41 	add	r2,1
@@ -7227,7 +7227,7 @@ Disassembly of section .text:
     70ac:	0d 45 51 38 	wl16	r9,0x2a98
     70b0:	0d 60 01 23 	wh16	r9,0x3
     70b4:	10 40 01 29 	ld32	r9,r9
-    70b8:	0e 20 01 10 	rev8	r8,r16
+    70b8:	01 60 01 10 	umulh	r8,r16
     70bc:	20 70 03 e2 	movepc	rret,8
     70c0:	14 30 e3 d4 	br	10 <compare>,#al
     70c4:	00 10 00 41 	add	r2,1
@@ -7240,7 +7240,7 @@ Disassembly of section .text:
     70e0:	0d 45 51 3c 	wl16	r9,0x2a9c
     70e4:	0d 60 01 23 	wh16	r9,0x3
     70e8:	10 40 01 29 	ld32	r9,r9
-    70ec:	0e 20 01 10 	rev8	r8,r16
+    70ec:	01 60 01 10 	umulh	r8,r16
     70f0:	20 70 03 e2 	movepc	rret,8
     70f4:	14 30 e3 c7 	br	10 <compare>,#al
     70f8:	00 10 00 41 	add	r2,1
@@ -7253,7 +7253,7 @@ Disassembly of section .text:
     7114:	0d 45 55 20 	wl16	r9,0x2aa0
     7118:	0d 60 01 23 	wh16	r9,0x3
     711c:	10 40 01 29 	ld32	r9,r9
-    7120:	0e 20 01 10 	rev8	r8,r16
+    7120:	01 60 01 10 	umulh	r8,r16
     7124:	20 70 03 e2 	movepc	rret,8
     7128:	14 30 e3 ba 	br	10 <compare>,#al
     712c:	00 10 00 41 	add	r2,1
@@ -7266,7 +7266,7 @@ Disassembly of section .text:
     7148:	0d 45 55 24 	wl16	r9,0x2aa4
     714c:	0d 60 01 23 	wh16	r9,0x3
     7150:	10 40 01 29 	ld32	r9,r9
-    7154:	0e 20 01 10 	rev8	r8,r16
+    7154:	01 60 01 10 	umulh	r8,r16
     7158:	20 70 03 e2 	movepc	rret,8
     715c:	14 30 e3 ad 	br	10 <compare>,#al
     7160:	00 10 00 41 	add	r2,1
@@ -7279,7 +7279,7 @@ Disassembly of section .text:
     717c:	0d 45 55 28 	wl16	r9,0x2aa8
     7180:	0d 60 01 23 	wh16	r9,0x3
     7184:	10 40 01 29 	ld32	r9,r9
-    7188:	0e 20 01 10 	rev8	r8,r16
+    7188:	01 60 01 10 	umulh	r8,r16
     718c:	20 70 03 e2 	movepc	rret,8
     7190:	14 30 e3 a0 	br	10 <compare>,#al
     7194:	00 10 00 41 	add	r2,1
@@ -7292,7 +7292,7 @@ Disassembly of section .text:
     71b0:	0d 45 55 2c 	wl16	r9,0x2aac
     71b4:	0d 60 01 23 	wh16	r9,0x3
     71b8:	10 40 01 29 	ld32	r9,r9
-    71bc:	0e 20 01 10 	rev8	r8,r16
+    71bc:	01 60 01 10 	umulh	r8,r16
     71c0:	20 70 03 e2 	movepc	rret,8
     71c4:	14 30 e3 93 	br	10 <compare>,#al
     71c8:	00 10 00 41 	add	r2,1
@@ -7305,7 +7305,7 @@ Disassembly of section .text:
     71e4:	0d 45 55 30 	wl16	r9,0x2ab0
     71e8:	0d 60 01 23 	wh16	r9,0x3
     71ec:	10 40 01 29 	ld32	r9,r9
-    71f0:	0e 20 01 10 	rev8	r8,r16
+    71f0:	01 60 01 10 	umulh	r8,r16
     71f4:	20 70 03 e2 	movepc	rret,8
     71f8:	14 30 e3 86 	br	10 <compare>,#al
     71fc:	00 10 00 41 	add	r2,1
@@ -7318,7 +7318,7 @@ Disassembly of section .text:
     7218:	0d 45 55 34 	wl16	r9,0x2ab4
     721c:	0d 60 01 23 	wh16	r9,0x3
     7220:	10 40 01 29 	ld32	r9,r9
-    7224:	0e 20 01 10 	rev8	r8,r16
+    7224:	01 60 01 10 	umulh	r8,r16
     7228:	20 70 03 e2 	movepc	rret,8
     722c:	14 30 e3 79 	br	10 <compare>,#al
     7230:	00 10 00 41 	add	r2,1
@@ -7331,7 +7331,7 @@ Disassembly of section .text:
     724c:	0d 45 55 38 	wl16	r9,0x2ab8
     7250:	0d 60 01 23 	wh16	r9,0x3
     7254:	10 40 01 29 	ld32	r9,r9
-    7258:	0e 20 01 10 	rev8	r8,r16
+    7258:	01 60 01 10 	umulh	r8,r16
     725c:	20 70 03 e2 	movepc	rret,8
     7260:	14 30 e3 6c 	br	10 <compare>,#al
     7264:	00 10 00 41 	add	r2,1
@@ -7344,7 +7344,7 @@ Disassembly of section .text:
     7280:	0d 45 55 3c 	wl16	r9,0x2abc
     7284:	0d 60 01 23 	wh16	r9,0x3
     7288:	10 40 01 29 	ld32	r9,r9
-    728c:	0e 20 01 10 	rev8	r8,r16
+    728c:	01 60 01 10 	umulh	r8,r16
     7290:	20 70 03 e2 	movepc	rret,8
     7294:	14 30 e3 5f 	br	10 <compare>,#al
     7298:	00 10 00 41 	add	r2,1
@@ -7357,7 +7357,7 @@ Disassembly of section .text:
     72b4:	0d 45 59 20 	wl16	r9,0x2ac0
     72b8:	0d 60 01 23 	wh16	r9,0x3
     72bc:	10 40 01 29 	ld32	r9,r9
-    72c0:	0e 20 01 10 	rev8	r8,r16
+    72c0:	01 60 01 10 	umulh	r8,r16
     72c4:	20 70 03 e2 	movepc	rret,8
     72c8:	14 30 e3 52 	br	10 <compare>,#al
     72cc:	00 10 00 41 	add	r2,1
@@ -7370,7 +7370,7 @@ Disassembly of section .text:
     72e8:	0d 45 59 24 	wl16	r9,0x2ac4
     72ec:	0d 60 01 23 	wh16	r9,0x3
     72f0:	10 40 01 29 	ld32	r9,r9
-    72f4:	0e 20 01 10 	rev8	r8,r16
+    72f4:	01 60 01 10 	umulh	r8,r16
     72f8:	20 70 03 e2 	movepc	rret,8
     72fc:	14 30 e3 45 	br	10 <compare>,#al
     7300:	00 10 00 41 	add	r2,1
@@ -7383,7 +7383,7 @@ Disassembly of section .text:
     731c:	0d 45 59 28 	wl16	r9,0x2ac8
     7320:	0d 60 01 23 	wh16	r9,0x3
     7324:	10 40 01 29 	ld32	r9,r9
-    7328:	0e 20 01 10 	rev8	r8,r16
+    7328:	01 60 01 10 	umulh	r8,r16
     732c:	20 70 03 e2 	movepc	rret,8
     7330:	14 30 e3 38 	br	10 <compare>,#al
     7334:	00 10 00 41 	add	r2,1
@@ -7396,7 +7396,7 @@ Disassembly of section .text:
     7350:	0d 45 59 2c 	wl16	r9,0x2acc
     7354:	0d 60 01 23 	wh16	r9,0x3
     7358:	10 40 01 29 	ld32	r9,r9
-    735c:	0e 20 01 10 	rev8	r8,r16
+    735c:	01 60 01 10 	umulh	r8,r16
     7360:	20 70 03 e2 	movepc	rret,8
     7364:	14 30 e3 2b 	br	10 <compare>,#al
     7368:	00 10 00 41 	add	r2,1
@@ -7409,7 +7409,7 @@ Disassembly of section .text:
     7384:	0d 45 59 30 	wl16	r9,0x2ad0
     7388:	0d 60 01 23 	wh16	r9,0x3
     738c:	10 40 01 29 	ld32	r9,r9
-    7390:	0e 20 01 10 	rev8	r8,r16
+    7390:	01 60 01 10 	umulh	r8,r16
     7394:	20 70 03 e2 	movepc	rret,8
     7398:	14 30 e3 1e 	br	10 <compare>,#al
     739c:	00 10 00 41 	add	r2,1
@@ -7422,7 +7422,7 @@ Disassembly of section .text:
     73b8:	0d 45 59 34 	wl16	r9,0x2ad4
     73bc:	0d 60 01 23 	wh16	r9,0x3
     73c0:	10 40 01 29 	ld32	r9,r9
-    73c4:	0e 20 01 10 	rev8	r8,r16
+    73c4:	01 60 01 10 	umulh	r8,r16
     73c8:	20 70 03 e2 	movepc	rret,8
     73cc:	14 30 e3 11 	br	10 <compare>,#al
     73d0:	00 10 00 41 	add	r2,1
@@ -7435,7 +7435,7 @@ Disassembly of section .text:
     73ec:	0d 45 59 38 	wl16	r9,0x2ad8
     73f0:	0d 60 01 23 	wh16	r9,0x3
     73f4:	10 40 01 29 	ld32	r9,r9
-    73f8:	0e 20 01 10 	rev8	r8,r16
+    73f8:	01 60 01 10 	umulh	r8,r16
     73fc:	20 70 03 e2 	movepc	rret,8
     7400:	14 30 e3 04 	br	10 <compare>,#al
     7404:	00 10 00 41 	add	r2,1
@@ -7448,7 +7448,7 @@ Disassembly of section .text:
     7420:	0d 45 59 3c 	wl16	r9,0x2adc
     7424:	0d 60 01 23 	wh16	r9,0x3
     7428:	10 40 01 29 	ld32	r9,r9
-    742c:	0e 20 01 10 	rev8	r8,r16
+    742c:	01 60 01 10 	umulh	r8,r16
     7430:	20 70 03 e2 	movepc	rret,8
     7434:	14 30 e2 f7 	br	10 <compare>,#al
     7438:	00 10 00 41 	add	r2,1
@@ -7461,7 +7461,7 @@ Disassembly of section .text:
     7454:	0d 45 5d 20 	wl16	r9,0x2ae0
     7458:	0d 60 01 23 	wh16	r9,0x3
     745c:	10 40 01 29 	ld32	r9,r9
-    7460:	0e 20 01 10 	rev8	r8,r16
+    7460:	01 60 01 10 	umulh	r8,r16
     7464:	20 70 03 e2 	movepc	rret,8
     7468:	14 30 e2 ea 	br	10 <compare>,#al
     746c:	00 10 00 41 	add	r2,1
@@ -7474,7 +7474,7 @@ Disassembly of section .text:
     7488:	0d 45 5d 24 	wl16	r9,0x2ae4
     748c:	0d 60 01 23 	wh16	r9,0x3
     7490:	10 40 01 29 	ld32	r9,r9
-    7494:	0e 20 01 10 	rev8	r8,r16
+    7494:	01 60 01 10 	umulh	r8,r16
     7498:	20 70 03 e2 	movepc	rret,8
     749c:	14 30 e2 dd 	br	10 <compare>,#al
     74a0:	00 10 00 41 	add	r2,1
@@ -7487,7 +7487,7 @@ Disassembly of section .text:
     74bc:	0d 45 5d 28 	wl16	r9,0x2ae8
     74c0:	0d 60 01 23 	wh16	r9,0x3
     74c4:	10 40 01 29 	ld32	r9,r9
-    74c8:	0e 20 01 10 	rev8	r8,r16
+    74c8:	01 60 01 10 	umulh	r8,r16
     74cc:	20 70 03 e2 	movepc	rret,8
     74d0:	14 30 e2 d0 	br	10 <compare>,#al
     74d4:	00 10 00 41 	add	r2,1
@@ -7500,7 +7500,7 @@ Disassembly of section .text:
     74f0:	0d 45 5d 2c 	wl16	r9,0x2aec
     74f4:	0d 60 01 23 	wh16	r9,0x3
     74f8:	10 40 01 29 	ld32	r9,r9
-    74fc:	0e 20 01 10 	rev8	r8,r16
+    74fc:	01 60 01 10 	umulh	r8,r16
     7500:	20 70 03 e2 	movepc	rret,8
     7504:	14 30 e2 c3 	br	10 <compare>,#al
     7508:	00 10 00 41 	add	r2,1
@@ -7513,7 +7513,7 @@ Disassembly of section .text:
     7524:	0d 45 5d 30 	wl16	r9,0x2af0
     7528:	0d 60 01 23 	wh16	r9,0x3
     752c:	10 40 01 29 	ld32	r9,r9
-    7530:	0e 20 01 10 	rev8	r8,r16
+    7530:	01 60 01 10 	umulh	r8,r16
     7534:	20 70 03 e2 	movepc	rret,8
     7538:	14 30 e2 b6 	br	10 <compare>,#al
     753c:	00 10 00 41 	add	r2,1
@@ -7526,7 +7526,7 @@ Disassembly of section .text:
     7558:	0d 45 5d 34 	wl16	r9,0x2af4
     755c:	0d 60 01 23 	wh16	r9,0x3
     7560:	10 40 01 29 	ld32	r9,r9
-    7564:	0e 20 01 10 	rev8	r8,r16
+    7564:	01 60 01 10 	umulh	r8,r16
     7568:	20 70 03 e2 	movepc	rret,8
     756c:	14 30 e2 a9 	br	10 <compare>,#al
     7570:	00 10 00 41 	add	r2,1
@@ -7539,7 +7539,7 @@ Disassembly of section .text:
     758c:	0d 45 5d 38 	wl16	r9,0x2af8
     7590:	0d 60 01 23 	wh16	r9,0x3
     7594:	10 40 01 29 	ld32	r9,r9
-    7598:	0e 20 01 10 	rev8	r8,r16
+    7598:	01 60 01 10 	umulh	r8,r16
     759c:	20 70 03 e2 	movepc	rret,8
     75a0:	14 30 e2 9c 	br	10 <compare>,#al
     75a4:	00 10 00 41 	add	r2,1
@@ -7552,7 +7552,7 @@ Disassembly of section .text:
     75c0:	0d 45 5d 3c 	wl16	r9,0x2afc
     75c4:	0d 60 01 23 	wh16	r9,0x3
     75c8:	10 40 01 29 	ld32	r9,r9
-    75cc:	0e 20 01 10 	rev8	r8,r16
+    75cc:	01 60 01 10 	umulh	r8,r16
     75d0:	20 70 03 e2 	movepc	rret,8
     75d4:	14 30 e2 8f 	br	10 <compare>,#al
     75d8:	00 10 00 41 	add	r2,1
@@ -7565,7 +7565,7 @@ Disassembly of section .text:
     75f4:	0d 45 61 20 	wl16	r9,0x2b00
     75f8:	0d 60 01 23 	wh16	r9,0x3
     75fc:	10 40 01 29 	ld32	r9,r9
-    7600:	0e 20 01 10 	rev8	r8,r16
+    7600:	01 60 01 10 	umulh	r8,r16
     7604:	20 70 03 e2 	movepc	rret,8
     7608:	14 30 e2 82 	br	10 <compare>,#al
     760c:	00 10 00 41 	add	r2,1
@@ -7578,7 +7578,7 @@ Disassembly of section .text:
     7628:	0d 45 61 24 	wl16	r9,0x2b04
     762c:	0d 60 01 23 	wh16	r9,0x3
     7630:	10 40 01 29 	ld32	r9,r9
-    7634:	0e 20 01 10 	rev8	r8,r16
+    7634:	01 60 01 10 	umulh	r8,r16
     7638:	20 70 03 e2 	movepc	rret,8
     763c:	14 30 e2 75 	br	10 <compare>,#al
     7640:	00 10 00 41 	add	r2,1
@@ -7591,7 +7591,7 @@ Disassembly of section .text:
     765c:	0d 45 61 28 	wl16	r9,0x2b08
     7660:	0d 60 01 23 	wh16	r9,0x3
     7664:	10 40 01 29 	ld32	r9,r9
-    7668:	0e 20 01 10 	rev8	r8,r16
+    7668:	01 60 01 10 	umulh	r8,r16
     766c:	20 70 03 e2 	movepc	rret,8
     7670:	14 30 e2 68 	br	10 <compare>,#al
     7674:	00 10 00 41 	add	r2,1
@@ -7604,7 +7604,7 @@ Disassembly of section .text:
     7690:	0d 45 61 2c 	wl16	r9,0x2b0c
     7694:	0d 60 01 23 	wh16	r9,0x3
     7698:	10 40 01 29 	ld32	r9,r9
-    769c:	0e 20 01 10 	rev8	r8,r16
+    769c:	01 60 01 10 	umulh	r8,r16
     76a0:	20 70 03 e2 	movepc	rret,8
     76a4:	14 30 e2 5b 	br	10 <compare>,#al
     76a8:	00 10 00 41 	add	r2,1
@@ -7617,7 +7617,7 @@ Disassembly of section .text:
     76c4:	0d 45 61 30 	wl16	r9,0x2b10
     76c8:	0d 60 01 23 	wh16	r9,0x3
     76cc:	10 40 01 29 	ld32	r9,r9
-    76d0:	0e 20 01 10 	rev8	r8,r16
+    76d0:	01 60 01 10 	umulh	r8,r16
     76d4:	20 70 03 e2 	movepc	rret,8
     76d8:	14 30 e2 4e 	br	10 <compare>,#al
     76dc:	00 10 00 41 	add	r2,1
@@ -7630,7 +7630,7 @@ Disassembly of section .text:
     76f8:	0d 45 61 34 	wl16	r9,0x2b14
     76fc:	0d 60 01 23 	wh16	r9,0x3
     7700:	10 40 01 29 	ld32	r9,r9
-    7704:	0e 20 01 10 	rev8	r8,r16
+    7704:	01 60 01 10 	umulh	r8,r16
     7708:	20 70 03 e2 	movepc	rret,8
     770c:	14 30 e2 41 	br	10 <compare>,#al
     7710:	00 10 00 41 	add	r2,1
@@ -7643,7 +7643,7 @@ Disassembly of section .text:
     772c:	0d 45 61 38 	wl16	r9,0x2b18
     7730:	0d 60 01 23 	wh16	r9,0x3
     7734:	10 40 01 29 	ld32	r9,r9
-    7738:	0e 20 01 10 	rev8	r8,r16
+    7738:	01 60 01 10 	umulh	r8,r16
     773c:	20 70 03 e2 	movepc	rret,8
     7740:	14 30 e2 34 	br	10 <compare>,#al
     7744:	00 10 00 41 	add	r2,1
@@ -7656,7 +7656,7 @@ Disassembly of section .text:
     7760:	0d 45 61 3c 	wl16	r9,0x2b1c
     7764:	0d 60 01 23 	wh16	r9,0x3
     7768:	10 40 01 29 	ld32	r9,r9
-    776c:	0e 20 01 10 	rev8	r8,r16
+    776c:	01 60 01 10 	umulh	r8,r16
     7770:	20 70 03 e2 	movepc	rret,8
     7774:	14 30 e2 27 	br	10 <compare>,#al
     7778:	00 10 00 41 	add	r2,1
@@ -7669,7 +7669,7 @@ Disassembly of section .text:
     7794:	0d 45 65 20 	wl16	r9,0x2b20
     7798:	0d 60 01 23 	wh16	r9,0x3
     779c:	10 40 01 29 	ld32	r9,r9
-    77a0:	0e 20 01 10 	rev8	r8,r16
+    77a0:	01 60 01 10 	umulh	r8,r16
     77a4:	20 70 03 e2 	movepc	rret,8
     77a8:	14 30 e2 1a 	br	10 <compare>,#al
     77ac:	00 10 00 41 	add	r2,1
@@ -7682,7 +7682,7 @@ Disassembly of section .text:
     77c8:	0d 45 65 24 	wl16	r9,0x2b24
     77cc:	0d 60 01 23 	wh16	r9,0x3
     77d0:	10 40 01 29 	ld32	r9,r9
-    77d4:	0e 20 01 10 	rev8	r8,r16
+    77d4:	01 60 01 10 	umulh	r8,r16
     77d8:	20 70 03 e2 	movepc	rret,8
     77dc:	14 30 e2 0d 	br	10 <compare>,#al
     77e0:	00 10 00 41 	add	r2,1
@@ -7695,7 +7695,7 @@ Disassembly of section .text:
     77fc:	0d 45 65 28 	wl16	r9,0x2b28
     7800:	0d 60 01 23 	wh16	r9,0x3
     7804:	10 40 01 29 	ld32	r9,r9
-    7808:	0e 20 01 10 	rev8	r8,r16
+    7808:	01 60 01 10 	umulh	r8,r16
     780c:	20 70 03 e2 	movepc	rret,8
     7810:	14 30 e2 00 	br	10 <compare>,#al
     7814:	00 10 00 41 	add	r2,1
@@ -7708,7 +7708,7 @@ Disassembly of section .text:
     7830:	0d 45 65 2c 	wl16	r9,0x2b2c
     7834:	0d 60 01 23 	wh16	r9,0x3
     7838:	10 40 01 29 	ld32	r9,r9
-    783c:	0e 20 01 10 	rev8	r8,r16
+    783c:	01 60 01 10 	umulh	r8,r16
     7840:	20 70 03 e2 	movepc	rret,8
     7844:	14 30 e1 f3 	br	10 <compare>,#al
     7848:	00 10 00 41 	add	r2,1
@@ -7721,7 +7721,7 @@ Disassembly of section .text:
     7864:	0d 45 65 30 	wl16	r9,0x2b30
     7868:	0d 60 01 23 	wh16	r9,0x3
     786c:	10 40 01 29 	ld32	r9,r9
-    7870:	0e 20 01 10 	rev8	r8,r16
+    7870:	01 60 01 10 	umulh	r8,r16
     7874:	20 70 03 e2 	movepc	rret,8
     7878:	14 30 e1 e6 	br	10 <compare>,#al
     787c:	00 10 00 41 	add	r2,1
@@ -7734,7 +7734,7 @@ Disassembly of section .text:
     7898:	0d 45 65 34 	wl16	r9,0x2b34
     789c:	0d 60 01 23 	wh16	r9,0x3
     78a0:	10 40 01 29 	ld32	r9,r9
-    78a4:	0e 20 01 10 	rev8	r8,r16
+    78a4:	01 60 01 10 	umulh	r8,r16
     78a8:	20 70 03 e2 	movepc	rret,8
     78ac:	14 30 e1 d9 	br	10 <compare>,#al
     78b0:	00 10 00 41 	add	r2,1
@@ -7747,7 +7747,7 @@ Disassembly of section .text:
     78cc:	0d 45 65 38 	wl16	r9,0x2b38
     78d0:	0d 60 01 23 	wh16	r9,0x3
     78d4:	10 40 01 29 	ld32	r9,r9
-    78d8:	0e 20 01 10 	rev8	r8,r16
+    78d8:	01 60 01 10 	umulh	r8,r16
     78dc:	20 70 03 e2 	movepc	rret,8
     78e0:	14 30 e1 cc 	br	10 <compare>,#al
     78e4:	00 10 00 41 	add	r2,1
@@ -7760,7 +7760,7 @@ Disassembly of section .text:
     7900:	0d 45 65 3c 	wl16	r9,0x2b3c
     7904:	0d 60 01 23 	wh16	r9,0x3
     7908:	10 40 01 29 	ld32	r9,r9
-    790c:	0e 20 01 10 	rev8	r8,r16
+    790c:	01 60 01 10 	umulh	r8,r16
     7910:	20 70 03 e2 	movepc	rret,8
     7914:	14 30 e1 bf 	br	10 <compare>,#al
     7918:	00 10 00 41 	add	r2,1
@@ -7773,7 +7773,7 @@ Disassembly of section .text:
     7934:	0d 45 69 20 	wl16	r9,0x2b40
     7938:	0d 60 01 23 	wh16	r9,0x3
     793c:	10 40 01 29 	ld32	r9,r9
-    7940:	0e 20 01 10 	rev8	r8,r16
+    7940:	01 60 01 10 	umulh	r8,r16
     7944:	20 70 03 e2 	movepc	rret,8
     7948:	14 30 e1 b2 	br	10 <compare>,#al
     794c:	00 10 00 41 	add	r2,1
@@ -7786,7 +7786,7 @@ Disassembly of section .text:
     7968:	0d 45 69 24 	wl16	r9,0x2b44
     796c:	0d 60 01 23 	wh16	r9,0x3
     7970:	10 40 01 29 	ld32	r9,r9
-    7974:	0e 20 01 10 	rev8	r8,r16
+    7974:	01 60 01 10 	umulh	r8,r16
     7978:	20 70 03 e2 	movepc	rret,8
     797c:	14 30 e1 a5 	br	10 <compare>,#al
     7980:	00 10 00 41 	add	r2,1
@@ -7799,7 +7799,7 @@ Disassembly of section .text:
     799c:	0d 45 69 28 	wl16	r9,0x2b48
     79a0:	0d 60 01 23 	wh16	r9,0x3
     79a4:	10 40 01 29 	ld32	r9,r9
-    79a8:	0e 20 01 10 	rev8	r8,r16
+    79a8:	01 60 01 10 	umulh	r8,r16
     79ac:	20 70 03 e2 	movepc	rret,8
     79b0:	14 30 e1 98 	br	10 <compare>,#al
     79b4:	00 10 00 41 	add	r2,1
@@ -7812,7 +7812,7 @@ Disassembly of section .text:
     79d0:	0d 45 69 2c 	wl16	r9,0x2b4c
     79d4:	0d 60 01 23 	wh16	r9,0x3
     79d8:	10 40 01 29 	ld32	r9,r9
-    79dc:	0e 20 01 10 	rev8	r8,r16
+    79dc:	01 60 01 10 	umulh	r8,r16
     79e0:	20 70 03 e2 	movepc	rret,8
     79e4:	14 30 e1 8b 	br	10 <compare>,#al
     79e8:	00 10 00 41 	add	r2,1
@@ -7825,7 +7825,7 @@ Disassembly of section .text:
     7a04:	0d 45 69 30 	wl16	r9,0x2b50
     7a08:	0d 60 01 23 	wh16	r9,0x3
     7a0c:	10 40 01 29 	ld32	r9,r9
-    7a10:	0e 20 01 10 	rev8	r8,r16
+    7a10:	01 60 01 10 	umulh	r8,r16
     7a14:	20 70 03 e2 	movepc	rret,8
     7a18:	14 30 e1 7e 	br	10 <compare>,#al
     7a1c:	00 10 00 41 	add	r2,1
@@ -7838,7 +7838,7 @@ Disassembly of section .text:
     7a38:	0d 45 69 34 	wl16	r9,0x2b54
     7a3c:	0d 60 01 23 	wh16	r9,0x3
     7a40:	10 40 01 29 	ld32	r9,r9
-    7a44:	0e 20 01 10 	rev8	r8,r16
+    7a44:	01 60 01 10 	umulh	r8,r16
     7a48:	20 70 03 e2 	movepc	rret,8
     7a4c:	14 30 e1 71 	br	10 <compare>,#al
     7a50:	00 10 00 41 	add	r2,1
@@ -7851,7 +7851,7 @@ Disassembly of section .text:
     7a6c:	0d 45 69 38 	wl16	r9,0x2b58
     7a70:	0d 60 01 23 	wh16	r9,0x3
     7a74:	10 40 01 29 	ld32	r9,r9
-    7a78:	0e 20 01 10 	rev8	r8,r16
+    7a78:	01 60 01 10 	umulh	r8,r16
     7a7c:	20 70 03 e2 	movepc	rret,8
     7a80:	14 30 e1 64 	br	10 <compare>,#al
     7a84:	00 10 00 41 	add	r2,1
@@ -7864,7 +7864,7 @@ Disassembly of section .text:
     7aa0:	0d 45 69 3c 	wl16	r9,0x2b5c
     7aa4:	0d 60 01 23 	wh16	r9,0x3
     7aa8:	10 40 01 29 	ld32	r9,r9
-    7aac:	0e 20 01 10 	rev8	r8,r16
+    7aac:	01 60 01 10 	umulh	r8,r16
     7ab0:	20 70 03 e2 	movepc	rret,8
     7ab4:	14 30 e1 57 	br	10 <compare>,#al
     7ab8:	00 10 00 41 	add	r2,1
@@ -7877,7 +7877,7 @@ Disassembly of section .text:
     7ad4:	0d 45 6d 20 	wl16	r9,0x2b60
     7ad8:	0d 60 01 23 	wh16	r9,0x3
     7adc:	10 40 01 29 	ld32	r9,r9
-    7ae0:	0e 20 01 10 	rev8	r8,r16
+    7ae0:	01 60 01 10 	umulh	r8,r16
     7ae4:	20 70 03 e2 	movepc	rret,8
     7ae8:	14 30 e1 4a 	br	10 <compare>,#al
     7aec:	00 10 00 41 	add	r2,1
@@ -7890,7 +7890,7 @@ Disassembly of section .text:
     7b08:	0d 45 6d 24 	wl16	r9,0x2b64
     7b0c:	0d 60 01 23 	wh16	r9,0x3
     7b10:	10 40 01 29 	ld32	r9,r9
-    7b14:	0e 20 01 10 	rev8	r8,r16
+    7b14:	01 60 01 10 	umulh	r8,r16
     7b18:	20 70 03 e2 	movepc	rret,8
     7b1c:	14 30 e1 3d 	br	10 <compare>,#al
     7b20:	00 10 00 41 	add	r2,1
@@ -7903,7 +7903,7 @@ Disassembly of section .text:
     7b3c:	0d 45 6d 28 	wl16	r9,0x2b68
     7b40:	0d 60 01 23 	wh16	r9,0x3
     7b44:	10 40 01 29 	ld32	r9,r9
-    7b48:	0e 20 01 10 	rev8	r8,r16
+    7b48:	01 60 01 10 	umulh	r8,r16
     7b4c:	20 70 03 e2 	movepc	rret,8
     7b50:	14 30 e1 30 	br	10 <compare>,#al
     7b54:	00 10 00 41 	add	r2,1
@@ -7916,7 +7916,7 @@ Disassembly of section .text:
     7b70:	0d 45 6d 2c 	wl16	r9,0x2b6c
     7b74:	0d 60 01 23 	wh16	r9,0x3
     7b78:	10 40 01 29 	ld32	r9,r9
-    7b7c:	0e 20 01 10 	rev8	r8,r16
+    7b7c:	01 60 01 10 	umulh	r8,r16
     7b80:	20 70 03 e2 	movepc	rret,8
     7b84:	14 30 e1 23 	br	10 <compare>,#al
     7b88:	00 10 00 41 	add	r2,1
@@ -7929,7 +7929,7 @@ Disassembly of section .text:
     7ba4:	0d 45 6d 30 	wl16	r9,0x2b70
     7ba8:	0d 60 01 23 	wh16	r9,0x3
     7bac:	10 40 01 29 	ld32	r9,r9
-    7bb0:	0e 20 01 10 	rev8	r8,r16
+    7bb0:	01 60 01 10 	umulh	r8,r16
     7bb4:	20 70 03 e2 	movepc	rret,8
     7bb8:	14 30 e1 16 	br	10 <compare>,#al
     7bbc:	00 10 00 41 	add	r2,1
@@ -7942,7 +7942,7 @@ Disassembly of section .text:
     7bd8:	0d 45 6d 34 	wl16	r9,0x2b74
     7bdc:	0d 60 01 23 	wh16	r9,0x3
     7be0:	10 40 01 29 	ld32	r9,r9
-    7be4:	0e 20 01 10 	rev8	r8,r16
+    7be4:	01 60 01 10 	umulh	r8,r16
     7be8:	20 70 03 e2 	movepc	rret,8
     7bec:	14 30 e1 09 	br	10 <compare>,#al
     7bf0:	00 10 00 41 	add	r2,1
@@ -7955,7 +7955,7 @@ Disassembly of section .text:
     7c0c:	0d 45 6d 38 	wl16	r9,0x2b78
     7c10:	0d 60 01 23 	wh16	r9,0x3
     7c14:	10 40 01 29 	ld32	r9,r9
-    7c18:	0e 20 01 10 	rev8	r8,r16
+    7c18:	01 60 01 10 	umulh	r8,r16
     7c1c:	20 70 03 e2 	movepc	rret,8
     7c20:	14 30 e0 fc 	br	10 <compare>,#al
     7c24:	00 10 00 41 	add	r2,1
@@ -7968,7 +7968,7 @@ Disassembly of section .text:
     7c40:	0d 45 6d 3c 	wl16	r9,0x2b7c
     7c44:	0d 60 01 23 	wh16	r9,0x3
     7c48:	10 40 01 29 	ld32	r9,r9
-    7c4c:	0e 20 01 10 	rev8	r8,r16
+    7c4c:	01 60 01 10 	umulh	r8,r16
     7c50:	20 70 03 e2 	movepc	rret,8
     7c54:	14 30 e0 ef 	br	10 <compare>,#al
     7c58:	00 10 00 41 	add	r2,1
@@ -7981,7 +7981,7 @@ Disassembly of section .text:
     7c74:	0d 45 71 20 	wl16	r9,0x2b80
     7c78:	0d 60 01 23 	wh16	r9,0x3
     7c7c:	10 40 01 29 	ld32	r9,r9
-    7c80:	0e 20 01 10 	rev8	r8,r16
+    7c80:	01 60 01 10 	umulh	r8,r16
     7c84:	20 70 03 e2 	movepc	rret,8
     7c88:	14 30 e0 e2 	br	10 <compare>,#al
     7c8c:	00 10 00 41 	add	r2,1
@@ -7994,7 +7994,7 @@ Disassembly of section .text:
     7ca8:	0d 45 71 24 	wl16	r9,0x2b84
     7cac:	0d 60 01 23 	wh16	r9,0x3
     7cb0:	10 40 01 29 	ld32	r9,r9
-    7cb4:	0e 20 01 10 	rev8	r8,r16
+    7cb4:	01 60 01 10 	umulh	r8,r16
     7cb8:	20 70 03 e2 	movepc	rret,8
     7cbc:	14 30 e0 d5 	br	10 <compare>,#al
     7cc0:	00 10 00 41 	add	r2,1
@@ -8007,7 +8007,7 @@ Disassembly of section .text:
     7cdc:	0d 45 71 28 	wl16	r9,0x2b88
     7ce0:	0d 60 01 23 	wh16	r9,0x3
     7ce4:	10 40 01 29 	ld32	r9,r9
-    7ce8:	0e 20 01 10 	rev8	r8,r16
+    7ce8:	01 60 01 10 	umulh	r8,r16
     7cec:	20 70 03 e2 	movepc	rret,8
     7cf0:	14 30 e0 c8 	br	10 <compare>,#al
     7cf4:	00 10 00 41 	add	r2,1
@@ -8020,7 +8020,7 @@ Disassembly of section .text:
     7d10:	0d 45 71 2c 	wl16	r9,0x2b8c
     7d14:	0d 60 01 23 	wh16	r9,0x3
     7d18:	10 40 01 29 	ld32	r9,r9
-    7d1c:	0e 20 01 10 	rev8	r8,r16
+    7d1c:	01 60 01 10 	umulh	r8,r16
     7d20:	20 70 03 e2 	movepc	rret,8
     7d24:	14 30 e0 bb 	br	10 <compare>,#al
     7d28:	00 10 00 41 	add	r2,1
@@ -8033,7 +8033,7 @@ Disassembly of section .text:
     7d44:	0d 45 71 30 	wl16	r9,0x2b90
     7d48:	0d 60 01 23 	wh16	r9,0x3
     7d4c:	10 40 01 29 	ld32	r9,r9
-    7d50:	0e 20 01 10 	rev8	r8,r16
+    7d50:	01 60 01 10 	umulh	r8,r16
     7d54:	20 70 03 e2 	movepc	rret,8
     7d58:	14 30 e0 ae 	br	10 <compare>,#al
     7d5c:	00 10 00 41 	add	r2,1
@@ -8046,7 +8046,7 @@ Disassembly of section .text:
     7d78:	0d 45 71 34 	wl16	r9,0x2b94
     7d7c:	0d 60 01 23 	wh16	r9,0x3
     7d80:	10 40 01 29 	ld32	r9,r9
-    7d84:	0e 20 01 10 	rev8	r8,r16
+    7d84:	01 60 01 10 	umulh	r8,r16
     7d88:	20 70 03 e2 	movepc	rret,8
     7d8c:	14 30 e0 a1 	br	10 <compare>,#al
     7d90:	00 10 00 41 	add	r2,1
@@ -8059,7 +8059,7 @@ Disassembly of section .text:
     7dac:	0d 45 71 38 	wl16	r9,0x2b98
     7db0:	0d 60 01 23 	wh16	r9,0x3
     7db4:	10 40 01 29 	ld32	r9,r9
-    7db8:	0e 20 01 10 	rev8	r8,r16
+    7db8:	01 60 01 10 	umulh	r8,r16
     7dbc:	20 70 03 e2 	movepc	rret,8
     7dc0:	14 30 e0 94 	br	10 <compare>,#al
     7dc4:	00 10 00 41 	add	r2,1
@@ -8072,7 +8072,7 @@ Disassembly of section .text:
     7de0:	0d 45 71 3c 	wl16	r9,0x2b9c
     7de4:	0d 60 01 23 	wh16	r9,0x3
     7de8:	10 40 01 29 	ld32	r9,r9
-    7dec:	0e 20 01 10 	rev8	r8,r16
+    7dec:	01 60 01 10 	umulh	r8,r16
     7df0:	20 70 03 e2 	movepc	rret,8
     7df4:	14 30 e0 87 	br	10 <compare>,#al
     7df8:	00 10 00 41 	add	r2,1
@@ -8085,7 +8085,7 @@ Disassembly of section .text:
     7e14:	0d 45 75 20 	wl16	r9,0x2ba0
     7e18:	0d 60 01 23 	wh16	r9,0x3
     7e1c:	10 40 01 29 	ld32	r9,r9
-    7e20:	0e 20 01 10 	rev8	r8,r16
+    7e20:	01 60 01 10 	umulh	r8,r16
     7e24:	20 70 03 e2 	movepc	rret,8
     7e28:	14 30 e0 7a 	br	10 <compare>,#al
     7e2c:	00 10 00 41 	add	r2,1
@@ -8098,7 +8098,7 @@ Disassembly of section .text:
     7e48:	0d 45 75 24 	wl16	r9,0x2ba4
     7e4c:	0d 60 01 23 	wh16	r9,0x3
     7e50:	10 40 01 29 	ld32	r9,r9
-    7e54:	0e 20 01 10 	rev8	r8,r16
+    7e54:	01 60 01 10 	umulh	r8,r16
     7e58:	20 70 03 e2 	movepc	rret,8
     7e5c:	14 30 e0 6d 	br	10 <compare>,#al
     7e60:	00 10 00 41 	add	r2,1
@@ -8111,7 +8111,7 @@ Disassembly of section .text:
     7e7c:	0d 45 75 28 	wl16	r9,0x2ba8
     7e80:	0d 60 01 23 	wh16	r9,0x3
     7e84:	10 40 01 29 	ld32	r9,r9
-    7e88:	0e 20 01 10 	rev8	r8,r16
+    7e88:	01 60 01 10 	umulh	r8,r16
     7e8c:	20 70 03 e2 	movepc	rret,8
     7e90:	14 30 e0 60 	br	10 <compare>,#al
     7e94:	00 10 00 41 	add	r2,1
@@ -8124,7 +8124,7 @@ Disassembly of section .text:
     7eb0:	0d 45 75 2c 	wl16	r9,0x2bac
     7eb4:	0d 60 01 23 	wh16	r9,0x3
     7eb8:	10 40 01 29 	ld32	r9,r9
-    7ebc:	0e 20 01 10 	rev8	r8,r16
+    7ebc:	01 60 01 10 	umulh	r8,r16
     7ec0:	20 70 03 e2 	movepc	rret,8
     7ec4:	14 30 e0 53 	br	10 <compare>,#al
     7ec8:	00 10 00 41 	add	r2,1
@@ -8137,7 +8137,7 @@ Disassembly of section .text:
     7ee4:	0d 45 75 30 	wl16	r9,0x2bb0
     7ee8:	0d 60 01 23 	wh16	r9,0x3
     7eec:	10 40 01 29 	ld32	r9,r9
-    7ef0:	0e 20 01 10 	rev8	r8,r16
+    7ef0:	01 60 01 10 	umulh	r8,r16
     7ef4:	20 70 03 e2 	movepc	rret,8
     7ef8:	14 30 e0 46 	br	10 <compare>,#al
     7efc:	00 10 00 41 	add	r2,1
@@ -8150,7 +8150,7 @@ Disassembly of section .text:
     7f18:	0d 45 75 34 	wl16	r9,0x2bb4
     7f1c:	0d 60 01 23 	wh16	r9,0x3
     7f20:	10 40 01 29 	ld32	r9,r9
-    7f24:	0e 20 01 10 	rev8	r8,r16
+    7f24:	01 60 01 10 	umulh	r8,r16
     7f28:	20 70 03 e2 	movepc	rret,8
     7f2c:	14 30 e0 39 	br	10 <compare>,#al
     7f30:	00 10 00 41 	add	r2,1
@@ -8163,7 +8163,7 @@ Disassembly of section .text:
     7f4c:	0d 45 75 38 	wl16	r9,0x2bb8
     7f50:	0d 60 01 23 	wh16	r9,0x3
     7f54:	10 40 01 29 	ld32	r9,r9
-    7f58:	0e 20 01 10 	rev8	r8,r16
+    7f58:	01 60 01 10 	umulh	r8,r16
     7f5c:	20 70 03 e2 	movepc	rret,8
     7f60:	14 30 e0 2c 	br	10 <compare>,#al
     7f64:	00 10 00 41 	add	r2,1
@@ -8176,7 +8176,7 @@ Disassembly of section .text:
     7f80:	0d 45 75 3c 	wl16	r9,0x2bbc
     7f84:	0d 60 01 23 	wh16	r9,0x3
     7f88:	10 40 01 29 	ld32	r9,r9
-    7f8c:	0e 20 01 10 	rev8	r8,r16
+    7f8c:	01 60 01 10 	umulh	r8,r16
     7f90:	20 70 03 e2 	movepc	rret,8
     7f94:	14 30 e0 1f 	br	10 <compare>,#al
     7f98:	00 10 00 41 	add	r2,1
@@ -8189,7 +8189,7 @@ Disassembly of section .text:
     7fb4:	0d 45 79 20 	wl16	r9,0x2bc0
     7fb8:	0d 60 01 23 	wh16	r9,0x3
     7fbc:	10 40 01 29 	ld32	r9,r9
-    7fc0:	0e 20 01 10 	rev8	r8,r16
+    7fc0:	01 60 01 10 	umulh	r8,r16
     7fc4:	20 70 03 e2 	movepc	rret,8
     7fc8:	14 30 e0 12 	br	10 <compare>,#al
     7fcc:	00 10 00 41 	add	r2,1
@@ -8202,7 +8202,7 @@ Disassembly of section .text:
     7fe8:	0d 45 79 24 	wl16	r9,0x2bc4
     7fec:	0d 60 01 23 	wh16	r9,0x3
     7ff0:	10 40 01 29 	ld32	r9,r9
-    7ff4:	0e 20 01 10 	rev8	r8,r16
+    7ff4:	01 60 01 10 	umulh	r8,r16
     7ff8:	20 70 03 e2 	movepc	rret,8
     7ffc:	14 30 e0 05 	br	10 <compare>,#al
     8000:	00 10 00 41 	add	r2,1
@@ -8215,7 +8215,7 @@ Disassembly of section .text:
     801c:	0d 45 79 28 	wl16	r9,0x2bc8
     8020:	0d 60 01 23 	wh16	r9,0x3
     8024:	10 40 01 29 	ld32	r9,r9
-    8028:	0e 20 01 10 	rev8	r8,r16
+    8028:	01 60 01 10 	umulh	r8,r16
     802c:	20 70 03 e2 	movepc	rret,8
     8030:	14 30 df f8 	br	10 <compare>,#al
     8034:	00 10 00 41 	add	r2,1
@@ -8228,7 +8228,7 @@ Disassembly of section .text:
     8050:	0d 45 79 2c 	wl16	r9,0x2bcc
     8054:	0d 60 01 23 	wh16	r9,0x3
     8058:	10 40 01 29 	ld32	r9,r9
-    805c:	0e 20 01 10 	rev8	r8,r16
+    805c:	01 60 01 10 	umulh	r8,r16
     8060:	20 70 03 e2 	movepc	rret,8
     8064:	14 30 df eb 	br	10 <compare>,#al
     8068:	00 10 00 41 	add	r2,1
@@ -8241,7 +8241,7 @@ Disassembly of section .text:
     8084:	0d 45 79 30 	wl16	r9,0x2bd0
     8088:	0d 60 01 23 	wh16	r9,0x3
     808c:	10 40 01 29 	ld32	r9,r9
-    8090:	0e 20 01 10 	rev8	r8,r16
+    8090:	01 60 01 10 	umulh	r8,r16
     8094:	20 70 03 e2 	movepc	rret,8
     8098:	14 30 df de 	br	10 <compare>,#al
     809c:	00 10 00 41 	add	r2,1
@@ -8254,7 +8254,7 @@ Disassembly of section .text:
     80b8:	0d 45 79 34 	wl16	r9,0x2bd4
     80bc:	0d 60 01 23 	wh16	r9,0x3
     80c0:	10 40 01 29 	ld32	r9,r9
-    80c4:	0e 20 01 10 	rev8	r8,r16
+    80c4:	01 60 01 10 	umulh	r8,r16
     80c8:	20 70 03 e2 	movepc	rret,8
     80cc:	14 30 df d1 	br	10 <compare>,#al
     80d0:	00 10 00 41 	add	r2,1
@@ -8267,7 +8267,7 @@ Disassembly of section .text:
     80ec:	0d 45 79 38 	wl16	r9,0x2bd8
     80f0:	0d 60 01 23 	wh16	r9,0x3
     80f4:	10 40 01 29 	ld32	r9,r9
-    80f8:	0e 20 01 10 	rev8	r8,r16
+    80f8:	01 60 01 10 	umulh	r8,r16
     80fc:	20 70 03 e2 	movepc	rret,8
     8100:	14 30 df c4 	br	10 <compare>,#al
     8104:	00 10 00 41 	add	r2,1
@@ -8280,7 +8280,7 @@ Disassembly of section .text:
     8120:	0d 45 79 3c 	wl16	r9,0x2bdc
     8124:	0d 60 01 23 	wh16	r9,0x3
     8128:	10 40 01 29 	ld32	r9,r9
-    812c:	0e 20 01 10 	rev8	r8,r16
+    812c:	01 60 01 10 	umulh	r8,r16
     8130:	20 70 03 e2 	movepc	rret,8
     8134:	14 30 df b7 	br	10 <compare>,#al
     8138:	00 10 00 41 	add	r2,1
@@ -8293,7 +8293,7 @@ Disassembly of section .text:
     8154:	0d 45 7d 20 	wl16	r9,0x2be0
     8158:	0d 60 01 23 	wh16	r9,0x3
     815c:	10 40 01 29 	ld32	r9,r9
-    8160:	0e 20 01 10 	rev8	r8,r16
+    8160:	01 60 01 10 	umulh	r8,r16
     8164:	20 70 03 e2 	movepc	rret,8
     8168:	14 30 df aa 	br	10 <compare>,#al
     816c:	00 10 00 41 	add	r2,1
@@ -8306,7 +8306,7 @@ Disassembly of section .text:
     8188:	0d 45 7d 24 	wl16	r9,0x2be4
     818c:	0d 60 01 23 	wh16	r9,0x3
     8190:	10 40 01 29 	ld32	r9,r9
-    8194:	0e 20 01 10 	rev8	r8,r16
+    8194:	01 60 01 10 	umulh	r8,r16
     8198:	20 70 03 e2 	movepc	rret,8
     819c:	14 30 df 9d 	br	10 <compare>,#al
     81a0:	00 10 00 41 	add	r2,1
@@ -8319,7 +8319,7 @@ Disassembly of section .text:
     81bc:	0d 45 7d 28 	wl16	r9,0x2be8
     81c0:	0d 60 01 23 	wh16	r9,0x3
     81c4:	10 40 01 29 	ld32	r9,r9
-    81c8:	0e 20 01 10 	rev8	r8,r16
+    81c8:	01 60 01 10 	umulh	r8,r16
     81cc:	20 70 03 e2 	movepc	rret,8
     81d0:	14 30 df 90 	br	10 <compare>,#al
     81d4:	00 10 00 41 	add	r2,1
@@ -8332,7 +8332,7 @@ Disassembly of section .text:
     81f0:	0d 45 7d 2c 	wl16	r9,0x2bec
     81f4:	0d 60 01 23 	wh16	r9,0x3
     81f8:	10 40 01 29 	ld32	r9,r9
-    81fc:	0e 20 01 10 	rev8	r8,r16
+    81fc:	01 60 01 10 	umulh	r8,r16
     8200:	20 70 03 e2 	movepc	rret,8
     8204:	14 30 df 83 	br	10 <compare>,#al
     8208:	00 10 00 41 	add	r2,1
@@ -8345,7 +8345,7 @@ Disassembly of section .text:
     8224:	0d 45 7d 30 	wl16	r9,0x2bf0
     8228:	0d 60 01 23 	wh16	r9,0x3
     822c:	10 40 01 29 	ld32	r9,r9
-    8230:	0e 20 01 10 	rev8	r8,r16
+    8230:	01 60 01 10 	umulh	r8,r16
     8234:	20 70 03 e2 	movepc	rret,8
     8238:	14 30 df 76 	br	10 <compare>,#al
     823c:	00 10 00 41 	add	r2,1
@@ -8358,7 +8358,7 @@ Disassembly of section .text:
     8258:	0d 45 7d 34 	wl16	r9,0x2bf4
     825c:	0d 60 01 23 	wh16	r9,0x3
     8260:	10 40 01 29 	ld32	r9,r9
-    8264:	0e 20 01 10 	rev8	r8,r16
+    8264:	01 60 01 10 	umulh	r8,r16
     8268:	20 70 03 e2 	movepc	rret,8
     826c:	14 30 df 69 	br	10 <compare>,#al
     8270:	00 10 00 41 	add	r2,1
@@ -8371,7 +8371,7 @@ Disassembly of section .text:
     828c:	0d 45 7d 38 	wl16	r9,0x2bf8
     8290:	0d 60 01 23 	wh16	r9,0x3
     8294:	10 40 01 29 	ld32	r9,r9
-    8298:	0e 20 01 10 	rev8	r8,r16
+    8298:	01 60 01 10 	umulh	r8,r16
     829c:	20 70 03 e2 	movepc	rret,8
     82a0:	14 30 df 5c 	br	10 <compare>,#al
     82a4:	00 10 00 41 	add	r2,1
@@ -8384,7 +8384,7 @@ Disassembly of section .text:
     82c0:	0d 45 7d 3c 	wl16	r9,0x2bfc
     82c4:	0d 60 01 23 	wh16	r9,0x3
     82c8:	10 40 01 29 	ld32	r9,r9
-    82cc:	0e 20 01 10 	rev8	r8,r16
+    82cc:	01 60 01 10 	umulh	r8,r16
     82d0:	20 70 03 e2 	movepc	rret,8
     82d4:	14 30 df 4f 	br	10 <compare>,#al
     82d8:	00 10 00 41 	add	r2,1
@@ -8397,7 +8397,7 @@ Disassembly of section .text:
     82f4:	0d 45 81 20 	wl16	r9,0x2c00
     82f8:	0d 60 01 23 	wh16	r9,0x3
     82fc:	10 40 01 29 	ld32	r9,r9
-    8300:	0e 20 01 10 	rev8	r8,r16
+    8300:	01 60 01 10 	umulh	r8,r16
     8304:	20 70 03 e2 	movepc	rret,8
     8308:	14 30 df 42 	br	10 <compare>,#al
     830c:	00 10 00 41 	add	r2,1
@@ -8410,7 +8410,7 @@ Disassembly of section .text:
     8328:	0d 45 81 24 	wl16	r9,0x2c04
     832c:	0d 60 01 23 	wh16	r9,0x3
     8330:	10 40 01 29 	ld32	r9,r9
-    8334:	0e 20 01 10 	rev8	r8,r16
+    8334:	01 60 01 10 	umulh	r8,r16
     8338:	20 70 03 e2 	movepc	rret,8
     833c:	14 30 df 35 	br	10 <compare>,#al
     8340:	00 10 00 41 	add	r2,1
@@ -8423,7 +8423,7 @@ Disassembly of section .text:
     835c:	0d 45 81 28 	wl16	r9,0x2c08
     8360:	0d 60 01 23 	wh16	r9,0x3
     8364:	10 40 01 29 	ld32	r9,r9
-    8368:	0e 20 01 10 	rev8	r8,r16
+    8368:	01 60 01 10 	umulh	r8,r16
     836c:	20 70 03 e2 	movepc	rret,8
     8370:	14 30 df 28 	br	10 <compare>,#al
     8374:	00 10 00 41 	add	r2,1
@@ -8436,7 +8436,7 @@ Disassembly of section .text:
     8390:	0d 45 81 2c 	wl16	r9,0x2c0c
     8394:	0d 60 01 23 	wh16	r9,0x3
     8398:	10 40 01 29 	ld32	r9,r9
-    839c:	0e 20 01 10 	rev8	r8,r16
+    839c:	01 60 01 10 	umulh	r8,r16
     83a0:	20 70 03 e2 	movepc	rret,8
     83a4:	14 30 df 1b 	br	10 <compare>,#al
     83a8:	00 10 00 41 	add	r2,1
@@ -8449,7 +8449,7 @@ Disassembly of section .text:
     83c4:	0d 45 81 30 	wl16	r9,0x2c10
     83c8:	0d 60 01 23 	wh16	r9,0x3
     83cc:	10 40 01 29 	ld32	r9,r9
-    83d0:	0e 20 01 10 	rev8	r8,r16
+    83d0:	01 60 01 10 	umulh	r8,r16
     83d4:	20 70 03 e2 	movepc	rret,8
     83d8:	14 30 df 0e 	br	10 <compare>,#al
     83dc:	00 10 00 41 	add	r2,1
@@ -8462,7 +8462,7 @@ Disassembly of section .text:
     83f8:	0d 45 81 34 	wl16	r9,0x2c14
     83fc:	0d 60 01 23 	wh16	r9,0x3
     8400:	10 40 01 29 	ld32	r9,r9
-    8404:	0e 20 01 10 	rev8	r8,r16
+    8404:	01 60 01 10 	umulh	r8,r16
     8408:	20 70 03 e2 	movepc	rret,8
     840c:	14 30 df 01 	br	10 <compare>,#al
     8410:	00 10 00 41 	add	r2,1
@@ -8475,7 +8475,7 @@ Disassembly of section .text:
     842c:	0d 45 81 38 	wl16	r9,0x2c18
     8430:	0d 60 01 23 	wh16	r9,0x3
     8434:	10 40 01 29 	ld32	r9,r9
-    8438:	0e 20 01 10 	rev8	r8,r16
+    8438:	01 60 01 10 	umulh	r8,r16
     843c:	20 70 03 e2 	movepc	rret,8
     8440:	14 30 de f4 	br	10 <compare>,#al
     8444:	00 10 00 41 	add	r2,1
@@ -8488,7 +8488,7 @@ Disassembly of section .text:
     8460:	0d 45 81 3c 	wl16	r9,0x2c1c
     8464:	0d 60 01 23 	wh16	r9,0x3
     8468:	10 40 01 29 	ld32	r9,r9
-    846c:	0e 20 01 10 	rev8	r8,r16
+    846c:	01 60 01 10 	umulh	r8,r16
     8470:	20 70 03 e2 	movepc	rret,8
     8474:	14 30 de e7 	br	10 <compare>,#al
     8478:	00 10 00 41 	add	r2,1
@@ -8501,7 +8501,7 @@ Disassembly of section .text:
     8494:	0d 45 85 20 	wl16	r9,0x2c20
     8498:	0d 60 01 23 	wh16	r9,0x3
     849c:	10 40 01 29 	ld32	r9,r9
-    84a0:	0e 20 01 10 	rev8	r8,r16
+    84a0:	01 60 01 10 	umulh	r8,r16
     84a4:	20 70 03 e2 	movepc	rret,8
     84a8:	14 30 de da 	br	10 <compare>,#al
     84ac:	00 10 00 41 	add	r2,1
@@ -8514,7 +8514,7 @@ Disassembly of section .text:
     84c8:	0d 45 85 24 	wl16	r9,0x2c24
     84cc:	0d 60 01 23 	wh16	r9,0x3
     84d0:	10 40 01 29 	ld32	r9,r9
-    84d4:	0e 20 01 10 	rev8	r8,r16
+    84d4:	01 60 01 10 	umulh	r8,r16
     84d8:	20 70 03 e2 	movepc	rret,8
     84dc:	14 30 de cd 	br	10 <compare>,#al
     84e0:	00 10 00 41 	add	r2,1
@@ -8527,7 +8527,7 @@ Disassembly of section .text:
     84fc:	0d 45 85 28 	wl16	r9,0x2c28
     8500:	0d 60 01 23 	wh16	r9,0x3
     8504:	10 40 01 29 	ld32	r9,r9
-    8508:	0e 20 01 10 	rev8	r8,r16
+    8508:	01 60 01 10 	umulh	r8,r16
     850c:	20 70 03 e2 	movepc	rret,8
     8510:	14 30 de c0 	br	10 <compare>,#al
     8514:	00 10 00 41 	add	r2,1
@@ -8540,7 +8540,7 @@ Disassembly of section .text:
     8530:	0d 45 85 2c 	wl16	r9,0x2c2c
     8534:	0d 60 01 23 	wh16	r9,0x3
     8538:	10 40 01 29 	ld32	r9,r9
-    853c:	0e 20 01 10 	rev8	r8,r16
+    853c:	01 60 01 10 	umulh	r8,r16
     8540:	20 70 03 e2 	movepc	rret,8
     8544:	14 30 de b3 	br	10 <compare>,#al
     8548:	00 10 00 41 	add	r2,1
@@ -8553,7 +8553,7 @@ Disassembly of section .text:
     8564:	0d 45 85 30 	wl16	r9,0x2c30
     8568:	0d 60 01 23 	wh16	r9,0x3
     856c:	10 40 01 29 	ld32	r9,r9
-    8570:	0e 20 01 10 	rev8	r8,r16
+    8570:	01 60 01 10 	umulh	r8,r16
     8574:	20 70 03 e2 	movepc	rret,8
     8578:	14 30 de a6 	br	10 <compare>,#al
     857c:	00 10 00 41 	add	r2,1
@@ -8566,7 +8566,7 @@ Disassembly of section .text:
     8598:	0d 45 85 34 	wl16	r9,0x2c34
     859c:	0d 60 01 23 	wh16	r9,0x3
     85a0:	10 40 01 29 	ld32	r9,r9
-    85a4:	0e 20 01 10 	rev8	r8,r16
+    85a4:	01 60 01 10 	umulh	r8,r16
     85a8:	20 70 03 e2 	movepc	rret,8
     85ac:	14 30 de 99 	br	10 <compare>,#al
     85b0:	00 10 00 41 	add	r2,1
@@ -8579,7 +8579,7 @@ Disassembly of section .text:
     85cc:	0d 45 85 38 	wl16	r9,0x2c38
     85d0:	0d 60 01 23 	wh16	r9,0x3
     85d4:	10 40 01 29 	ld32	r9,r9
-    85d8:	0e 20 01 10 	rev8	r8,r16
+    85d8:	01 60 01 10 	umulh	r8,r16
     85dc:	20 70 03 e2 	movepc	rret,8
     85e0:	14 30 de 8c 	br	10 <compare>,#al
     85e4:	00 10 00 41 	add	r2,1
@@ -8592,7 +8592,7 @@ Disassembly of section .text:
     8600:	0d 45 85 3c 	wl16	r9,0x2c3c
     8604:	0d 60 01 23 	wh16	r9,0x3
     8608:	10 40 01 29 	ld32	r9,r9
-    860c:	0e 20 01 10 	rev8	r8,r16
+    860c:	01 60 01 10 	umulh	r8,r16
     8610:	20 70 03 e2 	movepc	rret,8
     8614:	14 30 de 7f 	br	10 <compare>,#al
     8618:	00 10 00 41 	add	r2,1
@@ -8605,7 +8605,7 @@ Disassembly of section .text:
     8634:	0d 45 89 20 	wl16	r9,0x2c40
     8638:	0d 60 01 23 	wh16	r9,0x3
     863c:	10 40 01 29 	ld32	r9,r9
-    8640:	0e 20 01 10 	rev8	r8,r16
+    8640:	01 60 01 10 	umulh	r8,r16
     8644:	20 70 03 e2 	movepc	rret,8
     8648:	14 30 de 72 	br	10 <compare>,#al
     864c:	00 10 00 41 	add	r2,1
@@ -8618,7 +8618,7 @@ Disassembly of section .text:
     8668:	0d 45 89 24 	wl16	r9,0x2c44
     866c:	0d 60 01 23 	wh16	r9,0x3
     8670:	10 40 01 29 	ld32	r9,r9
-    8674:	0e 20 01 10 	rev8	r8,r16
+    8674:	01 60 01 10 	umulh	r8,r16
     8678:	20 70 03 e2 	movepc	rret,8
     867c:	14 30 de 65 	br	10 <compare>,#al
     8680:	00 10 00 41 	add	r2,1
@@ -8631,7 +8631,7 @@ Disassembly of section .text:
     869c:	0d 45 89 28 	wl16	r9,0x2c48
     86a0:	0d 60 01 23 	wh16	r9,0x3
     86a4:	10 40 01 29 	ld32	r9,r9
-    86a8:	0e 20 01 10 	rev8	r8,r16
+    86a8:	01 60 01 10 	umulh	r8,r16
     86ac:	20 70 03 e2 	movepc	rret,8
     86b0:	14 30 de 58 	br	10 <compare>,#al
     86b4:	00 10 00 41 	add	r2,1
@@ -8644,7 +8644,7 @@ Disassembly of section .text:
     86d0:	0d 45 89 2c 	wl16	r9,0x2c4c
     86d4:	0d 60 01 23 	wh16	r9,0x3
     86d8:	10 40 01 29 	ld32	r9,r9
-    86dc:	0e 20 01 10 	rev8	r8,r16
+    86dc:	01 60 01 10 	umulh	r8,r16
     86e0:	20 70 03 e2 	movepc	rret,8
     86e4:	14 30 de 4b 	br	10 <compare>,#al
     86e8:	00 10 00 41 	add	r2,1
@@ -8657,7 +8657,7 @@ Disassembly of section .text:
     8704:	0d 45 89 30 	wl16	r9,0x2c50
     8708:	0d 60 01 23 	wh16	r9,0x3
     870c:	10 40 01 29 	ld32	r9,r9
-    8710:	0e 20 01 10 	rev8	r8,r16
+    8710:	01 60 01 10 	umulh	r8,r16
     8714:	20 70 03 e2 	movepc	rret,8
     8718:	14 30 de 3e 	br	10 <compare>,#al
     871c:	00 10 00 41 	add	r2,1
@@ -8670,7 +8670,7 @@ Disassembly of section .text:
     8738:	0d 45 89 34 	wl16	r9,0x2c54
     873c:	0d 60 01 23 	wh16	r9,0x3
     8740:	10 40 01 29 	ld32	r9,r9
-    8744:	0e 20 01 10 	rev8	r8,r16
+    8744:	01 60 01 10 	umulh	r8,r16
     8748:	20 70 03 e2 	movepc	rret,8
     874c:	14 30 de 31 	br	10 <compare>,#al
     8750:	00 10 00 41 	add	r2,1
@@ -8683,7 +8683,7 @@ Disassembly of section .text:
     876c:	0d 45 89 38 	wl16	r9,0x2c58
     8770:	0d 60 01 23 	wh16	r9,0x3
     8774:	10 40 01 29 	ld32	r9,r9
-    8778:	0e 20 01 10 	rev8	r8,r16
+    8778:	01 60 01 10 	umulh	r8,r16
     877c:	20 70 03 e2 	movepc	rret,8
     8780:	14 30 de 24 	br	10 <compare>,#al
     8784:	00 10 00 41 	add	r2,1
@@ -8696,7 +8696,7 @@ Disassembly of section .text:
     87a0:	0d 45 89 3c 	wl16	r9,0x2c5c
     87a4:	0d 60 01 23 	wh16	r9,0x3
     87a8:	10 40 01 29 	ld32	r9,r9
-    87ac:	0e 20 01 10 	rev8	r8,r16
+    87ac:	01 60 01 10 	umulh	r8,r16
     87b0:	20 70 03 e2 	movepc	rret,8
     87b4:	14 30 de 17 	br	10 <compare>,#al
     87b8:	00 10 00 41 	add	r2,1
@@ -8709,7 +8709,7 @@ Disassembly of section .text:
     87d4:	0d 45 8d 20 	wl16	r9,0x2c60
     87d8:	0d 60 01 23 	wh16	r9,0x3
     87dc:	10 40 01 29 	ld32	r9,r9
-    87e0:	0e 20 01 10 	rev8	r8,r16
+    87e0:	01 60 01 10 	umulh	r8,r16
     87e4:	20 70 03 e2 	movepc	rret,8
     87e8:	14 30 de 0a 	br	10 <compare>,#al
     87ec:	00 10 00 41 	add	r2,1
@@ -8722,7 +8722,7 @@ Disassembly of section .text:
     8808:	0d 45 8d 24 	wl16	r9,0x2c64
     880c:	0d 60 01 23 	wh16	r9,0x3
     8810:	10 40 01 29 	ld32	r9,r9
-    8814:	0e 20 01 10 	rev8	r8,r16
+    8814:	01 60 01 10 	umulh	r8,r16
     8818:	20 70 03 e2 	movepc	rret,8
     881c:	14 30 dd fd 	br	10 <compare>,#al
     8820:	00 10 00 41 	add	r2,1
@@ -8735,7 +8735,7 @@ Disassembly of section .text:
     883c:	0d 45 8d 28 	wl16	r9,0x2c68
     8840:	0d 60 01 23 	wh16	r9,0x3
     8844:	10 40 01 29 	ld32	r9,r9
-    8848:	0e 20 01 10 	rev8	r8,r16
+    8848:	01 60 01 10 	umulh	r8,r16
     884c:	20 70 03 e2 	movepc	rret,8
     8850:	14 30 dd f0 	br	10 <compare>,#al
     8854:	00 10 00 41 	add	r2,1
@@ -8748,7 +8748,7 @@ Disassembly of section .text:
     8870:	0d 45 8d 2c 	wl16	r9,0x2c6c
     8874:	0d 60 01 23 	wh16	r9,0x3
     8878:	10 40 01 29 	ld32	r9,r9
-    887c:	0e 20 01 10 	rev8	r8,r16
+    887c:	01 60 01 10 	umulh	r8,r16
     8880:	20 70 03 e2 	movepc	rret,8
     8884:	14 30 dd e3 	br	10 <compare>,#al
     8888:	00 10 00 41 	add	r2,1
@@ -8761,7 +8761,7 @@ Disassembly of section .text:
     88a4:	0d 45 8d 30 	wl16	r9,0x2c70
     88a8:	0d 60 01 23 	wh16	r9,0x3
     88ac:	10 40 01 29 	ld32	r9,r9
-    88b0:	0e 20 01 10 	rev8	r8,r16
+    88b0:	01 60 01 10 	umulh	r8,r16
     88b4:	20 70 03 e2 	movepc	rret,8
     88b8:	14 30 dd d6 	br	10 <compare>,#al
     88bc:	00 10 00 41 	add	r2,1
@@ -8774,7 +8774,7 @@ Disassembly of section .text:
     88d8:	0d 45 8d 34 	wl16	r9,0x2c74
     88dc:	0d 60 01 23 	wh16	r9,0x3
     88e0:	10 40 01 29 	ld32	r9,r9
-    88e4:	0e 20 01 10 	rev8	r8,r16
+    88e4:	01 60 01 10 	umulh	r8,r16
     88e8:	20 70 03 e2 	movepc	rret,8
     88ec:	14 30 dd c9 	br	10 <compare>,#al
     88f0:	00 10 00 41 	add	r2,1
@@ -8787,7 +8787,7 @@ Disassembly of section .text:
     890c:	0d 45 8d 38 	wl16	r9,0x2c78
     8910:	0d 60 01 23 	wh16	r9,0x3
     8914:	10 40 01 29 	ld32	r9,r9
-    8918:	0e 20 01 10 	rev8	r8,r16
+    8918:	01 60 01 10 	umulh	r8,r16
     891c:	20 70 03 e2 	movepc	rret,8
     8920:	14 30 dd bc 	br	10 <compare>,#al
     8924:	00 10 00 41 	add	r2,1
@@ -8800,7 +8800,7 @@ Disassembly of section .text:
     8940:	0d 45 8d 3c 	wl16	r9,0x2c7c
     8944:	0d 60 01 23 	wh16	r9,0x3
     8948:	10 40 01 29 	ld32	r9,r9
-    894c:	0e 20 01 10 	rev8	r8,r16
+    894c:	01 60 01 10 	umulh	r8,r16
     8950:	20 70 03 e2 	movepc	rret,8
     8954:	14 30 dd af 	br	10 <compare>,#al
     8958:	00 10 00 41 	add	r2,1
@@ -8813,7 +8813,7 @@ Disassembly of section .text:
     8974:	0d 45 91 20 	wl16	r9,0x2c80
     8978:	0d 60 01 23 	wh16	r9,0x3
     897c:	10 40 01 29 	ld32	r9,r9
-    8980:	0e 20 01 10 	rev8	r8,r16
+    8980:	01 60 01 10 	umulh	r8,r16
     8984:	20 70 03 e2 	movepc	rret,8
     8988:	14 30 dd a2 	br	10 <compare>,#al
     898c:	00 10 00 41 	add	r2,1
@@ -8826,7 +8826,7 @@ Disassembly of section .text:
     89a8:	0d 45 91 24 	wl16	r9,0x2c84
     89ac:	0d 60 01 23 	wh16	r9,0x3
     89b0:	10 40 01 29 	ld32	r9,r9
-    89b4:	0e 20 01 10 	rev8	r8,r16
+    89b4:	01 60 01 10 	umulh	r8,r16
     89b8:	20 70 03 e2 	movepc	rret,8
     89bc:	14 30 dd 95 	br	10 <compare>,#al
     89c0:	00 10 00 41 	add	r2,1
@@ -8839,7 +8839,7 @@ Disassembly of section .text:
     89dc:	0d 45 91 28 	wl16	r9,0x2c88
     89e0:	0d 60 01 23 	wh16	r9,0x3
     89e4:	10 40 01 29 	ld32	r9,r9
-    89e8:	0e 20 01 10 	rev8	r8,r16
+    89e8:	01 60 01 10 	umulh	r8,r16
     89ec:	20 70 03 e2 	movepc	rret,8
     89f0:	14 30 dd 88 	br	10 <compare>,#al
     89f4:	00 10 00 41 	add	r2,1
@@ -8852,7 +8852,7 @@ Disassembly of section .text:
     8a10:	0d 45 91 2c 	wl16	r9,0x2c8c
     8a14:	0d 60 01 23 	wh16	r9,0x3
     8a18:	10 40 01 29 	ld32	r9,r9
-    8a1c:	0e 20 01 10 	rev8	r8,r16
+    8a1c:	01 60 01 10 	umulh	r8,r16
     8a20:	20 70 03 e2 	movepc	rret,8
     8a24:	14 30 dd 7b 	br	10 <compare>,#al
     8a28:	00 10 00 41 	add	r2,1
@@ -8865,7 +8865,7 @@ Disassembly of section .text:
     8a44:	0d 45 91 30 	wl16	r9,0x2c90
     8a48:	0d 60 01 23 	wh16	r9,0x3
     8a4c:	10 40 01 29 	ld32	r9,r9
-    8a50:	0e 20 01 10 	rev8	r8,r16
+    8a50:	01 60 01 10 	umulh	r8,r16
     8a54:	20 70 03 e2 	movepc	rret,8
     8a58:	14 30 dd 6e 	br	10 <compare>,#al
     8a5c:	00 10 00 41 	add	r2,1
@@ -8878,7 +8878,7 @@ Disassembly of section .text:
     8a78:	0d 45 91 34 	wl16	r9,0x2c94
     8a7c:	0d 60 01 23 	wh16	r9,0x3
     8a80:	10 40 01 29 	ld32	r9,r9
-    8a84:	0e 20 01 10 	rev8	r8,r16
+    8a84:	01 60 01 10 	umulh	r8,r16
     8a88:	20 70 03 e2 	movepc	rret,8
     8a8c:	14 30 dd 61 	br	10 <compare>,#al
     8a90:	00 10 00 41 	add	r2,1
@@ -8891,7 +8891,7 @@ Disassembly of section .text:
     8aac:	0d 45 91 38 	wl16	r9,0x2c98
     8ab0:	0d 60 01 23 	wh16	r9,0x3
     8ab4:	10 40 01 29 	ld32	r9,r9
-    8ab8:	0e 20 01 10 	rev8	r8,r16
+    8ab8:	01 60 01 10 	umulh	r8,r16
     8abc:	20 70 03 e2 	movepc	rret,8
     8ac0:	14 30 dd 54 	br	10 <compare>,#al
     8ac4:	00 10 00 41 	add	r2,1
@@ -8904,7 +8904,7 @@ Disassembly of section .text:
     8ae0:	0d 45 91 3c 	wl16	r9,0x2c9c
     8ae4:	0d 60 01 23 	wh16	r9,0x3
     8ae8:	10 40 01 29 	ld32	r9,r9
-    8aec:	0e 20 01 10 	rev8	r8,r16
+    8aec:	01 60 01 10 	umulh	r8,r16
     8af0:	20 70 03 e2 	movepc	rret,8
     8af4:	14 30 dd 47 	br	10 <compare>,#al
     8af8:	00 10 00 41 	add	r2,1
@@ -8917,7 +8917,7 @@ Disassembly of section .text:
     8b14:	0d 45 95 20 	wl16	r9,0x2ca0
     8b18:	0d 60 01 23 	wh16	r9,0x3
     8b1c:	10 40 01 29 	ld32	r9,r9
-    8b20:	0e 20 01 10 	rev8	r8,r16
+    8b20:	01 60 01 10 	umulh	r8,r16
     8b24:	20 70 03 e2 	movepc	rret,8
     8b28:	14 30 dd 3a 	br	10 <compare>,#al
     8b2c:	00 10 00 41 	add	r2,1
@@ -8930,7 +8930,7 @@ Disassembly of section .text:
     8b48:	0d 45 95 24 	wl16	r9,0x2ca4
     8b4c:	0d 60 01 23 	wh16	r9,0x3
     8b50:	10 40 01 29 	ld32	r9,r9
-    8b54:	0e 20 01 10 	rev8	r8,r16
+    8b54:	01 60 01 10 	umulh	r8,r16
     8b58:	20 70 03 e2 	movepc	rret,8
     8b5c:	14 30 dd 2d 	br	10 <compare>,#al
     8b60:	00 10 00 41 	add	r2,1
@@ -8943,7 +8943,7 @@ Disassembly of section .text:
     8b7c:	0d 45 95 28 	wl16	r9,0x2ca8
     8b80:	0d 60 01 23 	wh16	r9,0x3
     8b84:	10 40 01 29 	ld32	r9,r9
-    8b88:	0e 20 01 10 	rev8	r8,r16
+    8b88:	01 60 01 10 	umulh	r8,r16
     8b8c:	20 70 03 e2 	movepc	rret,8
     8b90:	14 30 dd 20 	br	10 <compare>,#al
     8b94:	00 10 00 41 	add	r2,1
@@ -8956,7 +8956,7 @@ Disassembly of section .text:
     8bb0:	0d 45 95 2c 	wl16	r9,0x2cac
     8bb4:	0d 60 01 23 	wh16	r9,0x3
     8bb8:	10 40 01 29 	ld32	r9,r9
-    8bbc:	0e 20 01 10 	rev8	r8,r16
+    8bbc:	01 60 01 10 	umulh	r8,r16
     8bc0:	20 70 03 e2 	movepc	rret,8
     8bc4:	14 30 dd 13 	br	10 <compare>,#al
     8bc8:	00 10 00 41 	add	r2,1
@@ -8969,7 +8969,7 @@ Disassembly of section .text:
     8be4:	0d 45 95 30 	wl16	r9,0x2cb0
     8be8:	0d 60 01 23 	wh16	r9,0x3
     8bec:	10 40 01 29 	ld32	r9,r9
-    8bf0:	0e 20 01 10 	rev8	r8,r16
+    8bf0:	01 60 01 10 	umulh	r8,r16
     8bf4:	20 70 03 e2 	movepc	rret,8
     8bf8:	14 30 dd 06 	br	10 <compare>,#al
     8bfc:	00 10 00 41 	add	r2,1
@@ -8982,7 +8982,7 @@ Disassembly of section .text:
     8c18:	0d 45 95 34 	wl16	r9,0x2cb4
     8c1c:	0d 60 01 23 	wh16	r9,0x3
     8c20:	10 40 01 29 	ld32	r9,r9
-    8c24:	0e 20 01 10 	rev8	r8,r16
+    8c24:	01 60 01 10 	umulh	r8,r16
     8c28:	20 70 03 e2 	movepc	rret,8
     8c2c:	14 30 dc f9 	br	10 <compare>,#al
     8c30:	00 10 00 41 	add	r2,1
@@ -8995,7 +8995,7 @@ Disassembly of section .text:
     8c4c:	0d 45 95 38 	wl16	r9,0x2cb8
     8c50:	0d 60 01 23 	wh16	r9,0x3
     8c54:	10 40 01 29 	ld32	r9,r9
-    8c58:	0e 20 01 10 	rev8	r8,r16
+    8c58:	01 60 01 10 	umulh	r8,r16
     8c5c:	20 70 03 e2 	movepc	rret,8
     8c60:	14 30 dc ec 	br	10 <compare>,#al
     8c64:	00 10 00 41 	add	r2,1
@@ -9008,7 +9008,7 @@ Disassembly of section .text:
     8c80:	0d 45 95 3c 	wl16	r9,0x2cbc
     8c84:	0d 60 01 23 	wh16	r9,0x3
     8c88:	10 40 01 29 	ld32	r9,r9
-    8c8c:	0e 20 01 10 	rev8	r8,r16
+    8c8c:	01 60 01 10 	umulh	r8,r16
     8c90:	20 70 03 e2 	movepc	rret,8
     8c94:	14 30 dc df 	br	10 <compare>,#al
     8c98:	00 10 00 41 	add	r2,1
@@ -9021,7 +9021,7 @@ Disassembly of section .text:
     8cb4:	0d 45 99 20 	wl16	r9,0x2cc0
     8cb8:	0d 60 01 23 	wh16	r9,0x3
     8cbc:	10 40 01 29 	ld32	r9,r9
-    8cc0:	0e 20 01 10 	rev8	r8,r16
+    8cc0:	01 60 01 10 	umulh	r8,r16
     8cc4:	20 70 03 e2 	movepc	rret,8
     8cc8:	14 30 dc d2 	br	10 <compare>,#al
     8ccc:	00 10 00 41 	add	r2,1
@@ -9034,7 +9034,7 @@ Disassembly of section .text:
     8ce8:	0d 45 99 24 	wl16	r9,0x2cc4
     8cec:	0d 60 01 23 	wh16	r9,0x3
     8cf0:	10 40 01 29 	ld32	r9,r9
-    8cf4:	0e 20 01 10 	rev8	r8,r16
+    8cf4:	01 60 01 10 	umulh	r8,r16
     8cf8:	20 70 03 e2 	movepc	rret,8
     8cfc:	14 30 dc c5 	br	10 <compare>,#al
     8d00:	00 10 00 41 	add	r2,1
@@ -9047,7 +9047,7 @@ Disassembly of section .text:
     8d1c:	0d 45 99 28 	wl16	r9,0x2cc8
     8d20:	0d 60 01 23 	wh16	r9,0x3
     8d24:	10 40 01 29 	ld32	r9,r9
-    8d28:	0e 20 01 10 	rev8	r8,r16
+    8d28:	01 60 01 10 	umulh	r8,r16
     8d2c:	20 70 03 e2 	movepc	rret,8
     8d30:	14 30 dc b8 	br	10 <compare>,#al
     8d34:	00 10 00 41 	add	r2,1
@@ -9060,7 +9060,7 @@ Disassembly of section .text:
     8d50:	0d 45 99 2c 	wl16	r9,0x2ccc
     8d54:	0d 60 01 23 	wh16	r9,0x3
     8d58:	10 40 01 29 	ld32	r9,r9
-    8d5c:	0e 20 01 10 	rev8	r8,r16
+    8d5c:	01 60 01 10 	umulh	r8,r16
     8d60:	20 70 03 e2 	movepc	rret,8
     8d64:	14 30 dc ab 	br	10 <compare>,#al
     8d68:	00 10 00 41 	add	r2,1
@@ -9073,7 +9073,7 @@ Disassembly of section .text:
     8d84:	0d 45 99 30 	wl16	r9,0x2cd0
     8d88:	0d 60 01 23 	wh16	r9,0x3
     8d8c:	10 40 01 29 	ld32	r9,r9
-    8d90:	0e 20 01 10 	rev8	r8,r16
+    8d90:	01 60 01 10 	umulh	r8,r16
     8d94:	20 70 03 e2 	movepc	rret,8
     8d98:	14 30 dc 9e 	br	10 <compare>,#al
     8d9c:	00 10 00 41 	add	r2,1
@@ -9086,7 +9086,7 @@ Disassembly of section .text:
     8db8:	0d 45 99 34 	wl16	r9,0x2cd4
     8dbc:	0d 60 01 23 	wh16	r9,0x3
     8dc0:	10 40 01 29 	ld32	r9,r9
-    8dc4:	0e 20 01 10 	rev8	r8,r16
+    8dc4:	01 60 01 10 	umulh	r8,r16
     8dc8:	20 70 03 e2 	movepc	rret,8
     8dcc:	14 30 dc 91 	br	10 <compare>,#al
     8dd0:	00 10 00 41 	add	r2,1
@@ -9099,7 +9099,7 @@ Disassembly of section .text:
     8dec:	0d 45 99 38 	wl16	r9,0x2cd8
     8df0:	0d 60 01 23 	wh16	r9,0x3
     8df4:	10 40 01 29 	ld32	r9,r9
-    8df8:	0e 20 01 10 	rev8	r8,r16
+    8df8:	01 60 01 10 	umulh	r8,r16
     8dfc:	20 70 03 e2 	movepc	rret,8
     8e00:	14 30 dc 84 	br	10 <compare>,#al
     8e04:	00 10 00 41 	add	r2,1
@@ -9112,7 +9112,7 @@ Disassembly of section .text:
     8e20:	0d 45 99 3c 	wl16	r9,0x2cdc
     8e24:	0d 60 01 23 	wh16	r9,0x3
     8e28:	10 40 01 29 	ld32	r9,r9
-    8e2c:	0e 20 01 10 	rev8	r8,r16
+    8e2c:	01 60 01 10 	umulh	r8,r16
     8e30:	20 70 03 e2 	movepc	rret,8
     8e34:	14 30 dc 77 	br	10 <compare>,#al
     8e38:	00 10 00 41 	add	r2,1
@@ -9125,7 +9125,7 @@ Disassembly of section .text:
     8e54:	0d 45 9d 20 	wl16	r9,0x2ce0
     8e58:	0d 60 01 23 	wh16	r9,0x3
     8e5c:	10 40 01 29 	ld32	r9,r9
-    8e60:	0e 20 01 10 	rev8	r8,r16
+    8e60:	01 60 01 10 	umulh	r8,r16
     8e64:	20 70 03 e2 	movepc	rret,8
     8e68:	14 30 dc 6a 	br	10 <compare>,#al
     8e6c:	00 10 00 41 	add	r2,1
@@ -9138,7 +9138,7 @@ Disassembly of section .text:
     8e88:	0d 45 9d 24 	wl16	r9,0x2ce4
     8e8c:	0d 60 01 23 	wh16	r9,0x3
     8e90:	10 40 01 29 	ld32	r9,r9
-    8e94:	0e 20 01 10 	rev8	r8,r16
+    8e94:	01 60 01 10 	umulh	r8,r16
     8e98:	20 70 03 e2 	movepc	rret,8
     8e9c:	14 30 dc 5d 	br	10 <compare>,#al
     8ea0:	00 10 00 41 	add	r2,1
@@ -9151,7 +9151,7 @@ Disassembly of section .text:
     8ebc:	0d 45 9d 28 	wl16	r9,0x2ce8
     8ec0:	0d 60 01 23 	wh16	r9,0x3
     8ec4:	10 40 01 29 	ld32	r9,r9
-    8ec8:	0e 20 01 10 	rev8	r8,r16
+    8ec8:	01 60 01 10 	umulh	r8,r16
     8ecc:	20 70 03 e2 	movepc	rret,8
     8ed0:	14 30 dc 50 	br	10 <compare>,#al
     8ed4:	00 10 00 41 	add	r2,1
@@ -9164,7 +9164,7 @@ Disassembly of section .text:
     8ef0:	0d 45 9d 2c 	wl16	r9,0x2cec
     8ef4:	0d 60 01 23 	wh16	r9,0x3
     8ef8:	10 40 01 29 	ld32	r9,r9
-    8efc:	0e 20 01 10 	rev8	r8,r16
+    8efc:	01 60 01 10 	umulh	r8,r16
     8f00:	20 70 03 e2 	movepc	rret,8
     8f04:	14 30 dc 43 	br	10 <compare>,#al
     8f08:	00 10 00 41 	add	r2,1
@@ -9177,7 +9177,7 @@ Disassembly of section .text:
     8f24:	0d 45 9d 30 	wl16	r9,0x2cf0
     8f28:	0d 60 01 23 	wh16	r9,0x3
     8f2c:	10 40 01 29 	ld32	r9,r9
-    8f30:	0e 20 01 10 	rev8	r8,r16
+    8f30:	01 60 01 10 	umulh	r8,r16
     8f34:	20 70 03 e2 	movepc	rret,8
     8f38:	14 30 dc 36 	br	10 <compare>,#al
     8f3c:	00 10 00 41 	add	r2,1
@@ -9190,7 +9190,7 @@ Disassembly of section .text:
     8f58:	0d 45 9d 34 	wl16	r9,0x2cf4
     8f5c:	0d 60 01 23 	wh16	r9,0x3
     8f60:	10 40 01 29 	ld32	r9,r9
-    8f64:	0e 20 01 10 	rev8	r8,r16
+    8f64:	01 60 01 10 	umulh	r8,r16
     8f68:	20 70 03 e2 	movepc	rret,8
     8f6c:	14 30 dc 29 	br	10 <compare>,#al
     8f70:	00 10 00 41 	add	r2,1
@@ -9203,7 +9203,7 @@ Disassembly of section .text:
     8f8c:	0d 45 9d 38 	wl16	r9,0x2cf8
     8f90:	0d 60 01 23 	wh16	r9,0x3
     8f94:	10 40 01 29 	ld32	r9,r9
-    8f98:	0e 20 01 10 	rev8	r8,r16
+    8f98:	01 60 01 10 	umulh	r8,r16
     8f9c:	20 70 03 e2 	movepc	rret,8
     8fa0:	14 30 dc 1c 	br	10 <compare>,#al
     8fa4:	00 10 00 41 	add	r2,1
@@ -9216,7 +9216,7 @@ Disassembly of section .text:
     8fc0:	0d 45 9d 3c 	wl16	r9,0x2cfc
     8fc4:	0d 60 01 23 	wh16	r9,0x3
     8fc8:	10 40 01 29 	ld32	r9,r9
-    8fcc:	0e 20 01 10 	rev8	r8,r16
+    8fcc:	01 60 01 10 	umulh	r8,r16
     8fd0:	20 70 03 e2 	movepc	rret,8
     8fd4:	14 30 dc 0f 	br	10 <compare>,#al
     8fd8:	00 10 00 41 	add	r2,1
@@ -9229,7 +9229,7 @@ Disassembly of section .text:
     8ff4:	0d 45 a1 20 	wl16	r9,0x2d00
     8ff8:	0d 60 01 23 	wh16	r9,0x3
     8ffc:	10 40 01 29 	ld32	r9,r9
-    9000:	0e 20 01 10 	rev8	r8,r16
+    9000:	01 60 01 10 	umulh	r8,r16
     9004:	20 70 03 e2 	movepc	rret,8
     9008:	14 30 dc 02 	br	10 <compare>,#al
     900c:	00 10 00 41 	add	r2,1
@@ -9242,7 +9242,7 @@ Disassembly of section .text:
     9028:	0d 45 a1 24 	wl16	r9,0x2d04
     902c:	0d 60 01 23 	wh16	r9,0x3
     9030:	10 40 01 29 	ld32	r9,r9
-    9034:	0e 20 01 10 	rev8	r8,r16
+    9034:	01 60 01 10 	umulh	r8,r16
     9038:	20 70 03 e2 	movepc	rret,8
     903c:	14 30 db f5 	br	10 <compare>,#al
     9040:	00 10 00 41 	add	r2,1
@@ -9255,7 +9255,7 @@ Disassembly of section .text:
     905c:	0d 45 a1 28 	wl16	r9,0x2d08
     9060:	0d 60 01 23 	wh16	r9,0x3
     9064:	10 40 01 29 	ld32	r9,r9
-    9068:	0e 20 01 10 	rev8	r8,r16
+    9068:	01 60 01 10 	umulh	r8,r16
     906c:	20 70 03 e2 	movepc	rret,8
     9070:	14 30 db e8 	br	10 <compare>,#al
     9074:	00 10 00 41 	add	r2,1
@@ -9268,7 +9268,7 @@ Disassembly of section .text:
     9090:	0d 45 a1 2c 	wl16	r9,0x2d0c
     9094:	0d 60 01 23 	wh16	r9,0x3
     9098:	10 40 01 29 	ld32	r9,r9
-    909c:	0e 20 01 10 	rev8	r8,r16
+    909c:	01 60 01 10 	umulh	r8,r16
     90a0:	20 70 03 e2 	movepc	rret,8
     90a4:	14 30 db db 	br	10 <compare>,#al
     90a8:	00 10 00 41 	add	r2,1
@@ -9281,7 +9281,7 @@ Disassembly of section .text:
     90c4:	0d 45 a1 30 	wl16	r9,0x2d10
     90c8:	0d 60 01 23 	wh16	r9,0x3
     90cc:	10 40 01 29 	ld32	r9,r9
-    90d0:	0e 20 01 10 	rev8	r8,r16
+    90d0:	01 60 01 10 	umulh	r8,r16
     90d4:	20 70 03 e2 	movepc	rret,8
     90d8:	14 30 db ce 	br	10 <compare>,#al
     90dc:	00 10 00 41 	add	r2,1
@@ -9294,7 +9294,7 @@ Disassembly of section .text:
     90f8:	0d 45 a1 34 	wl16	r9,0x2d14
     90fc:	0d 60 01 23 	wh16	r9,0x3
     9100:	10 40 01 29 	ld32	r9,r9
-    9104:	0e 20 01 10 	rev8	r8,r16
+    9104:	01 60 01 10 	umulh	r8,r16
     9108:	20 70 03 e2 	movepc	rret,8
     910c:	14 30 db c1 	br	10 <compare>,#al
     9110:	00 10 00 41 	add	r2,1
@@ -9307,7 +9307,7 @@ Disassembly of section .text:
     912c:	0d 45 a1 38 	wl16	r9,0x2d18
     9130:	0d 60 01 23 	wh16	r9,0x3
     9134:	10 40 01 29 	ld32	r9,r9
-    9138:	0e 20 01 10 	rev8	r8,r16
+    9138:	01 60 01 10 	umulh	r8,r16
     913c:	20 70 03 e2 	movepc	rret,8
     9140:	14 30 db b4 	br	10 <compare>,#al
     9144:	00 10 00 41 	add	r2,1
@@ -9320,7 +9320,7 @@ Disassembly of section .text:
     9160:	0d 45 a1 3c 	wl16	r9,0x2d1c
     9164:	0d 60 01 23 	wh16	r9,0x3
     9168:	10 40 01 29 	ld32	r9,r9
-    916c:	0e 20 01 10 	rev8	r8,r16
+    916c:	01 60 01 10 	umulh	r8,r16
     9170:	20 70 03 e2 	movepc	rret,8
     9174:	14 30 db a7 	br	10 <compare>,#al
     9178:	00 10 00 41 	add	r2,1
@@ -9333,7 +9333,7 @@ Disassembly of section .text:
     9194:	0d 45 a5 20 	wl16	r9,0x2d20
     9198:	0d 60 01 23 	wh16	r9,0x3
     919c:	10 40 01 29 	ld32	r9,r9
-    91a0:	0e 20 01 10 	rev8	r8,r16
+    91a0:	01 60 01 10 	umulh	r8,r16
     91a4:	20 70 03 e2 	movepc	rret,8
     91a8:	14 30 db 9a 	br	10 <compare>,#al
     91ac:	00 10 00 41 	add	r2,1
@@ -9346,7 +9346,7 @@ Disassembly of section .text:
     91c8:	0d 45 a5 24 	wl16	r9,0x2d24
     91cc:	0d 60 01 23 	wh16	r9,0x3
     91d0:	10 40 01 29 	ld32	r9,r9
-    91d4:	0e 20 01 10 	rev8	r8,r16
+    91d4:	01 60 01 10 	umulh	r8,r16
     91d8:	20 70 03 e2 	movepc	rret,8
     91dc:	14 30 db 8d 	br	10 <compare>,#al
     91e0:	00 10 00 41 	add	r2,1
@@ -9359,7 +9359,7 @@ Disassembly of section .text:
     91fc:	0d 45 a5 28 	wl16	r9,0x2d28
     9200:	0d 60 01 23 	wh16	r9,0x3
     9204:	10 40 01 29 	ld32	r9,r9
-    9208:	0e 20 01 10 	rev8	r8,r16
+    9208:	01 60 01 10 	umulh	r8,r16
     920c:	20 70 03 e2 	movepc	rret,8
     9210:	14 30 db 80 	br	10 <compare>,#al
     9214:	00 10 00 41 	add	r2,1
@@ -9372,7 +9372,7 @@ Disassembly of section .text:
     9230:	0d 45 a5 2c 	wl16	r9,0x2d2c
     9234:	0d 60 01 23 	wh16	r9,0x3
     9238:	10 40 01 29 	ld32	r9,r9
-    923c:	0e 20 01 10 	rev8	r8,r16
+    923c:	01 60 01 10 	umulh	r8,r16
     9240:	20 70 03 e2 	movepc	rret,8
     9244:	14 30 db 73 	br	10 <compare>,#al
     9248:	00 10 00 41 	add	r2,1
@@ -9385,7 +9385,7 @@ Disassembly of section .text:
     9264:	0d 45 a5 30 	wl16	r9,0x2d30
     9268:	0d 60 01 23 	wh16	r9,0x3
     926c:	10 40 01 29 	ld32	r9,r9
-    9270:	0e 20 01 10 	rev8	r8,r16
+    9270:	01 60 01 10 	umulh	r8,r16
     9274:	20 70 03 e2 	movepc	rret,8
     9278:	14 30 db 66 	br	10 <compare>,#al
     927c:	00 10 00 41 	add	r2,1
@@ -9398,7 +9398,7 @@ Disassembly of section .text:
     9298:	0d 45 a5 34 	wl16	r9,0x2d34
     929c:	0d 60 01 23 	wh16	r9,0x3
     92a0:	10 40 01 29 	ld32	r9,r9
-    92a4:	0e 20 01 10 	rev8	r8,r16
+    92a4:	01 60 01 10 	umulh	r8,r16
     92a8:	20 70 03 e2 	movepc	rret,8
     92ac:	14 30 db 59 	br	10 <compare>,#al
     92b0:	00 10 00 41 	add	r2,1
@@ -9411,7 +9411,7 @@ Disassembly of section .text:
     92cc:	0d 45 a5 38 	wl16	r9,0x2d38
     92d0:	0d 60 01 23 	wh16	r9,0x3
     92d4:	10 40 01 29 	ld32	r9,r9
-    92d8:	0e 20 01 10 	rev8	r8,r16
+    92d8:	01 60 01 10 	umulh	r8,r16
     92dc:	20 70 03 e2 	movepc	rret,8
     92e0:	14 30 db 4c 	br	10 <compare>,#al
     92e4:	00 10 00 41 	add	r2,1
@@ -9424,7 +9424,7 @@ Disassembly of section .text:
     9300:	0d 45 a5 3c 	wl16	r9,0x2d3c
     9304:	0d 60 01 23 	wh16	r9,0x3
     9308:	10 40 01 29 	ld32	r9,r9
-    930c:	0e 20 01 10 	rev8	r8,r16
+    930c:	01 60 01 10 	umulh	r8,r16
     9310:	20 70 03 e2 	movepc	rret,8
     9314:	14 30 db 3f 	br	10 <compare>,#al
     9318:	00 10 00 41 	add	r2,1
@@ -9437,7 +9437,7 @@ Disassembly of section .text:
     9334:	0d 45 a9 20 	wl16	r9,0x2d40
     9338:	0d 60 01 23 	wh16	r9,0x3
     933c:	10 40 01 29 	ld32	r9,r9
-    9340:	0e 20 01 10 	rev8	r8,r16
+    9340:	01 60 01 10 	umulh	r8,r16
     9344:	20 70 03 e2 	movepc	rret,8
     9348:	14 30 db 32 	br	10 <compare>,#al
     934c:	00 10 00 41 	add	r2,1
@@ -9450,7 +9450,7 @@ Disassembly of section .text:
     9368:	0d 45 a9 24 	wl16	r9,0x2d44
     936c:	0d 60 01 23 	wh16	r9,0x3
     9370:	10 40 01 29 	ld32	r9,r9
-    9374:	0e 20 01 10 	rev8	r8,r16
+    9374:	01 60 01 10 	umulh	r8,r16
     9378:	20 70 03 e2 	movepc	rret,8
     937c:	14 30 db 25 	br	10 <compare>,#al
     9380:	00 10 00 41 	add	r2,1
@@ -9463,7 +9463,7 @@ Disassembly of section .text:
     939c:	0d 45 a9 28 	wl16	r9,0x2d48
     93a0:	0d 60 01 23 	wh16	r9,0x3
     93a4:	10 40 01 29 	ld32	r9,r9
-    93a8:	0e 20 01 10 	rev8	r8,r16
+    93a8:	01 60 01 10 	umulh	r8,r16
     93ac:	20 70 03 e2 	movepc	rret,8
     93b0:	14 30 db 18 	br	10 <compare>,#al
     93b4:	00 10 00 41 	add	r2,1
@@ -9476,7 +9476,7 @@ Disassembly of section .text:
     93d0:	0d 45 a9 2c 	wl16	r9,0x2d4c
     93d4:	0d 60 01 23 	wh16	r9,0x3
     93d8:	10 40 01 29 	ld32	r9,r9
-    93dc:	0e 20 01 10 	rev8	r8,r16
+    93dc:	01 60 01 10 	umulh	r8,r16
     93e0:	20 70 03 e2 	movepc	rret,8
     93e4:	14 30 db 0b 	br	10 <compare>,#al
     93e8:	00 10 00 41 	add	r2,1
@@ -9489,7 +9489,7 @@ Disassembly of section .text:
     9404:	0d 45 a9 30 	wl16	r9,0x2d50
     9408:	0d 60 01 23 	wh16	r9,0x3
     940c:	10 40 01 29 	ld32	r9,r9
-    9410:	0e 20 01 10 	rev8	r8,r16
+    9410:	01 60 01 10 	umulh	r8,r16
     9414:	20 70 03 e2 	movepc	rret,8
     9418:	14 30 da fe 	br	10 <compare>,#al
     941c:	00 10 00 41 	add	r2,1
@@ -9502,7 +9502,7 @@ Disassembly of section .text:
     9438:	0d 45 a9 34 	wl16	r9,0x2d54
     943c:	0d 60 01 23 	wh16	r9,0x3
     9440:	10 40 01 29 	ld32	r9,r9
-    9444:	0e 20 01 10 	rev8	r8,r16
+    9444:	01 60 01 10 	umulh	r8,r16
     9448:	20 70 03 e2 	movepc	rret,8
     944c:	14 30 da f1 	br	10 <compare>,#al
     9450:	00 10 00 41 	add	r2,1
@@ -9515,7 +9515,7 @@ Disassembly of section .text:
     946c:	0d 45 a9 38 	wl16	r9,0x2d58
     9470:	0d 60 01 23 	wh16	r9,0x3
     9474:	10 40 01 29 	ld32	r9,r9
-    9478:	0e 20 01 10 	rev8	r8,r16
+    9478:	01 60 01 10 	umulh	r8,r16
     947c:	20 70 03 e2 	movepc	rret,8
     9480:	14 30 da e4 	br	10 <compare>,#al
     9484:	00 10 00 41 	add	r2,1
@@ -9528,7 +9528,7 @@ Disassembly of section .text:
     94a0:	0d 45 a9 3c 	wl16	r9,0x2d5c
     94a4:	0d 60 01 23 	wh16	r9,0x3
     94a8:	10 40 01 29 	ld32	r9,r9
-    94ac:	0e 20 01 10 	rev8	r8,r16
+    94ac:	01 60 01 10 	umulh	r8,r16
     94b0:	20 70 03 e2 	movepc	rret,8
     94b4:	14 30 da d7 	br	10 <compare>,#al
     94b8:	00 10 00 41 	add	r2,1
@@ -9541,7 +9541,7 @@ Disassembly of section .text:
     94d4:	0d 45 ad 20 	wl16	r9,0x2d60
     94d8:	0d 60 01 23 	wh16	r9,0x3
     94dc:	10 40 01 29 	ld32	r9,r9
-    94e0:	0e 20 01 10 	rev8	r8,r16
+    94e0:	01 60 01 10 	umulh	r8,r16
     94e4:	20 70 03 e2 	movepc	rret,8
     94e8:	14 30 da ca 	br	10 <compare>,#al
     94ec:	00 10 00 41 	add	r2,1
@@ -9554,7 +9554,7 @@ Disassembly of section .text:
     9508:	0d 45 ad 24 	wl16	r9,0x2d64
     950c:	0d 60 01 23 	wh16	r9,0x3
     9510:	10 40 01 29 	ld32	r9,r9
-    9514:	0e 20 01 10 	rev8	r8,r16
+    9514:	01 60 01 10 	umulh	r8,r16
     9518:	20 70 03 e2 	movepc	rret,8
     951c:	14 30 da bd 	br	10 <compare>,#al
     9520:	00 10 00 41 	add	r2,1
@@ -9567,7 +9567,7 @@ Disassembly of section .text:
     953c:	0d 45 ad 28 	wl16	r9,0x2d68
     9540:	0d 60 01 23 	wh16	r9,0x3
     9544:	10 40 01 29 	ld32	r9,r9
-    9548:	0e 20 01 10 	rev8	r8,r16
+    9548:	01 60 01 10 	umulh	r8,r16
     954c:	20 70 03 e2 	movepc	rret,8
     9550:	14 30 da b0 	br	10 <compare>,#al
     9554:	00 10 00 41 	add	r2,1
@@ -9580,7 +9580,7 @@ Disassembly of section .text:
     9570:	0d 45 ad 2c 	wl16	r9,0x2d6c
     9574:	0d 60 01 23 	wh16	r9,0x3
     9578:	10 40 01 29 	ld32	r9,r9
-    957c:	0e 20 01 10 	rev8	r8,r16
+    957c:	01 60 01 10 	umulh	r8,r16
     9580:	20 70 03 e2 	movepc	rret,8
     9584:	14 30 da a3 	br	10 <compare>,#al
     9588:	00 10 00 41 	add	r2,1
@@ -9593,7 +9593,7 @@ Disassembly of section .text:
     95a4:	0d 45 ad 30 	wl16	r9,0x2d70
     95a8:	0d 60 01 23 	wh16	r9,0x3
     95ac:	10 40 01 29 	ld32	r9,r9
-    95b0:	0e 20 01 10 	rev8	r8,r16
+    95b0:	01 60 01 10 	umulh	r8,r16
     95b4:	20 70 03 e2 	movepc	rret,8
     95b8:	14 30 da 96 	br	10 <compare>,#al
     95bc:	00 10 00 41 	add	r2,1
@@ -9606,7 +9606,7 @@ Disassembly of section .text:
     95d8:	0d 45 ad 34 	wl16	r9,0x2d74
     95dc:	0d 60 01 23 	wh16	r9,0x3
     95e0:	10 40 01 29 	ld32	r9,r9
-    95e4:	0e 20 01 10 	rev8	r8,r16
+    95e4:	01 60 01 10 	umulh	r8,r16
     95e8:	20 70 03 e2 	movepc	rret,8
     95ec:	14 30 da 89 	br	10 <compare>,#al
     95f0:	00 10 00 41 	add	r2,1
@@ -9619,7 +9619,7 @@ Disassembly of section .text:
     960c:	0d 45 ad 38 	wl16	r9,0x2d78
     9610:	0d 60 01 23 	wh16	r9,0x3
     9614:	10 40 01 29 	ld32	r9,r9
-    9618:	0e 20 01 10 	rev8	r8,r16
+    9618:	01 60 01 10 	umulh	r8,r16
     961c:	20 70 03 e2 	movepc	rret,8
     9620:	14 30 da 7c 	br	10 <compare>,#al
     9624:	00 10 00 41 	add	r2,1
@@ -9632,7 +9632,7 @@ Disassembly of section .text:
     9640:	0d 45 ad 3c 	wl16	r9,0x2d7c
     9644:	0d 60 01 23 	wh16	r9,0x3
     9648:	10 40 01 29 	ld32	r9,r9
-    964c:	0e 20 01 10 	rev8	r8,r16
+    964c:	01 60 01 10 	umulh	r8,r16
     9650:	20 70 03 e2 	movepc	rret,8
     9654:	14 30 da 6f 	br	10 <compare>,#al
     9658:	00 10 00 41 	add	r2,1
@@ -9645,7 +9645,7 @@ Disassembly of section .text:
     9674:	0d 45 b1 20 	wl16	r9,0x2d80
     9678:	0d 60 01 23 	wh16	r9,0x3
     967c:	10 40 01 29 	ld32	r9,r9
-    9680:	0e 20 01 10 	rev8	r8,r16
+    9680:	01 60 01 10 	umulh	r8,r16
     9684:	20 70 03 e2 	movepc	rret,8
     9688:	14 30 da 62 	br	10 <compare>,#al
     968c:	00 10 00 41 	add	r2,1
@@ -9658,7 +9658,7 @@ Disassembly of section .text:
     96a8:	0d 45 b1 24 	wl16	r9,0x2d84
     96ac:	0d 60 01 23 	wh16	r9,0x3
     96b0:	10 40 01 29 	ld32	r9,r9
-    96b4:	0e 20 01 10 	rev8	r8,r16
+    96b4:	01 60 01 10 	umulh	r8,r16
     96b8:	20 70 03 e2 	movepc	rret,8
     96bc:	14 30 da 55 	br	10 <compare>,#al
     96c0:	00 10 00 41 	add	r2,1
@@ -9671,7 +9671,7 @@ Disassembly of section .text:
     96dc:	0d 45 b1 28 	wl16	r9,0x2d88
     96e0:	0d 60 01 23 	wh16	r9,0x3
     96e4:	10 40 01 29 	ld32	r9,r9
-    96e8:	0e 20 01 10 	rev8	r8,r16
+    96e8:	01 60 01 10 	umulh	r8,r16
     96ec:	20 70 03 e2 	movepc	rret,8
     96f0:	14 30 da 48 	br	10 <compare>,#al
     96f4:	00 10 00 41 	add	r2,1
@@ -9684,7 +9684,7 @@ Disassembly of section .text:
     9710:	0d 45 b1 2c 	wl16	r9,0x2d8c
     9714:	0d 60 01 23 	wh16	r9,0x3
     9718:	10 40 01 29 	ld32	r9,r9
-    971c:	0e 20 01 10 	rev8	r8,r16
+    971c:	01 60 01 10 	umulh	r8,r16
     9720:	20 70 03 e2 	movepc	rret,8
     9724:	14 30 da 3b 	br	10 <compare>,#al
     9728:	00 10 00 41 	add	r2,1
@@ -9697,7 +9697,7 @@ Disassembly of section .text:
     9744:	0d 45 b1 30 	wl16	r9,0x2d90
     9748:	0d 60 01 23 	wh16	r9,0x3
     974c:	10 40 01 29 	ld32	r9,r9
-    9750:	0e 20 01 10 	rev8	r8,r16
+    9750:	01 60 01 10 	umulh	r8,r16
     9754:	20 70 03 e2 	movepc	rret,8
     9758:	14 30 da 2e 	br	10 <compare>,#al
     975c:	00 10 00 41 	add	r2,1
@@ -9710,7 +9710,7 @@ Disassembly of section .text:
     9778:	0d 45 b1 34 	wl16	r9,0x2d94
     977c:	0d 60 01 23 	wh16	r9,0x3
     9780:	10 40 01 29 	ld32	r9,r9
-    9784:	0e 20 01 10 	rev8	r8,r16
+    9784:	01 60 01 10 	umulh	r8,r16
     9788:	20 70 03 e2 	movepc	rret,8
     978c:	14 30 da 21 	br	10 <compare>,#al
     9790:	00 10 00 41 	add	r2,1
@@ -9723,7 +9723,7 @@ Disassembly of section .text:
     97ac:	0d 45 b1 38 	wl16	r9,0x2d98
     97b0:	0d 60 01 23 	wh16	r9,0x3
     97b4:	10 40 01 29 	ld32	r9,r9
-    97b8:	0e 20 01 10 	rev8	r8,r16
+    97b8:	01 60 01 10 	umulh	r8,r16
     97bc:	20 70 03 e2 	movepc	rret,8
     97c0:	14 30 da 14 	br	10 <compare>,#al
     97c4:	00 10 00 41 	add	r2,1
@@ -9736,7 +9736,7 @@ Disassembly of section .text:
     97e0:	0d 45 b1 3c 	wl16	r9,0x2d9c
     97e4:	0d 60 01 23 	wh16	r9,0x3
     97e8:	10 40 01 29 	ld32	r9,r9
-    97ec:	0e 20 01 10 	rev8	r8,r16
+    97ec:	01 60 01 10 	umulh	r8,r16
     97f0:	20 70 03 e2 	movepc	rret,8
     97f4:	14 30 da 07 	br	10 <compare>,#al
     97f8:	00 10 00 41 	add	r2,1
@@ -9749,7 +9749,7 @@ Disassembly of section .text:
     9814:	0d 45 b5 20 	wl16	r9,0x2da0
     9818:	0d 60 01 23 	wh16	r9,0x3
     981c:	10 40 01 29 	ld32	r9,r9
-    9820:	0e 20 01 10 	rev8	r8,r16
+    9820:	01 60 01 10 	umulh	r8,r16
     9824:	20 70 03 e2 	movepc	rret,8
     9828:	14 30 d9 fa 	br	10 <compare>,#al
     982c:	00 10 00 41 	add	r2,1
@@ -9762,7 +9762,7 @@ Disassembly of section .text:
     9848:	0d 45 b5 24 	wl16	r9,0x2da4
     984c:	0d 60 01 23 	wh16	r9,0x3
     9850:	10 40 01 29 	ld32	r9,r9
-    9854:	0e 20 01 10 	rev8	r8,r16
+    9854:	01 60 01 10 	umulh	r8,r16
     9858:	20 70 03 e2 	movepc	rret,8
     985c:	14 30 d9 ed 	br	10 <compare>,#al
     9860:	00 10 00 41 	add	r2,1
@@ -9775,7 +9775,7 @@ Disassembly of section .text:
     987c:	0d 45 b5 28 	wl16	r9,0x2da8
     9880:	0d 60 01 23 	wh16	r9,0x3
     9884:	10 40 01 29 	ld32	r9,r9
-    9888:	0e 20 01 10 	rev8	r8,r16
+    9888:	01 60 01 10 	umulh	r8,r16
     988c:	20 70 03 e2 	movepc	rret,8
     9890:	14 30 d9 e0 	br	10 <compare>,#al
     9894:	00 10 00 41 	add	r2,1
@@ -9788,7 +9788,7 @@ Disassembly of section .text:
     98b0:	0d 45 b5 2c 	wl16	r9,0x2dac
     98b4:	0d 60 01 23 	wh16	r9,0x3
     98b8:	10 40 01 29 	ld32	r9,r9
-    98bc:	0e 20 01 10 	rev8	r8,r16
+    98bc:	01 60 01 10 	umulh	r8,r16
     98c0:	20 70 03 e2 	movepc	rret,8
     98c4:	14 30 d9 d3 	br	10 <compare>,#al
     98c8:	00 10 00 41 	add	r2,1
@@ -9801,7 +9801,7 @@ Disassembly of section .text:
     98e4:	0d 45 b5 30 	wl16	r9,0x2db0
     98e8:	0d 60 01 23 	wh16	r9,0x3
     98ec:	10 40 01 29 	ld32	r9,r9
-    98f0:	0e 20 01 10 	rev8	r8,r16
+    98f0:	01 60 01 10 	umulh	r8,r16
     98f4:	20 70 03 e2 	movepc	rret,8
     98f8:	14 30 d9 c6 	br	10 <compare>,#al
     98fc:	00 10 00 41 	add	r2,1
@@ -9814,7 +9814,7 @@ Disassembly of section .text:
     9918:	0d 45 b5 34 	wl16	r9,0x2db4
     991c:	0d 60 01 23 	wh16	r9,0x3
     9920:	10 40 01 29 	ld32	r9,r9
-    9924:	0e 20 01 10 	rev8	r8,r16
+    9924:	01 60 01 10 	umulh	r8,r16
     9928:	20 70 03 e2 	movepc	rret,8
     992c:	14 30 d9 b9 	br	10 <compare>,#al
     9930:	00 10 00 41 	add	r2,1
@@ -9827,7 +9827,7 @@ Disassembly of section .text:
     994c:	0d 45 b5 38 	wl16	r9,0x2db8
     9950:	0d 60 01 23 	wh16	r9,0x3
     9954:	10 40 01 29 	ld32	r9,r9
-    9958:	0e 20 01 10 	rev8	r8,r16
+    9958:	01 60 01 10 	umulh	r8,r16
     995c:	20 70 03 e2 	movepc	rret,8
     9960:	14 30 d9 ac 	br	10 <compare>,#al
     9964:	00 10 00 41 	add	r2,1
@@ -9840,7 +9840,7 @@ Disassembly of section .text:
     9980:	0d 45 b5 3c 	wl16	r9,0x2dbc
     9984:	0d 60 01 23 	wh16	r9,0x3
     9988:	10 40 01 29 	ld32	r9,r9
-    998c:	0e 20 01 10 	rev8	r8,r16
+    998c:	01 60 01 10 	umulh	r8,r16
     9990:	20 70 03 e2 	movepc	rret,8
     9994:	14 30 d9 9f 	br	10 <compare>,#al
     9998:	00 10 00 41 	add	r2,1
@@ -9853,7 +9853,7 @@ Disassembly of section .text:
     99b4:	0d 45 b9 20 	wl16	r9,0x2dc0
     99b8:	0d 60 01 23 	wh16	r9,0x3
     99bc:	10 40 01 29 	ld32	r9,r9
-    99c0:	0e 20 01 10 	rev8	r8,r16
+    99c0:	01 60 01 10 	umulh	r8,r16
     99c4:	20 70 03 e2 	movepc	rret,8
     99c8:	14 30 d9 92 	br	10 <compare>,#al
     99cc:	00 10 00 41 	add	r2,1
@@ -9866,7 +9866,7 @@ Disassembly of section .text:
     99e8:	0d 45 b9 24 	wl16	r9,0x2dc4
     99ec:	0d 60 01 23 	wh16	r9,0x3
     99f0:	10 40 01 29 	ld32	r9,r9
-    99f4:	0e 20 01 10 	rev8	r8,r16
+    99f4:	01 60 01 10 	umulh	r8,r16
     99f8:	20 70 03 e2 	movepc	rret,8
     99fc:	14 30 d9 85 	br	10 <compare>,#al
     9a00:	00 10 00 41 	add	r2,1
@@ -9879,7 +9879,7 @@ Disassembly of section .text:
     9a1c:	0d 45 b9 28 	wl16	r9,0x2dc8
     9a20:	0d 60 01 23 	wh16	r9,0x3
     9a24:	10 40 01 29 	ld32	r9,r9
-    9a28:	0e 20 01 10 	rev8	r8,r16
+    9a28:	01 60 01 10 	umulh	r8,r16
     9a2c:	20 70 03 e2 	movepc	rret,8
     9a30:	14 30 d9 78 	br	10 <compare>,#al
     9a34:	00 10 00 41 	add	r2,1
@@ -9892,7 +9892,7 @@ Disassembly of section .text:
     9a50:	0d 45 b9 2c 	wl16	r9,0x2dcc
     9a54:	0d 60 01 23 	wh16	r9,0x3
     9a58:	10 40 01 29 	ld32	r9,r9
-    9a5c:	0e 20 01 10 	rev8	r8,r16
+    9a5c:	01 60 01 10 	umulh	r8,r16
     9a60:	20 70 03 e2 	movepc	rret,8
     9a64:	14 30 d9 6b 	br	10 <compare>,#al
     9a68:	00 10 00 41 	add	r2,1
@@ -9905,7 +9905,7 @@ Disassembly of section .text:
     9a84:	0d 45 b9 30 	wl16	r9,0x2dd0
     9a88:	0d 60 01 23 	wh16	r9,0x3
     9a8c:	10 40 01 29 	ld32	r9,r9
-    9a90:	0e 20 01 10 	rev8	r8,r16
+    9a90:	01 60 01 10 	umulh	r8,r16
     9a94:	20 70 03 e2 	movepc	rret,8
     9a98:	14 30 d9 5e 	br	10 <compare>,#al
     9a9c:	00 10 00 41 	add	r2,1
@@ -9918,7 +9918,7 @@ Disassembly of section .text:
     9ab8:	0d 45 b9 34 	wl16	r9,0x2dd4
     9abc:	0d 60 01 23 	wh16	r9,0x3
     9ac0:	10 40 01 29 	ld32	r9,r9
-    9ac4:	0e 20 01 10 	rev8	r8,r16
+    9ac4:	01 60 01 10 	umulh	r8,r16
     9ac8:	20 70 03 e2 	movepc	rret,8
     9acc:	14 30 d9 51 	br	10 <compare>,#al
     9ad0:	00 10 00 41 	add	r2,1
@@ -9931,7 +9931,7 @@ Disassembly of section .text:
     9aec:	0d 45 b9 38 	wl16	r9,0x2dd8
     9af0:	0d 60 01 23 	wh16	r9,0x3
     9af4:	10 40 01 29 	ld32	r9,r9
-    9af8:	0e 20 01 10 	rev8	r8,r16
+    9af8:	01 60 01 10 	umulh	r8,r16
     9afc:	20 70 03 e2 	movepc	rret,8
     9b00:	14 30 d9 44 	br	10 <compare>,#al
     9b04:	00 10 00 41 	add	r2,1
@@ -9944,7 +9944,7 @@ Disassembly of section .text:
     9b20:	0d 45 b9 3c 	wl16	r9,0x2ddc
     9b24:	0d 60 01 23 	wh16	r9,0x3
     9b28:	10 40 01 29 	ld32	r9,r9
-    9b2c:	0e 20 01 10 	rev8	r8,r16
+    9b2c:	01 60 01 10 	umulh	r8,r16
     9b30:	20 70 03 e2 	movepc	rret,8
     9b34:	14 30 d9 37 	br	10 <compare>,#al
     9b38:	00 10 00 41 	add	r2,1
@@ -9957,7 +9957,7 @@ Disassembly of section .text:
     9b54:	0d 45 bd 20 	wl16	r9,0x2de0
     9b58:	0d 60 01 23 	wh16	r9,0x3
     9b5c:	10 40 01 29 	ld32	r9,r9
-    9b60:	0e 20 01 10 	rev8	r8,r16
+    9b60:	01 60 01 10 	umulh	r8,r16
     9b64:	20 70 03 e2 	movepc	rret,8
     9b68:	14 30 d9 2a 	br	10 <compare>,#al
     9b6c:	00 10 00 41 	add	r2,1
@@ -9970,7 +9970,7 @@ Disassembly of section .text:
     9b88:	0d 45 bd 24 	wl16	r9,0x2de4
     9b8c:	0d 60 01 23 	wh16	r9,0x3
     9b90:	10 40 01 29 	ld32	r9,r9
-    9b94:	0e 20 01 10 	rev8	r8,r16
+    9b94:	01 60 01 10 	umulh	r8,r16
     9b98:	20 70 03 e2 	movepc	rret,8
     9b9c:	14 30 d9 1d 	br	10 <compare>,#al
     9ba0:	00 10 00 41 	add	r2,1
@@ -9983,7 +9983,7 @@ Disassembly of section .text:
     9bbc:	0d 45 bd 28 	wl16	r9,0x2de8
     9bc0:	0d 60 01 23 	wh16	r9,0x3
     9bc4:	10 40 01 29 	ld32	r9,r9
-    9bc8:	0e 20 01 10 	rev8	r8,r16
+    9bc8:	01 60 01 10 	umulh	r8,r16
     9bcc:	20 70 03 e2 	movepc	rret,8
     9bd0:	14 30 d9 10 	br	10 <compare>,#al
     9bd4:	00 10 00 41 	add	r2,1
@@ -9996,7 +9996,7 @@ Disassembly of section .text:
     9bf0:	0d 45 bd 2c 	wl16	r9,0x2dec
     9bf4:	0d 60 01 23 	wh16	r9,0x3
     9bf8:	10 40 01 29 	ld32	r9,r9
-    9bfc:	0e 20 01 10 	rev8	r8,r16
+    9bfc:	01 60 01 10 	umulh	r8,r16
     9c00:	20 70 03 e2 	movepc	rret,8
     9c04:	14 30 d9 03 	br	10 <compare>,#al
     9c08:	00 10 00 41 	add	r2,1
@@ -10009,7 +10009,7 @@ Disassembly of section .text:
     9c24:	0d 45 bd 30 	wl16	r9,0x2df0
     9c28:	0d 60 01 23 	wh16	r9,0x3
     9c2c:	10 40 01 29 	ld32	r9,r9
-    9c30:	0e 20 01 10 	rev8	r8,r16
+    9c30:	01 60 01 10 	umulh	r8,r16
     9c34:	20 70 03 e2 	movepc	rret,8
     9c38:	14 30 d8 f6 	br	10 <compare>,#al
     9c3c:	00 10 00 41 	add	r2,1
@@ -10022,7 +10022,7 @@ Disassembly of section .text:
     9c58:	0d 45 bd 34 	wl16	r9,0x2df4
     9c5c:	0d 60 01 23 	wh16	r9,0x3
     9c60:	10 40 01 29 	ld32	r9,r9
-    9c64:	0e 20 01 10 	rev8	r8,r16
+    9c64:	01 60 01 10 	umulh	r8,r16
     9c68:	20 70 03 e2 	movepc	rret,8
     9c6c:	14 30 d8 e9 	br	10 <compare>,#al
     9c70:	00 10 00 41 	add	r2,1
@@ -10035,7 +10035,7 @@ Disassembly of section .text:
     9c8c:	0d 45 bd 38 	wl16	r9,0x2df8
     9c90:	0d 60 01 23 	wh16	r9,0x3
     9c94:	10 40 01 29 	ld32	r9,r9
-    9c98:	0e 20 01 10 	rev8	r8,r16
+    9c98:	01 60 01 10 	umulh	r8,r16
     9c9c:	20 70 03 e2 	movepc	rret,8
     9ca0:	14 30 d8 dc 	br	10 <compare>,#al
     9ca4:	00 10 00 41 	add	r2,1
@@ -10048,7 +10048,7 @@ Disassembly of section .text:
     9cc0:	0d 45 bd 3c 	wl16	r9,0x2dfc
     9cc4:	0d 60 01 23 	wh16	r9,0x3
     9cc8:	10 40 01 29 	ld32	r9,r9
-    9ccc:	0e 20 01 10 	rev8	r8,r16
+    9ccc:	01 60 01 10 	umulh	r8,r16
     9cd0:	20 70 03 e2 	movepc	rret,8
     9cd4:	14 30 d8 cf 	br	10 <compare>,#al
     9cd8:	00 10 00 41 	add	r2,1
@@ -10061,7 +10061,7 @@ Disassembly of section .text:
     9cf4:	0d 45 c1 20 	wl16	r9,0x2e00
     9cf8:	0d 60 01 23 	wh16	r9,0x3
     9cfc:	10 40 01 29 	ld32	r9,r9
-    9d00:	0e 20 01 10 	rev8	r8,r16
+    9d00:	01 60 01 10 	umulh	r8,r16
     9d04:	20 70 03 e2 	movepc	rret,8
     9d08:	14 30 d8 c2 	br	10 <compare>,#al
     9d0c:	00 10 00 41 	add	r2,1
@@ -10074,7 +10074,7 @@ Disassembly of section .text:
     9d28:	0d 45 c1 24 	wl16	r9,0x2e04
     9d2c:	0d 60 01 23 	wh16	r9,0x3
     9d30:	10 40 01 29 	ld32	r9,r9
-    9d34:	0e 20 01 10 	rev8	r8,r16
+    9d34:	01 60 01 10 	umulh	r8,r16
     9d38:	20 70 03 e2 	movepc	rret,8
     9d3c:	14 30 d8 b5 	br	10 <compare>,#al
     9d40:	00 10 00 41 	add	r2,1
@@ -10087,7 +10087,7 @@ Disassembly of section .text:
     9d5c:	0d 45 c1 28 	wl16	r9,0x2e08
     9d60:	0d 60 01 23 	wh16	r9,0x3
     9d64:	10 40 01 29 	ld32	r9,r9
-    9d68:	0e 20 01 10 	rev8	r8,r16
+    9d68:	01 60 01 10 	umulh	r8,r16
     9d6c:	20 70 03 e2 	movepc	rret,8
     9d70:	14 30 d8 a8 	br	10 <compare>,#al
     9d74:	00 10 00 41 	add	r2,1
@@ -10100,7 +10100,7 @@ Disassembly of section .text:
     9d90:	0d 45 c1 2c 	wl16	r9,0x2e0c
     9d94:	0d 60 01 23 	wh16	r9,0x3
     9d98:	10 40 01 29 	ld32	r9,r9
-    9d9c:	0e 20 01 10 	rev8	r8,r16
+    9d9c:	01 60 01 10 	umulh	r8,r16
     9da0:	20 70 03 e2 	movepc	rret,8
     9da4:	14 30 d8 9b 	br	10 <compare>,#al
     9da8:	00 10 00 41 	add	r2,1
@@ -10113,7 +10113,7 @@ Disassembly of section .text:
     9dc4:	0d 45 c1 30 	wl16	r9,0x2e10
     9dc8:	0d 60 01 23 	wh16	r9,0x3
     9dcc:	10 40 01 29 	ld32	r9,r9
-    9dd0:	0e 20 01 10 	rev8	r8,r16
+    9dd0:	01 60 01 10 	umulh	r8,r16
     9dd4:	20 70 03 e2 	movepc	rret,8
     9dd8:	14 30 d8 8e 	br	10 <compare>,#al
     9ddc:	00 10 00 41 	add	r2,1
@@ -10126,7 +10126,7 @@ Disassembly of section .text:
     9df8:	0d 45 c1 34 	wl16	r9,0x2e14
     9dfc:	0d 60 01 23 	wh16	r9,0x3
     9e00:	10 40 01 29 	ld32	r9,r9
-    9e04:	0e 20 01 10 	rev8	r8,r16
+    9e04:	01 60 01 10 	umulh	r8,r16
     9e08:	20 70 03 e2 	movepc	rret,8
     9e0c:	14 30 d8 81 	br	10 <compare>,#al
     9e10:	00 10 00 41 	add	r2,1
@@ -10139,7 +10139,7 @@ Disassembly of section .text:
     9e2c:	0d 45 c1 38 	wl16	r9,0x2e18
     9e30:	0d 60 01 23 	wh16	r9,0x3
     9e34:	10 40 01 29 	ld32	r9,r9
-    9e38:	0e 20 01 10 	rev8	r8,r16
+    9e38:	01 60 01 10 	umulh	r8,r16
     9e3c:	20 70 03 e2 	movepc	rret,8
     9e40:	14 30 d8 74 	br	10 <compare>,#al
     9e44:	00 10 00 41 	add	r2,1
@@ -10152,7 +10152,7 @@ Disassembly of section .text:
     9e60:	0d 45 c1 3c 	wl16	r9,0x2e1c
     9e64:	0d 60 01 23 	wh16	r9,0x3
     9e68:	10 40 01 29 	ld32	r9,r9
-    9e6c:	0e 20 01 10 	rev8	r8,r16
+    9e6c:	01 60 01 10 	umulh	r8,r16
     9e70:	20 70 03 e2 	movepc	rret,8
     9e74:	14 30 d8 67 	br	10 <compare>,#al
     9e78:	00 10 00 41 	add	r2,1
@@ -10165,7 +10165,7 @@ Disassembly of section .text:
     9e94:	0d 45 c5 20 	wl16	r9,0x2e20
     9e98:	0d 60 01 23 	wh16	r9,0x3
     9e9c:	10 40 01 29 	ld32	r9,r9
-    9ea0:	0e 20 01 10 	rev8	r8,r16
+    9ea0:	01 60 01 10 	umulh	r8,r16
     9ea4:	20 70 03 e2 	movepc	rret,8
     9ea8:	14 30 d8 5a 	br	10 <compare>,#al
     9eac:	00 10 00 41 	add	r2,1
@@ -10178,7 +10178,7 @@ Disassembly of section .text:
     9ec8:	0d 45 c5 24 	wl16	r9,0x2e24
     9ecc:	0d 60 01 23 	wh16	r9,0x3
     9ed0:	10 40 01 29 	ld32	r9,r9
-    9ed4:	0e 20 01 10 	rev8	r8,r16
+    9ed4:	01 60 01 10 	umulh	r8,r16
     9ed8:	20 70 03 e2 	movepc	rret,8
     9edc:	14 30 d8 4d 	br	10 <compare>,#al
     9ee0:	00 10 00 41 	add	r2,1
@@ -10191,7 +10191,7 @@ Disassembly of section .text:
     9efc:	0d 45 c5 28 	wl16	r9,0x2e28
     9f00:	0d 60 01 23 	wh16	r9,0x3
     9f04:	10 40 01 29 	ld32	r9,r9
-    9f08:	0e 20 01 10 	rev8	r8,r16
+    9f08:	01 60 01 10 	umulh	r8,r16
     9f0c:	20 70 03 e2 	movepc	rret,8
     9f10:	14 30 d8 40 	br	10 <compare>,#al
     9f14:	00 10 00 41 	add	r2,1
@@ -10204,7 +10204,7 @@ Disassembly of section .text:
     9f30:	0d 45 c5 2c 	wl16	r9,0x2e2c
     9f34:	0d 60 01 23 	wh16	r9,0x3
     9f38:	10 40 01 29 	ld32	r9,r9
-    9f3c:	0e 20 01 10 	rev8	r8,r16
+    9f3c:	01 60 01 10 	umulh	r8,r16
     9f40:	20 70 03 e2 	movepc	rret,8
     9f44:	14 30 d8 33 	br	10 <compare>,#al
     9f48:	00 10 00 41 	add	r2,1
@@ -10217,7 +10217,7 @@ Disassembly of section .text:
     9f64:	0d 45 c5 30 	wl16	r9,0x2e30
     9f68:	0d 60 01 23 	wh16	r9,0x3
     9f6c:	10 40 01 29 	ld32	r9,r9
-    9f70:	0e 20 01 10 	rev8	r8,r16
+    9f70:	01 60 01 10 	umulh	r8,r16
     9f74:	20 70 03 e2 	movepc	rret,8
     9f78:	14 30 d8 26 	br	10 <compare>,#al
     9f7c:	00 10 00 41 	add	r2,1
@@ -10230,7 +10230,7 @@ Disassembly of section .text:
     9f98:	0d 45 c5 34 	wl16	r9,0x2e34
     9f9c:	0d 60 01 23 	wh16	r9,0x3
     9fa0:	10 40 01 29 	ld32	r9,r9
-    9fa4:	0e 20 01 10 	rev8	r8,r16
+    9fa4:	01 60 01 10 	umulh	r8,r16
     9fa8:	20 70 03 e2 	movepc	rret,8
     9fac:	14 30 d8 19 	br	10 <compare>,#al
     9fb0:	00 10 00 41 	add	r2,1
@@ -10243,7 +10243,7 @@ Disassembly of section .text:
     9fcc:	0d 45 c5 38 	wl16	r9,0x2e38
     9fd0:	0d 60 01 23 	wh16	r9,0x3
     9fd4:	10 40 01 29 	ld32	r9,r9
-    9fd8:	0e 20 01 10 	rev8	r8,r16
+    9fd8:	01 60 01 10 	umulh	r8,r16
     9fdc:	20 70 03 e2 	movepc	rret,8
     9fe0:	14 30 d8 0c 	br	10 <compare>,#al
     9fe4:	00 10 00 41 	add	r2,1
@@ -10256,7 +10256,7 @@ Disassembly of section .text:
     a000:	0d 45 c5 3c 	wl16	r9,0x2e3c
     a004:	0d 60 01 23 	wh16	r9,0x3
     a008:	10 40 01 29 	ld32	r9,r9
-    a00c:	0e 20 01 10 	rev8	r8,r16
+    a00c:	01 60 01 10 	umulh	r8,r16
     a010:	20 70 03 e2 	movepc	rret,8
     a014:	14 30 d7 ff 	br	10 <compare>,#al
     a018:	00 10 00 41 	add	r2,1
@@ -10269,7 +10269,7 @@ Disassembly of section .text:
     a034:	0d 45 c9 20 	wl16	r9,0x2e40
     a038:	0d 60 01 23 	wh16	r9,0x3
     a03c:	10 40 01 29 	ld32	r9,r9
-    a040:	0e 20 01 10 	rev8	r8,r16
+    a040:	01 60 01 10 	umulh	r8,r16
     a044:	20 70 03 e2 	movepc	rret,8
     a048:	14 30 d7 f2 	br	10 <compare>,#al
     a04c:	00 10 00 41 	add	r2,1
@@ -10282,7 +10282,7 @@ Disassembly of section .text:
     a068:	0d 45 c9 24 	wl16	r9,0x2e44
     a06c:	0d 60 01 23 	wh16	r9,0x3
     a070:	10 40 01 29 	ld32	r9,r9
-    a074:	0e 20 01 10 	rev8	r8,r16
+    a074:	01 60 01 10 	umulh	r8,r16
     a078:	20 70 03 e2 	movepc	rret,8
     a07c:	14 30 d7 e5 	br	10 <compare>,#al
     a080:	00 10 00 41 	add	r2,1
@@ -10295,7 +10295,7 @@ Disassembly of section .text:
     a09c:	0d 45 c9 28 	wl16	r9,0x2e48
     a0a0:	0d 60 01 23 	wh16	r9,0x3
     a0a4:	10 40 01 29 	ld32	r9,r9
-    a0a8:	0e 20 01 10 	rev8	r8,r16
+    a0a8:	01 60 01 10 	umulh	r8,r16
     a0ac:	20 70 03 e2 	movepc	rret,8
     a0b0:	14 30 d7 d8 	br	10 <compare>,#al
     a0b4:	00 10 00 41 	add	r2,1
@@ -10308,7 +10308,7 @@ Disassembly of section .text:
     a0d0:	0d 45 c9 2c 	wl16	r9,0x2e4c
     a0d4:	0d 60 01 23 	wh16	r9,0x3
     a0d8:	10 40 01 29 	ld32	r9,r9
-    a0dc:	0e 20 01 10 	rev8	r8,r16
+    a0dc:	01 60 01 10 	umulh	r8,r16
     a0e0:	20 70 03 e2 	movepc	rret,8
     a0e4:	14 30 d7 cb 	br	10 <compare>,#al
     a0e8:	00 10 00 41 	add	r2,1
@@ -10321,7 +10321,7 @@ Disassembly of section .text:
     a104:	0d 45 c9 30 	wl16	r9,0x2e50
     a108:	0d 60 01 23 	wh16	r9,0x3
     a10c:	10 40 01 29 	ld32	r9,r9
-    a110:	0e 20 01 10 	rev8	r8,r16
+    a110:	01 60 01 10 	umulh	r8,r16
     a114:	20 70 03 e2 	movepc	rret,8
     a118:	14 30 d7 be 	br	10 <compare>,#al
     a11c:	00 10 00 41 	add	r2,1
@@ -10334,7 +10334,7 @@ Disassembly of section .text:
     a138:	0d 45 c9 34 	wl16	r9,0x2e54
     a13c:	0d 60 01 23 	wh16	r9,0x3
     a140:	10 40 01 29 	ld32	r9,r9
-    a144:	0e 20 01 10 	rev8	r8,r16
+    a144:	01 60 01 10 	umulh	r8,r16
     a148:	20 70 03 e2 	movepc	rret,8
     a14c:	14 30 d7 b1 	br	10 <compare>,#al
     a150:	00 10 00 41 	add	r2,1
@@ -10347,7 +10347,7 @@ Disassembly of section .text:
     a16c:	0d 45 c9 38 	wl16	r9,0x2e58
     a170:	0d 60 01 23 	wh16	r9,0x3
     a174:	10 40 01 29 	ld32	r9,r9
-    a178:	0e 20 01 10 	rev8	r8,r16
+    a178:	01 60 01 10 	umulh	r8,r16
     a17c:	20 70 03 e2 	movepc	rret,8
     a180:	14 30 d7 a4 	br	10 <compare>,#al
     a184:	00 10 00 41 	add	r2,1
@@ -10360,7 +10360,7 @@ Disassembly of section .text:
     a1a0:	0d 45 c9 3c 	wl16	r9,0x2e5c
     a1a4:	0d 60 01 23 	wh16	r9,0x3
     a1a8:	10 40 01 29 	ld32	r9,r9
-    a1ac:	0e 20 01 10 	rev8	r8,r16
+    a1ac:	01 60 01 10 	umulh	r8,r16
     a1b0:	20 70 03 e2 	movepc	rret,8
     a1b4:	14 30 d7 97 	br	10 <compare>,#al
     a1b8:	00 10 00 41 	add	r2,1
@@ -10373,7 +10373,7 @@ Disassembly of section .text:
     a1d4:	0d 45 cd 20 	wl16	r9,0x2e60
     a1d8:	0d 60 01 23 	wh16	r9,0x3
     a1dc:	10 40 01 29 	ld32	r9,r9
-    a1e0:	0e 20 01 10 	rev8	r8,r16
+    a1e0:	01 60 01 10 	umulh	r8,r16
     a1e4:	20 70 03 e2 	movepc	rret,8
     a1e8:	14 30 d7 8a 	br	10 <compare>,#al
     a1ec:	00 10 00 41 	add	r2,1
@@ -10386,7 +10386,7 @@ Disassembly of section .text:
     a208:	0d 45 cd 24 	wl16	r9,0x2e64
     a20c:	0d 60 01 23 	wh16	r9,0x3
     a210:	10 40 01 29 	ld32	r9,r9
-    a214:	0e 20 01 10 	rev8	r8,r16
+    a214:	01 60 01 10 	umulh	r8,r16
     a218:	20 70 03 e2 	movepc	rret,8
     a21c:	14 30 d7 7d 	br	10 <compare>,#al
     a220:	00 10 00 41 	add	r2,1
@@ -10399,7 +10399,7 @@ Disassembly of section .text:
     a23c:	0d 45 cd 28 	wl16	r9,0x2e68
     a240:	0d 60 01 23 	wh16	r9,0x3
     a244:	10 40 01 29 	ld32	r9,r9
-    a248:	0e 20 01 10 	rev8	r8,r16
+    a248:	01 60 01 10 	umulh	r8,r16
     a24c:	20 70 03 e2 	movepc	rret,8
     a250:	14 30 d7 70 	br	10 <compare>,#al
     a254:	00 10 00 41 	add	r2,1
@@ -10412,7 +10412,7 @@ Disassembly of section .text:
     a270:	0d 45 cd 2c 	wl16	r9,0x2e6c
     a274:	0d 60 01 23 	wh16	r9,0x3
     a278:	10 40 01 29 	ld32	r9,r9
-    a27c:	0e 20 01 10 	rev8	r8,r16
+    a27c:	01 60 01 10 	umulh	r8,r16
     a280:	20 70 03 e2 	movepc	rret,8
     a284:	14 30 d7 63 	br	10 <compare>,#al
     a288:	00 10 00 41 	add	r2,1
@@ -10425,7 +10425,7 @@ Disassembly of section .text:
     a2a4:	0d 45 cd 30 	wl16	r9,0x2e70
     a2a8:	0d 60 01 23 	wh16	r9,0x3
     a2ac:	10 40 01 29 	ld32	r9,r9
-    a2b0:	0e 20 01 10 	rev8	r8,r16
+    a2b0:	01 60 01 10 	umulh	r8,r16
     a2b4:	20 70 03 e2 	movepc	rret,8
     a2b8:	14 30 d7 56 	br	10 <compare>,#al
     a2bc:	00 10 00 41 	add	r2,1
@@ -10438,7 +10438,7 @@ Disassembly of section .text:
     a2d8:	0d 45 cd 34 	wl16	r9,0x2e74
     a2dc:	0d 60 01 23 	wh16	r9,0x3
     a2e0:	10 40 01 29 	ld32	r9,r9
-    a2e4:	0e 20 01 10 	rev8	r8,r16
+    a2e4:	01 60 01 10 	umulh	r8,r16
     a2e8:	20 70 03 e2 	movepc	rret,8
     a2ec:	14 30 d7 49 	br	10 <compare>,#al
     a2f0:	00 10 00 41 	add	r2,1
@@ -10451,7 +10451,7 @@ Disassembly of section .text:
     a30c:	0d 45 cd 38 	wl16	r9,0x2e78
     a310:	0d 60 01 23 	wh16	r9,0x3
     a314:	10 40 01 29 	ld32	r9,r9
-    a318:	0e 20 01 10 	rev8	r8,r16
+    a318:	01 60 01 10 	umulh	r8,r16
     a31c:	20 70 03 e2 	movepc	rret,8
     a320:	14 30 d7 3c 	br	10 <compare>,#al
     a324:	00 10 00 41 	add	r2,1
@@ -10464,7 +10464,7 @@ Disassembly of section .text:
     a340:	0d 45 cd 3c 	wl16	r9,0x2e7c
     a344:	0d 60 01 23 	wh16	r9,0x3
     a348:	10 40 01 29 	ld32	r9,r9
-    a34c:	0e 20 01 10 	rev8	r8,r16
+    a34c:	01 60 01 10 	umulh	r8,r16
     a350:	20 70 03 e2 	movepc	rret,8
     a354:	14 30 d7 2f 	br	10 <compare>,#al
     a358:	00 10 00 41 	add	r2,1
@@ -10477,7 +10477,7 @@ Disassembly of section .text:
     a374:	0d 45 d1 20 	wl16	r9,0x2e80
     a378:	0d 60 01 23 	wh16	r9,0x3
     a37c:	10 40 01 29 	ld32	r9,r9
-    a380:	0e 20 01 10 	rev8	r8,r16
+    a380:	01 60 01 10 	umulh	r8,r16
     a384:	20 70 03 e2 	movepc	rret,8
     a388:	14 30 d7 22 	br	10 <compare>,#al
     a38c:	00 10 00 41 	add	r2,1
@@ -10490,7 +10490,7 @@ Disassembly of section .text:
     a3a8:	0d 45 d1 24 	wl16	r9,0x2e84
     a3ac:	0d 60 01 23 	wh16	r9,0x3
     a3b0:	10 40 01 29 	ld32	r9,r9
-    a3b4:	0e 20 01 10 	rev8	r8,r16
+    a3b4:	01 60 01 10 	umulh	r8,r16
     a3b8:	20 70 03 e2 	movepc	rret,8
     a3bc:	14 30 d7 15 	br	10 <compare>,#al
     a3c0:	00 10 00 41 	add	r2,1
@@ -10503,7 +10503,7 @@ Disassembly of section .text:
     a3dc:	0d 45 d1 28 	wl16	r9,0x2e88
     a3e0:	0d 60 01 23 	wh16	r9,0x3
     a3e4:	10 40 01 29 	ld32	r9,r9
-    a3e8:	0e 20 01 10 	rev8	r8,r16
+    a3e8:	01 60 01 10 	umulh	r8,r16
     a3ec:	20 70 03 e2 	movepc	rret,8
     a3f0:	14 30 d7 08 	br	10 <compare>,#al
     a3f4:	00 10 00 41 	add	r2,1
@@ -10516,7 +10516,7 @@ Disassembly of section .text:
     a410:	0d 45 d1 2c 	wl16	r9,0x2e8c
     a414:	0d 60 01 23 	wh16	r9,0x3
     a418:	10 40 01 29 	ld32	r9,r9
-    a41c:	0e 20 01 10 	rev8	r8,r16
+    a41c:	01 60 01 10 	umulh	r8,r16
     a420:	20 70 03 e2 	movepc	rret,8
     a424:	14 30 d6 fb 	br	10 <compare>,#al
     a428:	00 10 00 41 	add	r2,1
@@ -10529,7 +10529,7 @@ Disassembly of section .text:
     a444:	0d 45 d1 30 	wl16	r9,0x2e90
     a448:	0d 60 01 23 	wh16	r9,0x3
     a44c:	10 40 01 29 	ld32	r9,r9
-    a450:	0e 20 01 10 	rev8	r8,r16
+    a450:	01 60 01 10 	umulh	r8,r16
     a454:	20 70 03 e2 	movepc	rret,8
     a458:	14 30 d6 ee 	br	10 <compare>,#al
     a45c:	00 10 00 41 	add	r2,1
@@ -10542,7 +10542,7 @@ Disassembly of section .text:
     a478:	0d 45 d1 34 	wl16	r9,0x2e94
     a47c:	0d 60 01 23 	wh16	r9,0x3
     a480:	10 40 01 29 	ld32	r9,r9
-    a484:	0e 20 01 10 	rev8	r8,r16
+    a484:	01 60 01 10 	umulh	r8,r16
     a488:	20 70 03 e2 	movepc	rret,8
     a48c:	14 30 d6 e1 	br	10 <compare>,#al
     a490:	00 10 00 41 	add	r2,1
@@ -10555,7 +10555,7 @@ Disassembly of section .text:
     a4ac:	0d 45 d1 38 	wl16	r9,0x2e98
     a4b0:	0d 60 01 23 	wh16	r9,0x3
     a4b4:	10 40 01 29 	ld32	r9,r9
-    a4b8:	0e 20 01 10 	rev8	r8,r16
+    a4b8:	01 60 01 10 	umulh	r8,r16
     a4bc:	20 70 03 e2 	movepc	rret,8
     a4c0:	14 30 d6 d4 	br	10 <compare>,#al
     a4c4:	00 10 00 41 	add	r2,1
@@ -10568,7 +10568,7 @@ Disassembly of section .text:
     a4e0:	0d 45 d1 3c 	wl16	r9,0x2e9c
     a4e4:	0d 60 01 23 	wh16	r9,0x3
     a4e8:	10 40 01 29 	ld32	r9,r9
-    a4ec:	0e 20 01 10 	rev8	r8,r16
+    a4ec:	01 60 01 10 	umulh	r8,r16
     a4f0:	20 70 03 e2 	movepc	rret,8
     a4f4:	14 30 d6 c7 	br	10 <compare>,#al
     a4f8:	00 10 00 41 	add	r2,1
@@ -10581,7 +10581,7 @@ Disassembly of section .text:
     a514:	0d 45 d5 20 	wl16	r9,0x2ea0
     a518:	0d 60 01 23 	wh16	r9,0x3
     a51c:	10 40 01 29 	ld32	r9,r9
-    a520:	0e 20 01 10 	rev8	r8,r16
+    a520:	01 60 01 10 	umulh	r8,r16
     a524:	20 70 03 e2 	movepc	rret,8
     a528:	14 30 d6 ba 	br	10 <compare>,#al
     a52c:	00 10 00 41 	add	r2,1
@@ -10594,7 +10594,7 @@ Disassembly of section .text:
     a548:	0d 45 d5 24 	wl16	r9,0x2ea4
     a54c:	0d 60 01 23 	wh16	r9,0x3
     a550:	10 40 01 29 	ld32	r9,r9
-    a554:	0e 20 01 10 	rev8	r8,r16
+    a554:	01 60 01 10 	umulh	r8,r16
     a558:	20 70 03 e2 	movepc	rret,8
     a55c:	14 30 d6 ad 	br	10 <compare>,#al
     a560:	00 10 00 41 	add	r2,1
@@ -10607,7 +10607,7 @@ Disassembly of section .text:
     a57c:	0d 45 d5 28 	wl16	r9,0x2ea8
     a580:	0d 60 01 23 	wh16	r9,0x3
     a584:	10 40 01 29 	ld32	r9,r9
-    a588:	0e 20 01 10 	rev8	r8,r16
+    a588:	01 60 01 10 	umulh	r8,r16
     a58c:	20 70 03 e2 	movepc	rret,8
     a590:	14 30 d6 a0 	br	10 <compare>,#al
     a594:	00 10 00 41 	add	r2,1
@@ -10620,7 +10620,7 @@ Disassembly of section .text:
     a5b0:	0d 45 d5 2c 	wl16	r9,0x2eac
     a5b4:	0d 60 01 23 	wh16	r9,0x3
     a5b8:	10 40 01 29 	ld32	r9,r9
-    a5bc:	0e 20 01 10 	rev8	r8,r16
+    a5bc:	01 60 01 10 	umulh	r8,r16
     a5c0:	20 70 03 e2 	movepc	rret,8
     a5c4:	14 30 d6 93 	br	10 <compare>,#al
     a5c8:	00 10 00 41 	add	r2,1
@@ -10633,7 +10633,7 @@ Disassembly of section .text:
     a5e4:	0d 45 d5 30 	wl16	r9,0x2eb0
     a5e8:	0d 60 01 23 	wh16	r9,0x3
     a5ec:	10 40 01 29 	ld32	r9,r9
-    a5f0:	0e 20 01 10 	rev8	r8,r16
+    a5f0:	01 60 01 10 	umulh	r8,r16
     a5f4:	20 70 03 e2 	movepc	rret,8
     a5f8:	14 30 d6 86 	br	10 <compare>,#al
     a5fc:	00 10 00 41 	add	r2,1
@@ -10646,7 +10646,7 @@ Disassembly of section .text:
     a618:	0d 45 d5 34 	wl16	r9,0x2eb4
     a61c:	0d 60 01 23 	wh16	r9,0x3
     a620:	10 40 01 29 	ld32	r9,r9
-    a624:	0e 20 01 10 	rev8	r8,r16
+    a624:	01 60 01 10 	umulh	r8,r16
     a628:	20 70 03 e2 	movepc	rret,8
     a62c:	14 30 d6 79 	br	10 <compare>,#al
     a630:	00 10 00 41 	add	r2,1
@@ -10659,7 +10659,7 @@ Disassembly of section .text:
     a64c:	0d 45 d5 38 	wl16	r9,0x2eb8
     a650:	0d 60 01 23 	wh16	r9,0x3
     a654:	10 40 01 29 	ld32	r9,r9
-    a658:	0e 20 01 10 	rev8	r8,r16
+    a658:	01 60 01 10 	umulh	r8,r16
     a65c:	20 70 03 e2 	movepc	rret,8
     a660:	14 30 d6 6c 	br	10 <compare>,#al
     a664:	00 10 00 41 	add	r2,1
@@ -10672,7 +10672,7 @@ Disassembly of section .text:
     a680:	0d 45 d5 3c 	wl16	r9,0x2ebc
     a684:	0d 60 01 23 	wh16	r9,0x3
     a688:	10 40 01 29 	ld32	r9,r9
-    a68c:	0e 20 01 10 	rev8	r8,r16
+    a68c:	01 60 01 10 	umulh	r8,r16
     a690:	20 70 03 e2 	movepc	rret,8
     a694:	14 30 d6 5f 	br	10 <compare>,#al
     a698:	00 10 00 41 	add	r2,1
@@ -10685,7 +10685,7 @@ Disassembly of section .text:
     a6b4:	0d 45 d9 20 	wl16	r9,0x2ec0
     a6b8:	0d 60 01 23 	wh16	r9,0x3
     a6bc:	10 40 01 29 	ld32	r9,r9
-    a6c0:	0e 20 01 10 	rev8	r8,r16
+    a6c0:	01 60 01 10 	umulh	r8,r16
     a6c4:	20 70 03 e2 	movepc	rret,8
     a6c8:	14 30 d6 52 	br	10 <compare>,#al
     a6cc:	00 10 00 41 	add	r2,1
@@ -10698,7 +10698,7 @@ Disassembly of section .text:
     a6e8:	0d 45 d9 24 	wl16	r9,0x2ec4
     a6ec:	0d 60 01 23 	wh16	r9,0x3
     a6f0:	10 40 01 29 	ld32	r9,r9
-    a6f4:	0e 20 01 10 	rev8	r8,r16
+    a6f4:	01 60 01 10 	umulh	r8,r16
     a6f8:	20 70 03 e2 	movepc	rret,8
     a6fc:	14 30 d6 45 	br	10 <compare>,#al
     a700:	00 10 00 41 	add	r2,1
@@ -10711,7 +10711,7 @@ Disassembly of section .text:
     a71c:	0d 45 d9 28 	wl16	r9,0x2ec8
     a720:	0d 60 01 23 	wh16	r9,0x3
     a724:	10 40 01 29 	ld32	r9,r9
-    a728:	0e 20 01 10 	rev8	r8,r16
+    a728:	01 60 01 10 	umulh	r8,r16
     a72c:	20 70 03 e2 	movepc	rret,8
     a730:	14 30 d6 38 	br	10 <compare>,#al
     a734:	00 10 00 41 	add	r2,1
@@ -10724,7 +10724,7 @@ Disassembly of section .text:
     a750:	0d 45 d9 2c 	wl16	r9,0x2ecc
     a754:	0d 60 01 23 	wh16	r9,0x3
     a758:	10 40 01 29 	ld32	r9,r9
-    a75c:	0e 20 01 10 	rev8	r8,r16
+    a75c:	01 60 01 10 	umulh	r8,r16
     a760:	20 70 03 e2 	movepc	rret,8
     a764:	14 30 d6 2b 	br	10 <compare>,#al
     a768:	00 10 00 41 	add	r2,1
@@ -10737,7 +10737,7 @@ Disassembly of section .text:
     a784:	0d 45 d9 30 	wl16	r9,0x2ed0
     a788:	0d 60 01 23 	wh16	r9,0x3
     a78c:	10 40 01 29 	ld32	r9,r9
-    a790:	0e 20 01 10 	rev8	r8,r16
+    a790:	01 60 01 10 	umulh	r8,r16
     a794:	20 70 03 e2 	movepc	rret,8
     a798:	14 30 d6 1e 	br	10 <compare>,#al
     a79c:	00 10 00 41 	add	r2,1
@@ -10750,7 +10750,7 @@ Disassembly of section .text:
     a7b8:	0d 45 d9 34 	wl16	r9,0x2ed4
     a7bc:	0d 60 01 23 	wh16	r9,0x3
     a7c0:	10 40 01 29 	ld32	r9,r9
-    a7c4:	0e 20 01 10 	rev8	r8,r16
+    a7c4:	01 60 01 10 	umulh	r8,r16
     a7c8:	20 70 03 e2 	movepc	rret,8
     a7cc:	14 30 d6 11 	br	10 <compare>,#al
     a7d0:	00 10 00 41 	add	r2,1
@@ -10763,7 +10763,7 @@ Disassembly of section .text:
     a7ec:	0d 45 d9 38 	wl16	r9,0x2ed8
     a7f0:	0d 60 01 23 	wh16	r9,0x3
     a7f4:	10 40 01 29 	ld32	r9,r9
-    a7f8:	0e 20 01 10 	rev8	r8,r16
+    a7f8:	01 60 01 10 	umulh	r8,r16
     a7fc:	20 70 03 e2 	movepc	rret,8
     a800:	14 30 d6 04 	br	10 <compare>,#al
     a804:	00 10 00 41 	add	r2,1
@@ -10776,7 +10776,7 @@ Disassembly of section .text:
     a820:	0d 45 d9 3c 	wl16	r9,0x2edc
     a824:	0d 60 01 23 	wh16	r9,0x3
     a828:	10 40 01 29 	ld32	r9,r9
-    a82c:	0e 20 01 10 	rev8	r8,r16
+    a82c:	01 60 01 10 	umulh	r8,r16
     a830:	20 70 03 e2 	movepc	rret,8
     a834:	14 30 d5 f7 	br	10 <compare>,#al
     a838:	00 10 00 41 	add	r2,1
@@ -10789,7 +10789,7 @@ Disassembly of section .text:
     a854:	0d 45 dd 20 	wl16	r9,0x2ee0
     a858:	0d 60 01 23 	wh16	r9,0x3
     a85c:	10 40 01 29 	ld32	r9,r9
-    a860:	0e 20 01 10 	rev8	r8,r16
+    a860:	01 60 01 10 	umulh	r8,r16
     a864:	20 70 03 e2 	movepc	rret,8
     a868:	14 30 d5 ea 	br	10 <compare>,#al
     a86c:	00 10 00 41 	add	r2,1
@@ -10802,7 +10802,7 @@ Disassembly of section .text:
     a888:	0d 45 dd 24 	wl16	r9,0x2ee4
     a88c:	0d 60 01 23 	wh16	r9,0x3
     a890:	10 40 01 29 	ld32	r9,r9
-    a894:	0e 20 01 10 	rev8	r8,r16
+    a894:	01 60 01 10 	umulh	r8,r16
     a898:	20 70 03 e2 	movepc	rret,8
     a89c:	14 30 d5 dd 	br	10 <compare>,#al
     a8a0:	00 10 00 41 	add	r2,1
@@ -10815,7 +10815,7 @@ Disassembly of section .text:
     a8bc:	0d 45 dd 28 	wl16	r9,0x2ee8
     a8c0:	0d 60 01 23 	wh16	r9,0x3
     a8c4:	10 40 01 29 	ld32	r9,r9
-    a8c8:	0e 20 01 10 	rev8	r8,r16
+    a8c8:	01 60 01 10 	umulh	r8,r16
     a8cc:	20 70 03 e2 	movepc	rret,8
     a8d0:	14 30 d5 d0 	br	10 <compare>,#al
     a8d4:	00 10 00 41 	add	r2,1
@@ -10828,7 +10828,7 @@ Disassembly of section .text:
     a8f0:	0d 45 dd 2c 	wl16	r9,0x2eec
     a8f4:	0d 60 01 23 	wh16	r9,0x3
     a8f8:	10 40 01 29 	ld32	r9,r9
-    a8fc:	0e 20 01 10 	rev8	r8,r16
+    a8fc:	01 60 01 10 	umulh	r8,r16
     a900:	20 70 03 e2 	movepc	rret,8
     a904:	14 30 d5 c3 	br	10 <compare>,#al
     a908:	00 10 00 41 	add	r2,1
@@ -10841,7 +10841,7 @@ Disassembly of section .text:
     a924:	0d 45 dd 30 	wl16	r9,0x2ef0
     a928:	0d 60 01 23 	wh16	r9,0x3
     a92c:	10 40 01 29 	ld32	r9,r9
-    a930:	0e 20 01 10 	rev8	r8,r16
+    a930:	01 60 01 10 	umulh	r8,r16
     a934:	20 70 03 e2 	movepc	rret,8
     a938:	14 30 d5 b6 	br	10 <compare>,#al
     a93c:	00 10 00 41 	add	r2,1
@@ -10854,7 +10854,7 @@ Disassembly of section .text:
     a958:	0d 45 dd 34 	wl16	r9,0x2ef4
     a95c:	0d 60 01 23 	wh16	r9,0x3
     a960:	10 40 01 29 	ld32	r9,r9
-    a964:	0e 20 01 10 	rev8	r8,r16
+    a964:	01 60 01 10 	umulh	r8,r16
     a968:	20 70 03 e2 	movepc	rret,8
     a96c:	14 30 d5 a9 	br	10 <compare>,#al
     a970:	00 10 00 41 	add	r2,1
@@ -10867,7 +10867,7 @@ Disassembly of section .text:
     a98c:	0d 45 dd 38 	wl16	r9,0x2ef8
     a990:	0d 60 01 23 	wh16	r9,0x3
     a994:	10 40 01 29 	ld32	r9,r9
-    a998:	0e 20 01 10 	rev8	r8,r16
+    a998:	01 60 01 10 	umulh	r8,r16
     a99c:	20 70 03 e2 	movepc	rret,8
     a9a0:	14 30 d5 9c 	br	10 <compare>,#al
     a9a4:	00 10 00 41 	add	r2,1
@@ -10880,7 +10880,7 @@ Disassembly of section .text:
     a9c0:	0d 45 dd 3c 	wl16	r9,0x2efc
     a9c4:	0d 60 01 23 	wh16	r9,0x3
     a9c8:	10 40 01 29 	ld32	r9,r9
-    a9cc:	0e 20 01 10 	rev8	r8,r16
+    a9cc:	01 60 01 10 	umulh	r8,r16
     a9d0:	20 70 03 e2 	movepc	rret,8
     a9d4:	14 30 d5 8f 	br	10 <compare>,#al
     a9d8:	00 10 00 41 	add	r2,1
@@ -10893,7 +10893,7 @@ Disassembly of section .text:
     a9f4:	0d 45 e1 20 	wl16	r9,0x2f00
     a9f8:	0d 60 01 23 	wh16	r9,0x3
     a9fc:	10 40 01 29 	ld32	r9,r9
-    aa00:	0e 20 01 10 	rev8	r8,r16
+    aa00:	01 60 01 10 	umulh	r8,r16
     aa04:	20 70 03 e2 	movepc	rret,8
     aa08:	14 30 d5 82 	br	10 <compare>,#al
     aa0c:	00 10 00 41 	add	r2,1
@@ -10906,7 +10906,7 @@ Disassembly of section .text:
     aa28:	0d 45 e1 24 	wl16	r9,0x2f04
     aa2c:	0d 60 01 23 	wh16	r9,0x3
     aa30:	10 40 01 29 	ld32	r9,r9
-    aa34:	0e 20 01 10 	rev8	r8,r16
+    aa34:	01 60 01 10 	umulh	r8,r16
     aa38:	20 70 03 e2 	movepc	rret,8
     aa3c:	14 30 d5 75 	br	10 <compare>,#al
     aa40:	00 10 00 41 	add	r2,1
@@ -10919,7 +10919,7 @@ Disassembly of section .text:
     aa5c:	0d 45 e1 28 	wl16	r9,0x2f08
     aa60:	0d 60 01 23 	wh16	r9,0x3
     aa64:	10 40 01 29 	ld32	r9,r9
-    aa68:	0e 20 01 10 	rev8	r8,r16
+    aa68:	01 60 01 10 	umulh	r8,r16
     aa6c:	20 70 03 e2 	movepc	rret,8
     aa70:	14 30 d5 68 	br	10 <compare>,#al
     aa74:	00 10 00 41 	add	r2,1
@@ -10932,7 +10932,7 @@ Disassembly of section .text:
     aa90:	0d 45 e1 2c 	wl16	r9,0x2f0c
     aa94:	0d 60 01 23 	wh16	r9,0x3
     aa98:	10 40 01 29 	ld32	r9,r9
-    aa9c:	0e 20 01 10 	rev8	r8,r16
+    aa9c:	01 60 01 10 	umulh	r8,r16
     aaa0:	20 70 03 e2 	movepc	rret,8
     aaa4:	14 30 d5 5b 	br	10 <compare>,#al
     aaa8:	00 10 00 41 	add	r2,1
@@ -10945,7 +10945,7 @@ Disassembly of section .text:
     aac4:	0d 45 e1 30 	wl16	r9,0x2f10
     aac8:	0d 60 01 23 	wh16	r9,0x3
     aacc:	10 40 01 29 	ld32	r9,r9
-    aad0:	0e 20 01 10 	rev8	r8,r16
+    aad0:	01 60 01 10 	umulh	r8,r16
     aad4:	20 70 03 e2 	movepc	rret,8
     aad8:	14 30 d5 4e 	br	10 <compare>,#al
     aadc:	00 10 00 41 	add	r2,1
@@ -10958,7 +10958,7 @@ Disassembly of section .text:
     aaf8:	0d 45 e1 34 	wl16	r9,0x2f14
     aafc:	0d 60 01 23 	wh16	r9,0x3
     ab00:	10 40 01 29 	ld32	r9,r9
-    ab04:	0e 20 01 10 	rev8	r8,r16
+    ab04:	01 60 01 10 	umulh	r8,r16
     ab08:	20 70 03 e2 	movepc	rret,8
     ab0c:	14 30 d5 41 	br	10 <compare>,#al
     ab10:	00 10 00 41 	add	r2,1
@@ -10971,7 +10971,7 @@ Disassembly of section .text:
     ab2c:	0d 45 e1 38 	wl16	r9,0x2f18
     ab30:	0d 60 01 23 	wh16	r9,0x3
     ab34:	10 40 01 29 	ld32	r9,r9
-    ab38:	0e 20 01 10 	rev8	r8,r16
+    ab38:	01 60 01 10 	umulh	r8,r16
     ab3c:	20 70 03 e2 	movepc	rret,8
     ab40:	14 30 d5 34 	br	10 <compare>,#al
     ab44:	00 10 00 41 	add	r2,1
@@ -10984,7 +10984,7 @@ Disassembly of section .text:
     ab60:	0d 45 e1 3c 	wl16	r9,0x2f1c
     ab64:	0d 60 01 23 	wh16	r9,0x3
     ab68:	10 40 01 29 	ld32	r9,r9
-    ab6c:	0e 20 01 10 	rev8	r8,r16
+    ab6c:	01 60 01 10 	umulh	r8,r16
     ab70:	20 70 03 e2 	movepc	rret,8
     ab74:	14 30 d5 27 	br	10 <compare>,#al
     ab78:	00 10 00 41 	add	r2,1
@@ -10997,7 +10997,7 @@ Disassembly of section .text:
     ab94:	0d 45 e5 20 	wl16	r9,0x2f20
     ab98:	0d 60 01 23 	wh16	r9,0x3
     ab9c:	10 40 01 29 	ld32	r9,r9
-    aba0:	0e 20 01 10 	rev8	r8,r16
+    aba0:	01 60 01 10 	umulh	r8,r16
     aba4:	20 70 03 e2 	movepc	rret,8
     aba8:	14 30 d5 1a 	br	10 <compare>,#al
     abac:	00 10 00 41 	add	r2,1
@@ -11010,7 +11010,7 @@ Disassembly of section .text:
     abc8:	0d 45 e5 24 	wl16	r9,0x2f24
     abcc:	0d 60 01 23 	wh16	r9,0x3
     abd0:	10 40 01 29 	ld32	r9,r9
-    abd4:	0e 20 01 10 	rev8	r8,r16
+    abd4:	01 60 01 10 	umulh	r8,r16
     abd8:	20 70 03 e2 	movepc	rret,8
     abdc:	14 30 d5 0d 	br	10 <compare>,#al
     abe0:	00 10 00 41 	add	r2,1
@@ -11023,7 +11023,7 @@ Disassembly of section .text:
     abfc:	0d 45 e5 28 	wl16	r9,0x2f28
     ac00:	0d 60 01 23 	wh16	r9,0x3
     ac04:	10 40 01 29 	ld32	r9,r9
-    ac08:	0e 20 01 10 	rev8	r8,r16
+    ac08:	01 60 01 10 	umulh	r8,r16
     ac0c:	20 70 03 e2 	movepc	rret,8
     ac10:	14 30 d5 00 	br	10 <compare>,#al
     ac14:	00 10 00 41 	add	r2,1
@@ -11036,7 +11036,7 @@ Disassembly of section .text:
     ac30:	0d 45 e5 2c 	wl16	r9,0x2f2c
     ac34:	0d 60 01 23 	wh16	r9,0x3
     ac38:	10 40 01 29 	ld32	r9,r9
-    ac3c:	0e 20 01 10 	rev8	r8,r16
+    ac3c:	01 60 01 10 	umulh	r8,r16
     ac40:	20 70 03 e2 	movepc	rret,8
     ac44:	14 30 d4 f3 	br	10 <compare>,#al
     ac48:	00 10 00 41 	add	r2,1
@@ -11049,7 +11049,7 @@ Disassembly of section .text:
     ac64:	0d 45 e5 30 	wl16	r9,0x2f30
     ac68:	0d 60 01 23 	wh16	r9,0x3
     ac6c:	10 40 01 29 	ld32	r9,r9
-    ac70:	0e 20 01 10 	rev8	r8,r16
+    ac70:	01 60 01 10 	umulh	r8,r16
     ac74:	20 70 03 e2 	movepc	rret,8
     ac78:	14 30 d4 e6 	br	10 <compare>,#al
     ac7c:	00 10 00 41 	add	r2,1
@@ -11062,7 +11062,7 @@ Disassembly of section .text:
     ac98:	0d 45 e5 34 	wl16	r9,0x2f34
     ac9c:	0d 60 01 23 	wh16	r9,0x3
     aca0:	10 40 01 29 	ld32	r9,r9
-    aca4:	0e 20 01 10 	rev8	r8,r16
+    aca4:	01 60 01 10 	umulh	r8,r16
     aca8:	20 70 03 e2 	movepc	rret,8
     acac:	14 30 d4 d9 	br	10 <compare>,#al
     acb0:	00 10 00 41 	add	r2,1
@@ -11075,7 +11075,7 @@ Disassembly of section .text:
     accc:	0d 45 e5 38 	wl16	r9,0x2f38
     acd0:	0d 60 01 23 	wh16	r9,0x3
     acd4:	10 40 01 29 	ld32	r9,r9
-    acd8:	0e 20 01 10 	rev8	r8,r16
+    acd8:	01 60 01 10 	umulh	r8,r16
     acdc:	20 70 03 e2 	movepc	rret,8
     ace0:	14 30 d4 cc 	br	10 <compare>,#al
     ace4:	00 10 00 41 	add	r2,1
@@ -11088,7 +11088,7 @@ Disassembly of section .text:
     ad00:	0d 45 e5 3c 	wl16	r9,0x2f3c
     ad04:	0d 60 01 23 	wh16	r9,0x3
     ad08:	10 40 01 29 	ld32	r9,r9
-    ad0c:	0e 20 01 10 	rev8	r8,r16
+    ad0c:	01 60 01 10 	umulh	r8,r16
     ad10:	20 70 03 e2 	movepc	rret,8
     ad14:	14 30 d4 bf 	br	10 <compare>,#al
     ad18:	00 10 00 41 	add	r2,1
@@ -11101,7 +11101,7 @@ Disassembly of section .text:
     ad34:	0d 45 e9 20 	wl16	r9,0x2f40
     ad38:	0d 60 01 23 	wh16	r9,0x3
     ad3c:	10 40 01 29 	ld32	r9,r9
-    ad40:	0e 20 01 10 	rev8	r8,r16
+    ad40:	01 60 01 10 	umulh	r8,r16
     ad44:	20 70 03 e2 	movepc	rret,8
     ad48:	14 30 d4 b2 	br	10 <compare>,#al
     ad4c:	00 10 00 41 	add	r2,1
@@ -11114,7 +11114,7 @@ Disassembly of section .text:
     ad68:	0d 45 e9 24 	wl16	r9,0x2f44
     ad6c:	0d 60 01 23 	wh16	r9,0x3
     ad70:	10 40 01 29 	ld32	r9,r9
-    ad74:	0e 20 01 10 	rev8	r8,r16
+    ad74:	01 60 01 10 	umulh	r8,r16
     ad78:	20 70 03 e2 	movepc	rret,8
     ad7c:	14 30 d4 a5 	br	10 <compare>,#al
     ad80:	00 10 00 41 	add	r2,1
@@ -11127,7 +11127,7 @@ Disassembly of section .text:
     ad9c:	0d 45 e9 28 	wl16	r9,0x2f48
     ada0:	0d 60 01 23 	wh16	r9,0x3
     ada4:	10 40 01 29 	ld32	r9,r9
-    ada8:	0e 20 01 10 	rev8	r8,r16
+    ada8:	01 60 01 10 	umulh	r8,r16
     adac:	20 70 03 e2 	movepc	rret,8
     adb0:	14 30 d4 98 	br	10 <compare>,#al
     adb4:	00 10 00 41 	add	r2,1
@@ -11140,7 +11140,7 @@ Disassembly of section .text:
     add0:	0d 45 e9 2c 	wl16	r9,0x2f4c
     add4:	0d 60 01 23 	wh16	r9,0x3
     add8:	10 40 01 29 	ld32	r9,r9
-    addc:	0e 20 01 10 	rev8	r8,r16
+    addc:	01 60 01 10 	umulh	r8,r16
     ade0:	20 70 03 e2 	movepc	rret,8
     ade4:	14 30 d4 8b 	br	10 <compare>,#al
     ade8:	00 10 00 41 	add	r2,1
@@ -11153,7 +11153,7 @@ Disassembly of section .text:
     ae04:	0d 45 e9 30 	wl16	r9,0x2f50
     ae08:	0d 60 01 23 	wh16	r9,0x3
     ae0c:	10 40 01 29 	ld32	r9,r9
-    ae10:	0e 20 01 10 	rev8	r8,r16
+    ae10:	01 60 01 10 	umulh	r8,r16
     ae14:	20 70 03 e2 	movepc	rret,8
     ae18:	14 30 d4 7e 	br	10 <compare>,#al
     ae1c:	00 10 00 41 	add	r2,1
@@ -11166,7 +11166,7 @@ Disassembly of section .text:
     ae38:	0d 45 e9 34 	wl16	r9,0x2f54
     ae3c:	0d 60 01 23 	wh16	r9,0x3
     ae40:	10 40 01 29 	ld32	r9,r9
-    ae44:	0e 20 01 10 	rev8	r8,r16
+    ae44:	01 60 01 10 	umulh	r8,r16
     ae48:	20 70 03 e2 	movepc	rret,8
     ae4c:	14 30 d4 71 	br	10 <compare>,#al
     ae50:	00 10 00 41 	add	r2,1
@@ -11179,7 +11179,7 @@ Disassembly of section .text:
     ae6c:	0d 45 e9 38 	wl16	r9,0x2f58
     ae70:	0d 60 01 23 	wh16	r9,0x3
     ae74:	10 40 01 29 	ld32	r9,r9
-    ae78:	0e 20 01 10 	rev8	r8,r16
+    ae78:	01 60 01 10 	umulh	r8,r16
     ae7c:	20 70 03 e2 	movepc	rret,8
     ae80:	14 30 d4 64 	br	10 <compare>,#al
     ae84:	00 10 00 41 	add	r2,1
@@ -11192,7 +11192,7 @@ Disassembly of section .text:
     aea0:	0d 45 e9 3c 	wl16	r9,0x2f5c
     aea4:	0d 60 01 23 	wh16	r9,0x3
     aea8:	10 40 01 29 	ld32	r9,r9
-    aeac:	0e 20 01 10 	rev8	r8,r16
+    aeac:	01 60 01 10 	umulh	r8,r16
     aeb0:	20 70 03 e2 	movepc	rret,8
     aeb4:	14 30 d4 57 	br	10 <compare>,#al
     aeb8:	00 10 00 41 	add	r2,1
@@ -11205,7 +11205,7 @@ Disassembly of section .text:
     aed4:	0d 45 ed 20 	wl16	r9,0x2f60
     aed8:	0d 60 01 23 	wh16	r9,0x3
     aedc:	10 40 01 29 	ld32	r9,r9
-    aee0:	0e 20 01 10 	rev8	r8,r16
+    aee0:	01 60 01 10 	umulh	r8,r16
     aee4:	20 70 03 e2 	movepc	rret,8
     aee8:	14 30 d4 4a 	br	10 <compare>,#al
     aeec:	00 10 00 41 	add	r2,1
@@ -11218,7 +11218,7 @@ Disassembly of section .text:
     af08:	0d 45 ed 24 	wl16	r9,0x2f64
     af0c:	0d 60 01 23 	wh16	r9,0x3
     af10:	10 40 01 29 	ld32	r9,r9
-    af14:	0e 20 01 10 	rev8	r8,r16
+    af14:	01 60 01 10 	umulh	r8,r16
     af18:	20 70 03 e2 	movepc	rret,8
     af1c:	14 30 d4 3d 	br	10 <compare>,#al
     af20:	00 10 00 41 	add	r2,1
@@ -11231,7 +11231,7 @@ Disassembly of section .text:
     af3c:	0d 45 ed 28 	wl16	r9,0x2f68
     af40:	0d 60 01 23 	wh16	r9,0x3
     af44:	10 40 01 29 	ld32	r9,r9
-    af48:	0e 20 01 10 	rev8	r8,r16
+    af48:	01 60 01 10 	umulh	r8,r16
     af4c:	20 70 03 e2 	movepc	rret,8
     af50:	14 30 d4 30 	br	10 <compare>,#al
     af54:	00 10 00 41 	add	r2,1
@@ -11244,7 +11244,7 @@ Disassembly of section .text:
     af70:	0d 45 ed 2c 	wl16	r9,0x2f6c
     af74:	0d 60 01 23 	wh16	r9,0x3
     af78:	10 40 01 29 	ld32	r9,r9
-    af7c:	0e 20 01 10 	rev8	r8,r16
+    af7c:	01 60 01 10 	umulh	r8,r16
     af80:	20 70 03 e2 	movepc	rret,8
     af84:	14 30 d4 23 	br	10 <compare>,#al
     af88:	00 10 00 41 	add	r2,1
@@ -11257,7 +11257,7 @@ Disassembly of section .text:
     afa4:	0d 45 ed 30 	wl16	r9,0x2f70
     afa8:	0d 60 01 23 	wh16	r9,0x3
     afac:	10 40 01 29 	ld32	r9,r9
-    afb0:	0e 20 01 10 	rev8	r8,r16
+    afb0:	01 60 01 10 	umulh	r8,r16
     afb4:	20 70 03 e2 	movepc	rret,8
     afb8:	14 30 d4 16 	br	10 <compare>,#al
     afbc:	00 10 00 41 	add	r2,1
@@ -11270,7 +11270,7 @@ Disassembly of section .text:
     afd8:	0d 45 ed 34 	wl16	r9,0x2f74
     afdc:	0d 60 01 23 	wh16	r9,0x3
     afe0:	10 40 01 29 	ld32	r9,r9
-    afe4:	0e 20 01 10 	rev8	r8,r16
+    afe4:	01 60 01 10 	umulh	r8,r16
     afe8:	20 70 03 e2 	movepc	rret,8
     afec:	14 30 d4 09 	br	10 <compare>,#al
     aff0:	00 10 00 41 	add	r2,1
@@ -11283,7 +11283,7 @@ Disassembly of section .text:
     b00c:	0d 45 ed 38 	wl16	r9,0x2f78
     b010:	0d 60 01 23 	wh16	r9,0x3
     b014:	10 40 01 29 	ld32	r9,r9
-    b018:	0e 20 01 10 	rev8	r8,r16
+    b018:	01 60 01 10 	umulh	r8,r16
     b01c:	20 70 03 e2 	movepc	rret,8
     b020:	14 30 d3 fc 	br	10 <compare>,#al
     b024:	00 10 00 41 	add	r2,1
@@ -11296,7 +11296,7 @@ Disassembly of section .text:
     b040:	0d 45 ed 3c 	wl16	r9,0x2f7c
     b044:	0d 60 01 23 	wh16	r9,0x3
     b048:	10 40 01 29 	ld32	r9,r9
-    b04c:	0e 20 01 10 	rev8	r8,r16
+    b04c:	01 60 01 10 	umulh	r8,r16
     b050:	20 70 03 e2 	movepc	rret,8
     b054:	14 30 d3 ef 	br	10 <compare>,#al
     b058:	00 10 00 41 	add	r2,1
@@ -11309,7 +11309,7 @@ Disassembly of section .text:
     b074:	0d 45 f1 20 	wl16	r9,0x2f80
     b078:	0d 60 01 23 	wh16	r9,0x3
     b07c:	10 40 01 29 	ld32	r9,r9
-    b080:	0e 20 01 10 	rev8	r8,r16
+    b080:	01 60 01 10 	umulh	r8,r16
     b084:	20 70 03 e2 	movepc	rret,8
     b088:	14 30 d3 e2 	br	10 <compare>,#al
     b08c:	00 10 00 41 	add	r2,1
@@ -11322,7 +11322,7 @@ Disassembly of section .text:
     b0a8:	0d 45 f1 24 	wl16	r9,0x2f84
     b0ac:	0d 60 01 23 	wh16	r9,0x3
     b0b0:	10 40 01 29 	ld32	r9,r9
-    b0b4:	0e 20 01 10 	rev8	r8,r16
+    b0b4:	01 60 01 10 	umulh	r8,r16
     b0b8:	20 70 03 e2 	movepc	rret,8
     b0bc:	14 30 d3 d5 	br	10 <compare>,#al
     b0c0:	00 10 00 41 	add	r2,1
@@ -11335,7 +11335,7 @@ Disassembly of section .text:
     b0dc:	0d 45 f1 28 	wl16	r9,0x2f88
     b0e0:	0d 60 01 23 	wh16	r9,0x3
     b0e4:	10 40 01 29 	ld32	r9,r9
-    b0e8:	0e 20 01 10 	rev8	r8,r16
+    b0e8:	01 60 01 10 	umulh	r8,r16
     b0ec:	20 70 03 e2 	movepc	rret,8
     b0f0:	14 30 d3 c8 	br	10 <compare>,#al
     b0f4:	00 10 00 41 	add	r2,1
@@ -11348,7 +11348,7 @@ Disassembly of section .text:
     b110:	0d 45 f1 2c 	wl16	r9,0x2f8c
     b114:	0d 60 01 23 	wh16	r9,0x3
     b118:	10 40 01 29 	ld32	r9,r9
-    b11c:	0e 20 01 10 	rev8	r8,r16
+    b11c:	01 60 01 10 	umulh	r8,r16
     b120:	20 70 03 e2 	movepc	rret,8
     b124:	14 30 d3 bb 	br	10 <compare>,#al
     b128:	00 10 00 41 	add	r2,1
@@ -11361,7 +11361,7 @@ Disassembly of section .text:
     b144:	0d 45 f1 30 	wl16	r9,0x2f90
     b148:	0d 60 01 23 	wh16	r9,0x3
     b14c:	10 40 01 29 	ld32	r9,r9
-    b150:	0e 20 01 10 	rev8	r8,r16
+    b150:	01 60 01 10 	umulh	r8,r16
     b154:	20 70 03 e2 	movepc	rret,8
     b158:	14 30 d3 ae 	br	10 <compare>,#al
     b15c:	00 10 00 41 	add	r2,1
@@ -11374,7 +11374,7 @@ Disassembly of section .text:
     b178:	0d 45 f1 34 	wl16	r9,0x2f94
     b17c:	0d 60 01 23 	wh16	r9,0x3
     b180:	10 40 01 29 	ld32	r9,r9
-    b184:	0e 20 01 10 	rev8	r8,r16
+    b184:	01 60 01 10 	umulh	r8,r16
     b188:	20 70 03 e2 	movepc	rret,8
     b18c:	14 30 d3 a1 	br	10 <compare>,#al
     b190:	00 10 00 41 	add	r2,1
@@ -11387,7 +11387,7 @@ Disassembly of section .text:
     b1ac:	0d 45 f1 38 	wl16	r9,0x2f98
     b1b0:	0d 60 01 23 	wh16	r9,0x3
     b1b4:	10 40 01 29 	ld32	r9,r9
-    b1b8:	0e 20 01 10 	rev8	r8,r16
+    b1b8:	01 60 01 10 	umulh	r8,r16
     b1bc:	20 70 03 e2 	movepc	rret,8
     b1c0:	14 30 d3 94 	br	10 <compare>,#al
     b1c4:	00 10 00 41 	add	r2,1
@@ -11400,7 +11400,7 @@ Disassembly of section .text:
     b1e0:	0d 45 f1 3c 	wl16	r9,0x2f9c
     b1e4:	0d 60 01 23 	wh16	r9,0x3
     b1e8:	10 40 01 29 	ld32	r9,r9
-    b1ec:	0e 20 01 10 	rev8	r8,r16
+    b1ec:	01 60 01 10 	umulh	r8,r16
     b1f0:	20 70 03 e2 	movepc	rret,8
     b1f4:	14 30 d3 87 	br	10 <compare>,#al
     b1f8:	00 10 00 41 	add	r2,1
@@ -11413,7 +11413,7 @@ Disassembly of section .text:
     b214:	0d 45 f5 20 	wl16	r9,0x2fa0
     b218:	0d 60 01 23 	wh16	r9,0x3
     b21c:	10 40 01 29 	ld32	r9,r9
-    b220:	0e 20 01 10 	rev8	r8,r16
+    b220:	01 60 01 10 	umulh	r8,r16
     b224:	20 70 03 e2 	movepc	rret,8
     b228:	14 30 d3 7a 	br	10 <compare>,#al
     b22c:	00 10 00 41 	add	r2,1
@@ -11426,7 +11426,7 @@ Disassembly of section .text:
     b248:	0d 45 f5 24 	wl16	r9,0x2fa4
     b24c:	0d 60 01 23 	wh16	r9,0x3
     b250:	10 40 01 29 	ld32	r9,r9
-    b254:	0e 20 01 10 	rev8	r8,r16
+    b254:	01 60 01 10 	umulh	r8,r16
     b258:	20 70 03 e2 	movepc	rret,8
     b25c:	14 30 d3 6d 	br	10 <compare>,#al
     b260:	00 10 00 41 	add	r2,1
@@ -11439,7 +11439,7 @@ Disassembly of section .text:
     b27c:	0d 45 f5 28 	wl16	r9,0x2fa8
     b280:	0d 60 01 23 	wh16	r9,0x3
     b284:	10 40 01 29 	ld32	r9,r9
-    b288:	0e 20 01 10 	rev8	r8,r16
+    b288:	01 60 01 10 	umulh	r8,r16
     b28c:	20 70 03 e2 	movepc	rret,8
     b290:	14 30 d3 60 	br	10 <compare>,#al
     b294:	00 10 00 41 	add	r2,1
@@ -11452,7 +11452,7 @@ Disassembly of section .text:
     b2b0:	0d 45 f5 2c 	wl16	r9,0x2fac
     b2b4:	0d 60 01 23 	wh16	r9,0x3
     b2b8:	10 40 01 29 	ld32	r9,r9
-    b2bc:	0e 20 01 10 	rev8	r8,r16
+    b2bc:	01 60 01 10 	umulh	r8,r16
     b2c0:	20 70 03 e2 	movepc	rret,8
     b2c4:	14 30 d3 53 	br	10 <compare>,#al
     b2c8:	00 10 00 41 	add	r2,1
@@ -11465,7 +11465,7 @@ Disassembly of section .text:
     b2e4:	0d 45 f5 30 	wl16	r9,0x2fb0
     b2e8:	0d 60 01 23 	wh16	r9,0x3
     b2ec:	10 40 01 29 	ld32	r9,r9
-    b2f0:	0e 20 01 10 	rev8	r8,r16
+    b2f0:	01 60 01 10 	umulh	r8,r16
     b2f4:	20 70 03 e2 	movepc	rret,8
     b2f8:	14 30 d3 46 	br	10 <compare>,#al
     b2fc:	00 10 00 41 	add	r2,1
@@ -11478,7 +11478,7 @@ Disassembly of section .text:
     b318:	0d 45 f5 34 	wl16	r9,0x2fb4
     b31c:	0d 60 01 23 	wh16	r9,0x3
     b320:	10 40 01 29 	ld32	r9,r9
-    b324:	0e 20 01 10 	rev8	r8,r16
+    b324:	01 60 01 10 	umulh	r8,r16
     b328:	20 70 03 e2 	movepc	rret,8
     b32c:	14 30 d3 39 	br	10 <compare>,#al
     b330:	00 10 00 41 	add	r2,1
@@ -11491,7 +11491,7 @@ Disassembly of section .text:
     b34c:	0d 45 f5 38 	wl16	r9,0x2fb8
     b350:	0d 60 01 23 	wh16	r9,0x3
     b354:	10 40 01 29 	ld32	r9,r9
-    b358:	0e 20 01 10 	rev8	r8,r16
+    b358:	01 60 01 10 	umulh	r8,r16
     b35c:	20 70 03 e2 	movepc	rret,8
     b360:	14 30 d3 2c 	br	10 <compare>,#al
     b364:	00 10 00 41 	add	r2,1
@@ -11504,7 +11504,7 @@ Disassembly of section .text:
     b380:	0d 45 f5 3c 	wl16	r9,0x2fbc
     b384:	0d 60 01 23 	wh16	r9,0x3
     b388:	10 40 01 29 	ld32	r9,r9
-    b38c:	0e 20 01 10 	rev8	r8,r16
+    b38c:	01 60 01 10 	umulh	r8,r16
     b390:	20 70 03 e2 	movepc	rret,8
     b394:	14 30 d3 1f 	br	10 <compare>,#al
     b398:	00 10 00 41 	add	r2,1
@@ -11517,7 +11517,7 @@ Disassembly of section .text:
     b3b4:	0d 45 f9 20 	wl16	r9,0x2fc0
     b3b8:	0d 60 01 23 	wh16	r9,0x3
     b3bc:	10 40 01 29 	ld32	r9,r9
-    b3c0:	0e 20 01 10 	rev8	r8,r16
+    b3c0:	01 60 01 10 	umulh	r8,r16
     b3c4:	20 70 03 e2 	movepc	rret,8
     b3c8:	14 30 d3 12 	br	10 <compare>,#al
     b3cc:	00 10 00 41 	add	r2,1
@@ -11530,7 +11530,7 @@ Disassembly of section .text:
     b3e8:	0d 45 f9 24 	wl16	r9,0x2fc4
     b3ec:	0d 60 01 23 	wh16	r9,0x3
     b3f0:	10 40 01 29 	ld32	r9,r9
-    b3f4:	0e 20 01 10 	rev8	r8,r16
+    b3f4:	01 60 01 10 	umulh	r8,r16
     b3f8:	20 70 03 e2 	movepc	rret,8
     b3fc:	14 30 d3 05 	br	10 <compare>,#al
     b400:	00 10 00 41 	add	r2,1
@@ -11543,7 +11543,7 @@ Disassembly of section .text:
     b41c:	0d 45 f9 28 	wl16	r9,0x2fc8
     b420:	0d 60 01 23 	wh16	r9,0x3
     b424:	10 40 01 29 	ld32	r9,r9
-    b428:	0e 20 01 10 	rev8	r8,r16
+    b428:	01 60 01 10 	umulh	r8,r16
     b42c:	20 70 03 e2 	movepc	rret,8
     b430:	14 30 d2 f8 	br	10 <compare>,#al
     b434:	00 10 00 41 	add	r2,1
@@ -11556,7 +11556,7 @@ Disassembly of section .text:
     b450:	0d 45 f9 2c 	wl16	r9,0x2fcc
     b454:	0d 60 01 23 	wh16	r9,0x3
     b458:	10 40 01 29 	ld32	r9,r9
-    b45c:	0e 20 01 10 	rev8	r8,r16
+    b45c:	01 60 01 10 	umulh	r8,r16
     b460:	20 70 03 e2 	movepc	rret,8
     b464:	14 30 d2 eb 	br	10 <compare>,#al
     b468:	00 10 00 41 	add	r2,1
@@ -11569,7 +11569,7 @@ Disassembly of section .text:
     b484:	0d 45 f9 30 	wl16	r9,0x2fd0
     b488:	0d 60 01 23 	wh16	r9,0x3
     b48c:	10 40 01 29 	ld32	r9,r9
-    b490:	0e 20 01 10 	rev8	r8,r16
+    b490:	01 60 01 10 	umulh	r8,r16
     b494:	20 70 03 e2 	movepc	rret,8
     b498:	14 30 d2 de 	br	10 <compare>,#al
     b49c:	00 10 00 41 	add	r2,1
@@ -11582,7 +11582,7 @@ Disassembly of section .text:
     b4b8:	0d 45 f9 34 	wl16	r9,0x2fd4
     b4bc:	0d 60 01 23 	wh16	r9,0x3
     b4c0:	10 40 01 29 	ld32	r9,r9
-    b4c4:	0e 20 01 10 	rev8	r8,r16
+    b4c4:	01 60 01 10 	umulh	r8,r16
     b4c8:	20 70 03 e2 	movepc	rret,8
     b4cc:	14 30 d2 d1 	br	10 <compare>,#al
     b4d0:	00 10 00 41 	add	r2,1
@@ -11595,7 +11595,7 @@ Disassembly of section .text:
     b4ec:	0d 45 f9 38 	wl16	r9,0x2fd8
     b4f0:	0d 60 01 23 	wh16	r9,0x3
     b4f4:	10 40 01 29 	ld32	r9,r9
-    b4f8:	0e 20 01 10 	rev8	r8,r16
+    b4f8:	01 60 01 10 	umulh	r8,r16
     b4fc:	20 70 03 e2 	movepc	rret,8
     b500:	14 30 d2 c4 	br	10 <compare>,#al
     b504:	00 10 00 41 	add	r2,1
@@ -11608,7 +11608,7 @@ Disassembly of section .text:
     b520:	0d 45 f9 3c 	wl16	r9,0x2fdc
     b524:	0d 60 01 23 	wh16	r9,0x3
     b528:	10 40 01 29 	ld32	r9,r9
-    b52c:	0e 20 01 10 	rev8	r8,r16
+    b52c:	01 60 01 10 	umulh	r8,r16
     b530:	20 70 03 e2 	movepc	rret,8
     b534:	14 30 d2 b7 	br	10 <compare>,#al
     b538:	00 10 00 41 	add	r2,1
@@ -11621,7 +11621,7 @@ Disassembly of section .text:
     b554:	0d 45 fd 20 	wl16	r9,0x2fe0
     b558:	0d 60 01 23 	wh16	r9,0x3
     b55c:	10 40 01 29 	ld32	r9,r9
-    b560:	0e 20 01 10 	rev8	r8,r16
+    b560:	01 60 01 10 	umulh	r8,r16
     b564:	20 70 03 e2 	movepc	rret,8
     b568:	14 30 d2 aa 	br	10 <compare>,#al
     b56c:	00 10 00 41 	add	r2,1
@@ -11634,7 +11634,7 @@ Disassembly of section .text:
     b588:	0d 45 fd 24 	wl16	r9,0x2fe4
     b58c:	0d 60 01 23 	wh16	r9,0x3
     b590:	10 40 01 29 	ld32	r9,r9
-    b594:	0e 20 01 10 	rev8	r8,r16
+    b594:	01 60 01 10 	umulh	r8,r16
     b598:	20 70 03 e2 	movepc	rret,8
     b59c:	14 30 d2 9d 	br	10 <compare>,#al
     b5a0:	00 10 00 41 	add	r2,1
@@ -11647,7 +11647,7 @@ Disassembly of section .text:
     b5bc:	0d 45 fd 28 	wl16	r9,0x2fe8
     b5c0:	0d 60 01 23 	wh16	r9,0x3
     b5c4:	10 40 01 29 	ld32	r9,r9
-    b5c8:	0e 20 01 10 	rev8	r8,r16
+    b5c8:	01 60 01 10 	umulh	r8,r16
     b5cc:	20 70 03 e2 	movepc	rret,8
     b5d0:	14 30 d2 90 	br	10 <compare>,#al
     b5d4:	00 10 00 41 	add	r2,1
@@ -11660,7 +11660,7 @@ Disassembly of section .text:
     b5f0:	0d 45 fd 2c 	wl16	r9,0x2fec
     b5f4:	0d 60 01 23 	wh16	r9,0x3
     b5f8:	10 40 01 29 	ld32	r9,r9
-    b5fc:	0e 20 01 10 	rev8	r8,r16
+    b5fc:	01 60 01 10 	umulh	r8,r16
     b600:	20 70 03 e2 	movepc	rret,8
     b604:	14 30 d2 83 	br	10 <compare>,#al
     b608:	00 10 00 41 	add	r2,1
@@ -11673,7 +11673,7 @@ Disassembly of section .text:
     b624:	0d 45 fd 30 	wl16	r9,0x2ff0
     b628:	0d 60 01 23 	wh16	r9,0x3
     b62c:	10 40 01 29 	ld32	r9,r9
-    b630:	0e 20 01 10 	rev8	r8,r16
+    b630:	01 60 01 10 	umulh	r8,r16
     b634:	20 70 03 e2 	movepc	rret,8
     b638:	14 30 d2 76 	br	10 <compare>,#al
     b63c:	00 10 00 41 	add	r2,1
@@ -11686,7 +11686,7 @@ Disassembly of section .text:
     b658:	0d 45 fd 34 	wl16	r9,0x2ff4
     b65c:	0d 60 01 23 	wh16	r9,0x3
     b660:	10 40 01 29 	ld32	r9,r9
-    b664:	0e 20 01 10 	rev8	r8,r16
+    b664:	01 60 01 10 	umulh	r8,r16
     b668:	20 70 03 e2 	movepc	rret,8
     b66c:	14 30 d2 69 	br	10 <compare>,#al
     b670:	00 10 00 41 	add	r2,1
@@ -11699,7 +11699,7 @@ Disassembly of section .text:
     b68c:	0d 45 fd 38 	wl16	r9,0x2ff8
     b690:	0d 60 01 23 	wh16	r9,0x3
     b694:	10 40 01 29 	ld32	r9,r9
-    b698:	0e 20 01 10 	rev8	r8,r16
+    b698:	01 60 01 10 	umulh	r8,r16
     b69c:	20 70 03 e2 	movepc	rret,8
     b6a0:	14 30 d2 5c 	br	10 <compare>,#al
     b6a4:	00 10 00 41 	add	r2,1
@@ -11712,7 +11712,7 @@ Disassembly of section .text:
     b6c0:	0d 45 fd 3c 	wl16	r9,0x2ffc
     b6c4:	0d 60 01 23 	wh16	r9,0x3
     b6c8:	10 40 01 29 	ld32	r9,r9
-    b6cc:	0e 20 01 10 	rev8	r8,r16
+    b6cc:	01 60 01 10 	umulh	r8,r16
     b6d0:	20 70 03 e2 	movepc	rret,8
     b6d4:	14 30 d2 4f 	br	10 <compare>,#al
     b6d8:	00 10 00 41 	add	r2,1
@@ -11725,7 +11725,7 @@ Disassembly of section .text:
     b6f4:	0d 46 01 20 	wl16	r9,0x3000
     b6f8:	0d 60 01 23 	wh16	r9,0x3
     b6fc:	10 40 01 29 	ld32	r9,r9
-    b700:	0e 20 01 10 	rev8	r8,r16
+    b700:	01 60 01 10 	umulh	r8,r16
     b704:	20 70 03 e2 	movepc	rret,8
     b708:	14 30 d2 42 	br	10 <compare>,#al
     b70c:	00 10 00 41 	add	r2,1
@@ -11738,7 +11738,7 @@ Disassembly of section .text:
     b728:	0d 46 01 24 	wl16	r9,0x3004
     b72c:	0d 60 01 23 	wh16	r9,0x3
     b730:	10 40 01 29 	ld32	r9,r9
-    b734:	0e 20 01 10 	rev8	r8,r16
+    b734:	01 60 01 10 	umulh	r8,r16
     b738:	20 70 03 e2 	movepc	rret,8
     b73c:	14 30 d2 35 	br	10 <compare>,#al
     b740:	00 10 00 41 	add	r2,1
@@ -11751,7 +11751,7 @@ Disassembly of section .text:
     b75c:	0d 46 01 28 	wl16	r9,0x3008
     b760:	0d 60 01 23 	wh16	r9,0x3
     b764:	10 40 01 29 	ld32	r9,r9
-    b768:	0e 20 01 10 	rev8	r8,r16
+    b768:	01 60 01 10 	umulh	r8,r16
     b76c:	20 70 03 e2 	movepc	rret,8
     b770:	14 30 d2 28 	br	10 <compare>,#al
     b774:	00 10 00 41 	add	r2,1
@@ -11764,7 +11764,7 @@ Disassembly of section .text:
     b790:	0d 46 01 2c 	wl16	r9,0x300c
     b794:	0d 60 01 23 	wh16	r9,0x3
     b798:	10 40 01 29 	ld32	r9,r9
-    b79c:	0e 20 01 10 	rev8	r8,r16
+    b79c:	01 60 01 10 	umulh	r8,r16
     b7a0:	20 70 03 e2 	movepc	rret,8
     b7a4:	14 30 d2 1b 	br	10 <compare>,#al
     b7a8:	00 10 00 41 	add	r2,1
@@ -11777,7 +11777,7 @@ Disassembly of section .text:
     b7c4:	0d 46 01 30 	wl16	r9,0x3010
     b7c8:	0d 60 01 23 	wh16	r9,0x3
     b7cc:	10 40 01 29 	ld32	r9,r9
-    b7d0:	0e 20 01 10 	rev8	r8,r16
+    b7d0:	01 60 01 10 	umulh	r8,r16
     b7d4:	20 70 03 e2 	movepc	rret,8
     b7d8:	14 30 d2 0e 	br	10 <compare>,#al
     b7dc:	00 10 00 41 	add	r2,1
@@ -11790,7 +11790,7 @@ Disassembly of section .text:
     b7f8:	0d 46 01 34 	wl16	r9,0x3014
     b7fc:	0d 60 01 23 	wh16	r9,0x3
     b800:	10 40 01 29 	ld32	r9,r9
-    b804:	0e 20 01 10 	rev8	r8,r16
+    b804:	01 60 01 10 	umulh	r8,r16
     b808:	20 70 03 e2 	movepc	rret,8
     b80c:	14 30 d2 01 	br	10 <compare>,#al
     b810:	00 10 00 41 	add	r2,1
@@ -11803,7 +11803,7 @@ Disassembly of section .text:
     b82c:	0d 46 01 38 	wl16	r9,0x3018
     b830:	0d 60 01 23 	wh16	r9,0x3
     b834:	10 40 01 29 	ld32	r9,r9
-    b838:	0e 20 01 10 	rev8	r8,r16
+    b838:	01 60 01 10 	umulh	r8,r16
     b83c:	20 70 03 e2 	movepc	rret,8
     b840:	14 30 d1 f4 	br	10 <compare>,#al
     b844:	00 10 00 41 	add	r2,1
@@ -11816,7 +11816,7 @@ Disassembly of section .text:
     b860:	0d 46 01 3c 	wl16	r9,0x301c
     b864:	0d 60 01 23 	wh16	r9,0x3
     b868:	10 40 01 29 	ld32	r9,r9
-    b86c:	0e 20 01 10 	rev8	r8,r16
+    b86c:	01 60 01 10 	umulh	r8,r16
     b870:	20 70 03 e2 	movepc	rret,8
     b874:	14 30 d1 e7 	br	10 <compare>,#al
     b878:	00 10 00 41 	add	r2,1
@@ -11829,7 +11829,7 @@ Disassembly of section .text:
     b894:	0d 46 05 20 	wl16	r9,0x3020
     b898:	0d 60 01 23 	wh16	r9,0x3
     b89c:	10 40 01 29 	ld32	r9,r9
-    b8a0:	0e 20 01 10 	rev8	r8,r16
+    b8a0:	01 60 01 10 	umulh	r8,r16
     b8a4:	20 70 03 e2 	movepc	rret,8
     b8a8:	14 30 d1 da 	br	10 <compare>,#al
     b8ac:	00 10 00 41 	add	r2,1
@@ -11842,7 +11842,7 @@ Disassembly of section .text:
     b8c8:	0d 46 05 24 	wl16	r9,0x3024
     b8cc:	0d 60 01 23 	wh16	r9,0x3
     b8d0:	10 40 01 29 	ld32	r9,r9
-    b8d4:	0e 20 01 10 	rev8	r8,r16
+    b8d4:	01 60 01 10 	umulh	r8,r16
     b8d8:	20 70 03 e2 	movepc	rret,8
     b8dc:	14 30 d1 cd 	br	10 <compare>,#al
     b8e0:	00 10 00 41 	add	r2,1
@@ -11855,7 +11855,7 @@ Disassembly of section .text:
     b8fc:	0d 46 05 28 	wl16	r9,0x3028
     b900:	0d 60 01 23 	wh16	r9,0x3
     b904:	10 40 01 29 	ld32	r9,r9
-    b908:	0e 20 01 10 	rev8	r8,r16
+    b908:	01 60 01 10 	umulh	r8,r16
     b90c:	20 70 03 e2 	movepc	rret,8
     b910:	14 30 d1 c0 	br	10 <compare>,#al
     b914:	00 10 00 41 	add	r2,1
@@ -11868,7 +11868,7 @@ Disassembly of section .text:
     b930:	0d 46 05 2c 	wl16	r9,0x302c
     b934:	0d 60 01 23 	wh16	r9,0x3
     b938:	10 40 01 29 	ld32	r9,r9
-    b93c:	0e 20 01 10 	rev8	r8,r16
+    b93c:	01 60 01 10 	umulh	r8,r16
     b940:	20 70 03 e2 	movepc	rret,8
     b944:	14 30 d1 b3 	br	10 <compare>,#al
     b948:	00 10 00 41 	add	r2,1
@@ -11881,7 +11881,7 @@ Disassembly of section .text:
     b964:	0d 46 05 30 	wl16	r9,0x3030
     b968:	0d 60 01 23 	wh16	r9,0x3
     b96c:	10 40 01 29 	ld32	r9,r9
-    b970:	0e 20 01 10 	rev8	r8,r16
+    b970:	01 60 01 10 	umulh	r8,r16
     b974:	20 70 03 e2 	movepc	rret,8
     b978:	14 30 d1 a6 	br	10 <compare>,#al
     b97c:	00 10 00 41 	add	r2,1
@@ -11894,7 +11894,7 @@ Disassembly of section .text:
     b998:	0d 46 05 34 	wl16	r9,0x3034
     b99c:	0d 60 01 23 	wh16	r9,0x3
     b9a0:	10 40 01 29 	ld32	r9,r9
-    b9a4:	0e 20 01 10 	rev8	r8,r16
+    b9a4:	01 60 01 10 	umulh	r8,r16
     b9a8:	20 70 03 e2 	movepc	rret,8
     b9ac:	14 30 d1 99 	br	10 <compare>,#al
     b9b0:	00 10 00 41 	add	r2,1
@@ -11907,7 +11907,7 @@ Disassembly of section .text:
     b9cc:	0d 46 05 38 	wl16	r9,0x3038
     b9d0:	0d 60 01 23 	wh16	r9,0x3
     b9d4:	10 40 01 29 	ld32	r9,r9
-    b9d8:	0e 20 01 10 	rev8	r8,r16
+    b9d8:	01 60 01 10 	umulh	r8,r16
     b9dc:	20 70 03 e2 	movepc	rret,8
     b9e0:	14 30 d1 8c 	br	10 <compare>,#al
     b9e4:	00 10 00 41 	add	r2,1
@@ -11920,7 +11920,7 @@ Disassembly of section .text:
     ba00:	0d 46 05 3c 	wl16	r9,0x303c
     ba04:	0d 60 01 23 	wh16	r9,0x3
     ba08:	10 40 01 29 	ld32	r9,r9
-    ba0c:	0e 20 01 10 	rev8	r8,r16
+    ba0c:	01 60 01 10 	umulh	r8,r16
     ba10:	20 70 03 e2 	movepc	rret,8
     ba14:	14 30 d1 7f 	br	10 <compare>,#al
     ba18:	00 10 00 41 	add	r2,1
@@ -11933,7 +11933,7 @@ Disassembly of section .text:
     ba34:	0d 46 09 20 	wl16	r9,0x3040
     ba38:	0d 60 01 23 	wh16	r9,0x3
     ba3c:	10 40 01 29 	ld32	r9,r9
-    ba40:	0e 20 01 10 	rev8	r8,r16
+    ba40:	01 60 01 10 	umulh	r8,r16
     ba44:	20 70 03 e2 	movepc	rret,8
     ba48:	14 30 d1 72 	br	10 <compare>,#al
     ba4c:	00 10 00 41 	add	r2,1
@@ -11946,7 +11946,7 @@ Disassembly of section .text:
     ba68:	0d 46 09 24 	wl16	r9,0x3044
     ba6c:	0d 60 01 23 	wh16	r9,0x3
     ba70:	10 40 01 29 	ld32	r9,r9
-    ba74:	0e 20 01 10 	rev8	r8,r16
+    ba74:	01 60 01 10 	umulh	r8,r16
     ba78:	20 70 03 e2 	movepc	rret,8
     ba7c:	14 30 d1 65 	br	10 <compare>,#al
     ba80:	00 10 00 41 	add	r2,1
@@ -11959,7 +11959,7 @@ Disassembly of section .text:
     ba9c:	0d 46 09 28 	wl16	r9,0x3048
     baa0:	0d 60 01 23 	wh16	r9,0x3
     baa4:	10 40 01 29 	ld32	r9,r9
-    baa8:	0e 20 01 10 	rev8	r8,r16
+    baa8:	01 60 01 10 	umulh	r8,r16
     baac:	20 70 03 e2 	movepc	rret,8
     bab0:	14 30 d1 58 	br	10 <compare>,#al
     bab4:	00 10 00 41 	add	r2,1
@@ -11972,7 +11972,7 @@ Disassembly of section .text:
     bad0:	0d 46 09 2c 	wl16	r9,0x304c
     bad4:	0d 60 01 23 	wh16	r9,0x3
     bad8:	10 40 01 29 	ld32	r9,r9
-    badc:	0e 20 01 10 	rev8	r8,r16
+    badc:	01 60 01 10 	umulh	r8,r16
     bae0:	20 70 03 e2 	movepc	rret,8
     bae4:	14 30 d1 4b 	br	10 <compare>,#al
     bae8:	00 10 00 41 	add	r2,1
@@ -11985,7 +11985,7 @@ Disassembly of section .text:
     bb04:	0d 46 09 30 	wl16	r9,0x3050
     bb08:	0d 60 01 23 	wh16	r9,0x3
     bb0c:	10 40 01 29 	ld32	r9,r9
-    bb10:	0e 20 01 10 	rev8	r8,r16
+    bb10:	01 60 01 10 	umulh	r8,r16
     bb14:	20 70 03 e2 	movepc	rret,8
     bb18:	14 30 d1 3e 	br	10 <compare>,#al
     bb1c:	00 10 00 41 	add	r2,1
@@ -11998,7 +11998,7 @@ Disassembly of section .text:
     bb38:	0d 46 09 34 	wl16	r9,0x3054
     bb3c:	0d 60 01 23 	wh16	r9,0x3
     bb40:	10 40 01 29 	ld32	r9,r9
-    bb44:	0e 20 01 10 	rev8	r8,r16
+    bb44:	01 60 01 10 	umulh	r8,r16
     bb48:	20 70 03 e2 	movepc	rret,8
     bb4c:	14 30 d1 31 	br	10 <compare>,#al
     bb50:	00 10 00 41 	add	r2,1
@@ -12011,7 +12011,7 @@ Disassembly of section .text:
     bb6c:	0d 46 09 38 	wl16	r9,0x3058
     bb70:	0d 60 01 23 	wh16	r9,0x3
     bb74:	10 40 01 29 	ld32	r9,r9
-    bb78:	0e 20 01 10 	rev8	r8,r16
+    bb78:	01 60 01 10 	umulh	r8,r16
     bb7c:	20 70 03 e2 	movepc	rret,8
     bb80:	14 30 d1 24 	br	10 <compare>,#al
     bb84:	00 10 00 41 	add	r2,1
@@ -12024,7 +12024,7 @@ Disassembly of section .text:
     bba0:	0d 46 09 3c 	wl16	r9,0x305c
     bba4:	0d 60 01 23 	wh16	r9,0x3
     bba8:	10 40 01 29 	ld32	r9,r9
-    bbac:	0e 20 01 10 	rev8	r8,r16
+    bbac:	01 60 01 10 	umulh	r8,r16
     bbb0:	20 70 03 e2 	movepc	rret,8
     bbb4:	14 30 d1 17 	br	10 <compare>,#al
     bbb8:	00 10 00 41 	add	r2,1
@@ -12037,7 +12037,7 @@ Disassembly of section .text:
     bbd4:	0d 46 0d 20 	wl16	r9,0x3060
     bbd8:	0d 60 01 23 	wh16	r9,0x3
     bbdc:	10 40 01 29 	ld32	r9,r9
-    bbe0:	0e 20 01 10 	rev8	r8,r16
+    bbe0:	01 60 01 10 	umulh	r8,r16
     bbe4:	20 70 03 e2 	movepc	rret,8
     bbe8:	14 30 d1 0a 	br	10 <compare>,#al
     bbec:	00 10 00 41 	add	r2,1
@@ -12050,7 +12050,7 @@ Disassembly of section .text:
     bc08:	0d 46 0d 24 	wl16	r9,0x3064
     bc0c:	0d 60 01 23 	wh16	r9,0x3
     bc10:	10 40 01 29 	ld32	r9,r9
-    bc14:	0e 20 01 10 	rev8	r8,r16
+    bc14:	01 60 01 10 	umulh	r8,r16
     bc18:	20 70 03 e2 	movepc	rret,8
     bc1c:	14 30 d0 fd 	br	10 <compare>,#al
     bc20:	00 10 00 41 	add	r2,1
@@ -12063,7 +12063,7 @@ Disassembly of section .text:
     bc3c:	0d 46 0d 28 	wl16	r9,0x3068
     bc40:	0d 60 01 23 	wh16	r9,0x3
     bc44:	10 40 01 29 	ld32	r9,r9
-    bc48:	0e 20 01 10 	rev8	r8,r16
+    bc48:	01 60 01 10 	umulh	r8,r16
     bc4c:	20 70 03 e2 	movepc	rret,8
     bc50:	14 30 d0 f0 	br	10 <compare>,#al
     bc54:	00 10 00 41 	add	r2,1
@@ -12076,7 +12076,7 @@ Disassembly of section .text:
     bc70:	0d 46 0d 2c 	wl16	r9,0x306c
     bc74:	0d 60 01 23 	wh16	r9,0x3
     bc78:	10 40 01 29 	ld32	r9,r9
-    bc7c:	0e 20 01 10 	rev8	r8,r16
+    bc7c:	01 60 01 10 	umulh	r8,r16
     bc80:	20 70 03 e2 	movepc	rret,8
     bc84:	14 30 d0 e3 	br	10 <compare>,#al
     bc88:	00 10 00 41 	add	r2,1
@@ -12089,7 +12089,7 @@ Disassembly of section .text:
     bca4:	0d 46 0d 30 	wl16	r9,0x3070
     bca8:	0d 60 01 23 	wh16	r9,0x3
     bcac:	10 40 01 29 	ld32	r9,r9
-    bcb0:	0e 20 01 10 	rev8	r8,r16
+    bcb0:	01 60 01 10 	umulh	r8,r16
     bcb4:	20 70 03 e2 	movepc	rret,8
     bcb8:	14 30 d0 d6 	br	10 <compare>,#al
     bcbc:	00 10 00 41 	add	r2,1
@@ -12102,7 +12102,7 @@ Disassembly of section .text:
     bcd8:	0d 46 0d 34 	wl16	r9,0x3074
     bcdc:	0d 60 01 23 	wh16	r9,0x3
     bce0:	10 40 01 29 	ld32	r9,r9
-    bce4:	0e 20 01 10 	rev8	r8,r16
+    bce4:	01 60 01 10 	umulh	r8,r16
     bce8:	20 70 03 e2 	movepc	rret,8
     bcec:	14 30 d0 c9 	br	10 <compare>,#al
     bcf0:	00 10 00 41 	add	r2,1
@@ -12115,7 +12115,7 @@ Disassembly of section .text:
     bd0c:	0d 46 0d 38 	wl16	r9,0x3078
     bd10:	0d 60 01 23 	wh16	r9,0x3
     bd14:	10 40 01 29 	ld32	r9,r9
-    bd18:	0e 20 01 10 	rev8	r8,r16
+    bd18:	01 60 01 10 	umulh	r8,r16
     bd1c:	20 70 03 e2 	movepc	rret,8
     bd20:	14 30 d0 bc 	br	10 <compare>,#al
     bd24:	00 10 00 41 	add	r2,1
@@ -12128,7 +12128,7 @@ Disassembly of section .text:
     bd40:	0d 46 0d 3c 	wl16	r9,0x307c
     bd44:	0d 60 01 23 	wh16	r9,0x3
     bd48:	10 40 01 29 	ld32	r9,r9
-    bd4c:	0e 20 01 10 	rev8	r8,r16
+    bd4c:	01 60 01 10 	umulh	r8,r16
     bd50:	20 70 03 e2 	movepc	rret,8
     bd54:	14 30 d0 af 	br	10 <compare>,#al
     bd58:	00 10 00 41 	add	r2,1
@@ -12141,7 +12141,7 @@ Disassembly of section .text:
     bd74:	0d 46 11 20 	wl16	r9,0x3080
     bd78:	0d 60 01 23 	wh16	r9,0x3
     bd7c:	10 40 01 29 	ld32	r9,r9
-    bd80:	0e 20 01 10 	rev8	r8,r16
+    bd80:	01 60 01 10 	umulh	r8,r16
     bd84:	20 70 03 e2 	movepc	rret,8
     bd88:	14 30 d0 a2 	br	10 <compare>,#al
     bd8c:	00 10 00 41 	add	r2,1
@@ -12154,7 +12154,7 @@ Disassembly of section .text:
     bda8:	0d 46 11 24 	wl16	r9,0x3084
     bdac:	0d 60 01 23 	wh16	r9,0x3
     bdb0:	10 40 01 29 	ld32	r9,r9
-    bdb4:	0e 20 01 10 	rev8	r8,r16
+    bdb4:	01 60 01 10 	umulh	r8,r16
     bdb8:	20 70 03 e2 	movepc	rret,8
     bdbc:	14 30 d0 95 	br	10 <compare>,#al
     bdc0:	00 10 00 41 	add	r2,1
@@ -12167,7 +12167,7 @@ Disassembly of section .text:
     bddc:	0d 46 11 28 	wl16	r9,0x3088
     bde0:	0d 60 01 23 	wh16	r9,0x3
     bde4:	10 40 01 29 	ld32	r9,r9
-    bde8:	0e 20 01 10 	rev8	r8,r16
+    bde8:	01 60 01 10 	umulh	r8,r16
     bdec:	20 70 03 e2 	movepc	rret,8
     bdf0:	14 30 d0 88 	br	10 <compare>,#al
     bdf4:	00 10 00 41 	add	r2,1
@@ -12180,7 +12180,7 @@ Disassembly of section .text:
     be10:	0d 46 11 2c 	wl16	r9,0x308c
     be14:	0d 60 01 23 	wh16	r9,0x3
     be18:	10 40 01 29 	ld32	r9,r9
-    be1c:	0e 20 01 10 	rev8	r8,r16
+    be1c:	01 60 01 10 	umulh	r8,r16
     be20:	20 70 03 e2 	movepc	rret,8
     be24:	14 30 d0 7b 	br	10 <compare>,#al
     be28:	00 10 00 41 	add	r2,1
@@ -12193,7 +12193,7 @@ Disassembly of section .text:
     be44:	0d 46 11 30 	wl16	r9,0x3090
     be48:	0d 60 01 23 	wh16	r9,0x3
     be4c:	10 40 01 29 	ld32	r9,r9
-    be50:	0e 20 01 10 	rev8	r8,r16
+    be50:	01 60 01 10 	umulh	r8,r16
     be54:	20 70 03 e2 	movepc	rret,8
     be58:	14 30 d0 6e 	br	10 <compare>,#al
     be5c:	00 10 00 41 	add	r2,1
@@ -12206,7 +12206,7 @@ Disassembly of section .text:
     be78:	0d 46 11 34 	wl16	r9,0x3094
     be7c:	0d 60 01 23 	wh16	r9,0x3
     be80:	10 40 01 29 	ld32	r9,r9
-    be84:	0e 20 01 10 	rev8	r8,r16
+    be84:	01 60 01 10 	umulh	r8,r16
     be88:	20 70 03 e2 	movepc	rret,8
     be8c:	14 30 d0 61 	br	10 <compare>,#al
     be90:	00 10 00 41 	add	r2,1
@@ -12219,7 +12219,7 @@ Disassembly of section .text:
     beac:	0d 46 11 38 	wl16	r9,0x3098
     beb0:	0d 60 01 23 	wh16	r9,0x3
     beb4:	10 40 01 29 	ld32	r9,r9
-    beb8:	0e 20 01 10 	rev8	r8,r16
+    beb8:	01 60 01 10 	umulh	r8,r16
     bebc:	20 70 03 e2 	movepc	rret,8
     bec0:	14 30 d0 54 	br	10 <compare>,#al
     bec4:	00 10 00 41 	add	r2,1
@@ -12232,7 +12232,7 @@ Disassembly of section .text:
     bee0:	0d 46 11 3c 	wl16	r9,0x309c
     bee4:	0d 60 01 23 	wh16	r9,0x3
     bee8:	10 40 01 29 	ld32	r9,r9
-    beec:	0e 20 01 10 	rev8	r8,r16
+    beec:	01 60 01 10 	umulh	r8,r16
     bef0:	20 70 03 e2 	movepc	rret,8
     bef4:	14 30 d0 47 	br	10 <compare>,#al
     bef8:	00 10 00 41 	add	r2,1
@@ -12245,7 +12245,7 @@ Disassembly of section .text:
     bf14:	0d 46 15 20 	wl16	r9,0x30a0
     bf18:	0d 60 01 23 	wh16	r9,0x3
     bf1c:	10 40 01 29 	ld32	r9,r9
-    bf20:	0e 20 01 10 	rev8	r8,r16
+    bf20:	01 60 01 10 	umulh	r8,r16
     bf24:	20 70 03 e2 	movepc	rret,8
     bf28:	14 30 d0 3a 	br	10 <compare>,#al
     bf2c:	00 10 00 41 	add	r2,1
@@ -12258,7 +12258,7 @@ Disassembly of section .text:
     bf48:	0d 46 15 24 	wl16	r9,0x30a4
     bf4c:	0d 60 01 23 	wh16	r9,0x3
     bf50:	10 40 01 29 	ld32	r9,r9
-    bf54:	0e 20 01 10 	rev8	r8,r16
+    bf54:	01 60 01 10 	umulh	r8,r16
     bf58:	20 70 03 e2 	movepc	rret,8
     bf5c:	14 30 d0 2d 	br	10 <compare>,#al
     bf60:	00 10 00 41 	add	r2,1
@@ -12271,7 +12271,7 @@ Disassembly of section .text:
     bf7c:	0d 46 15 28 	wl16	r9,0x30a8
     bf80:	0d 60 01 23 	wh16	r9,0x3
     bf84:	10 40 01 29 	ld32	r9,r9
-    bf88:	0e 20 01 10 	rev8	r8,r16
+    bf88:	01 60 01 10 	umulh	r8,r16
     bf8c:	20 70 03 e2 	movepc	rret,8
     bf90:	14 30 d0 20 	br	10 <compare>,#al
     bf94:	00 10 00 41 	add	r2,1
@@ -12284,7 +12284,7 @@ Disassembly of section .text:
     bfb0:	0d 46 15 2c 	wl16	r9,0x30ac
     bfb4:	0d 60 01 23 	wh16	r9,0x3
     bfb8:	10 40 01 29 	ld32	r9,r9
-    bfbc:	0e 20 01 10 	rev8	r8,r16
+    bfbc:	01 60 01 10 	umulh	r8,r16
     bfc0:	20 70 03 e2 	movepc	rret,8
     bfc4:	14 30 d0 13 	br	10 <compare>,#al
     bfc8:	00 10 00 41 	add	r2,1
@@ -12297,7 +12297,7 @@ Disassembly of section .text:
     bfe4:	0d 46 15 30 	wl16	r9,0x30b0
     bfe8:	0d 60 01 23 	wh16	r9,0x3
     bfec:	10 40 01 29 	ld32	r9,r9
-    bff0:	0e 20 01 10 	rev8	r8,r16
+    bff0:	01 60 01 10 	umulh	r8,r16
     bff4:	20 70 03 e2 	movepc	rret,8
     bff8:	14 30 d0 06 	br	10 <compare>,#al
     bffc:	00 10 00 41 	add	r2,1
@@ -12310,7 +12310,7 @@ Disassembly of section .text:
     c018:	0d 46 15 34 	wl16	r9,0x30b4
     c01c:	0d 60 01 23 	wh16	r9,0x3
     c020:	10 40 01 29 	ld32	r9,r9
-    c024:	0e 20 01 10 	rev8	r8,r16
+    c024:	01 60 01 10 	umulh	r8,r16
     c028:	20 70 03 e2 	movepc	rret,8
     c02c:	14 30 cf f9 	br	10 <compare>,#al
     c030:	00 10 00 41 	add	r2,1
@@ -12323,7 +12323,7 @@ Disassembly of section .text:
     c04c:	0d 46 15 38 	wl16	r9,0x30b8
     c050:	0d 60 01 23 	wh16	r9,0x3
     c054:	10 40 01 29 	ld32	r9,r9
-    c058:	0e 20 01 10 	rev8	r8,r16
+    c058:	01 60 01 10 	umulh	r8,r16
     c05c:	20 70 03 e2 	movepc	rret,8
     c060:	14 30 cf ec 	br	10 <compare>,#al
     c064:	00 10 00 41 	add	r2,1
@@ -12336,7 +12336,7 @@ Disassembly of section .text:
     c080:	0d 46 15 3c 	wl16	r9,0x30bc
     c084:	0d 60 01 23 	wh16	r9,0x3
     c088:	10 40 01 29 	ld32	r9,r9
-    c08c:	0e 20 01 10 	rev8	r8,r16
+    c08c:	01 60 01 10 	umulh	r8,r16
     c090:	20 70 03 e2 	movepc	rret,8
     c094:	14 30 cf df 	br	10 <compare>,#al
     c098:	00 10 00 41 	add	r2,1
@@ -12349,7 +12349,7 @@ Disassembly of section .text:
     c0b4:	0d 46 19 20 	wl16	r9,0x30c0
     c0b8:	0d 60 01 23 	wh16	r9,0x3
     c0bc:	10 40 01 29 	ld32	r9,r9
-    c0c0:	0e 20 01 10 	rev8	r8,r16
+    c0c0:	01 60 01 10 	umulh	r8,r16
     c0c4:	20 70 03 e2 	movepc	rret,8
     c0c8:	14 30 cf d2 	br	10 <compare>,#al
     c0cc:	00 10 00 41 	add	r2,1
@@ -12362,7 +12362,7 @@ Disassembly of section .text:
     c0e8:	0d 46 19 24 	wl16	r9,0x30c4
     c0ec:	0d 60 01 23 	wh16	r9,0x3
     c0f0:	10 40 01 29 	ld32	r9,r9
-    c0f4:	0e 20 01 10 	rev8	r8,r16
+    c0f4:	01 60 01 10 	umulh	r8,r16
     c0f8:	20 70 03 e2 	movepc	rret,8
     c0fc:	14 30 cf c5 	br	10 <compare>,#al
     c100:	00 10 00 41 	add	r2,1
@@ -12375,7 +12375,7 @@ Disassembly of section .text:
     c11c:	0d 46 19 28 	wl16	r9,0x30c8
     c120:	0d 60 01 23 	wh16	r9,0x3
     c124:	10 40 01 29 	ld32	r9,r9
-    c128:	0e 20 01 10 	rev8	r8,r16
+    c128:	01 60 01 10 	umulh	r8,r16
     c12c:	20 70 03 e2 	movepc	rret,8
     c130:	14 30 cf b8 	br	10 <compare>,#al
     c134:	00 10 00 41 	add	r2,1
@@ -12388,7 +12388,7 @@ Disassembly of section .text:
     c150:	0d 46 19 2c 	wl16	r9,0x30cc
     c154:	0d 60 01 23 	wh16	r9,0x3
     c158:	10 40 01 29 	ld32	r9,r9
-    c15c:	0e 20 01 10 	rev8	r8,r16
+    c15c:	01 60 01 10 	umulh	r8,r16
     c160:	20 70 03 e2 	movepc	rret,8
     c164:	14 30 cf ab 	br	10 <compare>,#al
     c168:	00 10 00 41 	add	r2,1
@@ -12401,7 +12401,7 @@ Disassembly of section .text:
     c184:	0d 46 19 30 	wl16	r9,0x30d0
     c188:	0d 60 01 23 	wh16	r9,0x3
     c18c:	10 40 01 29 	ld32	r9,r9
-    c190:	0e 20 01 10 	rev8	r8,r16
+    c190:	01 60 01 10 	umulh	r8,r16
     c194:	20 70 03 e2 	movepc	rret,8
     c198:	14 30 cf 9e 	br	10 <compare>,#al
     c19c:	00 10 00 41 	add	r2,1
@@ -12414,7 +12414,7 @@ Disassembly of section .text:
     c1b8:	0d 46 19 34 	wl16	r9,0x30d4
     c1bc:	0d 60 01 23 	wh16	r9,0x3
     c1c0:	10 40 01 29 	ld32	r9,r9
-    c1c4:	0e 20 01 10 	rev8	r8,r16
+    c1c4:	01 60 01 10 	umulh	r8,r16
     c1c8:	20 70 03 e2 	movepc	rret,8
     c1cc:	14 30 cf 91 	br	10 <compare>,#al
     c1d0:	00 10 00 41 	add	r2,1
@@ -12427,7 +12427,7 @@ Disassembly of section .text:
     c1ec:	0d 46 19 38 	wl16	r9,0x30d8
     c1f0:	0d 60 01 23 	wh16	r9,0x3
     c1f4:	10 40 01 29 	ld32	r9,r9
-    c1f8:	0e 20 01 10 	rev8	r8,r16
+    c1f8:	01 60 01 10 	umulh	r8,r16
     c1fc:	20 70 03 e2 	movepc	rret,8
     c200:	14 30 cf 84 	br	10 <compare>,#al
     c204:	00 10 00 41 	add	r2,1
@@ -12440,7 +12440,7 @@ Disassembly of section .text:
     c220:	0d 46 19 3c 	wl16	r9,0x30dc
     c224:	0d 60 01 23 	wh16	r9,0x3
     c228:	10 40 01 29 	ld32	r9,r9
-    c22c:	0e 20 01 10 	rev8	r8,r16
+    c22c:	01 60 01 10 	umulh	r8,r16
     c230:	20 70 03 e2 	movepc	rret,8
     c234:	14 30 cf 77 	br	10 <compare>,#al
     c238:	00 10 00 41 	add	r2,1
@@ -12453,7 +12453,7 @@ Disassembly of section .text:
     c254:	0d 46 1d 20 	wl16	r9,0x30e0
     c258:	0d 60 01 23 	wh16	r9,0x3
     c25c:	10 40 01 29 	ld32	r9,r9
-    c260:	0e 20 01 10 	rev8	r8,r16
+    c260:	01 60 01 10 	umulh	r8,r16
     c264:	20 70 03 e2 	movepc	rret,8
     c268:	14 30 cf 6a 	br	10 <compare>,#al
     c26c:	00 10 00 41 	add	r2,1
@@ -12466,7 +12466,7 @@ Disassembly of section .text:
     c288:	0d 46 1d 24 	wl16	r9,0x30e4
     c28c:	0d 60 01 23 	wh16	r9,0x3
     c290:	10 40 01 29 	ld32	r9,r9
-    c294:	0e 20 01 10 	rev8	r8,r16
+    c294:	01 60 01 10 	umulh	r8,r16
     c298:	20 70 03 e2 	movepc	rret,8
     c29c:	14 30 cf 5d 	br	10 <compare>,#al
     c2a0:	00 10 00 41 	add	r2,1
@@ -12479,7 +12479,7 @@ Disassembly of section .text:
     c2bc:	0d 46 1d 28 	wl16	r9,0x30e8
     c2c0:	0d 60 01 23 	wh16	r9,0x3
     c2c4:	10 40 01 29 	ld32	r9,r9
-    c2c8:	0e 20 01 10 	rev8	r8,r16
+    c2c8:	01 60 01 10 	umulh	r8,r16
     c2cc:	20 70 03 e2 	movepc	rret,8
     c2d0:	14 30 cf 50 	br	10 <compare>,#al
     c2d4:	00 10 00 41 	add	r2,1
@@ -12492,7 +12492,7 @@ Disassembly of section .text:
     c2f0:	0d 46 1d 2c 	wl16	r9,0x30ec
     c2f4:	0d 60 01 23 	wh16	r9,0x3
     c2f8:	10 40 01 29 	ld32	r9,r9
-    c2fc:	0e 20 01 10 	rev8	r8,r16
+    c2fc:	01 60 01 10 	umulh	r8,r16
     c300:	20 70 03 e2 	movepc	rret,8
     c304:	14 30 cf 43 	br	10 <compare>,#al
     c308:	00 10 00 41 	add	r2,1
@@ -12505,7 +12505,7 @@ Disassembly of section .text:
     c324:	0d 46 1d 30 	wl16	r9,0x30f0
     c328:	0d 60 01 23 	wh16	r9,0x3
     c32c:	10 40 01 29 	ld32	r9,r9
-    c330:	0e 20 01 10 	rev8	r8,r16
+    c330:	01 60 01 10 	umulh	r8,r16
     c334:	20 70 03 e2 	movepc	rret,8
     c338:	14 30 cf 36 	br	10 <compare>,#al
     c33c:	00 10 00 41 	add	r2,1
@@ -12518,7 +12518,7 @@ Disassembly of section .text:
     c358:	0d 46 1d 34 	wl16	r9,0x30f4
     c35c:	0d 60 01 23 	wh16	r9,0x3
     c360:	10 40 01 29 	ld32	r9,r9
-    c364:	0e 20 01 10 	rev8	r8,r16
+    c364:	01 60 01 10 	umulh	r8,r16
     c368:	20 70 03 e2 	movepc	rret,8
     c36c:	14 30 cf 29 	br	10 <compare>,#al
     c370:	00 10 00 41 	add	r2,1
@@ -12531,7 +12531,7 @@ Disassembly of section .text:
     c38c:	0d 46 1d 38 	wl16	r9,0x30f8
     c390:	0d 60 01 23 	wh16	r9,0x3
     c394:	10 40 01 29 	ld32	r9,r9
-    c398:	0e 20 01 10 	rev8	r8,r16
+    c398:	01 60 01 10 	umulh	r8,r16
     c39c:	20 70 03 e2 	movepc	rret,8
     c3a0:	14 30 cf 1c 	br	10 <compare>,#al
     c3a4:	00 10 00 41 	add	r2,1
@@ -12544,7 +12544,7 @@ Disassembly of section .text:
     c3c0:	0d 46 1d 3c 	wl16	r9,0x30fc
     c3c4:	0d 60 01 23 	wh16	r9,0x3
     c3c8:	10 40 01 29 	ld32	r9,r9
-    c3cc:	0e 20 01 10 	rev8	r8,r16
+    c3cc:	01 60 01 10 	umulh	r8,r16
     c3d0:	20 70 03 e2 	movepc	rret,8
     c3d4:	14 30 cf 0f 	br	10 <compare>,#al
     c3d8:	00 10 00 41 	add	r2,1
@@ -12557,7 +12557,7 @@ Disassembly of section .text:
     c3f4:	0d 46 21 20 	wl16	r9,0x3100
     c3f8:	0d 60 01 23 	wh16	r9,0x3
     c3fc:	10 40 01 29 	ld32	r9,r9
-    c400:	0e 20 01 10 	rev8	r8,r16
+    c400:	01 60 01 10 	umulh	r8,r16
     c404:	20 70 03 e2 	movepc	rret,8
     c408:	14 30 cf 02 	br	10 <compare>,#al
     c40c:	00 10 00 41 	add	r2,1
@@ -12570,7 +12570,7 @@ Disassembly of section .text:
     c428:	0d 46 21 24 	wl16	r9,0x3104
     c42c:	0d 60 01 23 	wh16	r9,0x3
     c430:	10 40 01 29 	ld32	r9,r9
-    c434:	0e 20 01 10 	rev8	r8,r16
+    c434:	01 60 01 10 	umulh	r8,r16
     c438:	20 70 03 e2 	movepc	rret,8
     c43c:	14 30 ce f5 	br	10 <compare>,#al
     c440:	00 10 00 41 	add	r2,1
@@ -12583,7 +12583,7 @@ Disassembly of section .text:
     c45c:	0d 46 21 28 	wl16	r9,0x3108
     c460:	0d 60 01 23 	wh16	r9,0x3
     c464:	10 40 01 29 	ld32	r9,r9
-    c468:	0e 20 01 10 	rev8	r8,r16
+    c468:	01 60 01 10 	umulh	r8,r16
     c46c:	20 70 03 e2 	movepc	rret,8
     c470:	14 30 ce e8 	br	10 <compare>,#al
     c474:	00 10 00 41 	add	r2,1
@@ -12596,7 +12596,7 @@ Disassembly of section .text:
     c490:	0d 46 21 2c 	wl16	r9,0x310c
     c494:	0d 60 01 23 	wh16	r9,0x3
     c498:	10 40 01 29 	ld32	r9,r9
-    c49c:	0e 20 01 10 	rev8	r8,r16
+    c49c:	01 60 01 10 	umulh	r8,r16
     c4a0:	20 70 03 e2 	movepc	rret,8
     c4a4:	14 30 ce db 	br	10 <compare>,#al
     c4a8:	00 10 00 41 	add	r2,1
@@ -12609,7 +12609,7 @@ Disassembly of section .text:
     c4c4:	0d 46 21 30 	wl16	r9,0x3110
     c4c8:	0d 60 01 23 	wh16	r9,0x3
     c4cc:	10 40 01 29 	ld32	r9,r9
-    c4d0:	0e 20 01 10 	rev8	r8,r16
+    c4d0:	01 60 01 10 	umulh	r8,r16
     c4d4:	20 70 03 e2 	movepc	rret,8
     c4d8:	14 30 ce ce 	br	10 <compare>,#al
     c4dc:	00 10 00 41 	add	r2,1
@@ -12622,7 +12622,7 @@ Disassembly of section .text:
     c4f8:	0d 46 21 34 	wl16	r9,0x3114
     c4fc:	0d 60 01 23 	wh16	r9,0x3
     c500:	10 40 01 29 	ld32	r9,r9
-    c504:	0e 20 01 10 	rev8	r8,r16
+    c504:	01 60 01 10 	umulh	r8,r16
     c508:	20 70 03 e2 	movepc	rret,8
     c50c:	14 30 ce c1 	br	10 <compare>,#al
     c510:	00 10 00 41 	add	r2,1
@@ -12635,7 +12635,7 @@ Disassembly of section .text:
     c52c:	0d 46 21 38 	wl16	r9,0x3118
     c530:	0d 60 01 23 	wh16	r9,0x3
     c534:	10 40 01 29 	ld32	r9,r9
-    c538:	0e 20 01 10 	rev8	r8,r16
+    c538:	01 60 01 10 	umulh	r8,r16
     c53c:	20 70 03 e2 	movepc	rret,8
     c540:	14 30 ce b4 	br	10 <compare>,#al
     c544:	00 10 00 41 	add	r2,1
@@ -12648,7 +12648,7 @@ Disassembly of section .text:
     c560:	0d 46 21 3c 	wl16	r9,0x311c
     c564:	0d 60 01 23 	wh16	r9,0x3
     c568:	10 40 01 29 	ld32	r9,r9
-    c56c:	0e 20 01 10 	rev8	r8,r16
+    c56c:	01 60 01 10 	umulh	r8,r16
     c570:	20 70 03 e2 	movepc	rret,8
     c574:	14 30 ce a7 	br	10 <compare>,#al
     c578:	00 10 00 41 	add	r2,1
@@ -12661,7 +12661,7 @@ Disassembly of section .text:
     c594:	0d 46 25 20 	wl16	r9,0x3120
     c598:	0d 60 01 23 	wh16	r9,0x3
     c59c:	10 40 01 29 	ld32	r9,r9
-    c5a0:	0e 20 01 10 	rev8	r8,r16
+    c5a0:	01 60 01 10 	umulh	r8,r16
     c5a4:	20 70 03 e2 	movepc	rret,8
     c5a8:	14 30 ce 9a 	br	10 <compare>,#al
     c5ac:	00 10 00 41 	add	r2,1
@@ -12674,7 +12674,7 @@ Disassembly of section .text:
     c5c8:	0d 46 25 24 	wl16	r9,0x3124
     c5cc:	0d 60 01 23 	wh16	r9,0x3
     c5d0:	10 40 01 29 	ld32	r9,r9
-    c5d4:	0e 20 01 10 	rev8	r8,r16
+    c5d4:	01 60 01 10 	umulh	r8,r16
     c5d8:	20 70 03 e2 	movepc	rret,8
     c5dc:	14 30 ce 8d 	br	10 <compare>,#al
     c5e0:	00 10 00 41 	add	r2,1
@@ -12687,7 +12687,7 @@ Disassembly of section .text:
     c5fc:	0d 46 25 28 	wl16	r9,0x3128
     c600:	0d 60 01 23 	wh16	r9,0x3
     c604:	10 40 01 29 	ld32	r9,r9
-    c608:	0e 20 01 10 	rev8	r8,r16
+    c608:	01 60 01 10 	umulh	r8,r16
     c60c:	20 70 03 e2 	movepc	rret,8
     c610:	14 30 ce 80 	br	10 <compare>,#al
     c614:	00 10 00 41 	add	r2,1
@@ -12700,7 +12700,7 @@ Disassembly of section .text:
     c630:	0d 46 25 2c 	wl16	r9,0x312c
     c634:	0d 60 01 23 	wh16	r9,0x3
     c638:	10 40 01 29 	ld32	r9,r9
-    c63c:	0e 20 01 10 	rev8	r8,r16
+    c63c:	01 60 01 10 	umulh	r8,r16
     c640:	20 70 03 e2 	movepc	rret,8
     c644:	14 30 ce 73 	br	10 <compare>,#al
     c648:	00 10 00 41 	add	r2,1
@@ -12713,7 +12713,7 @@ Disassembly of section .text:
     c664:	0d 46 25 30 	wl16	r9,0x3130
     c668:	0d 60 01 23 	wh16	r9,0x3
     c66c:	10 40 01 29 	ld32	r9,r9
-    c670:	0e 20 01 10 	rev8	r8,r16
+    c670:	01 60 01 10 	umulh	r8,r16
     c674:	20 70 03 e2 	movepc	rret,8
     c678:	14 30 ce 66 	br	10 <compare>,#al
     c67c:	00 10 00 41 	add	r2,1
@@ -12726,7 +12726,7 @@ Disassembly of section .text:
     c698:	0d 46 25 34 	wl16	r9,0x3134
     c69c:	0d 60 01 23 	wh16	r9,0x3
     c6a0:	10 40 01 29 	ld32	r9,r9
-    c6a4:	0e 20 01 10 	rev8	r8,r16
+    c6a4:	01 60 01 10 	umulh	r8,r16
     c6a8:	20 70 03 e2 	movepc	rret,8
     c6ac:	14 30 ce 59 	br	10 <compare>,#al
     c6b0:	00 10 00 41 	add	r2,1
@@ -12739,7 +12739,7 @@ Disassembly of section .text:
     c6cc:	0d 46 25 38 	wl16	r9,0x3138
     c6d0:	0d 60 01 23 	wh16	r9,0x3
     c6d4:	10 40 01 29 	ld32	r9,r9
-    c6d8:	0e 20 01 10 	rev8	r8,r16
+    c6d8:	01 60 01 10 	umulh	r8,r16
     c6dc:	20 70 03 e2 	movepc	rret,8
     c6e0:	14 30 ce 4c 	br	10 <compare>,#al
     c6e4:	00 10 00 41 	add	r2,1
@@ -12752,7 +12752,7 @@ Disassembly of section .text:
     c700:	0d 46 25 3c 	wl16	r9,0x313c
     c704:	0d 60 01 23 	wh16	r9,0x3
     c708:	10 40 01 29 	ld32	r9,r9
-    c70c:	0e 20 01 10 	rev8	r8,r16
+    c70c:	01 60 01 10 	umulh	r8,r16
     c710:	20 70 03 e2 	movepc	rret,8
     c714:	14 30 ce 3f 	br	10 <compare>,#al
     c718:	00 10 00 41 	add	r2,1
@@ -12765,7 +12765,7 @@ Disassembly of section .text:
     c734:	0d 46 29 20 	wl16	r9,0x3140
     c738:	0d 60 01 23 	wh16	r9,0x3
     c73c:	10 40 01 29 	ld32	r9,r9
-    c740:	0e 20 01 10 	rev8	r8,r16
+    c740:	01 60 01 10 	umulh	r8,r16
     c744:	20 70 03 e2 	movepc	rret,8
     c748:	14 30 ce 32 	br	10 <compare>,#al
     c74c:	00 10 00 41 	add	r2,1
@@ -12778,7 +12778,7 @@ Disassembly of section .text:
     c768:	0d 46 29 24 	wl16	r9,0x3144
     c76c:	0d 60 01 23 	wh16	r9,0x3
     c770:	10 40 01 29 	ld32	r9,r9
-    c774:	0e 20 01 10 	rev8	r8,r16
+    c774:	01 60 01 10 	umulh	r8,r16
     c778:	20 70 03 e2 	movepc	rret,8
     c77c:	14 30 ce 25 	br	10 <compare>,#al
     c780:	00 10 00 41 	add	r2,1
@@ -12791,7 +12791,7 @@ Disassembly of section .text:
     c79c:	0d 46 29 28 	wl16	r9,0x3148
     c7a0:	0d 60 01 23 	wh16	r9,0x3
     c7a4:	10 40 01 29 	ld32	r9,r9
-    c7a8:	0e 20 01 10 	rev8	r8,r16
+    c7a8:	01 60 01 10 	umulh	r8,r16
     c7ac:	20 70 03 e2 	movepc	rret,8
     c7b0:	14 30 ce 18 	br	10 <compare>,#al
     c7b4:	00 10 00 41 	add	r2,1
@@ -12804,7 +12804,7 @@ Disassembly of section .text:
     c7d0:	0d 46 29 2c 	wl16	r9,0x314c
     c7d4:	0d 60 01 23 	wh16	r9,0x3
     c7d8:	10 40 01 29 	ld32	r9,r9
-    c7dc:	0e 20 01 10 	rev8	r8,r16
+    c7dc:	01 60 01 10 	umulh	r8,r16
     c7e0:	20 70 03 e2 	movepc	rret,8
     c7e4:	14 30 ce 0b 	br	10 <compare>,#al
     c7e8:	00 10 00 41 	add	r2,1
@@ -12817,7 +12817,7 @@ Disassembly of section .text:
     c804:	0d 46 29 30 	wl16	r9,0x3150
     c808:	0d 60 01 23 	wh16	r9,0x3
     c80c:	10 40 01 29 	ld32	r9,r9
-    c810:	0e 20 01 10 	rev8	r8,r16
+    c810:	01 60 01 10 	umulh	r8,r16
     c814:	20 70 03 e2 	movepc	rret,8
     c818:	14 30 cd fe 	br	10 <compare>,#al
     c81c:	00 10 00 41 	add	r2,1
@@ -12830,7 +12830,7 @@ Disassembly of section .text:
     c838:	0d 46 29 34 	wl16	r9,0x3154
     c83c:	0d 60 01 23 	wh16	r9,0x3
     c840:	10 40 01 29 	ld32	r9,r9
-    c844:	0e 20 01 10 	rev8	r8,r16
+    c844:	01 60 01 10 	umulh	r8,r16
     c848:	20 70 03 e2 	movepc	rret,8
     c84c:	14 30 cd f1 	br	10 <compare>,#al
     c850:	00 10 00 41 	add	r2,1
@@ -12843,7 +12843,7 @@ Disassembly of section .text:
     c86c:	0d 46 29 38 	wl16	r9,0x3158
     c870:	0d 60 01 23 	wh16	r9,0x3
     c874:	10 40 01 29 	ld32	r9,r9
-    c878:	0e 20 01 10 	rev8	r8,r16
+    c878:	01 60 01 10 	umulh	r8,r16
     c87c:	20 70 03 e2 	movepc	rret,8
     c880:	14 30 cd e4 	br	10 <compare>,#al
     c884:	00 10 00 41 	add	r2,1
@@ -12856,7 +12856,7 @@ Disassembly of section .text:
     c8a0:	0d 46 29 3c 	wl16	r9,0x315c
     c8a4:	0d 60 01 23 	wh16	r9,0x3
     c8a8:	10 40 01 29 	ld32	r9,r9
-    c8ac:	0e 20 01 10 	rev8	r8,r16
+    c8ac:	01 60 01 10 	umulh	r8,r16
     c8b0:	20 70 03 e2 	movepc	rret,8
     c8b4:	14 30 cd d7 	br	10 <compare>,#al
     c8b8:	00 10 00 41 	add	r2,1
@@ -12869,7 +12869,7 @@ Disassembly of section .text:
     c8d4:	0d 46 2d 20 	wl16	r9,0x3160
     c8d8:	0d 60 01 23 	wh16	r9,0x3
     c8dc:	10 40 01 29 	ld32	r9,r9
-    c8e0:	0e 20 01 10 	rev8	r8,r16
+    c8e0:	01 60 01 10 	umulh	r8,r16
     c8e4:	20 70 03 e2 	movepc	rret,8
     c8e8:	14 30 cd ca 	br	10 <compare>,#al
     c8ec:	00 10 00 41 	add	r2,1
@@ -12882,7 +12882,7 @@ Disassembly of section .text:
     c908:	0d 46 2d 24 	wl16	r9,0x3164
     c90c:	0d 60 01 23 	wh16	r9,0x3
     c910:	10 40 01 29 	ld32	r9,r9
-    c914:	0e 20 01 10 	rev8	r8,r16
+    c914:	01 60 01 10 	umulh	r8,r16
     c918:	20 70 03 e2 	movepc	rret,8
     c91c:	14 30 cd bd 	br	10 <compare>,#al
     c920:	00 10 00 41 	add	r2,1
@@ -12895,7 +12895,7 @@ Disassembly of section .text:
     c93c:	0d 46 2d 28 	wl16	r9,0x3168
     c940:	0d 60 01 23 	wh16	r9,0x3
     c944:	10 40 01 29 	ld32	r9,r9
-    c948:	0e 20 01 10 	rev8	r8,r16
+    c948:	01 60 01 10 	umulh	r8,r16
     c94c:	20 70 03 e2 	movepc	rret,8
     c950:	14 30 cd b0 	br	10 <compare>,#al
     c954:	00 10 00 41 	add	r2,1
@@ -12908,7 +12908,7 @@ Disassembly of section .text:
     c970:	0d 46 2d 2c 	wl16	r9,0x316c
     c974:	0d 60 01 23 	wh16	r9,0x3
     c978:	10 40 01 29 	ld32	r9,r9
-    c97c:	0e 20 01 10 	rev8	r8,r16
+    c97c:	01 60 01 10 	umulh	r8,r16
     c980:	20 70 03 e2 	movepc	rret,8
     c984:	14 30 cd a3 	br	10 <compare>,#al
     c988:	00 10 00 41 	add	r2,1
@@ -12921,7 +12921,7 @@ Disassembly of section .text:
     c9a4:	0d 46 2d 30 	wl16	r9,0x3170
     c9a8:	0d 60 01 23 	wh16	r9,0x3
     c9ac:	10 40 01 29 	ld32	r9,r9
-    c9b0:	0e 20 01 10 	rev8	r8,r16
+    c9b0:	01 60 01 10 	umulh	r8,r16
     c9b4:	20 70 03 e2 	movepc	rret,8
     c9b8:	14 30 cd 96 	br	10 <compare>,#al
     c9bc:	00 10 00 41 	add	r2,1
@@ -12934,7 +12934,7 @@ Disassembly of section .text:
     c9d8:	0d 46 2d 34 	wl16	r9,0x3174
     c9dc:	0d 60 01 23 	wh16	r9,0x3
     c9e0:	10 40 01 29 	ld32	r9,r9
-    c9e4:	0e 20 01 10 	rev8	r8,r16
+    c9e4:	01 60 01 10 	umulh	r8,r16
     c9e8:	20 70 03 e2 	movepc	rret,8
     c9ec:	14 30 cd 89 	br	10 <compare>,#al
     c9f0:	00 10 00 41 	add	r2,1
@@ -12947,7 +12947,7 @@ Disassembly of section .text:
     ca0c:	0d 46 2d 38 	wl16	r9,0x3178
     ca10:	0d 60 01 23 	wh16	r9,0x3
     ca14:	10 40 01 29 	ld32	r9,r9
-    ca18:	0e 20 01 10 	rev8	r8,r16
+    ca18:	01 60 01 10 	umulh	r8,r16
     ca1c:	20 70 03 e2 	movepc	rret,8
     ca20:	14 30 cd 7c 	br	10 <compare>,#al
     ca24:	00 10 00 41 	add	r2,1
@@ -12960,7 +12960,7 @@ Disassembly of section .text:
     ca40:	0d 46 2d 3c 	wl16	r9,0x317c
     ca44:	0d 60 01 23 	wh16	r9,0x3
     ca48:	10 40 01 29 	ld32	r9,r9
-    ca4c:	0e 20 01 10 	rev8	r8,r16
+    ca4c:	01 60 01 10 	umulh	r8,r16
     ca50:	20 70 03 e2 	movepc	rret,8
     ca54:	14 30 cd 6f 	br	10 <compare>,#al
     ca58:	00 10 00 41 	add	r2,1
@@ -12973,7 +12973,7 @@ Disassembly of section .text:
     ca74:	0d 46 31 20 	wl16	r9,0x3180
     ca78:	0d 60 01 23 	wh16	r9,0x3
     ca7c:	10 40 01 29 	ld32	r9,r9
-    ca80:	0e 20 01 10 	rev8	r8,r16
+    ca80:	01 60 01 10 	umulh	r8,r16
     ca84:	20 70 03 e2 	movepc	rret,8
     ca88:	14 30 cd 62 	br	10 <compare>,#al
     ca8c:	00 10 00 41 	add	r2,1
@@ -12986,7 +12986,7 @@ Disassembly of section .text:
     caa8:	0d 46 31 24 	wl16	r9,0x3184
     caac:	0d 60 01 23 	wh16	r9,0x3
     cab0:	10 40 01 29 	ld32	r9,r9
-    cab4:	0e 20 01 10 	rev8	r8,r16
+    cab4:	01 60 01 10 	umulh	r8,r16
     cab8:	20 70 03 e2 	movepc	rret,8
     cabc:	14 30 cd 55 	br	10 <compare>,#al
     cac0:	00 10 00 41 	add	r2,1
@@ -12999,7 +12999,7 @@ Disassembly of section .text:
     cadc:	0d 46 31 28 	wl16	r9,0x3188
     cae0:	0d 60 01 23 	wh16	r9,0x3
     cae4:	10 40 01 29 	ld32	r9,r9
-    cae8:	0e 20 01 10 	rev8	r8,r16
+    cae8:	01 60 01 10 	umulh	r8,r16
     caec:	20 70 03 e2 	movepc	rret,8
     caf0:	14 30 cd 48 	br	10 <compare>,#al
     caf4:	00 10 00 41 	add	r2,1
@@ -13012,7 +13012,7 @@ Disassembly of section .text:
     cb10:	0d 46 31 2c 	wl16	r9,0x318c
     cb14:	0d 60 01 23 	wh16	r9,0x3
     cb18:	10 40 01 29 	ld32	r9,r9
-    cb1c:	0e 20 01 10 	rev8	r8,r16
+    cb1c:	01 60 01 10 	umulh	r8,r16
     cb20:	20 70 03 e2 	movepc	rret,8
     cb24:	14 30 cd 3b 	br	10 <compare>,#al
     cb28:	00 10 00 41 	add	r2,1
@@ -13025,7 +13025,7 @@ Disassembly of section .text:
     cb44:	0d 46 31 30 	wl16	r9,0x3190
     cb48:	0d 60 01 23 	wh16	r9,0x3
     cb4c:	10 40 01 29 	ld32	r9,r9
-    cb50:	0e 20 01 10 	rev8	r8,r16
+    cb50:	01 60 01 10 	umulh	r8,r16
     cb54:	20 70 03 e2 	movepc	rret,8
     cb58:	14 30 cd 2e 	br	10 <compare>,#al
     cb5c:	00 10 00 41 	add	r2,1
@@ -13038,7 +13038,7 @@ Disassembly of section .text:
     cb78:	0d 46 31 34 	wl16	r9,0x3194
     cb7c:	0d 60 01 23 	wh16	r9,0x3
     cb80:	10 40 01 29 	ld32	r9,r9
-    cb84:	0e 20 01 10 	rev8	r8,r16
+    cb84:	01 60 01 10 	umulh	r8,r16
     cb88:	20 70 03 e2 	movepc	rret,8
     cb8c:	14 30 cd 21 	br	10 <compare>,#al
     cb90:	00 10 00 41 	add	r2,1
@@ -13051,7 +13051,7 @@ Disassembly of section .text:
     cbac:	0d 46 31 38 	wl16	r9,0x3198
     cbb0:	0d 60 01 23 	wh16	r9,0x3
     cbb4:	10 40 01 29 	ld32	r9,r9
-    cbb8:	0e 20 01 10 	rev8	r8,r16
+    cbb8:	01 60 01 10 	umulh	r8,r16
     cbbc:	20 70 03 e2 	movepc	rret,8
     cbc0:	14 30 cd 14 	br	10 <compare>,#al
     cbc4:	00 10 00 41 	add	r2,1
@@ -13064,7 +13064,7 @@ Disassembly of section .text:
     cbe0:	0d 46 31 3c 	wl16	r9,0x319c
     cbe4:	0d 60 01 23 	wh16	r9,0x3
     cbe8:	10 40 01 29 	ld32	r9,r9
-    cbec:	0e 20 01 10 	rev8	r8,r16
+    cbec:	01 60 01 10 	umulh	r8,r16
     cbf0:	20 70 03 e2 	movepc	rret,8
     cbf4:	14 30 cd 07 	br	10 <compare>,#al
     cbf8:	00 10 00 41 	add	r2,1
@@ -13077,7 +13077,7 @@ Disassembly of section .text:
     cc14:	0d 46 35 20 	wl16	r9,0x31a0
     cc18:	0d 60 01 23 	wh16	r9,0x3
     cc1c:	10 40 01 29 	ld32	r9,r9
-    cc20:	0e 20 01 10 	rev8	r8,r16
+    cc20:	01 60 01 10 	umulh	r8,r16
     cc24:	20 70 03 e2 	movepc	rret,8
     cc28:	14 30 cc fa 	br	10 <compare>,#al
     cc2c:	00 10 00 41 	add	r2,1
@@ -13090,7 +13090,7 @@ Disassembly of section .text:
     cc48:	0d 46 35 24 	wl16	r9,0x31a4
     cc4c:	0d 60 01 23 	wh16	r9,0x3
     cc50:	10 40 01 29 	ld32	r9,r9
-    cc54:	0e 20 01 10 	rev8	r8,r16
+    cc54:	01 60 01 10 	umulh	r8,r16
     cc58:	20 70 03 e2 	movepc	rret,8
     cc5c:	14 30 cc ed 	br	10 <compare>,#al
     cc60:	00 10 00 41 	add	r2,1
@@ -13103,7 +13103,7 @@ Disassembly of section .text:
     cc7c:	0d 46 35 28 	wl16	r9,0x31a8
     cc80:	0d 60 01 23 	wh16	r9,0x3
     cc84:	10 40 01 29 	ld32	r9,r9
-    cc88:	0e 20 01 10 	rev8	r8,r16
+    cc88:	01 60 01 10 	umulh	r8,r16
     cc8c:	20 70 03 e2 	movepc	rret,8
     cc90:	14 30 cc e0 	br	10 <compare>,#al
     cc94:	00 10 00 41 	add	r2,1
@@ -13116,7 +13116,7 @@ Disassembly of section .text:
     ccb0:	0d 46 35 2c 	wl16	r9,0x31ac
     ccb4:	0d 60 01 23 	wh16	r9,0x3
     ccb8:	10 40 01 29 	ld32	r9,r9
-    ccbc:	0e 20 01 10 	rev8	r8,r16
+    ccbc:	01 60 01 10 	umulh	r8,r16
     ccc0:	20 70 03 e2 	movepc	rret,8
     ccc4:	14 30 cc d3 	br	10 <compare>,#al
     ccc8:	00 10 00 41 	add	r2,1
@@ -13129,7 +13129,7 @@ Disassembly of section .text:
     cce4:	0d 46 35 30 	wl16	r9,0x31b0
     cce8:	0d 60 01 23 	wh16	r9,0x3
     ccec:	10 40 01 29 	ld32	r9,r9
-    ccf0:	0e 20 01 10 	rev8	r8,r16
+    ccf0:	01 60 01 10 	umulh	r8,r16
     ccf4:	20 70 03 e2 	movepc	rret,8
     ccf8:	14 30 cc c6 	br	10 <compare>,#al
     ccfc:	00 10 00 41 	add	r2,1
@@ -13142,7 +13142,7 @@ Disassembly of section .text:
     cd18:	0d 46 35 34 	wl16	r9,0x31b4
     cd1c:	0d 60 01 23 	wh16	r9,0x3
     cd20:	10 40 01 29 	ld32	r9,r9
-    cd24:	0e 20 01 10 	rev8	r8,r16
+    cd24:	01 60 01 10 	umulh	r8,r16
     cd28:	20 70 03 e2 	movepc	rret,8
     cd2c:	14 30 cc b9 	br	10 <compare>,#al
     cd30:	00 10 00 41 	add	r2,1
@@ -13155,7 +13155,7 @@ Disassembly of section .text:
     cd4c:	0d 46 35 38 	wl16	r9,0x31b8
     cd50:	0d 60 01 23 	wh16	r9,0x3
     cd54:	10 40 01 29 	ld32	r9,r9
-    cd58:	0e 20 01 10 	rev8	r8,r16
+    cd58:	01 60 01 10 	umulh	r8,r16
     cd5c:	20 70 03 e2 	movepc	rret,8
     cd60:	14 30 cc ac 	br	10 <compare>,#al
     cd64:	00 10 00 41 	add	r2,1
@@ -13168,7 +13168,7 @@ Disassembly of section .text:
     cd80:	0d 46 35 3c 	wl16	r9,0x31bc
     cd84:	0d 60 01 23 	wh16	r9,0x3
     cd88:	10 40 01 29 	ld32	r9,r9
-    cd8c:	0e 20 01 10 	rev8	r8,r16
+    cd8c:	01 60 01 10 	umulh	r8,r16
     cd90:	20 70 03 e2 	movepc	rret,8
     cd94:	14 30 cc 9f 	br	10 <compare>,#al
     cd98:	00 10 00 41 	add	r2,1
@@ -13181,7 +13181,7 @@ Disassembly of section .text:
     cdb4:	0d 46 39 20 	wl16	r9,0x31c0
     cdb8:	0d 60 01 23 	wh16	r9,0x3
     cdbc:	10 40 01 29 	ld32	r9,r9
-    cdc0:	0e 20 01 10 	rev8	r8,r16
+    cdc0:	01 60 01 10 	umulh	r8,r16
     cdc4:	20 70 03 e2 	movepc	rret,8
     cdc8:	14 30 cc 92 	br	10 <compare>,#al
     cdcc:	00 10 00 41 	add	r2,1
@@ -13194,7 +13194,7 @@ Disassembly of section .text:
     cde8:	0d 46 39 24 	wl16	r9,0x31c4
     cdec:	0d 60 01 23 	wh16	r9,0x3
     cdf0:	10 40 01 29 	ld32	r9,r9
-    cdf4:	0e 20 01 10 	rev8	r8,r16
+    cdf4:	01 60 01 10 	umulh	r8,r16
     cdf8:	20 70 03 e2 	movepc	rret,8
     cdfc:	14 30 cc 85 	br	10 <compare>,#al
     ce00:	00 10 00 41 	add	r2,1
@@ -13207,7 +13207,7 @@ Disassembly of section .text:
     ce1c:	0d 46 39 28 	wl16	r9,0x31c8
     ce20:	0d 60 01 23 	wh16	r9,0x3
     ce24:	10 40 01 29 	ld32	r9,r9
-    ce28:	0e 20 01 10 	rev8	r8,r16
+    ce28:	01 60 01 10 	umulh	r8,r16
     ce2c:	20 70 03 e2 	movepc	rret,8
     ce30:	14 30 cc 78 	br	10 <compare>,#al
     ce34:	00 10 00 41 	add	r2,1
@@ -13220,7 +13220,7 @@ Disassembly of section .text:
     ce50:	0d 46 39 2c 	wl16	r9,0x31cc
     ce54:	0d 60 01 23 	wh16	r9,0x3
     ce58:	10 40 01 29 	ld32	r9,r9
-    ce5c:	0e 20 01 10 	rev8	r8,r16
+    ce5c:	01 60 01 10 	umulh	r8,r16
     ce60:	20 70 03 e2 	movepc	rret,8
     ce64:	14 30 cc 6b 	br	10 <compare>,#al
     ce68:	00 10 00 41 	add	r2,1
@@ -13233,7 +13233,7 @@ Disassembly of section .text:
     ce84:	0d 46 39 30 	wl16	r9,0x31d0
     ce88:	0d 60 01 23 	wh16	r9,0x3
     ce8c:	10 40 01 29 	ld32	r9,r9
-    ce90:	0e 20 01 10 	rev8	r8,r16
+    ce90:	01 60 01 10 	umulh	r8,r16
     ce94:	20 70 03 e2 	movepc	rret,8
     ce98:	14 30 cc 5e 	br	10 <compare>,#al
     ce9c:	00 10 00 41 	add	r2,1
@@ -13246,7 +13246,7 @@ Disassembly of section .text:
     ceb8:	0d 46 39 34 	wl16	r9,0x31d4
     cebc:	0d 60 01 23 	wh16	r9,0x3
     cec0:	10 40 01 29 	ld32	r9,r9
-    cec4:	0e 20 01 10 	rev8	r8,r16
+    cec4:	01 60 01 10 	umulh	r8,r16
     cec8:	20 70 03 e2 	movepc	rret,8
     cecc:	14 30 cc 51 	br	10 <compare>,#al
     ced0:	00 10 00 41 	add	r2,1
@@ -13259,7 +13259,7 @@ Disassembly of section .text:
     ceec:	0d 46 39 38 	wl16	r9,0x31d8
     cef0:	0d 60 01 23 	wh16	r9,0x3
     cef4:	10 40 01 29 	ld32	r9,r9
-    cef8:	0e 20 01 10 	rev8	r8,r16
+    cef8:	01 60 01 10 	umulh	r8,r16
     cefc:	20 70 03 e2 	movepc	rret,8
     cf00:	14 30 cc 44 	br	10 <compare>,#al
     cf04:	00 10 00 41 	add	r2,1
@@ -13272,7 +13272,7 @@ Disassembly of section .text:
     cf20:	0d 46 39 3c 	wl16	r9,0x31dc
     cf24:	0d 60 01 23 	wh16	r9,0x3
     cf28:	10 40 01 29 	ld32	r9,r9
-    cf2c:	0e 20 01 10 	rev8	r8,r16
+    cf2c:	01 60 01 10 	umulh	r8,r16
     cf30:	20 70 03 e2 	movepc	rret,8
     cf34:	14 30 cc 37 	br	10 <compare>,#al
     cf38:	00 10 00 41 	add	r2,1
@@ -13285,7 +13285,7 @@ Disassembly of section .text:
     cf54:	0d 46 3d 20 	wl16	r9,0x31e0
     cf58:	0d 60 01 23 	wh16	r9,0x3
     cf5c:	10 40 01 29 	ld32	r9,r9
-    cf60:	0e 20 01 10 	rev8	r8,r16
+    cf60:	01 60 01 10 	umulh	r8,r16
     cf64:	20 70 03 e2 	movepc	rret,8
     cf68:	14 30 cc 2a 	br	10 <compare>,#al
     cf6c:	00 10 00 41 	add	r2,1
@@ -13298,7 +13298,7 @@ Disassembly of section .text:
     cf88:	0d 46 3d 24 	wl16	r9,0x31e4
     cf8c:	0d 60 01 23 	wh16	r9,0x3
     cf90:	10 40 01 29 	ld32	r9,r9
-    cf94:	0e 20 01 10 	rev8	r8,r16
+    cf94:	01 60 01 10 	umulh	r8,r16
     cf98:	20 70 03 e2 	movepc	rret,8
     cf9c:	14 30 cc 1d 	br	10 <compare>,#al
     cfa0:	00 10 00 41 	add	r2,1
@@ -13311,7 +13311,7 @@ Disassembly of section .text:
     cfbc:	0d 46 3d 28 	wl16	r9,0x31e8
     cfc0:	0d 60 01 23 	wh16	r9,0x3
     cfc4:	10 40 01 29 	ld32	r9,r9
-    cfc8:	0e 20 01 10 	rev8	r8,r16
+    cfc8:	01 60 01 10 	umulh	r8,r16
     cfcc:	20 70 03 e2 	movepc	rret,8
     cfd0:	14 30 cc 10 	br	10 <compare>,#al
     cfd4:	00 10 00 41 	add	r2,1
@@ -13324,7 +13324,7 @@ Disassembly of section .text:
     cff0:	0d 46 3d 2c 	wl16	r9,0x31ec
     cff4:	0d 60 01 23 	wh16	r9,0x3
     cff8:	10 40 01 29 	ld32	r9,r9
-    cffc:	0e 20 01 10 	rev8	r8,r16
+    cffc:	01 60 01 10 	umulh	r8,r16
     d000:	20 70 03 e2 	movepc	rret,8
     d004:	14 30 cc 03 	br	10 <compare>,#al
     d008:	00 10 00 41 	add	r2,1
@@ -13337,7 +13337,7 @@ Disassembly of section .text:
     d024:	0d 46 3d 30 	wl16	r9,0x31f0
     d028:	0d 60 01 23 	wh16	r9,0x3
     d02c:	10 40 01 29 	ld32	r9,r9
-    d030:	0e 20 01 10 	rev8	r8,r16
+    d030:	01 60 01 10 	umulh	r8,r16
     d034:	20 70 03 e2 	movepc	rret,8
     d038:	14 30 cb f6 	br	10 <compare>,#al
     d03c:	00 10 00 41 	add	r2,1
@@ -13350,7 +13350,7 @@ Disassembly of section .text:
     d058:	0d 46 3d 34 	wl16	r9,0x31f4
     d05c:	0d 60 01 23 	wh16	r9,0x3
     d060:	10 40 01 29 	ld32	r9,r9
-    d064:	0e 20 01 10 	rev8	r8,r16
+    d064:	01 60 01 10 	umulh	r8,r16
     d068:	20 70 03 e2 	movepc	rret,8
     d06c:	14 30 cb e9 	br	10 <compare>,#al
     d070:	00 10 00 41 	add	r2,1
@@ -13363,7 +13363,7 @@ Disassembly of section .text:
     d08c:	0d 46 3d 38 	wl16	r9,0x31f8
     d090:	0d 60 01 23 	wh16	r9,0x3
     d094:	10 40 01 29 	ld32	r9,r9
-    d098:	0e 20 01 10 	rev8	r8,r16
+    d098:	01 60 01 10 	umulh	r8,r16
     d09c:	20 70 03 e2 	movepc	rret,8
     d0a0:	14 30 cb dc 	br	10 <compare>,#al
     d0a4:	00 10 00 41 	add	r2,1
@@ -13376,7 +13376,7 @@ Disassembly of section .text:
     d0c0:	0d 46 3d 3c 	wl16	r9,0x31fc
     d0c4:	0d 60 01 23 	wh16	r9,0x3
     d0c8:	10 40 01 29 	ld32	r9,r9
-    d0cc:	0e 20 01 10 	rev8	r8,r16
+    d0cc:	01 60 01 10 	umulh	r8,r16
     d0d0:	20 70 03 e2 	movepc	rret,8
     d0d4:	14 30 cb cf 	br	10 <compare>,#al
     d0d8:	00 10 00 41 	add	r2,1
@@ -13389,7 +13389,7 @@ Disassembly of section .text:
     d0f4:	0d 46 41 20 	wl16	r9,0x3200
     d0f8:	0d 60 01 23 	wh16	r9,0x3
     d0fc:	10 40 01 29 	ld32	r9,r9
-    d100:	0e 20 01 10 	rev8	r8,r16
+    d100:	01 60 01 10 	umulh	r8,r16
     d104:	20 70 03 e2 	movepc	rret,8
     d108:	14 30 cb c2 	br	10 <compare>,#al
     d10c:	00 10 00 41 	add	r2,1
@@ -13402,7 +13402,7 @@ Disassembly of section .text:
     d128:	0d 46 41 24 	wl16	r9,0x3204
     d12c:	0d 60 01 23 	wh16	r9,0x3
     d130:	10 40 01 29 	ld32	r9,r9
-    d134:	0e 20 01 10 	rev8	r8,r16
+    d134:	01 60 01 10 	umulh	r8,r16
     d138:	20 70 03 e2 	movepc	rret,8
     d13c:	14 30 cb b5 	br	10 <compare>,#al
     d140:	00 10 00 41 	add	r2,1
@@ -13415,7 +13415,7 @@ Disassembly of section .text:
     d15c:	0d 46 41 28 	wl16	r9,0x3208
     d160:	0d 60 01 23 	wh16	r9,0x3
     d164:	10 40 01 29 	ld32	r9,r9
-    d168:	0e 20 01 10 	rev8	r8,r16
+    d168:	01 60 01 10 	umulh	r8,r16
     d16c:	20 70 03 e2 	movepc	rret,8
     d170:	14 30 cb a8 	br	10 <compare>,#al
     d174:	00 10 00 41 	add	r2,1
@@ -13428,7 +13428,7 @@ Disassembly of section .text:
     d190:	0d 46 41 2c 	wl16	r9,0x320c
     d194:	0d 60 01 23 	wh16	r9,0x3
     d198:	10 40 01 29 	ld32	r9,r9
-    d19c:	0e 20 01 10 	rev8	r8,r16
+    d19c:	01 60 01 10 	umulh	r8,r16
     d1a0:	20 70 03 e2 	movepc	rret,8
     d1a4:	14 30 cb 9b 	br	10 <compare>,#al
     d1a8:	00 10 00 41 	add	r2,1
@@ -13441,7 +13441,7 @@ Disassembly of section .text:
     d1c4:	0d 46 41 30 	wl16	r9,0x3210
     d1c8:	0d 60 01 23 	wh16	r9,0x3
     d1cc:	10 40 01 29 	ld32	r9,r9
-    d1d0:	0e 20 01 10 	rev8	r8,r16
+    d1d0:	01 60 01 10 	umulh	r8,r16
     d1d4:	20 70 03 e2 	movepc	rret,8
     d1d8:	14 30 cb 8e 	br	10 <compare>,#al
     d1dc:	00 10 00 41 	add	r2,1
@@ -13454,7 +13454,7 @@ Disassembly of section .text:
     d1f8:	0d 46 41 34 	wl16	r9,0x3214
     d1fc:	0d 60 01 23 	wh16	r9,0x3
     d200:	10 40 01 29 	ld32	r9,r9
-    d204:	0e 20 01 10 	rev8	r8,r16
+    d204:	01 60 01 10 	umulh	r8,r16
     d208:	20 70 03 e2 	movepc	rret,8
     d20c:	14 30 cb 81 	br	10 <compare>,#al
     d210:	00 10 00 41 	add	r2,1
@@ -13467,7 +13467,7 @@ Disassembly of section .text:
     d22c:	0d 46 41 38 	wl16	r9,0x3218
     d230:	0d 60 01 23 	wh16	r9,0x3
     d234:	10 40 01 29 	ld32	r9,r9
-    d238:	0e 20 01 10 	rev8	r8,r16
+    d238:	01 60 01 10 	umulh	r8,r16
     d23c:	20 70 03 e2 	movepc	rret,8
     d240:	14 30 cb 74 	br	10 <compare>,#al
     d244:	00 10 00 41 	add	r2,1
@@ -13480,7 +13480,7 @@ Disassembly of section .text:
     d260:	0d 46 41 3c 	wl16	r9,0x321c
     d264:	0d 60 01 23 	wh16	r9,0x3
     d268:	10 40 01 29 	ld32	r9,r9
-    d26c:	0e 20 01 10 	rev8	r8,r16
+    d26c:	01 60 01 10 	umulh	r8,r16
     d270:	20 70 03 e2 	movepc	rret,8
     d274:	14 30 cb 67 	br	10 <compare>,#al
     d278:	00 10 00 41 	add	r2,1
@@ -13493,7 +13493,7 @@ Disassembly of section .text:
     d294:	0d 46 45 20 	wl16	r9,0x3220
     d298:	0d 60 01 23 	wh16	r9,0x3
     d29c:	10 40 01 29 	ld32	r9,r9
-    d2a0:	0e 20 01 10 	rev8	r8,r16
+    d2a0:	01 60 01 10 	umulh	r8,r16
     d2a4:	20 70 03 e2 	movepc	rret,8
     d2a8:	14 30 cb 5a 	br	10 <compare>,#al
     d2ac:	00 10 00 41 	add	r2,1
@@ -13506,7 +13506,7 @@ Disassembly of section .text:
     d2c8:	0d 46 45 24 	wl16	r9,0x3224
     d2cc:	0d 60 01 23 	wh16	r9,0x3
     d2d0:	10 40 01 29 	ld32	r9,r9
-    d2d4:	0e 20 01 10 	rev8	r8,r16
+    d2d4:	01 60 01 10 	umulh	r8,r16
     d2d8:	20 70 03 e2 	movepc	rret,8
     d2dc:	14 30 cb 4d 	br	10 <compare>,#al
     d2e0:	00 10 00 41 	add	r2,1
@@ -13519,7 +13519,7 @@ Disassembly of section .text:
     d2fc:	0d 46 45 28 	wl16	r9,0x3228
     d300:	0d 60 01 23 	wh16	r9,0x3
     d304:	10 40 01 29 	ld32	r9,r9
-    d308:	0e 20 01 10 	rev8	r8,r16
+    d308:	01 60 01 10 	umulh	r8,r16
     d30c:	20 70 03 e2 	movepc	rret,8
     d310:	14 30 cb 40 	br	10 <compare>,#al
     d314:	00 10 00 41 	add	r2,1
@@ -13532,7 +13532,7 @@ Disassembly of section .text:
     d330:	0d 46 45 2c 	wl16	r9,0x322c
     d334:	0d 60 01 23 	wh16	r9,0x3
     d338:	10 40 01 29 	ld32	r9,r9
-    d33c:	0e 20 01 10 	rev8	r8,r16
+    d33c:	01 60 01 10 	umulh	r8,r16
     d340:	20 70 03 e2 	movepc	rret,8
     d344:	14 30 cb 33 	br	10 <compare>,#al
     d348:	00 10 00 41 	add	r2,1
@@ -13545,7 +13545,7 @@ Disassembly of section .text:
     d364:	0d 46 45 30 	wl16	r9,0x3230
     d368:	0d 60 01 23 	wh16	r9,0x3
     d36c:	10 40 01 29 	ld32	r9,r9
-    d370:	0e 20 01 10 	rev8	r8,r16
+    d370:	01 60 01 10 	umulh	r8,r16
     d374:	20 70 03 e2 	movepc	rret,8
     d378:	14 30 cb 26 	br	10 <compare>,#al
     d37c:	00 10 00 41 	add	r2,1
@@ -13558,7 +13558,7 @@ Disassembly of section .text:
     d398:	0d 46 45 34 	wl16	r9,0x3234
     d39c:	0d 60 01 23 	wh16	r9,0x3
     d3a0:	10 40 01 29 	ld32	r9,r9
-    d3a4:	0e 20 01 10 	rev8	r8,r16
+    d3a4:	01 60 01 10 	umulh	r8,r16
     d3a8:	20 70 03 e2 	movepc	rret,8
     d3ac:	14 30 cb 19 	br	10 <compare>,#al
     d3b0:	00 10 00 41 	add	r2,1
@@ -13571,7 +13571,7 @@ Disassembly of section .text:
     d3cc:	0d 46 45 38 	wl16	r9,0x3238
     d3d0:	0d 60 01 23 	wh16	r9,0x3
     d3d4:	10 40 01 29 	ld32	r9,r9
-    d3d8:	0e 20 01 10 	rev8	r8,r16
+    d3d8:	01 60 01 10 	umulh	r8,r16
     d3dc:	20 70 03 e2 	movepc	rret,8
     d3e0:	14 30 cb 0c 	br	10 <compare>,#al
     d3e4:	00 10 00 41 	add	r2,1
@@ -13584,7 +13584,7 @@ Disassembly of section .text:
     d400:	0d 46 45 3c 	wl16	r9,0x323c
     d404:	0d 60 01 23 	wh16	r9,0x3
     d408:	10 40 01 29 	ld32	r9,r9
-    d40c:	0e 20 01 10 	rev8	r8,r16
+    d40c:	01 60 01 10 	umulh	r8,r16
     d410:	20 70 03 e2 	movepc	rret,8
     d414:	14 30 ca ff 	br	10 <compare>,#al
     d418:	00 10 00 41 	add	r2,1
@@ -13597,7 +13597,7 @@ Disassembly of section .text:
     d434:	0d 46 49 20 	wl16	r9,0x3240
     d438:	0d 60 01 23 	wh16	r9,0x3
     d43c:	10 40 01 29 	ld32	r9,r9
-    d440:	0e 20 01 10 	rev8	r8,r16
+    d440:	01 60 01 10 	umulh	r8,r16
     d444:	20 70 03 e2 	movepc	rret,8
     d448:	14 30 ca f2 	br	10 <compare>,#al
     d44c:	00 10 00 41 	add	r2,1
@@ -13610,7 +13610,7 @@ Disassembly of section .text:
     d468:	0d 46 49 24 	wl16	r9,0x3244
     d46c:	0d 60 01 23 	wh16	r9,0x3
     d470:	10 40 01 29 	ld32	r9,r9
-    d474:	0e 20 01 10 	rev8	r8,r16
+    d474:	01 60 01 10 	umulh	r8,r16
     d478:	20 70 03 e2 	movepc	rret,8
     d47c:	14 30 ca e5 	br	10 <compare>,#al
     d480:	00 10 00 41 	add	r2,1
@@ -13623,7 +13623,7 @@ Disassembly of section .text:
     d49c:	0d 46 49 28 	wl16	r9,0x3248
     d4a0:	0d 60 01 23 	wh16	r9,0x3
     d4a4:	10 40 01 29 	ld32	r9,r9
-    d4a8:	0e 20 01 10 	rev8	r8,r16
+    d4a8:	01 60 01 10 	umulh	r8,r16
     d4ac:	20 70 03 e2 	movepc	rret,8
     d4b0:	14 30 ca d8 	br	10 <compare>,#al
     d4b4:	00 10 00 41 	add	r2,1
@@ -13636,7 +13636,7 @@ Disassembly of section .text:
     d4d0:	0d 46 49 2c 	wl16	r9,0x324c
     d4d4:	0d 60 01 23 	wh16	r9,0x3
     d4d8:	10 40 01 29 	ld32	r9,r9
-    d4dc:	0e 20 01 10 	rev8	r8,r16
+    d4dc:	01 60 01 10 	umulh	r8,r16
     d4e0:	20 70 03 e2 	movepc	rret,8
     d4e4:	14 30 ca cb 	br	10 <compare>,#al
     d4e8:	00 10 00 41 	add	r2,1
@@ -13649,7 +13649,7 @@ Disassembly of section .text:
     d504:	0d 46 49 30 	wl16	r9,0x3250
     d508:	0d 60 01 23 	wh16	r9,0x3
     d50c:	10 40 01 29 	ld32	r9,r9
-    d510:	0e 20 01 10 	rev8	r8,r16
+    d510:	01 60 01 10 	umulh	r8,r16
     d514:	20 70 03 e2 	movepc	rret,8
     d518:	14 30 ca be 	br	10 <compare>,#al
     d51c:	00 10 00 41 	add	r2,1
@@ -13662,7 +13662,7 @@ Disassembly of section .text:
     d538:	0d 46 49 34 	wl16	r9,0x3254
     d53c:	0d 60 01 23 	wh16	r9,0x3
     d540:	10 40 01 29 	ld32	r9,r9
-    d544:	0e 20 01 10 	rev8	r8,r16
+    d544:	01 60 01 10 	umulh	r8,r16
     d548:	20 70 03 e2 	movepc	rret,8
     d54c:	14 30 ca b1 	br	10 <compare>,#al
     d550:	00 10 00 41 	add	r2,1
@@ -13675,7 +13675,7 @@ Disassembly of section .text:
     d56c:	0d 46 49 38 	wl16	r9,0x3258
     d570:	0d 60 01 23 	wh16	r9,0x3
     d574:	10 40 01 29 	ld32	r9,r9
-    d578:	0e 20 01 10 	rev8	r8,r16
+    d578:	01 60 01 10 	umulh	r8,r16
     d57c:	20 70 03 e2 	movepc	rret,8
     d580:	14 30 ca a4 	br	10 <compare>,#al
     d584:	00 10 00 41 	add	r2,1
@@ -13688,7 +13688,7 @@ Disassembly of section .text:
     d5a0:	0d 46 49 3c 	wl16	r9,0x325c
     d5a4:	0d 60 01 23 	wh16	r9,0x3
     d5a8:	10 40 01 29 	ld32	r9,r9
-    d5ac:	0e 20 01 10 	rev8	r8,r16
+    d5ac:	01 60 01 10 	umulh	r8,r16
     d5b0:	20 70 03 e2 	movepc	rret,8
     d5b4:	14 30 ca 97 	br	10 <compare>,#al
     d5b8:	00 10 00 41 	add	r2,1
@@ -13701,7 +13701,7 @@ Disassembly of section .text:
     d5d4:	0d 46 4d 20 	wl16	r9,0x3260
     d5d8:	0d 60 01 23 	wh16	r9,0x3
     d5dc:	10 40 01 29 	ld32	r9,r9
-    d5e0:	0e 20 01 10 	rev8	r8,r16
+    d5e0:	01 60 01 10 	umulh	r8,r16
     d5e4:	20 70 03 e2 	movepc	rret,8
     d5e8:	14 30 ca 8a 	br	10 <compare>,#al
     d5ec:	00 10 00 41 	add	r2,1
@@ -13714,7 +13714,7 @@ Disassembly of section .text:
     d608:	0d 46 4d 24 	wl16	r9,0x3264
     d60c:	0d 60 01 23 	wh16	r9,0x3
     d610:	10 40 01 29 	ld32	r9,r9
-    d614:	0e 20 01 10 	rev8	r8,r16
+    d614:	01 60 01 10 	umulh	r8,r16
     d618:	20 70 03 e2 	movepc	rret,8
     d61c:	14 30 ca 7d 	br	10 <compare>,#al
     d620:	00 10 00 41 	add	r2,1
@@ -13727,7 +13727,7 @@ Disassembly of section .text:
     d63c:	0d 46 4d 28 	wl16	r9,0x3268
     d640:	0d 60 01 23 	wh16	r9,0x3
     d644:	10 40 01 29 	ld32	r9,r9
-    d648:	0e 20 01 10 	rev8	r8,r16
+    d648:	01 60 01 10 	umulh	r8,r16
     d64c:	20 70 03 e2 	movepc	rret,8
     d650:	14 30 ca 70 	br	10 <compare>,#al
     d654:	00 10 00 41 	add	r2,1
@@ -13740,7 +13740,7 @@ Disassembly of section .text:
     d670:	0d 46 4d 2c 	wl16	r9,0x326c
     d674:	0d 60 01 23 	wh16	r9,0x3
     d678:	10 40 01 29 	ld32	r9,r9
-    d67c:	0e 20 01 10 	rev8	r8,r16
+    d67c:	01 60 01 10 	umulh	r8,r16
     d680:	20 70 03 e2 	movepc	rret,8
     d684:	14 30 ca 63 	br	10 <compare>,#al
     d688:	00 10 00 41 	add	r2,1
@@ -13753,7 +13753,7 @@ Disassembly of section .text:
     d6a4:	0d 46 4d 30 	wl16	r9,0x3270
     d6a8:	0d 60 01 23 	wh16	r9,0x3
     d6ac:	10 40 01 29 	ld32	r9,r9
-    d6b0:	0e 20 01 10 	rev8	r8,r16
+    d6b0:	01 60 01 10 	umulh	r8,r16
     d6b4:	20 70 03 e2 	movepc	rret,8
     d6b8:	14 30 ca 56 	br	10 <compare>,#al
     d6bc:	00 10 00 41 	add	r2,1
@@ -13766,7 +13766,7 @@ Disassembly of section .text:
     d6d8:	0d 46 4d 34 	wl16	r9,0x3274
     d6dc:	0d 60 01 23 	wh16	r9,0x3
     d6e0:	10 40 01 29 	ld32	r9,r9
-    d6e4:	0e 20 01 10 	rev8	r8,r16
+    d6e4:	01 60 01 10 	umulh	r8,r16
     d6e8:	20 70 03 e2 	movepc	rret,8
     d6ec:	14 30 ca 49 	br	10 <compare>,#al
     d6f0:	00 10 00 41 	add	r2,1
@@ -13779,7 +13779,7 @@ Disassembly of section .text:
     d70c:	0d 46 4d 38 	wl16	r9,0x3278
     d710:	0d 60 01 23 	wh16	r9,0x3
     d714:	10 40 01 29 	ld32	r9,r9
-    d718:	0e 20 01 10 	rev8	r8,r16
+    d718:	01 60 01 10 	umulh	r8,r16
     d71c:	20 70 03 e2 	movepc	rret,8
     d720:	14 30 ca 3c 	br	10 <compare>,#al
     d724:	00 10 00 41 	add	r2,1
@@ -13792,7 +13792,7 @@ Disassembly of section .text:
     d740:	0d 46 4d 3c 	wl16	r9,0x327c
     d744:	0d 60 01 23 	wh16	r9,0x3
     d748:	10 40 01 29 	ld32	r9,r9
-    d74c:	0e 20 01 10 	rev8	r8,r16
+    d74c:	01 60 01 10 	umulh	r8,r16
     d750:	20 70 03 e2 	movepc	rret,8
     d754:	14 30 ca 2f 	br	10 <compare>,#al
     d758:	00 10 00 41 	add	r2,1
@@ -13805,7 +13805,7 @@ Disassembly of section .text:
     d774:	0d 46 51 20 	wl16	r9,0x3280
     d778:	0d 60 01 23 	wh16	r9,0x3
     d77c:	10 40 01 29 	ld32	r9,r9
-    d780:	0e 20 01 10 	rev8	r8,r16
+    d780:	01 60 01 10 	umulh	r8,r16
     d784:	20 70 03 e2 	movepc	rret,8
     d788:	14 30 ca 22 	br	10 <compare>,#al
     d78c:	00 10 00 41 	add	r2,1
@@ -13818,7 +13818,7 @@ Disassembly of section .text:
     d7a8:	0d 46 51 24 	wl16	r9,0x3284
     d7ac:	0d 60 01 23 	wh16	r9,0x3
     d7b0:	10 40 01 29 	ld32	r9,r9
-    d7b4:	0e 20 01 10 	rev8	r8,r16
+    d7b4:	01 60 01 10 	umulh	r8,r16
     d7b8:	20 70 03 e2 	movepc	rret,8
     d7bc:	14 30 ca 15 	br	10 <compare>,#al
     d7c0:	00 10 00 41 	add	r2,1
@@ -13831,7 +13831,7 @@ Disassembly of section .text:
     d7dc:	0d 46 51 28 	wl16	r9,0x3288
     d7e0:	0d 60 01 23 	wh16	r9,0x3
     d7e4:	10 40 01 29 	ld32	r9,r9
-    d7e8:	0e 20 01 10 	rev8	r8,r16
+    d7e8:	01 60 01 10 	umulh	r8,r16
     d7ec:	20 70 03 e2 	movepc	rret,8
     d7f0:	14 30 ca 08 	br	10 <compare>,#al
     d7f4:	00 10 00 41 	add	r2,1
@@ -13844,7 +13844,7 @@ Disassembly of section .text:
     d810:	0d 46 51 2c 	wl16	r9,0x328c
     d814:	0d 60 01 23 	wh16	r9,0x3
     d818:	10 40 01 29 	ld32	r9,r9
-    d81c:	0e 20 01 10 	rev8	r8,r16
+    d81c:	01 60 01 10 	umulh	r8,r16
     d820:	20 70 03 e2 	movepc	rret,8
     d824:	14 30 c9 fb 	br	10 <compare>,#al
     d828:	00 10 00 41 	add	r2,1
@@ -13857,7 +13857,7 @@ Disassembly of section .text:
     d844:	0d 46 51 30 	wl16	r9,0x3290
     d848:	0d 60 01 23 	wh16	r9,0x3
     d84c:	10 40 01 29 	ld32	r9,r9
-    d850:	0e 20 01 10 	rev8	r8,r16
+    d850:	01 60 01 10 	umulh	r8,r16
     d854:	20 70 03 e2 	movepc	rret,8
     d858:	14 30 c9 ee 	br	10 <compare>,#al
     d85c:	00 10 00 41 	add	r2,1
@@ -13870,7 +13870,7 @@ Disassembly of section .text:
     d878:	0d 46 51 34 	wl16	r9,0x3294
     d87c:	0d 60 01 23 	wh16	r9,0x3
     d880:	10 40 01 29 	ld32	r9,r9
-    d884:	0e 20 01 10 	rev8	r8,r16
+    d884:	01 60 01 10 	umulh	r8,r16
     d888:	20 70 03 e2 	movepc	rret,8
     d88c:	14 30 c9 e1 	br	10 <compare>,#al
     d890:	00 10 00 41 	add	r2,1
@@ -13883,7 +13883,7 @@ Disassembly of section .text:
     d8ac:	0d 46 51 38 	wl16	r9,0x3298
     d8b0:	0d 60 01 23 	wh16	r9,0x3
     d8b4:	10 40 01 29 	ld32	r9,r9
-    d8b8:	0e 20 01 10 	rev8	r8,r16
+    d8b8:	01 60 01 10 	umulh	r8,r16
     d8bc:	20 70 03 e2 	movepc	rret,8
     d8c0:	14 30 c9 d4 	br	10 <compare>,#al
     d8c4:	00 10 00 41 	add	r2,1
@@ -13896,7 +13896,7 @@ Disassembly of section .text:
     d8e0:	0d 46 51 3c 	wl16	r9,0x329c
     d8e4:	0d 60 01 23 	wh16	r9,0x3
     d8e8:	10 40 01 29 	ld32	r9,r9
-    d8ec:	0e 20 01 10 	rev8	r8,r16
+    d8ec:	01 60 01 10 	umulh	r8,r16
     d8f0:	20 70 03 e2 	movepc	rret,8
     d8f4:	14 30 c9 c7 	br	10 <compare>,#al
     d8f8:	00 10 00 41 	add	r2,1
@@ -13909,7 +13909,7 @@ Disassembly of section .text:
     d914:	0d 46 55 20 	wl16	r9,0x32a0
     d918:	0d 60 01 23 	wh16	r9,0x3
     d91c:	10 40 01 29 	ld32	r9,r9
-    d920:	0e 20 01 10 	rev8	r8,r16
+    d920:	01 60 01 10 	umulh	r8,r16
     d924:	20 70 03 e2 	movepc	rret,8
     d928:	14 30 c9 ba 	br	10 <compare>,#al
     d92c:	00 10 00 41 	add	r2,1
@@ -13922,7 +13922,7 @@ Disassembly of section .text:
     d948:	0d 46 55 24 	wl16	r9,0x32a4
     d94c:	0d 60 01 23 	wh16	r9,0x3
     d950:	10 40 01 29 	ld32	r9,r9
-    d954:	0e 20 01 10 	rev8	r8,r16
+    d954:	01 60 01 10 	umulh	r8,r16
     d958:	20 70 03 e2 	movepc	rret,8
     d95c:	14 30 c9 ad 	br	10 <compare>,#al
     d960:	00 10 00 41 	add	r2,1
@@ -13935,7 +13935,7 @@ Disassembly of section .text:
     d97c:	0d 46 55 28 	wl16	r9,0x32a8
     d980:	0d 60 01 23 	wh16	r9,0x3
     d984:	10 40 01 29 	ld32	r9,r9
-    d988:	0e 20 01 10 	rev8	r8,r16
+    d988:	01 60 01 10 	umulh	r8,r16
     d98c:	20 70 03 e2 	movepc	rret,8
     d990:	14 30 c9 a0 	br	10 <compare>,#al
     d994:	00 10 00 41 	add	r2,1
@@ -13948,7 +13948,7 @@ Disassembly of section .text:
     d9b0:	0d 46 55 2c 	wl16	r9,0x32ac
     d9b4:	0d 60 01 23 	wh16	r9,0x3
     d9b8:	10 40 01 29 	ld32	r9,r9
-    d9bc:	0e 20 01 10 	rev8	r8,r16
+    d9bc:	01 60 01 10 	umulh	r8,r16
     d9c0:	20 70 03 e2 	movepc	rret,8
     d9c4:	14 30 c9 93 	br	10 <compare>,#al
     d9c8:	00 10 00 41 	add	r2,1
@@ -13961,7 +13961,7 @@ Disassembly of section .text:
     d9e4:	0d 46 55 30 	wl16	r9,0x32b0
     d9e8:	0d 60 01 23 	wh16	r9,0x3
     d9ec:	10 40 01 29 	ld32	r9,r9
-    d9f0:	0e 20 01 10 	rev8	r8,r16
+    d9f0:	01 60 01 10 	umulh	r8,r16
     d9f4:	20 70 03 e2 	movepc	rret,8
     d9f8:	14 30 c9 86 	br	10 <compare>,#al
     d9fc:	00 10 00 41 	add	r2,1
@@ -13974,7 +13974,7 @@ Disassembly of section .text:
     da18:	0d 46 55 34 	wl16	r9,0x32b4
     da1c:	0d 60 01 23 	wh16	r9,0x3
     da20:	10 40 01 29 	ld32	r9,r9
-    da24:	0e 20 01 10 	rev8	r8,r16
+    da24:	01 60 01 10 	umulh	r8,r16
     da28:	20 70 03 e2 	movepc	rret,8
     da2c:	14 30 c9 79 	br	10 <compare>,#al
     da30:	00 10 00 41 	add	r2,1
@@ -13987,7 +13987,7 @@ Disassembly of section .text:
     da4c:	0d 46 55 38 	wl16	r9,0x32b8
     da50:	0d 60 01 23 	wh16	r9,0x3
     da54:	10 40 01 29 	ld32	r9,r9
-    da58:	0e 20 01 10 	rev8	r8,r16
+    da58:	01 60 01 10 	umulh	r8,r16
     da5c:	20 70 03 e2 	movepc	rret,8
     da60:	14 30 c9 6c 	br	10 <compare>,#al
     da64:	00 10 00 41 	add	r2,1
@@ -14000,7 +14000,7 @@ Disassembly of section .text:
     da80:	0d 46 55 3c 	wl16	r9,0x32bc
     da84:	0d 60 01 23 	wh16	r9,0x3
     da88:	10 40 01 29 	ld32	r9,r9
-    da8c:	0e 20 01 10 	rev8	r8,r16
+    da8c:	01 60 01 10 	umulh	r8,r16
     da90:	20 70 03 e2 	movepc	rret,8
     da94:	14 30 c9 5f 	br	10 <compare>,#al
     da98:	00 10 00 41 	add	r2,1
@@ -14013,7 +14013,7 @@ Disassembly of section .text:
     dab4:	0d 46 59 20 	wl16	r9,0x32c0
     dab8:	0d 60 01 23 	wh16	r9,0x3
     dabc:	10 40 01 29 	ld32	r9,r9
-    dac0:	0e 20 01 10 	rev8	r8,r16
+    dac0:	01 60 01 10 	umulh	r8,r16
     dac4:	20 70 03 e2 	movepc	rret,8
     dac8:	14 30 c9 52 	br	10 <compare>,#al
     dacc:	00 10 00 41 	add	r2,1
@@ -14026,7 +14026,7 @@ Disassembly of section .text:
     dae8:	0d 46 59 24 	wl16	r9,0x32c4
     daec:	0d 60 01 23 	wh16	r9,0x3
     daf0:	10 40 01 29 	ld32	r9,r9
-    daf4:	0e 20 01 10 	rev8	r8,r16
+    daf4:	01 60 01 10 	umulh	r8,r16
     daf8:	20 70 03 e2 	movepc	rret,8
     dafc:	14 30 c9 45 	br	10 <compare>,#al
     db00:	00 10 00 41 	add	r2,1
@@ -14039,7 +14039,7 @@ Disassembly of section .text:
     db1c:	0d 46 59 28 	wl16	r9,0x32c8
     db20:	0d 60 01 23 	wh16	r9,0x3
     db24:	10 40 01 29 	ld32	r9,r9
-    db28:	0e 20 01 10 	rev8	r8,r16
+    db28:	01 60 01 10 	umulh	r8,r16
     db2c:	20 70 03 e2 	movepc	rret,8
     db30:	14 30 c9 38 	br	10 <compare>,#al
     db34:	00 10 00 41 	add	r2,1
@@ -14052,7 +14052,7 @@ Disassembly of section .text:
     db50:	0d 46 59 2c 	wl16	r9,0x32cc
     db54:	0d 60 01 23 	wh16	r9,0x3
     db58:	10 40 01 29 	ld32	r9,r9
-    db5c:	0e 20 01 10 	rev8	r8,r16
+    db5c:	01 60 01 10 	umulh	r8,r16
     db60:	20 70 03 e2 	movepc	rret,8
     db64:	14 30 c9 2b 	br	10 <compare>,#al
     db68:	00 10 00 41 	add	r2,1
@@ -14065,7 +14065,7 @@ Disassembly of section .text:
     db84:	0d 46 59 30 	wl16	r9,0x32d0
     db88:	0d 60 01 23 	wh16	r9,0x3
     db8c:	10 40 01 29 	ld32	r9,r9
-    db90:	0e 20 01 10 	rev8	r8,r16
+    db90:	01 60 01 10 	umulh	r8,r16
     db94:	20 70 03 e2 	movepc	rret,8
     db98:	14 30 c9 1e 	br	10 <compare>,#al
     db9c:	00 10 00 41 	add	r2,1
@@ -14078,7 +14078,7 @@ Disassembly of section .text:
     dbb8:	0d 46 59 34 	wl16	r9,0x32d4
     dbbc:	0d 60 01 23 	wh16	r9,0x3
     dbc0:	10 40 01 29 	ld32	r9,r9
-    dbc4:	0e 20 01 10 	rev8	r8,r16
+    dbc4:	01 60 01 10 	umulh	r8,r16
     dbc8:	20 70 03 e2 	movepc	rret,8
     dbcc:	14 30 c9 11 	br	10 <compare>,#al
     dbd0:	00 10 00 41 	add	r2,1
@@ -14091,7 +14091,7 @@ Disassembly of section .text:
     dbec:	0d 46 59 38 	wl16	r9,0x32d8
     dbf0:	0d 60 01 23 	wh16	r9,0x3
     dbf4:	10 40 01 29 	ld32	r9,r9
-    dbf8:	0e 20 01 10 	rev8	r8,r16
+    dbf8:	01 60 01 10 	umulh	r8,r16
     dbfc:	20 70 03 e2 	movepc	rret,8
     dc00:	14 30 c9 04 	br	10 <compare>,#al
     dc04:	00 10 00 41 	add	r2,1
@@ -14104,7 +14104,7 @@ Disassembly of section .text:
     dc20:	0d 46 59 3c 	wl16	r9,0x32dc
     dc24:	0d 60 01 23 	wh16	r9,0x3
     dc28:	10 40 01 29 	ld32	r9,r9
-    dc2c:	0e 20 01 10 	rev8	r8,r16
+    dc2c:	01 60 01 10 	umulh	r8,r16
     dc30:	20 70 03 e2 	movepc	rret,8
     dc34:	14 30 c8 f7 	br	10 <compare>,#al
     dc38:	00 10 00 41 	add	r2,1
@@ -14117,7 +14117,7 @@ Disassembly of section .text:
     dc54:	0d 46 5d 20 	wl16	r9,0x32e0
     dc58:	0d 60 01 23 	wh16	r9,0x3
     dc5c:	10 40 01 29 	ld32	r9,r9
-    dc60:	0e 20 01 10 	rev8	r8,r16
+    dc60:	01 60 01 10 	umulh	r8,r16
     dc64:	20 70 03 e2 	movepc	rret,8
     dc68:	14 30 c8 ea 	br	10 <compare>,#al
     dc6c:	00 10 00 41 	add	r2,1
@@ -14130,7 +14130,7 @@ Disassembly of section .text:
     dc88:	0d 46 5d 24 	wl16	r9,0x32e4
     dc8c:	0d 60 01 23 	wh16	r9,0x3
     dc90:	10 40 01 29 	ld32	r9,r9
-    dc94:	0e 20 01 10 	rev8	r8,r16
+    dc94:	01 60 01 10 	umulh	r8,r16
     dc98:	20 70 03 e2 	movepc	rret,8
     dc9c:	14 30 c8 dd 	br	10 <compare>,#al
     dca0:	00 10 00 41 	add	r2,1
@@ -14143,7 +14143,7 @@ Disassembly of section .text:
     dcbc:	0d 46 5d 28 	wl16	r9,0x32e8
     dcc0:	0d 60 01 23 	wh16	r9,0x3
     dcc4:	10 40 01 29 	ld32	r9,r9
-    dcc8:	0e 20 01 10 	rev8	r8,r16
+    dcc8:	01 60 01 10 	umulh	r8,r16
     dccc:	20 70 03 e2 	movepc	rret,8
     dcd0:	14 30 c8 d0 	br	10 <compare>,#al
     dcd4:	00 10 00 41 	add	r2,1
@@ -14156,7 +14156,7 @@ Disassembly of section .text:
     dcf0:	0d 46 5d 2c 	wl16	r9,0x32ec
     dcf4:	0d 60 01 23 	wh16	r9,0x3
     dcf8:	10 40 01 29 	ld32	r9,r9
-    dcfc:	0e 20 01 10 	rev8	r8,r16
+    dcfc:	01 60 01 10 	umulh	r8,r16
     dd00:	20 70 03 e2 	movepc	rret,8
     dd04:	14 30 c8 c3 	br	10 <compare>,#al
     dd08:	00 10 00 41 	add	r2,1
@@ -14169,13 +14169,1433 @@ Disassembly of section .text:
     dd24:	0d 46 5d 30 	wl16	r9,0x32f0
     dd28:	0d 60 01 23 	wh16	r9,0x3
     dd2c:	10 40 01 29 	ld32	r9,r9
-    dd30:	0e 20 01 10 	rev8	r8,r16
+    dd30:	01 60 01 10 	umulh	r8,r16
     dd34:	20 70 03 e2 	movepc	rret,8
     dd38:	14 30 c8 b6 	br	10 <compare>,#al
     dd3c:	00 10 00 41 	add	r2,1
     dd40:	0c 40 00 42 	xor	r2,r2
     dd44:	00 10 00 61 	add	r3,1
-    dd48:	14 30 c8 c4 	br	58 <finish>,#al
+    dd48:	0d 46 5d 14 	wl16	r8,0x32f4
+    dd4c:	0d 60 01 03 	wh16	r8,0x3
+    dd50:	10 40 01 08 	ld32	r8,r8
+    dd54:	0d 46 a5 2c 	wl16	r9,0x352c
+    dd58:	0d 60 01 23 	wh16	r9,0x3
+    dd5c:	10 40 01 29 	ld32	r9,r9
+    dd60:	01 70 01 01 	umulh	r8,0x1
+    dd64:	20 70 03 e2 	movepc	rret,8
+    dd68:	14 30 c8 aa 	br	10 <compare>,#al
+    dd6c:	00 10 00 41 	add	r2,1
+    dd70:	0d 46 5d 18 	wl16	r8,0x32f8
+    dd74:	0d 60 01 03 	wh16	r8,0x3
+    dd78:	10 40 01 08 	ld32	r8,r8
+    dd7c:	0d 46 a5 30 	wl16	r9,0x3530
+    dd80:	0d 60 01 23 	wh16	r9,0x3
+    dd84:	10 40 01 29 	ld32	r9,r9
+    dd88:	01 70 01 02 	umulh	r8,0x2
+    dd8c:	20 70 03 e2 	movepc	rret,8
+    dd90:	14 30 c8 a0 	br	10 <compare>,#al
+    dd94:	00 10 00 41 	add	r2,1
+    dd98:	0d 46 5d 1c 	wl16	r8,0x32fc
+    dd9c:	0d 60 01 03 	wh16	r8,0x3
+    dda0:	10 40 01 08 	ld32	r8,r8
+    dda4:	0d 46 a5 34 	wl16	r9,0x3534
+    dda8:	0d 60 01 23 	wh16	r9,0x3
+    ddac:	10 40 01 29 	ld32	r9,r9
+    ddb0:	01 70 01 04 	umulh	r8,0x4
+    ddb4:	20 70 03 e2 	movepc	rret,8
+    ddb8:	14 30 c8 96 	br	10 <compare>,#al
+    ddbc:	00 10 00 41 	add	r2,1
+    ddc0:	0d 46 61 00 	wl16	r8,0x3300
+    ddc4:	0d 60 01 03 	wh16	r8,0x3
+    ddc8:	10 40 01 08 	ld32	r8,r8
+    ddcc:	0d 46 a5 38 	wl16	r9,0x3538
+    ddd0:	0d 60 01 23 	wh16	r9,0x3
+    ddd4:	10 40 01 29 	ld32	r9,r9
+    ddd8:	01 70 01 08 	umulh	r8,0x8
+    dddc:	20 70 03 e2 	movepc	rret,8
+    dde0:	14 30 c8 8c 	br	10 <compare>,#al
+    dde4:	00 10 00 41 	add	r2,1
+    dde8:	0d 46 61 04 	wl16	r8,0x3304
+    ddec:	0d 60 01 03 	wh16	r8,0x3
+    ddf0:	10 40 01 08 	ld32	r8,r8
+    ddf4:	0d 46 a5 3c 	wl16	r9,0x353c
+    ddf8:	0d 60 01 23 	wh16	r9,0x3
+    ddfc:	10 40 01 29 	ld32	r9,r9
+    de00:	01 70 01 10 	umulh	r8,0x10
+    de04:	20 70 03 e2 	movepc	rret,8
+    de08:	14 30 c8 82 	br	10 <compare>,#al
+    de0c:	00 10 00 41 	add	r2,1
+    de10:	0d 46 61 08 	wl16	r8,0x3308
+    de14:	0d 60 01 03 	wh16	r8,0x3
+    de18:	10 40 01 08 	ld32	r8,r8
+    de1c:	0d 46 a9 20 	wl16	r9,0x3540
+    de20:	0d 60 01 23 	wh16	r9,0x3
+    de24:	10 40 01 29 	ld32	r9,r9
+    de28:	01 70 05 00 	umulh	r8,0x20
+    de2c:	20 70 03 e2 	movepc	rret,8
+    de30:	14 30 c8 78 	br	10 <compare>,#al
+    de34:	00 10 00 41 	add	r2,1
+    de38:	0d 46 61 0c 	wl16	r8,0x330c
+    de3c:	0d 60 01 03 	wh16	r8,0x3
+    de40:	10 40 01 08 	ld32	r8,r8
+    de44:	0d 46 a9 24 	wl16	r9,0x3544
+    de48:	0d 60 01 23 	wh16	r9,0x3
+    de4c:	10 40 01 29 	ld32	r9,r9
+    de50:	01 70 09 00 	umulh	r8,0x40
+    de54:	20 70 03 e2 	movepc	rret,8
+    de58:	14 30 c8 6e 	br	10 <compare>,#al
+    de5c:	00 10 00 41 	add	r2,1
+    de60:	0d 46 61 10 	wl16	r8,0x3310
+    de64:	0d 60 01 03 	wh16	r8,0x3
+    de68:	10 40 01 08 	ld32	r8,r8
+    de6c:	0d 46 a9 28 	wl16	r9,0x3548
+    de70:	0d 60 01 23 	wh16	r9,0x3
+    de74:	10 40 01 29 	ld32	r9,r9
+    de78:	01 70 11 00 	umulh	r8,0x80
+    de7c:	20 70 03 e2 	movepc	rret,8
+    de80:	14 30 c8 64 	br	10 <compare>,#al
+    de84:	00 10 00 41 	add	r2,1
+    de88:	0d 46 61 14 	wl16	r8,0x3314
+    de8c:	0d 60 01 03 	wh16	r8,0x3
+    de90:	10 40 01 08 	ld32	r8,r8
+    de94:	0d 46 a9 2c 	wl16	r9,0x354c
+    de98:	0d 60 01 23 	wh16	r9,0x3
+    de9c:	10 40 01 29 	ld32	r9,r9
+    dea0:	01 70 21 00 	umulh	r8,0x100
+    dea4:	20 70 03 e2 	movepc	rret,8
+    dea8:	14 30 c8 5a 	br	10 <compare>,#al
+    deac:	00 10 00 41 	add	r2,1
+    deb0:	0d 46 61 18 	wl16	r8,0x3318
+    deb4:	0d 60 01 03 	wh16	r8,0x3
+    deb8:	10 40 01 08 	ld32	r8,r8
+    debc:	0d 46 a9 30 	wl16	r9,0x3550
+    dec0:	0d 60 01 23 	wh16	r9,0x3
+    dec4:	10 40 01 29 	ld32	r9,r9
+    dec8:	01 70 41 00 	umulh	r8,0x200
+    decc:	20 70 03 e2 	movepc	rret,8
+    ded0:	14 30 c8 50 	br	10 <compare>,#al
+    ded4:	00 10 00 41 	add	r2,1
+    ded8:	0d 46 61 1c 	wl16	r8,0x331c
+    dedc:	0d 60 01 03 	wh16	r8,0x3
+    dee0:	10 40 01 08 	ld32	r8,r8
+    dee4:	0d 46 a9 34 	wl16	r9,0x3554
+    dee8:	0d 60 01 23 	wh16	r9,0x3
+    deec:	10 40 01 29 	ld32	r9,r9
+    def0:	01 70 81 00 	umulh	r8,0x400
+    def4:	20 70 03 e2 	movepc	rret,8
+    def8:	14 30 c8 46 	br	10 <compare>,#al
+    defc:	00 10 00 41 	add	r2,1
+    df00:	0d 46 65 00 	wl16	r8,0x3320
+    df04:	0d 60 01 03 	wh16	r8,0x3
+    df08:	10 40 01 08 	ld32	r8,r8
+    df0c:	0d 46 a9 38 	wl16	r9,0x3558
+    df10:	0d 60 01 23 	wh16	r9,0x3
+    df14:	10 40 01 29 	ld32	r9,r9
+    df18:	01 70 01 01 	umulh	r8,0x1
+    df1c:	20 70 03 e2 	movepc	rret,8
+    df20:	14 30 c8 3c 	br	10 <compare>,#al
+    df24:	00 10 00 41 	add	r2,1
+    df28:	0d 46 65 04 	wl16	r8,0x3324
+    df2c:	0d 60 01 03 	wh16	r8,0x3
+    df30:	10 40 01 08 	ld32	r8,r8
+    df34:	0d 46 a9 3c 	wl16	r9,0x355c
+    df38:	0d 60 01 23 	wh16	r9,0x3
+    df3c:	10 40 01 29 	ld32	r9,r9
+    df40:	01 70 01 02 	umulh	r8,0x2
+    df44:	20 70 03 e2 	movepc	rret,8
+    df48:	14 30 c8 32 	br	10 <compare>,#al
+    df4c:	00 10 00 41 	add	r2,1
+    df50:	0d 46 65 08 	wl16	r8,0x3328
+    df54:	0d 60 01 03 	wh16	r8,0x3
+    df58:	10 40 01 08 	ld32	r8,r8
+    df5c:	0d 46 ad 20 	wl16	r9,0x3560
+    df60:	0d 60 01 23 	wh16	r9,0x3
+    df64:	10 40 01 29 	ld32	r9,r9
+    df68:	01 70 01 04 	umulh	r8,0x4
+    df6c:	20 70 03 e2 	movepc	rret,8
+    df70:	14 30 c8 28 	br	10 <compare>,#al
+    df74:	00 10 00 41 	add	r2,1
+    df78:	0d 46 65 0c 	wl16	r8,0x332c
+    df7c:	0d 60 01 03 	wh16	r8,0x3
+    df80:	10 40 01 08 	ld32	r8,r8
+    df84:	0d 46 ad 24 	wl16	r9,0x3564
+    df88:	0d 60 01 23 	wh16	r9,0x3
+    df8c:	10 40 01 29 	ld32	r9,r9
+    df90:	01 70 01 08 	umulh	r8,0x8
+    df94:	20 70 03 e2 	movepc	rret,8
+    df98:	14 30 c8 1e 	br	10 <compare>,#al
+    df9c:	00 10 00 41 	add	r2,1
+    dfa0:	0d 46 65 10 	wl16	r8,0x3330
+    dfa4:	0d 60 01 03 	wh16	r8,0x3
+    dfa8:	10 40 01 08 	ld32	r8,r8
+    dfac:	0d 46 ad 28 	wl16	r9,0x3568
+    dfb0:	0d 60 01 23 	wh16	r9,0x3
+    dfb4:	10 40 01 29 	ld32	r9,r9
+    dfb8:	01 70 01 10 	umulh	r8,0x10
+    dfbc:	20 70 03 e2 	movepc	rret,8
+    dfc0:	14 30 c8 14 	br	10 <compare>,#al
+    dfc4:	00 10 00 41 	add	r2,1
+    dfc8:	0d 46 65 14 	wl16	r8,0x3334
+    dfcc:	0d 60 01 03 	wh16	r8,0x3
+    dfd0:	10 40 01 08 	ld32	r8,r8
+    dfd4:	0d 46 ad 2c 	wl16	r9,0x356c
+    dfd8:	0d 60 01 23 	wh16	r9,0x3
+    dfdc:	10 40 01 29 	ld32	r9,r9
+    dfe0:	01 70 05 00 	umulh	r8,0x20
+    dfe4:	20 70 03 e2 	movepc	rret,8
+    dfe8:	14 30 c8 0a 	br	10 <compare>,#al
+    dfec:	00 10 00 41 	add	r2,1
+    dff0:	0d 46 65 18 	wl16	r8,0x3338
+    dff4:	0d 60 01 03 	wh16	r8,0x3
+    dff8:	10 40 01 08 	ld32	r8,r8
+    dffc:	0d 46 ad 30 	wl16	r9,0x3570
+    e000:	0d 60 01 23 	wh16	r9,0x3
+    e004:	10 40 01 29 	ld32	r9,r9
+    e008:	01 70 09 00 	umulh	r8,0x40
+    e00c:	20 70 03 e2 	movepc	rret,8
+    e010:	14 30 c8 00 	br	10 <compare>,#al
+    e014:	00 10 00 41 	add	r2,1
+    e018:	0d 46 65 1c 	wl16	r8,0x333c
+    e01c:	0d 60 01 03 	wh16	r8,0x3
+    e020:	10 40 01 08 	ld32	r8,r8
+    e024:	0d 46 ad 34 	wl16	r9,0x3574
+    e028:	0d 60 01 23 	wh16	r9,0x3
+    e02c:	10 40 01 29 	ld32	r9,r9
+    e030:	01 70 11 00 	umulh	r8,0x80
+    e034:	20 70 03 e2 	movepc	rret,8
+    e038:	14 30 c7 f6 	br	10 <compare>,#al
+    e03c:	00 10 00 41 	add	r2,1
+    e040:	0d 46 69 00 	wl16	r8,0x3340
+    e044:	0d 60 01 03 	wh16	r8,0x3
+    e048:	10 40 01 08 	ld32	r8,r8
+    e04c:	0d 46 ad 38 	wl16	r9,0x3578
+    e050:	0d 60 01 23 	wh16	r9,0x3
+    e054:	10 40 01 29 	ld32	r9,r9
+    e058:	01 70 21 00 	umulh	r8,0x100
+    e05c:	20 70 03 e2 	movepc	rret,8
+    e060:	14 30 c7 ec 	br	10 <compare>,#al
+    e064:	00 10 00 41 	add	r2,1
+    e068:	0d 46 69 04 	wl16	r8,0x3344
+    e06c:	0d 60 01 03 	wh16	r8,0x3
+    e070:	10 40 01 08 	ld32	r8,r8
+    e074:	0d 46 ad 3c 	wl16	r9,0x357c
+    e078:	0d 60 01 23 	wh16	r9,0x3
+    e07c:	10 40 01 29 	ld32	r9,r9
+    e080:	01 70 41 00 	umulh	r8,0x200
+    e084:	20 70 03 e2 	movepc	rret,8
+    e088:	14 30 c7 e2 	br	10 <compare>,#al
+    e08c:	00 10 00 41 	add	r2,1
+    e090:	0d 46 69 08 	wl16	r8,0x3348
+    e094:	0d 60 01 03 	wh16	r8,0x3
+    e098:	10 40 01 08 	ld32	r8,r8
+    e09c:	0d 46 b1 20 	wl16	r9,0x3580
+    e0a0:	0d 60 01 23 	wh16	r9,0x3
+    e0a4:	10 40 01 29 	ld32	r9,r9
+    e0a8:	01 70 81 00 	umulh	r8,0x400
+    e0ac:	20 70 03 e2 	movepc	rret,8
+    e0b0:	14 30 c7 d8 	br	10 <compare>,#al
+    e0b4:	00 10 00 41 	add	r2,1
+    e0b8:	0d 46 69 0c 	wl16	r8,0x334c
+    e0bc:	0d 60 01 03 	wh16	r8,0x3
+    e0c0:	10 40 01 08 	ld32	r8,r8
+    e0c4:	0d 46 b1 24 	wl16	r9,0x3584
+    e0c8:	0d 60 01 23 	wh16	r9,0x3
+    e0cc:	10 40 01 29 	ld32	r9,r9
+    e0d0:	01 70 01 01 	umulh	r8,0x1
+    e0d4:	20 70 03 e2 	movepc	rret,8
+    e0d8:	14 30 c7 ce 	br	10 <compare>,#al
+    e0dc:	00 10 00 41 	add	r2,1
+    e0e0:	0d 46 69 10 	wl16	r8,0x3350
+    e0e4:	0d 60 01 03 	wh16	r8,0x3
+    e0e8:	10 40 01 08 	ld32	r8,r8
+    e0ec:	0d 46 b1 28 	wl16	r9,0x3588
+    e0f0:	0d 60 01 23 	wh16	r9,0x3
+    e0f4:	10 40 01 29 	ld32	r9,r9
+    e0f8:	01 70 01 02 	umulh	r8,0x2
+    e0fc:	20 70 03 e2 	movepc	rret,8
+    e100:	14 30 c7 c4 	br	10 <compare>,#al
+    e104:	00 10 00 41 	add	r2,1
+    e108:	0d 46 69 14 	wl16	r8,0x3354
+    e10c:	0d 60 01 03 	wh16	r8,0x3
+    e110:	10 40 01 08 	ld32	r8,r8
+    e114:	0d 46 b1 2c 	wl16	r9,0x358c
+    e118:	0d 60 01 23 	wh16	r9,0x3
+    e11c:	10 40 01 29 	ld32	r9,r9
+    e120:	01 70 01 04 	umulh	r8,0x4
+    e124:	20 70 03 e2 	movepc	rret,8
+    e128:	14 30 c7 ba 	br	10 <compare>,#al
+    e12c:	00 10 00 41 	add	r2,1
+    e130:	0d 46 69 18 	wl16	r8,0x3358
+    e134:	0d 60 01 03 	wh16	r8,0x3
+    e138:	10 40 01 08 	ld32	r8,r8
+    e13c:	0d 46 b1 30 	wl16	r9,0x3590
+    e140:	0d 60 01 23 	wh16	r9,0x3
+    e144:	10 40 01 29 	ld32	r9,r9
+    e148:	01 70 01 08 	umulh	r8,0x8
+    e14c:	20 70 03 e2 	movepc	rret,8
+    e150:	14 30 c7 b0 	br	10 <compare>,#al
+    e154:	00 10 00 41 	add	r2,1
+    e158:	0d 46 69 1c 	wl16	r8,0x335c
+    e15c:	0d 60 01 03 	wh16	r8,0x3
+    e160:	10 40 01 08 	ld32	r8,r8
+    e164:	0d 46 b1 34 	wl16	r9,0x3594
+    e168:	0d 60 01 23 	wh16	r9,0x3
+    e16c:	10 40 01 29 	ld32	r9,r9
+    e170:	01 70 01 10 	umulh	r8,0x10
+    e174:	20 70 03 e2 	movepc	rret,8
+    e178:	14 30 c7 a6 	br	10 <compare>,#al
+    e17c:	00 10 00 41 	add	r2,1
+    e180:	0d 46 6d 00 	wl16	r8,0x3360
+    e184:	0d 60 01 03 	wh16	r8,0x3
+    e188:	10 40 01 08 	ld32	r8,r8
+    e18c:	0d 46 b1 38 	wl16	r9,0x3598
+    e190:	0d 60 01 23 	wh16	r9,0x3
+    e194:	10 40 01 29 	ld32	r9,r9
+    e198:	01 70 05 00 	umulh	r8,0x20
+    e19c:	20 70 03 e2 	movepc	rret,8
+    e1a0:	14 30 c7 9c 	br	10 <compare>,#al
+    e1a4:	00 10 00 41 	add	r2,1
+    e1a8:	0d 46 6d 04 	wl16	r8,0x3364
+    e1ac:	0d 60 01 03 	wh16	r8,0x3
+    e1b0:	10 40 01 08 	ld32	r8,r8
+    e1b4:	0d 46 b1 3c 	wl16	r9,0x359c
+    e1b8:	0d 60 01 23 	wh16	r9,0x3
+    e1bc:	10 40 01 29 	ld32	r9,r9
+    e1c0:	01 70 09 00 	umulh	r8,0x40
+    e1c4:	20 70 03 e2 	movepc	rret,8
+    e1c8:	14 30 c7 92 	br	10 <compare>,#al
+    e1cc:	00 10 00 41 	add	r2,1
+    e1d0:	0d 46 6d 08 	wl16	r8,0x3368
+    e1d4:	0d 60 01 03 	wh16	r8,0x3
+    e1d8:	10 40 01 08 	ld32	r8,r8
+    e1dc:	0d 46 b5 20 	wl16	r9,0x35a0
+    e1e0:	0d 60 01 23 	wh16	r9,0x3
+    e1e4:	10 40 01 29 	ld32	r9,r9
+    e1e8:	01 70 11 00 	umulh	r8,0x80
+    e1ec:	20 70 03 e2 	movepc	rret,8
+    e1f0:	14 30 c7 88 	br	10 <compare>,#al
+    e1f4:	00 10 00 41 	add	r2,1
+    e1f8:	0d 46 6d 0c 	wl16	r8,0x336c
+    e1fc:	0d 60 01 03 	wh16	r8,0x3
+    e200:	10 40 01 08 	ld32	r8,r8
+    e204:	0d 46 b5 24 	wl16	r9,0x35a4
+    e208:	0d 60 01 23 	wh16	r9,0x3
+    e20c:	10 40 01 29 	ld32	r9,r9
+    e210:	01 70 21 00 	umulh	r8,0x100
+    e214:	20 70 03 e2 	movepc	rret,8
+    e218:	14 30 c7 7e 	br	10 <compare>,#al
+    e21c:	00 10 00 41 	add	r2,1
+    e220:	0d 46 6d 10 	wl16	r8,0x3370
+    e224:	0d 60 01 03 	wh16	r8,0x3
+    e228:	10 40 01 08 	ld32	r8,r8
+    e22c:	0d 46 b5 28 	wl16	r9,0x35a8
+    e230:	0d 60 01 23 	wh16	r9,0x3
+    e234:	10 40 01 29 	ld32	r9,r9
+    e238:	01 70 41 00 	umulh	r8,0x200
+    e23c:	20 70 03 e2 	movepc	rret,8
+    e240:	14 30 c7 74 	br	10 <compare>,#al
+    e244:	00 10 00 41 	add	r2,1
+    e248:	0d 46 6d 14 	wl16	r8,0x3374
+    e24c:	0d 60 01 03 	wh16	r8,0x3
+    e250:	10 40 01 08 	ld32	r8,r8
+    e254:	0d 46 b5 2c 	wl16	r9,0x35ac
+    e258:	0d 60 01 23 	wh16	r9,0x3
+    e25c:	10 40 01 29 	ld32	r9,r9
+    e260:	01 70 81 00 	umulh	r8,0x400
+    e264:	20 70 03 e2 	movepc	rret,8
+    e268:	14 30 c7 6a 	br	10 <compare>,#al
+    e26c:	00 10 00 41 	add	r2,1
+    e270:	0d 46 6d 18 	wl16	r8,0x3378
+    e274:	0d 60 01 03 	wh16	r8,0x3
+    e278:	10 40 01 08 	ld32	r8,r8
+    e27c:	0d 46 b5 30 	wl16	r9,0x35b0
+    e280:	0d 60 01 23 	wh16	r9,0x3
+    e284:	10 40 01 29 	ld32	r9,r9
+    e288:	01 70 01 01 	umulh	r8,0x1
+    e28c:	20 70 03 e2 	movepc	rret,8
+    e290:	14 30 c7 60 	br	10 <compare>,#al
+    e294:	00 10 00 41 	add	r2,1
+    e298:	0d 46 6d 1c 	wl16	r8,0x337c
+    e29c:	0d 60 01 03 	wh16	r8,0x3
+    e2a0:	10 40 01 08 	ld32	r8,r8
+    e2a4:	0d 46 b5 34 	wl16	r9,0x35b4
+    e2a8:	0d 60 01 23 	wh16	r9,0x3
+    e2ac:	10 40 01 29 	ld32	r9,r9
+    e2b0:	01 70 01 02 	umulh	r8,0x2
+    e2b4:	20 70 03 e2 	movepc	rret,8
+    e2b8:	14 30 c7 56 	br	10 <compare>,#al
+    e2bc:	00 10 00 41 	add	r2,1
+    e2c0:	0d 46 71 00 	wl16	r8,0x3380
+    e2c4:	0d 60 01 03 	wh16	r8,0x3
+    e2c8:	10 40 01 08 	ld32	r8,r8
+    e2cc:	0d 46 b5 38 	wl16	r9,0x35b8
+    e2d0:	0d 60 01 23 	wh16	r9,0x3
+    e2d4:	10 40 01 29 	ld32	r9,r9
+    e2d8:	01 70 01 04 	umulh	r8,0x4
+    e2dc:	20 70 03 e2 	movepc	rret,8
+    e2e0:	14 30 c7 4c 	br	10 <compare>,#al
+    e2e4:	00 10 00 41 	add	r2,1
+    e2e8:	0d 46 71 04 	wl16	r8,0x3384
+    e2ec:	0d 60 01 03 	wh16	r8,0x3
+    e2f0:	10 40 01 08 	ld32	r8,r8
+    e2f4:	0d 46 b5 3c 	wl16	r9,0x35bc
+    e2f8:	0d 60 01 23 	wh16	r9,0x3
+    e2fc:	10 40 01 29 	ld32	r9,r9
+    e300:	01 70 01 08 	umulh	r8,0x8
+    e304:	20 70 03 e2 	movepc	rret,8
+    e308:	14 30 c7 42 	br	10 <compare>,#al
+    e30c:	00 10 00 41 	add	r2,1
+    e310:	0d 46 71 08 	wl16	r8,0x3388
+    e314:	0d 60 01 03 	wh16	r8,0x3
+    e318:	10 40 01 08 	ld32	r8,r8
+    e31c:	0d 46 b9 20 	wl16	r9,0x35c0
+    e320:	0d 60 01 23 	wh16	r9,0x3
+    e324:	10 40 01 29 	ld32	r9,r9
+    e328:	01 70 01 10 	umulh	r8,0x10
+    e32c:	20 70 03 e2 	movepc	rret,8
+    e330:	14 30 c7 38 	br	10 <compare>,#al
+    e334:	00 10 00 41 	add	r2,1
+    e338:	0d 46 71 0c 	wl16	r8,0x338c
+    e33c:	0d 60 01 03 	wh16	r8,0x3
+    e340:	10 40 01 08 	ld32	r8,r8
+    e344:	0d 46 b9 24 	wl16	r9,0x35c4
+    e348:	0d 60 01 23 	wh16	r9,0x3
+    e34c:	10 40 01 29 	ld32	r9,r9
+    e350:	01 70 05 00 	umulh	r8,0x20
+    e354:	20 70 03 e2 	movepc	rret,8
+    e358:	14 30 c7 2e 	br	10 <compare>,#al
+    e35c:	00 10 00 41 	add	r2,1
+    e360:	0d 46 71 10 	wl16	r8,0x3390
+    e364:	0d 60 01 03 	wh16	r8,0x3
+    e368:	10 40 01 08 	ld32	r8,r8
+    e36c:	0d 46 b9 28 	wl16	r9,0x35c8
+    e370:	0d 60 01 23 	wh16	r9,0x3
+    e374:	10 40 01 29 	ld32	r9,r9
+    e378:	01 70 09 00 	umulh	r8,0x40
+    e37c:	20 70 03 e2 	movepc	rret,8
+    e380:	14 30 c7 24 	br	10 <compare>,#al
+    e384:	00 10 00 41 	add	r2,1
+    e388:	0d 46 71 14 	wl16	r8,0x3394
+    e38c:	0d 60 01 03 	wh16	r8,0x3
+    e390:	10 40 01 08 	ld32	r8,r8
+    e394:	0d 46 b9 2c 	wl16	r9,0x35cc
+    e398:	0d 60 01 23 	wh16	r9,0x3
+    e39c:	10 40 01 29 	ld32	r9,r9
+    e3a0:	01 70 11 00 	umulh	r8,0x80
+    e3a4:	20 70 03 e2 	movepc	rret,8
+    e3a8:	14 30 c7 1a 	br	10 <compare>,#al
+    e3ac:	00 10 00 41 	add	r2,1
+    e3b0:	0d 46 71 18 	wl16	r8,0x3398
+    e3b4:	0d 60 01 03 	wh16	r8,0x3
+    e3b8:	10 40 01 08 	ld32	r8,r8
+    e3bc:	0d 46 b9 30 	wl16	r9,0x35d0
+    e3c0:	0d 60 01 23 	wh16	r9,0x3
+    e3c4:	10 40 01 29 	ld32	r9,r9
+    e3c8:	01 70 21 00 	umulh	r8,0x100
+    e3cc:	20 70 03 e2 	movepc	rret,8
+    e3d0:	14 30 c7 10 	br	10 <compare>,#al
+    e3d4:	00 10 00 41 	add	r2,1
+    e3d8:	0d 46 71 1c 	wl16	r8,0x339c
+    e3dc:	0d 60 01 03 	wh16	r8,0x3
+    e3e0:	10 40 01 08 	ld32	r8,r8
+    e3e4:	0d 46 b9 34 	wl16	r9,0x35d4
+    e3e8:	0d 60 01 23 	wh16	r9,0x3
+    e3ec:	10 40 01 29 	ld32	r9,r9
+    e3f0:	01 70 41 00 	umulh	r8,0x200
+    e3f4:	20 70 03 e2 	movepc	rret,8
+    e3f8:	14 30 c7 06 	br	10 <compare>,#al
+    e3fc:	00 10 00 41 	add	r2,1
+    e400:	0d 46 75 00 	wl16	r8,0x33a0
+    e404:	0d 60 01 03 	wh16	r8,0x3
+    e408:	10 40 01 08 	ld32	r8,r8
+    e40c:	0d 46 b9 38 	wl16	r9,0x35d8
+    e410:	0d 60 01 23 	wh16	r9,0x3
+    e414:	10 40 01 29 	ld32	r9,r9
+    e418:	01 70 81 00 	umulh	r8,0x400
+    e41c:	20 70 03 e2 	movepc	rret,8
+    e420:	14 30 c6 fc 	br	10 <compare>,#al
+    e424:	00 10 00 41 	add	r2,1
+    e428:	0d 46 75 04 	wl16	r8,0x33a4
+    e42c:	0d 60 01 03 	wh16	r8,0x3
+    e430:	10 40 01 08 	ld32	r8,r8
+    e434:	0d 46 b9 3c 	wl16	r9,0x35dc
+    e438:	0d 60 01 23 	wh16	r9,0x3
+    e43c:	10 40 01 29 	ld32	r9,r9
+    e440:	01 70 01 01 	umulh	r8,0x1
+    e444:	20 70 03 e2 	movepc	rret,8
+    e448:	14 30 c6 f2 	br	10 <compare>,#al
+    e44c:	00 10 00 41 	add	r2,1
+    e450:	0d 46 75 08 	wl16	r8,0x33a8
+    e454:	0d 60 01 03 	wh16	r8,0x3
+    e458:	10 40 01 08 	ld32	r8,r8
+    e45c:	0d 46 bd 20 	wl16	r9,0x35e0
+    e460:	0d 60 01 23 	wh16	r9,0x3
+    e464:	10 40 01 29 	ld32	r9,r9
+    e468:	01 70 01 02 	umulh	r8,0x2
+    e46c:	20 70 03 e2 	movepc	rret,8
+    e470:	14 30 c6 e8 	br	10 <compare>,#al
+    e474:	00 10 00 41 	add	r2,1
+    e478:	0d 46 75 0c 	wl16	r8,0x33ac
+    e47c:	0d 60 01 03 	wh16	r8,0x3
+    e480:	10 40 01 08 	ld32	r8,r8
+    e484:	0d 46 bd 24 	wl16	r9,0x35e4
+    e488:	0d 60 01 23 	wh16	r9,0x3
+    e48c:	10 40 01 29 	ld32	r9,r9
+    e490:	01 70 01 04 	umulh	r8,0x4
+    e494:	20 70 03 e2 	movepc	rret,8
+    e498:	14 30 c6 de 	br	10 <compare>,#al
+    e49c:	00 10 00 41 	add	r2,1
+    e4a0:	0d 46 75 10 	wl16	r8,0x33b0
+    e4a4:	0d 60 01 03 	wh16	r8,0x3
+    e4a8:	10 40 01 08 	ld32	r8,r8
+    e4ac:	0d 46 bd 28 	wl16	r9,0x35e8
+    e4b0:	0d 60 01 23 	wh16	r9,0x3
+    e4b4:	10 40 01 29 	ld32	r9,r9
+    e4b8:	01 70 01 08 	umulh	r8,0x8
+    e4bc:	20 70 03 e2 	movepc	rret,8
+    e4c0:	14 30 c6 d4 	br	10 <compare>,#al
+    e4c4:	00 10 00 41 	add	r2,1
+    e4c8:	0d 46 75 14 	wl16	r8,0x33b4
+    e4cc:	0d 60 01 03 	wh16	r8,0x3
+    e4d0:	10 40 01 08 	ld32	r8,r8
+    e4d4:	0d 46 bd 2c 	wl16	r9,0x35ec
+    e4d8:	0d 60 01 23 	wh16	r9,0x3
+    e4dc:	10 40 01 29 	ld32	r9,r9
+    e4e0:	01 70 01 10 	umulh	r8,0x10
+    e4e4:	20 70 03 e2 	movepc	rret,8
+    e4e8:	14 30 c6 ca 	br	10 <compare>,#al
+    e4ec:	00 10 00 41 	add	r2,1
+    e4f0:	0d 46 75 18 	wl16	r8,0x33b8
+    e4f4:	0d 60 01 03 	wh16	r8,0x3
+    e4f8:	10 40 01 08 	ld32	r8,r8
+    e4fc:	0d 46 bd 30 	wl16	r9,0x35f0
+    e500:	0d 60 01 23 	wh16	r9,0x3
+    e504:	10 40 01 29 	ld32	r9,r9
+    e508:	01 70 05 00 	umulh	r8,0x20
+    e50c:	20 70 03 e2 	movepc	rret,8
+    e510:	14 30 c6 c0 	br	10 <compare>,#al
+    e514:	00 10 00 41 	add	r2,1
+    e518:	0d 46 75 1c 	wl16	r8,0x33bc
+    e51c:	0d 60 01 03 	wh16	r8,0x3
+    e520:	10 40 01 08 	ld32	r8,r8
+    e524:	0d 46 bd 34 	wl16	r9,0x35f4
+    e528:	0d 60 01 23 	wh16	r9,0x3
+    e52c:	10 40 01 29 	ld32	r9,r9
+    e530:	01 70 09 00 	umulh	r8,0x40
+    e534:	20 70 03 e2 	movepc	rret,8
+    e538:	14 30 c6 b6 	br	10 <compare>,#al
+    e53c:	00 10 00 41 	add	r2,1
+    e540:	0d 46 79 00 	wl16	r8,0x33c0
+    e544:	0d 60 01 03 	wh16	r8,0x3
+    e548:	10 40 01 08 	ld32	r8,r8
+    e54c:	0d 46 bd 38 	wl16	r9,0x35f8
+    e550:	0d 60 01 23 	wh16	r9,0x3
+    e554:	10 40 01 29 	ld32	r9,r9
+    e558:	01 70 11 00 	umulh	r8,0x80
+    e55c:	20 70 03 e2 	movepc	rret,8
+    e560:	14 30 c6 ac 	br	10 <compare>,#al
+    e564:	00 10 00 41 	add	r2,1
+    e568:	0d 46 79 04 	wl16	r8,0x33c4
+    e56c:	0d 60 01 03 	wh16	r8,0x3
+    e570:	10 40 01 08 	ld32	r8,r8
+    e574:	0d 46 bd 3c 	wl16	r9,0x35fc
+    e578:	0d 60 01 23 	wh16	r9,0x3
+    e57c:	10 40 01 29 	ld32	r9,r9
+    e580:	01 70 21 00 	umulh	r8,0x100
+    e584:	20 70 03 e2 	movepc	rret,8
+    e588:	14 30 c6 a2 	br	10 <compare>,#al
+    e58c:	00 10 00 41 	add	r2,1
+    e590:	0d 46 79 08 	wl16	r8,0x33c8
+    e594:	0d 60 01 03 	wh16	r8,0x3
+    e598:	10 40 01 08 	ld32	r8,r8
+    e59c:	0d 46 c1 20 	wl16	r9,0x3600
+    e5a0:	0d 60 01 23 	wh16	r9,0x3
+    e5a4:	10 40 01 29 	ld32	r9,r9
+    e5a8:	01 70 41 00 	umulh	r8,0x200
+    e5ac:	20 70 03 e2 	movepc	rret,8
+    e5b0:	14 30 c6 98 	br	10 <compare>,#al
+    e5b4:	00 10 00 41 	add	r2,1
+    e5b8:	0d 46 79 0c 	wl16	r8,0x33cc
+    e5bc:	0d 60 01 03 	wh16	r8,0x3
+    e5c0:	10 40 01 08 	ld32	r8,r8
+    e5c4:	0d 46 c1 24 	wl16	r9,0x3604
+    e5c8:	0d 60 01 23 	wh16	r9,0x3
+    e5cc:	10 40 01 29 	ld32	r9,r9
+    e5d0:	01 70 81 00 	umulh	r8,0x400
+    e5d4:	20 70 03 e2 	movepc	rret,8
+    e5d8:	14 30 c6 8e 	br	10 <compare>,#al
+    e5dc:	00 10 00 41 	add	r2,1
+    e5e0:	0d 46 79 10 	wl16	r8,0x33d0
+    e5e4:	0d 60 01 03 	wh16	r8,0x3
+    e5e8:	10 40 01 08 	ld32	r8,r8
+    e5ec:	0d 46 c1 28 	wl16	r9,0x3608
+    e5f0:	0d 60 01 23 	wh16	r9,0x3
+    e5f4:	10 40 01 29 	ld32	r9,r9
+    e5f8:	01 70 01 01 	umulh	r8,0x1
+    e5fc:	20 70 03 e2 	movepc	rret,8
+    e600:	14 30 c6 84 	br	10 <compare>,#al
+    e604:	00 10 00 41 	add	r2,1
+    e608:	0d 46 79 14 	wl16	r8,0x33d4
+    e60c:	0d 60 01 03 	wh16	r8,0x3
+    e610:	10 40 01 08 	ld32	r8,r8
+    e614:	0d 46 c1 2c 	wl16	r9,0x360c
+    e618:	0d 60 01 23 	wh16	r9,0x3
+    e61c:	10 40 01 29 	ld32	r9,r9
+    e620:	01 70 01 02 	umulh	r8,0x2
+    e624:	20 70 03 e2 	movepc	rret,8
+    e628:	14 30 c6 7a 	br	10 <compare>,#al
+    e62c:	00 10 00 41 	add	r2,1
+    e630:	0d 46 79 18 	wl16	r8,0x33d8
+    e634:	0d 60 01 03 	wh16	r8,0x3
+    e638:	10 40 01 08 	ld32	r8,r8
+    e63c:	0d 46 c1 30 	wl16	r9,0x3610
+    e640:	0d 60 01 23 	wh16	r9,0x3
+    e644:	10 40 01 29 	ld32	r9,r9
+    e648:	01 70 01 04 	umulh	r8,0x4
+    e64c:	20 70 03 e2 	movepc	rret,8
+    e650:	14 30 c6 70 	br	10 <compare>,#al
+    e654:	00 10 00 41 	add	r2,1
+    e658:	0d 46 79 1c 	wl16	r8,0x33dc
+    e65c:	0d 60 01 03 	wh16	r8,0x3
+    e660:	10 40 01 08 	ld32	r8,r8
+    e664:	0d 46 c1 34 	wl16	r9,0x3614
+    e668:	0d 60 01 23 	wh16	r9,0x3
+    e66c:	10 40 01 29 	ld32	r9,r9
+    e670:	01 70 01 08 	umulh	r8,0x8
+    e674:	20 70 03 e2 	movepc	rret,8
+    e678:	14 30 c6 66 	br	10 <compare>,#al
+    e67c:	00 10 00 41 	add	r2,1
+    e680:	0d 46 7d 00 	wl16	r8,0x33e0
+    e684:	0d 60 01 03 	wh16	r8,0x3
+    e688:	10 40 01 08 	ld32	r8,r8
+    e68c:	0d 46 c1 38 	wl16	r9,0x3618
+    e690:	0d 60 01 23 	wh16	r9,0x3
+    e694:	10 40 01 29 	ld32	r9,r9
+    e698:	01 70 01 10 	umulh	r8,0x10
+    e69c:	20 70 03 e2 	movepc	rret,8
+    e6a0:	14 30 c6 5c 	br	10 <compare>,#al
+    e6a4:	00 10 00 41 	add	r2,1
+    e6a8:	0d 46 7d 04 	wl16	r8,0x33e4
+    e6ac:	0d 60 01 03 	wh16	r8,0x3
+    e6b0:	10 40 01 08 	ld32	r8,r8
+    e6b4:	0d 46 c1 3c 	wl16	r9,0x361c
+    e6b8:	0d 60 01 23 	wh16	r9,0x3
+    e6bc:	10 40 01 29 	ld32	r9,r9
+    e6c0:	01 70 05 00 	umulh	r8,0x20
+    e6c4:	20 70 03 e2 	movepc	rret,8
+    e6c8:	14 30 c6 52 	br	10 <compare>,#al
+    e6cc:	00 10 00 41 	add	r2,1
+    e6d0:	0d 46 7d 08 	wl16	r8,0x33e8
+    e6d4:	0d 60 01 03 	wh16	r8,0x3
+    e6d8:	10 40 01 08 	ld32	r8,r8
+    e6dc:	0d 46 c5 20 	wl16	r9,0x3620
+    e6e0:	0d 60 01 23 	wh16	r9,0x3
+    e6e4:	10 40 01 29 	ld32	r9,r9
+    e6e8:	01 70 09 00 	umulh	r8,0x40
+    e6ec:	20 70 03 e2 	movepc	rret,8
+    e6f0:	14 30 c6 48 	br	10 <compare>,#al
+    e6f4:	00 10 00 41 	add	r2,1
+    e6f8:	0d 46 7d 0c 	wl16	r8,0x33ec
+    e6fc:	0d 60 01 03 	wh16	r8,0x3
+    e700:	10 40 01 08 	ld32	r8,r8
+    e704:	0d 46 c5 24 	wl16	r9,0x3624
+    e708:	0d 60 01 23 	wh16	r9,0x3
+    e70c:	10 40 01 29 	ld32	r9,r9
+    e710:	01 70 11 00 	umulh	r8,0x80
+    e714:	20 70 03 e2 	movepc	rret,8
+    e718:	14 30 c6 3e 	br	10 <compare>,#al
+    e71c:	00 10 00 41 	add	r2,1
+    e720:	0d 46 7d 10 	wl16	r8,0x33f0
+    e724:	0d 60 01 03 	wh16	r8,0x3
+    e728:	10 40 01 08 	ld32	r8,r8
+    e72c:	0d 46 c5 28 	wl16	r9,0x3628
+    e730:	0d 60 01 23 	wh16	r9,0x3
+    e734:	10 40 01 29 	ld32	r9,r9
+    e738:	01 70 21 00 	umulh	r8,0x100
+    e73c:	20 70 03 e2 	movepc	rret,8
+    e740:	14 30 c6 34 	br	10 <compare>,#al
+    e744:	00 10 00 41 	add	r2,1
+    e748:	0d 46 7d 14 	wl16	r8,0x33f4
+    e74c:	0d 60 01 03 	wh16	r8,0x3
+    e750:	10 40 01 08 	ld32	r8,r8
+    e754:	0d 46 c5 2c 	wl16	r9,0x362c
+    e758:	0d 60 01 23 	wh16	r9,0x3
+    e75c:	10 40 01 29 	ld32	r9,r9
+    e760:	01 70 41 00 	umulh	r8,0x200
+    e764:	20 70 03 e2 	movepc	rret,8
+    e768:	14 30 c6 2a 	br	10 <compare>,#al
+    e76c:	00 10 00 41 	add	r2,1
+    e770:	0d 46 7d 18 	wl16	r8,0x33f8
+    e774:	0d 60 01 03 	wh16	r8,0x3
+    e778:	10 40 01 08 	ld32	r8,r8
+    e77c:	0d 46 c5 30 	wl16	r9,0x3630
+    e780:	0d 60 01 23 	wh16	r9,0x3
+    e784:	10 40 01 29 	ld32	r9,r9
+    e788:	01 70 81 00 	umulh	r8,0x400
+    e78c:	20 70 03 e2 	movepc	rret,8
+    e790:	14 30 c6 20 	br	10 <compare>,#al
+    e794:	00 10 00 41 	add	r2,1
+    e798:	0d 46 7d 1c 	wl16	r8,0x33fc
+    e79c:	0d 60 01 03 	wh16	r8,0x3
+    e7a0:	10 40 01 08 	ld32	r8,r8
+    e7a4:	0d 46 c5 34 	wl16	r9,0x3634
+    e7a8:	0d 60 01 23 	wh16	r9,0x3
+    e7ac:	10 40 01 29 	ld32	r9,r9
+    e7b0:	01 70 01 01 	umulh	r8,0x1
+    e7b4:	20 70 03 e2 	movepc	rret,8
+    e7b8:	14 30 c6 16 	br	10 <compare>,#al
+    e7bc:	00 10 00 41 	add	r2,1
+    e7c0:	0d 46 81 00 	wl16	r8,0x3400
+    e7c4:	0d 60 01 03 	wh16	r8,0x3
+    e7c8:	10 40 01 08 	ld32	r8,r8
+    e7cc:	0d 46 c5 38 	wl16	r9,0x3638
+    e7d0:	0d 60 01 23 	wh16	r9,0x3
+    e7d4:	10 40 01 29 	ld32	r9,r9
+    e7d8:	01 70 01 02 	umulh	r8,0x2
+    e7dc:	20 70 03 e2 	movepc	rret,8
+    e7e0:	14 30 c6 0c 	br	10 <compare>,#al
+    e7e4:	00 10 00 41 	add	r2,1
+    e7e8:	0d 46 81 04 	wl16	r8,0x3404
+    e7ec:	0d 60 01 03 	wh16	r8,0x3
+    e7f0:	10 40 01 08 	ld32	r8,r8
+    e7f4:	0d 46 c5 3c 	wl16	r9,0x363c
+    e7f8:	0d 60 01 23 	wh16	r9,0x3
+    e7fc:	10 40 01 29 	ld32	r9,r9
+    e800:	01 70 01 04 	umulh	r8,0x4
+    e804:	20 70 03 e2 	movepc	rret,8
+    e808:	14 30 c6 02 	br	10 <compare>,#al
+    e80c:	00 10 00 41 	add	r2,1
+    e810:	0d 46 81 08 	wl16	r8,0x3408
+    e814:	0d 60 01 03 	wh16	r8,0x3
+    e818:	10 40 01 08 	ld32	r8,r8
+    e81c:	0d 46 c9 20 	wl16	r9,0x3640
+    e820:	0d 60 01 23 	wh16	r9,0x3
+    e824:	10 40 01 29 	ld32	r9,r9
+    e828:	01 70 01 08 	umulh	r8,0x8
+    e82c:	20 70 03 e2 	movepc	rret,8
+    e830:	14 30 c5 f8 	br	10 <compare>,#al
+    e834:	00 10 00 41 	add	r2,1
+    e838:	0d 46 81 0c 	wl16	r8,0x340c
+    e83c:	0d 60 01 03 	wh16	r8,0x3
+    e840:	10 40 01 08 	ld32	r8,r8
+    e844:	0d 46 c9 24 	wl16	r9,0x3644
+    e848:	0d 60 01 23 	wh16	r9,0x3
+    e84c:	10 40 01 29 	ld32	r9,r9
+    e850:	01 70 01 10 	umulh	r8,0x10
+    e854:	20 70 03 e2 	movepc	rret,8
+    e858:	14 30 c5 ee 	br	10 <compare>,#al
+    e85c:	00 10 00 41 	add	r2,1
+    e860:	0d 46 81 10 	wl16	r8,0x3410
+    e864:	0d 60 01 03 	wh16	r8,0x3
+    e868:	10 40 01 08 	ld32	r8,r8
+    e86c:	0d 46 c9 28 	wl16	r9,0x3648
+    e870:	0d 60 01 23 	wh16	r9,0x3
+    e874:	10 40 01 29 	ld32	r9,r9
+    e878:	01 70 05 00 	umulh	r8,0x20
+    e87c:	20 70 03 e2 	movepc	rret,8
+    e880:	14 30 c5 e4 	br	10 <compare>,#al
+    e884:	00 10 00 41 	add	r2,1
+    e888:	0d 46 81 14 	wl16	r8,0x3414
+    e88c:	0d 60 01 03 	wh16	r8,0x3
+    e890:	10 40 01 08 	ld32	r8,r8
+    e894:	0d 46 c9 2c 	wl16	r9,0x364c
+    e898:	0d 60 01 23 	wh16	r9,0x3
+    e89c:	10 40 01 29 	ld32	r9,r9
+    e8a0:	01 70 09 00 	umulh	r8,0x40
+    e8a4:	20 70 03 e2 	movepc	rret,8
+    e8a8:	14 30 c5 da 	br	10 <compare>,#al
+    e8ac:	00 10 00 41 	add	r2,1
+    e8b0:	0d 46 81 18 	wl16	r8,0x3418
+    e8b4:	0d 60 01 03 	wh16	r8,0x3
+    e8b8:	10 40 01 08 	ld32	r8,r8
+    e8bc:	0d 46 c9 30 	wl16	r9,0x3650
+    e8c0:	0d 60 01 23 	wh16	r9,0x3
+    e8c4:	10 40 01 29 	ld32	r9,r9
+    e8c8:	01 70 11 00 	umulh	r8,0x80
+    e8cc:	20 70 03 e2 	movepc	rret,8
+    e8d0:	14 30 c5 d0 	br	10 <compare>,#al
+    e8d4:	00 10 00 41 	add	r2,1
+    e8d8:	0d 46 81 1c 	wl16	r8,0x341c
+    e8dc:	0d 60 01 03 	wh16	r8,0x3
+    e8e0:	10 40 01 08 	ld32	r8,r8
+    e8e4:	0d 46 c9 34 	wl16	r9,0x3654
+    e8e8:	0d 60 01 23 	wh16	r9,0x3
+    e8ec:	10 40 01 29 	ld32	r9,r9
+    e8f0:	01 70 21 00 	umulh	r8,0x100
+    e8f4:	20 70 03 e2 	movepc	rret,8
+    e8f8:	14 30 c5 c6 	br	10 <compare>,#al
+    e8fc:	00 10 00 41 	add	r2,1
+    e900:	0d 46 85 00 	wl16	r8,0x3420
+    e904:	0d 60 01 03 	wh16	r8,0x3
+    e908:	10 40 01 08 	ld32	r8,r8
+    e90c:	0d 46 c9 38 	wl16	r9,0x3658
+    e910:	0d 60 01 23 	wh16	r9,0x3
+    e914:	10 40 01 29 	ld32	r9,r9
+    e918:	01 70 41 00 	umulh	r8,0x200
+    e91c:	20 70 03 e2 	movepc	rret,8
+    e920:	14 30 c5 bc 	br	10 <compare>,#al
+    e924:	00 10 00 41 	add	r2,1
+    e928:	0d 46 85 04 	wl16	r8,0x3424
+    e92c:	0d 60 01 03 	wh16	r8,0x3
+    e930:	10 40 01 08 	ld32	r8,r8
+    e934:	0d 46 c9 3c 	wl16	r9,0x365c
+    e938:	0d 60 01 23 	wh16	r9,0x3
+    e93c:	10 40 01 29 	ld32	r9,r9
+    e940:	01 70 81 00 	umulh	r8,0x400
+    e944:	20 70 03 e2 	movepc	rret,8
+    e948:	14 30 c5 b2 	br	10 <compare>,#al
+    e94c:	00 10 00 41 	add	r2,1
+    e950:	0d 46 85 08 	wl16	r8,0x3428
+    e954:	0d 60 01 03 	wh16	r8,0x3
+    e958:	10 40 01 08 	ld32	r8,r8
+    e95c:	0d 46 cd 20 	wl16	r9,0x3660
+    e960:	0d 60 01 23 	wh16	r9,0x3
+    e964:	10 40 01 29 	ld32	r9,r9
+    e968:	01 70 01 01 	umulh	r8,0x1
+    e96c:	20 70 03 e2 	movepc	rret,8
+    e970:	14 30 c5 a8 	br	10 <compare>,#al
+    e974:	00 10 00 41 	add	r2,1
+    e978:	0d 46 85 0c 	wl16	r8,0x342c
+    e97c:	0d 60 01 03 	wh16	r8,0x3
+    e980:	10 40 01 08 	ld32	r8,r8
+    e984:	0d 46 cd 24 	wl16	r9,0x3664
+    e988:	0d 60 01 23 	wh16	r9,0x3
+    e98c:	10 40 01 29 	ld32	r9,r9
+    e990:	01 70 01 02 	umulh	r8,0x2
+    e994:	20 70 03 e2 	movepc	rret,8
+    e998:	14 30 c5 9e 	br	10 <compare>,#al
+    e99c:	00 10 00 41 	add	r2,1
+    e9a0:	0d 46 85 10 	wl16	r8,0x3430
+    e9a4:	0d 60 01 03 	wh16	r8,0x3
+    e9a8:	10 40 01 08 	ld32	r8,r8
+    e9ac:	0d 46 cd 28 	wl16	r9,0x3668
+    e9b0:	0d 60 01 23 	wh16	r9,0x3
+    e9b4:	10 40 01 29 	ld32	r9,r9
+    e9b8:	01 70 01 04 	umulh	r8,0x4
+    e9bc:	20 70 03 e2 	movepc	rret,8
+    e9c0:	14 30 c5 94 	br	10 <compare>,#al
+    e9c4:	00 10 00 41 	add	r2,1
+    e9c8:	0d 46 85 14 	wl16	r8,0x3434
+    e9cc:	0d 60 01 03 	wh16	r8,0x3
+    e9d0:	10 40 01 08 	ld32	r8,r8
+    e9d4:	0d 46 cd 2c 	wl16	r9,0x366c
+    e9d8:	0d 60 01 23 	wh16	r9,0x3
+    e9dc:	10 40 01 29 	ld32	r9,r9
+    e9e0:	01 70 01 08 	umulh	r8,0x8
+    e9e4:	20 70 03 e2 	movepc	rret,8
+    e9e8:	14 30 c5 8a 	br	10 <compare>,#al
+    e9ec:	00 10 00 41 	add	r2,1
+    e9f0:	0d 46 85 18 	wl16	r8,0x3438
+    e9f4:	0d 60 01 03 	wh16	r8,0x3
+    e9f8:	10 40 01 08 	ld32	r8,r8
+    e9fc:	0d 46 cd 30 	wl16	r9,0x3670
+    ea00:	0d 60 01 23 	wh16	r9,0x3
+    ea04:	10 40 01 29 	ld32	r9,r9
+    ea08:	01 70 01 10 	umulh	r8,0x10
+    ea0c:	20 70 03 e2 	movepc	rret,8
+    ea10:	14 30 c5 80 	br	10 <compare>,#al
+    ea14:	00 10 00 41 	add	r2,1
+    ea18:	0d 46 85 1c 	wl16	r8,0x343c
+    ea1c:	0d 60 01 03 	wh16	r8,0x3
+    ea20:	10 40 01 08 	ld32	r8,r8
+    ea24:	0d 46 cd 34 	wl16	r9,0x3674
+    ea28:	0d 60 01 23 	wh16	r9,0x3
+    ea2c:	10 40 01 29 	ld32	r9,r9
+    ea30:	01 70 05 00 	umulh	r8,0x20
+    ea34:	20 70 03 e2 	movepc	rret,8
+    ea38:	14 30 c5 76 	br	10 <compare>,#al
+    ea3c:	00 10 00 41 	add	r2,1
+    ea40:	0d 46 89 00 	wl16	r8,0x3440
+    ea44:	0d 60 01 03 	wh16	r8,0x3
+    ea48:	10 40 01 08 	ld32	r8,r8
+    ea4c:	0d 46 cd 38 	wl16	r9,0x3678
+    ea50:	0d 60 01 23 	wh16	r9,0x3
+    ea54:	10 40 01 29 	ld32	r9,r9
+    ea58:	01 70 09 00 	umulh	r8,0x40
+    ea5c:	20 70 03 e2 	movepc	rret,8
+    ea60:	14 30 c5 6c 	br	10 <compare>,#al
+    ea64:	00 10 00 41 	add	r2,1
+    ea68:	0d 46 89 04 	wl16	r8,0x3444
+    ea6c:	0d 60 01 03 	wh16	r8,0x3
+    ea70:	10 40 01 08 	ld32	r8,r8
+    ea74:	0d 46 cd 3c 	wl16	r9,0x367c
+    ea78:	0d 60 01 23 	wh16	r9,0x3
+    ea7c:	10 40 01 29 	ld32	r9,r9
+    ea80:	01 70 11 00 	umulh	r8,0x80
+    ea84:	20 70 03 e2 	movepc	rret,8
+    ea88:	14 30 c5 62 	br	10 <compare>,#al
+    ea8c:	00 10 00 41 	add	r2,1
+    ea90:	0d 46 89 08 	wl16	r8,0x3448
+    ea94:	0d 60 01 03 	wh16	r8,0x3
+    ea98:	10 40 01 08 	ld32	r8,r8
+    ea9c:	0d 46 d1 20 	wl16	r9,0x3680
+    eaa0:	0d 60 01 23 	wh16	r9,0x3
+    eaa4:	10 40 01 29 	ld32	r9,r9
+    eaa8:	01 70 21 00 	umulh	r8,0x100
+    eaac:	20 70 03 e2 	movepc	rret,8
+    eab0:	14 30 c5 58 	br	10 <compare>,#al
+    eab4:	00 10 00 41 	add	r2,1
+    eab8:	0d 46 89 0c 	wl16	r8,0x344c
+    eabc:	0d 60 01 03 	wh16	r8,0x3
+    eac0:	10 40 01 08 	ld32	r8,r8
+    eac4:	0d 46 d1 24 	wl16	r9,0x3684
+    eac8:	0d 60 01 23 	wh16	r9,0x3
+    eacc:	10 40 01 29 	ld32	r9,r9
+    ead0:	01 70 41 00 	umulh	r8,0x200
+    ead4:	20 70 03 e2 	movepc	rret,8
+    ead8:	14 30 c5 4e 	br	10 <compare>,#al
+    eadc:	00 10 00 41 	add	r2,1
+    eae0:	0d 46 89 10 	wl16	r8,0x3450
+    eae4:	0d 60 01 03 	wh16	r8,0x3
+    eae8:	10 40 01 08 	ld32	r8,r8
+    eaec:	0d 46 d1 28 	wl16	r9,0x3688
+    eaf0:	0d 60 01 23 	wh16	r9,0x3
+    eaf4:	10 40 01 29 	ld32	r9,r9
+    eaf8:	01 70 81 00 	umulh	r8,0x400
+    eafc:	20 70 03 e2 	movepc	rret,8
+    eb00:	14 30 c5 44 	br	10 <compare>,#al
+    eb04:	00 10 00 41 	add	r2,1
+    eb08:	0d 46 89 14 	wl16	r8,0x3454
+    eb0c:	0d 60 01 03 	wh16	r8,0x3
+    eb10:	10 40 01 08 	ld32	r8,r8
+    eb14:	0d 46 d1 2c 	wl16	r9,0x368c
+    eb18:	0d 60 01 23 	wh16	r9,0x3
+    eb1c:	10 40 01 29 	ld32	r9,r9
+    eb20:	01 70 01 01 	umulh	r8,0x1
+    eb24:	20 70 03 e2 	movepc	rret,8
+    eb28:	14 30 c5 3a 	br	10 <compare>,#al
+    eb2c:	00 10 00 41 	add	r2,1
+    eb30:	0d 46 89 18 	wl16	r8,0x3458
+    eb34:	0d 60 01 03 	wh16	r8,0x3
+    eb38:	10 40 01 08 	ld32	r8,r8
+    eb3c:	0d 46 d1 30 	wl16	r9,0x3690
+    eb40:	0d 60 01 23 	wh16	r9,0x3
+    eb44:	10 40 01 29 	ld32	r9,r9
+    eb48:	01 70 01 02 	umulh	r8,0x2
+    eb4c:	20 70 03 e2 	movepc	rret,8
+    eb50:	14 30 c5 30 	br	10 <compare>,#al
+    eb54:	00 10 00 41 	add	r2,1
+    eb58:	0d 46 89 1c 	wl16	r8,0x345c
+    eb5c:	0d 60 01 03 	wh16	r8,0x3
+    eb60:	10 40 01 08 	ld32	r8,r8
+    eb64:	0d 46 d1 34 	wl16	r9,0x3694
+    eb68:	0d 60 01 23 	wh16	r9,0x3
+    eb6c:	10 40 01 29 	ld32	r9,r9
+    eb70:	01 70 01 04 	umulh	r8,0x4
+    eb74:	20 70 03 e2 	movepc	rret,8
+    eb78:	14 30 c5 26 	br	10 <compare>,#al
+    eb7c:	00 10 00 41 	add	r2,1
+    eb80:	0d 46 8d 00 	wl16	r8,0x3460
+    eb84:	0d 60 01 03 	wh16	r8,0x3
+    eb88:	10 40 01 08 	ld32	r8,r8
+    eb8c:	0d 46 d1 38 	wl16	r9,0x3698
+    eb90:	0d 60 01 23 	wh16	r9,0x3
+    eb94:	10 40 01 29 	ld32	r9,r9
+    eb98:	01 70 01 08 	umulh	r8,0x8
+    eb9c:	20 70 03 e2 	movepc	rret,8
+    eba0:	14 30 c5 1c 	br	10 <compare>,#al
+    eba4:	00 10 00 41 	add	r2,1
+    eba8:	0d 46 8d 04 	wl16	r8,0x3464
+    ebac:	0d 60 01 03 	wh16	r8,0x3
+    ebb0:	10 40 01 08 	ld32	r8,r8
+    ebb4:	0d 46 d1 3c 	wl16	r9,0x369c
+    ebb8:	0d 60 01 23 	wh16	r9,0x3
+    ebbc:	10 40 01 29 	ld32	r9,r9
+    ebc0:	01 70 01 10 	umulh	r8,0x10
+    ebc4:	20 70 03 e2 	movepc	rret,8
+    ebc8:	14 30 c5 12 	br	10 <compare>,#al
+    ebcc:	00 10 00 41 	add	r2,1
+    ebd0:	0d 46 8d 08 	wl16	r8,0x3468
+    ebd4:	0d 60 01 03 	wh16	r8,0x3
+    ebd8:	10 40 01 08 	ld32	r8,r8
+    ebdc:	0d 46 d5 20 	wl16	r9,0x36a0
+    ebe0:	0d 60 01 23 	wh16	r9,0x3
+    ebe4:	10 40 01 29 	ld32	r9,r9
+    ebe8:	01 70 05 00 	umulh	r8,0x20
+    ebec:	20 70 03 e2 	movepc	rret,8
+    ebf0:	14 30 c5 08 	br	10 <compare>,#al
+    ebf4:	00 10 00 41 	add	r2,1
+    ebf8:	0d 46 8d 0c 	wl16	r8,0x346c
+    ebfc:	0d 60 01 03 	wh16	r8,0x3
+    ec00:	10 40 01 08 	ld32	r8,r8
+    ec04:	0d 46 d5 24 	wl16	r9,0x36a4
+    ec08:	0d 60 01 23 	wh16	r9,0x3
+    ec0c:	10 40 01 29 	ld32	r9,r9
+    ec10:	01 70 09 00 	umulh	r8,0x40
+    ec14:	20 70 03 e2 	movepc	rret,8
+    ec18:	14 30 c4 fe 	br	10 <compare>,#al
+    ec1c:	00 10 00 41 	add	r2,1
+    ec20:	0d 46 8d 10 	wl16	r8,0x3470
+    ec24:	0d 60 01 03 	wh16	r8,0x3
+    ec28:	10 40 01 08 	ld32	r8,r8
+    ec2c:	0d 46 d5 28 	wl16	r9,0x36a8
+    ec30:	0d 60 01 23 	wh16	r9,0x3
+    ec34:	10 40 01 29 	ld32	r9,r9
+    ec38:	01 70 11 00 	umulh	r8,0x80
+    ec3c:	20 70 03 e2 	movepc	rret,8
+    ec40:	14 30 c4 f4 	br	10 <compare>,#al
+    ec44:	00 10 00 41 	add	r2,1
+    ec48:	0d 46 8d 14 	wl16	r8,0x3474
+    ec4c:	0d 60 01 03 	wh16	r8,0x3
+    ec50:	10 40 01 08 	ld32	r8,r8
+    ec54:	0d 46 d5 2c 	wl16	r9,0x36ac
+    ec58:	0d 60 01 23 	wh16	r9,0x3
+    ec5c:	10 40 01 29 	ld32	r9,r9
+    ec60:	01 70 21 00 	umulh	r8,0x100
+    ec64:	20 70 03 e2 	movepc	rret,8
+    ec68:	14 30 c4 ea 	br	10 <compare>,#al
+    ec6c:	00 10 00 41 	add	r2,1
+    ec70:	0d 46 8d 18 	wl16	r8,0x3478
+    ec74:	0d 60 01 03 	wh16	r8,0x3
+    ec78:	10 40 01 08 	ld32	r8,r8
+    ec7c:	0d 46 d5 30 	wl16	r9,0x36b0
+    ec80:	0d 60 01 23 	wh16	r9,0x3
+    ec84:	10 40 01 29 	ld32	r9,r9
+    ec88:	01 70 41 00 	umulh	r8,0x200
+    ec8c:	20 70 03 e2 	movepc	rret,8
+    ec90:	14 30 c4 e0 	br	10 <compare>,#al
+    ec94:	00 10 00 41 	add	r2,1
+    ec98:	0d 46 8d 1c 	wl16	r8,0x347c
+    ec9c:	0d 60 01 03 	wh16	r8,0x3
+    eca0:	10 40 01 08 	ld32	r8,r8
+    eca4:	0d 46 d5 34 	wl16	r9,0x36b4
+    eca8:	0d 60 01 23 	wh16	r9,0x3
+    ecac:	10 40 01 29 	ld32	r9,r9
+    ecb0:	01 70 81 00 	umulh	r8,0x400
+    ecb4:	20 70 03 e2 	movepc	rret,8
+    ecb8:	14 30 c4 d6 	br	10 <compare>,#al
+    ecbc:	00 10 00 41 	add	r2,1
+    ecc0:	0d 46 91 00 	wl16	r8,0x3480
+    ecc4:	0d 60 01 03 	wh16	r8,0x3
+    ecc8:	10 40 01 08 	ld32	r8,r8
+    eccc:	0d 46 d5 38 	wl16	r9,0x36b8
+    ecd0:	0d 60 01 23 	wh16	r9,0x3
+    ecd4:	10 40 01 29 	ld32	r9,r9
+    ecd8:	01 70 01 01 	umulh	r8,0x1
+    ecdc:	20 70 03 e2 	movepc	rret,8
+    ece0:	14 30 c4 cc 	br	10 <compare>,#al
+    ece4:	00 10 00 41 	add	r2,1
+    ece8:	0d 46 91 04 	wl16	r8,0x3484
+    ecec:	0d 60 01 03 	wh16	r8,0x3
+    ecf0:	10 40 01 08 	ld32	r8,r8
+    ecf4:	0d 46 d5 3c 	wl16	r9,0x36bc
+    ecf8:	0d 60 01 23 	wh16	r9,0x3
+    ecfc:	10 40 01 29 	ld32	r9,r9
+    ed00:	01 70 01 02 	umulh	r8,0x2
+    ed04:	20 70 03 e2 	movepc	rret,8
+    ed08:	14 30 c4 c2 	br	10 <compare>,#al
+    ed0c:	00 10 00 41 	add	r2,1
+    ed10:	0d 46 91 08 	wl16	r8,0x3488
+    ed14:	0d 60 01 03 	wh16	r8,0x3
+    ed18:	10 40 01 08 	ld32	r8,r8
+    ed1c:	0d 46 d9 20 	wl16	r9,0x36c0
+    ed20:	0d 60 01 23 	wh16	r9,0x3
+    ed24:	10 40 01 29 	ld32	r9,r9
+    ed28:	01 70 01 04 	umulh	r8,0x4
+    ed2c:	20 70 03 e2 	movepc	rret,8
+    ed30:	14 30 c4 b8 	br	10 <compare>,#al
+    ed34:	00 10 00 41 	add	r2,1
+    ed38:	0d 46 91 0c 	wl16	r8,0x348c
+    ed3c:	0d 60 01 03 	wh16	r8,0x3
+    ed40:	10 40 01 08 	ld32	r8,r8
+    ed44:	0d 46 d9 24 	wl16	r9,0x36c4
+    ed48:	0d 60 01 23 	wh16	r9,0x3
+    ed4c:	10 40 01 29 	ld32	r9,r9
+    ed50:	01 70 01 08 	umulh	r8,0x8
+    ed54:	20 70 03 e2 	movepc	rret,8
+    ed58:	14 30 c4 ae 	br	10 <compare>,#al
+    ed5c:	00 10 00 41 	add	r2,1
+    ed60:	0d 46 91 10 	wl16	r8,0x3490
+    ed64:	0d 60 01 03 	wh16	r8,0x3
+    ed68:	10 40 01 08 	ld32	r8,r8
+    ed6c:	0d 46 d9 28 	wl16	r9,0x36c8
+    ed70:	0d 60 01 23 	wh16	r9,0x3
+    ed74:	10 40 01 29 	ld32	r9,r9
+    ed78:	01 70 01 10 	umulh	r8,0x10
+    ed7c:	20 70 03 e2 	movepc	rret,8
+    ed80:	14 30 c4 a4 	br	10 <compare>,#al
+    ed84:	00 10 00 41 	add	r2,1
+    ed88:	0d 46 91 14 	wl16	r8,0x3494
+    ed8c:	0d 60 01 03 	wh16	r8,0x3
+    ed90:	10 40 01 08 	ld32	r8,r8
+    ed94:	0d 46 d9 2c 	wl16	r9,0x36cc
+    ed98:	0d 60 01 23 	wh16	r9,0x3
+    ed9c:	10 40 01 29 	ld32	r9,r9
+    eda0:	01 70 05 00 	umulh	r8,0x20
+    eda4:	20 70 03 e2 	movepc	rret,8
+    eda8:	14 30 c4 9a 	br	10 <compare>,#al
+    edac:	00 10 00 41 	add	r2,1
+    edb0:	0d 46 91 18 	wl16	r8,0x3498
+    edb4:	0d 60 01 03 	wh16	r8,0x3
+    edb8:	10 40 01 08 	ld32	r8,r8
+    edbc:	0d 46 d9 30 	wl16	r9,0x36d0
+    edc0:	0d 60 01 23 	wh16	r9,0x3
+    edc4:	10 40 01 29 	ld32	r9,r9
+    edc8:	01 70 09 00 	umulh	r8,0x40
+    edcc:	20 70 03 e2 	movepc	rret,8
+    edd0:	14 30 c4 90 	br	10 <compare>,#al
+    edd4:	00 10 00 41 	add	r2,1
+    edd8:	0d 46 91 1c 	wl16	r8,0x349c
+    eddc:	0d 60 01 03 	wh16	r8,0x3
+    ede0:	10 40 01 08 	ld32	r8,r8
+    ede4:	0d 46 d9 34 	wl16	r9,0x36d4
+    ede8:	0d 60 01 23 	wh16	r9,0x3
+    edec:	10 40 01 29 	ld32	r9,r9
+    edf0:	01 70 11 00 	umulh	r8,0x80
+    edf4:	20 70 03 e2 	movepc	rret,8
+    edf8:	14 30 c4 86 	br	10 <compare>,#al
+    edfc:	00 10 00 41 	add	r2,1
+    ee00:	0d 46 95 00 	wl16	r8,0x34a0
+    ee04:	0d 60 01 03 	wh16	r8,0x3
+    ee08:	10 40 01 08 	ld32	r8,r8
+    ee0c:	0d 46 d9 38 	wl16	r9,0x36d8
+    ee10:	0d 60 01 23 	wh16	r9,0x3
+    ee14:	10 40 01 29 	ld32	r9,r9
+    ee18:	01 70 21 00 	umulh	r8,0x100
+    ee1c:	20 70 03 e2 	movepc	rret,8
+    ee20:	14 30 c4 7c 	br	10 <compare>,#al
+    ee24:	00 10 00 41 	add	r2,1
+    ee28:	0d 46 95 04 	wl16	r8,0x34a4
+    ee2c:	0d 60 01 03 	wh16	r8,0x3
+    ee30:	10 40 01 08 	ld32	r8,r8
+    ee34:	0d 46 d9 3c 	wl16	r9,0x36dc
+    ee38:	0d 60 01 23 	wh16	r9,0x3
+    ee3c:	10 40 01 29 	ld32	r9,r9
+    ee40:	01 70 41 00 	umulh	r8,0x200
+    ee44:	20 70 03 e2 	movepc	rret,8
+    ee48:	14 30 c4 72 	br	10 <compare>,#al
+    ee4c:	00 10 00 41 	add	r2,1
+    ee50:	0d 46 95 08 	wl16	r8,0x34a8
+    ee54:	0d 60 01 03 	wh16	r8,0x3
+    ee58:	10 40 01 08 	ld32	r8,r8
+    ee5c:	0d 46 dd 20 	wl16	r9,0x36e0
+    ee60:	0d 60 01 23 	wh16	r9,0x3
+    ee64:	10 40 01 29 	ld32	r9,r9
+    ee68:	01 70 81 00 	umulh	r8,0x400
+    ee6c:	20 70 03 e2 	movepc	rret,8
+    ee70:	14 30 c4 68 	br	10 <compare>,#al
+    ee74:	00 10 00 41 	add	r2,1
+    ee78:	0d 46 95 0c 	wl16	r8,0x34ac
+    ee7c:	0d 60 01 03 	wh16	r8,0x3
+    ee80:	10 40 01 08 	ld32	r8,r8
+    ee84:	0d 46 dd 24 	wl16	r9,0x36e4
+    ee88:	0d 60 01 23 	wh16	r9,0x3
+    ee8c:	10 40 01 29 	ld32	r9,r9
+    ee90:	01 70 01 01 	umulh	r8,0x1
+    ee94:	20 70 03 e2 	movepc	rret,8
+    ee98:	14 30 c4 5e 	br	10 <compare>,#al
+    ee9c:	00 10 00 41 	add	r2,1
+    eea0:	0d 46 95 10 	wl16	r8,0x34b0
+    eea4:	0d 60 01 03 	wh16	r8,0x3
+    eea8:	10 40 01 08 	ld32	r8,r8
+    eeac:	0d 46 dd 28 	wl16	r9,0x36e8
+    eeb0:	0d 60 01 23 	wh16	r9,0x3
+    eeb4:	10 40 01 29 	ld32	r9,r9
+    eeb8:	01 70 01 02 	umulh	r8,0x2
+    eebc:	20 70 03 e2 	movepc	rret,8
+    eec0:	14 30 c4 54 	br	10 <compare>,#al
+    eec4:	00 10 00 41 	add	r2,1
+    eec8:	0d 46 95 14 	wl16	r8,0x34b4
+    eecc:	0d 60 01 03 	wh16	r8,0x3
+    eed0:	10 40 01 08 	ld32	r8,r8
+    eed4:	0d 46 dd 2c 	wl16	r9,0x36ec
+    eed8:	0d 60 01 23 	wh16	r9,0x3
+    eedc:	10 40 01 29 	ld32	r9,r9
+    eee0:	01 70 01 04 	umulh	r8,0x4
+    eee4:	20 70 03 e2 	movepc	rret,8
+    eee8:	14 30 c4 4a 	br	10 <compare>,#al
+    eeec:	00 10 00 41 	add	r2,1
+    eef0:	0d 46 95 18 	wl16	r8,0x34b8
+    eef4:	0d 60 01 03 	wh16	r8,0x3
+    eef8:	10 40 01 08 	ld32	r8,r8
+    eefc:	0d 46 dd 30 	wl16	r9,0x36f0
+    ef00:	0d 60 01 23 	wh16	r9,0x3
+    ef04:	10 40 01 29 	ld32	r9,r9
+    ef08:	01 70 01 08 	umulh	r8,0x8
+    ef0c:	20 70 03 e2 	movepc	rret,8
+    ef10:	14 30 c4 40 	br	10 <compare>,#al
+    ef14:	00 10 00 41 	add	r2,1
+    ef18:	0d 46 95 1c 	wl16	r8,0x34bc
+    ef1c:	0d 60 01 03 	wh16	r8,0x3
+    ef20:	10 40 01 08 	ld32	r8,r8
+    ef24:	0d 46 dd 34 	wl16	r9,0x36f4
+    ef28:	0d 60 01 23 	wh16	r9,0x3
+    ef2c:	10 40 01 29 	ld32	r9,r9
+    ef30:	01 70 01 10 	umulh	r8,0x10
+    ef34:	20 70 03 e2 	movepc	rret,8
+    ef38:	14 30 c4 36 	br	10 <compare>,#al
+    ef3c:	00 10 00 41 	add	r2,1
+    ef40:	0d 46 99 00 	wl16	r8,0x34c0
+    ef44:	0d 60 01 03 	wh16	r8,0x3
+    ef48:	10 40 01 08 	ld32	r8,r8
+    ef4c:	0d 46 dd 38 	wl16	r9,0x36f8
+    ef50:	0d 60 01 23 	wh16	r9,0x3
+    ef54:	10 40 01 29 	ld32	r9,r9
+    ef58:	01 70 05 00 	umulh	r8,0x20
+    ef5c:	20 70 03 e2 	movepc	rret,8
+    ef60:	14 30 c4 2c 	br	10 <compare>,#al
+    ef64:	00 10 00 41 	add	r2,1
+    ef68:	0d 46 99 04 	wl16	r8,0x34c4
+    ef6c:	0d 60 01 03 	wh16	r8,0x3
+    ef70:	10 40 01 08 	ld32	r8,r8
+    ef74:	0d 46 dd 3c 	wl16	r9,0x36fc
+    ef78:	0d 60 01 23 	wh16	r9,0x3
+    ef7c:	10 40 01 29 	ld32	r9,r9
+    ef80:	01 70 09 00 	umulh	r8,0x40
+    ef84:	20 70 03 e2 	movepc	rret,8
+    ef88:	14 30 c4 22 	br	10 <compare>,#al
+    ef8c:	00 10 00 41 	add	r2,1
+    ef90:	0d 46 99 08 	wl16	r8,0x34c8
+    ef94:	0d 60 01 03 	wh16	r8,0x3
+    ef98:	10 40 01 08 	ld32	r8,r8
+    ef9c:	0d 46 e1 20 	wl16	r9,0x3700
+    efa0:	0d 60 01 23 	wh16	r9,0x3
+    efa4:	10 40 01 29 	ld32	r9,r9
+    efa8:	01 70 11 00 	umulh	r8,0x80
+    efac:	20 70 03 e2 	movepc	rret,8
+    efb0:	14 30 c4 18 	br	10 <compare>,#al
+    efb4:	00 10 00 41 	add	r2,1
+    efb8:	0d 46 99 0c 	wl16	r8,0x34cc
+    efbc:	0d 60 01 03 	wh16	r8,0x3
+    efc0:	10 40 01 08 	ld32	r8,r8
+    efc4:	0d 46 e1 24 	wl16	r9,0x3704
+    efc8:	0d 60 01 23 	wh16	r9,0x3
+    efcc:	10 40 01 29 	ld32	r9,r9
+    efd0:	01 70 21 00 	umulh	r8,0x100
+    efd4:	20 70 03 e2 	movepc	rret,8
+    efd8:	14 30 c4 0e 	br	10 <compare>,#al
+    efdc:	00 10 00 41 	add	r2,1
+    efe0:	0d 46 99 10 	wl16	r8,0x34d0
+    efe4:	0d 60 01 03 	wh16	r8,0x3
+    efe8:	10 40 01 08 	ld32	r8,r8
+    efec:	0d 46 e1 28 	wl16	r9,0x3708
+    eff0:	0d 60 01 23 	wh16	r9,0x3
+    eff4:	10 40 01 29 	ld32	r9,r9
+    eff8:	01 70 41 00 	umulh	r8,0x200
+    effc:	20 70 03 e2 	movepc	rret,8
+    f000:	14 30 c4 04 	br	10 <compare>,#al
+    f004:	00 10 00 41 	add	r2,1
+    f008:	0d 46 99 14 	wl16	r8,0x34d4
+    f00c:	0d 60 01 03 	wh16	r8,0x3
+    f010:	10 40 01 08 	ld32	r8,r8
+    f014:	0d 46 e1 2c 	wl16	r9,0x370c
+    f018:	0d 60 01 23 	wh16	r9,0x3
+    f01c:	10 40 01 29 	ld32	r9,r9
+    f020:	01 70 81 00 	umulh	r8,0x400
+    f024:	20 70 03 e2 	movepc	rret,8
+    f028:	14 30 c3 fa 	br	10 <compare>,#al
+    f02c:	00 10 00 41 	add	r2,1
+    f030:	0d 46 99 18 	wl16	r8,0x34d8
+    f034:	0d 60 01 03 	wh16	r8,0x3
+    f038:	10 40 01 08 	ld32	r8,r8
+    f03c:	0d 46 e1 30 	wl16	r9,0x3710
+    f040:	0d 60 01 23 	wh16	r9,0x3
+    f044:	10 40 01 29 	ld32	r9,r9
+    f048:	01 70 01 01 	umulh	r8,0x1
+    f04c:	20 70 03 e2 	movepc	rret,8
+    f050:	14 30 c3 f0 	br	10 <compare>,#al
+    f054:	00 10 00 41 	add	r2,1
+    f058:	0d 46 99 1c 	wl16	r8,0x34dc
+    f05c:	0d 60 01 03 	wh16	r8,0x3
+    f060:	10 40 01 08 	ld32	r8,r8
+    f064:	0d 46 e1 34 	wl16	r9,0x3714
+    f068:	0d 60 01 23 	wh16	r9,0x3
+    f06c:	10 40 01 29 	ld32	r9,r9
+    f070:	01 70 01 02 	umulh	r8,0x2
+    f074:	20 70 03 e2 	movepc	rret,8
+    f078:	14 30 c3 e6 	br	10 <compare>,#al
+    f07c:	00 10 00 41 	add	r2,1
+    f080:	0d 46 9d 00 	wl16	r8,0x34e0
+    f084:	0d 60 01 03 	wh16	r8,0x3
+    f088:	10 40 01 08 	ld32	r8,r8
+    f08c:	0d 46 e1 38 	wl16	r9,0x3718
+    f090:	0d 60 01 23 	wh16	r9,0x3
+    f094:	10 40 01 29 	ld32	r9,r9
+    f098:	01 70 01 04 	umulh	r8,0x4
+    f09c:	20 70 03 e2 	movepc	rret,8
+    f0a0:	14 30 c3 dc 	br	10 <compare>,#al
+    f0a4:	00 10 00 41 	add	r2,1
+    f0a8:	0d 46 9d 04 	wl16	r8,0x34e4
+    f0ac:	0d 60 01 03 	wh16	r8,0x3
+    f0b0:	10 40 01 08 	ld32	r8,r8
+    f0b4:	0d 46 e1 3c 	wl16	r9,0x371c
+    f0b8:	0d 60 01 23 	wh16	r9,0x3
+    f0bc:	10 40 01 29 	ld32	r9,r9
+    f0c0:	01 70 01 08 	umulh	r8,0x8
+    f0c4:	20 70 03 e2 	movepc	rret,8
+    f0c8:	14 30 c3 d2 	br	10 <compare>,#al
+    f0cc:	00 10 00 41 	add	r2,1
+    f0d0:	0d 46 9d 08 	wl16	r8,0x34e8
+    f0d4:	0d 60 01 03 	wh16	r8,0x3
+    f0d8:	10 40 01 08 	ld32	r8,r8
+    f0dc:	0d 46 e5 20 	wl16	r9,0x3720
+    f0e0:	0d 60 01 23 	wh16	r9,0x3
+    f0e4:	10 40 01 29 	ld32	r9,r9
+    f0e8:	01 70 01 10 	umulh	r8,0x10
+    f0ec:	20 70 03 e2 	movepc	rret,8
+    f0f0:	14 30 c3 c8 	br	10 <compare>,#al
+    f0f4:	00 10 00 41 	add	r2,1
+    f0f8:	0d 46 9d 0c 	wl16	r8,0x34ec
+    f0fc:	0d 60 01 03 	wh16	r8,0x3
+    f100:	10 40 01 08 	ld32	r8,r8
+    f104:	0d 46 e5 24 	wl16	r9,0x3724
+    f108:	0d 60 01 23 	wh16	r9,0x3
+    f10c:	10 40 01 29 	ld32	r9,r9
+    f110:	01 70 05 00 	umulh	r8,0x20
+    f114:	20 70 03 e2 	movepc	rret,8
+    f118:	14 30 c3 be 	br	10 <compare>,#al
+    f11c:	00 10 00 41 	add	r2,1
+    f120:	0d 46 9d 10 	wl16	r8,0x34f0
+    f124:	0d 60 01 03 	wh16	r8,0x3
+    f128:	10 40 01 08 	ld32	r8,r8
+    f12c:	0d 46 e5 28 	wl16	r9,0x3728
+    f130:	0d 60 01 23 	wh16	r9,0x3
+    f134:	10 40 01 29 	ld32	r9,r9
+    f138:	01 70 09 00 	umulh	r8,0x40
+    f13c:	20 70 03 e2 	movepc	rret,8
+    f140:	14 30 c3 b4 	br	10 <compare>,#al
+    f144:	00 10 00 41 	add	r2,1
+    f148:	0d 46 9d 14 	wl16	r8,0x34f4
+    f14c:	0d 60 01 03 	wh16	r8,0x3
+    f150:	10 40 01 08 	ld32	r8,r8
+    f154:	0d 46 e5 2c 	wl16	r9,0x372c
+    f158:	0d 60 01 23 	wh16	r9,0x3
+    f15c:	10 40 01 29 	ld32	r9,r9
+    f160:	01 70 11 00 	umulh	r8,0x80
+    f164:	20 70 03 e2 	movepc	rret,8
+    f168:	14 30 c3 aa 	br	10 <compare>,#al
+    f16c:	00 10 00 41 	add	r2,1
+    f170:	0d 46 9d 18 	wl16	r8,0x34f8
+    f174:	0d 60 01 03 	wh16	r8,0x3
+    f178:	10 40 01 08 	ld32	r8,r8
+    f17c:	0d 46 e5 30 	wl16	r9,0x3730
+    f180:	0d 60 01 23 	wh16	r9,0x3
+    f184:	10 40 01 29 	ld32	r9,r9
+    f188:	01 70 21 00 	umulh	r8,0x100
+    f18c:	20 70 03 e2 	movepc	rret,8
+    f190:	14 30 c3 a0 	br	10 <compare>,#al
+    f194:	00 10 00 41 	add	r2,1
+    f198:	0d 46 9d 1c 	wl16	r8,0x34fc
+    f19c:	0d 60 01 03 	wh16	r8,0x3
+    f1a0:	10 40 01 08 	ld32	r8,r8
+    f1a4:	0d 46 e5 34 	wl16	r9,0x3734
+    f1a8:	0d 60 01 23 	wh16	r9,0x3
+    f1ac:	10 40 01 29 	ld32	r9,r9
+    f1b0:	01 70 41 00 	umulh	r8,0x200
+    f1b4:	20 70 03 e2 	movepc	rret,8
+    f1b8:	14 30 c3 96 	br	10 <compare>,#al
+    f1bc:	00 10 00 41 	add	r2,1
+    f1c0:	0d 46 a1 00 	wl16	r8,0x3500
+    f1c4:	0d 60 01 03 	wh16	r8,0x3
+    f1c8:	10 40 01 08 	ld32	r8,r8
+    f1cc:	0d 46 e5 38 	wl16	r9,0x3738
+    f1d0:	0d 60 01 23 	wh16	r9,0x3
+    f1d4:	10 40 01 29 	ld32	r9,r9
+    f1d8:	01 70 81 00 	umulh	r8,0x400
+    f1dc:	20 70 03 e2 	movepc	rret,8
+    f1e0:	14 30 c3 8c 	br	10 <compare>,#al
+    f1e4:	00 10 00 41 	add	r2,1
+    f1e8:	0d 46 a1 04 	wl16	r8,0x3504
+    f1ec:	0d 60 01 03 	wh16	r8,0x3
+    f1f0:	10 40 01 08 	ld32	r8,r8
+    f1f4:	0d 46 e5 3c 	wl16	r9,0x373c
+    f1f8:	0d 60 01 23 	wh16	r9,0x3
+    f1fc:	10 40 01 29 	ld32	r9,r9
+    f200:	01 70 01 03 	umulh	r8,0x3
+    f204:	20 70 03 e2 	movepc	rret,8
+    f208:	14 30 c3 82 	br	10 <compare>,#al
+    f20c:	00 10 00 41 	add	r2,1
+    f210:	0d 46 a1 08 	wl16	r8,0x3508
+    f214:	0d 60 01 03 	wh16	r8,0x3
+    f218:	10 40 01 08 	ld32	r8,r8
+    f21c:	0d 46 e9 20 	wl16	r9,0x3740
+    f220:	0d 60 01 23 	wh16	r9,0x3
+    f224:	10 40 01 29 	ld32	r9,r9
+    f228:	01 70 01 07 	umulh	r8,0x7
+    f22c:	20 70 03 e2 	movepc	rret,8
+    f230:	14 30 c3 78 	br	10 <compare>,#al
+    f234:	00 10 00 41 	add	r2,1
+    f238:	0d 46 a1 0c 	wl16	r8,0x350c
+    f23c:	0d 60 01 03 	wh16	r8,0x3
+    f240:	10 40 01 08 	ld32	r8,r8
+    f244:	0d 46 e9 24 	wl16	r9,0x3744
+    f248:	0d 60 01 23 	wh16	r9,0x3
+    f24c:	10 40 01 29 	ld32	r9,r9
+    f250:	01 70 01 0f 	umulh	r8,0xf
+    f254:	20 70 03 e2 	movepc	rret,8
+    f258:	14 30 c3 6e 	br	10 <compare>,#al
+    f25c:	00 10 00 41 	add	r2,1
+    f260:	0d 46 a1 10 	wl16	r8,0x3510
+    f264:	0d 60 01 03 	wh16	r8,0x3
+    f268:	10 40 01 08 	ld32	r8,r8
+    f26c:	0d 46 e9 28 	wl16	r9,0x3748
+    f270:	0d 60 01 23 	wh16	r9,0x3
+    f274:	10 40 01 29 	ld32	r9,r9
+    f278:	01 70 01 1f 	umulh	r8,0x1f
+    f27c:	20 70 03 e2 	movepc	rret,8
+    f280:	14 30 c3 64 	br	10 <compare>,#al
+    f284:	00 10 00 41 	add	r2,1
+    f288:	0d 46 a1 14 	wl16	r8,0x3514
+    f28c:	0d 60 01 03 	wh16	r8,0x3
+    f290:	10 40 01 08 	ld32	r8,r8
+    f294:	0d 46 e9 2c 	wl16	r9,0x374c
+    f298:	0d 60 01 23 	wh16	r9,0x3
+    f29c:	10 40 01 29 	ld32	r9,r9
+    f2a0:	01 70 05 1f 	umulh	r8,0x3f
+    f2a4:	20 70 03 e2 	movepc	rret,8
+    f2a8:	14 30 c3 5a 	br	10 <compare>,#al
+    f2ac:	00 10 00 41 	add	r2,1
+    f2b0:	0d 46 a1 18 	wl16	r8,0x3518
+    f2b4:	0d 60 01 03 	wh16	r8,0x3
+    f2b8:	10 40 01 08 	ld32	r8,r8
+    f2bc:	0d 46 e9 30 	wl16	r9,0x3750
+    f2c0:	0d 60 01 23 	wh16	r9,0x3
+    f2c4:	10 40 01 29 	ld32	r9,r9
+    f2c8:	01 70 0d 1f 	umulh	r8,0x7f
+    f2cc:	20 70 03 e2 	movepc	rret,8
+    f2d0:	14 30 c3 50 	br	10 <compare>,#al
+    f2d4:	00 10 00 41 	add	r2,1
+    f2d8:	0d 46 a1 1c 	wl16	r8,0x351c
+    f2dc:	0d 60 01 03 	wh16	r8,0x3
+    f2e0:	10 40 01 08 	ld32	r8,r8
+    f2e4:	0d 46 e9 34 	wl16	r9,0x3754
+    f2e8:	0d 60 01 23 	wh16	r9,0x3
+    f2ec:	10 40 01 29 	ld32	r9,r9
+    f2f0:	01 70 1d 1f 	umulh	r8,0xff
+    f2f4:	20 70 03 e2 	movepc	rret,8
+    f2f8:	14 30 c3 46 	br	10 <compare>,#al
+    f2fc:	00 10 00 41 	add	r2,1
+    f300:	0d 46 a5 00 	wl16	r8,0x3520
+    f304:	0d 60 01 03 	wh16	r8,0x3
+    f308:	10 40 01 08 	ld32	r8,r8
+    f30c:	0d 46 e9 38 	wl16	r9,0x3758
+    f310:	0d 60 01 23 	wh16	r9,0x3
+    f314:	10 40 01 29 	ld32	r9,r9
+    f318:	01 70 3d 1f 	umulh	r8,0x1ff
+    f31c:	20 70 03 e2 	movepc	rret,8
+    f320:	14 30 c3 3c 	br	10 <compare>,#al
+    f324:	00 10 00 41 	add	r2,1
+    f328:	0d 46 a5 04 	wl16	r8,0x3524
+    f32c:	0d 60 01 03 	wh16	r8,0x3
+    f330:	10 40 01 08 	ld32	r8,r8
+    f334:	0d 46 e9 3c 	wl16	r9,0x375c
+    f338:	0d 60 01 23 	wh16	r9,0x3
+    f33c:	10 40 01 29 	ld32	r9,r9
+    f340:	01 70 7d 1f 	umulh	r8,0x3ff
+    f344:	20 70 03 e2 	movepc	rret,8
+    f348:	14 30 c3 32 	br	10 <compare>,#al
+    f34c:	00 10 00 41 	add	r2,1
+    f350:	0d 46 a5 08 	wl16	r8,0x3528
+    f354:	0d 60 01 03 	wh16	r8,0x3
+    f358:	10 40 01 08 	ld32	r8,r8
+    f35c:	0d 46 ed 20 	wl16	r9,0x3760
+    f360:	0d 60 01 23 	wh16	r9,0x3
+    f364:	10 40 01 29 	ld32	r9,r9
+    f368:	01 70 fd 1f 	umulh	r8,0x7ff
+    f36c:	20 70 03 e2 	movepc	rret,8
+    f370:	14 30 c3 28 	br	10 <compare>,#al
+    f374:	00 10 00 41 	add	r2,1
+    f378:	14 30 c3 38 	br	58 <finish>,#al
 
 Disassembly of section .assert:
 
@@ -17461,3169 +18881,3169 @@ Disassembly of section .data:
    310f8:	ff ff ff ff 	*unknown*
 
 000310fc <T_SRC1_0>:
-   310fc:	00 00 00 00 	add	r0,r0
+   310fc:	00 00 00 01 	add	r0,r1
 
 00031100 <T_SRC1_1>:
-   31100:	00 00 00 00 	add	r0,r0
+   31100:	00 00 00 02 	add	r0,r2
 
 00031104 <T_SRC1_2>:
-   31104:	00 00 00 00 	add	r0,r0
+   31104:	00 00 00 04 	add	r0,r4
 
 00031108 <T_SRC1_3>:
-   31108:	00 00 00 00 	add	r0,r0
+   31108:	00 00 00 08 	add	r0,r8
 
 0003110c <T_SRC1_4>:
-   3110c:	00 00 00 00 	add	r0,r0
+   3110c:	00 00 00 10 	add	r0,r16
 
 00031110 <T_SRC1_5>:
-   31110:	00 00 00 00 	add	r0,r0
+   31110:	00 00 00 20 	add	r1,r0
 
 00031114 <T_SRC1_6>:
-   31114:	00 00 00 00 	add	r0,r0
+   31114:	00 00 00 40 	add	r2,r0
 
 00031118 <T_SRC1_7>:
-   31118:	00 00 00 00 	add	r0,r0
+   31118:	00 00 00 80 	add	r4,r0
 
 0003111c <T_SRC1_8>:
-   3111c:	00 00 00 00 	add	r0,r0
+   3111c:	00 00 01 00 	add	r8,r0
 
 00031120 <T_SRC1_9>:
-   31120:	00 00 00 00 	add	r0,r0
+   31120:	00 00 02 00 	add	r16,r0
 
 00031124 <T_SRC1_10>:
-   31124:	00 00 00 00 	add	r0,r0
+   31124:	00 00 04 00 	*unknown*
 
 00031128 <T_SRC1_11>:
-   31128:	00 00 00 00 	add	r0,r0
+   31128:	00 00 08 00 	*unknown*
 
 0003112c <T_SRC1_12>:
-   3112c:	00 00 00 00 	add	r0,r0
+   3112c:	00 00 10 00 	*unknown*
 
 00031130 <T_SRC1_13>:
-   31130:	00 00 00 00 	add	r0,r0
+   31130:	00 00 20 00 	*unknown*
 
 00031134 <T_SRC1_14>:
-   31134:	00 00 00 00 	add	r0,r0
+   31134:	00 00 40 00 	*unknown*
 
 00031138 <T_SRC1_15>:
-   31138:	00 00 00 00 	add	r0,r0
+   31138:	00 00 80 00 	*unknown*
 
 0003113c <T_SRC1_16>:
-   3113c:	00 00 00 00 	add	r0,r0
+   3113c:	00 01 00 00 	*unknown*
 
 00031140 <T_SRC1_17>:
-   31140:	00 00 00 00 	add	r0,r0
+   31140:	00 02 00 00 	*unknown*
 
 00031144 <T_SRC1_18>:
-   31144:	00 00 00 00 	add	r0,r0
+   31144:	00 04 00 00 	*unknown*
 
 00031148 <T_SRC1_19>:
-   31148:	00 00 00 00 	add	r0,r0
+   31148:	00 08 00 00 	*unknown*
 
 0003114c <T_SRC1_20>:
-   3114c:	00 00 00 00 	add	r0,r0
+   3114c:	00 10 00 00 	add	r0,0
 
 00031150 <T_SRC1_21>:
-   31150:	00 00 00 00 	add	r0,r0
+   31150:	00 20 00 00 	sub	r0,r0
 
 00031154 <T_SRC1_22>:
-   31154:	00 00 00 00 	add	r0,r0
+   31154:	00 40 00 00 	mull	r0,r0
 
 00031158 <T_SRC1_23>:
-   31158:	00 00 00 00 	add	r0,r0
+   31158:	00 80 00 00 	udiv	r0,r0
 
 0003115c <T_SRC1_24>:
-   3115c:	00 00 00 00 	add	r0,r0
+   3115c:	01 00 00 00 	mod	r0,r0
 
 00031160 <T_SRC1_25>:
-   31160:	00 00 00 00 	add	r0,r0
+   31160:	02 00 00 00 	inc	r0,r0
 
 00031164 <T_SRC1_26>:
-   31164:	00 00 00 00 	add	r0,r0
+   31164:	04 00 00 00 	*unknown*
 
 00031168 <T_SRC1_27>:
-   31168:	00 00 00 00 	add	r0,r0
+   31168:	08 00 00 00 	shl	r0,r0
 
 0003116c <T_SRC1_28>:
-   3116c:	00 00 00 00 	add	r0,r0
+   3116c:	10 00 00 00 	ld8	r0,r0
 
 00031170 <T_SRC1_29>:
-   31170:	00 00 00 00 	add	r0,r0
+   31170:	20 00 00 00 	nop
 
 00031174 <T_SRC1_30>:
-   31174:	00 00 00 00 	add	r0,r0
+   31174:	40 00 00 00 	*unknown*
 
 00031178 <T_SRC1_31>:
-   31178:	00 00 00 00 	add	r0,r0
+   31178:	80 00 00 00 	*unknown*
 
 0003117c <T_SRC1_32>:
    3117c:	00 00 00 01 	add	r0,r1
 
 00031180 <T_SRC1_33>:
-   31180:	00 00 00 01 	add	r0,r1
+   31180:	00 00 00 02 	add	r0,r2
 
 00031184 <T_SRC1_34>:
-   31184:	00 00 00 01 	add	r0,r1
+   31184:	00 00 00 04 	add	r0,r4
 
 00031188 <T_SRC1_35>:
-   31188:	00 00 00 01 	add	r0,r1
+   31188:	00 00 00 08 	add	r0,r8
 
 0003118c <T_SRC1_36>:
-   3118c:	00 00 00 01 	add	r0,r1
+   3118c:	00 00 00 10 	add	r0,r16
 
 00031190 <T_SRC1_37>:
-   31190:	00 00 00 01 	add	r0,r1
+   31190:	00 00 00 20 	add	r1,r0
 
 00031194 <T_SRC1_38>:
-   31194:	00 00 00 01 	add	r0,r1
+   31194:	00 00 00 40 	add	r2,r0
 
 00031198 <T_SRC1_39>:
-   31198:	00 00 00 01 	add	r0,r1
+   31198:	00 00 00 80 	add	r4,r0
 
 0003119c <T_SRC1_40>:
-   3119c:	00 00 00 01 	add	r0,r1
+   3119c:	00 00 01 00 	add	r8,r0
 
 000311a0 <T_SRC1_41>:
-   311a0:	00 00 00 01 	add	r0,r1
+   311a0:	00 00 02 00 	add	r16,r0
 
 000311a4 <T_SRC1_42>:
-   311a4:	00 00 00 01 	add	r0,r1
+   311a4:	00 00 04 00 	*unknown*
 
 000311a8 <T_SRC1_43>:
-   311a8:	00 00 00 01 	add	r0,r1
+   311a8:	00 00 08 00 	*unknown*
 
 000311ac <T_SRC1_44>:
-   311ac:	00 00 00 01 	add	r0,r1
+   311ac:	00 00 10 00 	*unknown*
 
 000311b0 <T_SRC1_45>:
-   311b0:	00 00 00 01 	add	r0,r1
+   311b0:	00 00 20 00 	*unknown*
 
 000311b4 <T_SRC1_46>:
-   311b4:	00 00 00 01 	add	r0,r1
+   311b4:	00 00 40 00 	*unknown*
 
 000311b8 <T_SRC1_47>:
-   311b8:	00 00 00 01 	add	r0,r1
+   311b8:	00 00 80 00 	*unknown*
 
 000311bc <T_SRC1_48>:
-   311bc:	00 00 00 01 	add	r0,r1
+   311bc:	00 01 00 00 	*unknown*
 
 000311c0 <T_SRC1_49>:
-   311c0:	00 00 00 01 	add	r0,r1
+   311c0:	00 02 00 00 	*unknown*
 
 000311c4 <T_SRC1_50>:
-   311c4:	00 00 00 01 	add	r0,r1
+   311c4:	00 04 00 00 	*unknown*
 
 000311c8 <T_SRC1_51>:
-   311c8:	00 00 00 01 	add	r0,r1
+   311c8:	00 08 00 00 	*unknown*
 
 000311cc <T_SRC1_52>:
-   311cc:	00 00 00 01 	add	r0,r1
+   311cc:	00 10 00 00 	add	r0,0
 
 000311d0 <T_SRC1_53>:
-   311d0:	00 00 00 01 	add	r0,r1
+   311d0:	00 20 00 00 	sub	r0,r0
 
 000311d4 <T_SRC1_54>:
-   311d4:	00 00 00 01 	add	r0,r1
+   311d4:	00 40 00 00 	mull	r0,r0
 
 000311d8 <T_SRC1_55>:
-   311d8:	00 00 00 01 	add	r0,r1
+   311d8:	00 80 00 00 	udiv	r0,r0
 
 000311dc <T_SRC1_56>:
-   311dc:	00 00 00 01 	add	r0,r1
+   311dc:	01 00 00 00 	mod	r0,r0
 
 000311e0 <T_SRC1_57>:
-   311e0:	00 00 00 01 	add	r0,r1
+   311e0:	02 00 00 00 	inc	r0,r0
 
 000311e4 <T_SRC1_58>:
-   311e4:	00 00 00 01 	add	r0,r1
+   311e4:	04 00 00 00 	*unknown*
 
 000311e8 <T_SRC1_59>:
-   311e8:	00 00 00 01 	add	r0,r1
+   311e8:	08 00 00 00 	shl	r0,r0
 
 000311ec <T_SRC1_60>:
-   311ec:	00 00 00 01 	add	r0,r1
+   311ec:	10 00 00 00 	ld8	r0,r0
 
 000311f0 <T_SRC1_61>:
-   311f0:	00 00 00 01 	add	r0,r1
+   311f0:	20 00 00 00 	nop
 
 000311f4 <T_SRC1_62>:
-   311f4:	00 00 00 01 	add	r0,r1
+   311f4:	40 00 00 00 	*unknown*
 
 000311f8 <T_SRC1_63>:
-   311f8:	00 00 00 01 	add	r0,r1
+   311f8:	80 00 00 00 	*unknown*
 
 000311fc <T_SRC1_64>:
-   311fc:	00 00 00 02 	add	r0,r2
+   311fc:	00 00 00 01 	add	r0,r1
 
 00031200 <T_SRC1_65>:
    31200:	00 00 00 02 	add	r0,r2
 
 00031204 <T_SRC1_66>:
-   31204:	00 00 00 02 	add	r0,r2
+   31204:	00 00 00 04 	add	r0,r4
 
 00031208 <T_SRC1_67>:
-   31208:	00 00 00 02 	add	r0,r2
+   31208:	00 00 00 08 	add	r0,r8
 
 0003120c <T_SRC1_68>:
-   3120c:	00 00 00 02 	add	r0,r2
+   3120c:	00 00 00 10 	add	r0,r16
 
 00031210 <T_SRC1_69>:
-   31210:	00 00 00 02 	add	r0,r2
+   31210:	00 00 00 20 	add	r1,r0
 
 00031214 <T_SRC1_70>:
-   31214:	00 00 00 02 	add	r0,r2
+   31214:	00 00 00 40 	add	r2,r0
 
 00031218 <T_SRC1_71>:
-   31218:	00 00 00 02 	add	r0,r2
+   31218:	00 00 00 80 	add	r4,r0
 
 0003121c <T_SRC1_72>:
-   3121c:	00 00 00 02 	add	r0,r2
+   3121c:	00 00 01 00 	add	r8,r0
 
 00031220 <T_SRC1_73>:
-   31220:	00 00 00 02 	add	r0,r2
+   31220:	00 00 02 00 	add	r16,r0
 
 00031224 <T_SRC1_74>:
-   31224:	00 00 00 02 	add	r0,r2
+   31224:	00 00 04 00 	*unknown*
 
 00031228 <T_SRC1_75>:
-   31228:	00 00 00 02 	add	r0,r2
+   31228:	00 00 08 00 	*unknown*
 
 0003122c <T_SRC1_76>:
-   3122c:	00 00 00 02 	add	r0,r2
+   3122c:	00 00 10 00 	*unknown*
 
 00031230 <T_SRC1_77>:
-   31230:	00 00 00 02 	add	r0,r2
+   31230:	00 00 20 00 	*unknown*
 
 00031234 <T_SRC1_78>:
-   31234:	00 00 00 02 	add	r0,r2
+   31234:	00 00 40 00 	*unknown*
 
 00031238 <T_SRC1_79>:
-   31238:	00 00 00 02 	add	r0,r2
+   31238:	00 00 80 00 	*unknown*
 
 0003123c <T_SRC1_80>:
-   3123c:	00 00 00 02 	add	r0,r2
+   3123c:	00 01 00 00 	*unknown*
 
 00031240 <T_SRC1_81>:
-   31240:	00 00 00 02 	add	r0,r2
+   31240:	00 02 00 00 	*unknown*
 
 00031244 <T_SRC1_82>:
-   31244:	00 00 00 02 	add	r0,r2
+   31244:	00 04 00 00 	*unknown*
 
 00031248 <T_SRC1_83>:
-   31248:	00 00 00 02 	add	r0,r2
+   31248:	00 08 00 00 	*unknown*
 
 0003124c <T_SRC1_84>:
-   3124c:	00 00 00 02 	add	r0,r2
+   3124c:	00 10 00 00 	add	r0,0
 
 00031250 <T_SRC1_85>:
-   31250:	00 00 00 02 	add	r0,r2
+   31250:	00 20 00 00 	sub	r0,r0
 
 00031254 <T_SRC1_86>:
-   31254:	00 00 00 02 	add	r0,r2
+   31254:	00 40 00 00 	mull	r0,r0
 
 00031258 <T_SRC1_87>:
-   31258:	00 00 00 02 	add	r0,r2
+   31258:	00 80 00 00 	udiv	r0,r0
 
 0003125c <T_SRC1_88>:
-   3125c:	00 00 00 02 	add	r0,r2
+   3125c:	01 00 00 00 	mod	r0,r0
 
 00031260 <T_SRC1_89>:
-   31260:	00 00 00 02 	add	r0,r2
+   31260:	02 00 00 00 	inc	r0,r0
 
 00031264 <T_SRC1_90>:
-   31264:	00 00 00 02 	add	r0,r2
+   31264:	04 00 00 00 	*unknown*
 
 00031268 <T_SRC1_91>:
-   31268:	00 00 00 02 	add	r0,r2
+   31268:	08 00 00 00 	shl	r0,r0
 
 0003126c <T_SRC1_92>:
-   3126c:	00 00 00 02 	add	r0,r2
+   3126c:	10 00 00 00 	ld8	r0,r0
 
 00031270 <T_SRC1_93>:
-   31270:	00 00 00 02 	add	r0,r2
+   31270:	20 00 00 00 	nop
 
 00031274 <T_SRC1_94>:
-   31274:	00 00 00 02 	add	r0,r2
+   31274:	40 00 00 00 	*unknown*
 
 00031278 <T_SRC1_95>:
-   31278:	00 00 00 02 	add	r0,r2
+   31278:	80 00 00 00 	*unknown*
 
 0003127c <T_SRC1_96>:
-   3127c:	00 00 00 04 	add	r0,r4
+   3127c:	00 00 00 01 	add	r0,r1
 
 00031280 <T_SRC1_97>:
-   31280:	00 00 00 04 	add	r0,r4
+   31280:	00 00 00 02 	add	r0,r2
 
 00031284 <T_SRC1_98>:
    31284:	00 00 00 04 	add	r0,r4
 
 00031288 <T_SRC1_99>:
-   31288:	00 00 00 04 	add	r0,r4
+   31288:	00 00 00 08 	add	r0,r8
 
 0003128c <T_SRC1_100>:
-   3128c:	00 00 00 04 	add	r0,r4
+   3128c:	00 00 00 10 	add	r0,r16
 
 00031290 <T_SRC1_101>:
-   31290:	00 00 00 04 	add	r0,r4
+   31290:	00 00 00 20 	add	r1,r0
 
 00031294 <T_SRC1_102>:
-   31294:	00 00 00 04 	add	r0,r4
+   31294:	00 00 00 40 	add	r2,r0
 
 00031298 <T_SRC1_103>:
-   31298:	00 00 00 04 	add	r0,r4
+   31298:	00 00 00 80 	add	r4,r0
 
 0003129c <T_SRC1_104>:
-   3129c:	00 00 00 04 	add	r0,r4
+   3129c:	00 00 01 00 	add	r8,r0
 
 000312a0 <T_SRC1_105>:
-   312a0:	00 00 00 04 	add	r0,r4
+   312a0:	00 00 02 00 	add	r16,r0
 
 000312a4 <T_SRC1_106>:
-   312a4:	00 00 00 04 	add	r0,r4
+   312a4:	00 00 04 00 	*unknown*
 
 000312a8 <T_SRC1_107>:
-   312a8:	00 00 00 04 	add	r0,r4
+   312a8:	00 00 08 00 	*unknown*
 
 000312ac <T_SRC1_108>:
-   312ac:	00 00 00 04 	add	r0,r4
+   312ac:	00 00 10 00 	*unknown*
 
 000312b0 <T_SRC1_109>:
-   312b0:	00 00 00 04 	add	r0,r4
+   312b0:	00 00 20 00 	*unknown*
 
 000312b4 <T_SRC1_110>:
-   312b4:	00 00 00 04 	add	r0,r4
+   312b4:	00 00 40 00 	*unknown*
 
 000312b8 <T_SRC1_111>:
-   312b8:	00 00 00 04 	add	r0,r4
+   312b8:	00 00 80 00 	*unknown*
 
 000312bc <T_SRC1_112>:
-   312bc:	00 00 00 04 	add	r0,r4
+   312bc:	00 01 00 00 	*unknown*
 
 000312c0 <T_SRC1_113>:
-   312c0:	00 00 00 04 	add	r0,r4
+   312c0:	00 02 00 00 	*unknown*
 
 000312c4 <T_SRC1_114>:
-   312c4:	00 00 00 04 	add	r0,r4
+   312c4:	00 04 00 00 	*unknown*
 
 000312c8 <T_SRC1_115>:
-   312c8:	00 00 00 04 	add	r0,r4
+   312c8:	00 08 00 00 	*unknown*
 
 000312cc <T_SRC1_116>:
-   312cc:	00 00 00 04 	add	r0,r4
+   312cc:	00 10 00 00 	add	r0,0
 
 000312d0 <T_SRC1_117>:
-   312d0:	00 00 00 04 	add	r0,r4
+   312d0:	00 20 00 00 	sub	r0,r0
 
 000312d4 <T_SRC1_118>:
-   312d4:	00 00 00 04 	add	r0,r4
+   312d4:	00 40 00 00 	mull	r0,r0
 
 000312d8 <T_SRC1_119>:
-   312d8:	00 00 00 04 	add	r0,r4
+   312d8:	00 80 00 00 	udiv	r0,r0
 
 000312dc <T_SRC1_120>:
-   312dc:	00 00 00 04 	add	r0,r4
+   312dc:	01 00 00 00 	mod	r0,r0
 
 000312e0 <T_SRC1_121>:
-   312e0:	00 00 00 04 	add	r0,r4
+   312e0:	02 00 00 00 	inc	r0,r0
 
 000312e4 <T_SRC1_122>:
-   312e4:	00 00 00 04 	add	r0,r4
+   312e4:	04 00 00 00 	*unknown*
 
 000312e8 <T_SRC1_123>:
-   312e8:	00 00 00 04 	add	r0,r4
+   312e8:	08 00 00 00 	shl	r0,r0
 
 000312ec <T_SRC1_124>:
-   312ec:	00 00 00 04 	add	r0,r4
+   312ec:	10 00 00 00 	ld8	r0,r0
 
 000312f0 <T_SRC1_125>:
-   312f0:	00 00 00 04 	add	r0,r4
+   312f0:	20 00 00 00 	nop
 
 000312f4 <T_SRC1_126>:
-   312f4:	00 00 00 04 	add	r0,r4
+   312f4:	40 00 00 00 	*unknown*
 
 000312f8 <T_SRC1_127>:
-   312f8:	00 00 00 04 	add	r0,r4
+   312f8:	80 00 00 00 	*unknown*
 
 000312fc <T_SRC1_128>:
-   312fc:	00 00 00 08 	add	r0,r8
+   312fc:	00 00 00 01 	add	r0,r1
 
 00031300 <T_SRC1_129>:
-   31300:	00 00 00 08 	add	r0,r8
+   31300:	00 00 00 02 	add	r0,r2
 
 00031304 <T_SRC1_130>:
-   31304:	00 00 00 08 	add	r0,r8
+   31304:	00 00 00 04 	add	r0,r4
 
 00031308 <T_SRC1_131>:
    31308:	00 00 00 08 	add	r0,r8
 
 0003130c <T_SRC1_132>:
-   3130c:	00 00 00 08 	add	r0,r8
+   3130c:	00 00 00 10 	add	r0,r16
 
 00031310 <T_SRC1_133>:
-   31310:	00 00 00 08 	add	r0,r8
+   31310:	00 00 00 20 	add	r1,r0
 
 00031314 <T_SRC1_134>:
-   31314:	00 00 00 08 	add	r0,r8
+   31314:	00 00 00 40 	add	r2,r0
 
 00031318 <T_SRC1_135>:
-   31318:	00 00 00 08 	add	r0,r8
+   31318:	00 00 00 80 	add	r4,r0
 
 0003131c <T_SRC1_136>:
-   3131c:	00 00 00 08 	add	r0,r8
+   3131c:	00 00 01 00 	add	r8,r0
 
 00031320 <T_SRC1_137>:
-   31320:	00 00 00 08 	add	r0,r8
+   31320:	00 00 02 00 	add	r16,r0
 
 00031324 <T_SRC1_138>:
-   31324:	00 00 00 08 	add	r0,r8
+   31324:	00 00 04 00 	*unknown*
 
 00031328 <T_SRC1_139>:
-   31328:	00 00 00 08 	add	r0,r8
+   31328:	00 00 08 00 	*unknown*
 
 0003132c <T_SRC1_140>:
-   3132c:	00 00 00 08 	add	r0,r8
+   3132c:	00 00 10 00 	*unknown*
 
 00031330 <T_SRC1_141>:
-   31330:	00 00 00 08 	add	r0,r8
+   31330:	00 00 20 00 	*unknown*
 
 00031334 <T_SRC1_142>:
-   31334:	00 00 00 08 	add	r0,r8
+   31334:	00 00 40 00 	*unknown*
 
 00031338 <T_SRC1_143>:
-   31338:	00 00 00 08 	add	r0,r8
+   31338:	00 00 80 00 	*unknown*
 
 0003133c <T_SRC1_144>:
-   3133c:	00 00 00 08 	add	r0,r8
+   3133c:	00 01 00 00 	*unknown*
 
 00031340 <T_SRC1_145>:
-   31340:	00 00 00 08 	add	r0,r8
+   31340:	00 02 00 00 	*unknown*
 
 00031344 <T_SRC1_146>:
-   31344:	00 00 00 08 	add	r0,r8
+   31344:	00 04 00 00 	*unknown*
 
 00031348 <T_SRC1_147>:
-   31348:	00 00 00 08 	add	r0,r8
+   31348:	00 08 00 00 	*unknown*
 
 0003134c <T_SRC1_148>:
-   3134c:	00 00 00 08 	add	r0,r8
+   3134c:	00 10 00 00 	add	r0,0
 
 00031350 <T_SRC1_149>:
-   31350:	00 00 00 08 	add	r0,r8
+   31350:	00 20 00 00 	sub	r0,r0
 
 00031354 <T_SRC1_150>:
-   31354:	00 00 00 08 	add	r0,r8
+   31354:	00 40 00 00 	mull	r0,r0
 
 00031358 <T_SRC1_151>:
-   31358:	00 00 00 08 	add	r0,r8
+   31358:	00 80 00 00 	udiv	r0,r0
 
 0003135c <T_SRC1_152>:
-   3135c:	00 00 00 08 	add	r0,r8
+   3135c:	01 00 00 00 	mod	r0,r0
 
 00031360 <T_SRC1_153>:
-   31360:	00 00 00 08 	add	r0,r8
+   31360:	02 00 00 00 	inc	r0,r0
 
 00031364 <T_SRC1_154>:
-   31364:	00 00 00 08 	add	r0,r8
+   31364:	04 00 00 00 	*unknown*
 
 00031368 <T_SRC1_155>:
-   31368:	00 00 00 08 	add	r0,r8
+   31368:	08 00 00 00 	shl	r0,r0
 
 0003136c <T_SRC1_156>:
-   3136c:	00 00 00 08 	add	r0,r8
+   3136c:	10 00 00 00 	ld8	r0,r0
 
 00031370 <T_SRC1_157>:
-   31370:	00 00 00 08 	add	r0,r8
+   31370:	20 00 00 00 	nop
 
 00031374 <T_SRC1_158>:
-   31374:	00 00 00 08 	add	r0,r8
+   31374:	40 00 00 00 	*unknown*
 
 00031378 <T_SRC1_159>:
-   31378:	00 00 00 08 	add	r0,r8
+   31378:	80 00 00 00 	*unknown*
 
 0003137c <T_SRC1_160>:
-   3137c:	00 00 00 10 	add	r0,r16
+   3137c:	00 00 00 01 	add	r0,r1
 
 00031380 <T_SRC1_161>:
-   31380:	00 00 00 10 	add	r0,r16
+   31380:	00 00 00 02 	add	r0,r2
 
 00031384 <T_SRC1_162>:
-   31384:	00 00 00 10 	add	r0,r16
+   31384:	00 00 00 04 	add	r0,r4
 
 00031388 <T_SRC1_163>:
-   31388:	00 00 00 10 	add	r0,r16
+   31388:	00 00 00 08 	add	r0,r8
 
 0003138c <T_SRC1_164>:
    3138c:	00 00 00 10 	add	r0,r16
 
 00031390 <T_SRC1_165>:
-   31390:	00 00 00 10 	add	r0,r16
+   31390:	00 00 00 20 	add	r1,r0
 
 00031394 <T_SRC1_166>:
-   31394:	00 00 00 10 	add	r0,r16
+   31394:	00 00 00 40 	add	r2,r0
 
 00031398 <T_SRC1_167>:
-   31398:	00 00 00 10 	add	r0,r16
+   31398:	00 00 00 80 	add	r4,r0
 
 0003139c <T_SRC1_168>:
-   3139c:	00 00 00 10 	add	r0,r16
+   3139c:	00 00 01 00 	add	r8,r0
 
 000313a0 <T_SRC1_169>:
-   313a0:	00 00 00 10 	add	r0,r16
+   313a0:	00 00 02 00 	add	r16,r0
 
 000313a4 <T_SRC1_170>:
-   313a4:	00 00 00 10 	add	r0,r16
+   313a4:	00 00 04 00 	*unknown*
 
 000313a8 <T_SRC1_171>:
-   313a8:	00 00 00 10 	add	r0,r16
+   313a8:	00 00 08 00 	*unknown*
 
 000313ac <T_SRC1_172>:
-   313ac:	00 00 00 10 	add	r0,r16
+   313ac:	00 00 10 00 	*unknown*
 
 000313b0 <T_SRC1_173>:
-   313b0:	00 00 00 10 	add	r0,r16
+   313b0:	00 00 20 00 	*unknown*
 
 000313b4 <T_SRC1_174>:
-   313b4:	00 00 00 10 	add	r0,r16
+   313b4:	00 00 40 00 	*unknown*
 
 000313b8 <T_SRC1_175>:
-   313b8:	00 00 00 10 	add	r0,r16
+   313b8:	00 00 80 00 	*unknown*
 
 000313bc <T_SRC1_176>:
-   313bc:	00 00 00 10 	add	r0,r16
+   313bc:	00 01 00 00 	*unknown*
 
 000313c0 <T_SRC1_177>:
-   313c0:	00 00 00 10 	add	r0,r16
+   313c0:	00 02 00 00 	*unknown*
 
 000313c4 <T_SRC1_178>:
-   313c4:	00 00 00 10 	add	r0,r16
+   313c4:	00 04 00 00 	*unknown*
 
 000313c8 <T_SRC1_179>:
-   313c8:	00 00 00 10 	add	r0,r16
+   313c8:	00 08 00 00 	*unknown*
 
 000313cc <T_SRC1_180>:
-   313cc:	00 00 00 10 	add	r0,r16
+   313cc:	00 10 00 00 	add	r0,0
 
 000313d0 <T_SRC1_181>:
-   313d0:	00 00 00 10 	add	r0,r16
+   313d0:	00 20 00 00 	sub	r0,r0
 
 000313d4 <T_SRC1_182>:
-   313d4:	00 00 00 10 	add	r0,r16
+   313d4:	00 40 00 00 	mull	r0,r0
 
 000313d8 <T_SRC1_183>:
-   313d8:	00 00 00 10 	add	r0,r16
+   313d8:	00 80 00 00 	udiv	r0,r0
 
 000313dc <T_SRC1_184>:
-   313dc:	00 00 00 10 	add	r0,r16
+   313dc:	01 00 00 00 	mod	r0,r0
 
 000313e0 <T_SRC1_185>:
-   313e0:	00 00 00 10 	add	r0,r16
+   313e0:	02 00 00 00 	inc	r0,r0
 
 000313e4 <T_SRC1_186>:
-   313e4:	00 00 00 10 	add	r0,r16
+   313e4:	04 00 00 00 	*unknown*
 
 000313e8 <T_SRC1_187>:
-   313e8:	00 00 00 10 	add	r0,r16
+   313e8:	08 00 00 00 	shl	r0,r0
 
 000313ec <T_SRC1_188>:
-   313ec:	00 00 00 10 	add	r0,r16
+   313ec:	10 00 00 00 	ld8	r0,r0
 
 000313f0 <T_SRC1_189>:
-   313f0:	00 00 00 10 	add	r0,r16
+   313f0:	20 00 00 00 	nop
 
 000313f4 <T_SRC1_190>:
-   313f4:	00 00 00 10 	add	r0,r16
+   313f4:	40 00 00 00 	*unknown*
 
 000313f8 <T_SRC1_191>:
-   313f8:	00 00 00 10 	add	r0,r16
+   313f8:	80 00 00 00 	*unknown*
 
 000313fc <T_SRC1_192>:
-   313fc:	00 00 00 20 	add	r1,r0
+   313fc:	00 00 00 01 	add	r0,r1
 
 00031400 <T_SRC1_193>:
-   31400:	00 00 00 20 	add	r1,r0
+   31400:	00 00 00 02 	add	r0,r2
 
 00031404 <T_SRC1_194>:
-   31404:	00 00 00 20 	add	r1,r0
+   31404:	00 00 00 04 	add	r0,r4
 
 00031408 <T_SRC1_195>:
-   31408:	00 00 00 20 	add	r1,r0
+   31408:	00 00 00 08 	add	r0,r8
 
 0003140c <T_SRC1_196>:
-   3140c:	00 00 00 20 	add	r1,r0
+   3140c:	00 00 00 10 	add	r0,r16
 
 00031410 <T_SRC1_197>:
    31410:	00 00 00 20 	add	r1,r0
 
 00031414 <T_SRC1_198>:
-   31414:	00 00 00 20 	add	r1,r0
+   31414:	00 00 00 40 	add	r2,r0
 
 00031418 <T_SRC1_199>:
-   31418:	00 00 00 20 	add	r1,r0
+   31418:	00 00 00 80 	add	r4,r0
 
 0003141c <T_SRC1_200>:
-   3141c:	00 00 00 20 	add	r1,r0
+   3141c:	00 00 01 00 	add	r8,r0
 
 00031420 <T_SRC1_201>:
-   31420:	00 00 00 20 	add	r1,r0
+   31420:	00 00 02 00 	add	r16,r0
 
 00031424 <T_SRC1_202>:
-   31424:	00 00 00 20 	add	r1,r0
+   31424:	00 00 04 00 	*unknown*
 
 00031428 <T_SRC1_203>:
-   31428:	00 00 00 20 	add	r1,r0
+   31428:	00 00 08 00 	*unknown*
 
 0003142c <T_SRC1_204>:
-   3142c:	00 00 00 20 	add	r1,r0
+   3142c:	00 00 10 00 	*unknown*
 
 00031430 <T_SRC1_205>:
-   31430:	00 00 00 20 	add	r1,r0
+   31430:	00 00 20 00 	*unknown*
 
 00031434 <T_SRC1_206>:
-   31434:	00 00 00 20 	add	r1,r0
+   31434:	00 00 40 00 	*unknown*
 
 00031438 <T_SRC1_207>:
-   31438:	00 00 00 20 	add	r1,r0
+   31438:	00 00 80 00 	*unknown*
 
 0003143c <T_SRC1_208>:
-   3143c:	00 00 00 20 	add	r1,r0
+   3143c:	00 01 00 00 	*unknown*
 
 00031440 <T_SRC1_209>:
-   31440:	00 00 00 20 	add	r1,r0
+   31440:	00 02 00 00 	*unknown*
 
 00031444 <T_SRC1_210>:
-   31444:	00 00 00 20 	add	r1,r0
+   31444:	00 04 00 00 	*unknown*
 
 00031448 <T_SRC1_211>:
-   31448:	00 00 00 20 	add	r1,r0
+   31448:	00 08 00 00 	*unknown*
 
 0003144c <T_SRC1_212>:
-   3144c:	00 00 00 20 	add	r1,r0
+   3144c:	00 10 00 00 	add	r0,0
 
 00031450 <T_SRC1_213>:
-   31450:	00 00 00 20 	add	r1,r0
+   31450:	00 20 00 00 	sub	r0,r0
 
 00031454 <T_SRC1_214>:
-   31454:	00 00 00 20 	add	r1,r0
+   31454:	00 40 00 00 	mull	r0,r0
 
 00031458 <T_SRC1_215>:
-   31458:	00 00 00 20 	add	r1,r0
+   31458:	00 80 00 00 	udiv	r0,r0
 
 0003145c <T_SRC1_216>:
-   3145c:	00 00 00 20 	add	r1,r0
+   3145c:	01 00 00 00 	mod	r0,r0
 
 00031460 <T_SRC1_217>:
-   31460:	00 00 00 20 	add	r1,r0
+   31460:	02 00 00 00 	inc	r0,r0
 
 00031464 <T_SRC1_218>:
-   31464:	00 00 00 20 	add	r1,r0
+   31464:	04 00 00 00 	*unknown*
 
 00031468 <T_SRC1_219>:
-   31468:	00 00 00 20 	add	r1,r0
+   31468:	08 00 00 00 	shl	r0,r0
 
 0003146c <T_SRC1_220>:
-   3146c:	00 00 00 20 	add	r1,r0
+   3146c:	10 00 00 00 	ld8	r0,r0
 
 00031470 <T_SRC1_221>:
-   31470:	00 00 00 20 	add	r1,r0
+   31470:	20 00 00 00 	nop
 
 00031474 <T_SRC1_222>:
-   31474:	00 00 00 20 	add	r1,r0
+   31474:	40 00 00 00 	*unknown*
 
 00031478 <T_SRC1_223>:
-   31478:	00 00 00 20 	add	r1,r0
+   31478:	80 00 00 00 	*unknown*
 
 0003147c <T_SRC1_224>:
-   3147c:	00 00 00 40 	add	r2,r0
+   3147c:	00 00 00 01 	add	r0,r1
 
 00031480 <T_SRC1_225>:
-   31480:	00 00 00 40 	add	r2,r0
+   31480:	00 00 00 02 	add	r0,r2
 
 00031484 <T_SRC1_226>:
-   31484:	00 00 00 40 	add	r2,r0
+   31484:	00 00 00 04 	add	r0,r4
 
 00031488 <T_SRC1_227>:
-   31488:	00 00 00 40 	add	r2,r0
+   31488:	00 00 00 08 	add	r0,r8
 
 0003148c <T_SRC1_228>:
-   3148c:	00 00 00 40 	add	r2,r0
+   3148c:	00 00 00 10 	add	r0,r16
 
 00031490 <T_SRC1_229>:
-   31490:	00 00 00 40 	add	r2,r0
+   31490:	00 00 00 20 	add	r1,r0
 
 00031494 <T_SRC1_230>:
    31494:	00 00 00 40 	add	r2,r0
 
 00031498 <T_SRC1_231>:
-   31498:	00 00 00 40 	add	r2,r0
+   31498:	00 00 00 80 	add	r4,r0
 
 0003149c <T_SRC1_232>:
-   3149c:	00 00 00 40 	add	r2,r0
+   3149c:	00 00 01 00 	add	r8,r0
 
 000314a0 <T_SRC1_233>:
-   314a0:	00 00 00 40 	add	r2,r0
+   314a0:	00 00 02 00 	add	r16,r0
 
 000314a4 <T_SRC1_234>:
-   314a4:	00 00 00 40 	add	r2,r0
+   314a4:	00 00 04 00 	*unknown*
 
 000314a8 <T_SRC1_235>:
-   314a8:	00 00 00 40 	add	r2,r0
+   314a8:	00 00 08 00 	*unknown*
 
 000314ac <T_SRC1_236>:
-   314ac:	00 00 00 40 	add	r2,r0
+   314ac:	00 00 10 00 	*unknown*
 
 000314b0 <T_SRC1_237>:
-   314b0:	00 00 00 40 	add	r2,r0
+   314b0:	00 00 20 00 	*unknown*
 
 000314b4 <T_SRC1_238>:
-   314b4:	00 00 00 40 	add	r2,r0
+   314b4:	00 00 40 00 	*unknown*
 
 000314b8 <T_SRC1_239>:
-   314b8:	00 00 00 40 	add	r2,r0
+   314b8:	00 00 80 00 	*unknown*
 
 000314bc <T_SRC1_240>:
-   314bc:	00 00 00 40 	add	r2,r0
+   314bc:	00 01 00 00 	*unknown*
 
 000314c0 <T_SRC1_241>:
-   314c0:	00 00 00 40 	add	r2,r0
+   314c0:	00 02 00 00 	*unknown*
 
 000314c4 <T_SRC1_242>:
-   314c4:	00 00 00 40 	add	r2,r0
+   314c4:	00 04 00 00 	*unknown*
 
 000314c8 <T_SRC1_243>:
-   314c8:	00 00 00 40 	add	r2,r0
+   314c8:	00 08 00 00 	*unknown*
 
 000314cc <T_SRC1_244>:
-   314cc:	00 00 00 40 	add	r2,r0
+   314cc:	00 10 00 00 	add	r0,0
 
 000314d0 <T_SRC1_245>:
-   314d0:	00 00 00 40 	add	r2,r0
+   314d0:	00 20 00 00 	sub	r0,r0
 
 000314d4 <T_SRC1_246>:
-   314d4:	00 00 00 40 	add	r2,r0
+   314d4:	00 40 00 00 	mull	r0,r0
 
 000314d8 <T_SRC1_247>:
-   314d8:	00 00 00 40 	add	r2,r0
+   314d8:	00 80 00 00 	udiv	r0,r0
 
 000314dc <T_SRC1_248>:
-   314dc:	00 00 00 40 	add	r2,r0
+   314dc:	01 00 00 00 	mod	r0,r0
 
 000314e0 <T_SRC1_249>:
-   314e0:	00 00 00 40 	add	r2,r0
+   314e0:	02 00 00 00 	inc	r0,r0
 
 000314e4 <T_SRC1_250>:
-   314e4:	00 00 00 40 	add	r2,r0
+   314e4:	04 00 00 00 	*unknown*
 
 000314e8 <T_SRC1_251>:
-   314e8:	00 00 00 40 	add	r2,r0
+   314e8:	08 00 00 00 	shl	r0,r0
 
 000314ec <T_SRC1_252>:
-   314ec:	00 00 00 40 	add	r2,r0
+   314ec:	10 00 00 00 	ld8	r0,r0
 
 000314f0 <T_SRC1_253>:
-   314f0:	00 00 00 40 	add	r2,r0
+   314f0:	20 00 00 00 	nop
 
 000314f4 <T_SRC1_254>:
-   314f4:	00 00 00 40 	add	r2,r0
+   314f4:	40 00 00 00 	*unknown*
 
 000314f8 <T_SRC1_255>:
-   314f8:	00 00 00 40 	add	r2,r0
+   314f8:	80 00 00 00 	*unknown*
 
 000314fc <T_SRC1_256>:
-   314fc:	00 00 00 80 	add	r4,r0
+   314fc:	00 00 00 01 	add	r0,r1
 
 00031500 <T_SRC1_257>:
-   31500:	00 00 00 80 	add	r4,r0
+   31500:	00 00 00 02 	add	r0,r2
 
 00031504 <T_SRC1_258>:
-   31504:	00 00 00 80 	add	r4,r0
+   31504:	00 00 00 04 	add	r0,r4
 
 00031508 <T_SRC1_259>:
-   31508:	00 00 00 80 	add	r4,r0
+   31508:	00 00 00 08 	add	r0,r8
 
 0003150c <T_SRC1_260>:
-   3150c:	00 00 00 80 	add	r4,r0
+   3150c:	00 00 00 10 	add	r0,r16
 
 00031510 <T_SRC1_261>:
-   31510:	00 00 00 80 	add	r4,r0
+   31510:	00 00 00 20 	add	r1,r0
 
 00031514 <T_SRC1_262>:
-   31514:	00 00 00 80 	add	r4,r0
+   31514:	00 00 00 40 	add	r2,r0
 
 00031518 <T_SRC1_263>:
    31518:	00 00 00 80 	add	r4,r0
 
 0003151c <T_SRC1_264>:
-   3151c:	00 00 00 80 	add	r4,r0
+   3151c:	00 00 01 00 	add	r8,r0
 
 00031520 <T_SRC1_265>:
-   31520:	00 00 00 80 	add	r4,r0
+   31520:	00 00 02 00 	add	r16,r0
 
 00031524 <T_SRC1_266>:
-   31524:	00 00 00 80 	add	r4,r0
+   31524:	00 00 04 00 	*unknown*
 
 00031528 <T_SRC1_267>:
-   31528:	00 00 00 80 	add	r4,r0
+   31528:	00 00 08 00 	*unknown*
 
 0003152c <T_SRC1_268>:
-   3152c:	00 00 00 80 	add	r4,r0
+   3152c:	00 00 10 00 	*unknown*
 
 00031530 <T_SRC1_269>:
-   31530:	00 00 00 80 	add	r4,r0
+   31530:	00 00 20 00 	*unknown*
 
 00031534 <T_SRC1_270>:
-   31534:	00 00 00 80 	add	r4,r0
+   31534:	00 00 40 00 	*unknown*
 
 00031538 <T_SRC1_271>:
-   31538:	00 00 00 80 	add	r4,r0
+   31538:	00 00 80 00 	*unknown*
 
 0003153c <T_SRC1_272>:
-   3153c:	00 00 00 80 	add	r4,r0
+   3153c:	00 01 00 00 	*unknown*
 
 00031540 <T_SRC1_273>:
-   31540:	00 00 00 80 	add	r4,r0
+   31540:	00 02 00 00 	*unknown*
 
 00031544 <T_SRC1_274>:
-   31544:	00 00 00 80 	add	r4,r0
+   31544:	00 04 00 00 	*unknown*
 
 00031548 <T_SRC1_275>:
-   31548:	00 00 00 80 	add	r4,r0
+   31548:	00 08 00 00 	*unknown*
 
 0003154c <T_SRC1_276>:
-   3154c:	00 00 00 80 	add	r4,r0
+   3154c:	00 10 00 00 	add	r0,0
 
 00031550 <T_SRC1_277>:
-   31550:	00 00 00 80 	add	r4,r0
+   31550:	00 20 00 00 	sub	r0,r0
 
 00031554 <T_SRC1_278>:
-   31554:	00 00 00 80 	add	r4,r0
+   31554:	00 40 00 00 	mull	r0,r0
 
 00031558 <T_SRC1_279>:
-   31558:	00 00 00 80 	add	r4,r0
+   31558:	00 80 00 00 	udiv	r0,r0
 
 0003155c <T_SRC1_280>:
-   3155c:	00 00 00 80 	add	r4,r0
+   3155c:	01 00 00 00 	mod	r0,r0
 
 00031560 <T_SRC1_281>:
-   31560:	00 00 00 80 	add	r4,r0
+   31560:	02 00 00 00 	inc	r0,r0
 
 00031564 <T_SRC1_282>:
-   31564:	00 00 00 80 	add	r4,r0
+   31564:	04 00 00 00 	*unknown*
 
 00031568 <T_SRC1_283>:
-   31568:	00 00 00 80 	add	r4,r0
+   31568:	08 00 00 00 	shl	r0,r0
 
 0003156c <T_SRC1_284>:
-   3156c:	00 00 00 80 	add	r4,r0
+   3156c:	10 00 00 00 	ld8	r0,r0
 
 00031570 <T_SRC1_285>:
-   31570:	00 00 00 80 	add	r4,r0
+   31570:	20 00 00 00 	nop
 
 00031574 <T_SRC1_286>:
-   31574:	00 00 00 80 	add	r4,r0
+   31574:	40 00 00 00 	*unknown*
 
 00031578 <T_SRC1_287>:
-   31578:	00 00 00 80 	add	r4,r0
+   31578:	80 00 00 00 	*unknown*
 
 0003157c <T_SRC1_288>:
-   3157c:	00 00 01 00 	add	r8,r0
+   3157c:	00 00 00 01 	add	r0,r1
 
 00031580 <T_SRC1_289>:
-   31580:	00 00 01 00 	add	r8,r0
+   31580:	00 00 00 02 	add	r0,r2
 
 00031584 <T_SRC1_290>:
-   31584:	00 00 01 00 	add	r8,r0
+   31584:	00 00 00 04 	add	r0,r4
 
 00031588 <T_SRC1_291>:
-   31588:	00 00 01 00 	add	r8,r0
+   31588:	00 00 00 08 	add	r0,r8
 
 0003158c <T_SRC1_292>:
-   3158c:	00 00 01 00 	add	r8,r0
+   3158c:	00 00 00 10 	add	r0,r16
 
 00031590 <T_SRC1_293>:
-   31590:	00 00 01 00 	add	r8,r0
+   31590:	00 00 00 20 	add	r1,r0
 
 00031594 <T_SRC1_294>:
-   31594:	00 00 01 00 	add	r8,r0
+   31594:	00 00 00 40 	add	r2,r0
 
 00031598 <T_SRC1_295>:
-   31598:	00 00 01 00 	add	r8,r0
+   31598:	00 00 00 80 	add	r4,r0
 
 0003159c <T_SRC1_296>:
    3159c:	00 00 01 00 	add	r8,r0
 
 000315a0 <T_SRC1_297>:
-   315a0:	00 00 01 00 	add	r8,r0
+   315a0:	00 00 02 00 	add	r16,r0
 
 000315a4 <T_SRC1_298>:
-   315a4:	00 00 01 00 	add	r8,r0
+   315a4:	00 00 04 00 	*unknown*
 
 000315a8 <T_SRC1_299>:
-   315a8:	00 00 01 00 	add	r8,r0
+   315a8:	00 00 08 00 	*unknown*
 
 000315ac <T_SRC1_300>:
-   315ac:	00 00 01 00 	add	r8,r0
+   315ac:	00 00 10 00 	*unknown*
 
 000315b0 <T_SRC1_301>:
-   315b0:	00 00 01 00 	add	r8,r0
+   315b0:	00 00 20 00 	*unknown*
 
 000315b4 <T_SRC1_302>:
-   315b4:	00 00 01 00 	add	r8,r0
+   315b4:	00 00 40 00 	*unknown*
 
 000315b8 <T_SRC1_303>:
-   315b8:	00 00 01 00 	add	r8,r0
+   315b8:	00 00 80 00 	*unknown*
 
 000315bc <T_SRC1_304>:
-   315bc:	00 00 01 00 	add	r8,r0
+   315bc:	00 01 00 00 	*unknown*
 
 000315c0 <T_SRC1_305>:
-   315c0:	00 00 01 00 	add	r8,r0
+   315c0:	00 02 00 00 	*unknown*
 
 000315c4 <T_SRC1_306>:
-   315c4:	00 00 01 00 	add	r8,r0
+   315c4:	00 04 00 00 	*unknown*
 
 000315c8 <T_SRC1_307>:
-   315c8:	00 00 01 00 	add	r8,r0
+   315c8:	00 08 00 00 	*unknown*
 
 000315cc <T_SRC1_308>:
-   315cc:	00 00 01 00 	add	r8,r0
+   315cc:	00 10 00 00 	add	r0,0
 
 000315d0 <T_SRC1_309>:
-   315d0:	00 00 01 00 	add	r8,r0
+   315d0:	00 20 00 00 	sub	r0,r0
 
 000315d4 <T_SRC1_310>:
-   315d4:	00 00 01 00 	add	r8,r0
+   315d4:	00 40 00 00 	mull	r0,r0
 
 000315d8 <T_SRC1_311>:
-   315d8:	00 00 01 00 	add	r8,r0
+   315d8:	00 80 00 00 	udiv	r0,r0
 
 000315dc <T_SRC1_312>:
-   315dc:	00 00 01 00 	add	r8,r0
+   315dc:	01 00 00 00 	mod	r0,r0
 
 000315e0 <T_SRC1_313>:
-   315e0:	00 00 01 00 	add	r8,r0
+   315e0:	02 00 00 00 	inc	r0,r0
 
 000315e4 <T_SRC1_314>:
-   315e4:	00 00 01 00 	add	r8,r0
+   315e4:	04 00 00 00 	*unknown*
 
 000315e8 <T_SRC1_315>:
-   315e8:	00 00 01 00 	add	r8,r0
+   315e8:	08 00 00 00 	shl	r0,r0
 
 000315ec <T_SRC1_316>:
-   315ec:	00 00 01 00 	add	r8,r0
+   315ec:	10 00 00 00 	ld8	r0,r0
 
 000315f0 <T_SRC1_317>:
-   315f0:	00 00 01 00 	add	r8,r0
+   315f0:	20 00 00 00 	nop
 
 000315f4 <T_SRC1_318>:
-   315f4:	00 00 01 00 	add	r8,r0
+   315f4:	40 00 00 00 	*unknown*
 
 000315f8 <T_SRC1_319>:
-   315f8:	00 00 01 00 	add	r8,r0
+   315f8:	80 00 00 00 	*unknown*
 
 000315fc <T_SRC1_320>:
-   315fc:	00 00 02 00 	add	r16,r0
+   315fc:	00 00 00 01 	add	r0,r1
 
 00031600 <T_SRC1_321>:
-   31600:	00 00 02 00 	add	r16,r0
+   31600:	00 00 00 02 	add	r0,r2
 
 00031604 <T_SRC1_322>:
-   31604:	00 00 02 00 	add	r16,r0
+   31604:	00 00 00 04 	add	r0,r4
 
 00031608 <T_SRC1_323>:
-   31608:	00 00 02 00 	add	r16,r0
+   31608:	00 00 00 08 	add	r0,r8
 
 0003160c <T_SRC1_324>:
-   3160c:	00 00 02 00 	add	r16,r0
+   3160c:	00 00 00 10 	add	r0,r16
 
 00031610 <T_SRC1_325>:
-   31610:	00 00 02 00 	add	r16,r0
+   31610:	00 00 00 20 	add	r1,r0
 
 00031614 <T_SRC1_326>:
-   31614:	00 00 02 00 	add	r16,r0
+   31614:	00 00 00 40 	add	r2,r0
 
 00031618 <T_SRC1_327>:
-   31618:	00 00 02 00 	add	r16,r0
+   31618:	00 00 00 80 	add	r4,r0
 
 0003161c <T_SRC1_328>:
-   3161c:	00 00 02 00 	add	r16,r0
+   3161c:	00 00 01 00 	add	r8,r0
 
 00031620 <T_SRC1_329>:
    31620:	00 00 02 00 	add	r16,r0
 
 00031624 <T_SRC1_330>:
-   31624:	00 00 02 00 	add	r16,r0
+   31624:	00 00 04 00 	*unknown*
 
 00031628 <T_SRC1_331>:
-   31628:	00 00 02 00 	add	r16,r0
+   31628:	00 00 08 00 	*unknown*
 
 0003162c <T_SRC1_332>:
-   3162c:	00 00 02 00 	add	r16,r0
+   3162c:	00 00 10 00 	*unknown*
 
 00031630 <T_SRC1_333>:
-   31630:	00 00 02 00 	add	r16,r0
+   31630:	00 00 20 00 	*unknown*
 
 00031634 <T_SRC1_334>:
-   31634:	00 00 02 00 	add	r16,r0
+   31634:	00 00 40 00 	*unknown*
 
 00031638 <T_SRC1_335>:
-   31638:	00 00 02 00 	add	r16,r0
+   31638:	00 00 80 00 	*unknown*
 
 0003163c <T_SRC1_336>:
-   3163c:	00 00 02 00 	add	r16,r0
+   3163c:	00 01 00 00 	*unknown*
 
 00031640 <T_SRC1_337>:
-   31640:	00 00 02 00 	add	r16,r0
+   31640:	00 02 00 00 	*unknown*
 
 00031644 <T_SRC1_338>:
-   31644:	00 00 02 00 	add	r16,r0
+   31644:	00 04 00 00 	*unknown*
 
 00031648 <T_SRC1_339>:
-   31648:	00 00 02 00 	add	r16,r0
+   31648:	00 08 00 00 	*unknown*
 
 0003164c <T_SRC1_340>:
-   3164c:	00 00 02 00 	add	r16,r0
+   3164c:	00 10 00 00 	add	r0,0
 
 00031650 <T_SRC1_341>:
-   31650:	00 00 02 00 	add	r16,r0
+   31650:	00 20 00 00 	sub	r0,r0
 
 00031654 <T_SRC1_342>:
-   31654:	00 00 02 00 	add	r16,r0
+   31654:	00 40 00 00 	mull	r0,r0
 
 00031658 <T_SRC1_343>:
-   31658:	00 00 02 00 	add	r16,r0
+   31658:	00 80 00 00 	udiv	r0,r0
 
 0003165c <T_SRC1_344>:
-   3165c:	00 00 02 00 	add	r16,r0
+   3165c:	01 00 00 00 	mod	r0,r0
 
 00031660 <T_SRC1_345>:
-   31660:	00 00 02 00 	add	r16,r0
+   31660:	02 00 00 00 	inc	r0,r0
 
 00031664 <T_SRC1_346>:
-   31664:	00 00 02 00 	add	r16,r0
+   31664:	04 00 00 00 	*unknown*
 
 00031668 <T_SRC1_347>:
-   31668:	00 00 02 00 	add	r16,r0
+   31668:	08 00 00 00 	shl	r0,r0
 
 0003166c <T_SRC1_348>:
-   3166c:	00 00 02 00 	add	r16,r0
+   3166c:	10 00 00 00 	ld8	r0,r0
 
 00031670 <T_SRC1_349>:
-   31670:	00 00 02 00 	add	r16,r0
+   31670:	20 00 00 00 	nop
 
 00031674 <T_SRC1_350>:
-   31674:	00 00 02 00 	add	r16,r0
+   31674:	40 00 00 00 	*unknown*
 
 00031678 <T_SRC1_351>:
-   31678:	00 00 02 00 	add	r16,r0
+   31678:	80 00 00 00 	*unknown*
 
 0003167c <T_SRC1_352>:
-   3167c:	00 00 04 00 	*unknown*
+   3167c:	00 00 00 01 	add	r0,r1
 
 00031680 <T_SRC1_353>:
-   31680:	00 00 04 00 	*unknown*
+   31680:	00 00 00 02 	add	r0,r2
 
 00031684 <T_SRC1_354>:
-   31684:	00 00 04 00 	*unknown*
+   31684:	00 00 00 04 	add	r0,r4
 
 00031688 <T_SRC1_355>:
-   31688:	00 00 04 00 	*unknown*
+   31688:	00 00 00 08 	add	r0,r8
 
 0003168c <T_SRC1_356>:
-   3168c:	00 00 04 00 	*unknown*
+   3168c:	00 00 00 10 	add	r0,r16
 
 00031690 <T_SRC1_357>:
-   31690:	00 00 04 00 	*unknown*
+   31690:	00 00 00 20 	add	r1,r0
 
 00031694 <T_SRC1_358>:
-   31694:	00 00 04 00 	*unknown*
+   31694:	00 00 00 40 	add	r2,r0
 
 00031698 <T_SRC1_359>:
-   31698:	00 00 04 00 	*unknown*
+   31698:	00 00 00 80 	add	r4,r0
 
 0003169c <T_SRC1_360>:
-   3169c:	00 00 04 00 	*unknown*
+   3169c:	00 00 01 00 	add	r8,r0
 
 000316a0 <T_SRC1_361>:
-   316a0:	00 00 04 00 	*unknown*
+   316a0:	00 00 02 00 	add	r16,r0
 
 000316a4 <T_SRC1_362>:
    316a4:	00 00 04 00 	*unknown*
 
 000316a8 <T_SRC1_363>:
-   316a8:	00 00 04 00 	*unknown*
+   316a8:	00 00 08 00 	*unknown*
 
 000316ac <T_SRC1_364>:
-   316ac:	00 00 04 00 	*unknown*
+   316ac:	00 00 10 00 	*unknown*
 
 000316b0 <T_SRC1_365>:
-   316b0:	00 00 04 00 	*unknown*
+   316b0:	00 00 20 00 	*unknown*
 
 000316b4 <T_SRC1_366>:
-   316b4:	00 00 04 00 	*unknown*
+   316b4:	00 00 40 00 	*unknown*
 
 000316b8 <T_SRC1_367>:
-   316b8:	00 00 04 00 	*unknown*
+   316b8:	00 00 80 00 	*unknown*
 
 000316bc <T_SRC1_368>:
-   316bc:	00 00 04 00 	*unknown*
+   316bc:	00 01 00 00 	*unknown*
 
 000316c0 <T_SRC1_369>:
-   316c0:	00 00 04 00 	*unknown*
+   316c0:	00 02 00 00 	*unknown*
 
 000316c4 <T_SRC1_370>:
-   316c4:	00 00 04 00 	*unknown*
+   316c4:	00 04 00 00 	*unknown*
 
 000316c8 <T_SRC1_371>:
-   316c8:	00 00 04 00 	*unknown*
+   316c8:	00 08 00 00 	*unknown*
 
 000316cc <T_SRC1_372>:
-   316cc:	00 00 04 00 	*unknown*
+   316cc:	00 10 00 00 	add	r0,0
 
 000316d0 <T_SRC1_373>:
-   316d0:	00 00 04 00 	*unknown*
+   316d0:	00 20 00 00 	sub	r0,r0
 
 000316d4 <T_SRC1_374>:
-   316d4:	00 00 04 00 	*unknown*
+   316d4:	00 40 00 00 	mull	r0,r0
 
 000316d8 <T_SRC1_375>:
-   316d8:	00 00 04 00 	*unknown*
+   316d8:	00 80 00 00 	udiv	r0,r0
 
 000316dc <T_SRC1_376>:
-   316dc:	00 00 04 00 	*unknown*
+   316dc:	01 00 00 00 	mod	r0,r0
 
 000316e0 <T_SRC1_377>:
-   316e0:	00 00 04 00 	*unknown*
+   316e0:	02 00 00 00 	inc	r0,r0
 
 000316e4 <T_SRC1_378>:
-   316e4:	00 00 04 00 	*unknown*
+   316e4:	04 00 00 00 	*unknown*
 
 000316e8 <T_SRC1_379>:
-   316e8:	00 00 04 00 	*unknown*
+   316e8:	08 00 00 00 	shl	r0,r0
 
 000316ec <T_SRC1_380>:
-   316ec:	00 00 04 00 	*unknown*
+   316ec:	10 00 00 00 	ld8	r0,r0
 
 000316f0 <T_SRC1_381>:
-   316f0:	00 00 04 00 	*unknown*
+   316f0:	20 00 00 00 	nop
 
 000316f4 <T_SRC1_382>:
-   316f4:	00 00 04 00 	*unknown*
+   316f4:	40 00 00 00 	*unknown*
 
 000316f8 <T_SRC1_383>:
-   316f8:	00 00 04 00 	*unknown*
+   316f8:	80 00 00 00 	*unknown*
 
 000316fc <T_SRC1_384>:
-   316fc:	00 00 08 00 	*unknown*
+   316fc:	00 00 00 01 	add	r0,r1
 
 00031700 <T_SRC1_385>:
-   31700:	00 00 08 00 	*unknown*
+   31700:	00 00 00 02 	add	r0,r2
 
 00031704 <T_SRC1_386>:
-   31704:	00 00 08 00 	*unknown*
+   31704:	00 00 00 04 	add	r0,r4
 
 00031708 <T_SRC1_387>:
-   31708:	00 00 08 00 	*unknown*
+   31708:	00 00 00 08 	add	r0,r8
 
 0003170c <T_SRC1_388>:
-   3170c:	00 00 08 00 	*unknown*
+   3170c:	00 00 00 10 	add	r0,r16
 
 00031710 <T_SRC1_389>:
-   31710:	00 00 08 00 	*unknown*
+   31710:	00 00 00 20 	add	r1,r0
 
 00031714 <T_SRC1_390>:
-   31714:	00 00 08 00 	*unknown*
+   31714:	00 00 00 40 	add	r2,r0
 
 00031718 <T_SRC1_391>:
-   31718:	00 00 08 00 	*unknown*
+   31718:	00 00 00 80 	add	r4,r0
 
 0003171c <T_SRC1_392>:
-   3171c:	00 00 08 00 	*unknown*
+   3171c:	00 00 01 00 	add	r8,r0
 
 00031720 <T_SRC1_393>:
-   31720:	00 00 08 00 	*unknown*
+   31720:	00 00 02 00 	add	r16,r0
 
 00031724 <T_SRC1_394>:
-   31724:	00 00 08 00 	*unknown*
+   31724:	00 00 04 00 	*unknown*
 
 00031728 <T_SRC1_395>:
    31728:	00 00 08 00 	*unknown*
 
 0003172c <T_SRC1_396>:
-   3172c:	00 00 08 00 	*unknown*
+   3172c:	00 00 10 00 	*unknown*
 
 00031730 <T_SRC1_397>:
-   31730:	00 00 08 00 	*unknown*
+   31730:	00 00 20 00 	*unknown*
 
 00031734 <T_SRC1_398>:
-   31734:	00 00 08 00 	*unknown*
+   31734:	00 00 40 00 	*unknown*
 
 00031738 <T_SRC1_399>:
-   31738:	00 00 08 00 	*unknown*
+   31738:	00 00 80 00 	*unknown*
 
 0003173c <T_SRC1_400>:
-   3173c:	00 00 08 00 	*unknown*
+   3173c:	00 01 00 00 	*unknown*
 
 00031740 <T_SRC1_401>:
-   31740:	00 00 08 00 	*unknown*
+   31740:	00 02 00 00 	*unknown*
 
 00031744 <T_SRC1_402>:
-   31744:	00 00 08 00 	*unknown*
+   31744:	00 04 00 00 	*unknown*
 
 00031748 <T_SRC1_403>:
-   31748:	00 00 08 00 	*unknown*
+   31748:	00 08 00 00 	*unknown*
 
 0003174c <T_SRC1_404>:
-   3174c:	00 00 08 00 	*unknown*
+   3174c:	00 10 00 00 	add	r0,0
 
 00031750 <T_SRC1_405>:
-   31750:	00 00 08 00 	*unknown*
+   31750:	00 20 00 00 	sub	r0,r0
 
 00031754 <T_SRC1_406>:
-   31754:	00 00 08 00 	*unknown*
+   31754:	00 40 00 00 	mull	r0,r0
 
 00031758 <T_SRC1_407>:
-   31758:	00 00 08 00 	*unknown*
+   31758:	00 80 00 00 	udiv	r0,r0
 
 0003175c <T_SRC1_408>:
-   3175c:	00 00 08 00 	*unknown*
+   3175c:	01 00 00 00 	mod	r0,r0
 
 00031760 <T_SRC1_409>:
-   31760:	00 00 08 00 	*unknown*
+   31760:	02 00 00 00 	inc	r0,r0
 
 00031764 <T_SRC1_410>:
-   31764:	00 00 08 00 	*unknown*
+   31764:	04 00 00 00 	*unknown*
 
 00031768 <T_SRC1_411>:
-   31768:	00 00 08 00 	*unknown*
+   31768:	08 00 00 00 	shl	r0,r0
 
 0003176c <T_SRC1_412>:
-   3176c:	00 00 08 00 	*unknown*
+   3176c:	10 00 00 00 	ld8	r0,r0
 
 00031770 <T_SRC1_413>:
-   31770:	00 00 08 00 	*unknown*
+   31770:	20 00 00 00 	nop
 
 00031774 <T_SRC1_414>:
-   31774:	00 00 08 00 	*unknown*
+   31774:	40 00 00 00 	*unknown*
 
 00031778 <T_SRC1_415>:
-   31778:	00 00 08 00 	*unknown*
+   31778:	80 00 00 00 	*unknown*
 
 0003177c <T_SRC1_416>:
-   3177c:	00 00 10 00 	*unknown*
+   3177c:	00 00 00 01 	add	r0,r1
 
 00031780 <T_SRC1_417>:
-   31780:	00 00 10 00 	*unknown*
+   31780:	00 00 00 02 	add	r0,r2
 
 00031784 <T_SRC1_418>:
-   31784:	00 00 10 00 	*unknown*
+   31784:	00 00 00 04 	add	r0,r4
 
 00031788 <T_SRC1_419>:
-   31788:	00 00 10 00 	*unknown*
+   31788:	00 00 00 08 	add	r0,r8
 
 0003178c <T_SRC1_420>:
-   3178c:	00 00 10 00 	*unknown*
+   3178c:	00 00 00 10 	add	r0,r16
 
 00031790 <T_SRC1_421>:
-   31790:	00 00 10 00 	*unknown*
+   31790:	00 00 00 20 	add	r1,r0
 
 00031794 <T_SRC1_422>:
-   31794:	00 00 10 00 	*unknown*
+   31794:	00 00 00 40 	add	r2,r0
 
 00031798 <T_SRC1_423>:
-   31798:	00 00 10 00 	*unknown*
+   31798:	00 00 00 80 	add	r4,r0
 
 0003179c <T_SRC1_424>:
-   3179c:	00 00 10 00 	*unknown*
+   3179c:	00 00 01 00 	add	r8,r0
 
 000317a0 <T_SRC1_425>:
-   317a0:	00 00 10 00 	*unknown*
+   317a0:	00 00 02 00 	add	r16,r0
 
 000317a4 <T_SRC1_426>:
-   317a4:	00 00 10 00 	*unknown*
+   317a4:	00 00 04 00 	*unknown*
 
 000317a8 <T_SRC1_427>:
-   317a8:	00 00 10 00 	*unknown*
+   317a8:	00 00 08 00 	*unknown*
 
 000317ac <T_SRC1_428>:
    317ac:	00 00 10 00 	*unknown*
 
 000317b0 <T_SRC1_429>:
-   317b0:	00 00 10 00 	*unknown*
+   317b0:	00 00 20 00 	*unknown*
 
 000317b4 <T_SRC1_430>:
-   317b4:	00 00 10 00 	*unknown*
+   317b4:	00 00 40 00 	*unknown*
 
 000317b8 <T_SRC1_431>:
-   317b8:	00 00 10 00 	*unknown*
+   317b8:	00 00 80 00 	*unknown*
 
 000317bc <T_SRC1_432>:
-   317bc:	00 00 10 00 	*unknown*
+   317bc:	00 01 00 00 	*unknown*
 
 000317c0 <T_SRC1_433>:
-   317c0:	00 00 10 00 	*unknown*
+   317c0:	00 02 00 00 	*unknown*
 
 000317c4 <T_SRC1_434>:
-   317c4:	00 00 10 00 	*unknown*
+   317c4:	00 04 00 00 	*unknown*
 
 000317c8 <T_SRC1_435>:
-   317c8:	00 00 10 00 	*unknown*
+   317c8:	00 08 00 00 	*unknown*
 
 000317cc <T_SRC1_436>:
-   317cc:	00 00 10 00 	*unknown*
+   317cc:	00 10 00 00 	add	r0,0
 
 000317d0 <T_SRC1_437>:
-   317d0:	00 00 10 00 	*unknown*
+   317d0:	00 20 00 00 	sub	r0,r0
 
 000317d4 <T_SRC1_438>:
-   317d4:	00 00 10 00 	*unknown*
+   317d4:	00 40 00 00 	mull	r0,r0
 
 000317d8 <T_SRC1_439>:
-   317d8:	00 00 10 00 	*unknown*
+   317d8:	00 80 00 00 	udiv	r0,r0
 
 000317dc <T_SRC1_440>:
-   317dc:	00 00 10 00 	*unknown*
+   317dc:	01 00 00 00 	mod	r0,r0
 
 000317e0 <T_SRC1_441>:
-   317e0:	00 00 10 00 	*unknown*
+   317e0:	02 00 00 00 	inc	r0,r0
 
 000317e4 <T_SRC1_442>:
-   317e4:	00 00 10 00 	*unknown*
+   317e4:	04 00 00 00 	*unknown*
 
 000317e8 <T_SRC1_443>:
-   317e8:	00 00 10 00 	*unknown*
+   317e8:	08 00 00 00 	shl	r0,r0
 
 000317ec <T_SRC1_444>:
-   317ec:	00 00 10 00 	*unknown*
+   317ec:	10 00 00 00 	ld8	r0,r0
 
 000317f0 <T_SRC1_445>:
-   317f0:	00 00 10 00 	*unknown*
+   317f0:	20 00 00 00 	nop
 
 000317f4 <T_SRC1_446>:
-   317f4:	00 00 10 00 	*unknown*
+   317f4:	40 00 00 00 	*unknown*
 
 000317f8 <T_SRC1_447>:
-   317f8:	00 00 10 00 	*unknown*
+   317f8:	80 00 00 00 	*unknown*
 
 000317fc <T_SRC1_448>:
-   317fc:	00 00 20 00 	*unknown*
+   317fc:	00 00 00 01 	add	r0,r1
 
 00031800 <T_SRC1_449>:
-   31800:	00 00 20 00 	*unknown*
+   31800:	00 00 00 02 	add	r0,r2
 
 00031804 <T_SRC1_450>:
-   31804:	00 00 20 00 	*unknown*
+   31804:	00 00 00 04 	add	r0,r4
 
 00031808 <T_SRC1_451>:
-   31808:	00 00 20 00 	*unknown*
+   31808:	00 00 00 08 	add	r0,r8
 
 0003180c <T_SRC1_452>:
-   3180c:	00 00 20 00 	*unknown*
+   3180c:	00 00 00 10 	add	r0,r16
 
 00031810 <T_SRC1_453>:
-   31810:	00 00 20 00 	*unknown*
+   31810:	00 00 00 20 	add	r1,r0
 
 00031814 <T_SRC1_454>:
-   31814:	00 00 20 00 	*unknown*
+   31814:	00 00 00 40 	add	r2,r0
 
 00031818 <T_SRC1_455>:
-   31818:	00 00 20 00 	*unknown*
+   31818:	00 00 00 80 	add	r4,r0
 
 0003181c <T_SRC1_456>:
-   3181c:	00 00 20 00 	*unknown*
+   3181c:	00 00 01 00 	add	r8,r0
 
 00031820 <T_SRC1_457>:
-   31820:	00 00 20 00 	*unknown*
+   31820:	00 00 02 00 	add	r16,r0
 
 00031824 <T_SRC1_458>:
-   31824:	00 00 20 00 	*unknown*
+   31824:	00 00 04 00 	*unknown*
 
 00031828 <T_SRC1_459>:
-   31828:	00 00 20 00 	*unknown*
+   31828:	00 00 08 00 	*unknown*
 
 0003182c <T_SRC1_460>:
-   3182c:	00 00 20 00 	*unknown*
+   3182c:	00 00 10 00 	*unknown*
 
 00031830 <T_SRC1_461>:
    31830:	00 00 20 00 	*unknown*
 
 00031834 <T_SRC1_462>:
-   31834:	00 00 20 00 	*unknown*
+   31834:	00 00 40 00 	*unknown*
 
 00031838 <T_SRC1_463>:
-   31838:	00 00 20 00 	*unknown*
+   31838:	00 00 80 00 	*unknown*
 
 0003183c <T_SRC1_464>:
-   3183c:	00 00 20 00 	*unknown*
+   3183c:	00 01 00 00 	*unknown*
 
 00031840 <T_SRC1_465>:
-   31840:	00 00 20 00 	*unknown*
+   31840:	00 02 00 00 	*unknown*
 
 00031844 <T_SRC1_466>:
-   31844:	00 00 20 00 	*unknown*
+   31844:	00 04 00 00 	*unknown*
 
 00031848 <T_SRC1_467>:
-   31848:	00 00 20 00 	*unknown*
+   31848:	00 08 00 00 	*unknown*
 
 0003184c <T_SRC1_468>:
-   3184c:	00 00 20 00 	*unknown*
+   3184c:	00 10 00 00 	add	r0,0
 
 00031850 <T_SRC1_469>:
-   31850:	00 00 20 00 	*unknown*
+   31850:	00 20 00 00 	sub	r0,r0
 
 00031854 <T_SRC1_470>:
-   31854:	00 00 20 00 	*unknown*
+   31854:	00 40 00 00 	mull	r0,r0
 
 00031858 <T_SRC1_471>:
-   31858:	00 00 20 00 	*unknown*
+   31858:	00 80 00 00 	udiv	r0,r0
 
 0003185c <T_SRC1_472>:
-   3185c:	00 00 20 00 	*unknown*
+   3185c:	01 00 00 00 	mod	r0,r0
 
 00031860 <T_SRC1_473>:
-   31860:	00 00 20 00 	*unknown*
+   31860:	02 00 00 00 	inc	r0,r0
 
 00031864 <T_SRC1_474>:
-   31864:	00 00 20 00 	*unknown*
+   31864:	04 00 00 00 	*unknown*
 
 00031868 <T_SRC1_475>:
-   31868:	00 00 20 00 	*unknown*
+   31868:	08 00 00 00 	shl	r0,r0
 
 0003186c <T_SRC1_476>:
-   3186c:	00 00 20 00 	*unknown*
+   3186c:	10 00 00 00 	ld8	r0,r0
 
 00031870 <T_SRC1_477>:
-   31870:	00 00 20 00 	*unknown*
+   31870:	20 00 00 00 	nop
 
 00031874 <T_SRC1_478>:
-   31874:	00 00 20 00 	*unknown*
+   31874:	40 00 00 00 	*unknown*
 
 00031878 <T_SRC1_479>:
-   31878:	00 00 20 00 	*unknown*
+   31878:	80 00 00 00 	*unknown*
 
 0003187c <T_SRC1_480>:
-   3187c:	00 00 40 00 	*unknown*
+   3187c:	00 00 00 01 	add	r0,r1
 
 00031880 <T_SRC1_481>:
-   31880:	00 00 40 00 	*unknown*
+   31880:	00 00 00 02 	add	r0,r2
 
 00031884 <T_SRC1_482>:
-   31884:	00 00 40 00 	*unknown*
+   31884:	00 00 00 04 	add	r0,r4
 
 00031888 <T_SRC1_483>:
-   31888:	00 00 40 00 	*unknown*
+   31888:	00 00 00 08 	add	r0,r8
 
 0003188c <T_SRC1_484>:
-   3188c:	00 00 40 00 	*unknown*
+   3188c:	00 00 00 10 	add	r0,r16
 
 00031890 <T_SRC1_485>:
-   31890:	00 00 40 00 	*unknown*
+   31890:	00 00 00 20 	add	r1,r0
 
 00031894 <T_SRC1_486>:
-   31894:	00 00 40 00 	*unknown*
+   31894:	00 00 00 40 	add	r2,r0
 
 00031898 <T_SRC1_487>:
-   31898:	00 00 40 00 	*unknown*
+   31898:	00 00 00 80 	add	r4,r0
 
 0003189c <T_SRC1_488>:
-   3189c:	00 00 40 00 	*unknown*
+   3189c:	00 00 01 00 	add	r8,r0
 
 000318a0 <T_SRC1_489>:
-   318a0:	00 00 40 00 	*unknown*
+   318a0:	00 00 02 00 	add	r16,r0
 
 000318a4 <T_SRC1_490>:
-   318a4:	00 00 40 00 	*unknown*
+   318a4:	00 00 04 00 	*unknown*
 
 000318a8 <T_SRC1_491>:
-   318a8:	00 00 40 00 	*unknown*
+   318a8:	00 00 08 00 	*unknown*
 
 000318ac <T_SRC1_492>:
-   318ac:	00 00 40 00 	*unknown*
+   318ac:	00 00 10 00 	*unknown*
 
 000318b0 <T_SRC1_493>:
-   318b0:	00 00 40 00 	*unknown*
+   318b0:	00 00 20 00 	*unknown*
 
 000318b4 <T_SRC1_494>:
    318b4:	00 00 40 00 	*unknown*
 
 000318b8 <T_SRC1_495>:
-   318b8:	00 00 40 00 	*unknown*
+   318b8:	00 00 80 00 	*unknown*
 
 000318bc <T_SRC1_496>:
-   318bc:	00 00 40 00 	*unknown*
+   318bc:	00 01 00 00 	*unknown*
 
 000318c0 <T_SRC1_497>:
-   318c0:	00 00 40 00 	*unknown*
+   318c0:	00 02 00 00 	*unknown*
 
 000318c4 <T_SRC1_498>:
-   318c4:	00 00 40 00 	*unknown*
+   318c4:	00 04 00 00 	*unknown*
 
 000318c8 <T_SRC1_499>:
-   318c8:	00 00 40 00 	*unknown*
+   318c8:	00 08 00 00 	*unknown*
 
 000318cc <T_SRC1_500>:
-   318cc:	00 00 40 00 	*unknown*
+   318cc:	00 10 00 00 	add	r0,0
 
 000318d0 <T_SRC1_501>:
-   318d0:	00 00 40 00 	*unknown*
+   318d0:	00 20 00 00 	sub	r0,r0
 
 000318d4 <T_SRC1_502>:
-   318d4:	00 00 40 00 	*unknown*
+   318d4:	00 40 00 00 	mull	r0,r0
 
 000318d8 <T_SRC1_503>:
-   318d8:	00 00 40 00 	*unknown*
+   318d8:	00 80 00 00 	udiv	r0,r0
 
 000318dc <T_SRC1_504>:
-   318dc:	00 00 40 00 	*unknown*
+   318dc:	01 00 00 00 	mod	r0,r0
 
 000318e0 <T_SRC1_505>:
-   318e0:	00 00 40 00 	*unknown*
+   318e0:	02 00 00 00 	inc	r0,r0
 
 000318e4 <T_SRC1_506>:
-   318e4:	00 00 40 00 	*unknown*
+   318e4:	04 00 00 00 	*unknown*
 
 000318e8 <T_SRC1_507>:
-   318e8:	00 00 40 00 	*unknown*
+   318e8:	08 00 00 00 	shl	r0,r0
 
 000318ec <T_SRC1_508>:
-   318ec:	00 00 40 00 	*unknown*
+   318ec:	10 00 00 00 	ld8	r0,r0
 
 000318f0 <T_SRC1_509>:
-   318f0:	00 00 40 00 	*unknown*
+   318f0:	20 00 00 00 	nop
 
 000318f4 <T_SRC1_510>:
-   318f4:	00 00 40 00 	*unknown*
+   318f4:	40 00 00 00 	*unknown*
 
 000318f8 <T_SRC1_511>:
-   318f8:	00 00 40 00 	*unknown*
+   318f8:	80 00 00 00 	*unknown*
 
 000318fc <T_SRC1_512>:
-   318fc:	00 00 80 00 	*unknown*
+   318fc:	00 00 00 01 	add	r0,r1
 
 00031900 <T_SRC1_513>:
-   31900:	00 00 80 00 	*unknown*
+   31900:	00 00 00 02 	add	r0,r2
 
 00031904 <T_SRC1_514>:
-   31904:	00 00 80 00 	*unknown*
+   31904:	00 00 00 04 	add	r0,r4
 
 00031908 <T_SRC1_515>:
-   31908:	00 00 80 00 	*unknown*
+   31908:	00 00 00 08 	add	r0,r8
 
 0003190c <T_SRC1_516>:
-   3190c:	00 00 80 00 	*unknown*
+   3190c:	00 00 00 10 	add	r0,r16
 
 00031910 <T_SRC1_517>:
-   31910:	00 00 80 00 	*unknown*
+   31910:	00 00 00 20 	add	r1,r0
 
 00031914 <T_SRC1_518>:
-   31914:	00 00 80 00 	*unknown*
+   31914:	00 00 00 40 	add	r2,r0
 
 00031918 <T_SRC1_519>:
-   31918:	00 00 80 00 	*unknown*
+   31918:	00 00 00 80 	add	r4,r0
 
 0003191c <T_SRC1_520>:
-   3191c:	00 00 80 00 	*unknown*
+   3191c:	00 00 01 00 	add	r8,r0
 
 00031920 <T_SRC1_521>:
-   31920:	00 00 80 00 	*unknown*
+   31920:	00 00 02 00 	add	r16,r0
 
 00031924 <T_SRC1_522>:
-   31924:	00 00 80 00 	*unknown*
+   31924:	00 00 04 00 	*unknown*
 
 00031928 <T_SRC1_523>:
-   31928:	00 00 80 00 	*unknown*
+   31928:	00 00 08 00 	*unknown*
 
 0003192c <T_SRC1_524>:
-   3192c:	00 00 80 00 	*unknown*
+   3192c:	00 00 10 00 	*unknown*
 
 00031930 <T_SRC1_525>:
-   31930:	00 00 80 00 	*unknown*
+   31930:	00 00 20 00 	*unknown*
 
 00031934 <T_SRC1_526>:
-   31934:	00 00 80 00 	*unknown*
+   31934:	00 00 40 00 	*unknown*
 
 00031938 <T_SRC1_527>:
    31938:	00 00 80 00 	*unknown*
 
 0003193c <T_SRC1_528>:
-   3193c:	00 00 80 00 	*unknown*
+   3193c:	00 01 00 00 	*unknown*
 
 00031940 <T_SRC1_529>:
-   31940:	00 00 80 00 	*unknown*
+   31940:	00 02 00 00 	*unknown*
 
 00031944 <T_SRC1_530>:
-   31944:	00 00 80 00 	*unknown*
+   31944:	00 04 00 00 	*unknown*
 
 00031948 <T_SRC1_531>:
-   31948:	00 00 80 00 	*unknown*
+   31948:	00 08 00 00 	*unknown*
 
 0003194c <T_SRC1_532>:
-   3194c:	00 00 80 00 	*unknown*
+   3194c:	00 10 00 00 	add	r0,0
 
 00031950 <T_SRC1_533>:
-   31950:	00 00 80 00 	*unknown*
+   31950:	00 20 00 00 	sub	r0,r0
 
 00031954 <T_SRC1_534>:
-   31954:	00 00 80 00 	*unknown*
+   31954:	00 40 00 00 	mull	r0,r0
 
 00031958 <T_SRC1_535>:
-   31958:	00 00 80 00 	*unknown*
+   31958:	00 80 00 00 	udiv	r0,r0
 
 0003195c <T_SRC1_536>:
-   3195c:	00 00 80 00 	*unknown*
+   3195c:	01 00 00 00 	mod	r0,r0
 
 00031960 <T_SRC1_537>:
-   31960:	00 00 80 00 	*unknown*
+   31960:	02 00 00 00 	inc	r0,r0
 
 00031964 <T_SRC1_538>:
-   31964:	00 00 80 00 	*unknown*
+   31964:	04 00 00 00 	*unknown*
 
 00031968 <T_SRC1_539>:
-   31968:	00 00 80 00 	*unknown*
+   31968:	08 00 00 00 	shl	r0,r0
 
 0003196c <T_SRC1_540>:
-   3196c:	00 00 80 00 	*unknown*
+   3196c:	10 00 00 00 	ld8	r0,r0
 
 00031970 <T_SRC1_541>:
-   31970:	00 00 80 00 	*unknown*
+   31970:	20 00 00 00 	nop
 
 00031974 <T_SRC1_542>:
-   31974:	00 00 80 00 	*unknown*
+   31974:	40 00 00 00 	*unknown*
 
 00031978 <T_SRC1_543>:
-   31978:	00 00 80 00 	*unknown*
+   31978:	80 00 00 00 	*unknown*
 
 0003197c <T_SRC1_544>:
-   3197c:	00 01 00 00 	*unknown*
+   3197c:	00 00 00 01 	add	r0,r1
 
 00031980 <T_SRC1_545>:
-   31980:	00 01 00 00 	*unknown*
+   31980:	00 00 00 02 	add	r0,r2
 
 00031984 <T_SRC1_546>:
-   31984:	00 01 00 00 	*unknown*
+   31984:	00 00 00 04 	add	r0,r4
 
 00031988 <T_SRC1_547>:
-   31988:	00 01 00 00 	*unknown*
+   31988:	00 00 00 08 	add	r0,r8
 
 0003198c <T_SRC1_548>:
-   3198c:	00 01 00 00 	*unknown*
+   3198c:	00 00 00 10 	add	r0,r16
 
 00031990 <T_SRC1_549>:
-   31990:	00 01 00 00 	*unknown*
+   31990:	00 00 00 20 	add	r1,r0
 
 00031994 <T_SRC1_550>:
-   31994:	00 01 00 00 	*unknown*
+   31994:	00 00 00 40 	add	r2,r0
 
 00031998 <T_SRC1_551>:
-   31998:	00 01 00 00 	*unknown*
+   31998:	00 00 00 80 	add	r4,r0
 
 0003199c <T_SRC1_552>:
-   3199c:	00 01 00 00 	*unknown*
+   3199c:	00 00 01 00 	add	r8,r0
 
 000319a0 <T_SRC1_553>:
-   319a0:	00 01 00 00 	*unknown*
+   319a0:	00 00 02 00 	add	r16,r0
 
 000319a4 <T_SRC1_554>:
-   319a4:	00 01 00 00 	*unknown*
+   319a4:	00 00 04 00 	*unknown*
 
 000319a8 <T_SRC1_555>:
-   319a8:	00 01 00 00 	*unknown*
+   319a8:	00 00 08 00 	*unknown*
 
 000319ac <T_SRC1_556>:
-   319ac:	00 01 00 00 	*unknown*
+   319ac:	00 00 10 00 	*unknown*
 
 000319b0 <T_SRC1_557>:
-   319b0:	00 01 00 00 	*unknown*
+   319b0:	00 00 20 00 	*unknown*
 
 000319b4 <T_SRC1_558>:
-   319b4:	00 01 00 00 	*unknown*
+   319b4:	00 00 40 00 	*unknown*
 
 000319b8 <T_SRC1_559>:
-   319b8:	00 01 00 00 	*unknown*
+   319b8:	00 00 80 00 	*unknown*
 
 000319bc <T_SRC1_560>:
    319bc:	00 01 00 00 	*unknown*
 
 000319c0 <T_SRC1_561>:
-   319c0:	00 01 00 00 	*unknown*
+   319c0:	00 02 00 00 	*unknown*
 
 000319c4 <T_SRC1_562>:
-   319c4:	00 01 00 00 	*unknown*
+   319c4:	00 04 00 00 	*unknown*
 
 000319c8 <T_SRC1_563>:
-   319c8:	00 01 00 00 	*unknown*
+   319c8:	00 08 00 00 	*unknown*
 
 000319cc <T_SRC1_564>:
-   319cc:	00 01 00 00 	*unknown*
+   319cc:	00 10 00 00 	add	r0,0
 
 000319d0 <T_SRC1_565>:
-   319d0:	00 01 00 00 	*unknown*
+   319d0:	00 20 00 00 	sub	r0,r0
 
 000319d4 <T_SRC1_566>:
-   319d4:	00 01 00 00 	*unknown*
+   319d4:	00 40 00 00 	mull	r0,r0
 
 000319d8 <T_SRC1_567>:
-   319d8:	00 01 00 00 	*unknown*
+   319d8:	00 80 00 00 	udiv	r0,r0
 
 000319dc <T_SRC1_568>:
-   319dc:	00 01 00 00 	*unknown*
+   319dc:	01 00 00 00 	mod	r0,r0
 
 000319e0 <T_SRC1_569>:
-   319e0:	00 01 00 00 	*unknown*
+   319e0:	02 00 00 00 	inc	r0,r0
 
 000319e4 <T_SRC1_570>:
-   319e4:	00 01 00 00 	*unknown*
+   319e4:	04 00 00 00 	*unknown*
 
 000319e8 <T_SRC1_571>:
-   319e8:	00 01 00 00 	*unknown*
+   319e8:	08 00 00 00 	shl	r0,r0
 
 000319ec <T_SRC1_572>:
-   319ec:	00 01 00 00 	*unknown*
+   319ec:	10 00 00 00 	ld8	r0,r0
 
 000319f0 <T_SRC1_573>:
-   319f0:	00 01 00 00 	*unknown*
+   319f0:	20 00 00 00 	nop
 
 000319f4 <T_SRC1_574>:
-   319f4:	00 01 00 00 	*unknown*
+   319f4:	40 00 00 00 	*unknown*
 
 000319f8 <T_SRC1_575>:
-   319f8:	00 01 00 00 	*unknown*
+   319f8:	80 00 00 00 	*unknown*
 
 000319fc <T_SRC1_576>:
-   319fc:	00 02 00 00 	*unknown*
+   319fc:	00 00 00 01 	add	r0,r1
 
 00031a00 <T_SRC1_577>:
-   31a00:	00 02 00 00 	*unknown*
+   31a00:	00 00 00 02 	add	r0,r2
 
 00031a04 <T_SRC1_578>:
-   31a04:	00 02 00 00 	*unknown*
+   31a04:	00 00 00 04 	add	r0,r4
 
 00031a08 <T_SRC1_579>:
-   31a08:	00 02 00 00 	*unknown*
+   31a08:	00 00 00 08 	add	r0,r8
 
 00031a0c <T_SRC1_580>:
-   31a0c:	00 02 00 00 	*unknown*
+   31a0c:	00 00 00 10 	add	r0,r16
 
 00031a10 <T_SRC1_581>:
-   31a10:	00 02 00 00 	*unknown*
+   31a10:	00 00 00 20 	add	r1,r0
 
 00031a14 <T_SRC1_582>:
-   31a14:	00 02 00 00 	*unknown*
+   31a14:	00 00 00 40 	add	r2,r0
 
 00031a18 <T_SRC1_583>:
-   31a18:	00 02 00 00 	*unknown*
+   31a18:	00 00 00 80 	add	r4,r0
 
 00031a1c <T_SRC1_584>:
-   31a1c:	00 02 00 00 	*unknown*
+   31a1c:	00 00 01 00 	add	r8,r0
 
 00031a20 <T_SRC1_585>:
-   31a20:	00 02 00 00 	*unknown*
+   31a20:	00 00 02 00 	add	r16,r0
 
 00031a24 <T_SRC1_586>:
-   31a24:	00 02 00 00 	*unknown*
+   31a24:	00 00 04 00 	*unknown*
 
 00031a28 <T_SRC1_587>:
-   31a28:	00 02 00 00 	*unknown*
+   31a28:	00 00 08 00 	*unknown*
 
 00031a2c <T_SRC1_588>:
-   31a2c:	00 02 00 00 	*unknown*
+   31a2c:	00 00 10 00 	*unknown*
 
 00031a30 <T_SRC1_589>:
-   31a30:	00 02 00 00 	*unknown*
+   31a30:	00 00 20 00 	*unknown*
 
 00031a34 <T_SRC1_590>:
-   31a34:	00 02 00 00 	*unknown*
+   31a34:	00 00 40 00 	*unknown*
 
 00031a38 <T_SRC1_591>:
-   31a38:	00 02 00 00 	*unknown*
+   31a38:	00 00 80 00 	*unknown*
 
 00031a3c <T_SRC1_592>:
-   31a3c:	00 02 00 00 	*unknown*
+   31a3c:	00 01 00 00 	*unknown*
 
 00031a40 <T_SRC1_593>:
    31a40:	00 02 00 00 	*unknown*
 
 00031a44 <T_SRC1_594>:
-   31a44:	00 02 00 00 	*unknown*
+   31a44:	00 04 00 00 	*unknown*
 
 00031a48 <T_SRC1_595>:
-   31a48:	00 02 00 00 	*unknown*
+   31a48:	00 08 00 00 	*unknown*
 
 00031a4c <T_SRC1_596>:
-   31a4c:	00 02 00 00 	*unknown*
+   31a4c:	00 10 00 00 	add	r0,0
 
 00031a50 <T_SRC1_597>:
-   31a50:	00 02 00 00 	*unknown*
+   31a50:	00 20 00 00 	sub	r0,r0
 
 00031a54 <T_SRC1_598>:
-   31a54:	00 02 00 00 	*unknown*
+   31a54:	00 40 00 00 	mull	r0,r0
 
 00031a58 <T_SRC1_599>:
-   31a58:	00 02 00 00 	*unknown*
+   31a58:	00 80 00 00 	udiv	r0,r0
 
 00031a5c <T_SRC1_600>:
-   31a5c:	00 02 00 00 	*unknown*
+   31a5c:	01 00 00 00 	mod	r0,r0
 
 00031a60 <T_SRC1_601>:
-   31a60:	00 02 00 00 	*unknown*
+   31a60:	02 00 00 00 	inc	r0,r0
 
 00031a64 <T_SRC1_602>:
-   31a64:	00 02 00 00 	*unknown*
+   31a64:	04 00 00 00 	*unknown*
 
 00031a68 <T_SRC1_603>:
-   31a68:	00 02 00 00 	*unknown*
+   31a68:	08 00 00 00 	shl	r0,r0
 
 00031a6c <T_SRC1_604>:
-   31a6c:	00 02 00 00 	*unknown*
+   31a6c:	10 00 00 00 	ld8	r0,r0
 
 00031a70 <T_SRC1_605>:
-   31a70:	00 02 00 00 	*unknown*
+   31a70:	20 00 00 00 	nop
 
 00031a74 <T_SRC1_606>:
-   31a74:	00 02 00 00 	*unknown*
+   31a74:	40 00 00 00 	*unknown*
 
 00031a78 <T_SRC1_607>:
-   31a78:	00 02 00 00 	*unknown*
+   31a78:	80 00 00 00 	*unknown*
 
 00031a7c <T_SRC1_608>:
-   31a7c:	00 04 00 00 	*unknown*
+   31a7c:	00 00 00 01 	add	r0,r1
 
 00031a80 <T_SRC1_609>:
-   31a80:	00 04 00 00 	*unknown*
+   31a80:	00 00 00 02 	add	r0,r2
 
 00031a84 <T_SRC1_610>:
-   31a84:	00 04 00 00 	*unknown*
+   31a84:	00 00 00 04 	add	r0,r4
 
 00031a88 <T_SRC1_611>:
-   31a88:	00 04 00 00 	*unknown*
+   31a88:	00 00 00 08 	add	r0,r8
 
 00031a8c <T_SRC1_612>:
-   31a8c:	00 04 00 00 	*unknown*
+   31a8c:	00 00 00 10 	add	r0,r16
 
 00031a90 <T_SRC1_613>:
-   31a90:	00 04 00 00 	*unknown*
+   31a90:	00 00 00 20 	add	r1,r0
 
 00031a94 <T_SRC1_614>:
-   31a94:	00 04 00 00 	*unknown*
+   31a94:	00 00 00 40 	add	r2,r0
 
 00031a98 <T_SRC1_615>:
-   31a98:	00 04 00 00 	*unknown*
+   31a98:	00 00 00 80 	add	r4,r0
 
 00031a9c <T_SRC1_616>:
-   31a9c:	00 04 00 00 	*unknown*
+   31a9c:	00 00 01 00 	add	r8,r0
 
 00031aa0 <T_SRC1_617>:
-   31aa0:	00 04 00 00 	*unknown*
+   31aa0:	00 00 02 00 	add	r16,r0
 
 00031aa4 <T_SRC1_618>:
-   31aa4:	00 04 00 00 	*unknown*
+   31aa4:	00 00 04 00 	*unknown*
 
 00031aa8 <T_SRC1_619>:
-   31aa8:	00 04 00 00 	*unknown*
+   31aa8:	00 00 08 00 	*unknown*
 
 00031aac <T_SRC1_620>:
-   31aac:	00 04 00 00 	*unknown*
+   31aac:	00 00 10 00 	*unknown*
 
 00031ab0 <T_SRC1_621>:
-   31ab0:	00 04 00 00 	*unknown*
+   31ab0:	00 00 20 00 	*unknown*
 
 00031ab4 <T_SRC1_622>:
-   31ab4:	00 04 00 00 	*unknown*
+   31ab4:	00 00 40 00 	*unknown*
 
 00031ab8 <T_SRC1_623>:
-   31ab8:	00 04 00 00 	*unknown*
+   31ab8:	00 00 80 00 	*unknown*
 
 00031abc <T_SRC1_624>:
-   31abc:	00 04 00 00 	*unknown*
+   31abc:	00 01 00 00 	*unknown*
 
 00031ac0 <T_SRC1_625>:
-   31ac0:	00 04 00 00 	*unknown*
+   31ac0:	00 02 00 00 	*unknown*
 
 00031ac4 <T_SRC1_626>:
    31ac4:	00 04 00 00 	*unknown*
 
 00031ac8 <T_SRC1_627>:
-   31ac8:	00 04 00 00 	*unknown*
+   31ac8:	00 08 00 00 	*unknown*
 
 00031acc <T_SRC1_628>:
-   31acc:	00 04 00 00 	*unknown*
+   31acc:	00 10 00 00 	add	r0,0
 
 00031ad0 <T_SRC1_629>:
-   31ad0:	00 04 00 00 	*unknown*
+   31ad0:	00 20 00 00 	sub	r0,r0
 
 00031ad4 <T_SRC1_630>:
-   31ad4:	00 04 00 00 	*unknown*
+   31ad4:	00 40 00 00 	mull	r0,r0
 
 00031ad8 <T_SRC1_631>:
-   31ad8:	00 04 00 00 	*unknown*
+   31ad8:	00 80 00 00 	udiv	r0,r0
 
 00031adc <T_SRC1_632>:
-   31adc:	00 04 00 00 	*unknown*
+   31adc:	01 00 00 00 	mod	r0,r0
 
 00031ae0 <T_SRC1_633>:
-   31ae0:	00 04 00 00 	*unknown*
+   31ae0:	02 00 00 00 	inc	r0,r0
 
 00031ae4 <T_SRC1_634>:
-   31ae4:	00 04 00 00 	*unknown*
+   31ae4:	04 00 00 00 	*unknown*
 
 00031ae8 <T_SRC1_635>:
-   31ae8:	00 04 00 00 	*unknown*
+   31ae8:	08 00 00 00 	shl	r0,r0
 
 00031aec <T_SRC1_636>:
-   31aec:	00 04 00 00 	*unknown*
+   31aec:	10 00 00 00 	ld8	r0,r0
 
 00031af0 <T_SRC1_637>:
-   31af0:	00 04 00 00 	*unknown*
+   31af0:	20 00 00 00 	nop
 
 00031af4 <T_SRC1_638>:
-   31af4:	00 04 00 00 	*unknown*
+   31af4:	40 00 00 00 	*unknown*
 
 00031af8 <T_SRC1_639>:
-   31af8:	00 04 00 00 	*unknown*
+   31af8:	80 00 00 00 	*unknown*
 
 00031afc <T_SRC1_640>:
-   31afc:	00 08 00 00 	*unknown*
+   31afc:	00 00 00 01 	add	r0,r1
 
 00031b00 <T_SRC1_641>:
-   31b00:	00 08 00 00 	*unknown*
+   31b00:	00 00 00 02 	add	r0,r2
 
 00031b04 <T_SRC1_642>:
-   31b04:	00 08 00 00 	*unknown*
+   31b04:	00 00 00 04 	add	r0,r4
 
 00031b08 <T_SRC1_643>:
-   31b08:	00 08 00 00 	*unknown*
+   31b08:	00 00 00 08 	add	r0,r8
 
 00031b0c <T_SRC1_644>:
-   31b0c:	00 08 00 00 	*unknown*
+   31b0c:	00 00 00 10 	add	r0,r16
 
 00031b10 <T_SRC1_645>:
-   31b10:	00 08 00 00 	*unknown*
+   31b10:	00 00 00 20 	add	r1,r0
 
 00031b14 <T_SRC1_646>:
-   31b14:	00 08 00 00 	*unknown*
+   31b14:	00 00 00 40 	add	r2,r0
 
 00031b18 <T_SRC1_647>:
-   31b18:	00 08 00 00 	*unknown*
+   31b18:	00 00 00 80 	add	r4,r0
 
 00031b1c <T_SRC1_648>:
-   31b1c:	00 08 00 00 	*unknown*
+   31b1c:	00 00 01 00 	add	r8,r0
 
 00031b20 <T_SRC1_649>:
-   31b20:	00 08 00 00 	*unknown*
+   31b20:	00 00 02 00 	add	r16,r0
 
 00031b24 <T_SRC1_650>:
-   31b24:	00 08 00 00 	*unknown*
+   31b24:	00 00 04 00 	*unknown*
 
 00031b28 <T_SRC1_651>:
-   31b28:	00 08 00 00 	*unknown*
+   31b28:	00 00 08 00 	*unknown*
 
 00031b2c <T_SRC1_652>:
-   31b2c:	00 08 00 00 	*unknown*
+   31b2c:	00 00 10 00 	*unknown*
 
 00031b30 <T_SRC1_653>:
-   31b30:	00 08 00 00 	*unknown*
+   31b30:	00 00 20 00 	*unknown*
 
 00031b34 <T_SRC1_654>:
-   31b34:	00 08 00 00 	*unknown*
+   31b34:	00 00 40 00 	*unknown*
 
 00031b38 <T_SRC1_655>:
-   31b38:	00 08 00 00 	*unknown*
+   31b38:	00 00 80 00 	*unknown*
 
 00031b3c <T_SRC1_656>:
-   31b3c:	00 08 00 00 	*unknown*
+   31b3c:	00 01 00 00 	*unknown*
 
 00031b40 <T_SRC1_657>:
-   31b40:	00 08 00 00 	*unknown*
+   31b40:	00 02 00 00 	*unknown*
 
 00031b44 <T_SRC1_658>:
-   31b44:	00 08 00 00 	*unknown*
+   31b44:	00 04 00 00 	*unknown*
 
 00031b48 <T_SRC1_659>:
    31b48:	00 08 00 00 	*unknown*
 
 00031b4c <T_SRC1_660>:
-   31b4c:	00 08 00 00 	*unknown*
+   31b4c:	00 10 00 00 	add	r0,0
 
 00031b50 <T_SRC1_661>:
-   31b50:	00 08 00 00 	*unknown*
+   31b50:	00 20 00 00 	sub	r0,r0
 
 00031b54 <T_SRC1_662>:
-   31b54:	00 08 00 00 	*unknown*
+   31b54:	00 40 00 00 	mull	r0,r0
 
 00031b58 <T_SRC1_663>:
-   31b58:	00 08 00 00 	*unknown*
+   31b58:	00 80 00 00 	udiv	r0,r0
 
 00031b5c <T_SRC1_664>:
-   31b5c:	00 08 00 00 	*unknown*
+   31b5c:	01 00 00 00 	mod	r0,r0
 
 00031b60 <T_SRC1_665>:
-   31b60:	00 08 00 00 	*unknown*
+   31b60:	02 00 00 00 	inc	r0,r0
 
 00031b64 <T_SRC1_666>:
-   31b64:	00 08 00 00 	*unknown*
+   31b64:	04 00 00 00 	*unknown*
 
 00031b68 <T_SRC1_667>:
-   31b68:	00 08 00 00 	*unknown*
+   31b68:	08 00 00 00 	shl	r0,r0
 
 00031b6c <T_SRC1_668>:
-   31b6c:	00 08 00 00 	*unknown*
+   31b6c:	10 00 00 00 	ld8	r0,r0
 
 00031b70 <T_SRC1_669>:
-   31b70:	00 08 00 00 	*unknown*
+   31b70:	20 00 00 00 	nop
 
 00031b74 <T_SRC1_670>:
-   31b74:	00 08 00 00 	*unknown*
+   31b74:	40 00 00 00 	*unknown*
 
 00031b78 <T_SRC1_671>:
-   31b78:	00 08 00 00 	*unknown*
+   31b78:	80 00 00 00 	*unknown*
 
 00031b7c <T_SRC1_672>:
-   31b7c:	00 10 00 00 	add	r0,0
+   31b7c:	00 00 00 01 	add	r0,r1
 
 00031b80 <T_SRC1_673>:
-   31b80:	00 10 00 00 	add	r0,0
+   31b80:	00 00 00 02 	add	r0,r2
 
 00031b84 <T_SRC1_674>:
-   31b84:	00 10 00 00 	add	r0,0
+   31b84:	00 00 00 04 	add	r0,r4
 
 00031b88 <T_SRC1_675>:
-   31b88:	00 10 00 00 	add	r0,0
+   31b88:	00 00 00 08 	add	r0,r8
 
 00031b8c <T_SRC1_676>:
-   31b8c:	00 10 00 00 	add	r0,0
+   31b8c:	00 00 00 10 	add	r0,r16
 
 00031b90 <T_SRC1_677>:
-   31b90:	00 10 00 00 	add	r0,0
+   31b90:	00 00 00 20 	add	r1,r0
 
 00031b94 <T_SRC1_678>:
-   31b94:	00 10 00 00 	add	r0,0
+   31b94:	00 00 00 40 	add	r2,r0
 
 00031b98 <T_SRC1_679>:
-   31b98:	00 10 00 00 	add	r0,0
+   31b98:	00 00 00 80 	add	r4,r0
 
 00031b9c <T_SRC1_680>:
-   31b9c:	00 10 00 00 	add	r0,0
+   31b9c:	00 00 01 00 	add	r8,r0
 
 00031ba0 <T_SRC1_681>:
-   31ba0:	00 10 00 00 	add	r0,0
+   31ba0:	00 00 02 00 	add	r16,r0
 
 00031ba4 <T_SRC1_682>:
-   31ba4:	00 10 00 00 	add	r0,0
+   31ba4:	00 00 04 00 	*unknown*
 
 00031ba8 <T_SRC1_683>:
-   31ba8:	00 10 00 00 	add	r0,0
+   31ba8:	00 00 08 00 	*unknown*
 
 00031bac <T_SRC1_684>:
-   31bac:	00 10 00 00 	add	r0,0
+   31bac:	00 00 10 00 	*unknown*
 
 00031bb0 <T_SRC1_685>:
-   31bb0:	00 10 00 00 	add	r0,0
+   31bb0:	00 00 20 00 	*unknown*
 
 00031bb4 <T_SRC1_686>:
-   31bb4:	00 10 00 00 	add	r0,0
+   31bb4:	00 00 40 00 	*unknown*
 
 00031bb8 <T_SRC1_687>:
-   31bb8:	00 10 00 00 	add	r0,0
+   31bb8:	00 00 80 00 	*unknown*
 
 00031bbc <T_SRC1_688>:
-   31bbc:	00 10 00 00 	add	r0,0
+   31bbc:	00 01 00 00 	*unknown*
 
 00031bc0 <T_SRC1_689>:
-   31bc0:	00 10 00 00 	add	r0,0
+   31bc0:	00 02 00 00 	*unknown*
 
 00031bc4 <T_SRC1_690>:
-   31bc4:	00 10 00 00 	add	r0,0
+   31bc4:	00 04 00 00 	*unknown*
 
 00031bc8 <T_SRC1_691>:
-   31bc8:	00 10 00 00 	add	r0,0
+   31bc8:	00 08 00 00 	*unknown*
 
 00031bcc <T_SRC1_692>:
    31bcc:	00 10 00 00 	add	r0,0
 
 00031bd0 <T_SRC1_693>:
-   31bd0:	00 10 00 00 	add	r0,0
+   31bd0:	00 20 00 00 	sub	r0,r0
 
 00031bd4 <T_SRC1_694>:
-   31bd4:	00 10 00 00 	add	r0,0
+   31bd4:	00 40 00 00 	mull	r0,r0
 
 00031bd8 <T_SRC1_695>:
-   31bd8:	00 10 00 00 	add	r0,0
+   31bd8:	00 80 00 00 	udiv	r0,r0
 
 00031bdc <T_SRC1_696>:
-   31bdc:	00 10 00 00 	add	r0,0
+   31bdc:	01 00 00 00 	mod	r0,r0
 
 00031be0 <T_SRC1_697>:
-   31be0:	00 10 00 00 	add	r0,0
+   31be0:	02 00 00 00 	inc	r0,r0
 
 00031be4 <T_SRC1_698>:
-   31be4:	00 10 00 00 	add	r0,0
+   31be4:	04 00 00 00 	*unknown*
 
 00031be8 <T_SRC1_699>:
-   31be8:	00 10 00 00 	add	r0,0
+   31be8:	08 00 00 00 	shl	r0,r0
 
 00031bec <T_SRC1_700>:
-   31bec:	00 10 00 00 	add	r0,0
+   31bec:	10 00 00 00 	ld8	r0,r0
 
 00031bf0 <T_SRC1_701>:
-   31bf0:	00 10 00 00 	add	r0,0
+   31bf0:	20 00 00 00 	nop
 
 00031bf4 <T_SRC1_702>:
-   31bf4:	00 10 00 00 	add	r0,0
+   31bf4:	40 00 00 00 	*unknown*
 
 00031bf8 <T_SRC1_703>:
-   31bf8:	00 10 00 00 	add	r0,0
+   31bf8:	80 00 00 00 	*unknown*
 
 00031bfc <T_SRC1_704>:
-   31bfc:	00 20 00 00 	sub	r0,r0
+   31bfc:	00 00 00 01 	add	r0,r1
 
 00031c00 <T_SRC1_705>:
-   31c00:	00 20 00 00 	sub	r0,r0
+   31c00:	00 00 00 02 	add	r0,r2
 
 00031c04 <T_SRC1_706>:
-   31c04:	00 20 00 00 	sub	r0,r0
+   31c04:	00 00 00 04 	add	r0,r4
 
 00031c08 <T_SRC1_707>:
-   31c08:	00 20 00 00 	sub	r0,r0
+   31c08:	00 00 00 08 	add	r0,r8
 
 00031c0c <T_SRC1_708>:
-   31c0c:	00 20 00 00 	sub	r0,r0
+   31c0c:	00 00 00 10 	add	r0,r16
 
 00031c10 <T_SRC1_709>:
-   31c10:	00 20 00 00 	sub	r0,r0
+   31c10:	00 00 00 20 	add	r1,r0
 
 00031c14 <T_SRC1_710>:
-   31c14:	00 20 00 00 	sub	r0,r0
+   31c14:	00 00 00 40 	add	r2,r0
 
 00031c18 <T_SRC1_711>:
-   31c18:	00 20 00 00 	sub	r0,r0
+   31c18:	00 00 00 80 	add	r4,r0
 
 00031c1c <T_SRC1_712>:
-   31c1c:	00 20 00 00 	sub	r0,r0
+   31c1c:	00 00 01 00 	add	r8,r0
 
 00031c20 <T_SRC1_713>:
-   31c20:	00 20 00 00 	sub	r0,r0
+   31c20:	00 00 02 00 	add	r16,r0
 
 00031c24 <T_SRC1_714>:
-   31c24:	00 20 00 00 	sub	r0,r0
+   31c24:	00 00 04 00 	*unknown*
 
 00031c28 <T_SRC1_715>:
-   31c28:	00 20 00 00 	sub	r0,r0
+   31c28:	00 00 08 00 	*unknown*
 
 00031c2c <T_SRC1_716>:
-   31c2c:	00 20 00 00 	sub	r0,r0
+   31c2c:	00 00 10 00 	*unknown*
 
 00031c30 <T_SRC1_717>:
-   31c30:	00 20 00 00 	sub	r0,r0
+   31c30:	00 00 20 00 	*unknown*
 
 00031c34 <T_SRC1_718>:
-   31c34:	00 20 00 00 	sub	r0,r0
+   31c34:	00 00 40 00 	*unknown*
 
 00031c38 <T_SRC1_719>:
-   31c38:	00 20 00 00 	sub	r0,r0
+   31c38:	00 00 80 00 	*unknown*
 
 00031c3c <T_SRC1_720>:
-   31c3c:	00 20 00 00 	sub	r0,r0
+   31c3c:	00 01 00 00 	*unknown*
 
 00031c40 <T_SRC1_721>:
-   31c40:	00 20 00 00 	sub	r0,r0
+   31c40:	00 02 00 00 	*unknown*
 
 00031c44 <T_SRC1_722>:
-   31c44:	00 20 00 00 	sub	r0,r0
+   31c44:	00 04 00 00 	*unknown*
 
 00031c48 <T_SRC1_723>:
-   31c48:	00 20 00 00 	sub	r0,r0
+   31c48:	00 08 00 00 	*unknown*
 
 00031c4c <T_SRC1_724>:
-   31c4c:	00 20 00 00 	sub	r0,r0
+   31c4c:	00 10 00 00 	add	r0,0
 
 00031c50 <T_SRC1_725>:
    31c50:	00 20 00 00 	sub	r0,r0
 
 00031c54 <T_SRC1_726>:
-   31c54:	00 20 00 00 	sub	r0,r0
+   31c54:	00 40 00 00 	mull	r0,r0
 
 00031c58 <T_SRC1_727>:
-   31c58:	00 20 00 00 	sub	r0,r0
+   31c58:	00 80 00 00 	udiv	r0,r0
 
 00031c5c <T_SRC1_728>:
-   31c5c:	00 20 00 00 	sub	r0,r0
+   31c5c:	01 00 00 00 	mod	r0,r0
 
 00031c60 <T_SRC1_729>:
-   31c60:	00 20 00 00 	sub	r0,r0
+   31c60:	02 00 00 00 	inc	r0,r0
 
 00031c64 <T_SRC1_730>:
-   31c64:	00 20 00 00 	sub	r0,r0
+   31c64:	04 00 00 00 	*unknown*
 
 00031c68 <T_SRC1_731>:
-   31c68:	00 20 00 00 	sub	r0,r0
+   31c68:	08 00 00 00 	shl	r0,r0
 
 00031c6c <T_SRC1_732>:
-   31c6c:	00 20 00 00 	sub	r0,r0
+   31c6c:	10 00 00 00 	ld8	r0,r0
 
 00031c70 <T_SRC1_733>:
-   31c70:	00 20 00 00 	sub	r0,r0
+   31c70:	20 00 00 00 	nop
 
 00031c74 <T_SRC1_734>:
-   31c74:	00 20 00 00 	sub	r0,r0
+   31c74:	40 00 00 00 	*unknown*
 
 00031c78 <T_SRC1_735>:
-   31c78:	00 20 00 00 	sub	r0,r0
+   31c78:	80 00 00 00 	*unknown*
 
 00031c7c <T_SRC1_736>:
-   31c7c:	00 40 00 00 	mull	r0,r0
+   31c7c:	00 00 00 01 	add	r0,r1
 
 00031c80 <T_SRC1_737>:
-   31c80:	00 40 00 00 	mull	r0,r0
+   31c80:	00 00 00 02 	add	r0,r2
 
 00031c84 <T_SRC1_738>:
-   31c84:	00 40 00 00 	mull	r0,r0
+   31c84:	00 00 00 04 	add	r0,r4
 
 00031c88 <T_SRC1_739>:
-   31c88:	00 40 00 00 	mull	r0,r0
+   31c88:	00 00 00 08 	add	r0,r8
 
 00031c8c <T_SRC1_740>:
-   31c8c:	00 40 00 00 	mull	r0,r0
+   31c8c:	00 00 00 10 	add	r0,r16
 
 00031c90 <T_SRC1_741>:
-   31c90:	00 40 00 00 	mull	r0,r0
+   31c90:	00 00 00 20 	add	r1,r0
 
 00031c94 <T_SRC1_742>:
-   31c94:	00 40 00 00 	mull	r0,r0
+   31c94:	00 00 00 40 	add	r2,r0
 
 00031c98 <T_SRC1_743>:
-   31c98:	00 40 00 00 	mull	r0,r0
+   31c98:	00 00 00 80 	add	r4,r0
 
 00031c9c <T_SRC1_744>:
-   31c9c:	00 40 00 00 	mull	r0,r0
+   31c9c:	00 00 01 00 	add	r8,r0
 
 00031ca0 <T_SRC1_745>:
-   31ca0:	00 40 00 00 	mull	r0,r0
+   31ca0:	00 00 02 00 	add	r16,r0
 
 00031ca4 <T_SRC1_746>:
-   31ca4:	00 40 00 00 	mull	r0,r0
+   31ca4:	00 00 04 00 	*unknown*
 
 00031ca8 <T_SRC1_747>:
-   31ca8:	00 40 00 00 	mull	r0,r0
+   31ca8:	00 00 08 00 	*unknown*
 
 00031cac <T_SRC1_748>:
-   31cac:	00 40 00 00 	mull	r0,r0
+   31cac:	00 00 10 00 	*unknown*
 
 00031cb0 <T_SRC1_749>:
-   31cb0:	00 40 00 00 	mull	r0,r0
+   31cb0:	00 00 20 00 	*unknown*
 
 00031cb4 <T_SRC1_750>:
-   31cb4:	00 40 00 00 	mull	r0,r0
+   31cb4:	00 00 40 00 	*unknown*
 
 00031cb8 <T_SRC1_751>:
-   31cb8:	00 40 00 00 	mull	r0,r0
+   31cb8:	00 00 80 00 	*unknown*
 
 00031cbc <T_SRC1_752>:
-   31cbc:	00 40 00 00 	mull	r0,r0
+   31cbc:	00 01 00 00 	*unknown*
 
 00031cc0 <T_SRC1_753>:
-   31cc0:	00 40 00 00 	mull	r0,r0
+   31cc0:	00 02 00 00 	*unknown*
 
 00031cc4 <T_SRC1_754>:
-   31cc4:	00 40 00 00 	mull	r0,r0
+   31cc4:	00 04 00 00 	*unknown*
 
 00031cc8 <T_SRC1_755>:
-   31cc8:	00 40 00 00 	mull	r0,r0
+   31cc8:	00 08 00 00 	*unknown*
 
 00031ccc <T_SRC1_756>:
-   31ccc:	00 40 00 00 	mull	r0,r0
+   31ccc:	00 10 00 00 	add	r0,0
 
 00031cd0 <T_SRC1_757>:
-   31cd0:	00 40 00 00 	mull	r0,r0
+   31cd0:	00 20 00 00 	sub	r0,r0
 
 00031cd4 <T_SRC1_758>:
    31cd4:	00 40 00 00 	mull	r0,r0
 
 00031cd8 <T_SRC1_759>:
-   31cd8:	00 40 00 00 	mull	r0,r0
+   31cd8:	00 80 00 00 	udiv	r0,r0
 
 00031cdc <T_SRC1_760>:
-   31cdc:	00 40 00 00 	mull	r0,r0
+   31cdc:	01 00 00 00 	mod	r0,r0
 
 00031ce0 <T_SRC1_761>:
-   31ce0:	00 40 00 00 	mull	r0,r0
+   31ce0:	02 00 00 00 	inc	r0,r0
 
 00031ce4 <T_SRC1_762>:
-   31ce4:	00 40 00 00 	mull	r0,r0
+   31ce4:	04 00 00 00 	*unknown*
 
 00031ce8 <T_SRC1_763>:
-   31ce8:	00 40 00 00 	mull	r0,r0
+   31ce8:	08 00 00 00 	shl	r0,r0
 
 00031cec <T_SRC1_764>:
-   31cec:	00 40 00 00 	mull	r0,r0
+   31cec:	10 00 00 00 	ld8	r0,r0
 
 00031cf0 <T_SRC1_765>:
-   31cf0:	00 40 00 00 	mull	r0,r0
+   31cf0:	20 00 00 00 	nop
 
 00031cf4 <T_SRC1_766>:
-   31cf4:	00 40 00 00 	mull	r0,r0
+   31cf4:	40 00 00 00 	*unknown*
 
 00031cf8 <T_SRC1_767>:
-   31cf8:	00 40 00 00 	mull	r0,r0
+   31cf8:	80 00 00 00 	*unknown*
 
 00031cfc <T_SRC1_768>:
-   31cfc:	00 80 00 00 	udiv	r0,r0
+   31cfc:	00 00 00 01 	add	r0,r1
 
 00031d00 <T_SRC1_769>:
-   31d00:	00 80 00 00 	udiv	r0,r0
+   31d00:	00 00 00 02 	add	r0,r2
 
 00031d04 <T_SRC1_770>:
-   31d04:	00 80 00 00 	udiv	r0,r0
+   31d04:	00 00 00 04 	add	r0,r4
 
 00031d08 <T_SRC1_771>:
-   31d08:	00 80 00 00 	udiv	r0,r0
+   31d08:	00 00 00 08 	add	r0,r8
 
 00031d0c <T_SRC1_772>:
-   31d0c:	00 80 00 00 	udiv	r0,r0
+   31d0c:	00 00 00 10 	add	r0,r16
 
 00031d10 <T_SRC1_773>:
-   31d10:	00 80 00 00 	udiv	r0,r0
+   31d10:	00 00 00 20 	add	r1,r0
 
 00031d14 <T_SRC1_774>:
-   31d14:	00 80 00 00 	udiv	r0,r0
+   31d14:	00 00 00 40 	add	r2,r0
 
 00031d18 <T_SRC1_775>:
-   31d18:	00 80 00 00 	udiv	r0,r0
+   31d18:	00 00 00 80 	add	r4,r0
 
 00031d1c <T_SRC1_776>:
-   31d1c:	00 80 00 00 	udiv	r0,r0
+   31d1c:	00 00 01 00 	add	r8,r0
 
 00031d20 <T_SRC1_777>:
-   31d20:	00 80 00 00 	udiv	r0,r0
+   31d20:	00 00 02 00 	add	r16,r0
 
 00031d24 <T_SRC1_778>:
-   31d24:	00 80 00 00 	udiv	r0,r0
+   31d24:	00 00 04 00 	*unknown*
 
 00031d28 <T_SRC1_779>:
-   31d28:	00 80 00 00 	udiv	r0,r0
+   31d28:	00 00 08 00 	*unknown*
 
 00031d2c <T_SRC1_780>:
-   31d2c:	00 80 00 00 	udiv	r0,r0
+   31d2c:	00 00 10 00 	*unknown*
 
 00031d30 <T_SRC1_781>:
-   31d30:	00 80 00 00 	udiv	r0,r0
+   31d30:	00 00 20 00 	*unknown*
 
 00031d34 <T_SRC1_782>:
-   31d34:	00 80 00 00 	udiv	r0,r0
+   31d34:	00 00 40 00 	*unknown*
 
 00031d38 <T_SRC1_783>:
-   31d38:	00 80 00 00 	udiv	r0,r0
+   31d38:	00 00 80 00 	*unknown*
 
 00031d3c <T_SRC1_784>:
-   31d3c:	00 80 00 00 	udiv	r0,r0
+   31d3c:	00 01 00 00 	*unknown*
 
 00031d40 <T_SRC1_785>:
-   31d40:	00 80 00 00 	udiv	r0,r0
+   31d40:	00 02 00 00 	*unknown*
 
 00031d44 <T_SRC1_786>:
-   31d44:	00 80 00 00 	udiv	r0,r0
+   31d44:	00 04 00 00 	*unknown*
 
 00031d48 <T_SRC1_787>:
-   31d48:	00 80 00 00 	udiv	r0,r0
+   31d48:	00 08 00 00 	*unknown*
 
 00031d4c <T_SRC1_788>:
-   31d4c:	00 80 00 00 	udiv	r0,r0
+   31d4c:	00 10 00 00 	add	r0,0
 
 00031d50 <T_SRC1_789>:
-   31d50:	00 80 00 00 	udiv	r0,r0
+   31d50:	00 20 00 00 	sub	r0,r0
 
 00031d54 <T_SRC1_790>:
-   31d54:	00 80 00 00 	udiv	r0,r0
+   31d54:	00 40 00 00 	mull	r0,r0
 
 00031d58 <T_SRC1_791>:
    31d58:	00 80 00 00 	udiv	r0,r0
 
 00031d5c <T_SRC1_792>:
-   31d5c:	00 80 00 00 	udiv	r0,r0
+   31d5c:	01 00 00 00 	mod	r0,r0
 
 00031d60 <T_SRC1_793>:
-   31d60:	00 80 00 00 	udiv	r0,r0
+   31d60:	02 00 00 00 	inc	r0,r0
 
 00031d64 <T_SRC1_794>:
-   31d64:	00 80 00 00 	udiv	r0,r0
+   31d64:	04 00 00 00 	*unknown*
 
 00031d68 <T_SRC1_795>:
-   31d68:	00 80 00 00 	udiv	r0,r0
+   31d68:	08 00 00 00 	shl	r0,r0
 
 00031d6c <T_SRC1_796>:
-   31d6c:	00 80 00 00 	udiv	r0,r0
+   31d6c:	10 00 00 00 	ld8	r0,r0
 
 00031d70 <T_SRC1_797>:
-   31d70:	00 80 00 00 	udiv	r0,r0
+   31d70:	20 00 00 00 	nop
 
 00031d74 <T_SRC1_798>:
-   31d74:	00 80 00 00 	udiv	r0,r0
+   31d74:	40 00 00 00 	*unknown*
 
 00031d78 <T_SRC1_799>:
-   31d78:	00 80 00 00 	udiv	r0,r0
+   31d78:	80 00 00 00 	*unknown*
 
 00031d7c <T_SRC1_800>:
-   31d7c:	01 00 00 00 	mod	r0,r0
+   31d7c:	00 00 00 01 	add	r0,r1
 
 00031d80 <T_SRC1_801>:
-   31d80:	01 00 00 00 	mod	r0,r0
+   31d80:	00 00 00 02 	add	r0,r2
 
 00031d84 <T_SRC1_802>:
-   31d84:	01 00 00 00 	mod	r0,r0
+   31d84:	00 00 00 04 	add	r0,r4
 
 00031d88 <T_SRC1_803>:
-   31d88:	01 00 00 00 	mod	r0,r0
+   31d88:	00 00 00 08 	add	r0,r8
 
 00031d8c <T_SRC1_804>:
-   31d8c:	01 00 00 00 	mod	r0,r0
+   31d8c:	00 00 00 10 	add	r0,r16
 
 00031d90 <T_SRC1_805>:
-   31d90:	01 00 00 00 	mod	r0,r0
+   31d90:	00 00 00 20 	add	r1,r0
 
 00031d94 <T_SRC1_806>:
-   31d94:	01 00 00 00 	mod	r0,r0
+   31d94:	00 00 00 40 	add	r2,r0
 
 00031d98 <T_SRC1_807>:
-   31d98:	01 00 00 00 	mod	r0,r0
+   31d98:	00 00 00 80 	add	r4,r0
 
 00031d9c <T_SRC1_808>:
-   31d9c:	01 00 00 00 	mod	r0,r0
+   31d9c:	00 00 01 00 	add	r8,r0
 
 00031da0 <T_SRC1_809>:
-   31da0:	01 00 00 00 	mod	r0,r0
+   31da0:	00 00 02 00 	add	r16,r0
 
 00031da4 <T_SRC1_810>:
-   31da4:	01 00 00 00 	mod	r0,r0
+   31da4:	00 00 04 00 	*unknown*
 
 00031da8 <T_SRC1_811>:
-   31da8:	01 00 00 00 	mod	r0,r0
+   31da8:	00 00 08 00 	*unknown*
 
 00031dac <T_SRC1_812>:
-   31dac:	01 00 00 00 	mod	r0,r0
+   31dac:	00 00 10 00 	*unknown*
 
 00031db0 <T_SRC1_813>:
-   31db0:	01 00 00 00 	mod	r0,r0
+   31db0:	00 00 20 00 	*unknown*
 
 00031db4 <T_SRC1_814>:
-   31db4:	01 00 00 00 	mod	r0,r0
+   31db4:	00 00 40 00 	*unknown*
 
 00031db8 <T_SRC1_815>:
-   31db8:	01 00 00 00 	mod	r0,r0
+   31db8:	00 00 80 00 	*unknown*
 
 00031dbc <T_SRC1_816>:
-   31dbc:	01 00 00 00 	mod	r0,r0
+   31dbc:	00 01 00 00 	*unknown*
 
 00031dc0 <T_SRC1_817>:
-   31dc0:	01 00 00 00 	mod	r0,r0
+   31dc0:	00 02 00 00 	*unknown*
 
 00031dc4 <T_SRC1_818>:
-   31dc4:	01 00 00 00 	mod	r0,r0
+   31dc4:	00 04 00 00 	*unknown*
 
 00031dc8 <T_SRC1_819>:
-   31dc8:	01 00 00 00 	mod	r0,r0
+   31dc8:	00 08 00 00 	*unknown*
 
 00031dcc <T_SRC1_820>:
-   31dcc:	01 00 00 00 	mod	r0,r0
+   31dcc:	00 10 00 00 	add	r0,0
 
 00031dd0 <T_SRC1_821>:
-   31dd0:	01 00 00 00 	mod	r0,r0
+   31dd0:	00 20 00 00 	sub	r0,r0
 
 00031dd4 <T_SRC1_822>:
-   31dd4:	01 00 00 00 	mod	r0,r0
+   31dd4:	00 40 00 00 	mull	r0,r0
 
 00031dd8 <T_SRC1_823>:
-   31dd8:	01 00 00 00 	mod	r0,r0
+   31dd8:	00 80 00 00 	udiv	r0,r0
 
 00031ddc <T_SRC1_824>:
    31ddc:	01 00 00 00 	mod	r0,r0
 
 00031de0 <T_SRC1_825>:
-   31de0:	01 00 00 00 	mod	r0,r0
+   31de0:	02 00 00 00 	inc	r0,r0
 
 00031de4 <T_SRC1_826>:
-   31de4:	01 00 00 00 	mod	r0,r0
+   31de4:	04 00 00 00 	*unknown*
 
 00031de8 <T_SRC1_827>:
-   31de8:	01 00 00 00 	mod	r0,r0
+   31de8:	08 00 00 00 	shl	r0,r0
 
 00031dec <T_SRC1_828>:
-   31dec:	01 00 00 00 	mod	r0,r0
+   31dec:	10 00 00 00 	ld8	r0,r0
 
 00031df0 <T_SRC1_829>:
-   31df0:	01 00 00 00 	mod	r0,r0
+   31df0:	20 00 00 00 	nop
 
 00031df4 <T_SRC1_830>:
-   31df4:	01 00 00 00 	mod	r0,r0
+   31df4:	40 00 00 00 	*unknown*
 
 00031df8 <T_SRC1_831>:
-   31df8:	01 00 00 00 	mod	r0,r0
+   31df8:	80 00 00 00 	*unknown*
 
 00031dfc <T_SRC1_832>:
-   31dfc:	02 00 00 00 	inc	r0,r0
+   31dfc:	00 00 00 01 	add	r0,r1
 
 00031e00 <T_SRC1_833>:
-   31e00:	02 00 00 00 	inc	r0,r0
+   31e00:	00 00 00 02 	add	r0,r2
 
 00031e04 <T_SRC1_834>:
-   31e04:	02 00 00 00 	inc	r0,r0
+   31e04:	00 00 00 04 	add	r0,r4
 
 00031e08 <T_SRC1_835>:
-   31e08:	02 00 00 00 	inc	r0,r0
+   31e08:	00 00 00 08 	add	r0,r8
 
 00031e0c <T_SRC1_836>:
-   31e0c:	02 00 00 00 	inc	r0,r0
+   31e0c:	00 00 00 10 	add	r0,r16
 
 00031e10 <T_SRC1_837>:
-   31e10:	02 00 00 00 	inc	r0,r0
+   31e10:	00 00 00 20 	add	r1,r0
 
 00031e14 <T_SRC1_838>:
-   31e14:	02 00 00 00 	inc	r0,r0
+   31e14:	00 00 00 40 	add	r2,r0
 
 00031e18 <T_SRC1_839>:
-   31e18:	02 00 00 00 	inc	r0,r0
+   31e18:	00 00 00 80 	add	r4,r0
 
 00031e1c <T_SRC1_840>:
-   31e1c:	02 00 00 00 	inc	r0,r0
+   31e1c:	00 00 01 00 	add	r8,r0
 
 00031e20 <T_SRC1_841>:
-   31e20:	02 00 00 00 	inc	r0,r0
+   31e20:	00 00 02 00 	add	r16,r0
 
 00031e24 <T_SRC1_842>:
-   31e24:	02 00 00 00 	inc	r0,r0
+   31e24:	00 00 04 00 	*unknown*
 
 00031e28 <T_SRC1_843>:
-   31e28:	02 00 00 00 	inc	r0,r0
+   31e28:	00 00 08 00 	*unknown*
 
 00031e2c <T_SRC1_844>:
-   31e2c:	02 00 00 00 	inc	r0,r0
+   31e2c:	00 00 10 00 	*unknown*
 
 00031e30 <T_SRC1_845>:
-   31e30:	02 00 00 00 	inc	r0,r0
+   31e30:	00 00 20 00 	*unknown*
 
 00031e34 <T_SRC1_846>:
-   31e34:	02 00 00 00 	inc	r0,r0
+   31e34:	00 00 40 00 	*unknown*
 
 00031e38 <T_SRC1_847>:
-   31e38:	02 00 00 00 	inc	r0,r0
+   31e38:	00 00 80 00 	*unknown*
 
 00031e3c <T_SRC1_848>:
-   31e3c:	02 00 00 00 	inc	r0,r0
+   31e3c:	00 01 00 00 	*unknown*
 
 00031e40 <T_SRC1_849>:
-   31e40:	02 00 00 00 	inc	r0,r0
+   31e40:	00 02 00 00 	*unknown*
 
 00031e44 <T_SRC1_850>:
-   31e44:	02 00 00 00 	inc	r0,r0
+   31e44:	00 04 00 00 	*unknown*
 
 00031e48 <T_SRC1_851>:
-   31e48:	02 00 00 00 	inc	r0,r0
+   31e48:	00 08 00 00 	*unknown*
 
 00031e4c <T_SRC1_852>:
-   31e4c:	02 00 00 00 	inc	r0,r0
+   31e4c:	00 10 00 00 	add	r0,0
 
 00031e50 <T_SRC1_853>:
-   31e50:	02 00 00 00 	inc	r0,r0
+   31e50:	00 20 00 00 	sub	r0,r0
 
 00031e54 <T_SRC1_854>:
-   31e54:	02 00 00 00 	inc	r0,r0
+   31e54:	00 40 00 00 	mull	r0,r0
 
 00031e58 <T_SRC1_855>:
-   31e58:	02 00 00 00 	inc	r0,r0
+   31e58:	00 80 00 00 	udiv	r0,r0
 
 00031e5c <T_SRC1_856>:
-   31e5c:	02 00 00 00 	inc	r0,r0
+   31e5c:	01 00 00 00 	mod	r0,r0
 
 00031e60 <T_SRC1_857>:
    31e60:	02 00 00 00 	inc	r0,r0
 
 00031e64 <T_SRC1_858>:
-   31e64:	02 00 00 00 	inc	r0,r0
+   31e64:	04 00 00 00 	*unknown*
 
 00031e68 <T_SRC1_859>:
-   31e68:	02 00 00 00 	inc	r0,r0
+   31e68:	08 00 00 00 	shl	r0,r0
 
 00031e6c <T_SRC1_860>:
-   31e6c:	02 00 00 00 	inc	r0,r0
+   31e6c:	10 00 00 00 	ld8	r0,r0
 
 00031e70 <T_SRC1_861>:
-   31e70:	02 00 00 00 	inc	r0,r0
+   31e70:	20 00 00 00 	nop
 
 00031e74 <T_SRC1_862>:
-   31e74:	02 00 00 00 	inc	r0,r0
+   31e74:	40 00 00 00 	*unknown*
 
 00031e78 <T_SRC1_863>:
-   31e78:	02 00 00 00 	inc	r0,r0
+   31e78:	80 00 00 00 	*unknown*
 
 00031e7c <T_SRC1_864>:
-   31e7c:	04 00 00 00 	*unknown*
+   31e7c:	00 00 00 01 	add	r0,r1
 
 00031e80 <T_SRC1_865>:
-   31e80:	04 00 00 00 	*unknown*
+   31e80:	00 00 00 02 	add	r0,r2
 
 00031e84 <T_SRC1_866>:
-   31e84:	04 00 00 00 	*unknown*
+   31e84:	00 00 00 04 	add	r0,r4
 
 00031e88 <T_SRC1_867>:
-   31e88:	04 00 00 00 	*unknown*
+   31e88:	00 00 00 08 	add	r0,r8
 
 00031e8c <T_SRC1_868>:
-   31e8c:	04 00 00 00 	*unknown*
+   31e8c:	00 00 00 10 	add	r0,r16
 
 00031e90 <T_SRC1_869>:
-   31e90:	04 00 00 00 	*unknown*
+   31e90:	00 00 00 20 	add	r1,r0
 
 00031e94 <T_SRC1_870>:
-   31e94:	04 00 00 00 	*unknown*
+   31e94:	00 00 00 40 	add	r2,r0
 
 00031e98 <T_SRC1_871>:
-   31e98:	04 00 00 00 	*unknown*
+   31e98:	00 00 00 80 	add	r4,r0
 
 00031e9c <T_SRC1_872>:
-   31e9c:	04 00 00 00 	*unknown*
+   31e9c:	00 00 01 00 	add	r8,r0
 
 00031ea0 <T_SRC1_873>:
-   31ea0:	04 00 00 00 	*unknown*
+   31ea0:	00 00 02 00 	add	r16,r0
 
 00031ea4 <T_SRC1_874>:
-   31ea4:	04 00 00 00 	*unknown*
+   31ea4:	00 00 04 00 	*unknown*
 
 00031ea8 <T_SRC1_875>:
-   31ea8:	04 00 00 00 	*unknown*
+   31ea8:	00 00 08 00 	*unknown*
 
 00031eac <T_SRC1_876>:
-   31eac:	04 00 00 00 	*unknown*
+   31eac:	00 00 10 00 	*unknown*
 
 00031eb0 <T_SRC1_877>:
-   31eb0:	04 00 00 00 	*unknown*
+   31eb0:	00 00 20 00 	*unknown*
 
 00031eb4 <T_SRC1_878>:
-   31eb4:	04 00 00 00 	*unknown*
+   31eb4:	00 00 40 00 	*unknown*
 
 00031eb8 <T_SRC1_879>:
-   31eb8:	04 00 00 00 	*unknown*
+   31eb8:	00 00 80 00 	*unknown*
 
 00031ebc <T_SRC1_880>:
-   31ebc:	04 00 00 00 	*unknown*
+   31ebc:	00 01 00 00 	*unknown*
 
 00031ec0 <T_SRC1_881>:
-   31ec0:	04 00 00 00 	*unknown*
+   31ec0:	00 02 00 00 	*unknown*
 
 00031ec4 <T_SRC1_882>:
-   31ec4:	04 00 00 00 	*unknown*
+   31ec4:	00 04 00 00 	*unknown*
 
 00031ec8 <T_SRC1_883>:
-   31ec8:	04 00 00 00 	*unknown*
+   31ec8:	00 08 00 00 	*unknown*
 
 00031ecc <T_SRC1_884>:
-   31ecc:	04 00 00 00 	*unknown*
+   31ecc:	00 10 00 00 	add	r0,0
 
 00031ed0 <T_SRC1_885>:
-   31ed0:	04 00 00 00 	*unknown*
+   31ed0:	00 20 00 00 	sub	r0,r0
 
 00031ed4 <T_SRC1_886>:
-   31ed4:	04 00 00 00 	*unknown*
+   31ed4:	00 40 00 00 	mull	r0,r0
 
 00031ed8 <T_SRC1_887>:
-   31ed8:	04 00 00 00 	*unknown*
+   31ed8:	00 80 00 00 	udiv	r0,r0
 
 00031edc <T_SRC1_888>:
-   31edc:	04 00 00 00 	*unknown*
+   31edc:	01 00 00 00 	mod	r0,r0
 
 00031ee0 <T_SRC1_889>:
-   31ee0:	04 00 00 00 	*unknown*
+   31ee0:	02 00 00 00 	inc	r0,r0
 
 00031ee4 <T_SRC1_890>:
    31ee4:	04 00 00 00 	*unknown*
 
 00031ee8 <T_SRC1_891>:
-   31ee8:	04 00 00 00 	*unknown*
+   31ee8:	08 00 00 00 	shl	r0,r0
 
 00031eec <T_SRC1_892>:
-   31eec:	04 00 00 00 	*unknown*
+   31eec:	10 00 00 00 	ld8	r0,r0
 
 00031ef0 <T_SRC1_893>:
-   31ef0:	04 00 00 00 	*unknown*
+   31ef0:	20 00 00 00 	nop
 
 00031ef4 <T_SRC1_894>:
-   31ef4:	04 00 00 00 	*unknown*
+   31ef4:	40 00 00 00 	*unknown*
 
 00031ef8 <T_SRC1_895>:
-   31ef8:	04 00 00 00 	*unknown*
+   31ef8:	80 00 00 00 	*unknown*
 
 00031efc <T_SRC1_896>:
-   31efc:	08 00 00 00 	shl	r0,r0
+   31efc:	00 00 00 01 	add	r0,r1
 
 00031f00 <T_SRC1_897>:
-   31f00:	08 00 00 00 	shl	r0,r0
+   31f00:	00 00 00 02 	add	r0,r2
 
 00031f04 <T_SRC1_898>:
-   31f04:	08 00 00 00 	shl	r0,r0
+   31f04:	00 00 00 04 	add	r0,r4
 
 00031f08 <T_SRC1_899>:
-   31f08:	08 00 00 00 	shl	r0,r0
+   31f08:	00 00 00 08 	add	r0,r8
 
 00031f0c <T_SRC1_900>:
-   31f0c:	08 00 00 00 	shl	r0,r0
+   31f0c:	00 00 00 10 	add	r0,r16
 
 00031f10 <T_SRC1_901>:
-   31f10:	08 00 00 00 	shl	r0,r0
+   31f10:	00 00 00 20 	add	r1,r0
 
 00031f14 <T_SRC1_902>:
-   31f14:	08 00 00 00 	shl	r0,r0
+   31f14:	00 00 00 40 	add	r2,r0
 
 00031f18 <T_SRC1_903>:
-   31f18:	08 00 00 00 	shl	r0,r0
+   31f18:	00 00 00 80 	add	r4,r0
 
 00031f1c <T_SRC1_904>:
-   31f1c:	08 00 00 00 	shl	r0,r0
+   31f1c:	00 00 01 00 	add	r8,r0
 
 00031f20 <T_SRC1_905>:
-   31f20:	08 00 00 00 	shl	r0,r0
+   31f20:	00 00 02 00 	add	r16,r0
 
 00031f24 <T_SRC1_906>:
-   31f24:	08 00 00 00 	shl	r0,r0
+   31f24:	00 00 04 00 	*unknown*
 
 00031f28 <T_SRC1_907>:
-   31f28:	08 00 00 00 	shl	r0,r0
+   31f28:	00 00 08 00 	*unknown*
 
 00031f2c <T_SRC1_908>:
-   31f2c:	08 00 00 00 	shl	r0,r0
+   31f2c:	00 00 10 00 	*unknown*
 
 00031f30 <T_SRC1_909>:
-   31f30:	08 00 00 00 	shl	r0,r0
+   31f30:	00 00 20 00 	*unknown*
 
 00031f34 <T_SRC1_910>:
-   31f34:	08 00 00 00 	shl	r0,r0
+   31f34:	00 00 40 00 	*unknown*
 
 00031f38 <T_SRC1_911>:
-   31f38:	08 00 00 00 	shl	r0,r0
+   31f38:	00 00 80 00 	*unknown*
 
 00031f3c <T_SRC1_912>:
-   31f3c:	08 00 00 00 	shl	r0,r0
+   31f3c:	00 01 00 00 	*unknown*
 
 00031f40 <T_SRC1_913>:
-   31f40:	08 00 00 00 	shl	r0,r0
+   31f40:	00 02 00 00 	*unknown*
 
 00031f44 <T_SRC1_914>:
-   31f44:	08 00 00 00 	shl	r0,r0
+   31f44:	00 04 00 00 	*unknown*
 
 00031f48 <T_SRC1_915>:
-   31f48:	08 00 00 00 	shl	r0,r0
+   31f48:	00 08 00 00 	*unknown*
 
 00031f4c <T_SRC1_916>:
-   31f4c:	08 00 00 00 	shl	r0,r0
+   31f4c:	00 10 00 00 	add	r0,0
 
 00031f50 <T_SRC1_917>:
-   31f50:	08 00 00 00 	shl	r0,r0
+   31f50:	00 20 00 00 	sub	r0,r0
 
 00031f54 <T_SRC1_918>:
-   31f54:	08 00 00 00 	shl	r0,r0
+   31f54:	00 40 00 00 	mull	r0,r0
 
 00031f58 <T_SRC1_919>:
-   31f58:	08 00 00 00 	shl	r0,r0
+   31f58:	00 80 00 00 	udiv	r0,r0
 
 00031f5c <T_SRC1_920>:
-   31f5c:	08 00 00 00 	shl	r0,r0
+   31f5c:	01 00 00 00 	mod	r0,r0
 
 00031f60 <T_SRC1_921>:
-   31f60:	08 00 00 00 	shl	r0,r0
+   31f60:	02 00 00 00 	inc	r0,r0
 
 00031f64 <T_SRC1_922>:
-   31f64:	08 00 00 00 	shl	r0,r0
+   31f64:	04 00 00 00 	*unknown*
 
 00031f68 <T_SRC1_923>:
    31f68:	08 00 00 00 	shl	r0,r0
 
 00031f6c <T_SRC1_924>:
-   31f6c:	08 00 00 00 	shl	r0,r0
+   31f6c:	10 00 00 00 	ld8	r0,r0
 
 00031f70 <T_SRC1_925>:
-   31f70:	08 00 00 00 	shl	r0,r0
+   31f70:	20 00 00 00 	nop
 
 00031f74 <T_SRC1_926>:
-   31f74:	08 00 00 00 	shl	r0,r0
+   31f74:	40 00 00 00 	*unknown*
 
 00031f78 <T_SRC1_927>:
-   31f78:	08 00 00 00 	shl	r0,r0
+   31f78:	80 00 00 00 	*unknown*
 
 00031f7c <T_SRC1_928>:
-   31f7c:	10 00 00 00 	ld8	r0,r0
+   31f7c:	00 00 00 01 	add	r0,r1
 
 00031f80 <T_SRC1_929>:
-   31f80:	10 00 00 00 	ld8	r0,r0
+   31f80:	00 00 00 02 	add	r0,r2
 
 00031f84 <T_SRC1_930>:
-   31f84:	10 00 00 00 	ld8	r0,r0
+   31f84:	00 00 00 04 	add	r0,r4
 
 00031f88 <T_SRC1_931>:
-   31f88:	10 00 00 00 	ld8	r0,r0
+   31f88:	00 00 00 08 	add	r0,r8
 
 00031f8c <T_SRC1_932>:
-   31f8c:	10 00 00 00 	ld8	r0,r0
+   31f8c:	00 00 00 10 	add	r0,r16
 
 00031f90 <T_SRC1_933>:
-   31f90:	10 00 00 00 	ld8	r0,r0
+   31f90:	00 00 00 20 	add	r1,r0
 
 00031f94 <T_SRC1_934>:
-   31f94:	10 00 00 00 	ld8	r0,r0
+   31f94:	00 00 00 40 	add	r2,r0
 
 00031f98 <T_SRC1_935>:
-   31f98:	10 00 00 00 	ld8	r0,r0
+   31f98:	00 00 00 80 	add	r4,r0
 
 00031f9c <T_SRC1_936>:
-   31f9c:	10 00 00 00 	ld8	r0,r0
+   31f9c:	00 00 01 00 	add	r8,r0
 
 00031fa0 <T_SRC1_937>:
-   31fa0:	10 00 00 00 	ld8	r0,r0
+   31fa0:	00 00 02 00 	add	r16,r0
 
 00031fa4 <T_SRC1_938>:
-   31fa4:	10 00 00 00 	ld8	r0,r0
+   31fa4:	00 00 04 00 	*unknown*
 
 00031fa8 <T_SRC1_939>:
-   31fa8:	10 00 00 00 	ld8	r0,r0
+   31fa8:	00 00 08 00 	*unknown*
 
 00031fac <T_SRC1_940>:
-   31fac:	10 00 00 00 	ld8	r0,r0
+   31fac:	00 00 10 00 	*unknown*
 
 00031fb0 <T_SRC1_941>:
-   31fb0:	10 00 00 00 	ld8	r0,r0
+   31fb0:	00 00 20 00 	*unknown*
 
 00031fb4 <T_SRC1_942>:
-   31fb4:	10 00 00 00 	ld8	r0,r0
+   31fb4:	00 00 40 00 	*unknown*
 
 00031fb8 <T_SRC1_943>:
-   31fb8:	10 00 00 00 	ld8	r0,r0
+   31fb8:	00 00 80 00 	*unknown*
 
 00031fbc <T_SRC1_944>:
-   31fbc:	10 00 00 00 	ld8	r0,r0
+   31fbc:	00 01 00 00 	*unknown*
 
 00031fc0 <T_SRC1_945>:
-   31fc0:	10 00 00 00 	ld8	r0,r0
+   31fc0:	00 02 00 00 	*unknown*
 
 00031fc4 <T_SRC1_946>:
-   31fc4:	10 00 00 00 	ld8	r0,r0
+   31fc4:	00 04 00 00 	*unknown*
 
 00031fc8 <T_SRC1_947>:
-   31fc8:	10 00 00 00 	ld8	r0,r0
+   31fc8:	00 08 00 00 	*unknown*
 
 00031fcc <T_SRC1_948>:
-   31fcc:	10 00 00 00 	ld8	r0,r0
+   31fcc:	00 10 00 00 	add	r0,0
 
 00031fd0 <T_SRC1_949>:
-   31fd0:	10 00 00 00 	ld8	r0,r0
+   31fd0:	00 20 00 00 	sub	r0,r0
 
 00031fd4 <T_SRC1_950>:
-   31fd4:	10 00 00 00 	ld8	r0,r0
+   31fd4:	00 40 00 00 	mull	r0,r0
 
 00031fd8 <T_SRC1_951>:
-   31fd8:	10 00 00 00 	ld8	r0,r0
+   31fd8:	00 80 00 00 	udiv	r0,r0
 
 00031fdc <T_SRC1_952>:
-   31fdc:	10 00 00 00 	ld8	r0,r0
+   31fdc:	01 00 00 00 	mod	r0,r0
 
 00031fe0 <T_SRC1_953>:
-   31fe0:	10 00 00 00 	ld8	r0,r0
+   31fe0:	02 00 00 00 	inc	r0,r0
 
 00031fe4 <T_SRC1_954>:
-   31fe4:	10 00 00 00 	ld8	r0,r0
+   31fe4:	04 00 00 00 	*unknown*
 
 00031fe8 <T_SRC1_955>:
-   31fe8:	10 00 00 00 	ld8	r0,r0
+   31fe8:	08 00 00 00 	shl	r0,r0
 
 00031fec <T_SRC1_956>:
    31fec:	10 00 00 00 	ld8	r0,r0
 
 00031ff0 <T_SRC1_957>:
-   31ff0:	10 00 00 00 	ld8	r0,r0
+   31ff0:	20 00 00 00 	nop
 
 00031ff4 <T_SRC1_958>:
-   31ff4:	10 00 00 00 	ld8	r0,r0
+   31ff4:	40 00 00 00 	*unknown*
 
 00031ff8 <T_SRC1_959>:
-   31ff8:	10 00 00 00 	ld8	r0,r0
+   31ff8:	80 00 00 00 	*unknown*
 
 00031ffc <T_SRC1_960>:
-   31ffc:	20 00 00 00 	nop
+   31ffc:	00 00 00 01 	add	r0,r1
 
 00032000 <T_SRC1_961>:
-   32000:	20 00 00 00 	nop
+   32000:	00 00 00 02 	add	r0,r2
 
 00032004 <T_SRC1_962>:
-   32004:	20 00 00 00 	nop
+   32004:	00 00 00 04 	add	r0,r4
 
 00032008 <T_SRC1_963>:
-   32008:	20 00 00 00 	nop
+   32008:	00 00 00 08 	add	r0,r8
 
 0003200c <T_SRC1_964>:
-   3200c:	20 00 00 00 	nop
+   3200c:	00 00 00 10 	add	r0,r16
 
 00032010 <T_SRC1_965>:
-   32010:	20 00 00 00 	nop
+   32010:	00 00 00 20 	add	r1,r0
 
 00032014 <T_SRC1_966>:
-   32014:	20 00 00 00 	nop
+   32014:	00 00 00 40 	add	r2,r0
 
 00032018 <T_SRC1_967>:
-   32018:	20 00 00 00 	nop
+   32018:	00 00 00 80 	add	r4,r0
 
 0003201c <T_SRC1_968>:
-   3201c:	20 00 00 00 	nop
+   3201c:	00 00 01 00 	add	r8,r0
 
 00032020 <T_SRC1_969>:
-   32020:	20 00 00 00 	nop
+   32020:	00 00 02 00 	add	r16,r0
 
 00032024 <T_SRC1_970>:
-   32024:	20 00 00 00 	nop
+   32024:	00 00 04 00 	*unknown*
 
 00032028 <T_SRC1_971>:
-   32028:	20 00 00 00 	nop
+   32028:	00 00 08 00 	*unknown*
 
 0003202c <T_SRC1_972>:
-   3202c:	20 00 00 00 	nop
+   3202c:	00 00 10 00 	*unknown*
 
 00032030 <T_SRC1_973>:
-   32030:	20 00 00 00 	nop
+   32030:	00 00 20 00 	*unknown*
 
 00032034 <T_SRC1_974>:
-   32034:	20 00 00 00 	nop
+   32034:	00 00 40 00 	*unknown*
 
 00032038 <T_SRC1_975>:
-   32038:	20 00 00 00 	nop
+   32038:	00 00 80 00 	*unknown*
 
 0003203c <T_SRC1_976>:
-   3203c:	20 00 00 00 	nop
+   3203c:	00 01 00 00 	*unknown*
 
 00032040 <T_SRC1_977>:
-   32040:	20 00 00 00 	nop
+   32040:	00 02 00 00 	*unknown*
 
 00032044 <T_SRC1_978>:
-   32044:	20 00 00 00 	nop
+   32044:	00 04 00 00 	*unknown*
 
 00032048 <T_SRC1_979>:
-   32048:	20 00 00 00 	nop
+   32048:	00 08 00 00 	*unknown*
 
 0003204c <T_SRC1_980>:
-   3204c:	20 00 00 00 	nop
+   3204c:	00 10 00 00 	add	r0,0
 
 00032050 <T_SRC1_981>:
-   32050:	20 00 00 00 	nop
+   32050:	00 20 00 00 	sub	r0,r0
 
 00032054 <T_SRC1_982>:
-   32054:	20 00 00 00 	nop
+   32054:	00 40 00 00 	mull	r0,r0
 
 00032058 <T_SRC1_983>:
-   32058:	20 00 00 00 	nop
+   32058:	00 80 00 00 	udiv	r0,r0
 
 0003205c <T_SRC1_984>:
-   3205c:	20 00 00 00 	nop
+   3205c:	01 00 00 00 	mod	r0,r0
 
 00032060 <T_SRC1_985>:
-   32060:	20 00 00 00 	nop
+   32060:	02 00 00 00 	inc	r0,r0
 
 00032064 <T_SRC1_986>:
-   32064:	20 00 00 00 	nop
+   32064:	04 00 00 00 	*unknown*
 
 00032068 <T_SRC1_987>:
-   32068:	20 00 00 00 	nop
+   32068:	08 00 00 00 	shl	r0,r0
 
 0003206c <T_SRC1_988>:
-   3206c:	20 00 00 00 	nop
+   3206c:	10 00 00 00 	ld8	r0,r0
 
 00032070 <T_SRC1_989>:
    32070:	20 00 00 00 	nop
 
 00032074 <T_SRC1_990>:
-   32074:	20 00 00 00 	nop
+   32074:	40 00 00 00 	*unknown*
 
 00032078 <T_SRC1_991>:
-   32078:	20 00 00 00 	nop
+   32078:	80 00 00 00 	*unknown*
 
 0003207c <T_SRC1_992>:
-   3207c:	40 00 00 00 	*unknown*
+   3207c:	00 00 00 01 	add	r0,r1
 
 00032080 <T_SRC1_993>:
-   32080:	40 00 00 00 	*unknown*
+   32080:	00 00 00 02 	add	r0,r2
 
 00032084 <T_SRC1_994>:
-   32084:	40 00 00 00 	*unknown*
+   32084:	00 00 00 04 	add	r0,r4
 
 00032088 <T_SRC1_995>:
-   32088:	40 00 00 00 	*unknown*
+   32088:	00 00 00 08 	add	r0,r8
 
 0003208c <T_SRC1_996>:
-   3208c:	40 00 00 00 	*unknown*
+   3208c:	00 00 00 10 	add	r0,r16
 
 00032090 <T_SRC1_997>:
-   32090:	40 00 00 00 	*unknown*
+   32090:	00 00 00 20 	add	r1,r0
 
 00032094 <T_SRC1_998>:
-   32094:	40 00 00 00 	*unknown*
+   32094:	00 00 00 40 	add	r2,r0
 
 00032098 <T_SRC1_999>:
-   32098:	40 00 00 00 	*unknown*
+   32098:	00 00 00 80 	add	r4,r0
 
 0003209c <T_SRC1_1000>:
-   3209c:	40 00 00 00 	*unknown*
+   3209c:	00 00 01 00 	add	r8,r0
 
 000320a0 <T_SRC1_1001>:
-   320a0:	40 00 00 00 	*unknown*
+   320a0:	00 00 02 00 	add	r16,r0
 
 000320a4 <T_SRC1_1002>:
-   320a4:	40 00 00 00 	*unknown*
+   320a4:	00 00 04 00 	*unknown*
 
 000320a8 <T_SRC1_1003>:
-   320a8:	40 00 00 00 	*unknown*
+   320a8:	00 00 08 00 	*unknown*
 
 000320ac <T_SRC1_1004>:
-   320ac:	40 00 00 00 	*unknown*
+   320ac:	00 00 10 00 	*unknown*
 
 000320b0 <T_SRC1_1005>:
-   320b0:	40 00 00 00 	*unknown*
+   320b0:	00 00 20 00 	*unknown*
 
 000320b4 <T_SRC1_1006>:
-   320b4:	40 00 00 00 	*unknown*
+   320b4:	00 00 40 00 	*unknown*
 
 000320b8 <T_SRC1_1007>:
-   320b8:	40 00 00 00 	*unknown*
+   320b8:	00 00 80 00 	*unknown*
 
 000320bc <T_SRC1_1008>:
-   320bc:	40 00 00 00 	*unknown*
+   320bc:	00 01 00 00 	*unknown*
 
 000320c0 <T_SRC1_1009>:
-   320c0:	40 00 00 00 	*unknown*
+   320c0:	00 02 00 00 	*unknown*
 
 000320c4 <T_SRC1_1010>:
-   320c4:	40 00 00 00 	*unknown*
+   320c4:	00 04 00 00 	*unknown*
 
 000320c8 <T_SRC1_1011>:
-   320c8:	40 00 00 00 	*unknown*
+   320c8:	00 08 00 00 	*unknown*
 
 000320cc <T_SRC1_1012>:
-   320cc:	40 00 00 00 	*unknown*
+   320cc:	00 10 00 00 	add	r0,0
 
 000320d0 <T_SRC1_1013>:
-   320d0:	40 00 00 00 	*unknown*
+   320d0:	00 20 00 00 	sub	r0,r0
 
 000320d4 <T_SRC1_1014>:
-   320d4:	40 00 00 00 	*unknown*
+   320d4:	00 40 00 00 	mull	r0,r0
 
 000320d8 <T_SRC1_1015>:
-   320d8:	40 00 00 00 	*unknown*
+   320d8:	00 80 00 00 	udiv	r0,r0
 
 000320dc <T_SRC1_1016>:
-   320dc:	40 00 00 00 	*unknown*
+   320dc:	01 00 00 00 	mod	r0,r0
 
 000320e0 <T_SRC1_1017>:
-   320e0:	40 00 00 00 	*unknown*
+   320e0:	02 00 00 00 	inc	r0,r0
 
 000320e4 <T_SRC1_1018>:
-   320e4:	40 00 00 00 	*unknown*
+   320e4:	04 00 00 00 	*unknown*
 
 000320e8 <T_SRC1_1019>:
-   320e8:	40 00 00 00 	*unknown*
+   320e8:	08 00 00 00 	shl	r0,r0
 
 000320ec <T_SRC1_1020>:
-   320ec:	40 00 00 00 	*unknown*
+   320ec:	10 00 00 00 	ld8	r0,r0
 
 000320f0 <T_SRC1_1021>:
-   320f0:	40 00 00 00 	*unknown*
+   320f0:	20 00 00 00 	nop
 
 000320f4 <T_SRC1_1022>:
    320f4:	40 00 00 00 	*unknown*
 
 000320f8 <T_SRC1_1023>:
-   320f8:	40 00 00 00 	*unknown*
+   320f8:	80 00 00 00 	*unknown*
 
 000320fc <T_SRC1_1024>:
-   320fc:	80 00 00 00 	*unknown*
+   320fc:	00 00 00 01 	add	r0,r1
 
 00032100 <T_SRC1_1025>:
-   32100:	80 00 00 00 	*unknown*
+   32100:	00 00 00 02 	add	r0,r2
 
 00032104 <T_SRC1_1026>:
-   32104:	80 00 00 00 	*unknown*
+   32104:	00 00 00 04 	add	r0,r4
 
 00032108 <T_SRC1_1027>:
-   32108:	80 00 00 00 	*unknown*
+   32108:	00 00 00 08 	add	r0,r8
 
 0003210c <T_SRC1_1028>:
-   3210c:	80 00 00 00 	*unknown*
+   3210c:	00 00 00 10 	add	r0,r16
 
 00032110 <T_SRC1_1029>:
-   32110:	80 00 00 00 	*unknown*
+   32110:	00 00 00 20 	add	r1,r0
 
 00032114 <T_SRC1_1030>:
-   32114:	80 00 00 00 	*unknown*
+   32114:	00 00 00 40 	add	r2,r0
 
 00032118 <T_SRC1_1031>:
-   32118:	80 00 00 00 	*unknown*
+   32118:	00 00 00 80 	add	r4,r0
 
 0003211c <T_SRC1_1032>:
-   3211c:	80 00 00 00 	*unknown*
+   3211c:	00 00 01 00 	add	r8,r0
 
 00032120 <T_SRC1_1033>:
-   32120:	80 00 00 00 	*unknown*
+   32120:	00 00 02 00 	add	r16,r0
 
 00032124 <T_SRC1_1034>:
-   32124:	80 00 00 00 	*unknown*
+   32124:	00 00 04 00 	*unknown*
 
 00032128 <T_SRC1_1035>:
-   32128:	80 00 00 00 	*unknown*
+   32128:	00 00 08 00 	*unknown*
 
 0003212c <T_SRC1_1036>:
-   3212c:	80 00 00 00 	*unknown*
+   3212c:	00 00 10 00 	*unknown*
 
 00032130 <T_SRC1_1037>:
-   32130:	80 00 00 00 	*unknown*
+   32130:	00 00 20 00 	*unknown*
 
 00032134 <T_SRC1_1038>:
-   32134:	80 00 00 00 	*unknown*
+   32134:	00 00 40 00 	*unknown*
 
 00032138 <T_SRC1_1039>:
-   32138:	80 00 00 00 	*unknown*
+   32138:	00 00 80 00 	*unknown*
 
 0003213c <T_SRC1_1040>:
-   3213c:	80 00 00 00 	*unknown*
+   3213c:	00 01 00 00 	*unknown*
 
 00032140 <T_SRC1_1041>:
-   32140:	80 00 00 00 	*unknown*
+   32140:	00 02 00 00 	*unknown*
 
 00032144 <T_SRC1_1042>:
-   32144:	80 00 00 00 	*unknown*
+   32144:	00 04 00 00 	*unknown*
 
 00032148 <T_SRC1_1043>:
-   32148:	80 00 00 00 	*unknown*
+   32148:	00 08 00 00 	*unknown*
 
 0003214c <T_SRC1_1044>:
-   3214c:	80 00 00 00 	*unknown*
+   3214c:	00 10 00 00 	add	r0,0
 
 00032150 <T_SRC1_1045>:
-   32150:	80 00 00 00 	*unknown*
+   32150:	00 20 00 00 	sub	r0,r0
 
 00032154 <T_SRC1_1046>:
-   32154:	80 00 00 00 	*unknown*
+   32154:	00 40 00 00 	mull	r0,r0
 
 00032158 <T_SRC1_1047>:
-   32158:	80 00 00 00 	*unknown*
+   32158:	00 80 00 00 	udiv	r0,r0
 
 0003215c <T_SRC1_1048>:
-   3215c:	80 00 00 00 	*unknown*
+   3215c:	01 00 00 00 	mod	r0,r0
 
 00032160 <T_SRC1_1049>:
-   32160:	80 00 00 00 	*unknown*
+   32160:	02 00 00 00 	inc	r0,r0
 
 00032164 <T_SRC1_1050>:
-   32164:	80 00 00 00 	*unknown*
+   32164:	04 00 00 00 	*unknown*
 
 00032168 <T_SRC1_1051>:
-   32168:	80 00 00 00 	*unknown*
+   32168:	08 00 00 00 	shl	r0,r0
 
 0003216c <T_SRC1_1052>:
-   3216c:	80 00 00 00 	*unknown*
+   3216c:	10 00 00 00 	ld8	r0,r0
 
 00032170 <T_SRC1_1053>:
-   32170:	80 00 00 00 	*unknown*
+   32170:	20 00 00 00 	nop
 
 00032174 <T_SRC1_1054>:
-   32174:	80 00 00 00 	*unknown*
+   32174:	40 00 00 00 	*unknown*
 
 00032178 <T_SRC1_1055>:
    32178:	80 00 00 00 	*unknown*
@@ -20818,3169 +22238,4021 @@ Disassembly of section .data:
    32274:	00 00 00 00 	add	r0,r0
 
 00032278 <T_EXPECT32>:
-   32278:	01 00 00 00 	mod	r0,r0
+   32278:	00 00 00 00 	add	r0,r0
 
 0003227c <T_EXPECT33>:
-   3227c:	01 00 00 00 	mod	r0,r0
+   3227c:	00 00 00 00 	add	r0,r0
 
 00032280 <T_EXPECT34>:
-   32280:	01 00 00 00 	mod	r0,r0
+   32280:	00 00 00 00 	add	r0,r0
 
 00032284 <T_EXPECT35>:
-   32284:	01 00 00 00 	mod	r0,r0
+   32284:	00 00 00 00 	add	r0,r0
 
 00032288 <T_EXPECT36>:
-   32288:	01 00 00 00 	mod	r0,r0
+   32288:	00 00 00 00 	add	r0,r0
 
 0003228c <T_EXPECT37>:
-   3228c:	01 00 00 00 	mod	r0,r0
+   3228c:	00 00 00 00 	add	r0,r0
 
 00032290 <T_EXPECT38>:
-   32290:	01 00 00 00 	mod	r0,r0
+   32290:	00 00 00 00 	add	r0,r0
 
 00032294 <T_EXPECT39>:
-   32294:	01 00 00 00 	mod	r0,r0
+   32294:	00 00 00 00 	add	r0,r0
 
 00032298 <T_EXPECT40>:
-   32298:	01 00 00 00 	mod	r0,r0
+   32298:	00 00 00 00 	add	r0,r0
 
 0003229c <T_EXPECT41>:
-   3229c:	01 00 00 00 	mod	r0,r0
+   3229c:	00 00 00 00 	add	r0,r0
 
 000322a0 <T_EXPECT42>:
-   322a0:	01 00 00 00 	mod	r0,r0
+   322a0:	00 00 00 00 	add	r0,r0
 
 000322a4 <T_EXPECT43>:
-   322a4:	01 00 00 00 	mod	r0,r0
+   322a4:	00 00 00 00 	add	r0,r0
 
 000322a8 <T_EXPECT44>:
-   322a8:	01 00 00 00 	mod	r0,r0
+   322a8:	00 00 00 00 	add	r0,r0
 
 000322ac <T_EXPECT45>:
-   322ac:	01 00 00 00 	mod	r0,r0
+   322ac:	00 00 00 00 	add	r0,r0
 
 000322b0 <T_EXPECT46>:
-   322b0:	01 00 00 00 	mod	r0,r0
+   322b0:	00 00 00 00 	add	r0,r0
 
 000322b4 <T_EXPECT47>:
-   322b4:	01 00 00 00 	mod	r0,r0
+   322b4:	00 00 00 00 	add	r0,r0
 
 000322b8 <T_EXPECT48>:
-   322b8:	01 00 00 00 	mod	r0,r0
+   322b8:	00 00 00 00 	add	r0,r0
 
 000322bc <T_EXPECT49>:
-   322bc:	01 00 00 00 	mod	r0,r0
+   322bc:	00 00 00 00 	add	r0,r0
 
 000322c0 <T_EXPECT50>:
-   322c0:	01 00 00 00 	mod	r0,r0
+   322c0:	00 00 00 00 	add	r0,r0
 
 000322c4 <T_EXPECT51>:
-   322c4:	01 00 00 00 	mod	r0,r0
+   322c4:	00 00 00 00 	add	r0,r0
 
 000322c8 <T_EXPECT52>:
-   322c8:	01 00 00 00 	mod	r0,r0
+   322c8:	00 00 00 00 	add	r0,r0
 
 000322cc <T_EXPECT53>:
-   322cc:	01 00 00 00 	mod	r0,r0
+   322cc:	00 00 00 00 	add	r0,r0
 
 000322d0 <T_EXPECT54>:
-   322d0:	01 00 00 00 	mod	r0,r0
+   322d0:	00 00 00 00 	add	r0,r0
 
 000322d4 <T_EXPECT55>:
-   322d4:	01 00 00 00 	mod	r0,r0
+   322d4:	00 00 00 00 	add	r0,r0
 
 000322d8 <T_EXPECT56>:
-   322d8:	01 00 00 00 	mod	r0,r0
+   322d8:	00 00 00 00 	add	r0,r0
 
 000322dc <T_EXPECT57>:
-   322dc:	01 00 00 00 	mod	r0,r0
+   322dc:	00 00 00 00 	add	r0,r0
 
 000322e0 <T_EXPECT58>:
-   322e0:	01 00 00 00 	mod	r0,r0
+   322e0:	00 00 00 00 	add	r0,r0
 
 000322e4 <T_EXPECT59>:
-   322e4:	01 00 00 00 	mod	r0,r0
+   322e4:	00 00 00 00 	add	r0,r0
 
 000322e8 <T_EXPECT60>:
-   322e8:	01 00 00 00 	mod	r0,r0
+   322e8:	00 00 00 00 	add	r0,r0
 
 000322ec <T_EXPECT61>:
-   322ec:	01 00 00 00 	mod	r0,r0
+   322ec:	00 00 00 00 	add	r0,r0
 
 000322f0 <T_EXPECT62>:
-   322f0:	01 00 00 00 	mod	r0,r0
+   322f0:	00 00 00 00 	add	r0,r0
 
 000322f4 <T_EXPECT63>:
-   322f4:	01 00 00 00 	mod	r0,r0
+   322f4:	00 00 00 00 	add	r0,r0
 
 000322f8 <T_EXPECT64>:
-   322f8:	02 00 00 00 	inc	r0,r0
+   322f8:	00 00 00 00 	add	r0,r0
 
 000322fc <T_EXPECT65>:
-   322fc:	02 00 00 00 	inc	r0,r0
+   322fc:	00 00 00 00 	add	r0,r0
 
 00032300 <T_EXPECT66>:
-   32300:	02 00 00 00 	inc	r0,r0
+   32300:	00 00 00 00 	add	r0,r0
 
 00032304 <T_EXPECT67>:
-   32304:	02 00 00 00 	inc	r0,r0
+   32304:	00 00 00 00 	add	r0,r0
 
 00032308 <T_EXPECT68>:
-   32308:	02 00 00 00 	inc	r0,r0
+   32308:	00 00 00 00 	add	r0,r0
 
 0003230c <T_EXPECT69>:
-   3230c:	02 00 00 00 	inc	r0,r0
+   3230c:	00 00 00 00 	add	r0,r0
 
 00032310 <T_EXPECT70>:
-   32310:	02 00 00 00 	inc	r0,r0
+   32310:	00 00 00 00 	add	r0,r0
 
 00032314 <T_EXPECT71>:
-   32314:	02 00 00 00 	inc	r0,r0
+   32314:	00 00 00 00 	add	r0,r0
 
 00032318 <T_EXPECT72>:
-   32318:	02 00 00 00 	inc	r0,r0
+   32318:	00 00 00 00 	add	r0,r0
 
 0003231c <T_EXPECT73>:
-   3231c:	02 00 00 00 	inc	r0,r0
+   3231c:	00 00 00 00 	add	r0,r0
 
 00032320 <T_EXPECT74>:
-   32320:	02 00 00 00 	inc	r0,r0
+   32320:	00 00 00 00 	add	r0,r0
 
 00032324 <T_EXPECT75>:
-   32324:	02 00 00 00 	inc	r0,r0
+   32324:	00 00 00 00 	add	r0,r0
 
 00032328 <T_EXPECT76>:
-   32328:	02 00 00 00 	inc	r0,r0
+   32328:	00 00 00 00 	add	r0,r0
 
 0003232c <T_EXPECT77>:
-   3232c:	02 00 00 00 	inc	r0,r0
+   3232c:	00 00 00 00 	add	r0,r0
 
 00032330 <T_EXPECT78>:
-   32330:	02 00 00 00 	inc	r0,r0
+   32330:	00 00 00 00 	add	r0,r0
 
 00032334 <T_EXPECT79>:
-   32334:	02 00 00 00 	inc	r0,r0
+   32334:	00 00 00 00 	add	r0,r0
 
 00032338 <T_EXPECT80>:
-   32338:	02 00 00 00 	inc	r0,r0
+   32338:	00 00 00 00 	add	r0,r0
 
 0003233c <T_EXPECT81>:
-   3233c:	02 00 00 00 	inc	r0,r0
+   3233c:	00 00 00 00 	add	r0,r0
 
 00032340 <T_EXPECT82>:
-   32340:	02 00 00 00 	inc	r0,r0
+   32340:	00 00 00 00 	add	r0,r0
 
 00032344 <T_EXPECT83>:
-   32344:	02 00 00 00 	inc	r0,r0
+   32344:	00 00 00 00 	add	r0,r0
 
 00032348 <T_EXPECT84>:
-   32348:	02 00 00 00 	inc	r0,r0
+   32348:	00 00 00 00 	add	r0,r0
 
 0003234c <T_EXPECT85>:
-   3234c:	02 00 00 00 	inc	r0,r0
+   3234c:	00 00 00 00 	add	r0,r0
 
 00032350 <T_EXPECT86>:
-   32350:	02 00 00 00 	inc	r0,r0
+   32350:	00 00 00 00 	add	r0,r0
 
 00032354 <T_EXPECT87>:
-   32354:	02 00 00 00 	inc	r0,r0
+   32354:	00 00 00 00 	add	r0,r0
 
 00032358 <T_EXPECT88>:
-   32358:	02 00 00 00 	inc	r0,r0
+   32358:	00 00 00 00 	add	r0,r0
 
 0003235c <T_EXPECT89>:
-   3235c:	02 00 00 00 	inc	r0,r0
+   3235c:	00 00 00 00 	add	r0,r0
 
 00032360 <T_EXPECT90>:
-   32360:	02 00 00 00 	inc	r0,r0
+   32360:	00 00 00 00 	add	r0,r0
 
 00032364 <T_EXPECT91>:
-   32364:	02 00 00 00 	inc	r0,r0
+   32364:	00 00 00 00 	add	r0,r0
 
 00032368 <T_EXPECT92>:
-   32368:	02 00 00 00 	inc	r0,r0
+   32368:	00 00 00 00 	add	r0,r0
 
 0003236c <T_EXPECT93>:
-   3236c:	02 00 00 00 	inc	r0,r0
+   3236c:	00 00 00 00 	add	r0,r0
 
 00032370 <T_EXPECT94>:
-   32370:	02 00 00 00 	inc	r0,r0
+   32370:	00 00 00 00 	add	r0,r0
 
 00032374 <T_EXPECT95>:
-   32374:	02 00 00 00 	inc	r0,r0
+   32374:	00 00 00 01 	add	r0,r1
 
 00032378 <T_EXPECT96>:
-   32378:	04 00 00 00 	*unknown*
+   32378:	00 00 00 00 	add	r0,r0
 
 0003237c <T_EXPECT97>:
-   3237c:	04 00 00 00 	*unknown*
+   3237c:	00 00 00 00 	add	r0,r0
 
 00032380 <T_EXPECT98>:
-   32380:	04 00 00 00 	*unknown*
+   32380:	00 00 00 00 	add	r0,r0
 
 00032384 <T_EXPECT99>:
-   32384:	04 00 00 00 	*unknown*
+   32384:	00 00 00 00 	add	r0,r0
 
 00032388 <T_EXPECT100>:
-   32388:	04 00 00 00 	*unknown*
+   32388:	00 00 00 00 	add	r0,r0
 
 0003238c <T_EXPECT101>:
-   3238c:	04 00 00 00 	*unknown*
+   3238c:	00 00 00 00 	add	r0,r0
 
 00032390 <T_EXPECT102>:
-   32390:	04 00 00 00 	*unknown*
+   32390:	00 00 00 00 	add	r0,r0
 
 00032394 <T_EXPECT103>:
-   32394:	04 00 00 00 	*unknown*
+   32394:	00 00 00 00 	add	r0,r0
 
 00032398 <T_EXPECT104>:
-   32398:	04 00 00 00 	*unknown*
+   32398:	00 00 00 00 	add	r0,r0
 
 0003239c <T_EXPECT105>:
-   3239c:	04 00 00 00 	*unknown*
+   3239c:	00 00 00 00 	add	r0,r0
 
 000323a0 <T_EXPECT106>:
-   323a0:	04 00 00 00 	*unknown*
+   323a0:	00 00 00 00 	add	r0,r0
 
 000323a4 <T_EXPECT107>:
-   323a4:	04 00 00 00 	*unknown*
+   323a4:	00 00 00 00 	add	r0,r0
 
 000323a8 <T_EXPECT108>:
-   323a8:	04 00 00 00 	*unknown*
+   323a8:	00 00 00 00 	add	r0,r0
 
 000323ac <T_EXPECT109>:
-   323ac:	04 00 00 00 	*unknown*
+   323ac:	00 00 00 00 	add	r0,r0
 
 000323b0 <T_EXPECT110>:
-   323b0:	04 00 00 00 	*unknown*
+   323b0:	00 00 00 00 	add	r0,r0
 
 000323b4 <T_EXPECT111>:
-   323b4:	04 00 00 00 	*unknown*
+   323b4:	00 00 00 00 	add	r0,r0
 
 000323b8 <T_EXPECT112>:
-   323b8:	04 00 00 00 	*unknown*
+   323b8:	00 00 00 00 	add	r0,r0
 
 000323bc <T_EXPECT113>:
-   323bc:	04 00 00 00 	*unknown*
+   323bc:	00 00 00 00 	add	r0,r0
 
 000323c0 <T_EXPECT114>:
-   323c0:	04 00 00 00 	*unknown*
+   323c0:	00 00 00 00 	add	r0,r0
 
 000323c4 <T_EXPECT115>:
-   323c4:	04 00 00 00 	*unknown*
+   323c4:	00 00 00 00 	add	r0,r0
 
 000323c8 <T_EXPECT116>:
-   323c8:	04 00 00 00 	*unknown*
+   323c8:	00 00 00 00 	add	r0,r0
 
 000323cc <T_EXPECT117>:
-   323cc:	04 00 00 00 	*unknown*
+   323cc:	00 00 00 00 	add	r0,r0
 
 000323d0 <T_EXPECT118>:
-   323d0:	04 00 00 00 	*unknown*
+   323d0:	00 00 00 00 	add	r0,r0
 
 000323d4 <T_EXPECT119>:
-   323d4:	04 00 00 00 	*unknown*
+   323d4:	00 00 00 00 	add	r0,r0
 
 000323d8 <T_EXPECT120>:
-   323d8:	04 00 00 00 	*unknown*
+   323d8:	00 00 00 00 	add	r0,r0
 
 000323dc <T_EXPECT121>:
-   323dc:	04 00 00 00 	*unknown*
+   323dc:	00 00 00 00 	add	r0,r0
 
 000323e0 <T_EXPECT122>:
-   323e0:	04 00 00 00 	*unknown*
+   323e0:	00 00 00 00 	add	r0,r0
 
 000323e4 <T_EXPECT123>:
-   323e4:	04 00 00 00 	*unknown*
+   323e4:	00 00 00 00 	add	r0,r0
 
 000323e8 <T_EXPECT124>:
-   323e8:	04 00 00 00 	*unknown*
+   323e8:	00 00 00 00 	add	r0,r0
 
 000323ec <T_EXPECT125>:
-   323ec:	04 00 00 00 	*unknown*
+   323ec:	00 00 00 00 	add	r0,r0
 
 000323f0 <T_EXPECT126>:
-   323f0:	04 00 00 00 	*unknown*
+   323f0:	00 00 00 01 	add	r0,r1
 
 000323f4 <T_EXPECT127>:
-   323f4:	04 00 00 00 	*unknown*
+   323f4:	00 00 00 02 	add	r0,r2
 
 000323f8 <T_EXPECT128>:
-   323f8:	08 00 00 00 	shl	r0,r0
+   323f8:	00 00 00 00 	add	r0,r0
 
 000323fc <T_EXPECT129>:
-   323fc:	08 00 00 00 	shl	r0,r0
+   323fc:	00 00 00 00 	add	r0,r0
 
 00032400 <T_EXPECT130>:
-   32400:	08 00 00 00 	shl	r0,r0
+   32400:	00 00 00 00 	add	r0,r0
 
 00032404 <T_EXPECT131>:
-   32404:	08 00 00 00 	shl	r0,r0
+   32404:	00 00 00 00 	add	r0,r0
 
 00032408 <T_EXPECT132>:
-   32408:	08 00 00 00 	shl	r0,r0
+   32408:	00 00 00 00 	add	r0,r0
 
 0003240c <T_EXPECT133>:
-   3240c:	08 00 00 00 	shl	r0,r0
+   3240c:	00 00 00 00 	add	r0,r0
 
 00032410 <T_EXPECT134>:
-   32410:	08 00 00 00 	shl	r0,r0
+   32410:	00 00 00 00 	add	r0,r0
 
 00032414 <T_EXPECT135>:
-   32414:	08 00 00 00 	shl	r0,r0
+   32414:	00 00 00 00 	add	r0,r0
 
 00032418 <T_EXPECT136>:
-   32418:	08 00 00 00 	shl	r0,r0
+   32418:	00 00 00 00 	add	r0,r0
 
 0003241c <T_EXPECT137>:
-   3241c:	08 00 00 00 	shl	r0,r0
+   3241c:	00 00 00 00 	add	r0,r0
 
 00032420 <T_EXPECT138>:
-   32420:	08 00 00 00 	shl	r0,r0
+   32420:	00 00 00 00 	add	r0,r0
 
 00032424 <T_EXPECT139>:
-   32424:	08 00 00 00 	shl	r0,r0
+   32424:	00 00 00 00 	add	r0,r0
 
 00032428 <T_EXPECT140>:
-   32428:	08 00 00 00 	shl	r0,r0
+   32428:	00 00 00 00 	add	r0,r0
 
 0003242c <T_EXPECT141>:
-   3242c:	08 00 00 00 	shl	r0,r0
+   3242c:	00 00 00 00 	add	r0,r0
 
 00032430 <T_EXPECT142>:
-   32430:	08 00 00 00 	shl	r0,r0
+   32430:	00 00 00 00 	add	r0,r0
 
 00032434 <T_EXPECT143>:
-   32434:	08 00 00 00 	shl	r0,r0
+   32434:	00 00 00 00 	add	r0,r0
 
 00032438 <T_EXPECT144>:
-   32438:	08 00 00 00 	shl	r0,r0
+   32438:	00 00 00 00 	add	r0,r0
 
 0003243c <T_EXPECT145>:
-   3243c:	08 00 00 00 	shl	r0,r0
+   3243c:	00 00 00 00 	add	r0,r0
 
 00032440 <T_EXPECT146>:
-   32440:	08 00 00 00 	shl	r0,r0
+   32440:	00 00 00 00 	add	r0,r0
 
 00032444 <T_EXPECT147>:
-   32444:	08 00 00 00 	shl	r0,r0
+   32444:	00 00 00 00 	add	r0,r0
 
 00032448 <T_EXPECT148>:
-   32448:	08 00 00 00 	shl	r0,r0
+   32448:	00 00 00 00 	add	r0,r0
 
 0003244c <T_EXPECT149>:
-   3244c:	08 00 00 00 	shl	r0,r0
+   3244c:	00 00 00 00 	add	r0,r0
 
 00032450 <T_EXPECT150>:
-   32450:	08 00 00 00 	shl	r0,r0
+   32450:	00 00 00 00 	add	r0,r0
 
 00032454 <T_EXPECT151>:
-   32454:	08 00 00 00 	shl	r0,r0
+   32454:	00 00 00 00 	add	r0,r0
 
 00032458 <T_EXPECT152>:
-   32458:	08 00 00 00 	shl	r0,r0
+   32458:	00 00 00 00 	add	r0,r0
 
 0003245c <T_EXPECT153>:
-   3245c:	08 00 00 00 	shl	r0,r0
+   3245c:	00 00 00 00 	add	r0,r0
 
 00032460 <T_EXPECT154>:
-   32460:	08 00 00 00 	shl	r0,r0
+   32460:	00 00 00 00 	add	r0,r0
 
 00032464 <T_EXPECT155>:
-   32464:	08 00 00 00 	shl	r0,r0
+   32464:	00 00 00 00 	add	r0,r0
 
 00032468 <T_EXPECT156>:
-   32468:	08 00 00 00 	shl	r0,r0
+   32468:	00 00 00 00 	add	r0,r0
 
 0003246c <T_EXPECT157>:
-   3246c:	08 00 00 00 	shl	r0,r0
+   3246c:	00 00 00 01 	add	r0,r1
 
 00032470 <T_EXPECT158>:
-   32470:	08 00 00 00 	shl	r0,r0
+   32470:	00 00 00 02 	add	r0,r2
 
 00032474 <T_EXPECT159>:
-   32474:	08 00 00 00 	shl	r0,r0
+   32474:	00 00 00 04 	add	r0,r4
 
 00032478 <T_EXPECT160>:
-   32478:	10 00 00 00 	ld8	r0,r0
+   32478:	00 00 00 00 	add	r0,r0
 
 0003247c <T_EXPECT161>:
-   3247c:	10 00 00 00 	ld8	r0,r0
+   3247c:	00 00 00 00 	add	r0,r0
 
 00032480 <T_EXPECT162>:
-   32480:	10 00 00 00 	ld8	r0,r0
+   32480:	00 00 00 00 	add	r0,r0
 
 00032484 <T_EXPECT163>:
-   32484:	10 00 00 00 	ld8	r0,r0
+   32484:	00 00 00 00 	add	r0,r0
 
 00032488 <T_EXPECT164>:
-   32488:	10 00 00 00 	ld8	r0,r0
+   32488:	00 00 00 00 	add	r0,r0
 
 0003248c <T_EXPECT165>:
-   3248c:	10 00 00 00 	ld8	r0,r0
+   3248c:	00 00 00 00 	add	r0,r0
 
 00032490 <T_EXPECT166>:
-   32490:	10 00 00 00 	ld8	r0,r0
+   32490:	00 00 00 00 	add	r0,r0
 
 00032494 <T_EXPECT167>:
-   32494:	10 00 00 00 	ld8	r0,r0
+   32494:	00 00 00 00 	add	r0,r0
 
 00032498 <T_EXPECT168>:
-   32498:	10 00 00 00 	ld8	r0,r0
+   32498:	00 00 00 00 	add	r0,r0
 
 0003249c <T_EXPECT169>:
-   3249c:	10 00 00 00 	ld8	r0,r0
+   3249c:	00 00 00 00 	add	r0,r0
 
 000324a0 <T_EXPECT170>:
-   324a0:	10 00 00 00 	ld8	r0,r0
+   324a0:	00 00 00 00 	add	r0,r0
 
 000324a4 <T_EXPECT171>:
-   324a4:	10 00 00 00 	ld8	r0,r0
+   324a4:	00 00 00 00 	add	r0,r0
 
 000324a8 <T_EXPECT172>:
-   324a8:	10 00 00 00 	ld8	r0,r0
+   324a8:	00 00 00 00 	add	r0,r0
 
 000324ac <T_EXPECT173>:
-   324ac:	10 00 00 00 	ld8	r0,r0
+   324ac:	00 00 00 00 	add	r0,r0
 
 000324b0 <T_EXPECT174>:
-   324b0:	10 00 00 00 	ld8	r0,r0
+   324b0:	00 00 00 00 	add	r0,r0
 
 000324b4 <T_EXPECT175>:
-   324b4:	10 00 00 00 	ld8	r0,r0
+   324b4:	00 00 00 00 	add	r0,r0
 
 000324b8 <T_EXPECT176>:
-   324b8:	10 00 00 00 	ld8	r0,r0
+   324b8:	00 00 00 00 	add	r0,r0
 
 000324bc <T_EXPECT177>:
-   324bc:	10 00 00 00 	ld8	r0,r0
+   324bc:	00 00 00 00 	add	r0,r0
 
 000324c0 <T_EXPECT178>:
-   324c0:	10 00 00 00 	ld8	r0,r0
+   324c0:	00 00 00 00 	add	r0,r0
 
 000324c4 <T_EXPECT179>:
-   324c4:	10 00 00 00 	ld8	r0,r0
+   324c4:	00 00 00 00 	add	r0,r0
 
 000324c8 <T_EXPECT180>:
-   324c8:	10 00 00 00 	ld8	r0,r0
+   324c8:	00 00 00 00 	add	r0,r0
 
 000324cc <T_EXPECT181>:
-   324cc:	10 00 00 00 	ld8	r0,r0
+   324cc:	00 00 00 00 	add	r0,r0
 
 000324d0 <T_EXPECT182>:
-   324d0:	10 00 00 00 	ld8	r0,r0
+   324d0:	00 00 00 00 	add	r0,r0
 
 000324d4 <T_EXPECT183>:
-   324d4:	10 00 00 00 	ld8	r0,r0
+   324d4:	00 00 00 00 	add	r0,r0
 
 000324d8 <T_EXPECT184>:
-   324d8:	10 00 00 00 	ld8	r0,r0
+   324d8:	00 00 00 00 	add	r0,r0
 
 000324dc <T_EXPECT185>:
-   324dc:	10 00 00 00 	ld8	r0,r0
+   324dc:	00 00 00 00 	add	r0,r0
 
 000324e0 <T_EXPECT186>:
-   324e0:	10 00 00 00 	ld8	r0,r0
+   324e0:	00 00 00 00 	add	r0,r0
 
 000324e4 <T_EXPECT187>:
-   324e4:	10 00 00 00 	ld8	r0,r0
+   324e4:	00 00 00 00 	add	r0,r0
 
 000324e8 <T_EXPECT188>:
-   324e8:	10 00 00 00 	ld8	r0,r0
+   324e8:	00 00 00 01 	add	r0,r1
 
 000324ec <T_EXPECT189>:
-   324ec:	10 00 00 00 	ld8	r0,r0
+   324ec:	00 00 00 02 	add	r0,r2
 
 000324f0 <T_EXPECT190>:
-   324f0:	10 00 00 00 	ld8	r0,r0
+   324f0:	00 00 00 04 	add	r0,r4
 
 000324f4 <T_EXPECT191>:
-   324f4:	10 00 00 00 	ld8	r0,r0
+   324f4:	00 00 00 08 	add	r0,r8
 
 000324f8 <T_EXPECT192>:
-   324f8:	20 00 00 00 	nop
+   324f8:	00 00 00 00 	add	r0,r0
 
 000324fc <T_EXPECT193>:
-   324fc:	20 00 00 00 	nop
+   324fc:	00 00 00 00 	add	r0,r0
 
 00032500 <T_EXPECT194>:
-   32500:	20 00 00 00 	nop
+   32500:	00 00 00 00 	add	r0,r0
 
 00032504 <T_EXPECT195>:
-   32504:	20 00 00 00 	nop
+   32504:	00 00 00 00 	add	r0,r0
 
 00032508 <T_EXPECT196>:
-   32508:	20 00 00 00 	nop
+   32508:	00 00 00 00 	add	r0,r0
 
 0003250c <T_EXPECT197>:
-   3250c:	20 00 00 00 	nop
+   3250c:	00 00 00 00 	add	r0,r0
 
 00032510 <T_EXPECT198>:
-   32510:	20 00 00 00 	nop
+   32510:	00 00 00 00 	add	r0,r0
 
 00032514 <T_EXPECT199>:
-   32514:	20 00 00 00 	nop
+   32514:	00 00 00 00 	add	r0,r0
 
 00032518 <T_EXPECT200>:
-   32518:	20 00 00 00 	nop
+   32518:	00 00 00 00 	add	r0,r0
 
 0003251c <T_EXPECT201>:
-   3251c:	20 00 00 00 	nop
+   3251c:	00 00 00 00 	add	r0,r0
 
 00032520 <T_EXPECT202>:
-   32520:	20 00 00 00 	nop
+   32520:	00 00 00 00 	add	r0,r0
 
 00032524 <T_EXPECT203>:
-   32524:	20 00 00 00 	nop
+   32524:	00 00 00 00 	add	r0,r0
 
 00032528 <T_EXPECT204>:
-   32528:	20 00 00 00 	nop
+   32528:	00 00 00 00 	add	r0,r0
 
 0003252c <T_EXPECT205>:
-   3252c:	20 00 00 00 	nop
+   3252c:	00 00 00 00 	add	r0,r0
 
 00032530 <T_EXPECT206>:
-   32530:	20 00 00 00 	nop
+   32530:	00 00 00 00 	add	r0,r0
 
 00032534 <T_EXPECT207>:
-   32534:	20 00 00 00 	nop
+   32534:	00 00 00 00 	add	r0,r0
 
 00032538 <T_EXPECT208>:
-   32538:	20 00 00 00 	nop
+   32538:	00 00 00 00 	add	r0,r0
 
 0003253c <T_EXPECT209>:
-   3253c:	20 00 00 00 	nop
+   3253c:	00 00 00 00 	add	r0,r0
 
 00032540 <T_EXPECT210>:
-   32540:	20 00 00 00 	nop
+   32540:	00 00 00 00 	add	r0,r0
 
 00032544 <T_EXPECT211>:
-   32544:	20 00 00 00 	nop
+   32544:	00 00 00 00 	add	r0,r0
 
 00032548 <T_EXPECT212>:
-   32548:	20 00 00 00 	nop
+   32548:	00 00 00 00 	add	r0,r0
 
 0003254c <T_EXPECT213>:
-   3254c:	20 00 00 00 	nop
+   3254c:	00 00 00 00 	add	r0,r0
 
 00032550 <T_EXPECT214>:
-   32550:	20 00 00 00 	nop
+   32550:	00 00 00 00 	add	r0,r0
 
 00032554 <T_EXPECT215>:
-   32554:	20 00 00 00 	nop
+   32554:	00 00 00 00 	add	r0,r0
 
 00032558 <T_EXPECT216>:
-   32558:	20 00 00 00 	nop
+   32558:	00 00 00 00 	add	r0,r0
 
 0003255c <T_EXPECT217>:
-   3255c:	20 00 00 00 	nop
+   3255c:	00 00 00 00 	add	r0,r0
 
 00032560 <T_EXPECT218>:
-   32560:	20 00 00 00 	nop
+   32560:	00 00 00 00 	add	r0,r0
 
 00032564 <T_EXPECT219>:
-   32564:	20 00 00 00 	nop
+   32564:	00 00 00 01 	add	r0,r1
 
 00032568 <T_EXPECT220>:
-   32568:	20 00 00 00 	nop
+   32568:	00 00 00 02 	add	r0,r2
 
 0003256c <T_EXPECT221>:
-   3256c:	20 00 00 00 	nop
+   3256c:	00 00 00 04 	add	r0,r4
 
 00032570 <T_EXPECT222>:
-   32570:	20 00 00 00 	nop
+   32570:	00 00 00 08 	add	r0,r8
 
 00032574 <T_EXPECT223>:
-   32574:	20 00 00 00 	nop
+   32574:	00 00 00 10 	add	r0,r16
 
 00032578 <T_EXPECT224>:
-   32578:	40 00 00 00 	*unknown*
+   32578:	00 00 00 00 	add	r0,r0
 
 0003257c <T_EXPECT225>:
-   3257c:	40 00 00 00 	*unknown*
+   3257c:	00 00 00 00 	add	r0,r0
 
 00032580 <T_EXPECT226>:
-   32580:	40 00 00 00 	*unknown*
+   32580:	00 00 00 00 	add	r0,r0
 
 00032584 <T_EXPECT227>:
-   32584:	40 00 00 00 	*unknown*
+   32584:	00 00 00 00 	add	r0,r0
 
 00032588 <T_EXPECT228>:
-   32588:	40 00 00 00 	*unknown*
+   32588:	00 00 00 00 	add	r0,r0
 
 0003258c <T_EXPECT229>:
-   3258c:	40 00 00 00 	*unknown*
+   3258c:	00 00 00 00 	add	r0,r0
 
 00032590 <T_EXPECT230>:
-   32590:	40 00 00 00 	*unknown*
+   32590:	00 00 00 00 	add	r0,r0
 
 00032594 <T_EXPECT231>:
-   32594:	40 00 00 00 	*unknown*
+   32594:	00 00 00 00 	add	r0,r0
 
 00032598 <T_EXPECT232>:
-   32598:	40 00 00 00 	*unknown*
+   32598:	00 00 00 00 	add	r0,r0
 
 0003259c <T_EXPECT233>:
-   3259c:	40 00 00 00 	*unknown*
+   3259c:	00 00 00 00 	add	r0,r0
 
 000325a0 <T_EXPECT234>:
-   325a0:	40 00 00 00 	*unknown*
+   325a0:	00 00 00 00 	add	r0,r0
 
 000325a4 <T_EXPECT235>:
-   325a4:	40 00 00 00 	*unknown*
+   325a4:	00 00 00 00 	add	r0,r0
 
 000325a8 <T_EXPECT236>:
-   325a8:	40 00 00 00 	*unknown*
+   325a8:	00 00 00 00 	add	r0,r0
 
 000325ac <T_EXPECT237>:
-   325ac:	40 00 00 00 	*unknown*
+   325ac:	00 00 00 00 	add	r0,r0
 
 000325b0 <T_EXPECT238>:
-   325b0:	40 00 00 00 	*unknown*
+   325b0:	00 00 00 00 	add	r0,r0
 
 000325b4 <T_EXPECT239>:
-   325b4:	40 00 00 00 	*unknown*
+   325b4:	00 00 00 00 	add	r0,r0
 
 000325b8 <T_EXPECT240>:
-   325b8:	40 00 00 00 	*unknown*
+   325b8:	00 00 00 00 	add	r0,r0
 
 000325bc <T_EXPECT241>:
-   325bc:	40 00 00 00 	*unknown*
+   325bc:	00 00 00 00 	add	r0,r0
 
 000325c0 <T_EXPECT242>:
-   325c0:	40 00 00 00 	*unknown*
+   325c0:	00 00 00 00 	add	r0,r0
 
 000325c4 <T_EXPECT243>:
-   325c4:	40 00 00 00 	*unknown*
+   325c4:	00 00 00 00 	add	r0,r0
 
 000325c8 <T_EXPECT244>:
-   325c8:	40 00 00 00 	*unknown*
+   325c8:	00 00 00 00 	add	r0,r0
 
 000325cc <T_EXPECT245>:
-   325cc:	40 00 00 00 	*unknown*
+   325cc:	00 00 00 00 	add	r0,r0
 
 000325d0 <T_EXPECT246>:
-   325d0:	40 00 00 00 	*unknown*
+   325d0:	00 00 00 00 	add	r0,r0
 
 000325d4 <T_EXPECT247>:
-   325d4:	40 00 00 00 	*unknown*
+   325d4:	00 00 00 00 	add	r0,r0
 
 000325d8 <T_EXPECT248>:
-   325d8:	40 00 00 00 	*unknown*
+   325d8:	00 00 00 00 	add	r0,r0
 
 000325dc <T_EXPECT249>:
-   325dc:	40 00 00 00 	*unknown*
+   325dc:	00 00 00 00 	add	r0,r0
 
 000325e0 <T_EXPECT250>:
-   325e0:	40 00 00 00 	*unknown*
+   325e0:	00 00 00 01 	add	r0,r1
 
 000325e4 <T_EXPECT251>:
-   325e4:	40 00 00 00 	*unknown*
+   325e4:	00 00 00 02 	add	r0,r2
 
 000325e8 <T_EXPECT252>:
-   325e8:	40 00 00 00 	*unknown*
+   325e8:	00 00 00 04 	add	r0,r4
 
 000325ec <T_EXPECT253>:
-   325ec:	40 00 00 00 	*unknown*
+   325ec:	00 00 00 08 	add	r0,r8
 
 000325f0 <T_EXPECT254>:
-   325f0:	40 00 00 00 	*unknown*
+   325f0:	00 00 00 10 	add	r0,r16
 
 000325f4 <T_EXPECT255>:
-   325f4:	40 00 00 00 	*unknown*
+   325f4:	00 00 00 20 	add	r1,r0
 
 000325f8 <T_EXPECT256>:
-   325f8:	80 00 00 00 	*unknown*
+   325f8:	00 00 00 00 	add	r0,r0
 
 000325fc <T_EXPECT257>:
-   325fc:	80 00 00 00 	*unknown*
+   325fc:	00 00 00 00 	add	r0,r0
 
 00032600 <T_EXPECT258>:
-   32600:	80 00 00 00 	*unknown*
+   32600:	00 00 00 00 	add	r0,r0
 
 00032604 <T_EXPECT259>:
-   32604:	80 00 00 00 	*unknown*
+   32604:	00 00 00 00 	add	r0,r0
 
 00032608 <T_EXPECT260>:
-   32608:	80 00 00 00 	*unknown*
+   32608:	00 00 00 00 	add	r0,r0
 
 0003260c <T_EXPECT261>:
-   3260c:	80 00 00 00 	*unknown*
+   3260c:	00 00 00 00 	add	r0,r0
 
 00032610 <T_EXPECT262>:
-   32610:	80 00 00 00 	*unknown*
+   32610:	00 00 00 00 	add	r0,r0
 
 00032614 <T_EXPECT263>:
-   32614:	80 00 00 00 	*unknown*
+   32614:	00 00 00 00 	add	r0,r0
 
 00032618 <T_EXPECT264>:
-   32618:	80 00 00 00 	*unknown*
+   32618:	00 00 00 00 	add	r0,r0
 
 0003261c <T_EXPECT265>:
-   3261c:	80 00 00 00 	*unknown*
+   3261c:	00 00 00 00 	add	r0,r0
 
 00032620 <T_EXPECT266>:
-   32620:	80 00 00 00 	*unknown*
+   32620:	00 00 00 00 	add	r0,r0
 
 00032624 <T_EXPECT267>:
-   32624:	80 00 00 00 	*unknown*
+   32624:	00 00 00 00 	add	r0,r0
 
 00032628 <T_EXPECT268>:
-   32628:	80 00 00 00 	*unknown*
+   32628:	00 00 00 00 	add	r0,r0
 
 0003262c <T_EXPECT269>:
-   3262c:	80 00 00 00 	*unknown*
+   3262c:	00 00 00 00 	add	r0,r0
 
 00032630 <T_EXPECT270>:
-   32630:	80 00 00 00 	*unknown*
+   32630:	00 00 00 00 	add	r0,r0
 
 00032634 <T_EXPECT271>:
-   32634:	80 00 00 00 	*unknown*
+   32634:	00 00 00 00 	add	r0,r0
 
 00032638 <T_EXPECT272>:
-   32638:	80 00 00 00 	*unknown*
+   32638:	00 00 00 00 	add	r0,r0
 
 0003263c <T_EXPECT273>:
-   3263c:	80 00 00 00 	*unknown*
+   3263c:	00 00 00 00 	add	r0,r0
 
 00032640 <T_EXPECT274>:
-   32640:	80 00 00 00 	*unknown*
+   32640:	00 00 00 00 	add	r0,r0
 
 00032644 <T_EXPECT275>:
-   32644:	80 00 00 00 	*unknown*
+   32644:	00 00 00 00 	add	r0,r0
 
 00032648 <T_EXPECT276>:
-   32648:	80 00 00 00 	*unknown*
+   32648:	00 00 00 00 	add	r0,r0
 
 0003264c <T_EXPECT277>:
-   3264c:	80 00 00 00 	*unknown*
+   3264c:	00 00 00 00 	add	r0,r0
 
 00032650 <T_EXPECT278>:
-   32650:	80 00 00 00 	*unknown*
+   32650:	00 00 00 00 	add	r0,r0
 
 00032654 <T_EXPECT279>:
-   32654:	80 00 00 00 	*unknown*
+   32654:	00 00 00 00 	add	r0,r0
 
 00032658 <T_EXPECT280>:
-   32658:	80 00 00 00 	*unknown*
+   32658:	00 00 00 00 	add	r0,r0
 
 0003265c <T_EXPECT281>:
-   3265c:	80 00 00 00 	*unknown*
+   3265c:	00 00 00 01 	add	r0,r1
 
 00032660 <T_EXPECT282>:
-   32660:	80 00 00 00 	*unknown*
+   32660:	00 00 00 02 	add	r0,r2
 
 00032664 <T_EXPECT283>:
-   32664:	80 00 00 00 	*unknown*
+   32664:	00 00 00 04 	add	r0,r4
 
 00032668 <T_EXPECT284>:
-   32668:	80 00 00 00 	*unknown*
+   32668:	00 00 00 08 	add	r0,r8
 
 0003266c <T_EXPECT285>:
-   3266c:	80 00 00 00 	*unknown*
+   3266c:	00 00 00 10 	add	r0,r16
 
 00032670 <T_EXPECT286>:
-   32670:	80 00 00 00 	*unknown*
+   32670:	00 00 00 20 	add	r1,r0
 
 00032674 <T_EXPECT287>:
-   32674:	80 00 00 00 	*unknown*
+   32674:	00 00 00 40 	add	r2,r0
 
 00032678 <T_EXPECT288>:
-   32678:	00 01 00 00 	*unknown*
+   32678:	00 00 00 00 	add	r0,r0
 
 0003267c <T_EXPECT289>:
-   3267c:	00 01 00 00 	*unknown*
+   3267c:	00 00 00 00 	add	r0,r0
 
 00032680 <T_EXPECT290>:
-   32680:	00 01 00 00 	*unknown*
+   32680:	00 00 00 00 	add	r0,r0
 
 00032684 <T_EXPECT291>:
-   32684:	00 01 00 00 	*unknown*
+   32684:	00 00 00 00 	add	r0,r0
 
 00032688 <T_EXPECT292>:
-   32688:	00 01 00 00 	*unknown*
+   32688:	00 00 00 00 	add	r0,r0
 
 0003268c <T_EXPECT293>:
-   3268c:	00 01 00 00 	*unknown*
+   3268c:	00 00 00 00 	add	r0,r0
 
 00032690 <T_EXPECT294>:
-   32690:	00 01 00 00 	*unknown*
+   32690:	00 00 00 00 	add	r0,r0
 
 00032694 <T_EXPECT295>:
-   32694:	00 01 00 00 	*unknown*
+   32694:	00 00 00 00 	add	r0,r0
 
 00032698 <T_EXPECT296>:
-   32698:	00 01 00 00 	*unknown*
+   32698:	00 00 00 00 	add	r0,r0
 
 0003269c <T_EXPECT297>:
-   3269c:	00 01 00 00 	*unknown*
+   3269c:	00 00 00 00 	add	r0,r0
 
 000326a0 <T_EXPECT298>:
-   326a0:	00 01 00 00 	*unknown*
+   326a0:	00 00 00 00 	add	r0,r0
 
 000326a4 <T_EXPECT299>:
-   326a4:	00 01 00 00 	*unknown*
+   326a4:	00 00 00 00 	add	r0,r0
 
 000326a8 <T_EXPECT300>:
-   326a8:	00 01 00 00 	*unknown*
+   326a8:	00 00 00 00 	add	r0,r0
 
 000326ac <T_EXPECT301>:
-   326ac:	00 01 00 00 	*unknown*
+   326ac:	00 00 00 00 	add	r0,r0
 
 000326b0 <T_EXPECT302>:
-   326b0:	00 01 00 00 	*unknown*
+   326b0:	00 00 00 00 	add	r0,r0
 
 000326b4 <T_EXPECT303>:
-   326b4:	00 01 00 00 	*unknown*
+   326b4:	00 00 00 00 	add	r0,r0
 
 000326b8 <T_EXPECT304>:
-   326b8:	00 01 00 00 	*unknown*
+   326b8:	00 00 00 00 	add	r0,r0
 
 000326bc <T_EXPECT305>:
-   326bc:	00 01 00 00 	*unknown*
+   326bc:	00 00 00 00 	add	r0,r0
 
 000326c0 <T_EXPECT306>:
-   326c0:	00 01 00 00 	*unknown*
+   326c0:	00 00 00 00 	add	r0,r0
 
 000326c4 <T_EXPECT307>:
-   326c4:	00 01 00 00 	*unknown*
+   326c4:	00 00 00 00 	add	r0,r0
 
 000326c8 <T_EXPECT308>:
-   326c8:	00 01 00 00 	*unknown*
+   326c8:	00 00 00 00 	add	r0,r0
 
 000326cc <T_EXPECT309>:
-   326cc:	00 01 00 00 	*unknown*
+   326cc:	00 00 00 00 	add	r0,r0
 
 000326d0 <T_EXPECT310>:
-   326d0:	00 01 00 00 	*unknown*
+   326d0:	00 00 00 00 	add	r0,r0
 
 000326d4 <T_EXPECT311>:
-   326d4:	00 01 00 00 	*unknown*
+   326d4:	00 00 00 00 	add	r0,r0
 
 000326d8 <T_EXPECT312>:
-   326d8:	00 01 00 00 	*unknown*
+   326d8:	00 00 00 01 	add	r0,r1
 
 000326dc <T_EXPECT313>:
-   326dc:	00 01 00 00 	*unknown*
+   326dc:	00 00 00 02 	add	r0,r2
 
 000326e0 <T_EXPECT314>:
-   326e0:	00 01 00 00 	*unknown*
+   326e0:	00 00 00 04 	add	r0,r4
 
 000326e4 <T_EXPECT315>:
-   326e4:	00 01 00 00 	*unknown*
+   326e4:	00 00 00 08 	add	r0,r8
 
 000326e8 <T_EXPECT316>:
-   326e8:	00 01 00 00 	*unknown*
+   326e8:	00 00 00 10 	add	r0,r16
 
 000326ec <T_EXPECT317>:
-   326ec:	00 01 00 00 	*unknown*
+   326ec:	00 00 00 20 	add	r1,r0
 
 000326f0 <T_EXPECT318>:
-   326f0:	00 01 00 00 	*unknown*
+   326f0:	00 00 00 40 	add	r2,r0
 
 000326f4 <T_EXPECT319>:
-   326f4:	00 01 00 00 	*unknown*
+   326f4:	00 00 00 80 	add	r4,r0
 
 000326f8 <T_EXPECT320>:
-   326f8:	00 02 00 00 	*unknown*
+   326f8:	00 00 00 00 	add	r0,r0
 
 000326fc <T_EXPECT321>:
-   326fc:	00 02 00 00 	*unknown*
+   326fc:	00 00 00 00 	add	r0,r0
 
 00032700 <T_EXPECT322>:
-   32700:	00 02 00 00 	*unknown*
+   32700:	00 00 00 00 	add	r0,r0
 
 00032704 <T_EXPECT323>:
-   32704:	00 02 00 00 	*unknown*
+   32704:	00 00 00 00 	add	r0,r0
 
 00032708 <T_EXPECT324>:
-   32708:	00 02 00 00 	*unknown*
+   32708:	00 00 00 00 	add	r0,r0
 
 0003270c <T_EXPECT325>:
-   3270c:	00 02 00 00 	*unknown*
+   3270c:	00 00 00 00 	add	r0,r0
 
 00032710 <T_EXPECT326>:
-   32710:	00 02 00 00 	*unknown*
+   32710:	00 00 00 00 	add	r0,r0
 
 00032714 <T_EXPECT327>:
-   32714:	00 02 00 00 	*unknown*
+   32714:	00 00 00 00 	add	r0,r0
 
 00032718 <T_EXPECT328>:
-   32718:	00 02 00 00 	*unknown*
+   32718:	00 00 00 00 	add	r0,r0
 
 0003271c <T_EXPECT329>:
-   3271c:	00 02 00 00 	*unknown*
+   3271c:	00 00 00 00 	add	r0,r0
 
 00032720 <T_EXPECT330>:
-   32720:	00 02 00 00 	*unknown*
+   32720:	00 00 00 00 	add	r0,r0
 
 00032724 <T_EXPECT331>:
-   32724:	00 02 00 00 	*unknown*
+   32724:	00 00 00 00 	add	r0,r0
 
 00032728 <T_EXPECT332>:
-   32728:	00 02 00 00 	*unknown*
+   32728:	00 00 00 00 	add	r0,r0
 
 0003272c <T_EXPECT333>:
-   3272c:	00 02 00 00 	*unknown*
+   3272c:	00 00 00 00 	add	r0,r0
 
 00032730 <T_EXPECT334>:
-   32730:	00 02 00 00 	*unknown*
+   32730:	00 00 00 00 	add	r0,r0
 
 00032734 <T_EXPECT335>:
-   32734:	00 02 00 00 	*unknown*
+   32734:	00 00 00 00 	add	r0,r0
 
 00032738 <T_EXPECT336>:
-   32738:	00 02 00 00 	*unknown*
+   32738:	00 00 00 00 	add	r0,r0
 
 0003273c <T_EXPECT337>:
-   3273c:	00 02 00 00 	*unknown*
+   3273c:	00 00 00 00 	add	r0,r0
 
 00032740 <T_EXPECT338>:
-   32740:	00 02 00 00 	*unknown*
+   32740:	00 00 00 00 	add	r0,r0
 
 00032744 <T_EXPECT339>:
-   32744:	00 02 00 00 	*unknown*
+   32744:	00 00 00 00 	add	r0,r0
 
 00032748 <T_EXPECT340>:
-   32748:	00 02 00 00 	*unknown*
+   32748:	00 00 00 00 	add	r0,r0
 
 0003274c <T_EXPECT341>:
-   3274c:	00 02 00 00 	*unknown*
+   3274c:	00 00 00 00 	add	r0,r0
 
 00032750 <T_EXPECT342>:
-   32750:	00 02 00 00 	*unknown*
+   32750:	00 00 00 00 	add	r0,r0
 
 00032754 <T_EXPECT343>:
-   32754:	00 02 00 00 	*unknown*
+   32754:	00 00 00 01 	add	r0,r1
 
 00032758 <T_EXPECT344>:
-   32758:	00 02 00 00 	*unknown*
+   32758:	00 00 00 02 	add	r0,r2
 
 0003275c <T_EXPECT345>:
-   3275c:	00 02 00 00 	*unknown*
+   3275c:	00 00 00 04 	add	r0,r4
 
 00032760 <T_EXPECT346>:
-   32760:	00 02 00 00 	*unknown*
+   32760:	00 00 00 08 	add	r0,r8
 
 00032764 <T_EXPECT347>:
-   32764:	00 02 00 00 	*unknown*
+   32764:	00 00 00 10 	add	r0,r16
 
 00032768 <T_EXPECT348>:
-   32768:	00 02 00 00 	*unknown*
+   32768:	00 00 00 20 	add	r1,r0
 
 0003276c <T_EXPECT349>:
-   3276c:	00 02 00 00 	*unknown*
+   3276c:	00 00 00 40 	add	r2,r0
 
 00032770 <T_EXPECT350>:
-   32770:	00 02 00 00 	*unknown*
+   32770:	00 00 00 80 	add	r4,r0
 
 00032774 <T_EXPECT351>:
-   32774:	00 02 00 00 	*unknown*
+   32774:	00 00 01 00 	add	r8,r0
 
 00032778 <T_EXPECT352>:
-   32778:	00 04 00 00 	*unknown*
+   32778:	00 00 00 00 	add	r0,r0
 
 0003277c <T_EXPECT353>:
-   3277c:	00 04 00 00 	*unknown*
+   3277c:	00 00 00 00 	add	r0,r0
 
 00032780 <T_EXPECT354>:
-   32780:	00 04 00 00 	*unknown*
+   32780:	00 00 00 00 	add	r0,r0
 
 00032784 <T_EXPECT355>:
-   32784:	00 04 00 00 	*unknown*
+   32784:	00 00 00 00 	add	r0,r0
 
 00032788 <T_EXPECT356>:
-   32788:	00 04 00 00 	*unknown*
+   32788:	00 00 00 00 	add	r0,r0
 
 0003278c <T_EXPECT357>:
-   3278c:	00 04 00 00 	*unknown*
+   3278c:	00 00 00 00 	add	r0,r0
 
 00032790 <T_EXPECT358>:
-   32790:	00 04 00 00 	*unknown*
+   32790:	00 00 00 00 	add	r0,r0
 
 00032794 <T_EXPECT359>:
-   32794:	00 04 00 00 	*unknown*
+   32794:	00 00 00 00 	add	r0,r0
 
 00032798 <T_EXPECT360>:
-   32798:	00 04 00 00 	*unknown*
+   32798:	00 00 00 00 	add	r0,r0
 
 0003279c <T_EXPECT361>:
-   3279c:	00 04 00 00 	*unknown*
+   3279c:	00 00 00 00 	add	r0,r0
 
 000327a0 <T_EXPECT362>:
-   327a0:	00 04 00 00 	*unknown*
+   327a0:	00 00 00 00 	add	r0,r0
 
 000327a4 <T_EXPECT363>:
-   327a4:	00 04 00 00 	*unknown*
+   327a4:	00 00 00 00 	add	r0,r0
 
 000327a8 <T_EXPECT364>:
-   327a8:	00 04 00 00 	*unknown*
+   327a8:	00 00 00 00 	add	r0,r0
 
 000327ac <T_EXPECT365>:
-   327ac:	00 04 00 00 	*unknown*
+   327ac:	00 00 00 00 	add	r0,r0
 
 000327b0 <T_EXPECT366>:
-   327b0:	00 04 00 00 	*unknown*
+   327b0:	00 00 00 00 	add	r0,r0
 
 000327b4 <T_EXPECT367>:
-   327b4:	00 04 00 00 	*unknown*
+   327b4:	00 00 00 00 	add	r0,r0
 
 000327b8 <T_EXPECT368>:
-   327b8:	00 04 00 00 	*unknown*
+   327b8:	00 00 00 00 	add	r0,r0
 
 000327bc <T_EXPECT369>:
-   327bc:	00 04 00 00 	*unknown*
+   327bc:	00 00 00 00 	add	r0,r0
 
 000327c0 <T_EXPECT370>:
-   327c0:	00 04 00 00 	*unknown*
+   327c0:	00 00 00 00 	add	r0,r0
 
 000327c4 <T_EXPECT371>:
-   327c4:	00 04 00 00 	*unknown*
+   327c4:	00 00 00 00 	add	r0,r0
 
 000327c8 <T_EXPECT372>:
-   327c8:	00 04 00 00 	*unknown*
+   327c8:	00 00 00 00 	add	r0,r0
 
 000327cc <T_EXPECT373>:
-   327cc:	00 04 00 00 	*unknown*
+   327cc:	00 00 00 00 	add	r0,r0
 
 000327d0 <T_EXPECT374>:
-   327d0:	00 04 00 00 	*unknown*
+   327d0:	00 00 00 01 	add	r0,r1
 
 000327d4 <T_EXPECT375>:
-   327d4:	00 04 00 00 	*unknown*
+   327d4:	00 00 00 02 	add	r0,r2
 
 000327d8 <T_EXPECT376>:
-   327d8:	00 04 00 00 	*unknown*
+   327d8:	00 00 00 04 	add	r0,r4
 
 000327dc <T_EXPECT377>:
-   327dc:	00 04 00 00 	*unknown*
+   327dc:	00 00 00 08 	add	r0,r8
 
 000327e0 <T_EXPECT378>:
-   327e0:	00 04 00 00 	*unknown*
+   327e0:	00 00 00 10 	add	r0,r16
 
 000327e4 <T_EXPECT379>:
-   327e4:	00 04 00 00 	*unknown*
+   327e4:	00 00 00 20 	add	r1,r0
 
 000327e8 <T_EXPECT380>:
-   327e8:	00 04 00 00 	*unknown*
+   327e8:	00 00 00 40 	add	r2,r0
 
 000327ec <T_EXPECT381>:
-   327ec:	00 04 00 00 	*unknown*
+   327ec:	00 00 00 80 	add	r4,r0
 
 000327f0 <T_EXPECT382>:
-   327f0:	00 04 00 00 	*unknown*
+   327f0:	00 00 01 00 	add	r8,r0
 
 000327f4 <T_EXPECT383>:
-   327f4:	00 04 00 00 	*unknown*
+   327f4:	00 00 02 00 	add	r16,r0
 
 000327f8 <T_EXPECT384>:
-   327f8:	00 08 00 00 	*unknown*
+   327f8:	00 00 00 00 	add	r0,r0
 
 000327fc <T_EXPECT385>:
-   327fc:	00 08 00 00 	*unknown*
+   327fc:	00 00 00 00 	add	r0,r0
 
 00032800 <T_EXPECT386>:
-   32800:	00 08 00 00 	*unknown*
+   32800:	00 00 00 00 	add	r0,r0
 
 00032804 <T_EXPECT387>:
-   32804:	00 08 00 00 	*unknown*
+   32804:	00 00 00 00 	add	r0,r0
 
 00032808 <T_EXPECT388>:
-   32808:	00 08 00 00 	*unknown*
+   32808:	00 00 00 00 	add	r0,r0
 
 0003280c <T_EXPECT389>:
-   3280c:	00 08 00 00 	*unknown*
+   3280c:	00 00 00 00 	add	r0,r0
 
 00032810 <T_EXPECT390>:
-   32810:	00 08 00 00 	*unknown*
+   32810:	00 00 00 00 	add	r0,r0
 
 00032814 <T_EXPECT391>:
-   32814:	00 08 00 00 	*unknown*
+   32814:	00 00 00 00 	add	r0,r0
 
 00032818 <T_EXPECT392>:
-   32818:	00 08 00 00 	*unknown*
+   32818:	00 00 00 00 	add	r0,r0
 
 0003281c <T_EXPECT393>:
-   3281c:	00 08 00 00 	*unknown*
+   3281c:	00 00 00 00 	add	r0,r0
 
 00032820 <T_EXPECT394>:
-   32820:	00 08 00 00 	*unknown*
+   32820:	00 00 00 00 	add	r0,r0
 
 00032824 <T_EXPECT395>:
-   32824:	00 08 00 00 	*unknown*
+   32824:	00 00 00 00 	add	r0,r0
 
 00032828 <T_EXPECT396>:
-   32828:	00 08 00 00 	*unknown*
+   32828:	00 00 00 00 	add	r0,r0
 
 0003282c <T_EXPECT397>:
-   3282c:	00 08 00 00 	*unknown*
+   3282c:	00 00 00 00 	add	r0,r0
 
 00032830 <T_EXPECT398>:
-   32830:	00 08 00 00 	*unknown*
+   32830:	00 00 00 00 	add	r0,r0
 
 00032834 <T_EXPECT399>:
-   32834:	00 08 00 00 	*unknown*
+   32834:	00 00 00 00 	add	r0,r0
 
 00032838 <T_EXPECT400>:
-   32838:	00 08 00 00 	*unknown*
+   32838:	00 00 00 00 	add	r0,r0
 
 0003283c <T_EXPECT401>:
-   3283c:	00 08 00 00 	*unknown*
+   3283c:	00 00 00 00 	add	r0,r0
 
 00032840 <T_EXPECT402>:
-   32840:	00 08 00 00 	*unknown*
+   32840:	00 00 00 00 	add	r0,r0
 
 00032844 <T_EXPECT403>:
-   32844:	00 08 00 00 	*unknown*
+   32844:	00 00 00 00 	add	r0,r0
 
 00032848 <T_EXPECT404>:
-   32848:	00 08 00 00 	*unknown*
+   32848:	00 00 00 00 	add	r0,r0
 
 0003284c <T_EXPECT405>:
-   3284c:	00 08 00 00 	*unknown*
+   3284c:	00 00 00 01 	add	r0,r1
 
 00032850 <T_EXPECT406>:
-   32850:	00 08 00 00 	*unknown*
+   32850:	00 00 00 02 	add	r0,r2
 
 00032854 <T_EXPECT407>:
-   32854:	00 08 00 00 	*unknown*
+   32854:	00 00 00 04 	add	r0,r4
 
 00032858 <T_EXPECT408>:
-   32858:	00 08 00 00 	*unknown*
+   32858:	00 00 00 08 	add	r0,r8
 
 0003285c <T_EXPECT409>:
-   3285c:	00 08 00 00 	*unknown*
+   3285c:	00 00 00 10 	add	r0,r16
 
 00032860 <T_EXPECT410>:
-   32860:	00 08 00 00 	*unknown*
+   32860:	00 00 00 20 	add	r1,r0
 
 00032864 <T_EXPECT411>:
-   32864:	00 08 00 00 	*unknown*
+   32864:	00 00 00 40 	add	r2,r0
 
 00032868 <T_EXPECT412>:
-   32868:	00 08 00 00 	*unknown*
+   32868:	00 00 00 80 	add	r4,r0
 
 0003286c <T_EXPECT413>:
-   3286c:	00 08 00 00 	*unknown*
+   3286c:	00 00 01 00 	add	r8,r0
 
 00032870 <T_EXPECT414>:
-   32870:	00 08 00 00 	*unknown*
+   32870:	00 00 02 00 	add	r16,r0
 
 00032874 <T_EXPECT415>:
-   32874:	00 08 00 00 	*unknown*
+   32874:	00 00 04 00 	*unknown*
 
 00032878 <T_EXPECT416>:
-   32878:	00 10 00 00 	add	r0,0
+   32878:	00 00 00 00 	add	r0,r0
 
 0003287c <T_EXPECT417>:
-   3287c:	00 10 00 00 	add	r0,0
+   3287c:	00 00 00 00 	add	r0,r0
 
 00032880 <T_EXPECT418>:
-   32880:	00 10 00 00 	add	r0,0
+   32880:	00 00 00 00 	add	r0,r0
 
 00032884 <T_EXPECT419>:
-   32884:	00 10 00 00 	add	r0,0
+   32884:	00 00 00 00 	add	r0,r0
 
 00032888 <T_EXPECT420>:
-   32888:	00 10 00 00 	add	r0,0
+   32888:	00 00 00 00 	add	r0,r0
 
 0003288c <T_EXPECT421>:
-   3288c:	00 10 00 00 	add	r0,0
+   3288c:	00 00 00 00 	add	r0,r0
 
 00032890 <T_EXPECT422>:
-   32890:	00 10 00 00 	add	r0,0
+   32890:	00 00 00 00 	add	r0,r0
 
 00032894 <T_EXPECT423>:
-   32894:	00 10 00 00 	add	r0,0
+   32894:	00 00 00 00 	add	r0,r0
 
 00032898 <T_EXPECT424>:
-   32898:	00 10 00 00 	add	r0,0
+   32898:	00 00 00 00 	add	r0,r0
 
 0003289c <T_EXPECT425>:
-   3289c:	00 10 00 00 	add	r0,0
+   3289c:	00 00 00 00 	add	r0,r0
 
 000328a0 <T_EXPECT426>:
-   328a0:	00 10 00 00 	add	r0,0
+   328a0:	00 00 00 00 	add	r0,r0
 
 000328a4 <T_EXPECT427>:
-   328a4:	00 10 00 00 	add	r0,0
+   328a4:	00 00 00 00 	add	r0,r0
 
 000328a8 <T_EXPECT428>:
-   328a8:	00 10 00 00 	add	r0,0
+   328a8:	00 00 00 00 	add	r0,r0
 
 000328ac <T_EXPECT429>:
-   328ac:	00 10 00 00 	add	r0,0
+   328ac:	00 00 00 00 	add	r0,r0
 
 000328b0 <T_EXPECT430>:
-   328b0:	00 10 00 00 	add	r0,0
+   328b0:	00 00 00 00 	add	r0,r0
 
 000328b4 <T_EXPECT431>:
-   328b4:	00 10 00 00 	add	r0,0
+   328b4:	00 00 00 00 	add	r0,r0
 
 000328b8 <T_EXPECT432>:
-   328b8:	00 10 00 00 	add	r0,0
+   328b8:	00 00 00 00 	add	r0,r0
 
 000328bc <T_EXPECT433>:
-   328bc:	00 10 00 00 	add	r0,0
+   328bc:	00 00 00 00 	add	r0,r0
 
 000328c0 <T_EXPECT434>:
-   328c0:	00 10 00 00 	add	r0,0
+   328c0:	00 00 00 00 	add	r0,r0
 
 000328c4 <T_EXPECT435>:
-   328c4:	00 10 00 00 	add	r0,0
+   328c4:	00 00 00 00 	add	r0,r0
 
 000328c8 <T_EXPECT436>:
-   328c8:	00 10 00 00 	add	r0,0
+   328c8:	00 00 00 01 	add	r0,r1
 
 000328cc <T_EXPECT437>:
-   328cc:	00 10 00 00 	add	r0,0
+   328cc:	00 00 00 02 	add	r0,r2
 
 000328d0 <T_EXPECT438>:
-   328d0:	00 10 00 00 	add	r0,0
+   328d0:	00 00 00 04 	add	r0,r4
 
 000328d4 <T_EXPECT439>:
-   328d4:	00 10 00 00 	add	r0,0
+   328d4:	00 00 00 08 	add	r0,r8
 
 000328d8 <T_EXPECT440>:
-   328d8:	00 10 00 00 	add	r0,0
+   328d8:	00 00 00 10 	add	r0,r16
 
 000328dc <T_EXPECT441>:
-   328dc:	00 10 00 00 	add	r0,0
+   328dc:	00 00 00 20 	add	r1,r0
 
 000328e0 <T_EXPECT442>:
-   328e0:	00 10 00 00 	add	r0,0
+   328e0:	00 00 00 40 	add	r2,r0
 
 000328e4 <T_EXPECT443>:
-   328e4:	00 10 00 00 	add	r0,0
+   328e4:	00 00 00 80 	add	r4,r0
 
 000328e8 <T_EXPECT444>:
-   328e8:	00 10 00 00 	add	r0,0
+   328e8:	00 00 01 00 	add	r8,r0
 
 000328ec <T_EXPECT445>:
-   328ec:	00 10 00 00 	add	r0,0
+   328ec:	00 00 02 00 	add	r16,r0
 
 000328f0 <T_EXPECT446>:
-   328f0:	00 10 00 00 	add	r0,0
+   328f0:	00 00 04 00 	*unknown*
 
 000328f4 <T_EXPECT447>:
-   328f4:	00 10 00 00 	add	r0,0
+   328f4:	00 00 08 00 	*unknown*
 
 000328f8 <T_EXPECT448>:
-   328f8:	00 20 00 00 	sub	r0,r0
+   328f8:	00 00 00 00 	add	r0,r0
 
 000328fc <T_EXPECT449>:
-   328fc:	00 20 00 00 	sub	r0,r0
+   328fc:	00 00 00 00 	add	r0,r0
 
 00032900 <T_EXPECT450>:
-   32900:	00 20 00 00 	sub	r0,r0
+   32900:	00 00 00 00 	add	r0,r0
 
 00032904 <T_EXPECT451>:
-   32904:	00 20 00 00 	sub	r0,r0
+   32904:	00 00 00 00 	add	r0,r0
 
 00032908 <T_EXPECT452>:
-   32908:	00 20 00 00 	sub	r0,r0
+   32908:	00 00 00 00 	add	r0,r0
 
 0003290c <T_EXPECT453>:
-   3290c:	00 20 00 00 	sub	r0,r0
+   3290c:	00 00 00 00 	add	r0,r0
 
 00032910 <T_EXPECT454>:
-   32910:	00 20 00 00 	sub	r0,r0
+   32910:	00 00 00 00 	add	r0,r0
 
 00032914 <T_EXPECT455>:
-   32914:	00 20 00 00 	sub	r0,r0
+   32914:	00 00 00 00 	add	r0,r0
 
 00032918 <T_EXPECT456>:
-   32918:	00 20 00 00 	sub	r0,r0
+   32918:	00 00 00 00 	add	r0,r0
 
 0003291c <T_EXPECT457>:
-   3291c:	00 20 00 00 	sub	r0,r0
+   3291c:	00 00 00 00 	add	r0,r0
 
 00032920 <T_EXPECT458>:
-   32920:	00 20 00 00 	sub	r0,r0
+   32920:	00 00 00 00 	add	r0,r0
 
 00032924 <T_EXPECT459>:
-   32924:	00 20 00 00 	sub	r0,r0
+   32924:	00 00 00 00 	add	r0,r0
 
 00032928 <T_EXPECT460>:
-   32928:	00 20 00 00 	sub	r0,r0
+   32928:	00 00 00 00 	add	r0,r0
 
 0003292c <T_EXPECT461>:
-   3292c:	00 20 00 00 	sub	r0,r0
+   3292c:	00 00 00 00 	add	r0,r0
 
 00032930 <T_EXPECT462>:
-   32930:	00 20 00 00 	sub	r0,r0
+   32930:	00 00 00 00 	add	r0,r0
 
 00032934 <T_EXPECT463>:
-   32934:	00 20 00 00 	sub	r0,r0
+   32934:	00 00 00 00 	add	r0,r0
 
 00032938 <T_EXPECT464>:
-   32938:	00 20 00 00 	sub	r0,r0
+   32938:	00 00 00 00 	add	r0,r0
 
 0003293c <T_EXPECT465>:
-   3293c:	00 20 00 00 	sub	r0,r0
+   3293c:	00 00 00 00 	add	r0,r0
 
 00032940 <T_EXPECT466>:
-   32940:	00 20 00 00 	sub	r0,r0
+   32940:	00 00 00 00 	add	r0,r0
 
 00032944 <T_EXPECT467>:
-   32944:	00 20 00 00 	sub	r0,r0
+   32944:	00 00 00 01 	add	r0,r1
 
 00032948 <T_EXPECT468>:
-   32948:	00 20 00 00 	sub	r0,r0
+   32948:	00 00 00 02 	add	r0,r2
 
 0003294c <T_EXPECT469>:
-   3294c:	00 20 00 00 	sub	r0,r0
+   3294c:	00 00 00 04 	add	r0,r4
 
 00032950 <T_EXPECT470>:
-   32950:	00 20 00 00 	sub	r0,r0
+   32950:	00 00 00 08 	add	r0,r8
 
 00032954 <T_EXPECT471>:
-   32954:	00 20 00 00 	sub	r0,r0
+   32954:	00 00 00 10 	add	r0,r16
 
 00032958 <T_EXPECT472>:
-   32958:	00 20 00 00 	sub	r0,r0
+   32958:	00 00 00 20 	add	r1,r0
 
 0003295c <T_EXPECT473>:
-   3295c:	00 20 00 00 	sub	r0,r0
+   3295c:	00 00 00 40 	add	r2,r0
 
 00032960 <T_EXPECT474>:
-   32960:	00 20 00 00 	sub	r0,r0
+   32960:	00 00 00 80 	add	r4,r0
 
 00032964 <T_EXPECT475>:
-   32964:	00 20 00 00 	sub	r0,r0
+   32964:	00 00 01 00 	add	r8,r0
 
 00032968 <T_EXPECT476>:
-   32968:	00 20 00 00 	sub	r0,r0
+   32968:	00 00 02 00 	add	r16,r0
 
 0003296c <T_EXPECT477>:
-   3296c:	00 20 00 00 	sub	r0,r0
+   3296c:	00 00 04 00 	*unknown*
 
 00032970 <T_EXPECT478>:
-   32970:	00 20 00 00 	sub	r0,r0
+   32970:	00 00 08 00 	*unknown*
 
 00032974 <T_EXPECT479>:
-   32974:	00 20 00 00 	sub	r0,r0
+   32974:	00 00 10 00 	*unknown*
 
 00032978 <T_EXPECT480>:
-   32978:	00 40 00 00 	mull	r0,r0
+   32978:	00 00 00 00 	add	r0,r0
 
 0003297c <T_EXPECT481>:
-   3297c:	00 40 00 00 	mull	r0,r0
+   3297c:	00 00 00 00 	add	r0,r0
 
 00032980 <T_EXPECT482>:
-   32980:	00 40 00 00 	mull	r0,r0
+   32980:	00 00 00 00 	add	r0,r0
 
 00032984 <T_EXPECT483>:
-   32984:	00 40 00 00 	mull	r0,r0
+   32984:	00 00 00 00 	add	r0,r0
 
 00032988 <T_EXPECT484>:
-   32988:	00 40 00 00 	mull	r0,r0
+   32988:	00 00 00 00 	add	r0,r0
 
 0003298c <T_EXPECT485>:
-   3298c:	00 40 00 00 	mull	r0,r0
+   3298c:	00 00 00 00 	add	r0,r0
 
 00032990 <T_EXPECT486>:
-   32990:	00 40 00 00 	mull	r0,r0
+   32990:	00 00 00 00 	add	r0,r0
 
 00032994 <T_EXPECT487>:
-   32994:	00 40 00 00 	mull	r0,r0
+   32994:	00 00 00 00 	add	r0,r0
 
 00032998 <T_EXPECT488>:
-   32998:	00 40 00 00 	mull	r0,r0
+   32998:	00 00 00 00 	add	r0,r0
 
 0003299c <T_EXPECT489>:
-   3299c:	00 40 00 00 	mull	r0,r0
+   3299c:	00 00 00 00 	add	r0,r0
 
 000329a0 <T_EXPECT490>:
-   329a0:	00 40 00 00 	mull	r0,r0
+   329a0:	00 00 00 00 	add	r0,r0
 
 000329a4 <T_EXPECT491>:
-   329a4:	00 40 00 00 	mull	r0,r0
+   329a4:	00 00 00 00 	add	r0,r0
 
 000329a8 <T_EXPECT492>:
-   329a8:	00 40 00 00 	mull	r0,r0
+   329a8:	00 00 00 00 	add	r0,r0
 
 000329ac <T_EXPECT493>:
-   329ac:	00 40 00 00 	mull	r0,r0
+   329ac:	00 00 00 00 	add	r0,r0
 
 000329b0 <T_EXPECT494>:
-   329b0:	00 40 00 00 	mull	r0,r0
+   329b0:	00 00 00 00 	add	r0,r0
 
 000329b4 <T_EXPECT495>:
-   329b4:	00 40 00 00 	mull	r0,r0
+   329b4:	00 00 00 00 	add	r0,r0
 
 000329b8 <T_EXPECT496>:
-   329b8:	00 40 00 00 	mull	r0,r0
+   329b8:	00 00 00 00 	add	r0,r0
 
 000329bc <T_EXPECT497>:
-   329bc:	00 40 00 00 	mull	r0,r0
+   329bc:	00 00 00 00 	add	r0,r0
 
 000329c0 <T_EXPECT498>:
-   329c0:	00 40 00 00 	mull	r0,r0
+   329c0:	00 00 00 01 	add	r0,r1
 
 000329c4 <T_EXPECT499>:
-   329c4:	00 40 00 00 	mull	r0,r0
+   329c4:	00 00 00 02 	add	r0,r2
 
 000329c8 <T_EXPECT500>:
-   329c8:	00 40 00 00 	mull	r0,r0
+   329c8:	00 00 00 04 	add	r0,r4
 
 000329cc <T_EXPECT501>:
-   329cc:	00 40 00 00 	mull	r0,r0
+   329cc:	00 00 00 08 	add	r0,r8
 
 000329d0 <T_EXPECT502>:
-   329d0:	00 40 00 00 	mull	r0,r0
+   329d0:	00 00 00 10 	add	r0,r16
 
 000329d4 <T_EXPECT503>:
-   329d4:	00 40 00 00 	mull	r0,r0
+   329d4:	00 00 00 20 	add	r1,r0
 
 000329d8 <T_EXPECT504>:
-   329d8:	00 40 00 00 	mull	r0,r0
+   329d8:	00 00 00 40 	add	r2,r0
 
 000329dc <T_EXPECT505>:
-   329dc:	00 40 00 00 	mull	r0,r0
+   329dc:	00 00 00 80 	add	r4,r0
 
 000329e0 <T_EXPECT506>:
-   329e0:	00 40 00 00 	mull	r0,r0
+   329e0:	00 00 01 00 	add	r8,r0
 
 000329e4 <T_EXPECT507>:
-   329e4:	00 40 00 00 	mull	r0,r0
+   329e4:	00 00 02 00 	add	r16,r0
 
 000329e8 <T_EXPECT508>:
-   329e8:	00 40 00 00 	mull	r0,r0
+   329e8:	00 00 04 00 	*unknown*
 
 000329ec <T_EXPECT509>:
-   329ec:	00 40 00 00 	mull	r0,r0
+   329ec:	00 00 08 00 	*unknown*
 
 000329f0 <T_EXPECT510>:
-   329f0:	00 40 00 00 	mull	r0,r0
+   329f0:	00 00 10 00 	*unknown*
 
 000329f4 <T_EXPECT511>:
-   329f4:	00 40 00 00 	mull	r0,r0
+   329f4:	00 00 20 00 	*unknown*
 
 000329f8 <T_EXPECT512>:
-   329f8:	00 80 00 00 	udiv	r0,r0
+   329f8:	00 00 00 00 	add	r0,r0
 
 000329fc <T_EXPECT513>:
-   329fc:	00 80 00 00 	udiv	r0,r0
+   329fc:	00 00 00 00 	add	r0,r0
 
 00032a00 <T_EXPECT514>:
-   32a00:	00 80 00 00 	udiv	r0,r0
+   32a00:	00 00 00 00 	add	r0,r0
 
 00032a04 <T_EXPECT515>:
-   32a04:	00 80 00 00 	udiv	r0,r0
+   32a04:	00 00 00 00 	add	r0,r0
 
 00032a08 <T_EXPECT516>:
-   32a08:	00 80 00 00 	udiv	r0,r0
+   32a08:	00 00 00 00 	add	r0,r0
 
 00032a0c <T_EXPECT517>:
-   32a0c:	00 80 00 00 	udiv	r0,r0
+   32a0c:	00 00 00 00 	add	r0,r0
 
 00032a10 <T_EXPECT518>:
-   32a10:	00 80 00 00 	udiv	r0,r0
+   32a10:	00 00 00 00 	add	r0,r0
 
 00032a14 <T_EXPECT519>:
-   32a14:	00 80 00 00 	udiv	r0,r0
+   32a14:	00 00 00 00 	add	r0,r0
 
 00032a18 <T_EXPECT520>:
-   32a18:	00 80 00 00 	udiv	r0,r0
+   32a18:	00 00 00 00 	add	r0,r0
 
 00032a1c <T_EXPECT521>:
-   32a1c:	00 80 00 00 	udiv	r0,r0
+   32a1c:	00 00 00 00 	add	r0,r0
 
 00032a20 <T_EXPECT522>:
-   32a20:	00 80 00 00 	udiv	r0,r0
+   32a20:	00 00 00 00 	add	r0,r0
 
 00032a24 <T_EXPECT523>:
-   32a24:	00 80 00 00 	udiv	r0,r0
+   32a24:	00 00 00 00 	add	r0,r0
 
 00032a28 <T_EXPECT524>:
-   32a28:	00 80 00 00 	udiv	r0,r0
+   32a28:	00 00 00 00 	add	r0,r0
 
 00032a2c <T_EXPECT525>:
-   32a2c:	00 80 00 00 	udiv	r0,r0
+   32a2c:	00 00 00 00 	add	r0,r0
 
 00032a30 <T_EXPECT526>:
-   32a30:	00 80 00 00 	udiv	r0,r0
+   32a30:	00 00 00 00 	add	r0,r0
 
 00032a34 <T_EXPECT527>:
-   32a34:	00 80 00 00 	udiv	r0,r0
+   32a34:	00 00 00 00 	add	r0,r0
 
 00032a38 <T_EXPECT528>:
-   32a38:	00 80 00 00 	udiv	r0,r0
+   32a38:	00 00 00 00 	add	r0,r0
 
 00032a3c <T_EXPECT529>:
-   32a3c:	00 80 00 00 	udiv	r0,r0
+   32a3c:	00 00 00 01 	add	r0,r1
 
 00032a40 <T_EXPECT530>:
-   32a40:	00 80 00 00 	udiv	r0,r0
+   32a40:	00 00 00 02 	add	r0,r2
 
 00032a44 <T_EXPECT531>:
-   32a44:	00 80 00 00 	udiv	r0,r0
+   32a44:	00 00 00 04 	add	r0,r4
 
 00032a48 <T_EXPECT532>:
-   32a48:	00 80 00 00 	udiv	r0,r0
+   32a48:	00 00 00 08 	add	r0,r8
 
 00032a4c <T_EXPECT533>:
-   32a4c:	00 80 00 00 	udiv	r0,r0
+   32a4c:	00 00 00 10 	add	r0,r16
 
 00032a50 <T_EXPECT534>:
-   32a50:	00 80 00 00 	udiv	r0,r0
+   32a50:	00 00 00 20 	add	r1,r0
 
 00032a54 <T_EXPECT535>:
-   32a54:	00 80 00 00 	udiv	r0,r0
+   32a54:	00 00 00 40 	add	r2,r0
 
 00032a58 <T_EXPECT536>:
-   32a58:	00 80 00 00 	udiv	r0,r0
+   32a58:	00 00 00 80 	add	r4,r0
 
 00032a5c <T_EXPECT537>:
-   32a5c:	00 80 00 00 	udiv	r0,r0
+   32a5c:	00 00 01 00 	add	r8,r0
 
 00032a60 <T_EXPECT538>:
-   32a60:	00 80 00 00 	udiv	r0,r0
+   32a60:	00 00 02 00 	add	r16,r0
 
 00032a64 <T_EXPECT539>:
-   32a64:	00 80 00 00 	udiv	r0,r0
+   32a64:	00 00 04 00 	*unknown*
 
 00032a68 <T_EXPECT540>:
-   32a68:	00 80 00 00 	udiv	r0,r0
+   32a68:	00 00 08 00 	*unknown*
 
 00032a6c <T_EXPECT541>:
-   32a6c:	00 80 00 00 	udiv	r0,r0
+   32a6c:	00 00 10 00 	*unknown*
 
 00032a70 <T_EXPECT542>:
-   32a70:	00 80 00 00 	udiv	r0,r0
+   32a70:	00 00 20 00 	*unknown*
 
 00032a74 <T_EXPECT543>:
-   32a74:	00 80 00 00 	udiv	r0,r0
+   32a74:	00 00 40 00 	*unknown*
 
 00032a78 <T_EXPECT544>:
-   32a78:	00 00 01 00 	add	r8,r0
+   32a78:	00 00 00 00 	add	r0,r0
 
 00032a7c <T_EXPECT545>:
-   32a7c:	00 00 01 00 	add	r8,r0
+   32a7c:	00 00 00 00 	add	r0,r0
 
 00032a80 <T_EXPECT546>:
-   32a80:	00 00 01 00 	add	r8,r0
+   32a80:	00 00 00 00 	add	r0,r0
 
 00032a84 <T_EXPECT547>:
-   32a84:	00 00 01 00 	add	r8,r0
+   32a84:	00 00 00 00 	add	r0,r0
 
 00032a88 <T_EXPECT548>:
-   32a88:	00 00 01 00 	add	r8,r0
+   32a88:	00 00 00 00 	add	r0,r0
 
 00032a8c <T_EXPECT549>:
-   32a8c:	00 00 01 00 	add	r8,r0
+   32a8c:	00 00 00 00 	add	r0,r0
 
 00032a90 <T_EXPECT550>:
-   32a90:	00 00 01 00 	add	r8,r0
+   32a90:	00 00 00 00 	add	r0,r0
 
 00032a94 <T_EXPECT551>:
-   32a94:	00 00 01 00 	add	r8,r0
+   32a94:	00 00 00 00 	add	r0,r0
 
 00032a98 <T_EXPECT552>:
-   32a98:	00 00 01 00 	add	r8,r0
+   32a98:	00 00 00 00 	add	r0,r0
 
 00032a9c <T_EXPECT553>:
-   32a9c:	00 00 01 00 	add	r8,r0
+   32a9c:	00 00 00 00 	add	r0,r0
 
 00032aa0 <T_EXPECT554>:
-   32aa0:	00 00 01 00 	add	r8,r0
+   32aa0:	00 00 00 00 	add	r0,r0
 
 00032aa4 <T_EXPECT555>:
-   32aa4:	00 00 01 00 	add	r8,r0
+   32aa4:	00 00 00 00 	add	r0,r0
 
 00032aa8 <T_EXPECT556>:
-   32aa8:	00 00 01 00 	add	r8,r0
+   32aa8:	00 00 00 00 	add	r0,r0
 
 00032aac <T_EXPECT557>:
-   32aac:	00 00 01 00 	add	r8,r0
+   32aac:	00 00 00 00 	add	r0,r0
 
 00032ab0 <T_EXPECT558>:
-   32ab0:	00 00 01 00 	add	r8,r0
+   32ab0:	00 00 00 00 	add	r0,r0
 
 00032ab4 <T_EXPECT559>:
-   32ab4:	00 00 01 00 	add	r8,r0
+   32ab4:	00 00 00 00 	add	r0,r0
 
 00032ab8 <T_EXPECT560>:
-   32ab8:	00 00 01 00 	add	r8,r0
+   32ab8:	00 00 00 01 	add	r0,r1
 
 00032abc <T_EXPECT561>:
-   32abc:	00 00 01 00 	add	r8,r0
+   32abc:	00 00 00 02 	add	r0,r2
 
 00032ac0 <T_EXPECT562>:
-   32ac0:	00 00 01 00 	add	r8,r0
+   32ac0:	00 00 00 04 	add	r0,r4
 
 00032ac4 <T_EXPECT563>:
-   32ac4:	00 00 01 00 	add	r8,r0
+   32ac4:	00 00 00 08 	add	r0,r8
 
 00032ac8 <T_EXPECT564>:
-   32ac8:	00 00 01 00 	add	r8,r0
+   32ac8:	00 00 00 10 	add	r0,r16
 
 00032acc <T_EXPECT565>:
-   32acc:	00 00 01 00 	add	r8,r0
+   32acc:	00 00 00 20 	add	r1,r0
 
 00032ad0 <T_EXPECT566>:
-   32ad0:	00 00 01 00 	add	r8,r0
+   32ad0:	00 00 00 40 	add	r2,r0
 
 00032ad4 <T_EXPECT567>:
-   32ad4:	00 00 01 00 	add	r8,r0
+   32ad4:	00 00 00 80 	add	r4,r0
 
 00032ad8 <T_EXPECT568>:
    32ad8:	00 00 01 00 	add	r8,r0
 
 00032adc <T_EXPECT569>:
-   32adc:	00 00 01 00 	add	r8,r0
+   32adc:	00 00 02 00 	add	r16,r0
 
 00032ae0 <T_EXPECT570>:
-   32ae0:	00 00 01 00 	add	r8,r0
+   32ae0:	00 00 04 00 	*unknown*
 
 00032ae4 <T_EXPECT571>:
-   32ae4:	00 00 01 00 	add	r8,r0
+   32ae4:	00 00 08 00 	*unknown*
 
 00032ae8 <T_EXPECT572>:
-   32ae8:	00 00 01 00 	add	r8,r0
+   32ae8:	00 00 10 00 	*unknown*
 
 00032aec <T_EXPECT573>:
-   32aec:	00 00 01 00 	add	r8,r0
+   32aec:	00 00 20 00 	*unknown*
 
 00032af0 <T_EXPECT574>:
-   32af0:	00 00 01 00 	add	r8,r0
+   32af0:	00 00 40 00 	*unknown*
 
 00032af4 <T_EXPECT575>:
-   32af4:	00 00 01 00 	add	r8,r0
+   32af4:	00 00 80 00 	*unknown*
 
 00032af8 <T_EXPECT576>:
-   32af8:	00 00 02 00 	add	r16,r0
+   32af8:	00 00 00 00 	add	r0,r0
 
 00032afc <T_EXPECT577>:
-   32afc:	00 00 02 00 	add	r16,r0
+   32afc:	00 00 00 00 	add	r0,r0
 
 00032b00 <T_EXPECT578>:
-   32b00:	00 00 02 00 	add	r16,r0
+   32b00:	00 00 00 00 	add	r0,r0
 
 00032b04 <T_EXPECT579>:
-   32b04:	00 00 02 00 	add	r16,r0
+   32b04:	00 00 00 00 	add	r0,r0
 
 00032b08 <T_EXPECT580>:
-   32b08:	00 00 02 00 	add	r16,r0
+   32b08:	00 00 00 00 	add	r0,r0
 
 00032b0c <T_EXPECT581>:
-   32b0c:	00 00 02 00 	add	r16,r0
+   32b0c:	00 00 00 00 	add	r0,r0
 
 00032b10 <T_EXPECT582>:
-   32b10:	00 00 02 00 	add	r16,r0
+   32b10:	00 00 00 00 	add	r0,r0
 
 00032b14 <T_EXPECT583>:
-   32b14:	00 00 02 00 	add	r16,r0
+   32b14:	00 00 00 00 	add	r0,r0
 
 00032b18 <T_EXPECT584>:
-   32b18:	00 00 02 00 	add	r16,r0
+   32b18:	00 00 00 00 	add	r0,r0
 
 00032b1c <T_EXPECT585>:
-   32b1c:	00 00 02 00 	add	r16,r0
+   32b1c:	00 00 00 00 	add	r0,r0
 
 00032b20 <T_EXPECT586>:
-   32b20:	00 00 02 00 	add	r16,r0
+   32b20:	00 00 00 00 	add	r0,r0
 
 00032b24 <T_EXPECT587>:
-   32b24:	00 00 02 00 	add	r16,r0
+   32b24:	00 00 00 00 	add	r0,r0
 
 00032b28 <T_EXPECT588>:
-   32b28:	00 00 02 00 	add	r16,r0
+   32b28:	00 00 00 00 	add	r0,r0
 
 00032b2c <T_EXPECT589>:
-   32b2c:	00 00 02 00 	add	r16,r0
+   32b2c:	00 00 00 00 	add	r0,r0
 
 00032b30 <T_EXPECT590>:
-   32b30:	00 00 02 00 	add	r16,r0
+   32b30:	00 00 00 00 	add	r0,r0
 
 00032b34 <T_EXPECT591>:
-   32b34:	00 00 02 00 	add	r16,r0
+   32b34:	00 00 00 01 	add	r0,r1
 
 00032b38 <T_EXPECT592>:
-   32b38:	00 00 02 00 	add	r16,r0
+   32b38:	00 00 00 02 	add	r0,r2
 
 00032b3c <T_EXPECT593>:
-   32b3c:	00 00 02 00 	add	r16,r0
+   32b3c:	00 00 00 04 	add	r0,r4
 
 00032b40 <T_EXPECT594>:
-   32b40:	00 00 02 00 	add	r16,r0
+   32b40:	00 00 00 08 	add	r0,r8
 
 00032b44 <T_EXPECT595>:
-   32b44:	00 00 02 00 	add	r16,r0
+   32b44:	00 00 00 10 	add	r0,r16
 
 00032b48 <T_EXPECT596>:
-   32b48:	00 00 02 00 	add	r16,r0
+   32b48:	00 00 00 20 	add	r1,r0
 
 00032b4c <T_EXPECT597>:
-   32b4c:	00 00 02 00 	add	r16,r0
+   32b4c:	00 00 00 40 	add	r2,r0
 
 00032b50 <T_EXPECT598>:
-   32b50:	00 00 02 00 	add	r16,r0
+   32b50:	00 00 00 80 	add	r4,r0
 
 00032b54 <T_EXPECT599>:
-   32b54:	00 00 02 00 	add	r16,r0
+   32b54:	00 00 01 00 	add	r8,r0
 
 00032b58 <T_EXPECT600>:
    32b58:	00 00 02 00 	add	r16,r0
 
 00032b5c <T_EXPECT601>:
-   32b5c:	00 00 02 00 	add	r16,r0
+   32b5c:	00 00 04 00 	*unknown*
 
 00032b60 <T_EXPECT602>:
-   32b60:	00 00 02 00 	add	r16,r0
+   32b60:	00 00 08 00 	*unknown*
 
 00032b64 <T_EXPECT603>:
-   32b64:	00 00 02 00 	add	r16,r0
+   32b64:	00 00 10 00 	*unknown*
 
 00032b68 <T_EXPECT604>:
-   32b68:	00 00 02 00 	add	r16,r0
+   32b68:	00 00 20 00 	*unknown*
 
 00032b6c <T_EXPECT605>:
-   32b6c:	00 00 02 00 	add	r16,r0
+   32b6c:	00 00 40 00 	*unknown*
 
 00032b70 <T_EXPECT606>:
-   32b70:	00 00 02 00 	add	r16,r0
+   32b70:	00 00 80 00 	*unknown*
 
 00032b74 <T_EXPECT607>:
-   32b74:	00 00 02 00 	add	r16,r0
+   32b74:	00 01 00 00 	*unknown*
 
 00032b78 <T_EXPECT608>:
-   32b78:	00 00 04 00 	*unknown*
+   32b78:	00 00 00 00 	add	r0,r0
 
 00032b7c <T_EXPECT609>:
-   32b7c:	00 00 04 00 	*unknown*
+   32b7c:	00 00 00 00 	add	r0,r0
 
 00032b80 <T_EXPECT610>:
-   32b80:	00 00 04 00 	*unknown*
+   32b80:	00 00 00 00 	add	r0,r0
 
 00032b84 <T_EXPECT611>:
-   32b84:	00 00 04 00 	*unknown*
+   32b84:	00 00 00 00 	add	r0,r0
 
 00032b88 <T_EXPECT612>:
-   32b88:	00 00 04 00 	*unknown*
+   32b88:	00 00 00 00 	add	r0,r0
 
 00032b8c <T_EXPECT613>:
-   32b8c:	00 00 04 00 	*unknown*
+   32b8c:	00 00 00 00 	add	r0,r0
 
 00032b90 <T_EXPECT614>:
-   32b90:	00 00 04 00 	*unknown*
+   32b90:	00 00 00 00 	add	r0,r0
 
 00032b94 <T_EXPECT615>:
-   32b94:	00 00 04 00 	*unknown*
+   32b94:	00 00 00 00 	add	r0,r0
 
 00032b98 <T_EXPECT616>:
-   32b98:	00 00 04 00 	*unknown*
+   32b98:	00 00 00 00 	add	r0,r0
 
 00032b9c <T_EXPECT617>:
-   32b9c:	00 00 04 00 	*unknown*
+   32b9c:	00 00 00 00 	add	r0,r0
 
 00032ba0 <T_EXPECT618>:
-   32ba0:	00 00 04 00 	*unknown*
+   32ba0:	00 00 00 00 	add	r0,r0
 
 00032ba4 <T_EXPECT619>:
-   32ba4:	00 00 04 00 	*unknown*
+   32ba4:	00 00 00 00 	add	r0,r0
 
 00032ba8 <T_EXPECT620>:
-   32ba8:	00 00 04 00 	*unknown*
+   32ba8:	00 00 00 00 	add	r0,r0
 
 00032bac <T_EXPECT621>:
-   32bac:	00 00 04 00 	*unknown*
+   32bac:	00 00 00 00 	add	r0,r0
 
 00032bb0 <T_EXPECT622>:
-   32bb0:	00 00 04 00 	*unknown*
+   32bb0:	00 00 00 01 	add	r0,r1
 
 00032bb4 <T_EXPECT623>:
-   32bb4:	00 00 04 00 	*unknown*
+   32bb4:	00 00 00 02 	add	r0,r2
 
 00032bb8 <T_EXPECT624>:
-   32bb8:	00 00 04 00 	*unknown*
+   32bb8:	00 00 00 04 	add	r0,r4
 
 00032bbc <T_EXPECT625>:
-   32bbc:	00 00 04 00 	*unknown*
+   32bbc:	00 00 00 08 	add	r0,r8
 
 00032bc0 <T_EXPECT626>:
-   32bc0:	00 00 04 00 	*unknown*
+   32bc0:	00 00 00 10 	add	r0,r16
 
 00032bc4 <T_EXPECT627>:
-   32bc4:	00 00 04 00 	*unknown*
+   32bc4:	00 00 00 20 	add	r1,r0
 
 00032bc8 <T_EXPECT628>:
-   32bc8:	00 00 04 00 	*unknown*
+   32bc8:	00 00 00 40 	add	r2,r0
 
 00032bcc <T_EXPECT629>:
-   32bcc:	00 00 04 00 	*unknown*
+   32bcc:	00 00 00 80 	add	r4,r0
 
 00032bd0 <T_EXPECT630>:
-   32bd0:	00 00 04 00 	*unknown*
+   32bd0:	00 00 01 00 	add	r8,r0
 
 00032bd4 <T_EXPECT631>:
-   32bd4:	00 00 04 00 	*unknown*
+   32bd4:	00 00 02 00 	add	r16,r0
 
 00032bd8 <T_EXPECT632>:
    32bd8:	00 00 04 00 	*unknown*
 
 00032bdc <T_EXPECT633>:
-   32bdc:	00 00 04 00 	*unknown*
+   32bdc:	00 00 08 00 	*unknown*
 
 00032be0 <T_EXPECT634>:
-   32be0:	00 00 04 00 	*unknown*
+   32be0:	00 00 10 00 	*unknown*
 
 00032be4 <T_EXPECT635>:
-   32be4:	00 00 04 00 	*unknown*
+   32be4:	00 00 20 00 	*unknown*
 
 00032be8 <T_EXPECT636>:
-   32be8:	00 00 04 00 	*unknown*
+   32be8:	00 00 40 00 	*unknown*
 
 00032bec <T_EXPECT637>:
-   32bec:	00 00 04 00 	*unknown*
+   32bec:	00 00 80 00 	*unknown*
 
 00032bf0 <T_EXPECT638>:
-   32bf0:	00 00 04 00 	*unknown*
+   32bf0:	00 01 00 00 	*unknown*
 
 00032bf4 <T_EXPECT639>:
-   32bf4:	00 00 04 00 	*unknown*
+   32bf4:	00 02 00 00 	*unknown*
 
 00032bf8 <T_EXPECT640>:
-   32bf8:	00 00 08 00 	*unknown*
+   32bf8:	00 00 00 00 	add	r0,r0
 
 00032bfc <T_EXPECT641>:
-   32bfc:	00 00 08 00 	*unknown*
+   32bfc:	00 00 00 00 	add	r0,r0
 
 00032c00 <T_EXPECT642>:
-   32c00:	00 00 08 00 	*unknown*
+   32c00:	00 00 00 00 	add	r0,r0
 
 00032c04 <T_EXPECT643>:
-   32c04:	00 00 08 00 	*unknown*
+   32c04:	00 00 00 00 	add	r0,r0
 
 00032c08 <T_EXPECT644>:
-   32c08:	00 00 08 00 	*unknown*
+   32c08:	00 00 00 00 	add	r0,r0
 
 00032c0c <T_EXPECT645>:
-   32c0c:	00 00 08 00 	*unknown*
+   32c0c:	00 00 00 00 	add	r0,r0
 
 00032c10 <T_EXPECT646>:
-   32c10:	00 00 08 00 	*unknown*
+   32c10:	00 00 00 00 	add	r0,r0
 
 00032c14 <T_EXPECT647>:
-   32c14:	00 00 08 00 	*unknown*
+   32c14:	00 00 00 00 	add	r0,r0
 
 00032c18 <T_EXPECT648>:
-   32c18:	00 00 08 00 	*unknown*
+   32c18:	00 00 00 00 	add	r0,r0
 
 00032c1c <T_EXPECT649>:
-   32c1c:	00 00 08 00 	*unknown*
+   32c1c:	00 00 00 00 	add	r0,r0
 
 00032c20 <T_EXPECT650>:
-   32c20:	00 00 08 00 	*unknown*
+   32c20:	00 00 00 00 	add	r0,r0
 
 00032c24 <T_EXPECT651>:
-   32c24:	00 00 08 00 	*unknown*
+   32c24:	00 00 00 00 	add	r0,r0
 
 00032c28 <T_EXPECT652>:
-   32c28:	00 00 08 00 	*unknown*
+   32c28:	00 00 00 00 	add	r0,r0
 
 00032c2c <T_EXPECT653>:
-   32c2c:	00 00 08 00 	*unknown*
+   32c2c:	00 00 00 01 	add	r0,r1
 
 00032c30 <T_EXPECT654>:
-   32c30:	00 00 08 00 	*unknown*
+   32c30:	00 00 00 02 	add	r0,r2
 
 00032c34 <T_EXPECT655>:
-   32c34:	00 00 08 00 	*unknown*
+   32c34:	00 00 00 04 	add	r0,r4
 
 00032c38 <T_EXPECT656>:
-   32c38:	00 00 08 00 	*unknown*
+   32c38:	00 00 00 08 	add	r0,r8
 
 00032c3c <T_EXPECT657>:
-   32c3c:	00 00 08 00 	*unknown*
+   32c3c:	00 00 00 10 	add	r0,r16
 
 00032c40 <T_EXPECT658>:
-   32c40:	00 00 08 00 	*unknown*
+   32c40:	00 00 00 20 	add	r1,r0
 
 00032c44 <T_EXPECT659>:
-   32c44:	00 00 08 00 	*unknown*
+   32c44:	00 00 00 40 	add	r2,r0
 
 00032c48 <T_EXPECT660>:
-   32c48:	00 00 08 00 	*unknown*
+   32c48:	00 00 00 80 	add	r4,r0
 
 00032c4c <T_EXPECT661>:
-   32c4c:	00 00 08 00 	*unknown*
+   32c4c:	00 00 01 00 	add	r8,r0
 
 00032c50 <T_EXPECT662>:
-   32c50:	00 00 08 00 	*unknown*
+   32c50:	00 00 02 00 	add	r16,r0
 
 00032c54 <T_EXPECT663>:
-   32c54:	00 00 08 00 	*unknown*
+   32c54:	00 00 04 00 	*unknown*
 
 00032c58 <T_EXPECT664>:
    32c58:	00 00 08 00 	*unknown*
 
 00032c5c <T_EXPECT665>:
-   32c5c:	00 00 08 00 	*unknown*
+   32c5c:	00 00 10 00 	*unknown*
 
 00032c60 <T_EXPECT666>:
-   32c60:	00 00 08 00 	*unknown*
+   32c60:	00 00 20 00 	*unknown*
 
 00032c64 <T_EXPECT667>:
-   32c64:	00 00 08 00 	*unknown*
+   32c64:	00 00 40 00 	*unknown*
 
 00032c68 <T_EXPECT668>:
-   32c68:	00 00 08 00 	*unknown*
+   32c68:	00 00 80 00 	*unknown*
 
 00032c6c <T_EXPECT669>:
-   32c6c:	00 00 08 00 	*unknown*
+   32c6c:	00 01 00 00 	*unknown*
 
 00032c70 <T_EXPECT670>:
-   32c70:	00 00 08 00 	*unknown*
+   32c70:	00 02 00 00 	*unknown*
 
 00032c74 <T_EXPECT671>:
-   32c74:	00 00 08 00 	*unknown*
+   32c74:	00 04 00 00 	*unknown*
 
 00032c78 <T_EXPECT672>:
-   32c78:	00 00 10 00 	*unknown*
+   32c78:	00 00 00 00 	add	r0,r0
 
 00032c7c <T_EXPECT673>:
-   32c7c:	00 00 10 00 	*unknown*
+   32c7c:	00 00 00 00 	add	r0,r0
 
 00032c80 <T_EXPECT674>:
-   32c80:	00 00 10 00 	*unknown*
+   32c80:	00 00 00 00 	add	r0,r0
 
 00032c84 <T_EXPECT675>:
-   32c84:	00 00 10 00 	*unknown*
+   32c84:	00 00 00 00 	add	r0,r0
 
 00032c88 <T_EXPECT676>:
-   32c88:	00 00 10 00 	*unknown*
+   32c88:	00 00 00 00 	add	r0,r0
 
 00032c8c <T_EXPECT677>:
-   32c8c:	00 00 10 00 	*unknown*
+   32c8c:	00 00 00 00 	add	r0,r0
 
 00032c90 <T_EXPECT678>:
-   32c90:	00 00 10 00 	*unknown*
+   32c90:	00 00 00 00 	add	r0,r0
 
 00032c94 <T_EXPECT679>:
-   32c94:	00 00 10 00 	*unknown*
+   32c94:	00 00 00 00 	add	r0,r0
 
 00032c98 <T_EXPECT680>:
-   32c98:	00 00 10 00 	*unknown*
+   32c98:	00 00 00 00 	add	r0,r0
 
 00032c9c <T_EXPECT681>:
-   32c9c:	00 00 10 00 	*unknown*
+   32c9c:	00 00 00 00 	add	r0,r0
 
 00032ca0 <T_EXPECT682>:
-   32ca0:	00 00 10 00 	*unknown*
+   32ca0:	00 00 00 00 	add	r0,r0
 
 00032ca4 <T_EXPECT683>:
-   32ca4:	00 00 10 00 	*unknown*
+   32ca4:	00 00 00 00 	add	r0,r0
 
 00032ca8 <T_EXPECT684>:
-   32ca8:	00 00 10 00 	*unknown*
+   32ca8:	00 00 00 01 	add	r0,r1
 
 00032cac <T_EXPECT685>:
-   32cac:	00 00 10 00 	*unknown*
+   32cac:	00 00 00 02 	add	r0,r2
 
 00032cb0 <T_EXPECT686>:
-   32cb0:	00 00 10 00 	*unknown*
+   32cb0:	00 00 00 04 	add	r0,r4
 
 00032cb4 <T_EXPECT687>:
-   32cb4:	00 00 10 00 	*unknown*
+   32cb4:	00 00 00 08 	add	r0,r8
 
 00032cb8 <T_EXPECT688>:
-   32cb8:	00 00 10 00 	*unknown*
+   32cb8:	00 00 00 10 	add	r0,r16
 
 00032cbc <T_EXPECT689>:
-   32cbc:	00 00 10 00 	*unknown*
+   32cbc:	00 00 00 20 	add	r1,r0
 
 00032cc0 <T_EXPECT690>:
-   32cc0:	00 00 10 00 	*unknown*
+   32cc0:	00 00 00 40 	add	r2,r0
 
 00032cc4 <T_EXPECT691>:
-   32cc4:	00 00 10 00 	*unknown*
+   32cc4:	00 00 00 80 	add	r4,r0
 
 00032cc8 <T_EXPECT692>:
-   32cc8:	00 00 10 00 	*unknown*
+   32cc8:	00 00 01 00 	add	r8,r0
 
 00032ccc <T_EXPECT693>:
-   32ccc:	00 00 10 00 	*unknown*
+   32ccc:	00 00 02 00 	add	r16,r0
 
 00032cd0 <T_EXPECT694>:
-   32cd0:	00 00 10 00 	*unknown*
+   32cd0:	00 00 04 00 	*unknown*
 
 00032cd4 <T_EXPECT695>:
-   32cd4:	00 00 10 00 	*unknown*
+   32cd4:	00 00 08 00 	*unknown*
 
 00032cd8 <T_EXPECT696>:
    32cd8:	00 00 10 00 	*unknown*
 
 00032cdc <T_EXPECT697>:
-   32cdc:	00 00 10 00 	*unknown*
+   32cdc:	00 00 20 00 	*unknown*
 
 00032ce0 <T_EXPECT698>:
-   32ce0:	00 00 10 00 	*unknown*
+   32ce0:	00 00 40 00 	*unknown*
 
 00032ce4 <T_EXPECT699>:
-   32ce4:	00 00 10 00 	*unknown*
+   32ce4:	00 00 80 00 	*unknown*
 
 00032ce8 <T_EXPECT700>:
-   32ce8:	00 00 10 00 	*unknown*
+   32ce8:	00 01 00 00 	*unknown*
 
 00032cec <T_EXPECT701>:
-   32cec:	00 00 10 00 	*unknown*
+   32cec:	00 02 00 00 	*unknown*
 
 00032cf0 <T_EXPECT702>:
-   32cf0:	00 00 10 00 	*unknown*
+   32cf0:	00 04 00 00 	*unknown*
 
 00032cf4 <T_EXPECT703>:
-   32cf4:	00 00 10 00 	*unknown*
+   32cf4:	00 08 00 00 	*unknown*
 
 00032cf8 <T_EXPECT704>:
-   32cf8:	00 00 20 00 	*unknown*
+   32cf8:	00 00 00 00 	add	r0,r0
 
 00032cfc <T_EXPECT705>:
-   32cfc:	00 00 20 00 	*unknown*
+   32cfc:	00 00 00 00 	add	r0,r0
 
 00032d00 <T_EXPECT706>:
-   32d00:	00 00 20 00 	*unknown*
+   32d00:	00 00 00 00 	add	r0,r0
 
 00032d04 <T_EXPECT707>:
-   32d04:	00 00 20 00 	*unknown*
+   32d04:	00 00 00 00 	add	r0,r0
 
 00032d08 <T_EXPECT708>:
-   32d08:	00 00 20 00 	*unknown*
+   32d08:	00 00 00 00 	add	r0,r0
 
 00032d0c <T_EXPECT709>:
-   32d0c:	00 00 20 00 	*unknown*
+   32d0c:	00 00 00 00 	add	r0,r0
 
 00032d10 <T_EXPECT710>:
-   32d10:	00 00 20 00 	*unknown*
+   32d10:	00 00 00 00 	add	r0,r0
 
 00032d14 <T_EXPECT711>:
-   32d14:	00 00 20 00 	*unknown*
+   32d14:	00 00 00 00 	add	r0,r0
 
 00032d18 <T_EXPECT712>:
-   32d18:	00 00 20 00 	*unknown*
+   32d18:	00 00 00 00 	add	r0,r0
 
 00032d1c <T_EXPECT713>:
-   32d1c:	00 00 20 00 	*unknown*
+   32d1c:	00 00 00 00 	add	r0,r0
 
 00032d20 <T_EXPECT714>:
-   32d20:	00 00 20 00 	*unknown*
+   32d20:	00 00 00 00 	add	r0,r0
 
 00032d24 <T_EXPECT715>:
-   32d24:	00 00 20 00 	*unknown*
+   32d24:	00 00 00 01 	add	r0,r1
 
 00032d28 <T_EXPECT716>:
-   32d28:	00 00 20 00 	*unknown*
+   32d28:	00 00 00 02 	add	r0,r2
 
 00032d2c <T_EXPECT717>:
-   32d2c:	00 00 20 00 	*unknown*
+   32d2c:	00 00 00 04 	add	r0,r4
 
 00032d30 <T_EXPECT718>:
-   32d30:	00 00 20 00 	*unknown*
+   32d30:	00 00 00 08 	add	r0,r8
 
 00032d34 <T_EXPECT719>:
-   32d34:	00 00 20 00 	*unknown*
+   32d34:	00 00 00 10 	add	r0,r16
 
 00032d38 <T_EXPECT720>:
-   32d38:	00 00 20 00 	*unknown*
+   32d38:	00 00 00 20 	add	r1,r0
 
 00032d3c <T_EXPECT721>:
-   32d3c:	00 00 20 00 	*unknown*
+   32d3c:	00 00 00 40 	add	r2,r0
 
 00032d40 <T_EXPECT722>:
-   32d40:	00 00 20 00 	*unknown*
+   32d40:	00 00 00 80 	add	r4,r0
 
 00032d44 <T_EXPECT723>:
-   32d44:	00 00 20 00 	*unknown*
+   32d44:	00 00 01 00 	add	r8,r0
 
 00032d48 <T_EXPECT724>:
-   32d48:	00 00 20 00 	*unknown*
+   32d48:	00 00 02 00 	add	r16,r0
 
 00032d4c <T_EXPECT725>:
-   32d4c:	00 00 20 00 	*unknown*
+   32d4c:	00 00 04 00 	*unknown*
 
 00032d50 <T_EXPECT726>:
-   32d50:	00 00 20 00 	*unknown*
+   32d50:	00 00 08 00 	*unknown*
 
 00032d54 <T_EXPECT727>:
-   32d54:	00 00 20 00 	*unknown*
+   32d54:	00 00 10 00 	*unknown*
 
 00032d58 <T_EXPECT728>:
    32d58:	00 00 20 00 	*unknown*
 
 00032d5c <T_EXPECT729>:
-   32d5c:	00 00 20 00 	*unknown*
+   32d5c:	00 00 40 00 	*unknown*
 
 00032d60 <T_EXPECT730>:
-   32d60:	00 00 20 00 	*unknown*
+   32d60:	00 00 80 00 	*unknown*
 
 00032d64 <T_EXPECT731>:
-   32d64:	00 00 20 00 	*unknown*
+   32d64:	00 01 00 00 	*unknown*
 
 00032d68 <T_EXPECT732>:
-   32d68:	00 00 20 00 	*unknown*
+   32d68:	00 02 00 00 	*unknown*
 
 00032d6c <T_EXPECT733>:
-   32d6c:	00 00 20 00 	*unknown*
+   32d6c:	00 04 00 00 	*unknown*
 
 00032d70 <T_EXPECT734>:
-   32d70:	00 00 20 00 	*unknown*
+   32d70:	00 08 00 00 	*unknown*
 
 00032d74 <T_EXPECT735>:
-   32d74:	00 00 20 00 	*unknown*
+   32d74:	00 10 00 00 	add	r0,0
 
 00032d78 <T_EXPECT736>:
-   32d78:	00 00 40 00 	*unknown*
+   32d78:	00 00 00 00 	add	r0,r0
 
 00032d7c <T_EXPECT737>:
-   32d7c:	00 00 40 00 	*unknown*
+   32d7c:	00 00 00 00 	add	r0,r0
 
 00032d80 <T_EXPECT738>:
-   32d80:	00 00 40 00 	*unknown*
+   32d80:	00 00 00 00 	add	r0,r0
 
 00032d84 <T_EXPECT739>:
-   32d84:	00 00 40 00 	*unknown*
+   32d84:	00 00 00 00 	add	r0,r0
 
 00032d88 <T_EXPECT740>:
-   32d88:	00 00 40 00 	*unknown*
+   32d88:	00 00 00 00 	add	r0,r0
 
 00032d8c <T_EXPECT741>:
-   32d8c:	00 00 40 00 	*unknown*
+   32d8c:	00 00 00 00 	add	r0,r0
 
 00032d90 <T_EXPECT742>:
-   32d90:	00 00 40 00 	*unknown*
+   32d90:	00 00 00 00 	add	r0,r0
 
 00032d94 <T_EXPECT743>:
-   32d94:	00 00 40 00 	*unknown*
+   32d94:	00 00 00 00 	add	r0,r0
 
 00032d98 <T_EXPECT744>:
-   32d98:	00 00 40 00 	*unknown*
+   32d98:	00 00 00 00 	add	r0,r0
 
 00032d9c <T_EXPECT745>:
-   32d9c:	00 00 40 00 	*unknown*
+   32d9c:	00 00 00 00 	add	r0,r0
 
 00032da0 <T_EXPECT746>:
-   32da0:	00 00 40 00 	*unknown*
+   32da0:	00 00 00 01 	add	r0,r1
 
 00032da4 <T_EXPECT747>:
-   32da4:	00 00 40 00 	*unknown*
+   32da4:	00 00 00 02 	add	r0,r2
 
 00032da8 <T_EXPECT748>:
-   32da8:	00 00 40 00 	*unknown*
+   32da8:	00 00 00 04 	add	r0,r4
 
 00032dac <T_EXPECT749>:
-   32dac:	00 00 40 00 	*unknown*
+   32dac:	00 00 00 08 	add	r0,r8
 
 00032db0 <T_EXPECT750>:
-   32db0:	00 00 40 00 	*unknown*
+   32db0:	00 00 00 10 	add	r0,r16
 
 00032db4 <T_EXPECT751>:
-   32db4:	00 00 40 00 	*unknown*
+   32db4:	00 00 00 20 	add	r1,r0
 
 00032db8 <T_EXPECT752>:
-   32db8:	00 00 40 00 	*unknown*
+   32db8:	00 00 00 40 	add	r2,r0
 
 00032dbc <T_EXPECT753>:
-   32dbc:	00 00 40 00 	*unknown*
+   32dbc:	00 00 00 80 	add	r4,r0
 
 00032dc0 <T_EXPECT754>:
-   32dc0:	00 00 40 00 	*unknown*
+   32dc0:	00 00 01 00 	add	r8,r0
 
 00032dc4 <T_EXPECT755>:
-   32dc4:	00 00 40 00 	*unknown*
+   32dc4:	00 00 02 00 	add	r16,r0
 
 00032dc8 <T_EXPECT756>:
-   32dc8:	00 00 40 00 	*unknown*
+   32dc8:	00 00 04 00 	*unknown*
 
 00032dcc <T_EXPECT757>:
-   32dcc:	00 00 40 00 	*unknown*
+   32dcc:	00 00 08 00 	*unknown*
 
 00032dd0 <T_EXPECT758>:
-   32dd0:	00 00 40 00 	*unknown*
+   32dd0:	00 00 10 00 	*unknown*
 
 00032dd4 <T_EXPECT759>:
-   32dd4:	00 00 40 00 	*unknown*
+   32dd4:	00 00 20 00 	*unknown*
 
 00032dd8 <T_EXPECT760>:
    32dd8:	00 00 40 00 	*unknown*
 
 00032ddc <T_EXPECT761>:
-   32ddc:	00 00 40 00 	*unknown*
+   32ddc:	00 00 80 00 	*unknown*
 
 00032de0 <T_EXPECT762>:
-   32de0:	00 00 40 00 	*unknown*
+   32de0:	00 01 00 00 	*unknown*
 
 00032de4 <T_EXPECT763>:
-   32de4:	00 00 40 00 	*unknown*
+   32de4:	00 02 00 00 	*unknown*
 
 00032de8 <T_EXPECT764>:
-   32de8:	00 00 40 00 	*unknown*
+   32de8:	00 04 00 00 	*unknown*
 
 00032dec <T_EXPECT765>:
-   32dec:	00 00 40 00 	*unknown*
+   32dec:	00 08 00 00 	*unknown*
 
 00032df0 <T_EXPECT766>:
-   32df0:	00 00 40 00 	*unknown*
+   32df0:	00 10 00 00 	add	r0,0
 
 00032df4 <T_EXPECT767>:
-   32df4:	00 00 40 00 	*unknown*
+   32df4:	00 20 00 00 	sub	r0,r0
 
 00032df8 <T_EXPECT768>:
-   32df8:	00 00 80 00 	*unknown*
+   32df8:	00 00 00 00 	add	r0,r0
 
 00032dfc <T_EXPECT769>:
-   32dfc:	00 00 80 00 	*unknown*
+   32dfc:	00 00 00 00 	add	r0,r0
 
 00032e00 <T_EXPECT770>:
-   32e00:	00 00 80 00 	*unknown*
+   32e00:	00 00 00 00 	add	r0,r0
 
 00032e04 <T_EXPECT771>:
-   32e04:	00 00 80 00 	*unknown*
+   32e04:	00 00 00 00 	add	r0,r0
 
 00032e08 <T_EXPECT772>:
-   32e08:	00 00 80 00 	*unknown*
+   32e08:	00 00 00 00 	add	r0,r0
 
 00032e0c <T_EXPECT773>:
-   32e0c:	00 00 80 00 	*unknown*
+   32e0c:	00 00 00 00 	add	r0,r0
 
 00032e10 <T_EXPECT774>:
-   32e10:	00 00 80 00 	*unknown*
+   32e10:	00 00 00 00 	add	r0,r0
 
 00032e14 <T_EXPECT775>:
-   32e14:	00 00 80 00 	*unknown*
+   32e14:	00 00 00 00 	add	r0,r0
 
 00032e18 <T_EXPECT776>:
-   32e18:	00 00 80 00 	*unknown*
+   32e18:	00 00 00 00 	add	r0,r0
 
 00032e1c <T_EXPECT777>:
-   32e1c:	00 00 80 00 	*unknown*
+   32e1c:	00 00 00 01 	add	r0,r1
 
 00032e20 <T_EXPECT778>:
-   32e20:	00 00 80 00 	*unknown*
+   32e20:	00 00 00 02 	add	r0,r2
 
 00032e24 <T_EXPECT779>:
-   32e24:	00 00 80 00 	*unknown*
+   32e24:	00 00 00 04 	add	r0,r4
 
 00032e28 <T_EXPECT780>:
-   32e28:	00 00 80 00 	*unknown*
+   32e28:	00 00 00 08 	add	r0,r8
 
 00032e2c <T_EXPECT781>:
-   32e2c:	00 00 80 00 	*unknown*
+   32e2c:	00 00 00 10 	add	r0,r16
 
 00032e30 <T_EXPECT782>:
-   32e30:	00 00 80 00 	*unknown*
+   32e30:	00 00 00 20 	add	r1,r0
 
 00032e34 <T_EXPECT783>:
-   32e34:	00 00 80 00 	*unknown*
+   32e34:	00 00 00 40 	add	r2,r0
 
 00032e38 <T_EXPECT784>:
-   32e38:	00 00 80 00 	*unknown*
+   32e38:	00 00 00 80 	add	r4,r0
 
 00032e3c <T_EXPECT785>:
-   32e3c:	00 00 80 00 	*unknown*
+   32e3c:	00 00 01 00 	add	r8,r0
 
 00032e40 <T_EXPECT786>:
-   32e40:	00 00 80 00 	*unknown*
+   32e40:	00 00 02 00 	add	r16,r0
 
 00032e44 <T_EXPECT787>:
-   32e44:	00 00 80 00 	*unknown*
+   32e44:	00 00 04 00 	*unknown*
 
 00032e48 <T_EXPECT788>:
-   32e48:	00 00 80 00 	*unknown*
+   32e48:	00 00 08 00 	*unknown*
 
 00032e4c <T_EXPECT789>:
-   32e4c:	00 00 80 00 	*unknown*
+   32e4c:	00 00 10 00 	*unknown*
 
 00032e50 <T_EXPECT790>:
-   32e50:	00 00 80 00 	*unknown*
+   32e50:	00 00 20 00 	*unknown*
 
 00032e54 <T_EXPECT791>:
-   32e54:	00 00 80 00 	*unknown*
+   32e54:	00 00 40 00 	*unknown*
 
 00032e58 <T_EXPECT792>:
    32e58:	00 00 80 00 	*unknown*
 
 00032e5c <T_EXPECT793>:
-   32e5c:	00 00 80 00 	*unknown*
+   32e5c:	00 01 00 00 	*unknown*
 
 00032e60 <T_EXPECT794>:
-   32e60:	00 00 80 00 	*unknown*
+   32e60:	00 02 00 00 	*unknown*
 
 00032e64 <T_EXPECT795>:
-   32e64:	00 00 80 00 	*unknown*
+   32e64:	00 04 00 00 	*unknown*
 
 00032e68 <T_EXPECT796>:
-   32e68:	00 00 80 00 	*unknown*
+   32e68:	00 08 00 00 	*unknown*
 
 00032e6c <T_EXPECT797>:
-   32e6c:	00 00 80 00 	*unknown*
+   32e6c:	00 10 00 00 	add	r0,0
 
 00032e70 <T_EXPECT798>:
-   32e70:	00 00 80 00 	*unknown*
+   32e70:	00 20 00 00 	sub	r0,r0
 
 00032e74 <T_EXPECT799>:
-   32e74:	00 00 80 00 	*unknown*
+   32e74:	00 40 00 00 	mull	r0,r0
 
 00032e78 <T_EXPECT800>:
-   32e78:	00 00 00 01 	add	r0,r1
+   32e78:	00 00 00 00 	add	r0,r0
 
 00032e7c <T_EXPECT801>:
-   32e7c:	00 00 00 01 	add	r0,r1
+   32e7c:	00 00 00 00 	add	r0,r0
 
 00032e80 <T_EXPECT802>:
-   32e80:	00 00 00 01 	add	r0,r1
+   32e80:	00 00 00 00 	add	r0,r0
 
 00032e84 <T_EXPECT803>:
-   32e84:	00 00 00 01 	add	r0,r1
+   32e84:	00 00 00 00 	add	r0,r0
 
 00032e88 <T_EXPECT804>:
-   32e88:	00 00 00 01 	add	r0,r1
+   32e88:	00 00 00 00 	add	r0,r0
 
 00032e8c <T_EXPECT805>:
-   32e8c:	00 00 00 01 	add	r0,r1
+   32e8c:	00 00 00 00 	add	r0,r0
 
 00032e90 <T_EXPECT806>:
-   32e90:	00 00 00 01 	add	r0,r1
+   32e90:	00 00 00 00 	add	r0,r0
 
 00032e94 <T_EXPECT807>:
-   32e94:	00 00 00 01 	add	r0,r1
+   32e94:	00 00 00 00 	add	r0,r0
 
 00032e98 <T_EXPECT808>:
    32e98:	00 00 00 01 	add	r0,r1
 
 00032e9c <T_EXPECT809>:
-   32e9c:	00 00 00 01 	add	r0,r1
+   32e9c:	00 00 00 02 	add	r0,r2
 
 00032ea0 <T_EXPECT810>:
-   32ea0:	00 00 00 01 	add	r0,r1
+   32ea0:	00 00 00 04 	add	r0,r4
 
 00032ea4 <T_EXPECT811>:
-   32ea4:	00 00 00 01 	add	r0,r1
+   32ea4:	00 00 00 08 	add	r0,r8
 
 00032ea8 <T_EXPECT812>:
-   32ea8:	00 00 00 01 	add	r0,r1
+   32ea8:	00 00 00 10 	add	r0,r16
 
 00032eac <T_EXPECT813>:
-   32eac:	00 00 00 01 	add	r0,r1
+   32eac:	00 00 00 20 	add	r1,r0
 
 00032eb0 <T_EXPECT814>:
-   32eb0:	00 00 00 01 	add	r0,r1
+   32eb0:	00 00 00 40 	add	r2,r0
 
 00032eb4 <T_EXPECT815>:
-   32eb4:	00 00 00 01 	add	r0,r1
+   32eb4:	00 00 00 80 	add	r4,r0
 
 00032eb8 <T_EXPECT816>:
-   32eb8:	00 00 00 01 	add	r0,r1
+   32eb8:	00 00 01 00 	add	r8,r0
 
 00032ebc <T_EXPECT817>:
-   32ebc:	00 00 00 01 	add	r0,r1
+   32ebc:	00 00 02 00 	add	r16,r0
 
 00032ec0 <T_EXPECT818>:
-   32ec0:	00 00 00 01 	add	r0,r1
+   32ec0:	00 00 04 00 	*unknown*
 
 00032ec4 <T_EXPECT819>:
-   32ec4:	00 00 00 01 	add	r0,r1
+   32ec4:	00 00 08 00 	*unknown*
 
 00032ec8 <T_EXPECT820>:
-   32ec8:	00 00 00 01 	add	r0,r1
+   32ec8:	00 00 10 00 	*unknown*
 
 00032ecc <T_EXPECT821>:
-   32ecc:	00 00 00 01 	add	r0,r1
+   32ecc:	00 00 20 00 	*unknown*
 
 00032ed0 <T_EXPECT822>:
-   32ed0:	00 00 00 01 	add	r0,r1
+   32ed0:	00 00 40 00 	*unknown*
 
 00032ed4 <T_EXPECT823>:
-   32ed4:	00 00 00 01 	add	r0,r1
+   32ed4:	00 00 80 00 	*unknown*
 
 00032ed8 <T_EXPECT824>:
-   32ed8:	00 00 00 01 	add	r0,r1
+   32ed8:	00 01 00 00 	*unknown*
 
 00032edc <T_EXPECT825>:
-   32edc:	00 00 00 01 	add	r0,r1
+   32edc:	00 02 00 00 	*unknown*
 
 00032ee0 <T_EXPECT826>:
-   32ee0:	00 00 00 01 	add	r0,r1
+   32ee0:	00 04 00 00 	*unknown*
 
 00032ee4 <T_EXPECT827>:
-   32ee4:	00 00 00 01 	add	r0,r1
+   32ee4:	00 08 00 00 	*unknown*
 
 00032ee8 <T_EXPECT828>:
-   32ee8:	00 00 00 01 	add	r0,r1
+   32ee8:	00 10 00 00 	add	r0,0
 
 00032eec <T_EXPECT829>:
-   32eec:	00 00 00 01 	add	r0,r1
+   32eec:	00 20 00 00 	sub	r0,r0
 
 00032ef0 <T_EXPECT830>:
-   32ef0:	00 00 00 01 	add	r0,r1
+   32ef0:	00 40 00 00 	mull	r0,r0
 
 00032ef4 <T_EXPECT831>:
-   32ef4:	00 00 00 01 	add	r0,r1
+   32ef4:	00 80 00 00 	udiv	r0,r0
 
 00032ef8 <T_EXPECT832>:
-   32ef8:	00 00 00 02 	add	r0,r2
+   32ef8:	00 00 00 00 	add	r0,r0
 
 00032efc <T_EXPECT833>:
-   32efc:	00 00 00 02 	add	r0,r2
+   32efc:	00 00 00 00 	add	r0,r0
 
 00032f00 <T_EXPECT834>:
-   32f00:	00 00 00 02 	add	r0,r2
+   32f00:	00 00 00 00 	add	r0,r0
 
 00032f04 <T_EXPECT835>:
-   32f04:	00 00 00 02 	add	r0,r2
+   32f04:	00 00 00 00 	add	r0,r0
 
 00032f08 <T_EXPECT836>:
-   32f08:	00 00 00 02 	add	r0,r2
+   32f08:	00 00 00 00 	add	r0,r0
 
 00032f0c <T_EXPECT837>:
-   32f0c:	00 00 00 02 	add	r0,r2
+   32f0c:	00 00 00 00 	add	r0,r0
 
 00032f10 <T_EXPECT838>:
-   32f10:	00 00 00 02 	add	r0,r2
+   32f10:	00 00 00 00 	add	r0,r0
 
 00032f14 <T_EXPECT839>:
-   32f14:	00 00 00 02 	add	r0,r2
+   32f14:	00 00 00 01 	add	r0,r1
 
 00032f18 <T_EXPECT840>:
    32f18:	00 00 00 02 	add	r0,r2
 
 00032f1c <T_EXPECT841>:
-   32f1c:	00 00 00 02 	add	r0,r2
+   32f1c:	00 00 00 04 	add	r0,r4
 
 00032f20 <T_EXPECT842>:
-   32f20:	00 00 00 02 	add	r0,r2
+   32f20:	00 00 00 08 	add	r0,r8
 
 00032f24 <T_EXPECT843>:
-   32f24:	00 00 00 02 	add	r0,r2
+   32f24:	00 00 00 10 	add	r0,r16
 
 00032f28 <T_EXPECT844>:
-   32f28:	00 00 00 02 	add	r0,r2
+   32f28:	00 00 00 20 	add	r1,r0
 
 00032f2c <T_EXPECT845>:
-   32f2c:	00 00 00 02 	add	r0,r2
+   32f2c:	00 00 00 40 	add	r2,r0
 
 00032f30 <T_EXPECT846>:
-   32f30:	00 00 00 02 	add	r0,r2
+   32f30:	00 00 00 80 	add	r4,r0
 
 00032f34 <T_EXPECT847>:
-   32f34:	00 00 00 02 	add	r0,r2
+   32f34:	00 00 01 00 	add	r8,r0
 
 00032f38 <T_EXPECT848>:
-   32f38:	00 00 00 02 	add	r0,r2
+   32f38:	00 00 02 00 	add	r16,r0
 
 00032f3c <T_EXPECT849>:
-   32f3c:	00 00 00 02 	add	r0,r2
+   32f3c:	00 00 04 00 	*unknown*
 
 00032f40 <T_EXPECT850>:
-   32f40:	00 00 00 02 	add	r0,r2
+   32f40:	00 00 08 00 	*unknown*
 
 00032f44 <T_EXPECT851>:
-   32f44:	00 00 00 02 	add	r0,r2
+   32f44:	00 00 10 00 	*unknown*
 
 00032f48 <T_EXPECT852>:
-   32f48:	00 00 00 02 	add	r0,r2
+   32f48:	00 00 20 00 	*unknown*
 
 00032f4c <T_EXPECT853>:
-   32f4c:	00 00 00 02 	add	r0,r2
+   32f4c:	00 00 40 00 	*unknown*
 
 00032f50 <T_EXPECT854>:
-   32f50:	00 00 00 02 	add	r0,r2
+   32f50:	00 00 80 00 	*unknown*
 
 00032f54 <T_EXPECT855>:
-   32f54:	00 00 00 02 	add	r0,r2
+   32f54:	00 01 00 00 	*unknown*
 
 00032f58 <T_EXPECT856>:
-   32f58:	00 00 00 02 	add	r0,r2
+   32f58:	00 02 00 00 	*unknown*
 
 00032f5c <T_EXPECT857>:
-   32f5c:	00 00 00 02 	add	r0,r2
+   32f5c:	00 04 00 00 	*unknown*
 
 00032f60 <T_EXPECT858>:
-   32f60:	00 00 00 02 	add	r0,r2
+   32f60:	00 08 00 00 	*unknown*
 
 00032f64 <T_EXPECT859>:
-   32f64:	00 00 00 02 	add	r0,r2
+   32f64:	00 10 00 00 	add	r0,0
 
 00032f68 <T_EXPECT860>:
-   32f68:	00 00 00 02 	add	r0,r2
+   32f68:	00 20 00 00 	sub	r0,r0
 
 00032f6c <T_EXPECT861>:
-   32f6c:	00 00 00 02 	add	r0,r2
+   32f6c:	00 40 00 00 	mull	r0,r0
 
 00032f70 <T_EXPECT862>:
-   32f70:	00 00 00 02 	add	r0,r2
+   32f70:	00 80 00 00 	udiv	r0,r0
 
 00032f74 <T_EXPECT863>:
-   32f74:	00 00 00 02 	add	r0,r2
+   32f74:	01 00 00 00 	mod	r0,r0
 
 00032f78 <T_EXPECT864>:
-   32f78:	00 00 00 04 	add	r0,r4
+   32f78:	00 00 00 00 	add	r0,r0
 
 00032f7c <T_EXPECT865>:
-   32f7c:	00 00 00 04 	add	r0,r4
+   32f7c:	00 00 00 00 	add	r0,r0
 
 00032f80 <T_EXPECT866>:
-   32f80:	00 00 00 04 	add	r0,r4
+   32f80:	00 00 00 00 	add	r0,r0
 
 00032f84 <T_EXPECT867>:
-   32f84:	00 00 00 04 	add	r0,r4
+   32f84:	00 00 00 00 	add	r0,r0
 
 00032f88 <T_EXPECT868>:
-   32f88:	00 00 00 04 	add	r0,r4
+   32f88:	00 00 00 00 	add	r0,r0
 
 00032f8c <T_EXPECT869>:
-   32f8c:	00 00 00 04 	add	r0,r4
+   32f8c:	00 00 00 00 	add	r0,r0
 
 00032f90 <T_EXPECT870>:
-   32f90:	00 00 00 04 	add	r0,r4
+   32f90:	00 00 00 01 	add	r0,r1
 
 00032f94 <T_EXPECT871>:
-   32f94:	00 00 00 04 	add	r0,r4
+   32f94:	00 00 00 02 	add	r0,r2
 
 00032f98 <T_EXPECT872>:
    32f98:	00 00 00 04 	add	r0,r4
 
 00032f9c <T_EXPECT873>:
-   32f9c:	00 00 00 04 	add	r0,r4
+   32f9c:	00 00 00 08 	add	r0,r8
 
 00032fa0 <T_EXPECT874>:
-   32fa0:	00 00 00 04 	add	r0,r4
+   32fa0:	00 00 00 10 	add	r0,r16
 
 00032fa4 <T_EXPECT875>:
-   32fa4:	00 00 00 04 	add	r0,r4
+   32fa4:	00 00 00 20 	add	r1,r0
 
 00032fa8 <T_EXPECT876>:
-   32fa8:	00 00 00 04 	add	r0,r4
+   32fa8:	00 00 00 40 	add	r2,r0
 
 00032fac <T_EXPECT877>:
-   32fac:	00 00 00 04 	add	r0,r4
+   32fac:	00 00 00 80 	add	r4,r0
 
 00032fb0 <T_EXPECT878>:
-   32fb0:	00 00 00 04 	add	r0,r4
+   32fb0:	00 00 01 00 	add	r8,r0
 
 00032fb4 <T_EXPECT879>:
-   32fb4:	00 00 00 04 	add	r0,r4
+   32fb4:	00 00 02 00 	add	r16,r0
 
 00032fb8 <T_EXPECT880>:
-   32fb8:	00 00 00 04 	add	r0,r4
+   32fb8:	00 00 04 00 	*unknown*
 
 00032fbc <T_EXPECT881>:
-   32fbc:	00 00 00 04 	add	r0,r4
+   32fbc:	00 00 08 00 	*unknown*
 
 00032fc0 <T_EXPECT882>:
-   32fc0:	00 00 00 04 	add	r0,r4
+   32fc0:	00 00 10 00 	*unknown*
 
 00032fc4 <T_EXPECT883>:
-   32fc4:	00 00 00 04 	add	r0,r4
+   32fc4:	00 00 20 00 	*unknown*
 
 00032fc8 <T_EXPECT884>:
-   32fc8:	00 00 00 04 	add	r0,r4
+   32fc8:	00 00 40 00 	*unknown*
 
 00032fcc <T_EXPECT885>:
-   32fcc:	00 00 00 04 	add	r0,r4
+   32fcc:	00 00 80 00 	*unknown*
 
 00032fd0 <T_EXPECT886>:
-   32fd0:	00 00 00 04 	add	r0,r4
+   32fd0:	00 01 00 00 	*unknown*
 
 00032fd4 <T_EXPECT887>:
-   32fd4:	00 00 00 04 	add	r0,r4
+   32fd4:	00 02 00 00 	*unknown*
 
 00032fd8 <T_EXPECT888>:
-   32fd8:	00 00 00 04 	add	r0,r4
+   32fd8:	00 04 00 00 	*unknown*
 
 00032fdc <T_EXPECT889>:
-   32fdc:	00 00 00 04 	add	r0,r4
+   32fdc:	00 08 00 00 	*unknown*
 
 00032fe0 <T_EXPECT890>:
-   32fe0:	00 00 00 04 	add	r0,r4
+   32fe0:	00 10 00 00 	add	r0,0
 
 00032fe4 <T_EXPECT891>:
-   32fe4:	00 00 00 04 	add	r0,r4
+   32fe4:	00 20 00 00 	sub	r0,r0
 
 00032fe8 <T_EXPECT892>:
-   32fe8:	00 00 00 04 	add	r0,r4
+   32fe8:	00 40 00 00 	mull	r0,r0
 
 00032fec <T_EXPECT893>:
-   32fec:	00 00 00 04 	add	r0,r4
+   32fec:	00 80 00 00 	udiv	r0,r0
 
 00032ff0 <T_EXPECT894>:
-   32ff0:	00 00 00 04 	add	r0,r4
+   32ff0:	01 00 00 00 	mod	r0,r0
 
 00032ff4 <T_EXPECT895>:
-   32ff4:	00 00 00 04 	add	r0,r4
+   32ff4:	02 00 00 00 	inc	r0,r0
 
 00032ff8 <T_EXPECT896>:
-   32ff8:	00 00 00 08 	add	r0,r8
+   32ff8:	00 00 00 00 	add	r0,r0
 
 00032ffc <T_EXPECT897>:
-   32ffc:	00 00 00 08 	add	r0,r8
+   32ffc:	00 00 00 00 	add	r0,r0
 
 00033000 <T_EXPECT898>:
-   33000:	00 00 00 08 	add	r0,r8
+   33000:	00 00 00 00 	add	r0,r0
 
 00033004 <T_EXPECT899>:
-   33004:	00 00 00 08 	add	r0,r8
+   33004:	00 00 00 00 	add	r0,r0
 
 00033008 <T_EXPECT900>:
-   33008:	00 00 00 08 	add	r0,r8
+   33008:	00 00 00 00 	add	r0,r0
 
 0003300c <T_EXPECT901>:
-   3300c:	00 00 00 08 	add	r0,r8
+   3300c:	00 00 00 01 	add	r0,r1
 
 00033010 <T_EXPECT902>:
-   33010:	00 00 00 08 	add	r0,r8
+   33010:	00 00 00 02 	add	r0,r2
 
 00033014 <T_EXPECT903>:
-   33014:	00 00 00 08 	add	r0,r8
+   33014:	00 00 00 04 	add	r0,r4
 
 00033018 <T_EXPECT904>:
    33018:	00 00 00 08 	add	r0,r8
 
 0003301c <T_EXPECT905>:
-   3301c:	00 00 00 08 	add	r0,r8
+   3301c:	00 00 00 10 	add	r0,r16
 
 00033020 <T_EXPECT906>:
-   33020:	00 00 00 08 	add	r0,r8
+   33020:	00 00 00 20 	add	r1,r0
 
 00033024 <T_EXPECT907>:
-   33024:	00 00 00 08 	add	r0,r8
+   33024:	00 00 00 40 	add	r2,r0
 
 00033028 <T_EXPECT908>:
-   33028:	00 00 00 08 	add	r0,r8
+   33028:	00 00 00 80 	add	r4,r0
 
 0003302c <T_EXPECT909>:
-   3302c:	00 00 00 08 	add	r0,r8
+   3302c:	00 00 01 00 	add	r8,r0
 
 00033030 <T_EXPECT910>:
-   33030:	00 00 00 08 	add	r0,r8
+   33030:	00 00 02 00 	add	r16,r0
 
 00033034 <T_EXPECT911>:
-   33034:	00 00 00 08 	add	r0,r8
+   33034:	00 00 04 00 	*unknown*
 
 00033038 <T_EXPECT912>:
-   33038:	00 00 00 08 	add	r0,r8
+   33038:	00 00 08 00 	*unknown*
 
 0003303c <T_EXPECT913>:
-   3303c:	00 00 00 08 	add	r0,r8
+   3303c:	00 00 10 00 	*unknown*
 
 00033040 <T_EXPECT914>:
-   33040:	00 00 00 08 	add	r0,r8
+   33040:	00 00 20 00 	*unknown*
 
 00033044 <T_EXPECT915>:
-   33044:	00 00 00 08 	add	r0,r8
+   33044:	00 00 40 00 	*unknown*
 
 00033048 <T_EXPECT916>:
-   33048:	00 00 00 08 	add	r0,r8
+   33048:	00 00 80 00 	*unknown*
 
 0003304c <T_EXPECT917>:
-   3304c:	00 00 00 08 	add	r0,r8
+   3304c:	00 01 00 00 	*unknown*
 
 00033050 <T_EXPECT918>:
-   33050:	00 00 00 08 	add	r0,r8
+   33050:	00 02 00 00 	*unknown*
 
 00033054 <T_EXPECT919>:
-   33054:	00 00 00 08 	add	r0,r8
+   33054:	00 04 00 00 	*unknown*
 
 00033058 <T_EXPECT920>:
-   33058:	00 00 00 08 	add	r0,r8
+   33058:	00 08 00 00 	*unknown*
 
 0003305c <T_EXPECT921>:
-   3305c:	00 00 00 08 	add	r0,r8
+   3305c:	00 10 00 00 	add	r0,0
 
 00033060 <T_EXPECT922>:
-   33060:	00 00 00 08 	add	r0,r8
+   33060:	00 20 00 00 	sub	r0,r0
 
 00033064 <T_EXPECT923>:
-   33064:	00 00 00 08 	add	r0,r8
+   33064:	00 40 00 00 	mull	r0,r0
 
 00033068 <T_EXPECT924>:
-   33068:	00 00 00 08 	add	r0,r8
+   33068:	00 80 00 00 	udiv	r0,r0
 
 0003306c <T_EXPECT925>:
-   3306c:	00 00 00 08 	add	r0,r8
+   3306c:	01 00 00 00 	mod	r0,r0
 
 00033070 <T_EXPECT926>:
-   33070:	00 00 00 08 	add	r0,r8
+   33070:	02 00 00 00 	inc	r0,r0
 
 00033074 <T_EXPECT927>:
-   33074:	00 00 00 08 	add	r0,r8
+   33074:	04 00 00 00 	*unknown*
 
 00033078 <T_EXPECT928>:
-   33078:	00 00 00 10 	add	r0,r16
+   33078:	00 00 00 00 	add	r0,r0
 
 0003307c <T_EXPECT929>:
-   3307c:	00 00 00 10 	add	r0,r16
+   3307c:	00 00 00 00 	add	r0,r0
 
 00033080 <T_EXPECT930>:
-   33080:	00 00 00 10 	add	r0,r16
+   33080:	00 00 00 00 	add	r0,r0
 
 00033084 <T_EXPECT931>:
-   33084:	00 00 00 10 	add	r0,r16
+   33084:	00 00 00 00 	add	r0,r0
 
 00033088 <T_EXPECT932>:
-   33088:	00 00 00 10 	add	r0,r16
+   33088:	00 00 00 01 	add	r0,r1
 
 0003308c <T_EXPECT933>:
-   3308c:	00 00 00 10 	add	r0,r16
+   3308c:	00 00 00 02 	add	r0,r2
 
 00033090 <T_EXPECT934>:
-   33090:	00 00 00 10 	add	r0,r16
+   33090:	00 00 00 04 	add	r0,r4
 
 00033094 <T_EXPECT935>:
-   33094:	00 00 00 10 	add	r0,r16
+   33094:	00 00 00 08 	add	r0,r8
 
 00033098 <T_EXPECT936>:
    33098:	00 00 00 10 	add	r0,r16
 
 0003309c <T_EXPECT937>:
-   3309c:	00 00 00 10 	add	r0,r16
+   3309c:	00 00 00 20 	add	r1,r0
 
 000330a0 <T_EXPECT938>:
-   330a0:	00 00 00 10 	add	r0,r16
+   330a0:	00 00 00 40 	add	r2,r0
 
 000330a4 <T_EXPECT939>:
-   330a4:	00 00 00 10 	add	r0,r16
+   330a4:	00 00 00 80 	add	r4,r0
 
 000330a8 <T_EXPECT940>:
-   330a8:	00 00 00 10 	add	r0,r16
+   330a8:	00 00 01 00 	add	r8,r0
 
 000330ac <T_EXPECT941>:
-   330ac:	00 00 00 10 	add	r0,r16
+   330ac:	00 00 02 00 	add	r16,r0
 
 000330b0 <T_EXPECT942>:
-   330b0:	00 00 00 10 	add	r0,r16
+   330b0:	00 00 04 00 	*unknown*
 
 000330b4 <T_EXPECT943>:
-   330b4:	00 00 00 10 	add	r0,r16
+   330b4:	00 00 08 00 	*unknown*
 
 000330b8 <T_EXPECT944>:
-   330b8:	00 00 00 10 	add	r0,r16
+   330b8:	00 00 10 00 	*unknown*
 
 000330bc <T_EXPECT945>:
-   330bc:	00 00 00 10 	add	r0,r16
+   330bc:	00 00 20 00 	*unknown*
 
 000330c0 <T_EXPECT946>:
-   330c0:	00 00 00 10 	add	r0,r16
+   330c0:	00 00 40 00 	*unknown*
 
 000330c4 <T_EXPECT947>:
-   330c4:	00 00 00 10 	add	r0,r16
+   330c4:	00 00 80 00 	*unknown*
 
 000330c8 <T_EXPECT948>:
-   330c8:	00 00 00 10 	add	r0,r16
+   330c8:	00 01 00 00 	*unknown*
 
 000330cc <T_EXPECT949>:
-   330cc:	00 00 00 10 	add	r0,r16
+   330cc:	00 02 00 00 	*unknown*
 
 000330d0 <T_EXPECT950>:
-   330d0:	00 00 00 10 	add	r0,r16
+   330d0:	00 04 00 00 	*unknown*
 
 000330d4 <T_EXPECT951>:
-   330d4:	00 00 00 10 	add	r0,r16
+   330d4:	00 08 00 00 	*unknown*
 
 000330d8 <T_EXPECT952>:
-   330d8:	00 00 00 10 	add	r0,r16
+   330d8:	00 10 00 00 	add	r0,0
 
 000330dc <T_EXPECT953>:
-   330dc:	00 00 00 10 	add	r0,r16
+   330dc:	00 20 00 00 	sub	r0,r0
 
 000330e0 <T_EXPECT954>:
-   330e0:	00 00 00 10 	add	r0,r16
+   330e0:	00 40 00 00 	mull	r0,r0
 
 000330e4 <T_EXPECT955>:
-   330e4:	00 00 00 10 	add	r0,r16
+   330e4:	00 80 00 00 	udiv	r0,r0
 
 000330e8 <T_EXPECT956>:
-   330e8:	00 00 00 10 	add	r0,r16
+   330e8:	01 00 00 00 	mod	r0,r0
 
 000330ec <T_EXPECT957>:
-   330ec:	00 00 00 10 	add	r0,r16
+   330ec:	02 00 00 00 	inc	r0,r0
 
 000330f0 <T_EXPECT958>:
-   330f0:	00 00 00 10 	add	r0,r16
+   330f0:	04 00 00 00 	*unknown*
 
 000330f4 <T_EXPECT959>:
-   330f4:	00 00 00 10 	add	r0,r16
+   330f4:	08 00 00 00 	shl	r0,r0
 
 000330f8 <T_EXPECT960>:
-   330f8:	00 00 00 20 	add	r1,r0
+   330f8:	00 00 00 00 	add	r0,r0
 
 000330fc <T_EXPECT961>:
-   330fc:	00 00 00 20 	add	r1,r0
+   330fc:	00 00 00 00 	add	r0,r0
 
 00033100 <T_EXPECT962>:
-   33100:	00 00 00 20 	add	r1,r0
+   33100:	00 00 00 00 	add	r0,r0
 
 00033104 <T_EXPECT963>:
-   33104:	00 00 00 20 	add	r1,r0
+   33104:	00 00 00 01 	add	r0,r1
 
 00033108 <T_EXPECT964>:
-   33108:	00 00 00 20 	add	r1,r0
+   33108:	00 00 00 02 	add	r0,r2
 
 0003310c <T_EXPECT965>:
-   3310c:	00 00 00 20 	add	r1,r0
+   3310c:	00 00 00 04 	add	r0,r4
 
 00033110 <T_EXPECT966>:
-   33110:	00 00 00 20 	add	r1,r0
+   33110:	00 00 00 08 	add	r0,r8
 
 00033114 <T_EXPECT967>:
-   33114:	00 00 00 20 	add	r1,r0
+   33114:	00 00 00 10 	add	r0,r16
 
 00033118 <T_EXPECT968>:
    33118:	00 00 00 20 	add	r1,r0
 
 0003311c <T_EXPECT969>:
-   3311c:	00 00 00 20 	add	r1,r0
+   3311c:	00 00 00 40 	add	r2,r0
 
 00033120 <T_EXPECT970>:
-   33120:	00 00 00 20 	add	r1,r0
+   33120:	00 00 00 80 	add	r4,r0
 
 00033124 <T_EXPECT971>:
-   33124:	00 00 00 20 	add	r1,r0
+   33124:	00 00 01 00 	add	r8,r0
 
 00033128 <T_EXPECT972>:
-   33128:	00 00 00 20 	add	r1,r0
+   33128:	00 00 02 00 	add	r16,r0
 
 0003312c <T_EXPECT973>:
-   3312c:	00 00 00 20 	add	r1,r0
+   3312c:	00 00 04 00 	*unknown*
 
 00033130 <T_EXPECT974>:
-   33130:	00 00 00 20 	add	r1,r0
+   33130:	00 00 08 00 	*unknown*
 
 00033134 <T_EXPECT975>:
-   33134:	00 00 00 20 	add	r1,r0
+   33134:	00 00 10 00 	*unknown*
 
 00033138 <T_EXPECT976>:
-   33138:	00 00 00 20 	add	r1,r0
+   33138:	00 00 20 00 	*unknown*
 
 0003313c <T_EXPECT977>:
-   3313c:	00 00 00 20 	add	r1,r0
+   3313c:	00 00 40 00 	*unknown*
 
 00033140 <T_EXPECT978>:
-   33140:	00 00 00 20 	add	r1,r0
+   33140:	00 00 80 00 	*unknown*
 
 00033144 <T_EXPECT979>:
-   33144:	00 00 00 20 	add	r1,r0
+   33144:	00 01 00 00 	*unknown*
 
 00033148 <T_EXPECT980>:
-   33148:	00 00 00 20 	add	r1,r0
+   33148:	00 02 00 00 	*unknown*
 
 0003314c <T_EXPECT981>:
-   3314c:	00 00 00 20 	add	r1,r0
+   3314c:	00 04 00 00 	*unknown*
 
 00033150 <T_EXPECT982>:
-   33150:	00 00 00 20 	add	r1,r0
+   33150:	00 08 00 00 	*unknown*
 
 00033154 <T_EXPECT983>:
-   33154:	00 00 00 20 	add	r1,r0
+   33154:	00 10 00 00 	add	r0,0
 
 00033158 <T_EXPECT984>:
-   33158:	00 00 00 20 	add	r1,r0
+   33158:	00 20 00 00 	sub	r0,r0
 
 0003315c <T_EXPECT985>:
-   3315c:	00 00 00 20 	add	r1,r0
+   3315c:	00 40 00 00 	mull	r0,r0
 
 00033160 <T_EXPECT986>:
-   33160:	00 00 00 20 	add	r1,r0
+   33160:	00 80 00 00 	udiv	r0,r0
 
 00033164 <T_EXPECT987>:
-   33164:	00 00 00 20 	add	r1,r0
+   33164:	01 00 00 00 	mod	r0,r0
 
 00033168 <T_EXPECT988>:
-   33168:	00 00 00 20 	add	r1,r0
+   33168:	02 00 00 00 	inc	r0,r0
 
 0003316c <T_EXPECT989>:
-   3316c:	00 00 00 20 	add	r1,r0
+   3316c:	04 00 00 00 	*unknown*
 
 00033170 <T_EXPECT990>:
-   33170:	00 00 00 20 	add	r1,r0
+   33170:	08 00 00 00 	shl	r0,r0
 
 00033174 <T_EXPECT991>:
-   33174:	00 00 00 20 	add	r1,r0
+   33174:	10 00 00 00 	ld8	r0,r0
 
 00033178 <T_EXPECT992>:
-   33178:	00 00 00 40 	add	r2,r0
+   33178:	00 00 00 00 	add	r0,r0
 
 0003317c <T_EXPECT993>:
-   3317c:	00 00 00 40 	add	r2,r0
+   3317c:	00 00 00 00 	add	r0,r0
 
 00033180 <T_EXPECT994>:
-   33180:	00 00 00 40 	add	r2,r0
+   33180:	00 00 00 01 	add	r0,r1
 
 00033184 <T_EXPECT995>:
-   33184:	00 00 00 40 	add	r2,r0
+   33184:	00 00 00 02 	add	r0,r2
 
 00033188 <T_EXPECT996>:
-   33188:	00 00 00 40 	add	r2,r0
+   33188:	00 00 00 04 	add	r0,r4
 
 0003318c <T_EXPECT997>:
-   3318c:	00 00 00 40 	add	r2,r0
+   3318c:	00 00 00 08 	add	r0,r8
 
 00033190 <T_EXPECT998>:
-   33190:	00 00 00 40 	add	r2,r0
+   33190:	00 00 00 10 	add	r0,r16
 
 00033194 <T_EXPECT999>:
-   33194:	00 00 00 40 	add	r2,r0
+   33194:	00 00 00 20 	add	r1,r0
 
 00033198 <T_EXPECT1000>:
    33198:	00 00 00 40 	add	r2,r0
 
 0003319c <T_EXPECT1001>:
-   3319c:	00 00 00 40 	add	r2,r0
+   3319c:	00 00 00 80 	add	r4,r0
 
 000331a0 <T_EXPECT1002>:
-   331a0:	00 00 00 40 	add	r2,r0
+   331a0:	00 00 01 00 	add	r8,r0
 
 000331a4 <T_EXPECT1003>:
-   331a4:	00 00 00 40 	add	r2,r0
+   331a4:	00 00 02 00 	add	r16,r0
 
 000331a8 <T_EXPECT1004>:
-   331a8:	00 00 00 40 	add	r2,r0
+   331a8:	00 00 04 00 	*unknown*
 
 000331ac <T_EXPECT1005>:
-   331ac:	00 00 00 40 	add	r2,r0
+   331ac:	00 00 08 00 	*unknown*
 
 000331b0 <T_EXPECT1006>:
-   331b0:	00 00 00 40 	add	r2,r0
+   331b0:	00 00 10 00 	*unknown*
 
 000331b4 <T_EXPECT1007>:
-   331b4:	00 00 00 40 	add	r2,r0
+   331b4:	00 00 20 00 	*unknown*
 
 000331b8 <T_EXPECT1008>:
-   331b8:	00 00 00 40 	add	r2,r0
+   331b8:	00 00 40 00 	*unknown*
 
 000331bc <T_EXPECT1009>:
-   331bc:	00 00 00 40 	add	r2,r0
+   331bc:	00 00 80 00 	*unknown*
 
 000331c0 <T_EXPECT1010>:
-   331c0:	00 00 00 40 	add	r2,r0
+   331c0:	00 01 00 00 	*unknown*
 
 000331c4 <T_EXPECT1011>:
-   331c4:	00 00 00 40 	add	r2,r0
+   331c4:	00 02 00 00 	*unknown*
 
 000331c8 <T_EXPECT1012>:
-   331c8:	00 00 00 40 	add	r2,r0
+   331c8:	00 04 00 00 	*unknown*
 
 000331cc <T_EXPECT1013>:
-   331cc:	00 00 00 40 	add	r2,r0
+   331cc:	00 08 00 00 	*unknown*
 
 000331d0 <T_EXPECT1014>:
-   331d0:	00 00 00 40 	add	r2,r0
+   331d0:	00 10 00 00 	add	r0,0
 
 000331d4 <T_EXPECT1015>:
-   331d4:	00 00 00 40 	add	r2,r0
+   331d4:	00 20 00 00 	sub	r0,r0
 
 000331d8 <T_EXPECT1016>:
-   331d8:	00 00 00 40 	add	r2,r0
+   331d8:	00 40 00 00 	mull	r0,r0
 
 000331dc <T_EXPECT1017>:
-   331dc:	00 00 00 40 	add	r2,r0
+   331dc:	00 80 00 00 	udiv	r0,r0
 
 000331e0 <T_EXPECT1018>:
-   331e0:	00 00 00 40 	add	r2,r0
+   331e0:	01 00 00 00 	mod	r0,r0
 
 000331e4 <T_EXPECT1019>:
-   331e4:	00 00 00 40 	add	r2,r0
+   331e4:	02 00 00 00 	inc	r0,r0
 
 000331e8 <T_EXPECT1020>:
-   331e8:	00 00 00 40 	add	r2,r0
+   331e8:	04 00 00 00 	*unknown*
 
 000331ec <T_EXPECT1021>:
-   331ec:	00 00 00 40 	add	r2,r0
+   331ec:	08 00 00 00 	shl	r0,r0
 
 000331f0 <T_EXPECT1022>:
-   331f0:	00 00 00 40 	add	r2,r0
+   331f0:	10 00 00 00 	ld8	r0,r0
 
 000331f4 <T_EXPECT1023>:
-   331f4:	00 00 00 40 	add	r2,r0
+   331f4:	20 00 00 00 	nop
 
 000331f8 <T_EXPECT1024>:
-   331f8:	00 00 00 80 	add	r4,r0
+   331f8:	00 00 00 00 	add	r0,r0
 
 000331fc <T_EXPECT1025>:
-   331fc:	00 00 00 80 	add	r4,r0
+   331fc:	00 00 00 01 	add	r0,r1
 
 00033200 <T_EXPECT1026>:
-   33200:	00 00 00 80 	add	r4,r0
+   33200:	00 00 00 02 	add	r0,r2
 
 00033204 <T_EXPECT1027>:
-   33204:	00 00 00 80 	add	r4,r0
+   33204:	00 00 00 04 	add	r0,r4
 
 00033208 <T_EXPECT1028>:
-   33208:	00 00 00 80 	add	r4,r0
+   33208:	00 00 00 08 	add	r0,r8
 
 0003320c <T_EXPECT1029>:
-   3320c:	00 00 00 80 	add	r4,r0
+   3320c:	00 00 00 10 	add	r0,r16
 
 00033210 <T_EXPECT1030>:
-   33210:	00 00 00 80 	add	r4,r0
+   33210:	00 00 00 20 	add	r1,r0
 
 00033214 <T_EXPECT1031>:
-   33214:	00 00 00 80 	add	r4,r0
+   33214:	00 00 00 40 	add	r2,r0
 
 00033218 <T_EXPECT1032>:
    33218:	00 00 00 80 	add	r4,r0
 
 0003321c <T_EXPECT1033>:
-   3321c:	00 00 00 80 	add	r4,r0
+   3321c:	00 00 01 00 	add	r8,r0
 
 00033220 <T_EXPECT1034>:
-   33220:	00 00 00 80 	add	r4,r0
+   33220:	00 00 02 00 	add	r16,r0
 
 00033224 <T_EXPECT1035>:
-   33224:	00 00 00 80 	add	r4,r0
+   33224:	00 00 04 00 	*unknown*
 
 00033228 <T_EXPECT1036>:
-   33228:	00 00 00 80 	add	r4,r0
+   33228:	00 00 08 00 	*unknown*
 
 0003322c <T_EXPECT1037>:
-   3322c:	00 00 00 80 	add	r4,r0
+   3322c:	00 00 10 00 	*unknown*
 
 00033230 <T_EXPECT1038>:
-   33230:	00 00 00 80 	add	r4,r0
+   33230:	00 00 20 00 	*unknown*
 
 00033234 <T_EXPECT1039>:
-   33234:	00 00 00 80 	add	r4,r0
+   33234:	00 00 40 00 	*unknown*
 
 00033238 <T_EXPECT1040>:
-   33238:	00 00 00 80 	add	r4,r0
+   33238:	00 00 80 00 	*unknown*
 
 0003323c <T_EXPECT1041>:
-   3323c:	00 00 00 80 	add	r4,r0
+   3323c:	00 01 00 00 	*unknown*
 
 00033240 <T_EXPECT1042>:
-   33240:	00 00 00 80 	add	r4,r0
+   33240:	00 02 00 00 	*unknown*
 
 00033244 <T_EXPECT1043>:
-   33244:	00 00 00 80 	add	r4,r0
+   33244:	00 04 00 00 	*unknown*
 
 00033248 <T_EXPECT1044>:
-   33248:	00 00 00 80 	add	r4,r0
+   33248:	00 08 00 00 	*unknown*
 
 0003324c <T_EXPECT1045>:
-   3324c:	00 00 00 80 	add	r4,r0
+   3324c:	00 10 00 00 	add	r0,0
 
 00033250 <T_EXPECT1046>:
-   33250:	00 00 00 80 	add	r4,r0
+   33250:	00 20 00 00 	sub	r0,r0
 
 00033254 <T_EXPECT1047>:
-   33254:	00 00 00 80 	add	r4,r0
+   33254:	00 40 00 00 	mull	r0,r0
 
 00033258 <T_EXPECT1048>:
-   33258:	00 00 00 80 	add	r4,r0
+   33258:	00 80 00 00 	udiv	r0,r0
 
 0003325c <T_EXPECT1049>:
-   3325c:	00 00 00 80 	add	r4,r0
+   3325c:	01 00 00 00 	mod	r0,r0
 
 00033260 <T_EXPECT1050>:
-   33260:	00 00 00 80 	add	r4,r0
+   33260:	02 00 00 00 	inc	r0,r0
 
 00033264 <T_EXPECT1051>:
-   33264:	00 00 00 80 	add	r4,r0
+   33264:	04 00 00 00 	*unknown*
 
 00033268 <T_EXPECT1052>:
-   33268:	00 00 00 80 	add	r4,r0
+   33268:	08 00 00 00 	shl	r0,r0
 
 0003326c <T_EXPECT1053>:
-   3326c:	00 00 00 80 	add	r4,r0
+   3326c:	10 00 00 00 	ld8	r0,r0
 
 00033270 <T_EXPECT1054>:
-   33270:	00 00 00 80 	add	r4,r0
+   33270:	20 00 00 00 	nop
 
 00033274 <T_EXPECT1055>:
-   33274:	00 00 00 80 	add	r4,r0
+   33274:	40 00 00 00 	*unknown*
 
 00033278 <T_EXPECT1056>:
-   33278:	03 00 00 00 	*unknown*
+   33278:	00 00 00 00 	add	r0,r0
 
 0003327c <T_EXPECT1057>:
-   3327c:	07 00 00 00 	*unknown*
+   3327c:	00 00 00 00 	add	r0,r0
 
 00033280 <T_EXPECT1058>:
-   33280:	0f 00 00 00 	*unknown*
+   33280:	00 00 00 00 	add	r0,r0
 
 00033284 <T_EXPECT1059>:
-   33284:	1f 00 00 00 	*unknown*
+   33284:	00 00 00 00 	add	r0,r0
 
 00033288 <T_EXPECT1060>:
-   33288:	3f 00 00 00 	*unknown*
+   33288:	00 00 00 00 	add	r0,r0
 
 0003328c <T_EXPECT1061>:
-   3328c:	7f 00 00 00 	*unknown*
+   3328c:	00 00 00 00 	add	r0,r0
 
 00033290 <T_EXPECT1062>:
-   33290:	ff 00 00 00 	*unknown*
+   33290:	00 00 00 00 	add	r0,r0
 
 00033294 <T_EXPECT1063>:
-   33294:	ff 01 00 00 	*unknown*
+   33294:	00 00 00 00 	add	r0,r0
 
 00033298 <T_EXPECT1064>:
-   33298:	ff 03 00 00 	*unknown*
+   33298:	00 00 00 00 	add	r0,r0
 
 0003329c <T_EXPECT1065>:
-   3329c:	ff 07 00 00 	*unknown*
+   3329c:	00 00 00 00 	add	r0,r0
 
 000332a0 <T_EXPECT1066>:
-   332a0:	ff 0f 00 00 	*unknown*
+   332a0:	00 00 00 00 	add	r0,r0
 
 000332a4 <T_EXPECT1067>:
-   332a4:	ff 1f 00 00 	*unknown*
+   332a4:	00 00 00 00 	add	r0,r0
 
 000332a8 <T_EXPECT1068>:
-   332a8:	ff 3f 00 00 	*unknown*
+   332a8:	00 00 00 00 	add	r0,r0
 
 000332ac <T_EXPECT1069>:
-   332ac:	ff 7f 00 00 	*unknown*
+   332ac:	00 00 00 00 	add	r0,r0
 
 000332b0 <T_EXPECT1070>:
-   332b0:	ff ff 00 00 	*unknown*
+   332b0:	00 00 00 00 	add	r0,r0
 
 000332b4 <T_EXPECT1071>:
-   332b4:	ff ff 01 00 	*unknown*
+   332b4:	00 00 00 03 	add	r0,r3
 
 000332b8 <T_EXPECT1072>:
-   332b8:	ff ff 03 00 	*unknown*
+   332b8:	00 00 00 0f 	add	r0,r15
 
 000332bc <T_EXPECT1073>:
-   332bc:	ff ff 07 00 	*unknown*
+   332bc:	00 00 00 3f 	add	r1,rret
 
 000332c0 <T_EXPECT1074>:
-   332c0:	ff ff 0f 00 	*unknown*
+   332c0:	00 00 00 ff 	add	rtmp,rret
 
 000332c4 <T_EXPECT1075>:
-   332c4:	ff ff 1f 00 	*unknown*
+   332c4:	00 00 03 ff 	add	rret,rret
 
 000332c8 <T_EXPECT1076>:
-   332c8:	ff ff 3f 00 	*unknown*
+   332c8:	00 00 0f ff 	*unknown*
 
 000332cc <T_EXPECT1077>:
-   332cc:	ff ff 7f 00 	*unknown*
+   332cc:	00 00 3f ff 	*unknown*
 
 000332d0 <T_EXPECT1078>:
-   332d0:	ff ff ff 00 	*unknown*
+   332d0:	00 00 ff ff 	*unknown*
 
 000332d4 <T_EXPECT1079>:
-   332d4:	ff ff ff 01 	*unknown*
+   332d4:	00 03 ff ff 	*unknown*
 
 000332d8 <T_EXPECT1080>:
-   332d8:	ff ff ff 03 	*unknown*
+   332d8:	00 0f ff ff 	*unknown*
 
 000332dc <T_EXPECT1081>:
-   332dc:	ff ff ff 07 	*unknown*
+   332dc:	00 3f ff ff 	*unknown*
 
 000332e0 <T_EXPECT1082>:
-   332e0:	ff ff ff 0f 	*unknown*
+   332e0:	00 ff ff ff 	*unknown*
 
 000332e4 <T_EXPECT1083>:
-   332e4:	ff ff ff 1f 	*unknown*
+   332e4:	03 ff ff ff 	*unknown*
 
 000332e8 <T_EXPECT1084>:
-   332e8:	ff ff ff 3f 	*unknown*
+   332e8:	0f ff ff ff 	*unknown*
 
 000332ec <T_EXPECT1085>:
-   332ec:	ff ff ff 7f 	*unknown*
+   332ec:	3f ff ff ff 	*unknown*
 
 000332f0 <T_EXPECT1086>:
-   332f0:	ff ff ff ff 	*unknown*
+   332f0:	ff ff ff fe 	*unknown*
+
+000332f4 <T_IMM_DST0>:
+   332f4:	00 00 00 00 	add	r0,r0
+
+000332f8 <T_IMM_DST1>:
+   332f8:	00 00 00 00 	add	r0,r0
+
+000332fc <T_IMM_DST2>:
+   332fc:	00 00 00 00 	add	r0,r0
+
+00033300 <T_IMM_DST3>:
+   33300:	00 00 00 00 	add	r0,r0
+
+00033304 <T_IMM_DST4>:
+   33304:	00 00 00 00 	add	r0,r0
+
+00033308 <T_IMM_DST5>:
+   33308:	00 00 00 00 	add	r0,r0
+
+0003330c <T_IMM_DST6>:
+   3330c:	00 00 00 00 	add	r0,r0
+
+00033310 <T_IMM_DST7>:
+   33310:	00 00 00 00 	add	r0,r0
+
+00033314 <T_IMM_DST8>:
+   33314:	00 00 00 00 	add	r0,r0
+
+00033318 <T_IMM_DST9>:
+   33318:	00 00 00 00 	add	r0,r0
+
+0003331c <T_IMM_DST10>:
+   3331c:	00 00 00 00 	add	r0,r0
+
+00033320 <T_IMM_DST11>:
+   33320:	00 00 00 01 	add	r0,r1
+
+00033324 <T_IMM_DST12>:
+   33324:	00 00 00 01 	add	r0,r1
+
+00033328 <T_IMM_DST13>:
+   33328:	00 00 00 01 	add	r0,r1
+
+0003332c <T_IMM_DST14>:
+   3332c:	00 00 00 01 	add	r0,r1
+
+00033330 <T_IMM_DST15>:
+   33330:	00 00 00 01 	add	r0,r1
+
+00033334 <T_IMM_DST16>:
+   33334:	00 00 00 01 	add	r0,r1
+
+00033338 <T_IMM_DST17>:
+   33338:	00 00 00 01 	add	r0,r1
+
+0003333c <T_IMM_DST18>:
+   3333c:	00 00 00 01 	add	r0,r1
+
+00033340 <T_IMM_DST19>:
+   33340:	00 00 00 01 	add	r0,r1
+
+00033344 <T_IMM_DST20>:
+   33344:	00 00 00 01 	add	r0,r1
+
+00033348 <T_IMM_DST21>:
+   33348:	00 00 00 01 	add	r0,r1
+
+0003334c <T_IMM_DST22>:
+   3334c:	00 00 00 02 	add	r0,r2
+
+00033350 <T_IMM_DST23>:
+   33350:	00 00 00 02 	add	r0,r2
+
+00033354 <T_IMM_DST24>:
+   33354:	00 00 00 02 	add	r0,r2
+
+00033358 <T_IMM_DST25>:
+   33358:	00 00 00 02 	add	r0,r2
+
+0003335c <T_IMM_DST26>:
+   3335c:	00 00 00 02 	add	r0,r2
+
+00033360 <T_IMM_DST27>:
+   33360:	00 00 00 02 	add	r0,r2
+
+00033364 <T_IMM_DST28>:
+   33364:	00 00 00 02 	add	r0,r2
+
+00033368 <T_IMM_DST29>:
+   33368:	00 00 00 02 	add	r0,r2
+
+0003336c <T_IMM_DST30>:
+   3336c:	00 00 00 02 	add	r0,r2
+
+00033370 <T_IMM_DST31>:
+   33370:	00 00 00 02 	add	r0,r2
+
+00033374 <T_IMM_DST32>:
+   33374:	00 00 00 02 	add	r0,r2
+
+00033378 <T_IMM_DST33>:
+   33378:	00 00 00 04 	add	r0,r4
+
+0003337c <T_IMM_DST34>:
+   3337c:	00 00 00 04 	add	r0,r4
+
+00033380 <T_IMM_DST35>:
+   33380:	00 00 00 04 	add	r0,r4
+
+00033384 <T_IMM_DST36>:
+   33384:	00 00 00 04 	add	r0,r4
+
+00033388 <T_IMM_DST37>:
+   33388:	00 00 00 04 	add	r0,r4
+
+0003338c <T_IMM_DST38>:
+   3338c:	00 00 00 04 	add	r0,r4
+
+00033390 <T_IMM_DST39>:
+   33390:	00 00 00 04 	add	r0,r4
+
+00033394 <T_IMM_DST40>:
+   33394:	00 00 00 04 	add	r0,r4
+
+00033398 <T_IMM_DST41>:
+   33398:	00 00 00 04 	add	r0,r4
+
+0003339c <T_IMM_DST42>:
+   3339c:	00 00 00 04 	add	r0,r4
+
+000333a0 <T_IMM_DST43>:
+   333a0:	00 00 00 04 	add	r0,r4
+
+000333a4 <T_IMM_DST44>:
+   333a4:	00 00 00 08 	add	r0,r8
+
+000333a8 <T_IMM_DST45>:
+   333a8:	00 00 00 08 	add	r0,r8
+
+000333ac <T_IMM_DST46>:
+   333ac:	00 00 00 08 	add	r0,r8
+
+000333b0 <T_IMM_DST47>:
+   333b0:	00 00 00 08 	add	r0,r8
+
+000333b4 <T_IMM_DST48>:
+   333b4:	00 00 00 08 	add	r0,r8
+
+000333b8 <T_IMM_DST49>:
+   333b8:	00 00 00 08 	add	r0,r8
+
+000333bc <T_IMM_DST50>:
+   333bc:	00 00 00 08 	add	r0,r8
+
+000333c0 <T_IMM_DST51>:
+   333c0:	00 00 00 08 	add	r0,r8
+
+000333c4 <T_IMM_DST52>:
+   333c4:	00 00 00 08 	add	r0,r8
+
+000333c8 <T_IMM_DST53>:
+   333c8:	00 00 00 08 	add	r0,r8
+
+000333cc <T_IMM_DST54>:
+   333cc:	00 00 00 08 	add	r0,r8
+
+000333d0 <T_IMM_DST55>:
+   333d0:	00 00 00 10 	add	r0,r16
+
+000333d4 <T_IMM_DST56>:
+   333d4:	00 00 00 10 	add	r0,r16
+
+000333d8 <T_IMM_DST57>:
+   333d8:	00 00 00 10 	add	r0,r16
+
+000333dc <T_IMM_DST58>:
+   333dc:	00 00 00 10 	add	r0,r16
+
+000333e0 <T_IMM_DST59>:
+   333e0:	00 00 00 10 	add	r0,r16
+
+000333e4 <T_IMM_DST60>:
+   333e4:	00 00 00 10 	add	r0,r16
+
+000333e8 <T_IMM_DST61>:
+   333e8:	00 00 00 10 	add	r0,r16
+
+000333ec <T_IMM_DST62>:
+   333ec:	00 00 00 10 	add	r0,r16
+
+000333f0 <T_IMM_DST63>:
+   333f0:	00 00 00 10 	add	r0,r16
+
+000333f4 <T_IMM_DST64>:
+   333f4:	00 00 00 10 	add	r0,r16
+
+000333f8 <T_IMM_DST65>:
+   333f8:	00 00 00 10 	add	r0,r16
+
+000333fc <T_IMM_DST66>:
+   333fc:	00 00 00 20 	add	r1,r0
+
+00033400 <T_IMM_DST67>:
+   33400:	00 00 00 20 	add	r1,r0
+
+00033404 <T_IMM_DST68>:
+   33404:	00 00 00 20 	add	r1,r0
+
+00033408 <T_IMM_DST69>:
+   33408:	00 00 00 20 	add	r1,r0
+
+0003340c <T_IMM_DST70>:
+   3340c:	00 00 00 20 	add	r1,r0
+
+00033410 <T_IMM_DST71>:
+   33410:	00 00 00 20 	add	r1,r0
+
+00033414 <T_IMM_DST72>:
+   33414:	00 00 00 20 	add	r1,r0
+
+00033418 <T_IMM_DST73>:
+   33418:	00 00 00 20 	add	r1,r0
+
+0003341c <T_IMM_DST74>:
+   3341c:	00 00 00 20 	add	r1,r0
+
+00033420 <T_IMM_DST75>:
+   33420:	00 00 00 20 	add	r1,r0
+
+00033424 <T_IMM_DST76>:
+   33424:	00 00 00 20 	add	r1,r0
+
+00033428 <T_IMM_DST77>:
+   33428:	00 00 00 40 	add	r2,r0
+
+0003342c <T_IMM_DST78>:
+   3342c:	00 00 00 40 	add	r2,r0
+
+00033430 <T_IMM_DST79>:
+   33430:	00 00 00 40 	add	r2,r0
+
+00033434 <T_IMM_DST80>:
+   33434:	00 00 00 40 	add	r2,r0
+
+00033438 <T_IMM_DST81>:
+   33438:	00 00 00 40 	add	r2,r0
+
+0003343c <T_IMM_DST82>:
+   3343c:	00 00 00 40 	add	r2,r0
+
+00033440 <T_IMM_DST83>:
+   33440:	00 00 00 40 	add	r2,r0
+
+00033444 <T_IMM_DST84>:
+   33444:	00 00 00 40 	add	r2,r0
+
+00033448 <T_IMM_DST85>:
+   33448:	00 00 00 40 	add	r2,r0
+
+0003344c <T_IMM_DST86>:
+   3344c:	00 00 00 40 	add	r2,r0
+
+00033450 <T_IMM_DST87>:
+   33450:	00 00 00 40 	add	r2,r0
+
+00033454 <T_IMM_DST88>:
+   33454:	00 00 00 80 	add	r4,r0
+
+00033458 <T_IMM_DST89>:
+   33458:	00 00 00 80 	add	r4,r0
+
+0003345c <T_IMM_DST90>:
+   3345c:	00 00 00 80 	add	r4,r0
+
+00033460 <T_IMM_DST91>:
+   33460:	00 00 00 80 	add	r4,r0
+
+00033464 <T_IMM_DST92>:
+   33464:	00 00 00 80 	add	r4,r0
+
+00033468 <T_IMM_DST93>:
+   33468:	00 00 00 80 	add	r4,r0
+
+0003346c <T_IMM_DST94>:
+   3346c:	00 00 00 80 	add	r4,r0
+
+00033470 <T_IMM_DST95>:
+   33470:	00 00 00 80 	add	r4,r0
+
+00033474 <T_IMM_DST96>:
+   33474:	00 00 00 80 	add	r4,r0
+
+00033478 <T_IMM_DST97>:
+   33478:	00 00 00 80 	add	r4,r0
+
+0003347c <T_IMM_DST98>:
+   3347c:	00 00 00 80 	add	r4,r0
+
+00033480 <T_IMM_DST99>:
+   33480:	00 00 01 00 	add	r8,r0
+
+00033484 <T_IMM_DST100>:
+   33484:	00 00 01 00 	add	r8,r0
+
+00033488 <T_IMM_DST101>:
+   33488:	00 00 01 00 	add	r8,r0
+
+0003348c <T_IMM_DST102>:
+   3348c:	00 00 01 00 	add	r8,r0
+
+00033490 <T_IMM_DST103>:
+   33490:	00 00 01 00 	add	r8,r0
+
+00033494 <T_IMM_DST104>:
+   33494:	00 00 01 00 	add	r8,r0
+
+00033498 <T_IMM_DST105>:
+   33498:	00 00 01 00 	add	r8,r0
+
+0003349c <T_IMM_DST106>:
+   3349c:	00 00 01 00 	add	r8,r0
+
+000334a0 <T_IMM_DST107>:
+   334a0:	00 00 01 00 	add	r8,r0
+
+000334a4 <T_IMM_DST108>:
+   334a4:	00 00 01 00 	add	r8,r0
+
+000334a8 <T_IMM_DST109>:
+   334a8:	00 00 01 00 	add	r8,r0
+
+000334ac <T_IMM_DST110>:
+   334ac:	00 00 02 00 	add	r16,r0
+
+000334b0 <T_IMM_DST111>:
+   334b0:	00 00 02 00 	add	r16,r0
+
+000334b4 <T_IMM_DST112>:
+   334b4:	00 00 02 00 	add	r16,r0
+
+000334b8 <T_IMM_DST113>:
+   334b8:	00 00 02 00 	add	r16,r0
+
+000334bc <T_IMM_DST114>:
+   334bc:	00 00 02 00 	add	r16,r0
+
+000334c0 <T_IMM_DST115>:
+   334c0:	00 00 02 00 	add	r16,r0
+
+000334c4 <T_IMM_DST116>:
+   334c4:	00 00 02 00 	add	r16,r0
+
+000334c8 <T_IMM_DST117>:
+   334c8:	00 00 02 00 	add	r16,r0
+
+000334cc <T_IMM_DST118>:
+   334cc:	00 00 02 00 	add	r16,r0
+
+000334d0 <T_IMM_DST119>:
+   334d0:	00 00 02 00 	add	r16,r0
+
+000334d4 <T_IMM_DST120>:
+   334d4:	00 00 02 00 	add	r16,r0
+
+000334d8 <T_IMM_DST121>:
+   334d8:	00 00 04 00 	*unknown*
+
+000334dc <T_IMM_DST122>:
+   334dc:	00 00 04 00 	*unknown*
+
+000334e0 <T_IMM_DST123>:
+   334e0:	00 00 04 00 	*unknown*
+
+000334e4 <T_IMM_DST124>:
+   334e4:	00 00 04 00 	*unknown*
+
+000334e8 <T_IMM_DST125>:
+   334e8:	00 00 04 00 	*unknown*
+
+000334ec <T_IMM_DST126>:
+   334ec:	00 00 04 00 	*unknown*
+
+000334f0 <T_IMM_DST127>:
+   334f0:	00 00 04 00 	*unknown*
+
+000334f4 <T_IMM_DST128>:
+   334f4:	00 00 04 00 	*unknown*
+
+000334f8 <T_IMM_DST129>:
+   334f8:	00 00 04 00 	*unknown*
+
+000334fc <T_IMM_DST130>:
+   334fc:	00 00 04 00 	*unknown*
+
+00033500 <T_IMM_DST131>:
+   33500:	00 00 04 00 	*unknown*
+
+00033504 <T_IMM_DST132>:
+   33504:	00 00 00 03 	add	r0,r3
+
+00033508 <T_IMM_DST133>:
+   33508:	00 00 00 07 	add	r0,rtmp
+
+0003350c <T_IMM_DST134>:
+   3350c:	00 00 00 0f 	add	r0,r15
+
+00033510 <T_IMM_DST135>:
+   33510:	00 00 00 1f 	add	r0,rret
+
+00033514 <T_IMM_DST136>:
+   33514:	00 00 00 3f 	add	r1,rret
+
+00033518 <T_IMM_DST137>:
+   33518:	00 00 00 7f 	add	r3,rret
+
+0003351c <T_IMM_DST138>:
+   3351c:	00 00 00 ff 	add	rtmp,rret
+
+00033520 <T_IMM_DST139>:
+   33520:	00 00 01 ff 	add	r15,rret
+
+00033524 <T_IMM_DST140>:
+   33524:	00 00 03 ff 	add	rret,rret
+
+00033528 <T_IMM_DST141>:
+   33528:	00 00 07 ff 	*unknown*
+
+0003352c <T_IMM_EXPECT0>:
+   3352c:	00 00 00 00 	add	r0,r0
+
+00033530 <T_IMM_EXPECT1>:
+   33530:	00 00 00 00 	add	r0,r0
+
+00033534 <T_IMM_EXPECT2>:
+   33534:	00 00 00 00 	add	r0,r0
+
+00033538 <T_IMM_EXPECT3>:
+   33538:	00 00 00 00 	add	r0,r0
+
+0003353c <T_IMM_EXPECT4>:
+   3353c:	00 00 00 00 	add	r0,r0
+
+00033540 <T_IMM_EXPECT5>:
+   33540:	00 00 00 00 	add	r0,r0
+
+00033544 <T_IMM_EXPECT6>:
+   33544:	00 00 00 00 	add	r0,r0
+
+00033548 <T_IMM_EXPECT7>:
+   33548:	00 00 00 00 	add	r0,r0
+
+0003354c <T_IMM_EXPECT8>:
+   3354c:	00 00 00 00 	add	r0,r0
+
+00033550 <T_IMM_EXPECT9>:
+   33550:	00 00 00 00 	add	r0,r0
+
+00033554 <T_IMM_EXPECT10>:
+   33554:	00 00 00 00 	add	r0,r0
+
+00033558 <T_IMM_EXPECT11>:
+   33558:	00 00 00 00 	add	r0,r0
+
+0003355c <T_IMM_EXPECT12>:
+   3355c:	00 00 00 00 	add	r0,r0
+
+00033560 <T_IMM_EXPECT13>:
+   33560:	00 00 00 00 	add	r0,r0
+
+00033564 <T_IMM_EXPECT14>:
+   33564:	00 00 00 00 	add	r0,r0
+
+00033568 <T_IMM_EXPECT15>:
+   33568:	00 00 00 00 	add	r0,r0
+
+0003356c <T_IMM_EXPECT16>:
+   3356c:	00 00 00 00 	add	r0,r0
+
+00033570 <T_IMM_EXPECT17>:
+   33570:	00 00 00 00 	add	r0,r0
+
+00033574 <T_IMM_EXPECT18>:
+   33574:	00 00 00 00 	add	r0,r0
+
+00033578 <T_IMM_EXPECT19>:
+   33578:	00 00 00 00 	add	r0,r0
+
+0003357c <T_IMM_EXPECT20>:
+   3357c:	00 00 00 00 	add	r0,r0
+
+00033580 <T_IMM_EXPECT21>:
+   33580:	00 00 00 00 	add	r0,r0
+
+00033584 <T_IMM_EXPECT22>:
+   33584:	00 00 00 00 	add	r0,r0
+
+00033588 <T_IMM_EXPECT23>:
+   33588:	00 00 00 00 	add	r0,r0
+
+0003358c <T_IMM_EXPECT24>:
+   3358c:	00 00 00 00 	add	r0,r0
+
+00033590 <T_IMM_EXPECT25>:
+   33590:	00 00 00 00 	add	r0,r0
+
+00033594 <T_IMM_EXPECT26>:
+   33594:	00 00 00 00 	add	r0,r0
+
+00033598 <T_IMM_EXPECT27>:
+   33598:	00 00 00 00 	add	r0,r0
+
+0003359c <T_IMM_EXPECT28>:
+   3359c:	00 00 00 00 	add	r0,r0
+
+000335a0 <T_IMM_EXPECT29>:
+   335a0:	00 00 00 00 	add	r0,r0
+
+000335a4 <T_IMM_EXPECT30>:
+   335a4:	00 00 00 00 	add	r0,r0
+
+000335a8 <T_IMM_EXPECT31>:
+   335a8:	00 00 00 00 	add	r0,r0
+
+000335ac <T_IMM_EXPECT32>:
+   335ac:	00 00 00 00 	add	r0,r0
+
+000335b0 <T_IMM_EXPECT33>:
+   335b0:	00 00 00 00 	add	r0,r0
+
+000335b4 <T_IMM_EXPECT34>:
+   335b4:	00 00 00 00 	add	r0,r0
+
+000335b8 <T_IMM_EXPECT35>:
+   335b8:	00 00 00 00 	add	r0,r0
+
+000335bc <T_IMM_EXPECT36>:
+   335bc:	00 00 00 00 	add	r0,r0
+
+000335c0 <T_IMM_EXPECT37>:
+   335c0:	00 00 00 00 	add	r0,r0
+
+000335c4 <T_IMM_EXPECT38>:
+   335c4:	00 00 00 00 	add	r0,r0
+
+000335c8 <T_IMM_EXPECT39>:
+   335c8:	00 00 00 00 	add	r0,r0
+
+000335cc <T_IMM_EXPECT40>:
+   335cc:	00 00 00 00 	add	r0,r0
+
+000335d0 <T_IMM_EXPECT41>:
+   335d0:	00 00 00 00 	add	r0,r0
+
+000335d4 <T_IMM_EXPECT42>:
+   335d4:	00 00 00 00 	add	r0,r0
+
+000335d8 <T_IMM_EXPECT43>:
+   335d8:	00 00 00 00 	add	r0,r0
+
+000335dc <T_IMM_EXPECT44>:
+   335dc:	00 00 00 00 	add	r0,r0
+
+000335e0 <T_IMM_EXPECT45>:
+   335e0:	00 00 00 00 	add	r0,r0
+
+000335e4 <T_IMM_EXPECT46>:
+   335e4:	00 00 00 00 	add	r0,r0
+
+000335e8 <T_IMM_EXPECT47>:
+   335e8:	00 00 00 00 	add	r0,r0
+
+000335ec <T_IMM_EXPECT48>:
+   335ec:	00 00 00 00 	add	r0,r0
+
+000335f0 <T_IMM_EXPECT49>:
+   335f0:	00 00 00 00 	add	r0,r0
+
+000335f4 <T_IMM_EXPECT50>:
+   335f4:	00 00 00 00 	add	r0,r0
+
+000335f8 <T_IMM_EXPECT51>:
+   335f8:	00 00 00 00 	add	r0,r0
+
+000335fc <T_IMM_EXPECT52>:
+   335fc:	00 00 00 00 	add	r0,r0
+
+00033600 <T_IMM_EXPECT53>:
+   33600:	00 00 00 00 	add	r0,r0
+
+00033604 <T_IMM_EXPECT54>:
+   33604:	00 00 00 00 	add	r0,r0
+
+00033608 <T_IMM_EXPECT55>:
+   33608:	00 00 00 00 	add	r0,r0
+
+0003360c <T_IMM_EXPECT56>:
+   3360c:	00 00 00 00 	add	r0,r0
+
+00033610 <T_IMM_EXPECT57>:
+   33610:	00 00 00 00 	add	r0,r0
+
+00033614 <T_IMM_EXPECT58>:
+   33614:	00 00 00 00 	add	r0,r0
+
+00033618 <T_IMM_EXPECT59>:
+   33618:	00 00 00 00 	add	r0,r0
+
+0003361c <T_IMM_EXPECT60>:
+   3361c:	00 00 00 00 	add	r0,r0
+
+00033620 <T_IMM_EXPECT61>:
+   33620:	00 00 00 00 	add	r0,r0
+
+00033624 <T_IMM_EXPECT62>:
+   33624:	00 00 00 00 	add	r0,r0
+
+00033628 <T_IMM_EXPECT63>:
+   33628:	00 00 00 00 	add	r0,r0
+
+0003362c <T_IMM_EXPECT64>:
+   3362c:	00 00 00 00 	add	r0,r0
+
+00033630 <T_IMM_EXPECT65>:
+   33630:	00 00 00 00 	add	r0,r0
+
+00033634 <T_IMM_EXPECT66>:
+   33634:	00 00 00 00 	add	r0,r0
+
+00033638 <T_IMM_EXPECT67>:
+   33638:	00 00 00 00 	add	r0,r0
+
+0003363c <T_IMM_EXPECT68>:
+   3363c:	00 00 00 00 	add	r0,r0
+
+00033640 <T_IMM_EXPECT69>:
+   33640:	00 00 00 00 	add	r0,r0
+
+00033644 <T_IMM_EXPECT70>:
+   33644:	00 00 00 00 	add	r0,r0
+
+00033648 <T_IMM_EXPECT71>:
+   33648:	00 00 00 00 	add	r0,r0
+
+0003364c <T_IMM_EXPECT72>:
+   3364c:	00 00 00 00 	add	r0,r0
+
+00033650 <T_IMM_EXPECT73>:
+   33650:	00 00 00 00 	add	r0,r0
+
+00033654 <T_IMM_EXPECT74>:
+   33654:	00 00 00 00 	add	r0,r0
+
+00033658 <T_IMM_EXPECT75>:
+   33658:	00 00 00 00 	add	r0,r0
+
+0003365c <T_IMM_EXPECT76>:
+   3365c:	00 00 00 00 	add	r0,r0
+
+00033660 <T_IMM_EXPECT77>:
+   33660:	00 00 00 00 	add	r0,r0
+
+00033664 <T_IMM_EXPECT78>:
+   33664:	00 00 00 00 	add	r0,r0
+
+00033668 <T_IMM_EXPECT79>:
+   33668:	00 00 00 00 	add	r0,r0
+
+0003366c <T_IMM_EXPECT80>:
+   3366c:	00 00 00 00 	add	r0,r0
+
+00033670 <T_IMM_EXPECT81>:
+   33670:	00 00 00 00 	add	r0,r0
+
+00033674 <T_IMM_EXPECT82>:
+   33674:	00 00 00 00 	add	r0,r0
+
+00033678 <T_IMM_EXPECT83>:
+   33678:	00 00 00 00 	add	r0,r0
+
+0003367c <T_IMM_EXPECT84>:
+   3367c:	00 00 00 00 	add	r0,r0
+
+00033680 <T_IMM_EXPECT85>:
+   33680:	00 00 00 00 	add	r0,r0
+
+00033684 <T_IMM_EXPECT86>:
+   33684:	00 00 00 00 	add	r0,r0
+
+00033688 <T_IMM_EXPECT87>:
+   33688:	00 00 00 00 	add	r0,r0
+
+0003368c <T_IMM_EXPECT88>:
+   3368c:	00 00 00 00 	add	r0,r0
+
+00033690 <T_IMM_EXPECT89>:
+   33690:	00 00 00 00 	add	r0,r0
+
+00033694 <T_IMM_EXPECT90>:
+   33694:	00 00 00 00 	add	r0,r0
+
+00033698 <T_IMM_EXPECT91>:
+   33698:	00 00 00 00 	add	r0,r0
+
+0003369c <T_IMM_EXPECT92>:
+   3369c:	00 00 00 00 	add	r0,r0
+
+000336a0 <T_IMM_EXPECT93>:
+   336a0:	00 00 00 00 	add	r0,r0
+
+000336a4 <T_IMM_EXPECT94>:
+   336a4:	00 00 00 00 	add	r0,r0
+
+000336a8 <T_IMM_EXPECT95>:
+   336a8:	00 00 00 00 	add	r0,r0
+
+000336ac <T_IMM_EXPECT96>:
+   336ac:	00 00 00 00 	add	r0,r0
+
+000336b0 <T_IMM_EXPECT97>:
+   336b0:	00 00 00 00 	add	r0,r0
+
+000336b4 <T_IMM_EXPECT98>:
+   336b4:	00 00 00 00 	add	r0,r0
+
+000336b8 <T_IMM_EXPECT99>:
+   336b8:	00 00 00 00 	add	r0,r0
+
+000336bc <T_IMM_EXPECT100>:
+   336bc:	00 00 00 00 	add	r0,r0
+
+000336c0 <T_IMM_EXPECT101>:
+   336c0:	00 00 00 00 	add	r0,r0
+
+000336c4 <T_IMM_EXPECT102>:
+   336c4:	00 00 00 00 	add	r0,r0
+
+000336c8 <T_IMM_EXPECT103>:
+   336c8:	00 00 00 00 	add	r0,r0
+
+000336cc <T_IMM_EXPECT104>:
+   336cc:	00 00 00 00 	add	r0,r0
+
+000336d0 <T_IMM_EXPECT105>:
+   336d0:	00 00 00 00 	add	r0,r0
+
+000336d4 <T_IMM_EXPECT106>:
+   336d4:	00 00 00 00 	add	r0,r0
+
+000336d8 <T_IMM_EXPECT107>:
+   336d8:	00 00 00 00 	add	r0,r0
+
+000336dc <T_IMM_EXPECT108>:
+   336dc:	00 00 00 00 	add	r0,r0
+
+000336e0 <T_IMM_EXPECT109>:
+   336e0:	00 00 00 00 	add	r0,r0
+
+000336e4 <T_IMM_EXPECT110>:
+   336e4:	00 00 00 00 	add	r0,r0
+
+000336e8 <T_IMM_EXPECT111>:
+   336e8:	00 00 00 00 	add	r0,r0
+
+000336ec <T_IMM_EXPECT112>:
+   336ec:	00 00 00 00 	add	r0,r0
+
+000336f0 <T_IMM_EXPECT113>:
+   336f0:	00 00 00 00 	add	r0,r0
+
+000336f4 <T_IMM_EXPECT114>:
+   336f4:	00 00 00 00 	add	r0,r0
+
+000336f8 <T_IMM_EXPECT115>:
+   336f8:	00 00 00 00 	add	r0,r0
+
+000336fc <T_IMM_EXPECT116>:
+   336fc:	00 00 00 00 	add	r0,r0
+
+00033700 <T_IMM_EXPECT117>:
+   33700:	00 00 00 00 	add	r0,r0
+
+00033704 <T_IMM_EXPECT118>:
+   33704:	00 00 00 00 	add	r0,r0
+
+00033708 <T_IMM_EXPECT119>:
+   33708:	00 00 00 00 	add	r0,r0
+
+0003370c <T_IMM_EXPECT120>:
+   3370c:	00 00 00 00 	add	r0,r0
+
+00033710 <T_IMM_EXPECT121>:
+   33710:	00 00 00 00 	add	r0,r0
+
+00033714 <T_IMM_EXPECT122>:
+   33714:	00 00 00 00 	add	r0,r0
+
+00033718 <T_IMM_EXPECT123>:
+   33718:	00 00 00 00 	add	r0,r0
+
+0003371c <T_IMM_EXPECT124>:
+   3371c:	00 00 00 00 	add	r0,r0
+
+00033720 <T_IMM_EXPECT125>:
+   33720:	00 00 00 00 	add	r0,r0
+
+00033724 <T_IMM_EXPECT126>:
+   33724:	00 00 00 00 	add	r0,r0
+
+00033728 <T_IMM_EXPECT127>:
+   33728:	00 00 00 00 	add	r0,r0
+
+0003372c <T_IMM_EXPECT128>:
+   3372c:	00 00 00 00 	add	r0,r0
+
+00033730 <T_IMM_EXPECT129>:
+   33730:	00 00 00 00 	add	r0,r0
+
+00033734 <T_IMM_EXPECT130>:
+   33734:	00 00 00 00 	add	r0,r0
+
+00033738 <T_IMM_EXPECT131>:
+   33738:	00 00 00 00 	add	r0,r0
+
+0003373c <T_IMM_EXPECT132>:
+   3373c:	00 00 00 00 	add	r0,r0
+
+00033740 <T_IMM_EXPECT133>:
+   33740:	00 00 00 00 	add	r0,r0
+
+00033744 <T_IMM_EXPECT134>:
+   33744:	00 00 00 00 	add	r0,r0
+
+00033748 <T_IMM_EXPECT135>:
+   33748:	00 00 00 00 	add	r0,r0
+
+0003374c <T_IMM_EXPECT136>:
+   3374c:	00 00 00 00 	add	r0,r0
+
+00033750 <T_IMM_EXPECT137>:
+   33750:	00 00 00 00 	add	r0,r0
+
+00033754 <T_IMM_EXPECT138>:
+   33754:	00 00 00 00 	add	r0,r0
+
+00033758 <T_IMM_EXPECT139>:
+   33758:	00 00 00 00 	add	r0,r0
+
+0003375c <T_IMM_EXPECT140>:
+   3375c:	00 00 00 00 	add	r0,r0
+
+00033760 <T_IMM_EXPECT141>:
+   33760:	00 00 00 00 	add	r0,r0
 
 Disassembly of section .stack:
 
